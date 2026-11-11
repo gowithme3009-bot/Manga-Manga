@@ -4,6 +4,7 @@ import {decodeXml,parseFeed,rankItems,readLimited} from "../scripts/collect.mjs"
 
 test("decodeXml nettoie le HTML et décode les entités",()=>{
   assert.equal(decodeXml("<b>Manga</b> &amp; anime"),"Manga & anime");
+  assert.equal(decodeXml("&lt;a href=\"https://example.org\"&gt;Titre manga&lt;/a&gt;&nbsp;— source"),"Titre manga — source");
 });
 
 test("parseFeed lit RSS et Atom sans inventer de lien",()=>{
