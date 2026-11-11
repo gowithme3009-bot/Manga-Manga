@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-11-11T22:06:14.632Z",
   "limit": 4,
   "eligibleCount": 0,
   "items": [],
   "warnings": [
-    "En attente des premiers articles issus de flux RSS vérifiés."
+    "Moins de quatre articles avec résumé et lien HTTPS vérifiables : ne pas compléter avec des sujets inventés."
   ]
 }
