@@ -48,7 +48,7 @@ export function parseFeed(xml, source) {
     const summary = field(block,"description") || field(block,"summary") || field(block,"content:encoded");
     const date = field(block,"pubDate") || field(block,"published") || field(block,"updated") || field(block,"dc:date");
     if (!title || !/^https:\/\//i.test(url)) return null;
-    if (source.id === "google-news-fr" && (!/\b(manga|mangaka|anime|animé|otaku|shonen|shojo|seinen|isekai|webtoon|light novel|animation japonaise|japonais)\b/i.test(title) || /webminaire|cybersécurité|lycée|conférence|sainte-sigolène/i.test(title))) return null;
+    if (source.id === "google-news-fr" && !/\b(manga|mangaka|shonen|shojo|seinen|isekai|webtoon|light novel)\b/i.test(title)) return null;
     const key = crypto.createHash("sha256").update(title.toLocaleLowerCase("fr")).digest("hex").slice(0,20);
     const parsedDate = Date.parse(date);
     return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,language:source.language||"und",category:"actualité"};
