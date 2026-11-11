@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T22:11:54.462Z",
+  "generatedAt": "2026-11-11T22:13:10.880Z",
   "items": [
     {
       "id": "9ea15d67c55a7192c336",
@@ -16,7 +16,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 60
+      "trendScore": 59
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -112,7 +112,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 53
+      "trendScore": 52
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -240,7 +240,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 49
+      "trendScore": 48
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -339,38 +339,6 @@
       "trendScore": 46
     },
     {
-      "id": "cfe6f19159c808a22138",
-      "title": "Morges s'anime pour les fêtes de fin d'année - Ville de Morges",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1A1UkhVeFFQY05MYzByM3FqeV9NbmhXM3BuazlfUTFiMGU2ak5LWmRoRVBxQW1UV1RTa1E0VEx5aVhnMVhBM2JWVHJLcWNyeTV2QlgtWWxDMWg0d3FqUDJncDdkVWNPZXAyYjBHcFdIVVNKeWhzb1QyTHNETVQ3S1ZSUjEtbmVzZ1E3ZA?oc=5",
-      "summary": "Morges s'anime pour les fêtes de fin d'année Ville de Morges",
-      "publishedAt": "2026-11-11T15:54:27.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 46
-    },
-    {
-      "id": "eff1fe8b985588bbacdc",
-      "title": "Depuis 1998, la même passion anime ce salon d’art unique où les pépites petit format se dénichent à des prix doux à Truyes - lanouvellerepublique.fr",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQU21Yd1JjNFNvTnd2NmI2NzRicUhISnN5Mm15Y3pZWFVPQy1MX3BPVGFQd210VjhoekNNNjk1YktjbWVmVzc4MEw3VUkzQi1kbEF0TWM1WGhtNUVDeTFxbWc4dFJQYkhlanVFQnpWN0hhMXdLN21tN0lFN1prOGtGbjEzdWV2WkRwbkxsR2dwS3IzbktFN25nTEx1LUZ3ZmdQZVY3Wlpsd2ZfSUVXZ1d3bFdBSEl0VDFvd3hoQmhyMjlCNHc4czJQVXZ1QklDSEFNQnRJQTJQMTh2Z19PQ2VoLUEzRWFvVnB5MjZQYllKMXI1Y0M1OXp6bkJYSHliNVFWUVRHSmo5eF9hb2ZMTk9vNGRpbXFvTUNPcDdIaE5ZVHc0eFhp?oc=5",
-      "summary": "Depuis 1998, la même passion anime ce salon d’art unique où les pépites petit format se dénichent à des prix doux à Truyes lanouvellerepublique.fr",
-      "publishedAt": "2026-11-11T15:44:39.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 46
-    },
-    {
       "id": "6831462df8735bc0dfb0",
       "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
@@ -400,7 +368,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 46
+      "trendScore": 45
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -579,70 +547,6 @@
       "trendScore": 42
     },
     {
-      "id": "5056dd3027cc0d3763d2",
-      "title": "Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVwd1hfZG1fS3VudmVrSENiUDNGWHI0MV9vNzRqZlhXbnRBNzJYVFRVYm1HVkVCOE4tSnFxN0NGTVByQ0EydlFwMWxGWU1vbDMwQWtXa1dMbGwtczhBZm9WR2hjMmlBeDZoUnM3RnlMcVRjUUZhTXFkR09CUjRVNnp3a1VWalJWTlNhMnV5c0pTVFVqX1E?oc=5",
-      "summary": "Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis BeInCrypto",
-      "publishedAt": "2026-11-11T13:18:12.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 41
-    },
-    {
-      "id": "2972d5b3f38bcdd556a6",
-      "title": "MASHLE saison 3 : L'anime phénomène dévoile sa date de sortie et un trailer explosif - DL GAMING",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3JpWFJDYldfTzRzR2dCd1g5NVhvbE4tVTdPSGFHWnlMXzVWWG9qbGV1VmcybHBaektSVWE1Q0pKTHJSaU1JQ2JLSmp3cXAzQ085ejg1ZjVvZkJlNWFWcEg5OE5IQnJJSDl0bFpHN1BXclA2bjlWQzJ0Nk1sQlNqdGhLdXE5VHEyTXdid2RBakkxX0Y2M1NOczRjZmFxVmFqemg2UkxYMlpINXJRUTZJY1NuWkwtUQ?oc=5",
-      "summary": "MASHLE saison 3 : L'anime phénomène dévoile sa date de sortie et un trailer explosif DL GAMING",
-      "publishedAt": "2026-11-11T13:15:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 41
-    },
-    {
-      "id": "4dbf5d87128f34d99886",
-      "title": "Netflix s’offre l’anime événement Hirayasumi pour janvier 2027 avec une superstar de la J-pop - DL GAMING",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVmNVcnIwLXM5dEJucEUzd1ZyVkRhc0g4dWJsb3lzY0NZbmo4SVRUQkppdjFIeXExZU9nTXA5M0NLb2M4M1lsSXk1ZFNfQ0MtQU5xYUhGOElCU055M25oVnI0eWZVT19DQnhaQ080Y2Frc21ZWGhoV21BcnRCN3hrSk56aDBTbVM5Q04wa0QtdG1RcThoVGJGSmpiUHhrTzRtUHlSeGs1N2NlOWtWUzFZc2hlNUU0azBkOUFpSVkzRS05ZFQy?oc=5",
-      "summary": "Netflix s’offre l’anime événement Hirayasumi pour janvier 2027 avec une superstar de la J-pop DL GAMING",
-      "publishedAt": "2026-11-11T13:10:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 41
-    },
-    {
-      "id": "9764c260505a88fc9699",
-      "title": "Par la créatrice de Nodame Cantabile : L'anime Nanatsu-ya : Shinobu and Her Jewelry Box dévoile un premier trailer magique - DL GAMING",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYnBsOFh1WUUxaG4yVzRpbzFDRHpwa0xKOUZkMWZMWHpyTkd0ZFNwSFlaYTZPeFZpYlh3aFpVTHM0azVmVWVsaTd2RVMtUEd0VGVqRTAwcFNtMTVXRXplUWhOZTVTSGtGVHlLRG9jQzNOUTkzd0pGOXVqQ1FoNU45UVM0ekdVal9kSG1vTURXa3NaRktoNnZBc3IxbjFBTlpTSjlncF9LNko1ZWI0UFRiZERuaDVIZFVXbUo2S1g1T1BEdmlHak5sblhwaGRaY08yWHZDaTRldDl0RTF0YjNadXN6NlEtdw?oc=5",
-      "summary": "Par la créatrice de Nodame Cantabile : L'anime Nanatsu-ya : Shinobu and Her Jewelry Box dévoile un premier trailer magique DL GAMING",
-      "publishedAt": "2026-11-11T13:10:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 41
-    },
-    {
       "id": "114d72b901a98cf6ddcb",
       "title": "STEEL BALL RUN JoJo's Bizarre Adventure Spotlights Stands in New Special Video",
       "url": "https://animecorner.me/steel-ball-run-jojos-bizarre-adventure-spotlights-stands-in-new-special-video/",
@@ -654,38 +558,6 @@
       "category": "actualité",
       "sources": [
         "Anime Corner"
-      ],
-      "sourceCount": 1,
-      "trendScore": 40
-    },
-    {
-      "id": "6acc1f16daf4b6adf44c",
-      "title": "L'anime Berserk of Gluttony Saison 2 arrive en Avril 2027 - Adala News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONm8yYWFxTkhzM3BGRTgxRXJtaHBjTnpJWkdyZmstU3Bza0hWUTJhWDctZ2FhUDBudW9UTFRTb1ZQY0hUNXZEUzdnT3BQY2kyc3pPaHlWNDRTNzBabjQ4UjdNdmtva2Q5M0otVEZzNUtKTGdKel9lbUZvamMyRzZPLTYzQmgyMktJWEhVWV9VeEk?oc=5",
-      "summary": "L'anime Berserk of Gluttony Saison 2 arrive en Avril 2027 Adala News",
-      "publishedAt": "2026-11-11T11:48:01.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 39
-    },
-    {
-      "id": "e590dee8d774ae624cd3",
-      "title": "L'anime Mashle Saison 3, en Trailer - Adala News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RNjB5U0JYeGwyRnBRdmN3ZG5TYWxxT1JHLTI0UGNmazRVMzIxZE9jVWN5YUZiVlk5ZkRYNUNMZVdSZnNUUGFaTG5HYlhiR2pYWDlYQXhta3lHdVpCeTVqMG42ZVV5eFV4bHBYUnFMSTBBUQ?oc=5",
-      "summary": "L'anime Mashle Saison 3, en Trailer Adala News",
-      "publishedAt": "2026-11-11T11:37:01.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 39
@@ -737,70 +609,6 @@
       ],
       "sourceCount": 1,
       "trendScore": 38
-    },
-    {
-      "id": "d41b88a75dc3ce9282e2",
-      "title": "Le film anime Ghost – end of night, en Trailer - Adala News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yNVF5WVVZVDlfX29IT1lkc0phbnNiM09MenpYc0VDOU5TSkV5dGFGb1MyYVE3YktUUEVpVEFiSjBIWWxIQjRKc2QzV2oyNlpTbmJlZ3V4RkR2bGN1c2hwTGVLYm5zWVhFUnIyS2YxaXJrUXNPZjBYZXI1WjQ5c2M?oc=5",
-      "summary": "Le film anime Ghost – end of night, en Trailer Adala News",
-      "publishedAt": "2026-11-11T10:58:33.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 38
-    },
-    {
-      "id": "59b99dd0e4ccdec9ebbb",
-      "title": "Les Nippon Anime Awards verront le jour en 2027 - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UQmwwWjltR1NvX1N0WG52dmZWY3VTbDItUnVJRndhd0NnMURvemMtc09PMFI1MWZJMGFiQ25RaUY3WVI5MkhyeHJtOU9qTk9TdEpUbk9nLW42dUd2MDFISEI0ZmtEcUE?oc=5",
-      "summary": "Les Nippon Anime Awards verront le jour en 2027 Business Wire",
-      "publishedAt": "2026-11-11T10:37:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 37
-    },
-    {
-      "id": "67bda5bd5f6cef3d9657",
-      "title": "De Rennes à Marseille, la candidature de Riner anime les débats, entre admiration pour le personnage et manque de crédibilité : « Je ne le vois pas président, ce serait un miracle » - L'Équipe",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNV0xOZ1dBLXkxVkd5SjdTa2VsWjEySGxtRWNPWFZiQUNjVVY1LWs1ejdGQWpENUpnVjRUdV9PNWI3OUN2X0VPeGIzNkR3S2FfbmlGSkJudHp0aHhLMUY3c21Vb05pdDBtSGsxMl90WFkxa1dYSjZ5RmJMQ1ZoZmYtNndLaEMtZjJGS0QwZzF3MGVrRGowWHNRZDV2dFNaeUZSWTBNUEZRYmZpMXBJYVFnWjNGTjU3UmhLOEJHbUwzejRzaEFnSWlNeS1QNVVPX1g4SFZVZ1VhbDAtN2NYdlN4d2FYTHpwZTQ0ZlJRTEVoLTcweVRaRjRIcWxzd0NDOHpkNTlhS2xtVGdLTHBDTG9XeEVDWHIwTkVUMVRxX3liSEUwVEh4Y3I5SE5FQ2hic2ZjMU9ZenBrTy1vWlRa?oc=5",
-      "summary": "De Rennes à Marseille, la candidature de Riner anime les débats, entre admiration pour le personnage et manque de crédibilité : « Je ne le vois pas président, ce serait un miracle » L'Équipe",
-      "publishedAt": "2026-11-11T10:26:19.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 37
-    },
-    {
-      "id": "ee67d8fbe9c1031b1b8c",
-      "title": "Cette bibliothécaire de Seine-Maritime anime des ateliers dans les écoles pour attirer de nouveaux lecteurs - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNOXloRWtiMFVVMkwzZTZmYllTWHN2Nld2YUh5VUNWcldXVFFwYkt0WDU5NVFvN2hVeV9QOE5JcFRrYy1DS25fZGt4WUJPb0lTVUZuOTNEcXFMaUlSX0FGcUQwbFFKS3lMZ0lFbmY0Mm4wakFVTUdFV2hiMTQxSkg4aEFSMVF2cFMtYmlYQ0wtbUxrbm9UWC16aWpsVXlVT2RkNFdkdVFRSWVhQWF4V3pDbFNWWVVEbHFRYWQ4YXU1WFVHT0c3VXJyWWVfNEF5bkRxZ1VUQlJidTBUUlVISnI4NU9WM0lyZjJxellXeE12Q3dZaUlNY29BcWhXbm5VMjY5?oc=5",
-      "summary": "Cette bibliothécaire de Seine-Maritime anime des ateliers dans les écoles pour attirer de nouveaux lecteurs Actu.fr",
-      "publishedAt": "2026-11-11T10:02:02.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 36
     },
     {
       "id": "cb37bb295396c6823eb4",
@@ -947,22 +755,6 @@
       "trendScore": 31
     },
     {
-      "id": "99a1e033f14ada015071",
-      "title": "Bavilliers : la nouvelle fanfare municipale anime la cérémonie du 11 novembre - ici.fr",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVXJOMGJkaDNQRlJRZ3pPbTRSc1BvU2k1RnFzRHFhb3hXZGswRk9fM0J2X1Z3TzRFLU5TbDZBRTZtLWNTMVBZUmpJOHdvXy15eTZEd0VtNVowcGhxY2ozekRrTjljRFZyX1Q1MTVCLWJYY1lWTFhEYlFTRXFySDVYSS1Cai1HN2dubjVvaVE4Y3dRSzJLV25jUEU1MXpXWjByX2VjdjZRTlhhRm9MZDdyYlBNREppVGtIUU1yUWVKb1FQeTNfamd1bm51TTluVnpaZ0l3V1lUZ3lkbVN3Tmp2OHpfWQ?oc=5",
-      "summary": "Bavilliers : la nouvelle fanfare municipale anime la cérémonie du 11 novembre ici.fr",
-      "publishedAt": "2026-11-11T05:32:30.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 30
-    },
-    {
       "id": "f65cd317eef4f19902ef",
       "title": "S. Carolina Man Arrested for Leaving Daughter Unattended in Overnight Pokémon Card Line",
       "url": "https://www.animenewsnetwork.com/interest/2026-11-10/s-carolina-man-arrested-for-leaving-daughter-unattended-in-overnight-pokemon-card-line/.243669",
@@ -1025,22 +817,6 @@
       ],
       "sourceCount": 1,
       "trendScore": 27
-    },
-    {
-      "id": "014e2bdcc8139b975579",
-      "title": "Sony voit dans l’anime produit en interne un moteur de croissance pour les décennies à venir - Mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGMzbkVBQndlS2REWWtScVpPV3B5emZBTFhKMmdWa2F6cGg4OTA2bWgxdjhrTVRWTGZiM0Z5UTkyN2VzN0tmRFBsaElHN1BGendJVm9YdXRfQ2ZQYzZILWh3cE9IRldwY3N1TV9JX0E1NEQxaTNXTDZraWtYbFR2Y3pLQlVvNzZFVDdzM3AtaVhFQQ?oc=5",
-      "summary": "Sony voit dans l’anime produit en interne un moteur de croissance pour les décennies à venir Mezha.net",
-      "publishedAt": "2026-11-11T02:15:13.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 26
     },
     {
       "id": "d61468f58114cc562379",
@@ -1491,22 +1267,6 @@
       "trendScore": 16
     },
     {
-      "id": "66f0b0437c47660c7a43",
-      "title": "Bricquebec. Angèle Chalony anime des ateliers gymnastique \"équilibre et mémoire\" - lamanchelibre.fr",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcF9qeVVWMTlmVTE1NnRxMEl4QmlXcGQ0b3ZTbnFoN2NFT25Ba3VCTFdNQ0w3UXdqdUtSRER3akNpc2xKN0ZrVElFcDNjVFQwRGJ3RDZXSENYMDZ0OENBdE4yQmJiM2FoOE5RX2FDTFFTdXB0aUhxdzVMUC0zR3lsaWw2VHVWLW5ra0pETXo5amFNVVE3RVpVVEFxNUZfem5Mc2ZjWTdLTHkwMmk5d2d4N0NkTS1WM2dFclp5bEZUT2xWUQ?oc=5",
-      "summary": "Bricquebec. Angèle Chalony anime des ateliers gymnastique \"équilibre et mémoire\" lamanchelibre.fr",
-      "publishedAt": "2026-11-10T13:53:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 16
-    },
-    {
       "id": "eee58670dd39cced0a1e",
       "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
       "url": "https://animecorner.me/get-backers-teases-return-with-mysterious-strongest-duo-video-no-new-anime-project-announced/",
@@ -1534,22 +1294,6 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 15
-    },
-    {
-      "id": "6a1305304ee044af5e85",
-      "title": "Cet orchestre anime les manifs à Caen dans une « démarche pacifique et festive » : qui sont-ils ? - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVjhQZmI3Y0JqTlUybGt6RWp3LXJ4clBpUmlkMG1sZFo2b0hHcUFGaVlfMXh2U2FpYXdYNVFqaDdXMUdiOTFYNm9iazR3Z3ZIR1cwWVFycFd1R29VSzJhdXRTRzVTVXFsaHFrR3R6VHRIODJnUkp1Vm9fNTBCUmNXYWlMMGdpQms0dHNwM01VVk9mVjRGRlMxTHhva1d6RVFwYURfVkNDYTc5dlFYdDJGT1lkN01Oa1VuQzJGVmg2b1FjVUItcE0tUnRUdnQ4T0djM2JQY0JWTQ?oc=5",
-      "summary": "Cet orchestre anime les manifs à Caen dans une « démarche pacifique et festive » : qui sont-ils ? Actu.fr",
-      "publishedAt": "2026-11-10T13:21:04.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 15
@@ -1601,6 +1345,262 @@
       ],
       "sourceCount": 1,
       "trendScore": 15
+    },
+    {
+      "id": "c617902117fce9d96ce7",
+      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
+      "url": "https://myanimelist.net/news/74924616?_location=rss",
+      "summary": "The official X account for author Nana Mikoshiba announced on Tuesday that the Hyouken no Majutsushi ga Sekai wo Suberu: Sekai Saikyou no Majutsushi de Aru Shounen wa, Majutsu Gakuin ni Nyuugaku suru (The Iceblade Sorcerer Shall Rule the World) light novel series will end with its tenth volume, scheduled to be released on December 2. The main story has already concluded, with the final volume featuring revised and expanded side stories from the web novel, as well as an original story covering Ra...",
+      "publishedAt": "2026-11-10T12:45:55.000Z",
+      "source": "MyAnimeList News",
+      "sourceId": "myanimelist",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "MyAnimeList News"
+      ],
+      "sourceCount": 1,
+      "trendScore": 15
+    },
+    {
+      "id": "123d33b49b18420c6871",
+      "title": "A Certain Dark Item ‒ Episode 5",
+      "url": "https://www.animenewsnetwork.com/review/a-certain-dark-item/episode-5/.243666",
+      "summary": "Choubi is a master of disguise. But more than that, she has turned her body into a blank canvas to paint upon.",
+      "publishedAt": "2026-11-10T12:30:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 15
+    },
+    {
+      "id": "01aeb0746a13eb589798",
+      "title": "Hollywood Reporter, Variety: Apple TV in Talks for Monarch: Legacy of Monsters Season 3",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/hollywood-reporter-variety-apple-tv-in-talks-for-monarch-legacy-of-monsters-season-3/.243668",
+      "summary": "Magazines: New season would have new showrunner, writers, Titan monsters",
+      "publishedAt": "2026-11-10T11:55:42.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 14
+    },
+    {
+      "id": "47ced3d5c30123ca86f5",
+      "title": "Shueisha Games to Publish Nightmare Operator Action Horror Game",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/shueisha-games-to-publish-nightmare-operator-action-horror-game/.243679",
+      "summary": "Miyuki Sawashiro to voice lead in DDDistortion's game on Steam",
+      "publishedAt": "2026-11-10T11:43:13.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 14
+    },
+    {
+      "id": "bcbb49fa7f8b7ea00d22",
+      "title": "Nicke revient aux éditions Ki-oon avec le manga Kirin - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmE4OWJqdGtzY0xFTV9CNzZQbnNWTEhmRXdhZjhfQ1FkZnlhMXZPYThGa3F2YWRuMUJfVzhPU2s3R3M1R1FTbW5ZblF5UUplcGdORHRSVG5QMHg4SlhFdTNrT0dlSjNuYW8tNHNtQUtKT1BIWVlrLUd1YzRiMEhYYkQ3bGMzSXhjS2pPZXhpRHBXZUtCSVJMYkNjRGtRb0dwa08wMHFJYVJORTjSAaoBQVVfeXFMTVFxYk9ZRWl3QlFOSTMwNHBQeGxzQlQzMERUTFlMM29xS3Q2UHBFckQ4ODdvTXhLTzlnaUoyMWxsVVdOWXdRdV9mTlgyZTVpNlRDcTUwRjlqUms2TDJmNWt1blFhRzlDUW9LOUVlWDQwYjVhQ1hkU2tfcHczNDlidEFmMmVpUGJwV19VbVNoWVFmcVRaMFpFRk41TXNlZmszd2gxTUVzS1k0M3c?oc=5",
+      "summary": "Nicke revient aux éditions Ki-oon avec le manga Kirin Manga news",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 14
+    },
+    {
+      "id": "df150fc678588fce930b",
+      "title": "Phantom of the Idol Volume 9 Review",
+      "url": "https://animeuknews.net/2026/11/phantom-of-the-idol-volume-9-review/",
+      "summary": "When the ‘Asahi Mogami Tribute Album’ is announced, phantom idol Asahi finds herself overwhelmed by conflicting emotions. But nothing has prepared her – or Niyodo, her host – for what happens at the album launch concert!",
+      "publishedAt": "2026-11-10T10:00:51.000Z",
+      "source": "Anime UK News",
+      "sourceId": "anime-uk-news",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime UK News"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13
+    },
+    {
+      "id": "4a90e51bec71ac1156c6",
+      "title": "Devils' Crest Anime Confirms Half-Year Run",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/devils-crest-anime-confirms-half-year-run/.243678",
+      "summary": "Anime debuted worldwide on Prime Video on November 6",
+      "publishedAt": "2026-11-10T09:44:49.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13
+    },
+    {
+      "id": "520eb8410deaa98c67df",
+      "title": "Millennium Family TV Anime Casts Mutsumi Tamura",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/millennium-family-tv-anime-casts-mutsumi-tamura/.243639",
+      "summary": "Tamura voices Benfield family's youngest child Arthur",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13
+    },
+    {
+      "id": "5b85aed326c2f23d6bc5",
+      "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
+      "summary": "Des promotions numériques chez Glénat Manga ce mois-ci Manga news",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13
+    },
+    {
+      "id": "028c50944abfc8662cf8",
+      "title": "Japan's Video Game Rankings, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
+      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
+      "publishedAt": "2026-11-10T07:53:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 12
+    },
+    {
+      "id": "a57ec6adb16660726d41",
+      "title": "Japanese Animation TV Ranking, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
+      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+      "publishedAt": "2026-11-10T07:52:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 12
+    },
+    {
+      "id": "345ed8ca57197b8ffec0",
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
+      "summary": "Nobuyuki Suzuki, Bullet Train boy group's Haru Kashiwagi star in film opening on December 11",
+      "publishedAt": "2026-11-10T06:48:44.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 12
+    },
+    {
+      "id": "110e2428d8a27c6aebfe",
+      "title": "Vinland Saga Creator Makoto Yukimura Addresses Comments on AI Imagery",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-09/vinland-saga-creator-makoto-yukimura-addresses-comments-on-ai-imagery/.243647",
+      "summary": "Yukimura: “AI steals art, and I'm in trouble if AI develops too much. The reason why we are in trouble is because AI does a good job to some extent. It's just a fact. It is not an affirmation.”",
+      "publishedAt": "2026-11-10T04:59:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 11
+    },
+    {
+      "id": "b945c577460543953867",
+      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "url": "https://myanimelist.net/news/74923434?_location=rss",
+      "summary": "Publishing company Manga Box announced a television anime adaptation of Izumi and Mitsuya Otosu's Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai (My Death Flags Show No Sign of Ending) web manga on Tuesday, revealing an announcement visual (pictured above). Otosu also drew an illustration to commemorate the announcement (pictured right). The anime series will premiere in 2027. Otosu began serializing the manga adaptation of Izumi's adventure fantasy light novel on the Manga Box web...",
+      "publishedAt": "2026-11-10T03:58:55.000Z",
+      "source": "MyAnimeList News",
+      "sourceId": "myanimelist",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "MyAnimeList News"
+      ],
+      "sourceCount": 1,
+      "trendScore": 10
+    },
+    {
+      "id": "b141176f59700ae38753",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "summary": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
+      "publishedAt": "2026-11-10T03:34:51.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 10
+    },
+    {
+      "id": "7637445f9ed09d876477",
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "summary": "Manga adaptation's artist Mitsuya Otosu commemorates anime of Izumi's light novel series with drawing",
+      "publishedAt": "2026-11-10T03:00:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 10
     }
   ],
   "sources": [
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 85
+      "items": 46
     },
     {
       "id": "anime-corner",
