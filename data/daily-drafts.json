@@ -1,10 +1,609 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T22:09:03.113Z",
+  "generatedAt": "2026-11-11T22:09:28.923Z",
   "limit": 4,
-  "eligibleCount": 0,
-  "items": [],
-  "warnings": [
-    "Moins de quatre articles avec résumé et lien HTTPS vérifiables : ne pas compléter avec des sujets inventés."
-  ]
+  "eligibleCount": 100,
+  "items": [
+    {
+      "id": "9ea15d67c55a7192c336",
+      "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
+      "summary": "Live-action <cite>Nanji, Hoshi no Gotoku</cite> film drops to #3",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T22:00:00.000Z",
+      "trendScore": 100,
+      "text": "📰 Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8\n\nLive-action <cite>Nanji, Hoshi no Gotoku</cite> film drops to #3\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "c36ad5c18561e4d88f35",
+      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+      "summary": "<cite>Dengeki Daisy</cite>, <cite>Fate Rewinder</cite>, more anime screen at event in Fort Worth, TX",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T21:30:00.000Z",
+      "trendScore": 100,
+      "text": "📰 Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier\n\n<cite>Dengeki Daisy</cite>, <cite>Fate Rewinder</cite>, more anime screen at event in Fort Worth, TX\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "913581ff600dd3591661",
+      "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
+      "summary": "<cite>Gundam Seed FREEDOM</cite> film writer Liu Goto pens new novel slated for January 19 release",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T21:00:00.000Z",
+      "trendScore": 100,
+      "text": "📰 Gundam Seed Freedom Zero Prequel Anime Film Gets Novel\n\n<cite>Gundam Seed FREEDOM</cite> film writer Liu Goto pens new novel slated for January 19 release\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "8eb694aee912a44472ef",
+      "title": "Occitanie/ Mardi 17 novembre, 11H : un ancien des Armées anime un webminaire cybersécurité - Ouillade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNbGFZWk93SWl4RkFXVHdJbkJZODFZZERGV2JzSzk4QVpNXzNmWDZUOW5TMTFCZUVtWm80cjYyV1VaTUZqanlNcFRka09ybzY3NW9hYnVvbldkS1RaY1MwckpKbUJOQ2Y1WkQ0RFl6YzFYamNNbTNMV0V3bjZWVXJkaW80RFBneUpIWlU3NEpEMGN3Skw1b1lXRkdfZldxZ1VCWHVrWnpvTWFqdThXbXJqZnVLUHFZbnBFQWxhbA?oc=5\" target=\"_blank\">Occitanie/ Mardi 17 novembre, 11H : un ancien des Armées anime un webminaire cybersécurité</a>&nbsp;&nbsp;<font color=\"#6f6",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbGFZWk93SWl4RkFXVHdJbkJZODFZZERGV2JzSzk4QVpNXzNmWDZUOW5TMTFCZUVtWm80cjYyV1VaTUZqanlNcFRka09ybzY3NW9hYnVvbldkS1RaY1MwckpKbUJOQ2Y1WkQ0RFl6YzFYamNNbTNMV0V3bjZWVXJkaW80RFBneUpIWlU3NEpEMGN3Skw1b1lXRkdfZldxZ1VCWHVrWnpvTWFqdThXbXJqZnVLUHFZbnBFQWxhbA?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T20:56:22.000Z",
+      "trendScore": 100,
+      "text": "📰 Occitanie/ Mardi 17 novembre, 11H : un ancien des Armées anime un webminaire cybersécurité - Ouillade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNbGFZWk93SWl4RkFXVHdJbkJZODFZZERGV2JzSzk4QVpNXzNmWDZUOW5TMTFCZUVtWm80cjYyV1VaTUZqanlNcFRka09ybzY3NW9hYnVvbldkS1RaY1MwckpKbUJOQ2Y1WkQ0RFl6YzFYamNNbTNMV0V3bjZWVXJkaW80RFBneUpIWlU3NEpEMGN3Skw1b1lXRkdfZldxZ1VCWHVrWnpvTWFqdThXbXJqZnVLUHFZbnBFQWxhbA?oc=5\" target=\"_blank\">Occitanie/ Mardi 17 novembre, 11H : un ancien des Armées anime un webminaire cybersécurité</a>&nbsp;&nbsp;<font color=\"#6f6\n\nLire la source originale : https://news.google.com/rss/articles/CBMivAFBVV95cUxNbGFZWk93SWl4RkFXVHdJbkJZODFZZERGV2JzSzk4QVpNXzNmWDZUOW5TMTFCZUVtWm80cjYyV1VaTUZqanlNcFRka09ybzY3NW9hYnVvbldkS1RaY1MwckpKbUJOQ2Y1WkQ0RFl6YzFYamNNbTNMV0V3bjZWVXJkaW80RFBneUpIWlU3NEpEMGN3Skw1b1lXRkdfZldxZ1VCWHVrWnpvTWFqdThXbXJqZnVLUHFZbnBFQWxhbA?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "0d197a3e05f25c0f90dd",
+      "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+      "summary": "CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode&hellip;",
+      "sourceUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T20:50:02.000Z",
+      "trendScore": 100,
+      "text": "📰 Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact\n\nCYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode&hellip;\n\nLire la source originale : https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "27dd98ec22f905142331",
+      "title": "Newsflash: Women Like Sexy Manga, Too!",
+      "summary": "Rebecca Silverman discusses \"TL\", the by-women-for-women genre of smoldering romance comics.",
+      "sourceUrl": "https://www.animenewsnetwork.com/feature/2026-11-11/newsflash-women-like-sexy-manga-too/.243259",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T20:00:00.000Z",
+      "trendScore": 100,
+      "text": "📰 Newsflash: Women Like Sexy Manga, Too!\n\nRebecca Silverman discusses \"TL\", the by-women-for-women genre of smoldering romance comics.\n\nLire la source originale : https://www.animenewsnetwork.com/feature/2026-11-11/newsflash-women-like-sexy-manga-too/.243259\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "7402a92f5ca6d7cb985b",
+      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
+      "summary": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T19:35:02.000Z",
+      "trendScore": 100,
+      "text": "📰 Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies\n\nIwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "5fb2f02c6572db2486d4",
+      "title": "Performers announced for matsuri ’26: Japanese Music Experience LONDON",
+      "summary": "Musicians hitsujibungaku, Kyary Pamyu Pamyu and Otoboke Beaver are coming to London this December for a one-off triple headliner performance in matsuri '26: Japanese Music Experience LONDON.",
+      "sourceUrl": "https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/",
+      "sourceNames": [
+        "Anime UK News"
+      ],
+      "publishedAt": "2026-11-11T19:00:25.000Z",
+      "trendScore": 100,
+      "text": "📰 Performers announced for matsuri ’26: Japanese Music Experience LONDON\n\nMusicians hitsujibungaku, Kyary Pamyu Pamyu and Otoboke Beaver are coming to London this December for a one-off triple headliner performance in matsuri '26: Japanese Music Experience LONDON.\n\nLire la source originale : https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "18020437399efcc7f1bc",
+      "title": "Director Yuta Shimotsu Stirs Up Scares in Strange: Junji Ito's Tales for Sleepless Nights",
+      "summary": "Yūta Shimotsu, the man behind the live-action anthology <cite>Strange: Junji Ito's Tales for Sleepless Nights</cite>, sat down with ANN to discuss his influences, favorite Ito stories, and what it takes to bring Ito's world to horrifying life.",
+      "sourceUrl": "https://www.animenewsnetwork.com/interview/2026-11-11/director-yuta-shimotsu-stirs-up-scares-in-strange-junji-ito-tales-for-sleepless-nights/.243599",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T18:58:10.000Z",
+      "trendScore": 100,
+      "text": "📰 Director Yuta Shimotsu Stirs Up Scares in Strange: Junji Ito's Tales for Sleepless Nights\n\nYūta Shimotsu, the man behind the live-action anthology <cite>Strange: Junji Ito's Tales for Sleepless Nights</cite>, sat down with ANN to discuss his influences, favorite Ito stories, and what it takes to bring Ito's world to horrifying life.\n\nLire la source originale : https://www.animenewsnetwork.com/interview/2026-11-11/director-yuta-shimotsu-stirs-up-scares-in-strange-junji-ito-tales-for-sleepless-nights/.243599\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "19d719a8a2297963f687",
+      "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5\" target=\"_blan",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T18:30:08.000Z",
+      "trendScore": 99,
+      "text": "📰 Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr\n\n<a href=\"https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5\" target=\"_blan\n\nLire la source originale : https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "85cf52cd8059bb581e19",
+      "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+      "summary": "Black Clover Season 2 has released preview images and synopsis for Episode 7 (Episode 177 overall) ahead of its November 14 premiere.",
+      "sourceUrl": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T18:21:03.000Z",
+      "trendScore": 99,
+      "text": "📰 Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula\n\nBlack Clover Season 2 has released preview images and synopsis for Episode 7 (Episode 177 overall) ahead of its November 14 premiere.\n\nLire la source originale : https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "07db710f37178c2ed60d",
+      "title": "Sainte-Sigolène. Sainte-Sigolène s’anime tout au long du mois de novembre - Le Progrès",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNT0kzd3ZPNDA1bHo1SE50MzVzZ1ZXaXRKOXRVMHVLcnFRSFoyNUxtSjkwTWVGVVNuLUE5QnhMalMybnJxRHhYWkNWR094Y0FILXZJM1o1UlNZN1lGYmh2THVDb1kxRk1iT01UdXVsTmtzR3E3ZU16eWRzSkRoYlljTXdJTldXSXV1cFdSNVJDNjRRcTFvYUtfR1lTaUZjSE9EWTRpQmNVZWdkcXhq?oc=5\" target=\"_blank\">Sainte-Sigolène. Sainte-Sigolène s’anime tout au long du mois de novembre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Progrès</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT0kzd3ZPNDA1bHo1SE50MzVzZ1ZXaXRKOXRVMHVLcnFRSFoyNUxtSjkwTWVGVVNuLUE5QnhMalMybnJxRHhYWkNWR094Y0FILXZJM1o1UlNZN1lGYmh2THVDb1kxRk1iT01UdXVsTmtzR3E3ZU16eWRzSkRoYlljTXdJTldXSXV1cFdSNVJDNjRRcTFvYUtfR1lTaUZjSE9EWTRpQmNVZWdkcXhq?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T18:04:18.000Z",
+      "trendScore": 99,
+      "text": "📰 Sainte-Sigolène. Sainte-Sigolène s’anime tout au long du mois de novembre - Le Progrès\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNT0kzd3ZPNDA1bHo1SE50MzVzZ1ZXaXRKOXRVMHVLcnFRSFoyNUxtSjkwTWVGVVNuLUE5QnhMalMybnJxRHhYWkNWR094Y0FILXZJM1o1UlNZN1lGYmh2THVDb1kxRk1iT01UdXVsTmtzR3E3ZU16eWRzSkRoYlljTXdJTldXSXV1cFdSNVJDNjRRcTFvYUtfR1lTaUZjSE9EWTRpQmNVZWdkcXhq?oc=5\" target=\"_blank\">Sainte-Sigolène. Sainte-Sigolène s’anime tout au long du mois de novembre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Progrès</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMirAFBVV95cUxNT0kzd3ZPNDA1bHo1SE50MzVzZ1ZXaXRKOXRVMHVLcnFRSFoyNUxtSjkwTWVGVVNuLUE5QnhMalMybnJxRHhYWkNWR094Y0FILXZJM1o1UlNZN1lGYmh2THVDb1kxRk1iT01UdXVsTmtzR3E3ZU16eWRzSkRoYlljTXdJTldXSXV1cFdSNVJDNjRRcTFvYUtfR1lTaUZjSE9EWTRpQmNVZWdkcXhq?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "5a8721bda369ba6d8d2e",
+      "title": "Le manga Shinimodori no Mahou adapté en anime - Adala News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5\" target=\"_blank\">Le manga Shinimodori no Mahou adapté en anime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Adala News</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T17:45:01.000Z",
+      "trendScore": 99,
+      "text": "📰 Le manga Shinimodori no Mahou adapté en anime - Adala News\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5\" target=\"_blank\">Le manga Shinimodori no Mahou adapté en anime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Adala News</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "c0de47d3c84d45675255",
+      "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
+      "summary": "Anime Frontier to host premiere screening on December 6 alongside <cite>Shangri-La Frontier</cite>, <cite>Fate Rewinder</cite>",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T17:30:00.000Z",
+      "trendScore": 99,
+      "text": "📰 Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime\n\nAnime Frontier to host premiere screening on December 6 alongside <cite>Shangri-La Frontier</cite>, <cite>Fate Rewinder</cite>\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "fb3b48204db823b13dd9",
+      "title": "The World's Strongest Witch ‒ Episode 6",
+      "summary": "This was a breezy romp that, ironically, improved my Wednesday and that’s about all I need from a show like <i>The World’s Strongest Witch</i>.",
+      "sourceUrl": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T17:30:00.000Z",
+      "trendScore": 99,
+      "text": "📰 The World's Strongest Witch ‒ Episode 6\n\nThis was a breezy romp that, ironically, improved my Wednesday and that’s about all I need from a show like <i>The World’s Strongest Witch</i>.\n\nLire la source originale : https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "7a88a56b306828a73e6b",
+      "title": "Un ancien ministre canadien anime une conférence sur les liens entre la France et le Canada au lycée Jean Talon de Châlons - L'Union",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNOEJ2Q2YxOERlSENWMWYxY1ZhMlJuS1BISXF0d3llSURWdlNEWkxUYl9wRFFjY3RNNjdPWnBQYjVBeTNZX1p1a0UwdW9HR2VZNHNUcWJFeDFIODhpbXl3OEJmUnFFQTRXVnZOZF90VklIWjFIZF9OMzRvT2pwdE51ZUZ2MWktZzdVTXdCQlhmRnhiRGpUaVdxX25hMU1KVHhKVUNVM3dxYmVXTzAyTTVGZzNOUDRtWlhsNHl2SlNoaktaMl94S0o0?oc=5\" target=\"_blank\">Un ancien ministre canadien anime une conférence sur les liens entre la France et le Canada au lycée Jean Tal",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOEJ2Q2YxOERlSENWMWYxY1ZhMlJuS1BISXF0d3llSURWdlNEWkxUYl9wRFFjY3RNNjdPWnBQYjVBeTNZX1p1a0UwdW9HR2VZNHNUcWJFeDFIODhpbXl3OEJmUnFFQTRXVnZOZF90VklIWjFIZF9OMzRvT2pwdE51ZUZ2MWktZzdVTXdCQlhmRnhiRGpUaVdxX25hMU1KVHhKVUNVM3dxYmVXTzAyTTVGZzNOUDRtWlhsNHl2SlNoaktaMl94S0o0?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T17:26:38.000Z",
+      "trendScore": 99,
+      "text": "📰 Un ancien ministre canadien anime une conférence sur les liens entre la France et le Canada au lycée Jean Talon de Châlons - L'Union\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNOEJ2Q2YxOERlSENWMWYxY1ZhMlJuS1BISXF0d3llSURWdlNEWkxUYl9wRFFjY3RNNjdPWnBQYjVBeTNZX1p1a0UwdW9HR2VZNHNUcWJFeDFIODhpbXl3OEJmUnFFQTRXVnZOZF90VklIWjFIZF9OMzRvT2pwdE51ZUZ2MWktZzdVTXdCQlhmRnhiRGpUaVdxX25hMU1KVHhKVUNVM3dxYmVXTzAyTTVGZzNOUDRtWlhsNHl2SlNoaktaMl94S0o0?oc=5\" target=\"_blank\">Un ancien ministre canadien anime une conférence sur les liens entre la France et le Canada au lycée Jean Tal\n\nLire la source originale : https://news.google.com/rss/articles/CBMixwFBVV95cUxNOEJ2Q2YxOERlSENWMWYxY1ZhMlJuS1BISXF0d3llSURWdlNEWkxUYl9wRFFjY3RNNjdPWnBQYjVBeTNZX1p1a0UwdW9HR2VZNHNUcWJFeDFIODhpbXl3OEJmUnFFQTRXVnZOZF90VklIWjFIZF9OMzRvT2pwdE51ZUZ2MWktZzdVTXdCQlhmRnhiRGpUaVdxX25hMU1KVHhKVUNVM3dxYmVXTzAyTTVGZzNOUDRtWlhsNHl2SlNoaktaMl94S0o0?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "80a2091e63e9d181c45c",
+      "title": "Le manga L’Oxalis et l’Or adapté en anime - Adala News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5\" target=\"_blank\">Le manga L’Oxalis et l’Or adapté en anime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Adala News</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T17:16:24.000Z",
+      "trendScore": 99,
+      "text": "📰 Le manga L’Oxalis et l’Or adapté en anime - Adala News\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5\" target=\"_blank\">Le manga L’Oxalis et l’Or adapté en anime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Adala News</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "4b9ea639a65c023e1931",
+      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+      "summary": "Sequel slated for release by September 2027",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T17:06:22.000Z",
+      "trendScore": 99,
+      "text": "📰 Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game\n\nSequel slated for release by September 2027\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "54f6cbe7751060f204e9",
+      "title": "Akane-banashi Volumes 7-9 Manga Review",
+      "summary": "As her professional debut continues, Akane tries to clinch a win at the Four Person Selection Event held by Ikken Arakawa, but can Akane move past her father’s shadow?",
+      "sourceUrl": "https://www.animenewsnetwork.com/review/akane-banashi-volumes-7-9-manga/.242538",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "trendScore": 99,
+      "text": "📰 Akane-banashi Volumes 7-9 Manga Review\n\nAs her professional debut continues, Akane tries to clinch a win at the Four Person Selection Event held by Ikken Arakawa, but can Akane move past her father’s shadow?\n\nLire la source originale : https://www.animenewsnetwork.com/review/akane-banashi-volumes-7-9-manga/.242538\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "368f8ec7e3889ea87b47",
+      "title": "Exclusive Preview: Ram V Launches Mirror Maker Studios Ahead of Deicidium Volume 1 Release",
+      "summary": "Eisner Award-winning writer Ram V has launched Mirror Maker Studios, a new creative studio&hellip;",
+      "sourceUrl": "https://animecorner.me/exclusive-preview-ram-v-launches-mirror-maker-studios-ahead-of-deicidium-volume-1-release/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "trendScore": 99,
+      "text": "📰 Exclusive Preview: Ram V Launches Mirror Maker Studios Ahead of Deicidium Volume 1 Release\n\nEisner Award-winning writer Ram V has launched Mirror Maker Studios, a new creative studio&hellip;\n\nLire la source originale : https://animecorner.me/exclusive-preview-ram-v-launches-mirror-maker-studios-ahead-of-deicidium-volume-1-release/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "6b618647e05e48c7fdd6",
+      "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+      "summary": "I think it's hilarious that Hisako, Komaro, and Arisu all go to the bathroom at the same time and each find themselves stuck in their stalls for uniquely embarrassing reasons.",
+      "sourceUrl": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T16:30:00.000Z",
+      "trendScore": 99,
+      "text": "📰 Even the Student Council Has Its Holes! ‒ Episode 6\n\nI think it's hilarious that Hisako, Komaro, and Arisu all go to the bathroom at the same time and each find themselves stuck in their stalls for uniquely embarrassing reasons.\n\nLire la source originale : https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "52a534e342c6bf0fc33c",
+      "title": "Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5\" target=\"_blank\">Art to Play 2026 : le ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T16:12:02.000Z",
+      "trendScore": 99,
+      "text": "📰 Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5\" target=\"_blank\">Art to Play 2026 : le \n\nLire la source originale : https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "eea32710e7c94afe0f8d",
+      "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+      "summary": "SSS-Class Revival Hunter anime has released a new trailer featuring additional footage and a preview of its ending theme song \"Fading\"",
+      "sourceUrl": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T16:08:52.000Z",
+      "trendScore": 99,
+      "text": "📰 SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES\n\nSSS-Class Revival Hunter anime has released a new trailer featuring additional footage and a preview of its ending theme song \"Fading\"\n\nLire la source originale : https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "7b5c76bfa1d3d314b5f7",
+      "title": "PlayStation 5 Reaches Over 100 Million Shipments",
+      "summary": "PS5 had shipped over 97.9 million units as of September 30",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "trendScore": 99,
+      "text": "📰 PlayStation 5 Reaches Over 100 Million Shipments\n\nPS5 had shipped over 97.9 million units as of September 30\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "cfe6f19159c808a22138",
+      "title": "Morges s'anime pour les fêtes de fin d'année - Ville de Morges",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1A1UkhVeFFQY05MYzByM3FqeV9NbmhXM3BuazlfUTFiMGU2ak5LWmRoRVBxQW1UV1RTa1E0VEx5aVhnMVhBM2JWVHJLcWNyeTV2QlgtWWxDMWg0d3FqUDJncDdkVWNPZXAyYjBHcFdIVVNKeWhzb1QyTHNETVQ3S1ZSUjEtbmVzZ1E3ZA?oc=5\" target=\"_blank\">Morges s'anime pour les fêtes de fin d'année</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ville de Morges</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1A1UkhVeFFQY05MYzByM3FqeV9NbmhXM3BuazlfUTFiMGU2ak5LWmRoRVBxQW1UV1RTa1E0VEx5aVhnMVhBM2JWVHJLcWNyeTV2QlgtWWxDMWg0d3FqUDJncDdkVWNPZXAyYjBHcFdIVVNKeWhzb1QyTHNETVQ3S1ZSUjEtbmVzZ1E3ZA?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T15:54:27.000Z",
+      "trendScore": 99,
+      "text": "📰 Morges s'anime pour les fêtes de fin d'année - Ville de Morges\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1A1UkhVeFFQY05MYzByM3FqeV9NbmhXM3BuazlfUTFiMGU2ak5LWmRoRVBxQW1UV1RTa1E0VEx5aVhnMVhBM2JWVHJLcWNyeTV2QlgtWWxDMWg0d3FqUDJncDdkVWNPZXAyYjBHcFdIVVNKeWhzb1QyTHNETVQ3S1ZSUjEtbmVzZ1E3ZA?oc=5\" target=\"_blank\">Morges s'anime pour les fêtes de fin d'année</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ville de Morges</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMijAFBVV95cUxNS1A1UkhVeFFQY05MYzByM3FqeV9NbmhXM3BuazlfUTFiMGU2ak5LWmRoRVBxQW1UV1RTa1E0VEx5aVhnMVhBM2JWVHJLcWNyeTV2QlgtWWxDMWg0d3FqUDJncDdkVWNPZXAyYjBHcFdIVVNKeWhzb1QyTHNETVQ3S1ZSUjEtbmVzZ1E3ZA?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "eff1fe8b985588bbacdc",
+      "title": "Depuis 1998, la même passion anime ce salon d’art unique où les pépites petit format se dénichent à des prix doux à Truyes - lanouvellerepublique.fr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAJBVV95cUxQU21Yd1JjNFNvTnd2NmI2NzRicUhISnN5Mm15Y3pZWFVPQy1MX3BPVGFQd210VjhoekNNNjk1YktjbWVmVzc4MEw3VUkzQi1kbEF0TWM1WGhtNUVDeTFxbWc4dFJQYkhlanVFQnpWN0hhMXdLN21tN0lFN1prOGtGbjEzdWV2WkRwbkxsR2dwS3IzbktFN25nTEx1LUZ3ZmdQZVY3Wlpsd2ZfSUVXZ1d3bFdBSEl0VDFvd3hoQmhyMjlCNHc4czJQVXZ1QklDSEFNQnRJQTJQMTh2Z19PQ2VoLUEzRWFvVnB5MjZQYllKMXI1Y0M1OXp6bkJYSHliNVFWUVRHSmo5eF9hb2ZMTk9vNGRpbXFvTUNPcDdIaE5ZVHc0eFhp?oc=5\" t",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQU21Yd1JjNFNvTnd2NmI2NzRicUhISnN5Mm15Y3pZWFVPQy1MX3BPVGFQd210VjhoekNNNjk1YktjbWVmVzc4MEw3VUkzQi1kbEF0TWM1WGhtNUVDeTFxbWc4dFJQYkhlanVFQnpWN0hhMXdLN21tN0lFN1prOGtGbjEzdWV2WkRwbkxsR2dwS3IzbktFN25nTEx1LUZ3ZmdQZVY3Wlpsd2ZfSUVXZ1d3bFdBSEl0VDFvd3hoQmhyMjlCNHc4czJQVXZ1QklDSEFNQnRJQTJQMTh2Z19PQ2VoLUEzRWFvVnB5MjZQYllKMXI1Y0M1OXp6bkJYSHliNVFWUVRHSmo5eF9hb2ZMTk9vNGRpbXFvTUNPcDdIaE5ZVHc0eFhp?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T15:44:39.000Z",
+      "trendScore": 99,
+      "text": "📰 Depuis 1998, la même passion anime ce salon d’art unique où les pépites petit format se dénichent à des prix doux à Truyes - lanouvellerepublique.fr\n\n<a href=\"https://news.google.com/rss/articles/CBMipAJBVV95cUxQU21Yd1JjNFNvTnd2NmI2NzRicUhISnN5Mm15Y3pZWFVPQy1MX3BPVGFQd210VjhoekNNNjk1YktjbWVmVzc4MEw3VUkzQi1kbEF0TWM1WGhtNUVDeTFxbWc4dFJQYkhlanVFQnpWN0hhMXdLN21tN0lFN1prOGtGbjEzdWV2WkRwbkxsR2dwS3IzbktFN25nTEx1LUZ3ZmdQZVY3Wlpsd2ZfSUVXZ1d3bFdBSEl0VDFvd3hoQmhyMjlCNHc4czJQVXZ1QklDSEFNQnRJQTJQMTh2Z19PQ2VoLUEzRWFvVnB5MjZQYllKMXI1Y0M1OXp6bkJYSHliNVFWUVRHSmo5eF9hb2ZMTk9vNGRpbXFvTUNPcDdIaE5ZVHc0eFhp?oc=5\" t\n\nLire la source originale : https://news.google.com/rss/articles/CBMipAJBVV95cUxQU21Yd1JjNFNvTnd2NmI2NzRicUhISnN5Mm15Y3pZWFVPQy1MX3BPVGFQd210VjhoekNNNjk1YktjbWVmVzc4MEw3VUkzQi1kbEF0TWM1WGhtNUVDeTFxbWc4dFJQYkhlanVFQnpWN0hhMXdLN21tN0lFN1prOGtGbjEzdWV2WkRwbkxsR2dwS3IzbktFN25nTEx1LUZ3ZmdQZVY3Wlpsd2ZfSUVXZ1d3bFdBSEl0VDFvd3hoQmhyMjlCNHc4czJQVXZ1QklDSEFNQnRJQTJQMTh2Z19PQ2VoLUEzRWFvVnB5MjZQYllKMXI1Y0M1OXp6bkJYSHliNVFWUVRHSmo5eF9hb2ZMTk9vNGRpbXFvTUNPcDdIaE5ZVHc0eFhp?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "6831462df8735bc0dfb0",
+      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5\" target=\"_blank\">Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">L'Est Républicain</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T15:40:02.000Z",
+      "trendScore": 99,
+      "text": "📰 Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5\" target=\"_blank\">Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">L'Est Républicain</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "daf73bca15aa5e366312",
+      "title": "The Legend of Zelda: Ocarina of Time Remake Sells Over 5.2 Million Units to Become Nintendo's Fastest-Selling Switch 2 Game",
+      "summary": "Remake surpasses previously reported lifetime sales of 2nd bestselling Switch 2 title <cite>Donkey Kong Bananza</cite>",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T15:33:40.000Z",
+      "trendScore": 99,
+      "text": "📰 The Legend of Zelda: Ocarina of Time Remake Sells Over 5.2 Million Units to Become Nintendo's Fastest-Selling Switch 2 Game\n\nRemake surpasses previously reported lifetime sales of 2nd bestselling Switch 2 title <cite>Donkey Kong Bananza</cite>\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "3c5ce38bba5f6b9127fb",
+      "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
+      "summary": "<i>Nia Liston</i>’s extremely specific charm still manages to shine through in even a quieter episode, and I’m confident what this episode sets up will be a return to form for the show.",
+      "sourceUrl": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T15:31:35.000Z",
+      "trendScore": 99,
+      "text": "📰 Nia Liston: The Merciless Maiden ‒ Episode 6\n\n<i>Nia Liston</i>’s extremely specific charm still manages to shine through in even a quieter episode, and I’m confident what this episode sets up will be a return to form for the show.\n\nLire la source originale : https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "4144e983326ec39abb67",
+      "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5\" target=\"_blank\">Le comité manga de la médiathèque de Mondoubleau cultive le p",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T15:12:04.000Z",
+      "trendScore": 99,
+      "text": "📰 Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr\n\n<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5\" target=\"_blank\">Le comité manga de la médiathèque de Mondoubleau cultive le p\n\nLire la source originale : https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "3cd9623157b6efaa7d75",
+      "title": "CyberAgent Announces Business Alliance With Animation Studio MAPPA",
+      "summary": "CyberAgent has acquired stake in MAPPA's parent company MHD Co.",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T15:00:00.000Z",
+      "trendScore": 99,
+      "text": "📰 CyberAgent Announces Business Alliance With Animation Studio MAPPA\n\nCyberAgent has acquired stake in MAPPA's parent company MHD Co.\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "4d1c7a18603a87f279d2",
+      "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+      "summary": "The official website of the Mashle (Mashle: Magic and Muscles) television anime revealed additional cast pair, a key visual and a promotional video for its third season on Wednesday. The new season is scheduled to premiere on January 10 at 12.00 a.m. on Tokyo MX, BS11, Gunma TV and Tochigi TV, followed by Mainichi Broadcasting, Shizuoka Broadcasting, FBS Fukoka, Chukyo TV, Nagano Asahi, Okayama, Miyagi TV, Sapporo TV, Television Niigata and Chugo",
+      "sourceUrl": "https://myanimelist.net/news/74928431?_location=rss",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "publishedAt": "2026-11-11T14:46:50.000Z",
+      "trendScore": 99,
+      "text": "📰 'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo\n\nThe official website of the Mashle (Mashle: Magic and Muscles) television anime revealed additional cast pair, a key visual and a promotional video for its third season on Wednesday. The new season is scheduled to premiere on January 10 at 12.00 a.m. on Tokyo MX, BS11, Gunma TV and Tochigi TV, followed by Mainichi Broadcasting, Shizuoka Broadcasting, FBS Fukoka, Chukyo TV, Nagano Asahi, Okayama, Miyagi TV, Sapporo TV, Television Niigata and Chugo\n\nLire la source originale : https://myanimelist.net/news/74928431?_location=rss\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "faa9582f2ad9a2bd22df",
+      "title": "Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo's Involvement, Customization, and Future Updates",
+      "summary": "BLEACH Mirrors High has brought a new experience to the iconic franchise, allowing players&hellip;",
+      "sourceUrl": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T14:27:30.000Z",
+      "trendScore": 99,
+      "text": "📰 Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo's Involvement, Customization, and Future Updates\n\nBLEACH Mirrors High has brought a new experience to the iconic franchise, allowing players&hellip;\n\nLire la source originale : https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "99680deade85e0f3865c",
+      "title": "Elden Ring: Distant Tales Between Manga Ends in Next Chapter",
+      "summary": "Final chapter's date to be determined for manga which launched in July 2024",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/elden-ring-distant-tales-between-manga-ends-in-next-chapter/.243710",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T13:59:04.000Z",
+      "trendScore": 99,
+      "text": "📰 Elden Ring: Distant Tales Between Manga Ends in Next Chapter\n\nFinal chapter's date to be determined for manga which launched in July 2024\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/elden-ring-distant-tales-between-manga-ends-in-next-chapter/.243710\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "e0a0dc8e1ac4a6f739e2",
+      "title": "Sayaka Mogi's Happy Hypoxia Manga Ends",
+      "summary": "Manga launched in June 2025",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/sayaka-mogi-happy-hypoxia-manga-ends/.243705",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T13:53:15.000Z",
+      "trendScore": 99,
+      "text": "📰 Sayaka Mogi's Happy Hypoxia Manga Ends\n\nManga launched in June 2025\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/sayaka-mogi-happy-hypoxia-manga-ends/.243705\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "793b83ce133c2f0f3fd2",
+      "title": "Unbreakable ~Yaburezaru Monotachi~ Manga Resumes With Final Arc Next Spring",
+      "summary": "Adaptation moves from <i>Young Champion</i> magazine to Yanchan Web",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/unbreakable-~yaburezaru-monotachi~-manga-resumes-with-final-arc-next-spring/.243703",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T13:50:09.000Z",
+      "trendScore": 99,
+      "text": "📰 Unbreakable ~Yaburezaru Monotachi~ Manga Resumes With Final Arc Next Spring\n\nAdaptation moves from <i>Young Champion</i> magazine to Yanchan Web\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/unbreakable-~yaburezaru-monotachi~-manga-resumes-with-final-arc-next-spring/.243703\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "a32f1bedf1225112b87a",
+      "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+      "summary": "Sōma Saitō, Ryōta Suzuki join cast",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T13:35:28.000Z",
+      "trendScore": 99,
+      "text": "📰 Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut\n\nSōma Saitō, Ryōta Suzuki join cast\n\nLire la source originale : https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "2b8f4ce15f33d96807bf",
+      "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+      "summary": "Black Clover Season 2 revealed its second “Most Fearsome Battle Visual,” this time featuring Noelle Silva in her Valkyrie Dress form.",
+      "sourceUrl": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-11T13:32:50.000Z",
+      "trendScore": 99,
+      "text": "📰 Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form\n\nBlack Clover Season 2 revealed its second “Most Fearsome Battle Visual,” this time featuring Noelle Silva in her Valkyrie Dress form.\n\nLire la source originale : https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "4c8d9061aa62d2943199",
+      "title": "Ranma ½ Season 3 ‒ Episode 6",
+      "summary": "Kodachi’s a highly motivated femme fatale who’s not above blackmailing the one she loves to get exactly what she wants.",
+      "sourceUrl": "https://www.animenewsnetwork.com/review/ranma-season-3/episode-6/.243706",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "publishedAt": "2026-11-11T13:30:00.000Z",
+      "trendScore": 99,
+      "text": "📰 Ranma ½ Season 3 ‒ Episode 6\n\nKodachi’s a highly motivated femme fatale who’s not above blackmailing the one she loves to get exactly what she wants.\n\nLire la source originale : https://www.animenewsnetwork.com/review/ranma-season-3/episode-6/.243706\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    },
+    {
+      "id": "5056dd3027cc0d3763d2",
+      "title": "Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis - BeInCrypto",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVwd1hfZG1fS3VudmVrSENiUDNGWHI0MV9vNzRqZlhXbnRBNzJYVFRVYm1HVkVCOE4tSnFxN0NGTVByQ0EydlFwMWxGWU1vbDMwQWtXa1dMbGwtczhBZm9WR2hjMmlBeDZoUnM3RnlMcVRjUUZhTXFkR09CUjRVNnp3a1VWalJWTlNhMnV5c0pTVFVqX1E?oc=5\" target=\"_blank\">Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVwd1hfZG1fS3VudmVrSENiUDNGWHI0MV9vNzRqZlhXbnRBNzJYVFRVYm1HVkVCOE4tSnFxN0NGTVByQ0EydlFwMWxGWU1vbDMwQWtXa1dMbGwtczhBZm9WR2hjMmlBeDZoUnM3RnlMcVRjUUZhTXFkR09CUjRVNnp3a1VWalJWTlNhMnV5c0pTVFVqX1E?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T13:18:12.000Z",
+      "trendScore": 99,
+      "text": "📰 Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVwd1hfZG1fS3VudmVrSENiUDNGWHI0MV9vNzRqZlhXbnRBNzJYVFRVYm1HVkVCOE4tSnFxN0NGTVByQ0EydlFwMWxGWU1vbDMwQWtXa1dMbGwtczhBZm9WR2hjMmlBeDZoUnM3RnlMcVRjUUZhTXFkR09CUjRVNnp3a1VWalJWTlNhMnV5c0pTVFVqX1E?oc=5\" target=\"_blank\">Bitrue AI s’anime ; les traders gagnent 25 % de commission en invitant des amis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\nLire la source originale : https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVwd1hfZG1fS3VudmVrSENiUDNGWHI0MV9vNzRqZlhXbnRBNzJYVFRVYm1HVkVCOE4tSnFxN0NGTVByQ0EydlFwMWxGWU1vbDMwQWtXa1dMbGwtczhBZm9WR2hjMmlBeDZoUnM3RnlMcVRjUUZhTXFkR09CUjRVNnp3a1VWalJWTlNhMnV5c0pTVFVqX1E?oc=5\n\nQu'en pensez-vous ?",
+      "hashtags": "#Manga #Anime #Actualités",
+      "status": "à vérifier",
+      "note": "Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+    }
+  ],
+  "warnings": []
 }
