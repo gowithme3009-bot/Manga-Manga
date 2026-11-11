@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {decodeXml,parseFeed,rankItems} from "../scripts/collect.mjs";
+import {decodeXml,parseFeed,rankItems,readLimited} from "../scripts/collect.mjs";
 
 test("decodeXml nettoie le HTML et décode les entités",()=>{
   assert.equal(decodeXml("<b>Manga</b> &amp; anime"),"Manga & anime");
@@ -29,4 +29,9 @@ test("rankItems fusionne les titres identiques et valorise la couverture croisé
   assert.equal(ranked[0].sourceCount,2);
   assert.equal(ranked[0].sources.length,2);
   assert.ok(ranked[0].trendScore>ranked[1].trendScore);
+});
+
+test("readLimited arrête un flux qui dépasse la taille autorisée",async()=>{
+  const response=new Response("123456789");
+  await assert.rejects(()=>readLimited(response,4),/trop volumineux/);
 });
