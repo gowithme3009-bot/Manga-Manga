@@ -9,6 +9,7 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
     if(!item || typeof item.title!=="string" || typeof item.url!=="string" || !/^https:\/\//i.test(item.url)) continue;
     const language=item.language||"fr";
     if(language!=="fr") continue;
+    if(item.sourceId==="google-news-fr" && !/\b(manga|mangaka|shonen|shojo|seinen|isekai|webtoon|light novel)\b/i.test(item.title)) continue;
     const summary=String(item.summary||"").replace(/\s+/g," ").trim().slice(0,450);
     if(!summary) continue;
     const key=item.id||item.url;
