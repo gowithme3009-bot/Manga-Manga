@@ -1,6 +1,10 @@
 name: Manga-Manga RSS Radar
 
 on:
+  push:
+    branches: [manga-manga-v1-work]
+    paths-ignore:
+      - "data/latest-news.json"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
