@@ -18,6 +18,15 @@ function field(block, tag) {
   const match = block.match(new RegExp("<" + escaped + "(?:\\s[^>]*)?>([\\s\\S]*?)</" + escaped + "\\s*>", "i"));
   return match ? decodeXml(match[1]) : "";
 }
+export async function readLimited(response,maxBytes=MAX_FEED_BYTES) {
+  const length=Number(response.headers?.get?.("content-length"));
+  if(Number.isFinite(length)&&length>maxBytes) throw new Error("Flux trop volumineux");
+  if(!response.body){const value=await response.text();if(Buffer.byteLength(value)>maxBytes)throw new Error("Flux trop volumineux");return value;}
+  const reader=response.body.getReader();const chunks=[];let total=0;
+  try{while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>maxBytes){await reader.cancel();throw new Error("Flux trop volumineux");}chunks.push(Buffer.from(value));}}finally{reader.releaseLock?.();}
+  return Buffer.concat(chunks).toString("utf8");
+}
+
 export function parseFeed(xml, source) {
   const entries = [
     ...[...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(m => ({block:m[1],atom:false})),
@@ -64,8 +73,7 @@ export async function collect({configPath=path.join(ROOT,"data/sources.json"),ou
     try {
       const response=await fetchImpl(source.feedUrl,{headers:{"User-Agent":"Manga-Manga-Studio/0.1 (+https://github.com/gowithme3009-bot/Manga-Manga)","Accept":"application/rss+xml, application/atom+xml, application/xml, text/xml"}});
       if(!response.ok) throw new Error("HTTP "+response.status);
-      const xml=await response.text();
-      if(new TextEncoder().encode(xml).byteLength>MAX_FEED_BYTES) throw new Error("Flux trop volumineux");
+      const xml=await readLimited(response);
       const parsed=parseFeed(xml,source);
       items.push(...parsed);
       sources.push({id:source.id,name:source.name,status:"ok",items:parsed.length});
