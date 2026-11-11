@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T22:18:32.918Z",
+  "generatedAt": "2026-11-11T22:19:17.155Z",
   "items": [
     {
       "id": "9ea15d67c55a7192c336",
@@ -304,7 +304,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 47
+      "trendScore": 46
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -723,6 +723,22 @@
       "trendScore": 34
     },
     {
+      "id": "fc814d45d3fb351eed6a",
+      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
+      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 34
+    },
+    {
       "id": "fc6bfeab4c5f40522d7c",
       "title": "≠ME Idol Momo Sakurai Voice-Acts, Sings in Gacha Girls Corps Anime",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/me-idol-momo-sakurai-voice-acts-sings-in-gacha-girls-corps-anime/.243711",
@@ -737,22 +753,6 @@
       ],
       "sourceCount": 1,
       "trendScore": 33
-    },
-    {
-      "id": "6fabcdc68fe2282190a4",
-      "title": "Saint-Trond sera représenté... dans un manga ! - Walfoot.be",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUk1XSzRCeWViNUtSN3kzeDhfNGUtcjFIY2podmZPWHBnRkVONGNtX19UY0tmNjBHbm45SXNUZk5FSU4tRGI3TDZXN2dvby1TeWM5VUVtZ2phaTdSWG9adG1uYlBHRnNKVUhkc1UzMGNTb18zTlN3em1xUTM5VXh1bzUxWWtUWnVLV1ZyYjhmZHpURlEzWVVxdHVrRVYwX240Tk1QMW9UYnpxNWJNNnh3aWE4UDRNa2NNQnR3N1Y5VnBobTNKd0HSAcsBQVVfeXFMTlI4RDhZUzVTNjNNcm1XTUhDMTRwZVdvemNDb0RROFYxNVdERGd2QTJzaE1UcjlvSDVjWjlJa0xIbGtUb0pzZjlQOG9KU0NqU2QzdV8zbWI1TkVpNjFocXV2MEcyZ1hPQ01tZnJYNDcycDJ0Mm5OaHlXMzNNd2JDelhCX3pHZnhoOUlDMjlINmNzR3ZDT2lvQ1prcFZURXVXaFJMSXd3TGpKd0FXUjlkM1BYOXQ5RFBvNlZVdU1CU3lfV2tCVGRyMHBKU28?oc=5",
-      "summary": "Saint-Trond sera représenté... dans un manga ! Walfoot.be",
-      "publishedAt": "2026-11-11T06:40:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 31
     },
     {
       "id": "f65cd317eef4f19902ef",
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 46
+      "items": 45
     },
     {
       "id": "anime-corner",
