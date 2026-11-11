@@ -1,34 +1,314 @@
-const STORAGE_KEY="mangaMangaStudio.drafts.v1";
-const state={items:[],sources:[],drafts:[],candidates:[],dismissed:[],selected:null};
-const DISMISSED_KEY="mangaMangaStudio.dismissed.v1";
-const $=id=>document.getElementById(id);
-const safe=(value="")=>String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function loadDrafts(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]");return Array.isArray(value)?value:[]}catch{return[]}}
-function saveDrafts(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state.drafts));updateCounts()}
-function saveDismissed(){localStorage.setItem(DISMISSED_KEY,JSON.stringify(state.dismissed))}
-function toast(message){const el=$("toast");el.textContent=message;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),2600)}
-function showView(name){document.querySelectorAll(".view").forEach(el=>el.classList.toggle("hidden",el.id!=="view-"+name));document.querySelectorAll(".nav").forEach(el=>el.classList.toggle("active",el.dataset.view===name));location.hash=name}
-function updateCounts(){$("draft-count").textContent=state.drafts.length;$("home-draft-count").textContent=state.drafts.length;$("article-count").textContent=state.items.length;$("source-count").textContent=state.sources.filter(s=>s.status==="ok").length}
-function dateLabel(value){if(!value)return"Date non fournie";const date=new Date(value);return Number.isNaN(date.getTime())?"Date non valide":date.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"})}
-function renderNews(){const q=$("search").value.trim().toLocaleLowerCase("fr");const items=state.items.filter(i=>(i.title+" "+i.summary+" "+(i.sources||[]).join(" ")).toLocaleLowerCase("fr").includes(q));$("radar-meta").textContent=items.length+" sujet(s)";$("news-list").innerHTML=items.length?items.map(item=>`<article class="news-card"><div class="meta">${safe(item.source||item.sources?.join(", ")||"Source")} · ${safe(dateLabel(item.publishedAt))} · ${item.sourceCount||1} source(s) · score ${item.trendScore??"—"}</div><h3>${safe(item.title)}</h3><p class="summary">${safe(item.summary||"La source ne fournit pas de résumé exploitable. Consultez l'article original avant de rédiger.")}</p><div class="card-actions"><a class="secondary" href="${safe(item.url)}" target="_blank" rel="noopener noreferrer">Lire la source ↗</a><button class="primary" data-edit="${safe(item.id)}">Préparer un brouillon</button></div></article>`).join(""):'<p class="muted">Aucun article ne correspond. Vérifie les sources activées ou la recherche.</p>'}
-function renderSources(){$("sources-list").innerHTML=state.sources.length?state.sources.map(s=>`<article class="source-card"><strong>${safe(s.name)}</strong><p class="muted">${safe(s.status)} · ${s.items||0} article(s)</p><a href="${safe(s.homepage)}" target="_blank" rel="noopener noreferrer">Site de référence ↗</a></article>`).join(""):'<p class="muted">Aucune source n’a encore été collectée.</p>'}
-function fillEditor(item){state.selected=item;$("story-select").value=item.id;$("draft-title").value=item.title;$("draft-body").value=item.summary?item.summary+"\n\nLire l'article complet à la source : "+item.url:"Consultez la source originale pour rédiger un contenu vérifié : "+item.url;showView("atelier")}
-function draftFromEditor(){const item=state.items.find(i=>i.id===$("story-select").value);if(!item)throw new Error("Choisis d'abord une actualité du radar.");const title=$("draft-title").value.trim(),body=$("draft-body").value.trim(),tags=$("draft-tags").value.trim();if(!title||!body)throw new Error("Le titre et le texte sont nécessaires.");return{id:crypto.randomUUID(),sourceId:item.id,title,body,hashtags:tags,sourceUrl:item.url,sourceName:item.source||item.sources?.join(", "),createdAt:new Date().toISOString(),status:"à relire"}}
-function renderDrafts(){
- const saved=state.drafts.map(d=>`<article class="draft-card"><div class="meta">Créé le ${safe(dateLabel(d.createdAt))} · ${safe(d.status)}</div><h3>${safe(d.title)}</h3><p class="summary">${safe(d.body)}</p><p class="tags">${safe(d.hashtags)}</p><div class="card-actions"><button class="secondary" data-copy="${safe(d.id)}">Copier</button><a class="secondary" href="${safe(d.sourceUrl)}" target="_blank" rel="noopener noreferrer">Source ↗</a><button class="danger" data-delete="${safe(d.id)}">Supprimer</button></div><small class="muted">Aperçu et copie uniquement — non publié.</small></article>`).join("");
- const savedSources=new Set(state.drafts.map(d=>d.sourceId));
- const proposals=state.candidates.filter(c=>!state.dismissed.includes(c.id)&&!savedSources.has(c.id)).slice(0,4);
- const proposed=proposals.map(c=>`<article class="draft-card"><div class="meta">PROPOSITION · ${safe(c.status)} · Score ${c.trendScore} · ${safe(c.sourceNames.join(", "))}</div><h3>${safe(c.title)}</h3><p class="summary">${safe(c.text)}</p><p class="tags">${safe(c.hashtags)}</p><div class="card-actions"><a class="secondary" href="${safe(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a><button class="primary" data-save-candidate="${safe(c.id)}">Ajouter à mes brouillons</button><button class="danger" data-dismiss-candidate="${safe(c.id)}">Écarter / remplacer</button></div><small class="muted">Texte préparé à partir du résumé du flux. Relire et vérifier avant utilisation.</small></article>`).join("");
- $("drafts-status").textContent=proposals.length+" proposition(s) disponibles · "+state.drafts.length+" brouillon(s) personnel(s) enregistrés sur cet appareil.";
- $("draft-list").innerHTML=(proposed+saved)||'<p class="muted">Aucune proposition disponible. Le radar attend des actualités avec résumé et lien source vérifiables.</p>';
+"use strict";
+
+const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
+const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
+const state = { items: [], sources: [], drafts: [], candidates: [], dismissed: [] };
+const $ = id => document.getElementById(id);
+const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+}[char]));
+
+function readArray(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || "[]");
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
 }
-async function loadRadar(){try{const response=await fetch("./data/latest-news.json",{cache:"no-store"});if(!response.ok)throw new Error("Fichier du radar indisponible (HTTP "+response.status+")");const data=await response.json();const cfgResponse=await fetch("./data/sources.json",{cache:"no-store"});const cfg=cfgResponse.ok?await cfgResponse.json():{rssSources:[]};const collected=new Map((data.sources||[]).map(s=>[s.id,s]));state.items=Array.isArray(data.items)?data.items:[];state.sources=(cfg.rssSources||[]).map(s=>({...s,...(collected.get(s.id)||{}),status:collected.get(s.id)?.status||(s.enabled?"en attente":"désactivée")}));$("home-status").textContent=state.items.length?state.items.length+" actualité(s) collectée(s). Consulte les liens originaux avant validation.":(data.warnings||[]).join(" ")||"Aucun article collecté. Les sources doivent être vérifiées et activées.";const select=$("story-select");select.innerHTML='<option value="">Choisir une actualité…</option>'+state.items.map(i=>`<option value="${safe(i.id)}">${safe(i.title)}</option>`).join("");renderNews();renderSources();updateCounts()}catch(error){$("home-status").textContent=error.message;$("news-list").innerHTML='<p class="muted">'+safe(error.message)+'</p>';toast(error.message)}}
-document.addEventListener("click",async event=>{const nav=event.target.closest("[data-view]");if(nav){event.preventDefault();showView(nav.dataset.view);return}const go=event.target.closest("[data-go]");if(go){showView(go.dataset.go);return}const edit=event.target.closest("[data-edit]");if(edit){const item=state.items.find(i=>i.id===edit.dataset.edit);if(item)fillEditor(item);return}const del=event.target.closest("[data-delete]");if(del){state.drafts=state.drafts.filter(d=>d.id!==del.dataset.delete);saveDrafts();renderDrafts();toast("Brouillon supprimé.");return}const save=event.target.closest("[data-save-candidate]");if(save){const c=state.candidates.find(x=>x.id===save.dataset.saveCandidate);if(c&&!state.drafts.some(d=>d.sourceId===c.id)){state.drafts.unshift({id:crypto.randomUUID(),sourceId:c.id,title:c.title,body:c.text,hashtags:c.hashtags,sourceUrl:c.sourceUrl,sourceName:c.sourceNames.join(", "),createdAt:new Date().toISOString(),status:"à relire"});saveDrafts();renderDrafts();toast("Proposition ajoutée aux brouillons.");}return}const dismiss=event.target.closest("[data-dismiss-candidate]");if(dismiss){state.dismissed.push(dismiss.dataset.dismissCandidate);saveDismissed();renderDrafts();toast("Proposition écartée ; la suivante prend sa place.");return}const copy=event.target.closest("[data-copy]");if(copy){const d=state.drafts.find(x=>x.id===copy.dataset.copy);if(d){await navigator.clipboard.writeText([d.title,d.body,d.hashtags,d.sourceUrl].filter(Boolean).join("\n\n"));toast("Texte copié.");}}});
-$("search").addEventListener("input",renderNews);
-$("refresh").addEventListener("click",loadRadar);
-$("story-select").addEventListener("change",()=>{const item=state.items.find(i=>i.id===$("story-select").value);if(item){$("draft-title").value=item.title;$("draft-body").value=item.summary?item.summary+"\n\nLire l'article complet à la source : "+item.url:"Consultez la source originale : "+item.url;state.selected=item}});
-$("save-draft").addEventListener("click",()=>{try{const draft=draftFromEditor();if(state.drafts.some(d=>d.sourceId===draft.sourceId)){toast("Cette actualité possède déjà un brouillon.");return}state.drafts.unshift(draft);saveDrafts();renderDrafts();toast("Brouillon enregistré sur cet appareil.");}catch(error){toast(error.message)}});
-$("copy-ai-prompt").addEventListener("click",async()=>{const item=state.items.find(i=>i.id===$("story-select").value);if(!item){toast("Choisis d'abord une actualité.");return}const prompt=["RÔLE : Tu es rédacteur francophone spécialisé manga et anime.","OBJECTIF : Préparer un brouillon Facebook naturel, clair et fidèle à la source.","RÈGLES : Réponds uniquement en français. N'invente aucun fait, date, citation, chiffre ou déclaration. Distingue les faits confirmés des hypothèses. Si les informations sont insuffisantes, indique-le. Ne prétends pas avoir lu l'article complet si seul l'extrait est fourni. Conserve le titre et le lien source.","FORMAT : Titre ; contexte ; résumé fidèle des seuls éléments fournis ; question à la communauté ; hashtags modérés.","TITRE SOURCE : "+item.title,"EXTRAIT FOURNI PAR LE FLUX : "+(item.summary||"Aucun résumé distinct fourni."),"SOURCE : "+item.url,"CONSIGNE : Prépare une proposition à relire. Si l'extrait ne suffit pas, propose une version courte et signale ce qui doit être vérifié."].join("\n\n");try{await navigator.clipboard.writeText(prompt);toast("Brief copié. Colle-le dans ChatGPT ; Gemini peut servir de repli.");}catch{toast("Copie automatique indisponible sur cet appareil.");}});\n$("preview-draft").addEventListener("click",()=>{const title=$("draft-title").value.trim(),body=$("draft-body").value.trim();$("preview-title").textContent=title;$("preview-body").textContent=body;$("preview-tags").textContent=$("draft-tags").value;$("editor-preview").classList.remove("hidden")});
-$("export-drafts").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(state.drafts,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="manga-manga-brouillons.json";a.click();URL.revokeObjectURL(url)});
-state.drafts=loadDrafts();try{state.dismissed=JSON.parse(localStorage.getItem(DISMISSED_KEY)||"[]")}catch{state.dismissed=[]}renderDrafts();loadRadar();
-fetch("./data/daily-drafts.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{if(data&&Array.isArray(data.items)){state.candidates=data.items;renderDrafts()}}).catch(()=>{});
+function saveDrafts() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.drafts));
+  updateCounts();
+}
+function saveDismissed() {
+  localStorage.setItem(DISMISSED_KEY, JSON.stringify(state.dismissed));
+}
+function toast(message) {
+  const element = $("toast");
+  element.textContent = message;
+  element.classList.add("show");
+  setTimeout(() => element.classList.remove("show"), 2800);
+}
+function showView(name) {
+  document.querySelectorAll(".view").forEach(element => {
+    element.classList.toggle("hidden", element.id !== "view-" + name);
+  });
+  document.querySelectorAll(".nav").forEach(element => {
+    element.classList.toggle("active", element.dataset.view === name);
+  });
+  location.hash = name;
+}
+function updateCounts() {
+  $("draft-count").textContent = state.drafts.length;
+  $("home-draft-count").textContent = state.drafts.length;
+  $("article-count").textContent = state.items.length;
+  $("source-count").textContent = state.sources.filter(source => source.status === "ok").length;
+}
+function dateLabel(value) {
+  if (!value) return "Date non fournie";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Date non valide";
+  return date.toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" });
+}
+function renderNews() {
+  const query = $("search").value.trim().toLocaleLowerCase("fr");
+  const filtered = state.items.filter(item =>
+    (item.title + " " + item.summary + " " + (item.sources || []).join(" "))
+      .toLocaleLowerCase("fr").includes(query)
+  );
+  $("radar-meta").textContent = filtered.length + " sujet(s)";
+  if (!filtered.length) {
+    $("news-list").innerHTML = '<p class="muted">Aucun article ne correspond. Vérifie les sources activées ou la recherche.</p>';
+    return;
+  }
+  $("news-list").innerHTML = filtered.map(item => {
+    const sourceNames = item.sources || (item.source ? [item.source] : []);
+    return '<article class="news-card">' +
+      '<div class="meta">' + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
+      escapeHtml(dateLabel(item.publishedAt)) + " · " + (item.sourceCount || 1) +
+      " source(s) · score " + (item.trendScore ?? "—") + "</div>" +
+      "<h3>" + escapeHtml(item.title) + "</h3>" +
+      '<p class="summary">' + escapeHtml(item.summary || "La source ne fournit pas de résumé exploitable. Consulte l’article original avant de rédiger.") + "</p>" +
+      '<div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
+      '" target="_blank" rel="noopener noreferrer">Lire la source ↗</a>' +
+      '<button class="primary" data-edit="' + escapeHtml(item.id) + '">Préparer un brouillon</button></div></article>';
+  }).join("");
+}
+function renderSources() {
+  if (!state.sources.length) {
+    $("sources-list").innerHTML = '<p class="muted">Aucune source n’est configurée.</p>';
+    return;
+  }
+  $("sources-list").innerHTML = state.sources.map(source =>
+    '<article class="source-card"><strong>' + escapeHtml(source.name) + "</strong>" +
+    '<p class="muted">' + escapeHtml(source.status) + " · " + (source.items || 0) + " article(s)</p>" +
+    '<a href="' + escapeHtml(source.homepage) + '" target="_blank" rel="noopener noreferrer">Site de référence ↗</a></article>'
+  ).join("");
+}
+function renderDrafts() {
+  const savedSources = new Set(state.drafts.map(draft => draft.sourceId));
+  const proposals = state.candidates
+    .filter(candidate => !state.dismissed.includes(candidate.id) && !savedSources.has(candidate.id))
+    .slice(0, 4);
+  const proposedHtml = proposals.map(candidate =>
+    '<article class="draft-card"><div class="meta">PROPOSITION · ' +
+    escapeHtml(candidate.status) + " · Score " + candidate.trendScore + " · " +
+    escapeHtml((candidate.sourceNames || []).join(", ")) + "</div>" +
+    "<h3>" + escapeHtml(candidate.title) + "</h3>" +
+    '<p class="summary">' + escapeHtml(candidate.text) + "</p>" +
+    '<p class="tags">' + escapeHtml(candidate.hashtags) + "</p>" +
+    '<div class="card-actions"><a class="secondary" href="' + escapeHtml(candidate.sourceUrl) +
+    '" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a>' +
+    '<button class="primary" data-save-candidate="' + escapeHtml(candidate.id) + '">Ajouter à mes brouillons</button>' +
+    '<button class="danger" data-dismiss-candidate="' + escapeHtml(candidate.id) + '">Écarter / remplacer</button></div>' +
+    '<small class="muted">Vérification humaine obligatoire avant toute publication.</small></article>'
+  ).join("");
+  const savedHtml = state.drafts.map(draft =>
+    '<article class="draft-card"><div class="meta">Créé le ' + escapeHtml(dateLabel(draft.createdAt)) +
+    " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
+    '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
+    '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
+    '<div class="card-actions"><button class="secondary" data-copy="' + escapeHtml(draft.id) +
+    '">Copier</button><a class="secondary" href="' + escapeHtml(draft.sourceUrl) +
+    '" target="_blank" rel="noopener noreferrer">Source ↗</a>' +
+    '<button class="danger" data-delete="' + escapeHtml(draft.id) + '">Supprimer</button></div>' +
+    '<small class="muted">Aperçu et copie uniquement — non publié.</small></article>'
+  ).join("");
+  $("drafts-status").textContent = proposals.length + " proposition(s) disponibles · " +
+    state.drafts.length + " brouillon(s) personnel(s) enregistrés sur cet appareil.";
+  $("draft-list").innerHTML = (proposedHtml + savedHtml) ||
+    '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
+}
+function fillEditor(item) {
+  $("story-select").value = item.id;
+  $("draft-title").value = item.title;
+  $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
+    "Lire l’article complet à la source : " + item.url;
+  showView("atelier");
+}
+function makeDraft() {
+  const item = state.items.find(entry => entry.id === $("story-select").value);
+  if (!item) throw new Error("Choisis d’abord une actualité du radar.");
+  const title = $("draft-title").value.trim();
+  const body = $("draft-body").value.trim();
+  const hashtags = $("draft-tags").value.trim();
+  if (!title || !body) throw new Error("Le titre et le texte sont nécessaires.");
+  return {
+    id: crypto.randomUUID(), sourceId: item.id, title, body, hashtags,
+    sourceUrl: item.url, sourceName: item.source || (item.sources || []).join(", "),
+    createdAt: new Date().toISOString(), status: "à relire"
+  };
+}
+async function loadRadar() {
+  try {
+    const [newsResponse, sourceResponse] = await Promise.all([
+      fetch("./data/latest-news.json", { cache: "no-store" }),
+      fetch("./data/sources.json", { cache: "no-store" })
+    ]);
+    if (!newsResponse.ok) throw new Error("Fichier du radar indisponible (HTTP " + newsResponse.status + ")");
+    const data = await newsResponse.json();
+    const config = sourceResponse.ok ? await sourceResponse.json() : { rssSources: [] };
+    const collected = new Map((data.sources || []).map(source => [source.id, source]));
+    state.items = Array.isArray(data.items) ? data.items : [];
+    state.sources = (config.rssSources || []).map(source => ({
+      ...source,
+      ...(collected.get(source.id) || {}),
+      status: collected.get(source.id)?.status || (source.enabled ? "en attente" : "désactivée")
+    }));
+    $("home-status").textContent = state.items.length
+      ? state.items.length + " actualité(s) collectée(s). Consulte les liens originaux avant validation."
+      : (data.warnings || []).join(" ") || "Aucun article collecté.";
+    $("story-select").innerHTML = '<option value="">Choisir une actualité…</option>' +
+      state.items.map(item => '<option value="' + escapeHtml(item.id) + '">' +
+        escapeHtml(item.title) + "</option>").join("");
+    renderNews();
+    renderSources();
+    updateCounts();
+  } catch (error) {
+    $("home-status").textContent = error.message;
+    $("news-list").innerHTML = '<p class="muted">' + escapeHtml(error.message) + "</p>";
+    toast(error.message);
+  }
+}
+async function loadDailyCandidates() {
+  try {
+    const response = await fetch("./data/daily-drafts.json", { cache: "no-store" });
+    if (!response.ok) return;
+    const data = await response.json();
+    state.candidates = Array.isArray(data.items) ? data.items : [];
+    renderDrafts();
+  } catch {
+    state.candidates = [];
+  }
+}
+
+document.addEventListener("click", async event => {
+  const nav = event.target.closest("[data-view]");
+  if (nav) {
+    event.preventDefault();
+    showView(nav.dataset.view);
+    return;
+  }
+  const go = event.target.closest("[data-go]");
+  if (go) {
+    showView(go.dataset.go);
+    return;
+  }
+  const edit = event.target.closest("[data-edit]");
+  if (edit) {
+    const item = state.items.find(entry => entry.id === edit.dataset.edit);
+    if (item) fillEditor(item);
+    return;
+  }
+  const remove = event.target.closest("[data-delete]");
+  if (remove) {
+    state.drafts = state.drafts.filter(draft => draft.id !== remove.dataset.delete);
+    saveDrafts();
+    renderDrafts();
+    toast("Brouillon supprimé.");
+    return;
+  }
+  const save = event.target.closest("[data-save-candidate]");
+  if (save) {
+    const candidate = state.candidates.find(item => item.id === save.dataset.saveCandidate);
+    if (candidate && !state.drafts.some(draft => draft.sourceId === candidate.id)) {
+      state.drafts.unshift({
+        id: crypto.randomUUID(), sourceId: candidate.id, title: candidate.title,
+        body: candidate.text, hashtags: candidate.hashtags, sourceUrl: candidate.sourceUrl,
+        sourceName: (candidate.sourceNames || []).join(", "),
+        createdAt: new Date().toISOString(), status: candidate.status || "à relire"
+      });
+      saveDrafts();
+      renderDrafts();
+      toast("Proposition ajoutée aux brouillons.");
+    }
+    return;
+  }
+  const dismiss = event.target.closest("[data-dismiss-candidate]");
+  if (dismiss) {
+    if (!state.dismissed.includes(dismiss.dataset.dismissCandidate)) {
+      state.dismissed.push(dismiss.dataset.dismissCandidate);
+      saveDismissed();
+    }
+    renderDrafts();
+    toast("Proposition écartée ; la suivante prend sa place.");
+    return;
+  }
+  const copy = event.target.closest("[data-copy]");
+  if (copy) {
+    const draft = state.drafts.find(item => item.id === copy.dataset.copy);
+    if (!draft) return;
+    try {
+      await navigator.clipboard.writeText([draft.title, draft.body, draft.hashtags, draft.sourceUrl].filter(Boolean).join("\n\n"));
+      toast("Texte copié.");
+    } catch {
+      toast("Copie indisponible sur cet appareil.");
+    }
+  }
+});
+
+$("search").addEventListener("input", renderNews);
+$("refresh").addEventListener("click", loadRadar);
+$("story-select").addEventListener("change", () => {
+  const item = state.items.find(entry => entry.id === $("story-select").value);
+  if (item) fillEditor(item);
+});
+$("save-draft").addEventListener("click", () => {
+  try {
+    const draft = makeDraft();
+    if (state.drafts.some(item => item.sourceId === draft.sourceId)) {
+      toast("Cette actualité possède déjà un brouillon.");
+      return;
+    }
+    state.drafts.unshift(draft);
+    saveDrafts();
+    renderDrafts();
+    toast("Brouillon enregistré sur cet appareil.");
+  } catch (error) {
+    toast(error.message);
+  }
+});
+$("preview-draft").addEventListener("click", () => {
+  $("preview-title").textContent = $("draft-title").value.trim();
+  $("preview-body").textContent = $("draft-body").value.trim();
+  $("preview-tags").textContent = $("draft-tags").value;
+  $("editor-preview").classList.remove("hidden");
+});
+$("copy-ai-prompt").addEventListener("click", async () => {
+  const item = state.items.find(entry => entry.id === $("story-select").value);
+  if (!item) {
+    toast("Choisis d’abord une actualité.");
+    return;
+  }
+  const prompt = [
+    "RÔLE : Tu es rédacteur francophone spécialisé manga et anime.",
+    "OBJECTIF : Préparer un brouillon Facebook naturel, clair et fidèle à la source.",
+    "RÈGLES : Réponds uniquement en français. N’invente aucun fait, date, citation, chiffre ou déclaration. Distingue les faits confirmés des hypothèses. Si les informations sont insuffisantes, indique-le. Ne prétends pas avoir lu l’article complet si seul l’extrait est fourni. Conserve le titre et le lien source.",
+    "FORMAT : Titre ; contexte ; résumé fidèle des seuls éléments fournis ; question à la communauté ; hashtags modérés.",
+    "TITRE SOURCE : " + item.title,
+    "EXTRAIT FOURNI PAR LE FLUX : " + (item.summary || "Aucun résumé distinct fourni."),
+    "SOURCE : " + item.url,
+    "CONSIGNE : Prépare une proposition à relire. Si l’extrait ne suffit pas, propose une version courte et signale ce qui doit être vérifié."
+  ].join(String.fromCharCode(10, 10));
+  try {
+    await navigator.clipboard.writeText(prompt);
+    toast("Brief copié. Colle-le dans ChatGPT ; Gemini peut servir de repli.");
+  } catch {
+    toast("Copie automatique indisponible sur cet appareil.");
+  }
+});
+$("export-drafts").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify(state.drafts, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = "manga-manga-brouillons.json";
+  anchor.click();
+  URL.revokeObjectURL(url);
+});
+
+state.drafts = readArray(STORAGE_KEY);
+state.dismissed = readArray(DISMISSED_KEY);
+renderDrafts();
+loadRadar();
+loadDailyCandidates();
