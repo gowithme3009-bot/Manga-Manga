@@ -10,8 +10,9 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
     const language=item.language||"fr";
     if(language!=="fr") continue;
     if(item.sourceId==="google-news-fr" && !/\b(manga|mangaka|shonen|shojo|seinen|isekai|webtoon|light novel)\b/i.test(item.title)) continue;
-    const summary=String(item.summary||"").replace(/\s+/g," ").trim().slice(0,450);
-    if(!summary) continue;
+    const rawSummary=String(item.summary||"").replace(/\s+/g," ").trim().slice(0,450);
+    const summary=rawSummary.toLocaleLowerCase("fr").startsWith(item.title.trim().toLocaleLowerCase("fr"))?"":rawSummary;
+    if(!summary && language!=="fr") continue;
     const key=item.id||item.url;
     if(seen.has(key)) continue;
     seen.add(key);
@@ -22,8 +23,8 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
       trendScore:Number.isFinite(item.trendScore)?item.trendScore:0,
       text:"📰 "+item.title.trim()+"\n\n"+summary+"\n\nLire la source originale : "+item.url+"\n\nQu'en pensez-vous ?",
       hashtags:"#Manga #Anime #Actualités",
-      status:"à vérifier",
-      note:"Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire."
+      status:summary?"à vérifier":"à compléter",
+      note:summary?"Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire.":"Le flux ne fournit pas de résumé distinct. Lire l’article et compléter le contexte avant toute publication."
     });
   }
   candidates.sort((a,b)=>b.trendScore-a.trendScore);
