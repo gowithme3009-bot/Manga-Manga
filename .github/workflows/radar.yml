@@ -43,4 +43,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest-news.json data/daily-drafts.json
-          git diff --cached --quiet || (git commit -m "data: actualiser le radar RSS" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "data: actualiser le radar RSS"
+            git fetch origin manga-manga-v1-work
+            git rebase origin/manga-manga-v1-work
+            git push origin HEAD:manga-manga-v1-work
+          fi
