@@ -7,6 +7,8 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
   const candidates=[];
   for(const item of items||[]){
     if(!item || typeof item.title!=="string" || typeof item.url!=="string" || !/^https:\/\//i.test(item.url)) continue;
+    const language=item.language||"fr";
+    if(language!=="fr") continue;
     const summary=String(item.summary||"").replace(/\s+/g," ").trim().slice(0,450);
     if(!summary) continue;
     const key=item.id||item.url;
@@ -14,7 +16,7 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
     seen.add(key);
     const sources=Array.isArray(item.sources)?item.sources:(item.source?[item.source]:[]);
     candidates.push({
-      id:String(key),title:item.title.trim(),summary,sourceUrl:item.url,
+      id:String(key),title:item.title.trim(),summary,language,sourceUrl:item.url,
       sourceNames:sources,publishedAt:item.publishedAt||null,
       trendScore:Number.isFinite(item.trendScore)?item.trendScore:0,
       text:"📰 "+item.title.trim()+"\n\n"+summary+"\n\nLire la source originale : "+item.url+"\n\nQu'en pensez-vous ?",
@@ -24,7 +26,11 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
     });
   }
   candidates.sort((a,b)=>b.trendScore-a.trendScore);
-  return {version:1,generatedAt,limit:4,eligibleCount:candidates.length,items:candidates.slice(0,40),warnings:candidates.length<4?["Moins de quatre articles avec résumé et lien HTTPS vérifiables : ne pas compléter avec des sujets inventés."]:[]};
+  const firstPass=[],usedSources=new Set();
+  for(const candidate of candidates){if(candidate.sourceNames.some(name=>usedSources.has(name)))continue;firstPass.push(candidate);candidate.sourceNames.forEach(name=>usedSources.add(name));if(firstPass.length===4)break;}
+  const chosenIds=new Set(firstPass.map(x=>x.id));
+  const ordered=[...firstPass,...candidates.filter(x=>!chosenIds.has(x.id))].slice(0,40);
+  return {version:1,generatedAt,limit:4,eligibleCount:candidates.length,items:ordered,warnings:candidates.length<4?["Moins de quatre articles en français avec résumé et lien HTTPS vérifiables : la traduction IA n’est pas encore activée, aucun sujet ne sera inventé."]:[]};
 }
 export async function runBuild({inputPath=path.join(ROOT,"data/latest-news.json"),outputPath=path.join(ROOT,"data/daily-drafts.json")}={}){
   const input=JSON.parse(await fs.readFile(inputPath,"utf8"));
