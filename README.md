@@ -10,8 +10,10 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 
 - Interface responsive en français.
 - Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.
+- Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
 - Brouillons enregistrés dans le navigateur, aperçu de publication et export JSON.
-- Tests automatisés du collecteur.
+- Tests automatisés du collecteur et du générateur de propositions.
+- Collecte et génération de propositions planifiées toutes les six heures sur la branche de travail uniquement.
 - Workflow GitHub Actions de collecte uniquement.
 
 ## Sécurité et limites
@@ -31,6 +33,7 @@ Prérequis : Node.js 20 ou plus.
 npm test
 npm run check
 npm run collect
+npm run drafts
 ```
 
 ## Les 7 chantiers
