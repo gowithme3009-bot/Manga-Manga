@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T22:14:19.568Z",
+  "generatedAt": "2026-11-11T22:14:47.792Z",
   "items": [
     {
       "id": "9ea15d67c55a7192c336",
@@ -718,22 +718,6 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 35
-    },
-    {
-      "id": "fc814d45d3fb351eed6a",
-      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
-      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 35
@@ -1592,6 +1576,22 @@
       "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
       "summary": "Weekly episodes now debuting as part of \"2nd & 3rd stages\" that started on September 25",
       "publishedAt": "2026-11-10T03:34:51.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 10
+    },
+    {
+      "id": "7637445f9ed09d876477",
+      "title": "My Death Flags Show No Sign of Ending Novels Get TV Anime in 2027",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/my-death-flags-show-no-sign-of-ending-novels-get-tv-anime-in-2027/.243650",
+      "summary": "Manga adaptation's artist Mitsuya Otosu commemorates anime of Izumi's light novel series with drawing",
+      "publishedAt": "2026-11-10T03:00:00.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
