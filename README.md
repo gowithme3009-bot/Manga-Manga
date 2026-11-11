@@ -25,6 +25,10 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Les brouillons restent dans le stockage local de l'appareil ; exporter régulièrement les brouillons pour les sauvegarder.
 - L'IA reste désactivée tant qu'un endpoint sécurisé et ses limites d'usage n'ont pas été testés.
 
+## Suivi détaillé
+
+Voir [le suivi des 7 chantiers](docs/SUIVI_7_CHANTIERS.md).
+
 ## Développement
 
 Prérequis : Node.js 20 ou plus.
