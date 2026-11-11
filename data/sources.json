@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "policy": "Les flux sont désactivés par défaut tant que leur URL officielle et leurs conditions ne sont pas vérifiées.",
+  "rssSources": [
+    {
+      "id": "anime-news-network",
+      "name": "Anime News Network",
+      "homepage": "https://www.animenewsnetwork.com",
+      "feedUrl": "",
+      "language": "en",
+      "enabled": false
+    },
+    {
+      "id": "anime-corner",
+      "name": "Anime Corner",
+      "homepage": "https://animecorner.me",
+      "feedUrl": "",
+      "language": "en",
+      "enabled": false
+    },
+    {
+      "id": "myanimelist",
+      "name": "MyAnimeList News",
+      "homepage": "https://myanimelist.net/news",
+      "feedUrl": "",
+      "language": "en",
+      "enabled": false
+    },
+    {
+      "id": "crunchyroll-news",
+      "name": "Crunchyroll News",
+      "homepage": "https://www.crunchyroll.com/news",
+      "feedUrl": "",
+      "language": "en",
+      "enabled": false
+    }
+  ]
+}
