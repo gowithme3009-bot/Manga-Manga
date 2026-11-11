@@ -24,3 +24,13 @@ test("refuse les liens non HTTPS et dédoublonne",()=>{
  ];
  assert.equal(buildDailyDrafts(items).items.length,1);
 });
+
+test("les propositions automatiques restent en français",()=>{
+ const items=[
+  {id:"fr",title:"Annonce manga",url:"https://example.org/fr",summary:"Résumé français",language:"fr",source:"Source FR"},
+  {id:"en",title:"Anime news",url:"https://example.org/en",summary:"English summary",language:"en",source:"Source EN"}
+ ];
+ const result=buildDailyDrafts(items);
+ assert.equal(result.items.length,1);
+ assert.equal(result.items[0].language,"fr");
+});
