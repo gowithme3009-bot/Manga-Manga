@@ -35,3 +35,9 @@ test("les propositions automatiques restent en français",()=>{
  assert.equal(result.items.length,1);
  assert.equal(result.items[0].language,"fr");
 });
+
+test("un extrait qui répète seulement le titre est marqué à compléter",()=>{
+ const result=buildDailyDrafts([{id:"dup",title:"Le manga Exemple adapté en anime - Média",url:"https://example.org/a",summary:"Le manga Exemple adapté en anime Média",language:"fr",source:"Google Actualités"}]);
+ assert.equal(result.items[0].status,"à compléter");
+ assert.match(result.items[0].note,/pas de résumé distinct|ne fournit pas de résumé distinct/i);
+});
