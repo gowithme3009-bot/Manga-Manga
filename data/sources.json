@@ -1,38 +1,87 @@
 {
   "version": 1,
-  "policy": "Les flux sont désactivés par défaut tant que leur URL officielle et leurs conditions ne sont pas vérifiées.",
+  "policy": "Flux RSS repris de la configuration V4 du projet Manga. Les statuts HTTP sont vérifiés par chaque cycle ; Google Actualités est un agrégateur et ne remplace pas la vérification de l'article original.",
   "rssSources": [
     {
       "id": "anime-news-network",
       "name": "Anime News Network",
       "homepage": "https://www.animenewsnetwork.com",
-      "feedUrl": "",
+      "feedUrl": "https://www.animenewsnetwork.com/all/rss.xml",
       "language": "en",
-      "enabled": false
-    },
-    {
-      "id": "anime-corner",
-      "name": "Anime Corner",
-      "homepage": "https://animecorner.me",
-      "feedUrl": "",
-      "language": "en",
-      "enabled": false
+      "enabled": true,
+      "category": "média spécialisé"
     },
     {
       "id": "myanimelist",
       "name": "MyAnimeList News",
       "homepage": "https://myanimelist.net/news",
-      "feedUrl": "",
+      "feedUrl": "https://myanimelist.net/rss/news.xml",
       "language": "en",
-      "enabled": false
+      "enabled": true,
+      "category": "base communautaire"
+    },
+    {
+      "id": "google-news-fr",
+      "name": "Google Actualités — Manga & Anime",
+      "homepage": "https://news.google.com",
+      "feedUrl": "https://news.google.com/rss/search?q=manga+OR+anime&hl=fr&gl=FR&ceid=FR:fr",
+      "language": "fr",
+      "enabled": true,
+      "category": "agrégateur"
+    },
+    {
+      "id": "anime-corner",
+      "name": "Anime Corner",
+      "homepage": "https://animecorner.me",
+      "feedUrl": "https://animecorner.me/feed/",
+      "language": "en",
+      "enabled": true,
+      "category": "média spécialisé"
     },
     {
       "id": "crunchyroll-news",
-      "name": "Crunchyroll News",
+      "name": "Crunchyroll — Google Actualités",
       "homepage": "https://www.crunchyroll.com/news",
-      "feedUrl": "",
+      "feedUrl": "https://news.google.com/rss/search?q=site%3Acrunchyroll.com%2Fnews+anime&hl=fr&gl=FR&ceid=FR:fr",
+      "language": "fr",
+      "enabled": true,
+      "category": "veille ciblée"
+    },
+    {
+      "id": "anime-herald",
+      "name": "Anime Herald",
+      "homepage": "https://animeherald.com",
+      "feedUrl": "https://animeherald.com/feed/",
       "language": "en",
-      "enabled": false
+      "enabled": true,
+      "category": "média spécialisé"
+    },
+    {
+      "id": "anime-uk-news",
+      "name": "Anime UK News",
+      "homepage": "https://animeuknews.net",
+      "feedUrl": "https://animeuknews.net/feed/",
+      "language": "en",
+      "enabled": true,
+      "category": "média spécialisé"
+    },
+    {
+      "id": "official-announcements",
+      "name": "Annonces officielles — Google Actualités",
+      "homepage": "https://news.google.com",
+      "feedUrl": "https://news.google.com/rss/search?q=anime+OR+manga+site%3Aaniplex.co.jp+OR+site%3Atoei-anim.co.jp+OR+site%3Ashueisha.co.jp&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "enabled": true,
+      "category": "veille ciblée officielle"
+    },
+    {
+      "id": "otaku-usa",
+      "name": "Otaku USA — Google Actualités",
+      "homepage": "https://otakuusamagazine.com",
+      "feedUrl": "https://news.google.com/rss/search?q=site%3Aotakuusamagazine.com+anime+OR+manga&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "enabled": true,
+      "category": "veille ciblée"
     }
   ]
 }
