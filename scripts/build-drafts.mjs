@@ -22,7 +22,7 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
       id:String(key),title:item.title.trim(),summary,language,sourceUrl:item.url,
       sourceNames:sources,publishedAt:item.publishedAt||null,
       trendScore:Number.isFinite(item.trendScore)?item.trendScore:0,
-      text:"📰 "+item.title.trim()+"\n\n"+summary+"\n\nLire la source originale : "+item.url+"\n\nQu'en pensez-vous ?",
+      text:summary?"📰 "+item.title.trim()+"\n\n"+summary+"\n\nLire la source originale : "+item.url+"\n\nQu'en pensez-vous ?":"📰 "+item.title.trim()+"\n\nLire la source originale : "+item.url+"\n\nQu’en pensez-vous ?",
       hashtags:"#Manga #Anime #Actualités",
       status:summary?"à vérifier":"à compléter",
       note:summary?"Brouillon extractif : le résumé provient du flux source. Vérification humaine obligatoire.":"Le flux ne fournit pas de résumé distinct. Lire l’article et compléter le contexte avant toute publication."
