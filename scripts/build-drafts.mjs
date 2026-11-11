@@ -11,7 +11,8 @@ export function buildDailyDrafts(items,generatedAt=new Date().toISOString()){
     if(language!=="fr") continue;
     if(item.sourceId==="google-news-fr" && !/\b(manga|mangaka|shonen|shojo|seinen|isekai|webtoon|light novel)\b/i.test(item.title)) continue;
     const rawSummary=String(item.summary||"").replace(/\s+/g," ").trim().slice(0,450);
-    const summary=rawSummary.toLocaleLowerCase("fr").startsWith(item.title.trim().toLocaleLowerCase("fr"))?"":rawSummary;
+    const titleCore=item.title.trim().split(/\s+-\s+/)[0].toLocaleLowerCase("fr");
+    const summary=rawSummary.toLocaleLowerCase("fr").startsWith(titleCore)?"":rawSummary;
     if(!summary && language!=="fr") continue;
     const key=item.id||item.url;
     if(seen.has(key)) continue;
