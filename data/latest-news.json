@@ -1,9 +1,7 @@
 {
   "version": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-11-11T22:04:05.365Z",
   "items": [],
   "sources": [],
-  "warnings": [
-    "Aucune source RSS officielle activée. Vérifier les URL de flux avant la collecte."
-  ]
+  "warnings": []
 }
