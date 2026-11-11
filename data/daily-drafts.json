@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "limit": 4,
+  "eligibleCount": 0,
+  "items": [],
+  "warnings": [
+    "En attente des premiers articles issus de flux RSS vérifiés."
+  ]
+}
