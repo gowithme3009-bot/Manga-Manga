@@ -1,0 +1,15 @@
+{
+  "name": "manga-manga-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Studio éditorial manga et anime : veille, brouillons et validation manuelle.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test",
+    "check": "node --check scripts/collect.mjs && node --check js/app.js"
+  }
+}
