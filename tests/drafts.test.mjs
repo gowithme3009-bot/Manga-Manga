@@ -12,8 +12,9 @@ test("conserve des remplaçants tout en fixant quatre propositions visibles",()=
 });
 test("ne fabrique pas quatre sujets si les sources sont insuffisantes",()=>{
  const result=buildDailyDrafts([{id:"1",title:"Titre",url:"https://example.org/a",summary:""}]);
- assert.equal(result.items.length,0);
- assert.equal(result.eligibleCount,0);
+ assert.equal(result.items.length,1);
+ assert.equal(result.eligibleCount,1);
+ assert.equal(result.items[0].status,"à compléter");
  assert.equal(result.warnings.length,1);
 });
 test("refuse les liens non HTTPS et dédoublonne",()=>{
