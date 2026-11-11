@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101a34">
+  <title>Manga-Manga Studios — Radar & Atelier éditorial</title>
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#accueil"><img src="logo-manga-anime-actualites%20(1).png" alt="Logo Manga, Animé et Actualités"><span><strong>Manga-Manga</strong><small>STUDIOS · VEILLE & ÉDITION</small></span></a>
+    <div class="status"><span class="dot"></span> MODE TEST · PUBLICATION MANUELLE</div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav aria-label="Navigation principale">
+        <a class="nav active" href="#accueil" data-view="accueil">⌂ <span>Vue d'ensemble</span></a>
+        <a class="nav" href="#radar" data-view="radar">⌕ <span>Radar de tendances</span></a>
+        <a class="nav" href="#atelier" data-view="atelier">✎ <span>Atelier éditorial</span></a>
+        <a class="nav" href="#brouillons" data-view="brouillons">▤ <span>Brouillons du jour</span><b id="draft-count">0</b></a>
+        <a class="nav" href="#sources" data-view="sources">◎ <span>Sources & réglages</span></a>
+      </nav>
+      <p class="side-note">Aucune publication automatique. Chaque contenu doit être relu et validé avant partage.</p>
+    </aside>
+    <main id="main">
+      <section class="view" id="view-accueil">
+        <p class="eyebrow">ESPACE ÉDITORIAL</p><h1>Votre veille manga & anime</h1>
+        <p class="lead">Repérez les actualités, vérifiez les sources et préparez vos publications sans perdre le contrôle.</p>
+        <div class="stats"><article><span>Articles collectés</span><strong id="article-count">0</strong></article><article><span>Brouillons enregistrés</span><strong id="home-draft-count">0</strong></article><article><span>Sources actives</span><strong id="source-count">0</strong></article><article><span>Publication</span><strong class="manual">MANUELLE</strong></article></div>
+        <div class="panel"><div class="panel-head"><div><p class="eyebrow">À FAIRE</p><h2>Votre prochaine étape</h2></div><button class="primary" data-go="radar">Explorer le radar</button></div><p id="home-status" class="muted">Chargement des données du radar…</p></div>
+      </section>
+      <section class="view hidden" id="view-radar">
+        <div class="page-head"><div><p class="eyebrow">VEILLE MULTI-SOURCES</p><h1>Radar de tendances</h1><p class="lead">Classement indicatif selon la fraîcheur et le nombre de sources indépendantes.</p></div><button class="secondary" id="refresh">Actualiser</button></div>
+        <div class="toolbar"><input id="search" type="search" placeholder="Rechercher un manga, anime ou sujet…" aria-label="Rechercher"><span id="radar-meta" class="muted"></span></div>
+        <div id="news-list" class="news-list"><p class="muted">Chargement…</p></div>
+      </section>
+      <section class="view hidden" id="view-atelier">
+        <p class="eyebrow">CRÉATION CONTRÔLÉE</p><h1>Atelier éditorial</h1>
+        <p class="lead">Sélectionne une actualité du radar pour préparer un brouillon fidèle à sa source.</p>
+        <div class="panel"><label for="story-select">Actualité sélectionnée</label><select id="story-select"><option value="">Choisir une actualité…</option></select><label for="draft-title">Titre</label><input id="draft-title" maxlength="180" placeholder="Titre de la source"><label for="draft-body">Texte de publication</label><textarea id="draft-body" rows="6" placeholder="Le texte doit rester fidèle aux informations fournies par la source."></textarea><label for="draft-tags">Hashtags</label><input id="draft-tags" value="#Manga #Anime #Actualités"><div class="actions"><button class="primary" id="save-draft">Enregistrer le brouillon</button><button class="secondary" id="preview-draft">Aperçu Facebook</button></div><div id="editor-preview" class="fb-preview hidden"><div class="fb-head">Manga, Animé et Actualités · Aperçu non publié</div><h3 id="preview-title"></h3><p id="preview-body"></p><p id="preview-tags" class="tags"></p><small>Prévisualisation locale — aucune publication envoyée.</small></div></div>
+      </section>
+      <section class="view hidden" id="view-brouillons">
+        <p class="eyebrow">VALIDATION HUMAINE</p><h1>Brouillons du jour</h1><p class="lead">Les brouillons restent sur cet appareil. Ils ne sont jamais publiés automatiquement.</p>
+        <div class="panel-head"><p id="drafts-status" class="muted">Aucun brouillon enregistré.</p><button class="secondary" id="export-drafts">Exporter en JSON</button></div><div id="draft-list" class="draft-list"></div>
+      </section>
+      <section class="view hidden" id="view-sources">
+        <p class="eyebrow">TRANSPARENCE</p><h1>Sources & réglages</h1><p class="lead">Les flux sont désactivés tant que leurs URL officielles ne sont pas vérifiées. Aucun flux fictif n'est ajouté.</p><div id="sources-list" class="sources-list"></div><div class="panel"><h2>Assistant IA</h2><p class="muted">La connexion IA sera ajoutée derrière un service sécurisé. Aucune clé API ne sera stockée dans le navigateur et aucun fournisseur payant ne sera activé automatiquement.</p><span class="pill">Connexion IA : à configurer</span></div>
+      </section>
+      <footer> MANGA-MANGA STUDIOS · MODE TEST · CONTRÔLE HUMAIN OBLIGATOIRE </footer>
+    </main>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
