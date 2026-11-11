@@ -10,7 +10,7 @@
   "scripts": {
     "collect": "node scripts/collect.mjs",
     "test": "node --test",
-    "check": "node --check scripts/collect.mjs && node --check js/app.js",
+    "check": "node --check scripts/collect.mjs && node --check scripts/build-drafts.mjs && node --check js/app.js",
     "drafts": "node scripts/build-drafts.mjs"
   }
 }
