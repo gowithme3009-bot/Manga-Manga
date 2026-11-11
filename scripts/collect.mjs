@@ -6,11 +6,19 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MAX_FEED_BYTES = 1_500_000;
 const MAX_ITEMS_PER_FEED = 100;
 export function decodeXml(value = "") {
-  return String(value).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]*>/g, " ")
-    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+  return String(value)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+    .replace(/&nbsp;/g, " ").replace(/&hellip;/g, "…")
+    .replace(/&rsquo;/g, "’").replace(/&lsquo;/g, "‘")
+    .replace(/&mdash;/g, "—").replace(/&ndash;/g, "–")
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Math.min(Number(n), 0x10ffff)))
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(Math.min(parseInt(n, 16), 0x10ffff)))
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]*>/g, " ")
     .replace(/\s+/g, " ").trim();
 }
 function field(block, tag) {
@@ -40,9 +48,10 @@ export function parseFeed(xml, source) {
     const summary = field(block,"description") || field(block,"summary") || field(block,"content:encoded");
     const date = field(block,"pubDate") || field(block,"published") || field(block,"updated") || field(block,"dc:date");
     if (!title || !/^https:\/\//i.test(url)) return null;
+    if (source.id === "google-news-fr" && (!/\b(manga|mangaka|anime|animé|otaku|shonen|shojo|seinen|isekai|webtoon|light novel|animation japonaise|japonais)\b/i.test(title) || /webminaire|cybersécurité|lycée|conférence|sainte-sigolène/i.test(title))) return null;
     const key = crypto.createHash("sha256").update(title.toLocaleLowerCase("fr")).digest("hex").slice(0,20);
     const parsedDate = Date.parse(date);
-    return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,category:"actualité"};
+    return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,language:source.language||"und",category:"actualité"};
   }).filter(Boolean);
 }
 export function rankItems(items, now = Date.now()) {
@@ -60,8 +69,8 @@ export function rankItems(items, now = Date.now()) {
     item.sourceCount=item.sources.length;
     const published=Date.parse(item.publishedAt||"");
     const ageHours=Number.isFinite(published)?Math.max(0,(now-published)/3600000):720;
-    const freshness=Math.max(0,100-Math.min(ageHours,720)/7.2);
-    item.trendScore=Math.round(freshness + Math.min(item.sourceCount-1,4)*12);
+    const freshness=60*Math.exp(-ageHours/24);
+    item.trendScore=Math.round(freshness + Math.min(item.sourceCount-1,4)*10);
     return item;
   }).sort((a,b)=>b.trendScore-a.trendScore || (Date.parse(b.publishedAt||0)-Date.parse(a.publishedAt||0)));
 }
