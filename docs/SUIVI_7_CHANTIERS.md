@@ -17,7 +17,8 @@ Branche : `manga-manga-v1-work`
 - La vérification visuelle complète sur téléphone reste à faire.
 
 ## 3. Radar RSS — PREMIÈRE VERSION OPÉRATIONNELLE
-- 9 flux configurés à partir de la configuration V4 déjà utilisée.
+- 9 flux repris de la configuration V4 ; les 9 ont répondu correctement lors du dernier cycle de collecte.
+- Le dernier cycle a recueilli 100 articles dans le radar (plafond de sortie configuré).
 - Collecte RSS/Atom, liens HTTPS obligatoires, limite de taille en lecture, nettoyage HTML, classement par fraîcheur et couverture multi-sources.
 - Résultats hors sujet du flux Google Actualités filtrés sur les mots-clés manga.
 - La collecte est planifiée toutes les six heures et n'écrit que les fichiers de données sur cette branche.
@@ -36,9 +37,10 @@ Branche : `manga-manga-v1-work`
 - Liste des sources configurées et état de collecte.
 - L'import de nouveaux fichiers et l'édition des sources depuis l'interface restent à développer.
 
-## 6. Assistant IA — NON CONNECTÉ
-- Aucun appel IA depuis le navigateur et aucune clé API côté client.
-- L'intégration devra passer par un Worker sécurisé, avec limites, validation des entrées et repli propre.
+## 6. Assistant IA — AIDE MANUELLE DISPONIBLE, WORKER NON CONNECTÉ
+- Brief éditorial copiable vers ChatGPT (prioritaire) ou Gemini (repli manuel), avec consignes françaises et anti-invention.
+- Aucun appel IA automatisé depuis le navigateur et aucune clé API côté client.
+- L'intégration automatisée devra passer par un Worker sécurisé, avec limites, validation des entrées et repli propre.
 - Ne pas déployer ni modifier un Worker existant sans vérifier son rôle et sans validation de l'utilisateur.
 - Tant que ce point n'est pas fait, les textes restent extractifs et les traductions automatiques ne sont pas simulées.
 
