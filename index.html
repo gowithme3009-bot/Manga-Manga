@@ -76,21 +76,28 @@
 
       <section class="view hidden" id="view-radar">
         <div class="page-head"><div><p class="eyebrow">VEILLE MULTI-SOURCES</p><h1>Radar de tendances</h1><p class="lead">Classement indicatif selon la fraîcheur et le nombre de sources indépendantes.</p></div><button class="secondary" id="refresh">↻ Actualiser</button></div>
-        <div class="toolbar"><input id="search" type="search" placeholder="Rechercher un manga, anime ou sujet…" aria-label="Rechercher"><span id="radar-meta" class="muted"></span></div>
-        <p class="trend-legend muted"><strong>Repères :</strong> <span class="trend-badge trend-badge-hot">✦ SPECTACULAIRE</span> clignote · <span class="trend-badge trend-badge-up">↗ EN HAUSSE</span> progresse · <span class="trend-badge trend-badge-watch">À SURVEILLER</span> signal faible. Le score est indicatif : fraîcheur + couverture multi-sources, pas une mesure officielle de popularité.</p>
-        <div id="news-list" class="news-list"><p class="muted">Chargement…</p></div>
-        <section class="search-trends-panel">
-          <div class="section-heading"><div><p class="eyebrow">SIGNAUX DE RECHERCHE</p><h2>Titres manga & anime recherchés</h2></div><span class="step-note">Google Trends · AniList</span></div>
-          <p class="muted">Le studio compare les recherches publiques agrégées en France et au Japon avec les titres et variantes du catalogue AniList. Le flux Madagascar n’est pas actuellement fourni par Google Trends. Seuls les rapprochements reconnus sont affichés.</p>
-          <p class="muted">Réseaux sociaux : aucune donnée de clic privé n’est collectée. Les connexions YouTube, TikTok, Instagram et Facebook restent à intégrer via leurs accès publics ou autorisés.</p>
-          <div id="search-signals" class="search-signals"><p class="muted">Chargement des signaux publics…</p></div>
-        </section>
-        <section class="catalog-panel">
-          <div class="section-heading"><div><p class="eyebrow">CATALOGUE ACTUALISÉ</p><h2>Explorer les mangas et animes</h2></div><span class="step-note">AniList · titres et alias</span></div>
-          <p class="muted">Catalogue actualisé à chaque collecte du radar : titres anglais, japonais, romaji et variantes connues. Touchez un titre pour ouvrir sa fiche AniList et découvrir ses informations.</p>
-          <div class="toolbar"><input id="catalog-search" type="search" placeholder="Chercher un titre, nom japonais ou alias…" aria-label="Rechercher dans le catalogue"><span id="catalog-meta" class="muted"></span></div>
-          <div id="catalog-list" class="catalog-list"><p class="muted">Chargement du catalogue manga et anime…</p></div>
-        </section>
+        <div class="radar-tabs" role="tablist" aria-label="Catégories du radar">
+          <button class="radar-tab active" id="tab-sites" type="button" role="tab" aria-selected="true" aria-controls="radar-sites-panel">Sites tendance</button>
+          <button class="radar-tab" id="tab-titles" type="button" role="tab" aria-selected="false" aria-controls="radar-titles-panel">Titres ou noms tendance</button>
+        </div>
+        <div id="radar-sites-panel" class="radar-tab-panel" role="tabpanel" aria-labelledby="tab-sites">
+          <div class="toolbar"><input id="search" type="search" placeholder="Rechercher un article, un manga ou un anime…" aria-label="Rechercher dans les actualités"><span id="radar-meta" class="muted"></span></div>
+          <p class="trend-legend muted"><strong>Repères :</strong> <span class="trend-badge trend-badge-hot">✦ SPECTACULAIRE</span> clignote · <span class="trend-badge trend-badge-up">↗ EN HAUSSE</span> progresse · <span class="trend-badge trend-badge-watch">À SURVEILLER</span> signal faible. Le score est indicatif : fraîcheur + couverture multi-sources, pas une mesure officielle de popularité.</p>
+          <div id="news-list" class="news-list"><p class="muted">Chargement…</p></div>
+        </div>
+        <div id="radar-titles-panel" class="radar-tab-panel hidden" role="tabpanel" aria-labelledby="tab-titles" hidden>
+          <section class="search-trends-panel">
+            <div class="section-heading"><div><p class="eyebrow">SIGNAUX DE RECHERCHE</p><h2>Noms repérés dans les recherches publiques</h2></div><span class="step-note">Google Trends · AniList</span></div>
+            <p class="muted">Les recherches publiques agrégées sont rapprochées du catalogue manga/anime. Les résultats dépendent des pays et flux disponibles ; aucun clic privé n’est collecté.</p>
+            <div id="search-signals" class="search-signals"><p class="muted">Chargement des signaux publics…</p></div>
+          </section>
+          <section class="catalog-panel">
+            <div class="section-heading"><div><p class="eyebrow">CLASSEMENT DES TITRES</p><h2>Mangas et animes les plus tendance du catalogue</h2></div><span class="step-note">AniList · classement tendance</span></div>
+            <p class="muted">Liste actualisée à chaque collecte. Les titres sont classés selon le signal de tendance fourni par AniList ; ce classement n’est pas une mesure de tous les réseaux sociaux.</p>
+            <div class="toolbar"><input id="catalog-search" type="search" placeholder="Rechercher un titre, nom japonais ou alias…" aria-label="Rechercher un titre ou un alias"><span id="catalog-meta" class="muted"></span></div>
+            <div id="catalog-list" class="catalog-list"><p class="muted">Chargement du catalogue manga et anime…</p></div>
+          </section>
+        </div>        </section>
       </section>
 
       <section class="view hidden" id="view-atelier">
