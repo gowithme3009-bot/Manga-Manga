@@ -61,7 +61,6 @@ export function parseGoogleTrendsFeed(xml, country, catalog, now = Date.now()) {
     const traffic = tag(block, "ht:approx_traffic");
     const dateRaw = tag(block, "pubDate");
     const date = Date.parse(dateRaw);
-    const link = tag(block, "link");
     const publishedAt = Number.isFinite(date) ? new Date(date).toISOString() : new Date(now).toISOString();
     const id = crypto.createHash("sha256").update(country.code + ":" + entity.id + ":" + title).digest("hex").slice(0, 20);
     signals.push({
