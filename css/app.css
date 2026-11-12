@@ -530,9 +530,13 @@ main { padding-top:30px; }
 .workflow-signal { box-shadow:0 12px 35px #17244122; }
 button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible { outline:3px solid #8db0ff; outline-offset:2px; }
 @media (max-width:900px) {
+  .nav-tools { display:block; position:relative; padding:4px 8px 0; border-top:0; }
+  .nav-tools summary { padding:7px 9px; }
+  .nav-tools[open] { background:#fff; border:1px solid #e7ebf2; border-radius:10px; }
+  .nav-tools .nav { min-height:38px; }
   .layout { grid-template-columns:1fr; }
   .sidebar { position:sticky; top:74px; z-index:15; padding:7px 10px; border-right:0; border-bottom:1px solid #e7ebf2; }
-  .side-label,.sidebar-bottom,.nav-tools { display:none; }
+  .side-label,.sidebar-bottom { display:none; }
   .main-nav { display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; }
   .main-nav::-webkit-scrollbar { display:none; }
   .main-nav .nav { flex:0 0 auto; min-height:40px; padding:0 11px; white-space:nowrap; font-size:10px; }
