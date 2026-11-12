@@ -158,16 +158,26 @@ function fillEditor(item) {
   showView("atelier");
 }
 function makeDraft() {
-  const item = state.items.find(entry => entry.id === $("story-select").value);
-  if (!item) throw new Error("Choisis d’abord une actualité du radar.");
+  const selectedId = $("story-select").value;
+  const item = state.items.find(entry => entry.id === selectedId);
+  const originalDraft = state.editingDraftId
+    ? state.drafts.find(draft => draft.id === state.editingDraftId)
+    : null;
+  if (!item && !originalDraft) throw new Error("Choisis d’abord une actualité du radar.");
   const title = $("draft-title").value.trim();
   const body = $("draft-body").value.trim();
   const hashtags = $("draft-tags").value.trim();
   if (!title || !body) throw new Error("Le titre et le texte sont nécessaires.");
   return {
-    id: crypto.randomUUID(), sourceId: item.id, title, body, hashtags,
-    sourceUrl: item.url, sourceName: item.source || (item.sources || []).join(", "),
-    createdAt: new Date().toISOString(), status: "à relire"
+    id: crypto.randomUUID(),
+    sourceId: item?.id || originalDraft.sourceId,
+    title, body, hashtags,
+    sourceUrl: item?.url || originalDraft.sourceUrl,
+    sourceName: item
+      ? (item.source || (item.sources || []).join(", "))
+      : (originalDraft.sourceName || "Source d’origine conservée"),
+    createdAt: new Date().toISOString(),
+    status: originalDraft?.status || "à relire"
   };
 }
 async function loadRadar() {
@@ -234,13 +244,22 @@ document.addEventListener("click", async event => {
   const editDraft = event.target.closest("[data-edit-draft]");
   if (editDraft) {
     const draft = state.drafts.find(item => item.id === editDraft.dataset.editDraft);
-    const source = draft && state.items.find(item => item.id === draft.sourceId);
-    if (!draft || !source) {
-      toast("La source de ce brouillon n’est plus disponible dans le radar. Le texte reste conservé ; exporte-le avant toute suppression.");
+    if (!draft) {
+      toast("Ce brouillon n’existe plus. Actualise la liste avant de réessayer.");
       return;
     }
+    const source = state.items.find(item => item.id === draft.sourceId);
+    if (!source) {
+      const optionExists = Array.from($("story-select").options).some(option => option.value === draft.sourceId);
+      if (!optionExists) {
+        const option = document.createElement("option");
+        option.value = draft.sourceId;
+        option.textContent = "Source conservée — " + draft.title;
+        $("story-select").appendChild(option);
+      }
+    }
     state.editingDraftId = draft.id;
-    $("story-select").value = source.id;
+    $("story-select").value = draft.sourceId;
     $("draft-title").value = draft.title;
     $("draft-body").value = draft.body;
     $("draft-tags").value = draft.hashtags || "";
