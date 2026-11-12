@@ -29,7 +29,9 @@ Branche : `manga-manga-v1-work`
 - Écarter une proposition fait apparaître la suivante.
 - Les propositions automatiques sont limitées aux sources françaises pour éviter de présenter des résumés anglais comme des textes français.
 - Si le flux ne fournit pas de résumé distinct, la proposition est marquée « à compléter ».
-- Les brouillons personnels sont sauvegardés dans le navigateur, modifiables après sauvegarde, copiables et exportables en JSON.
+- Les brouillons personnels sont sauvegardés dans le stockage local du navigateur, modifiables après sauvegarde, copiables et exportables avec une action simple « Exporter mes brouillons ».
+- Le stockage a été isolé dans `js/storage.js` et testé : relecture après sauvegarde, stockage vide, données corrompues conservées, structure invalide rejetée et erreur de quota signalée.
+- Le bouton de récupération reste masqué en usage normal et n’apparaît qu’en cas de données locales illisibles.
 - La modification réutilise l'actualité source encore présente dans le radar ; si elle n'est plus disponible, le brouillon reste intact et doit être exporté avant toute autre opération.
 - Aperçu Facebook local ; aucun envoi à Meta.
 
