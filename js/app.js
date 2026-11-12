@@ -4,7 +4,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
-const state = { items: [], sources: [], searchSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -130,12 +130,13 @@ function renderNews() {
   $("news-list").innerHTML = filtered.map(item => {
     const sourceNames = item.sources || (item.source ? [item.source] : []);
     const level = item.trendLevel || ((item.trendScore ?? 0) >= 75 ? "spectaculaire" : (item.trendScore ?? 0) >= 50 ? "hausse" : "surveillance");
-    const levelLabel = level === "spectaculaire" ? '<span class="trend-badge trend-badge-hot">✦ À NE PAS MANQUER</span>' : level === "hausse" ? '<span class="trend-badge trend-badge-up">↗ EN HAUSSE</span>' : '<span class="trend-badge trend-badge-watch">À SURVEILLER</span>';
+    const levelLabel = level === "spectaculaire" ? '<span class="trend-badge trend-badge-hot">✦ COUVERTURE FORTE</span>' : level === "hausse" ? '<span class="trend-badge trend-badge-up">↗ MULTI-SOURCES</span>' : '<span class="trend-badge trend-badge-watch">À SURVEILLER</span>';
     const cardClass = level === "spectaculaire" ? "news-card is-spectacular" : level === "hausse" ? "news-card is-rising" : "news-card";
     return '<article class="' + cardClass + '" data-trend-level="' + escapeHtml(level) + '">' +
       '<div class="meta">' + levelLabel + " " + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
-      escapeHtml(dateLabel(item.publishedAt)) + " · " + (item.sourceCount || 1) +
-      " source(s) indépendantes · score " + (item.trendScore ?? "—") + "/100</div>" +
+      escapeHtml(dateLabel(item.publishedAt)) + " · " + (item.independentSourceCount ?? item.sourceCount ?? 0) +
+      " source(s) directe(s) · " + (item.coverageSourceCount ?? sourceNames.length) +
+      " couverture(s) · score " + (item.trendScore ?? "—") + "/100</div>" +
       "<h3>" + escapeHtml(item.title) + "</h3>" +
       '<p class="summary">' + escapeHtml(item.summary || "La source ne fournit pas de résumé exploitable. Consulte l’article original avant de rédiger.") + "</p>" +
       '<div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
@@ -158,6 +159,25 @@ function renderSearchSignals() {
     escapeHtml(signal.entityType) + (signal.approximateTraffic ? ' · volume estimé ' + escapeHtml(signal.approximateTraffic) : '') + '</p>' +
     '<small class="muted">Signal Google Trends agrégé, rapproché du catalogue AniList. Ce n’est pas un compteur de clics ni une mesure mondiale.</small>' +
     '<div class="card-actions"><a class="secondary" href="' + escapeHtml(signal.url) + '" target="_blank" rel="noopener noreferrer">Voir la tendance ↗</a></div></article>'
+  ).join("");
+}
+function renderEditorialSignals() {
+  const host = $("editorial-signals");
+  if (!host) return;
+  if (!state.editorialSignals.length) {
+    host.innerHTML = '<p class="muted">Aucun titre du catalogue n’a été reconnu dans les articles RSS du dernier cycle. Le catalogue AniList reste consultable séparément.</p>';
+    return;
+  }
+  host.innerHTML = state.editorialSignals.slice(0, 30).map(signal =>
+    '<article class="signal-card"><div class="meta"><span class="signal-type">MENTIONS DANS LES ACTUALITÉS</span> · ' +
+    signal.articleCount + ' article(s) · ' + signal.sourceCount + ' source(s) directe(s)</div>' +
+    '<h3>' + escapeHtml(signal.entityName) + '</h3>' +
+    '<p class="summary">' + escapeHtml(signal.entityType) + ' · ' +
+    escapeHtml((signal.aliasesMatched || []).slice(0, 3).join(' · ')) + '</p>' +
+    '<div class="card-actions">' + (signal.articles || []).slice(0, 3).map(article =>
+      '<a class="secondary" href="' + escapeHtml(article.url) + '" target="_blank" rel="noopener noreferrer">' +
+      escapeHtml(article.title) + ' ↗</a>'
+    ).join('') + '</div></article>'
   ).join("");
 }
 function renderCatalog() {
@@ -313,8 +333,9 @@ async function loadRadar() {
     if (trendsResponse?.ok) {
       const trendData = await trendsResponse.json();
       state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];
+      state.editorialSignals = Array.isArray(trendData.mentions) ? trendData.mentions : [];
       state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
-    } else { state.searchSignals = []; state.catalog = []; }
+    } else { state.searchSignals = []; state.editorialSignals = []; state.catalog = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
       ...(collected.get(source.id) || {}),
@@ -328,6 +349,7 @@ async function loadRadar() {
         escapeHtml(item.title) + "</option>").join("");
     renderNews();
     renderSearchSignals();
+    renderEditorialSignals();
     renderCatalog();
     renderSources();
     updateCounts();
