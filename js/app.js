@@ -5,7 +5,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
-const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], radarError: null, generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], radarError: null, generatedImageDataUrl: null, pendingDraftImageDataUrl: null, workflowDraftId: null };
 const PREPUBLICATION_CHECKS = [
   { id: "trend", label: "Le sujet est récent et mérite une publication." },
   { id: "source", label: "La source originale est ouverte et le média identifié." },
@@ -337,6 +337,39 @@ function renderSources() {
     '<a href="' + escapeHtml(source.homepage) + '" target="_blank" rel="noopener noreferrer">Site de référence ↗</a></article>'
   ).join("");
 }
+function buildMasterImagePrompt(draft) {
+  const clean = value => String(value || "").replace(/https?:\\/\\/\\S+/g, "").replace(/[#*_]/g, " ").replace(/\\s+/g, " ").trim();
+  return [
+    "Create an original editorial anime illustration for a French manga and anime news Facebook post.",
+    "Main subject inspired by this news headline: " + clean(draft.title).slice(0, 180) + ".",
+    "Visual context: " + clean(draft.body).slice(0, 420) + ".",
+    "Use original fictional characters only; do not imitate a named artist or reproduce copyrighted character designs.",
+    "Premium Japanese animation-inspired visual storytelling, expressive composition, cinematic lighting, polished details, clear focal point, square 1:1 composition.",
+    "No text, no letters, no logo, no watermark, no UI, no collage."
+  ].join(" ");
+}
+function openVisualStep() {
+  const draft = state.drafts.find(item => item.id === state.workflowDraftId) || state.drafts.find(item => item.id === state.editingDraftId);
+  if (!draft) { toast("Enregistre d’abord ta publication à l’étape 2."); showView("atelier"); return; }
+  state.workflowDraftId = draft.id;
+  $("image-prompt").value = draft.imagePromptMaster || buildMasterImagePrompt(draft);
+  $("master-prompt-status").textContent = "Prompt maître préparé depuis : " + draft.title;
+  showView("studio-images");
+  signalStep(3, "Étape 3/4 · Visuel prêt", "Le prompt maître est automatiquement lié au brouillon enregistré.");
+}
+function attachImageToWorkflowDraft(dataUrl) {
+  const draftId = state.workflowDraftId || state.editingDraftId;
+  const index = state.drafts.findIndex(item => item.id === draftId);
+  if (index < 0) { state.pendingDraftImageDataUrl = dataUrl; return false; }
+  const nextDrafts = [...state.drafts];
+  nextDrafts[index] = { ...nextDrafts[index], imageDataUrl: dataUrl, imagePromptMaster: $("image-prompt").value,
+    prepublicationChecks: getDraftChecks(nextDrafts[index]).map((value, position) => position === 4 || position === 5 ? false : value),
+    status: "à relire", validatedAt: null };
+  if (!saveDrafts(nextDrafts)) return false;
+  renderDrafts();
+  $("attach-image-status").textContent = "Image sauvegardée avec le bon brouillon.";
+  return true;
+}
 function renderEditorImage() {
   const image = $("editor-attached-image");
   const source = state.pendingDraftImageDataUrl ||
@@ -426,10 +459,10 @@ function renderDrafts() {
   const savedHtml = state.drafts.map(draft =>
     '<article class="draft-card"><div class="meta">Créé le ' + escapeHtml(dateLabel(draft.createdAt)) +
     " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
-    (draft.imageDataUrl ? '<img class="draft-image" src="' + escapeHtml(draft.imageDataUrl) + '" alt="Visuel du brouillon" loading="lazy">' : "") +
-    '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
-    '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
-    renderPrepublicationChecklist(draft) +
+    '<section class="facebook-final-preview"><div class="fb-head">Manga, Animé et Actualités · Aperçu Facebook</div><h4>' + escapeHtml(draft.title) + "</h4>" +
+    (draft.imageDataUrl ? '<img class="draft-image" src="' + escapeHtml(draft.imageDataUrl) + '" alt="Visuel correspondant à cette publication" loading="lazy">' : '<p class="visual-missing">Visuel à créer à l’étape 3.</p>') +
+    '<p class="summary">' + escapeHtml(draft.body) + "</p>" + '<p class="tags">' + escapeHtml(draft.hashtags) + "</p></section>" +
+    renderPrepublicationChecklist(draft).replace("Valider pour prépublication", "Sauvegarder") +
     '<div class="card-actions"><button class="primary" data-edit-draft="' + escapeHtml(draft.id) +
     '">Modifier</button><button class="secondary" data-copy="' + escapeHtml(draft.id) +
     '">Copier</button><a class="secondary" href="' + escapeHtml(draft.sourceUrl) +
@@ -476,10 +509,18 @@ window.addEventListener("beforeunload", event => {
   event.returnValue = "";
 });
 
+function updateSelectedSourceLink() {
+  const item = state.items.find(entry => entry.id === $("story-select").value);
+  const wrap = $("selected-source-wrap"), link = $("selected-source-link");
+  if (!wrap || !link) return;
+  if (item?.url) { link.href = item.url; wrap.hidden = false; }
+  else { wrap.hidden = true; link.removeAttribute("href"); }
+}
 function fillEditor(item) {
   state.editingDraftId = null;
   $("save-draft").textContent = "Enregistrer le brouillon";
   $("story-select").value = item.id;
+  updateSelectedSourceLink();
   $("draft-title").value = item.title;
   $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
     "Lire l’article complet à la source : " + item.url;
@@ -510,7 +551,8 @@ function makeDraft() {
     status: "à relire",
     prepublicationChecks: PREPUBLICATION_CHECKS.map(() => false),
     validatedAt: null,
-    imageDataUrl: state.pendingDraftImageDataUrl || originalDraft?.imageDataUrl || null
+    imageDataUrl: state.pendingDraftImageDataUrl || originalDraft?.imageDataUrl || null,
+    imagePromptMaster: originalDraft?.imagePromptMaster || null
   };
 }
 async function loadRadar() {
@@ -649,7 +691,9 @@ document.addEventListener("click", async event => {
       }
     }
     state.editingDraftId = draft.id;
+    state.workflowDraftId = draft.id;
     $("story-select").value = draft.sourceId;
+    updateSelectedSourceLink();
     $("draft-title").value = draft.title;
     $("draft-body").value = draft.body;
     $("draft-tags").value = draft.hashtags || "";
@@ -739,6 +783,7 @@ $("search").addEventListener("input", renderNews);
 $("catalog-search").addEventListener("input", renderCatalog);
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
+  updateSelectedSourceLink();
   const item = state.items.find(entry => entry.id === $("story-select").value);
   if (!item || !confirmDiscardActiveDraft()) return;
   fillEditor(item);
@@ -773,10 +818,22 @@ $("save-draft").addEventListener("click", () => {
       signalStep(3, "Étape 3/4 · Brouillon enregistré", "Votre texte est sauvegardé. Vous pouvez maintenant vérifier son aperçu.");
       toast("Brouillon enregistré sur cet appareil.");
     }
+    state.workflowDraftId = draft.id;
+    const storedDraft = state.drafts.find(item => item.id === draft.id);
+    if (storedDraft && !storedDraft.imagePromptMaster) {
+      const updated = state.drafts.map(item => item.id === draft.id ? { ...item, imagePromptMaster: buildMasterImagePrompt(item) } : item);
+      if (saveDrafts(updated)) renderDrafts();
+    }
     renderDrafts();
   } catch (error) {
     toast(error.message);
   }
+});
+$("next-to-visual").addEventListener("click", openVisualStep);
+$("go-prepublication").addEventListener("click", () => {
+  if (!state.workflowDraftId || !state.drafts.some(item => item.id === state.workflowDraftId)) { toast("Enregistre d’abord la publication."); showView("atelier"); return; }
+  showView("brouillons");
+  signalStep(4, "Étape 4/4 · Prépublication", "Retrouve le texte et le visuel associés dans l’aperçu Facebook.");
 });
 $("preview-draft").addEventListener("click", () => {
   $("preview-title").textContent = $("draft-title").value.trim();
@@ -903,15 +960,15 @@ if (generateImageButton) {
       for (let index = 0; index < binary.length; index++) bytes[index] = binary.charCodeAt(index);
       const blob = new Blob([bytes], { type: "image/png" });
       state.generatedImageDataUrl = await optimizeImageForStorage(blob);
-      $("attach-generated-image").classList.remove("hidden");
-      $("attach-image-status").textContent = "Image prête à être associée à un brouillon.";
+      attachImageToWorkflowDraft(state.generatedImageDataUrl);
+      $("attach-image-status").textContent = "Image générée et associée automatiquement au brouillon.";
       if (generatedImageUrl) URL.revokeObjectURL(generatedImageUrl);
       generatedImageUrl = URL.createObjectURL(blob);
       $("generated-image").src = generatedImageUrl;
       $("download-generated-image").href = generatedImageUrl;
       result.classList.remove("hidden");
       status.textContent = "Image reçue. Vérifie-la puis télécharge-la ; rien n’est publié ni envoyé sur Facebook.";
-      signalStep(4, "Visuel généré", "L’image est disponible pour prévisualisation et téléchargement.");
+      signalStep(3, "Visuel généré et sauvegardé", "L’image est automatiquement associée au brouillon sélectionné.");
     } catch (error) {
       const message = error.name === "AbortError"
         ? "Le service n’a pas répondu en 2 minutes. Réessaie plus tard."
