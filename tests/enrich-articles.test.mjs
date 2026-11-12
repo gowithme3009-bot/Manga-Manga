@@ -105,3 +105,24 @@ test("enrichit un lien Google uniquement après résolution du média d’origin
   assert.equal(result.items[0].sourceVerification.publisherHost, "publisher.example");
   assert.equal(calls.length, 3);
 });
+
+
+test("résout une page intermédiaire Google Actualités qui contient un lien éditeur", async () => {
+  let calls = 0;
+  const resolved = await resolvePublisherUrl(async () => {
+    calls += 1;
+    return new Response('<html><body><a data-n-au="https://publisher.example/manga/article">Lire l’article</a></body></html>', {
+      status: 200, headers: { "content-type": "text/html" }
+    });
+  }, "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, "https://publisher.example/manga/article");
+  assert.equal(calls, 1);
+});
+
+test("ignore les liens intermédiaires Google vers une destination non sûre", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(
+    '<html><body><a href="https://127.0.0.1/private">Continuer</a></body></html>',
+    { status: 200, headers: { "content-type": "text/html" } }
+  ), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, null);
+});
