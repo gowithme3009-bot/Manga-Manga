@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T06:54:10.007Z",
+  "generatedAt": "2026-11-12T06:55:00.047Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T06:54:10.007Z",
+    "refreshedAt": "2026-11-12T06:55:00.047Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15925,11 +15925,11 @@
       ]
     },
     {
-      "entityId": "anime-195604",
-      "entityName": "Black Clover Season 2",
+      "entityId": "anime-97940",
+      "entityName": "Black Clover",
       "entityType": "anime",
       "aliasesMatched": [
-        "Black Clover Season 2"
+        "Black Clover"
       ],
       "articleCount": 2,
       "sourceCount": 1,
@@ -15957,11 +15957,11 @@
       ]
     },
     {
-      "entityId": "anime-97940",
-      "entityName": "Black Clover",
+      "entityId": "anime-195604",
+      "entityName": "Black Clover Season 2",
       "entityType": "anime",
       "aliasesMatched": [
-        "Black Clover"
+        "Black Clover Season 2"
       ],
       "articleCount": 2,
       "sourceCount": 1,
@@ -16303,30 +16303,6 @@
           "title": "Dan Da Dan vous manque ? Pourquoi Fire Ball! est-il le manga à ne pas louper ? Quand sera-t-il disponible en France ? - Serieously",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWDllTVUxSHNpMXVuUUd5MkRPVEFleGt2RFlmdzMwV2NYRGtTbVA4RnlJQ3k3Mlg5MEZyYTl2dE9MVjNLWHVjNjlXVlJwWU5fWFZCVWRiUmZ4aVdVRTU2aC1ZZV92WkdvVHdqLXlKWTVsaUpfTXFrbGVRQ1l1eWFyU01iSmEzeWdEOWhqVl9zLVdJTFpqejBoaDl0cFhmWDJ6b3FITmNFYnFJOFhOWHZva1ROS3ZOOUNkaHlaellDNlBMS2pxWUR5aW5rekVKN3dnOEFGRkdLZld1V3JBYlJB?oc=5",
           "publishedAt": "2026-11-10T21:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-129956",
-      "entityName": "A Man's Man",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "The Man"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-10T15:00:00.000Z",
-      "articles": [
-        {
-          "title": "The Man in the White Coat, une nouvelle romance érotique aux éditions Teen's Love - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2h5aGNzVkVGNDFfcFVubTNiM3RJUzNPdGphdWhGVHc0YkR3YWlDVjlVQjluRms1dl9aMl9sODZUMUdMZlNVSmZSbTZJazNlbVBUN1BKXzRBVUdDOWJVT2VHcjZoWVRPekhZbE1fUDMwRlYyOEdZWXRxQWxRY1ByZ1ZSbTV1bzE0ZXk5dWx6d2E2NjFBczZZSEo0cld3N01LRFFNMzBoRjdBbFdpN3lUSVFQZC1DcVFVbE1JX2lPdHZRQ185b2p5TUotMks1UdIBzAFBVV95cUxPb1N1QXg3d19FUXlaemxGSDJjal9TNXNPSDV2ZVhib3pfNmp4d25CelhLQ05oNWg0bjVFTEVMRGU5anExMzZiSFJpM2x2REJ5VWFEVDVDb3kySVFNYk9zZGNDcGRiYmNKMzFEX2JPdlJrbWVLbFU0NUNnbUpkRzJVNnNsM1RFTzB0T2hKZTlpSjR5RUZLQndhdlZGUWhET0ZWRnJlNE1PZ3ZLd2pMWWtRSGV6bVNlMGFQRGFUSzFzQXY2dUNaZVJreGdUNGI?oc=5",
-          "publishedAt": "2026-11-10T15:00:00.000Z",
           "sources": [
             "Google Actualités — Manga & Anime"
           ]
