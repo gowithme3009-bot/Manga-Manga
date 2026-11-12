@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:22:54.302Z",
+  "generatedAt": "2026-11-12T17:41:54.378Z",
   "items": [
     {
       "id": "8ee154d809959cf9c324",
@@ -23,7 +23,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 59,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -48,7 +48,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -79,7 +79,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 57,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animotaku.fr/actualite/anime-tsugumi-project-janvier-2027-nouveau-visuel/",
@@ -93,6 +93,56 @@
       "summaryOrigin": "metadata_article_original",
       "articleContentRetrieved": true,
       "articleFetchNote": ""
+    },
+    {
+      "id": "44aaf3be4ba7a06ffd38",
+      "title": "Anime - Dandivine - Episode #6 - La ballade des pantoufles, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSENDQ3NWdzF4RFN5bmNoTktSUU42YThfNUR3UV9GZ0NNODNSUkN1RHNfbFRTZloxYXNiRnRTaVJxSWN6WlNhNGUyZldoYjRDUl9JSEZaTEdCQjJvWTd0QW5UMmg0ZTJ3N3JkaFFYMTd0SVRKaGQyMGV5MG9NOGVkZEZ6WUF5WUNjWUxka3NrOHR2RGQ4T1NRajNzU1Q0ZnktOXNPbTBXaVc?oc=5",
+      "summary": "Anime - Dandivine - Episode #6 - La ballade des pantoufles, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "45030701f91c2c1fd96c",
+      "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+      "summary": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "68c15c7e35fd6ad171bd",
@@ -115,7 +165,107 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 57,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "27dd7ccd7b26aadbbe81",
+      "title": "Anime - Paw & Palaces - Episode #9 - Un Remède d'enfer, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVXlwaGQwZkhmTmdsOUVNaU8tc3JzSndaOFYzSmluVlYxVHE4LVhrUnRZUlZWLVROWU5uOUJHU2dWYU1RaDBaaGZaY016NGotTFdUWDZPLTRhd21hQ1daZ252M2RLQjJ2bkdrM1FGclBOSGxkOGo2dHJRd1gzVmNXbFpMX2hGSE1VUVVrb1JZLVRfY1FSOVh1djVWSUNncVk?oc=5",
+      "summary": "Anime - Paw & Palaces - Episode #9 - Un Remède d'enfer, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "35f889b2ba65db319b5f",
+      "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+      "summary": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "0c222aa31667402a42a9",
+      "title": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5",
+      "summary": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "41222af3767169c3be04",
+      "title": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5",
+      "summary": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -140,7 +290,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 57,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://www.journaldujapon.com/2026/11/12/lisa-en-concert-au-zenith-de-paris/",
@@ -176,7 +326,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -207,7 +357,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -232,7 +382,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -299,6 +449,31 @@
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
+      "id": "a99daaa9fd5517b5ddb0",
+      "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+      "summary": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions Manga news",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 54,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
       "id": "988f2edba5041856766d",
       "title": "Kakao Piccoma Launches New 'Lulumiru' BL Webtoon Platform",
       "url": "https://www.animenewsnetwork.com/news/2026-11-12/kakao-piccoma-launches-new-lulumiru-bl-webtoon-platform/.243759",
@@ -319,7 +494,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -350,7 +525,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 52,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -375,7 +550,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 52,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/",
@@ -447,7 +622,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -472,7 +647,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -497,7 +672,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -539,16 +714,16 @@
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
-      "id": "36120c0d88a51136275a",
-      "title": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5",
-      "summary": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans Le Figaro",
-      "publishedAt": "2026-11-12T11:49:32.000Z",
+      "id": "86a72977089891d1cf45",
+      "title": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
+      "summary": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) Chantiers du Cardinal",
+      "publishedAt": "2026-11-12T12:00:22.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
-      "publisherName": "Le Figaro",
-      "publisherUrl": "https://www.lefigaro.fr",
+      "publisherName": "Chantiers du Cardinal",
+      "publisherUrl": "https://www.chantiersducardinal.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -559,21 +734,21 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
-      "id": "86a72977089891d1cf45",
-      "title": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
-      "summary": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) Chantiers du Cardinal",
-      "publishedAt": "2026-11-12T11:25:35.000Z",
+      "id": "36120c0d88a51136275a",
+      "title": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5",
+      "summary": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans Le Figaro",
+      "publishedAt": "2026-11-12T11:49:32.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
-      "publisherName": "Chantiers du Cardinal",
-      "publisherUrl": "https://www.chantiersducardinal.fr",
+      "publisherName": "Le Figaro",
+      "publisherUrl": "https://www.lefigaro.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -609,7 +784,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -634,7 +809,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -695,7 +870,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -720,9 +895,15 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753"
+      },
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "caa5ca3faa63349f9d96",
@@ -761,6 +942,31 @@
       "articleFetchNote": ""
     },
     {
+      "id": "3fa9a15da24a050f9ee5",
+      "title": "L'agenda du week-end - Que faire du 13 au 15 novembre 2026 ? - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFRXSlFtd3BfMG1sQVdHTU9IbTRkamNnbDNIdXpJb3M5emtfdHQ5VThfX3FZRzBBNmJ4LWR2MjJaTUV2aDdyOXE5dlFiVGNfdmttdlg0aDFFV0tKTHd6bXlBWkhraWY0QV9ydEVLemE3X0JNSl9RRUtGSERKSlBkdTlNajFYbUFzM3p6Y2FQOW5kakRPc1hOVWtwX2xhOExQMTg2cHkxcWVvU1BzMGc?oc=5",
+      "summary": "L'agenda du week-end - Que faire du 13 au 15 novembre 2026 ? Manga news",
+      "publishedAt": "2026-11-12T10:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 44,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
       "id": "5904772c66e308ede111",
       "title": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
@@ -781,7 +987,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 44,
+      "trendScore": 43,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -806,7 +1012,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 44,
+      "trendScore": 43,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
@@ -903,7 +1109,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 43,
+      "trendScore": 42,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -953,7 +1159,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1053,7 +1259,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 37,
+      "trendScore": 36,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1128,7 +1334,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1153,7 +1359,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1228,7 +1434,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
@@ -1291,7 +1497,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1341,7 +1547,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1402,7 +1608,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 25,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1452,7 +1658,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/",
@@ -1488,7 +1694,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1699,7 +1905,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1724,7 +1930,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/exclusive-preview-ram-v-launches-mirror-maker-studios-ahead-of-deicidium-volume-1-release/",
@@ -1793,7 +1999,7 @@
       "id": "eea32710e7c94afe0f8d",
       "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
       "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
-      "summary": "SSS-Class Revival Hunter anime has released a new trailer featuring additional footage and a preview of its ending theme song \"Fading\"",
+      "summary": "Anime News News SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES Written by Marko Jovanovic November 11, 2026 SSS-Class Revival Hunter anime has released a new trailer featuring additional footage and a preview of its ending theme song “Fading” performed by THE SPELLBOUND × BOOM BOOM SATELLITES. The anime was previously announced for January 2027, with Crunchyroll set to stream it. THE SPELLBOUND x BOOM BOOM SATELLITES commented on the ending theme: “With the opening guitar riff, we wanted to capture the exhilarating feeling of breaking through even a predetermined fate. Through the melody and upbeat electronic sound, we wanted to express the refreshing sensation of continuing to rise. We poured into this song the energetic impulse of continuing to change both yourself and the world the more you live. We hope it can boost the world of SSS-Class Revival Hunter.” The main voice cast includes Takeo Otsuka as Kim Gongja and Satoshi Hino as the Sword Emperor. You can see the full cast below. Takeo Otsuka as Kim Gongja Satoshi Hino as Sword Emperor Toshiki Masuda as Flame Emperor Megumi Han as Witch of the Black Dragon Sayaka Kinoshita as Paladin Risa Shimizu as Countess Makoto Furukawa as Poisonous Viper Natsumi Fujiwara as Inquisitor Yuka Iguchi as Master Alchemist Shunsuke Sakuya as Blade Saint You can watch the new trailer below. Hiroaki Sakurai, known for The Disastrous Life of Saiki K. , is directing the anime at STUDIO fu. Sayuri Oba is handling the scripts, while Takahiro Yoshimatsu is serving as character designer. ",
       "publishedAt": "2026-11-11T16:08:52.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -1812,7 +2018,18 @@
       "independentSourceCount": 1,
       "trendScore": 21,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -1844,6 +2061,31 @@
       "title": "Anime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 - Manga news",
       "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
       "summary": "Anime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 21,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "be078a93230d973c4ad3",
+      "title": "Anime - Red River - Episode #19 - En rêvant au jour qui viendra, 11 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSVlsc0hFc2o3QlRxdFNVYUZRMUN2ZUFKVlFoei1tczJrQ2xYRVJYVGpyR2VlR0l3LU1xQkEzVEpiUmswMUR6Z0FKdE9UU0xTREJIM0hEZ3dhVk01am9ESVRtV3FNVmYxRGJ3b2NPd2c3cTN4T0dwZ20tN25YT2h4LUpWMEJqd3ZFN0o5LXZUcU9vTGpDenVUbW83ZktXLVBrMlpfWENQWE9ubkJ1WDE4?oc=5",
+      "summary": "Anime - Red River - Episode #19 - En rêvant au jour qui viendra, 11 Novembre 2026 Manga news",
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -1943,7 +2185,7 @@
       "id": "c3cc082d5156d2e49da7",
       "title": "[Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3)",
       "url": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
-      "summary": "Interview et portraits Japanime / Interviews et portraits Cinéma 0 [Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3) par Marie jenck &middot; Publié 11 novembre 2026 &middot; Mis à jour 11 novembre 2026 Après avoir contextualisé le rapport de Jean-Christophe Perrier avec le premier long-métrage de Hayao Miyazaki et la promotion de ce film d&rsquo;animation en Normandie, nous allons étudier en détail le travail du réalisateur sur ce long-métrage à l&rsquo;époque où son nom commençait progressivement à se faire connaître. Nous allons aussi comprendre son sévère soucis du détail partagé avec Yasuo Otsuka, les différences entre ce Lupin édulcoré et celui bien plus vicieux du manga d&rsquo;origine, en plus du rapport des enfants à l&rsquo;animation. Une analyse qui vous plongera dans le contexte des années 70. Résumé du film : Lupin III , nommé dans le film Edgar de la Cambriole, se rend avec son comparse Jigen au royaume de Cagliostro. Leur braquage réussi en grande pompe leur ayant uniquement rapporté des faux-billets dont leur fabrication proviendrait de ce petit comté reculé. Sur le chemin, ils feront la rencontre d&rsquo;une jeune femme en fuite et découvriront une chevalière pourvue d&rsquo;un animal atypique. Ceux-ci éveilleront des souvenirs lointains chez le jeune voleur et le motiveront à sauver la demoiselle en détresse. Celle-ci étant retenue par le Comte de Cagliostro dans son imposant château. Aidé de ses camarades, Lupin devra contourner tous les pièges qu&rsquo;il renferme et empêcher l&rsquo;ignoble personnage d&rsquo;épous",
+      "summary": "L'équipe de Journal du Japon est allé à la rencontre Jean-Christophe Perrier, spécialiste des longs-métrages animés, pour comprendre le manque de popularité en France du premier long-métrage de Hayao Miyazaki et de la licence Lupin III. Dans cette seconde partie, nous revenons sur la production soignée de ce film en un temps record et ses intentions innovantes pour une production des années 70. L’article [Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3) est apparu en premier sur Journal du Japon .",
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "source": "Journal du Japon",
       "sourceId": "journal-du-japon",
@@ -1963,17 +2205,11 @@
       "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
       "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "www.journaldujapon.com",
-        "checkedUrl": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+        "status": "verification_failed",
+        "label": "Vérification de la source impossible"
       },
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
+      "articleFetchNote": "Contenu original indisponible"
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -1996,7 +2232,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 21,
+      "trendScore": 20,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2157,7 +2393,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 20,
+      "trendScore": 19,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
@@ -2524,253 +2760,6 @@
       "summaryOrigin": "metadata_article_original",
       "articleContentRetrieved": true,
       "articleFetchNote": ""
-    },
-    {
-      "id": "5676a58b77ac1dafd8f9",
-      "title": "Tomoko Ninomiya's Nanatsu-ya: Shinobu and Her Jewelry Box Manga Gets TV Anime in 2027",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/tomoko-ninomiya-nanatsu-ya-shinobu-and-her-jewelry-box-manga-gets-tv-anime-in-2027/.243715",
-      "summary": "Nodame Cantabile: Finale director Chiaki Kon helms anime at J.C.STAFF",
-      "publishedAt": "2026-11-11T09:48:56.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "2f7f1e7c2a3719e0bc73",
-      "title": "CyberAgent Partners With MAPPA, Acquires Stake in Studio's Parent Company MHD",
-      "url": "https://animecorner.me/cyberagent-partners-with-mappa-acquires-stake-in-studios-parent-company-mhd/",
-      "summary": "CyberAgent has entered into a business partnership with animation studio MAPPA and acquired a stake in MAPPA’s parent company, MHD.",
-      "publishedAt": "2026-11-11T09:29:07.000Z",
-      "source": "Anime Corner",
-      "sourceId": "anime-corner",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-corner"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "781a068935c9a4cfdd6f",
-      "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
-      "url": "https://myanimelist.net/news/74927894?_location=rss",
-      "summary": "Production company Pony Canyon opened an official website for a television anime adaptation of Tomoko Ninomiya's Nanatsuya: Shinobu no Housekibako (Nanatsu-ya: Shinobou and Her Jewelry Box) on Wednesday, revealing the main staff, teaser visual (pictured), and teaser promotional video. The anime will premiere in 2027. Staff Director: Chiaki Kon (Golden Time, Niehime to Kemono no Ou) Series Composition: Seishi Minakami (Sugar Apple Fairy Tale) Character Design: Mai Furuki (Mewkledreamy) Studio: J.C.Staff Ninomiya (Nodame Cantabile) began serializing the manga in Kodansha's Kiss magazine in November 2013. Kodansha published the 27th volume on June 12, with the 28th volume scheduled for release on November 13. The series is published in English through the K Manga platform. Synopsis Shinobu, a second-year in high school, is part of the family that runs Kurata-ya, a storied pawn shop based in a breezy central Tokyo neighborhood. She helps run the place when school isn't calling, and she has a natural gift that aids her a great deal—the ability to see the \"aura\" released by gemstones! Shinobu doesn't have a boyfriend, but she does have a fiancé handpicked for her by her grandfather—Akisada Kitagami, a man from a prestigious family who wound up being taken in by Kurata-ya at a young age. He now works as a salesman for a first-class jewelry brand, but he's also got more than his fair share of secrets… (Source: Kodansha) Teaser PV Official site: https://nanatsuya-shinobu-anime.com/ Official X: @nanatsuya_pr Source: Comic Natalie Nanatsuya: Shinobu no Housekibako on MAL",
-      "publishedAt": "2026-11-11T09:24:46.000Z",
-      "source": "MyAnimeList News",
-      "sourceId": "myanimelist",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "MyAnimeList News"
-      ],
-      "sourceIds": [
-        "myanimelist"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://myanimelist.net/news/74927894?_location=rss",
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "myanimelist.net",
-        "checkedUrl": "https://myanimelist.net/news/74927894?_location=rss",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
-    },
-    {
-      "id": "d7ee99c755160bf67f9b",
-      "title": "Nanatsu-ya: Shinobu and Her Jewelry Box Anime Announced for 2027, Reveals Teaser Visual and Trailer",
-      "url": "https://animecorner.me/nanatsu-ya-shinobu-and-her-jewelry-box-anime-announced-for-2027-reveals-teaser-visual-and-trailer/",
-      "summary": "The anime adaptation of Tomoko Ninomiya’s Nanatsu-ya: Shinobu and Her Jewelry Box has been officially announced for 2027.",
-      "publishedAt": "2026-11-11T09:18:26.000Z",
-      "source": "Anime Corner",
-      "sourceId": "anime-corner",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-corner"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "88231d87058f0526c6bc",
-      "title": "Nanatsuya : Shinobu no Housekibako (anime)",
-      "url": "https://animotaku.fr/encyclotaku/anime/nanatsuya-shinobu-no-housekibako/",
-      "summary": "AnimOtaku est un site d’actualité et média d’information dédié aux animes, aux mangas et à la culture japonaise. Le média couvre les annonces officielles, les dates de sortie, les nouvelles saisons, les adaptations en anime, les films d’animation, les résultats d’événements et les informations liées aux plateformes de diffusion comme Crunchyroll, ADN ou Netflix. Le site publie régulièrement des articles autour des sorties saisonnières (printemps, été, automne, hiver), des calendriers de diffusion, des classements, des récompenses, ainsi que des dossiers thématiques. AnimOtaku propose également des fiches dédiées aux séries, aux films et aux studios d’animation, avec des informations structurées et vérifiées. L’objectif du site est de fournir une information fiable, claire et régulièrement mise à jour pour permettre aux lecteurs de suivre l’actualité de leurs animes préférés et de découvrir les nouveautés du moment.",
-      "publishedAt": "2026-11-11T09:15:21.000Z",
-      "source": "AnimOtaku",
-      "sourceId": "animotaku-fr",
-      "language": "fr",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "AnimOtaku"
-      ],
-      "sourceIds": [
-        "animotaku-fr"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://animotaku.fr/encyclotaku/anime/nanatsuya-shinobu-no-housekibako/",
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "animotaku.fr",
-        "checkedUrl": "https://animotaku.fr/encyclotaku/anime/nanatsuya-shinobu-no-housekibako/",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
-    },
-    {
-      "id": "41462f05b442e49b824e",
-      "title": "Berserk of Gluttony Season 2 Reveals Teaser Visual, April 2027 Release Date",
-      "url": "https://animecorner.me/berserk-of-gluttony-season-2-reveals-teaser-visual-april-2027-release-date/",
-      "summary": "Berserk of Gluttony Season 2 will officially premiere in April 2027, with a new teaser visual revealed for the announcement.",
-      "publishedAt": "2026-11-11T09:00:12.000Z",
-      "source": "Anime Corner",
-      "sourceId": "anime-corner",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-corner"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "ed61715d47ca31925a39",
-      "title": "Berserk of Gluttony Season 2 Premieres Next April",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/berserk-of-gluttony-season-2-premieres-next-april/.243681",
-      "summary": "New teaser visual also revealed",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "5696f6fa6f77cbfc8784",
-      "title": "L’anime Berserk of Gluttony Saison 2 sortira en avril 2027 sur Crunchyroll, Nouveau Visuel",
-      "url": "https://animotaku.fr/actualite/anime-berserk-of-gluttony-saison-2-avril-2027-crunchyroll/",
-      "summary": "La saison 2 de l'anime Berserk of Gluttony a précisé sa date de lancement pour le mois d'avril 2027 ! Découvre les dernières informations sur cette suite. L’article L’anime Berserk of Gluttony Saison 2 sortira en avril 2027 sur Crunchyroll, Nouveau Visuel est apparu en premier sur AnimOtaku .",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "AnimOtaku",
-      "sourceId": "animotaku-fr",
-      "language": "fr",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "AnimOtaku"
-      ],
-      "sourceIds": [
-        "animotaku-fr"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "fc6bfeab4c5f40522d7c",
-      "title": "≠ME Idol Momo Sakurai Voice-Acts, Sings in Gacha Girls Corps Anime",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/me-idol-momo-sakurai-voice-acts-sings-in-gacha-girls-corps-anime/.243711",
-      "summary": "Sakurai voices rabbit Mofutto, sings Mofutto's version of ending song \"Mofu-kyun Heart♡\"",
-      "publishedAt": "2026-11-11T08:07:20.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 15,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2790,7 +2779,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 52
+      "items": 55
     },
     {
       "id": "manga-news-fr",
@@ -2858,7 +2847,7 @@
   ],
   "articleEnrichment": {
     "attempted": 28,
-    "enriched": 20,
+    "enriched": 18,
     "skippedAggregator": 0,
     "directAttempted": 28,
     "aggregatorAttempted": 0,

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:23:08.767Z",
+  "generatedAt": "2026-11-12T17:42:17.087Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T17:23:08.767Z",
+    "refreshedAt": "2026-11-12T17:42:17.087Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15817,10 +15817,26 @@
       "id": "google-trends-jp",
       "name": "Google Trends — Japon",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     }
   ],
-  "items": [],
+  "items": [
+    {
+      "id": "8eb95cc3e5b077d63953",
+      "title": "進撃の巨人",
+      "entityId": "anime-16498",
+      "entityName": "Attack on Titan",
+      "entityType": "anime",
+      "country": "JP",
+      "countryLabel": "Japon",
+      "approximateTraffic": "100+",
+      "publishedAt": "2026-11-12T17:20:00.000Z",
+      "url": "https://trends.google.com/trending?geo=JP",
+      "source": "Google Trends",
+      "signalType": "recherche publique agrégée",
+      "note": "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
+    }
+  ],
   "mentions": [
     {
       "entityId": "anime-151801",
@@ -15901,6 +15917,72 @@
           "title": "SSS-Class Revival Hunter Anime's New Video Reveals Ending Song",
           "url": "https://www.animenewsnetwork.com/news/2026-11-11/sss-class-revival-hunter-anime-new-video-reveals-ending-song/.243716",
           "publishedAt": "2026-11-11T11:14:17.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-211778",
+      "entityName": "The World's Strongest Witch",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "The World's Strongest Witch"
+      ],
+      "articleCount": 2,
+      "sourceCount": 1,
+      "sources": [
+        "Google Actualités — Manga & Anime",
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "articles": [
+        {
+          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "The World's Strongest Witch ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-139587",
+      "entityName": "Reincarnated as a Sword",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Reincarnated as a Sword"
+      ],
+      "articleCount": 2,
+      "sourceCount": 1,
+      "sources": [
+        "Google Actualités — Manga & Anime",
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "articles": [
+        {
+          "title": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
+          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
+          "publishedAt": "2026-11-12T12:30:00.000Z",
           "sources": [
             "Anime News Network"
           ]
@@ -16133,30 +16215,6 @@
       ]
     },
     {
-      "entityId": "anime-139587",
-      "entityName": "Reincarnated as a Sword",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Reincarnated as a Sword"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-12T12:30:00.000Z",
-      "articles": [
-        {
-          "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
-          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
-          "publishedAt": "2026-11-12T12:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-189123",
       "entityName": "Blue Box Season 2",
       "entityType": "anime",
@@ -16326,30 +16384,6 @@
       ]
     },
     {
-      "entityId": "anime-211778",
-      "entityName": "The World's Strongest Witch",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "The World's Strongest Witch"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-11T17:30:00.000Z",
-      "articles": [
-        {
-          "title": "The World's Strongest Witch ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-191656",
       "entityName": "Even the Student Council Has Its Holes!",
       "entityType": "anime",
@@ -16393,6 +16427,127 @@
           "publishedAt": "2026-11-11T16:30:00.000Z",
           "sources": [
             "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-163142",
+      "entityName": "A Returner's Magic Should Be Special",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "A Returner's Magic Should Be Special"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "articles": [
+        {
+          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-105393",
+      "entityName": "A Returner's Magic Should Be Special",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "A Returner's Magic Should Be Special"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "articles": [
+        {
+          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-152682",
+      "entityName": "Sasaki and Peeps",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Sasaki and Peeps"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "articles": [
+        {
+          "title": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-21",
+      "entityName": "ONE PIECE",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "ONE PIECE"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-12T15:00:00.000Z",
+      "articles": [
+        {
+          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+          "publishedAt": "2026-11-12T15:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-30013",
+      "entityName": "One Piece",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "ONE PIECE",
+        "One Piece"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-12T15:00:00.000Z",
+      "articles": [
+        {
+          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+          "publishedAt": "2026-11-12T15:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
           ]
         }
       ]
