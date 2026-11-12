@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:08:21.643Z",
+  "generatedAt": "2026-11-12T10:08:48.653Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 19,
@@ -29,27 +29,27 @@
       ],
       "publishedAt": "2026-11-12T09:32:05.000Z",
       "freshnessHours": 1,
-      "trendScore": 59,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Asmik Ace a publié un site officiel annonçant l’adaptation télévisée du manga *Nabe ni Tama wo Ukenagara*. Produite par J.C.Staff, la série sera diffusée sur Nippon TV, Yomiuri TV, BS Nippon TV et AT‑X en janvier 2027. Le casting principal comprend Shuu Uchida (version féminine) et Masaaki Mizunaka (version masculine) pour le personnage de Juntarou Aoki. Le staff réunit le réalisateur Masahiro Hiraoka, le compositeur Yoshihide Ootomo et le character designer Natsuki Ooyama, entre autres.\n\nQuestion à la communauté : Quel personnage avez‑vous le plus hâte de découvrir à l’écran ?",
-      "hashtags": "#Anime,#JcStaff,#NabeNiTama,#Winter2027",
+      "text": "Asmik Ace a lancé le site officiel de l’adaptation télévisée du manga *Nabe ni Tama wo Ukenagara*. L’anime, produit par J.C.Staff, sera diffusé en janvier 2027 sur Nippon TV, Yomiuri TV, BS Nippon TV et AT‑X. Le casting principal comprend Shuu Uchida (la « belle fille ») et Masaaki Mizunaka (les versions masculines de Juntarou Aoki). Le staff réunit le réalisateur Masahiro Hiraoka, le scénariste Susumu Yamakawa, la concepteur‑designer Natsuki Ooyama, le compositeur Yoshihide Ootomo et le directeur du son Yoshikazu Iwanami.\n\nQuestion à la communauté : Quel personnage avez‑vous le plus hâte de voir à l’écran ?",
+      "hashtags": "#Anime,#NabeNiTama,#JcStaff,#Winter2027",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les noms complets du staff, les chaînes de diffusion et la date de janvier 2027 dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les noms du casting et du staff ainsi que la date de diffusion (janvier 2027) dans l’article original. Vérifier le lien du teaser PV. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:08:37.958Z",
-      "aiTitle": "Nabe ni Tama wo Ukenagara : casting et diffusion 2027",
+      "aiGeneratedAt": "2026-11-12T10:09:02.045Z",
+      "aiTitle": "Nabe ni Tama wo Ukenagara : casting et staff dévoilés",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
         "unsupportedNumbers": [],
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
-      "aiCommunityQuestion": "Quel personnage avez‑vous le plus hâte de découvrir à l’écran ?",
-      "aiVerificationNotes": "Confirmer les noms complets du staff, les chaînes de diffusion et la date de janvier 2027 dans l’article original."
+      "aiCommunityQuestion": "Quel personnage avez‑vous le plus hâte de voir à l’écran ?",
+      "aiVerificationNotes": "Confirmer les noms du casting et du staff ainsi que la date de diffusion (janvier 2027) dans l’article original. Vérifier le lien du teaser PV."
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -80,22 +80,22 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "La société française Ankama a annoncé le lancement d’un webtoon de 12 épisodes adapté de l’anime *Welsh & Shedar*. Le projet réunit plusieurs artistes, mais aucun autre détail n’est fourni dans l’extrait.\n\nQuestion à la communauté : Que pensez‑vous du passage d’un anime à un format webtoon ?",
-      "hashtags": "#Webtoon,#Ankama,#WelshShedar",
+      "text": "Le studio d’animation Welsh & Shedar annonce, via le groupe français Ankama, la création d’un webtoon de douze épisodes. Le projet réunit plusieurs artistes pour adapter la série au format numérique.\n\nQuestion à la communauté : Que pensez‑vous du passage du format anime au webtoon ?",
+      "hashtags": "#WelshAndShedar,#Webtoon,#Ankama",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier le titre complet du webtoon, la date d’annonce et les artistes impliqués dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier le communiqué d’Ankama pour confirmer le nombre d’épisodes, la participation de plusieurs artistes et la nature du projet webtoon. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:08:37.958Z",
-      "aiTitle": "Welsh & Shedar anime : lancement d’un webtoon",
+      "aiGeneratedAt": "2026-11-12T10:09:02.045Z",
+      "aiTitle": "Welsh & Shedar Anime : lancement d’un webtoon de 12 épisodes",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
         "unsupportedNumbers": [],
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
-      "aiCommunityQuestion": "Que pensez‑vous du passage d’un anime à un format webtoon ?",
-      "aiVerificationNotes": "Vérifier le titre complet du webtoon, la date d’annonce et les artistes impliqués dans la source originale."
+      "aiCommunityQuestion": "Que pensez‑vous du passage du format anime au webtoon ?",
+      "aiVerificationNotes": "Vérifier le communiqué d’Ankama pour confirmer le nombre d’épisodes, la participation de plusieurs artistes et la nature du projet webtoon."
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -126,13 +126,13 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Lors d’un round‑table à Lucca Comics & Games, le showrunner Bartosz Sztybor a parlé de la possibilité d’une troisième saison de *Cyberpunk: Edgerunners*. Il a rappelé qu’il pensait déjà à de futures saisons dès l’écriture de la première, et a évoqué son travail sur le manga *Cyberpunk: Edgerunners MADNESS* avec l’illustrateur Asano, ainsi que les liens entre les différents médias de la franchise.\n\nQuestion à la communauté : Espérez‑vous une saison 3 d’Edgerunners ?",
-      "hashtags": "#Edgerunners,#Cyberpunk,#BartoszSztybor,#LuccaComics",
+      "text": "Lors d’une table‑ronde, le showrunner Bartosz Sztybor a déclaré qu’il pensait déjà à de futures saisons dès l’écriture de la saison 1, affirmant qu’il « rêvait de créer plus de saisons ». Il a ajouté que, comme chez CD PR, les réponses aux questions narratives restent en cours de recherche.\n\nQuestion à la communauté : Espérez‑vous une saison 3 d’Edgerunners ?",
+      "hashtags": "#Edgerunners,#Cyberpunk,#BartoszSztybor",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les citations exactes et le contexte de l’interview dans l’article complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les citations exactes de Bartosz Sztybor et le contexte de la table‑ronde dans l’extrait fourni. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:08:37.958Z",
+      "aiGeneratedAt": "2026-11-12T10:09:02.045Z",
       "aiTitle": "Bartosz Sztybor évoque une éventuelle saison 3 d’Edgerunners",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -141,7 +141,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Espérez‑vous une saison 3 d’Edgerunners ?",
-      "aiVerificationNotes": "Confirmer les citations exactes et le contexte de l’interview dans l’article complet."
+      "aiVerificationNotes": "Confirmer les citations exactes de Bartosz Sztybor et le contexte de la table‑ronde dans l’extrait fourni."
     },
     {
       "id": "5904772c66e308ede111",
@@ -173,10 +173,10 @@
       "text": "Sujet repéré : Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Lire l’article complet d’ActuaBD pour extraire le résumé et vérifier les informations avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’article original ne comporte pas de résumé ; vérifier le contenu (date de sortie, synopsis, etc.) avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:08:37.958Z",
+      "aiGeneratedAt": "2026-11-12T10:09:02.045Z",
       "aiTitle": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -184,8 +184,8 @@
         "unsupportedNumbers": [],
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
-      "aiCommunityQuestion": "Quel est votre avis sur la série *Le Chat qui rendait l’homme heureux* ?",
-      "aiVerificationNotes": "Lire l’article complet d’ActuaBD pour extraire le résumé et vérifier les informations avant publication."
+      "aiCommunityQuestion": "Avez‑vous déjà lu ce manga ?",
+      "aiVerificationNotes": "L’article original ne comporte pas de résumé ; vérifier le contenu (date de sortie, synopsis, etc.) avant publication."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -661,6 +661,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T10:08:37.958Z",
+  "aiGeneratedAt": "2026-11-12T10:09:02.045Z",
   "aiModel": "openai/gpt-oss-120b"
 }
