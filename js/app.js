@@ -116,6 +116,15 @@ function dateLabel(value) {
   if (Number.isNaN(date.getTime())) return "Date non valide";
   return date.toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" });
 }
+function trendSignal(level, label) {
+  const known = ["spectaculaire", "hausse", "surveillance"].includes(level) ? level : "surveillance";
+  const names = { spectaculaire: "Tendance forte", hausse: "Tendance en hausse", surveillance: "Tendance à surveiller", recherche: "Signal de recherche publique" };
+  const key = level === "recherche" ? "search" : known;
+  return '<span class="trend-indicator trend-indicator-' + key + '" role="img" aria-label="' +
+    escapeHtml(names[level] || names[known]) + '" title="' + escapeHtml(names[level] || names[known]) +
+    '"><span class="trend-light"></span><span class="trend-indicator-label">' +
+    escapeHtml(label || names[level] || names[known]) + '</span></span>';
+}
 function renderNews() {
   const query = $("search").value.trim().toLocaleLowerCase("fr");
   const filtered = state.items.filter(item =>
@@ -130,7 +139,7 @@ function renderNews() {
   $("news-list").innerHTML = filtered.map(item => {
     const sourceNames = item.sources || (item.source ? [item.source] : []);
     const level = item.trendLevel || ((item.trendScore ?? 0) >= 75 ? "spectaculaire" : (item.trendScore ?? 0) >= 50 ? "hausse" : "surveillance");
-    const levelLabel = level === "spectaculaire" ? '<span class="trend-badge trend-badge-hot">✦ COUVERTURE FORTE</span>' : level === "hausse" ? '<span class="trend-badge trend-badge-up">↗ MULTI-SOURCES</span>' : '<span class="trend-badge trend-badge-watch">À SURVEILLER</span>';
+    const levelLabel = trendSignal(level, level === "spectaculaire" ? "FORTE" : level === "hausse" ? "EN HAUSSE" : "À SURVEILLER");
     const cardClass = level === "spectaculaire" ? "news-card is-spectacular" : level === "hausse" ? "news-card is-rising" : "news-card";
     return '<article class="' + cardClass + '" data-trend-level="' + escapeHtml(level) + '">' +
       '<div class="meta">' + levelLabel + " " + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
@@ -152,7 +161,7 @@ function renderSearchSignals() {
     return;
   }
   host.innerHTML = state.searchSignals.map(signal =>
-    '<article class="signal-card"><div class="meta"><span class="signal-type">RECHERCHE PUBLIQUE</span> · ' +
+    '<article class="signal-card is-search-signal"><div class="meta">' + trendSignal("recherche", "RECHERCHE REPÉRÉE") + ' · ' +
     escapeHtml(signal.countryLabel) + ' · ' + escapeHtml(dateLabel(signal.publishedAt)) + '</div>' +
     '<h3>' + escapeHtml(signal.entityName) + '</h3>' +
     '<p class="summary">Recherche repérée : ' + escapeHtml(signal.title) + ' · ' +
@@ -168,17 +177,19 @@ function renderEditorialSignals() {
     host.innerHTML = '<p class="muted">Aucun titre du catalogue n’a été reconnu dans les articles RSS du dernier cycle. Le catalogue AniList reste consultable séparément.</p>';
     return;
   }
-  host.innerHTML = state.editorialSignals.slice(0, 30).map(signal =>
-    '<article class="signal-card"><div class="meta"><span class="signal-type">MENTIONS DANS LES ACTUALITÉS</span> · ' +
-    signal.articleCount + ' article(s) · ' + signal.sourceCount + ' source(s) directe(s)</div>' +
+  host.innerHTML = state.editorialSignals.slice(0, 30).map(signal => {
+    const level = signal.sourceCount >= 3 && signal.articleCount >= 3 ? "spectaculaire" : signal.sourceCount >= 2 ? "hausse" : "surveillance";
+    return '<article class="signal-card signal-card-trend signal-card-' + level + '"><div class="meta">' +
+    trendSignal(level, level === "spectaculaire" ? "FORTE COUVERTURE" : level === "hausse" ? "MULTI-SOURCES" : "À SURVEILLER") +
+    ' · MENTIONS DANS LES ACTUALITÉS · ' + signal.articleCount + ' article(s) · ' + signal.sourceCount + ' source(s) directe(s)</div>' +
     '<h3>' + escapeHtml(signal.entityName) + '</h3>' +
     '<p class="summary">' + escapeHtml(signal.entityType) + ' · ' +
     escapeHtml((signal.aliasesMatched || []).slice(0, 3).join(' · ')) + '</p>' +
     '<div class="card-actions">' + (signal.articles || []).slice(0, 3).map(article =>
       '<a class="secondary" href="' + escapeHtml(article.url) + '" target="_blank" rel="noopener noreferrer">' +
       escapeHtml(article.title) + ' ↗</a>'
-    ).join('') + '</div></article>'
-  ).join("");
+    ).join('') + '</div></article>';
+  }).join("");
 }
 function renderCatalog() {
   const host = $("catalog-list");
