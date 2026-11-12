@@ -240,10 +240,11 @@ export function prioritizeEnrichmentItems(items, { maxPages = MAX_PAGES, maxAggr
   };
   direct.sort(excerptPriority);
   aggregators.sort(excerptPriority);
-  const directLimit = Math.max(0, maxPages - Math.min(maxAggregatorPages, maxPages));
+  const selectedDirect = direct.slice(0, maxPages);
+  const remaining = Math.max(0, maxPages - selectedDirect.length);
   return [
-    ...direct.slice(0, directLimit),
-    ...aggregators.slice(0, Math.min(maxAggregatorPages, maxPages))
+    ...selectedDirect,
+    ...aggregators.slice(0, Math.min(maxAggregatorPages, remaining))
   ];
 }
 
