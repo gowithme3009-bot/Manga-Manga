@@ -4,10 +4,11 @@ import net from "node:net";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const MAX_PAGES = 16;
+const MAX_PAGES = 28;
+const MAX_AGGREGATOR_PAGES = 4;
 const MAX_HTML_BYTES = 1_200_000;
 const MAX_EXCERPT = 1_600;
-const TIMEOUT_MS = 12_000;
+const TIMEOUT_MS = 8_000;
 
 function isPublicHost(hostname) {
   const host = String(hostname || "").toLowerCase().replace(/^\[|\]$/g, "");
@@ -222,16 +223,42 @@ async function fetchArticle(fetchImpl, initialUrl, title = "") {
   return null;
 }
 
-export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAGES } = {}) {
+export function prioritizeEnrichmentItems(items, { maxPages = MAX_PAGES, maxAggregatorPages = MAX_AGGREGATOR_PAGES } = {}) {
+  const direct = [];
+  const aggregators = [];
+  for (const [index, item] of (items || []).entries()) {
+    const url = item?.articleUrl || item?.url;
+    if (isGoogleNewsUrl(url)) aggregators.push(index);
+    else if (safeArticleUrl(url)) direct.push(index);
+  }
+  // Les médias directs passent d'abord. Parmi eux, les extraits les plus pauvres
+  // sont enrichis en priorité ; l'ordre du Radar départage les cas équivalents.
+  const excerptPriority = (left, right) => {
+    const length = item => String(items[item]?.summary || "").trim().length;
+    const bucket = value => value < 120 ? 0 : value < 350 ? 1 : value < 800 ? 2 : 3;
+    return bucket(length(left)) - bucket(length(right)) || left - right;
+  };
+  direct.sort(excerptPriority);
+  aggregators.sort(excerptPriority);
+  const directLimit = Math.max(0, maxPages - Math.min(maxAggregatorPages, maxPages));
+  return [
+    ...direct.slice(0, directLimit),
+    ...aggregators.slice(0, Math.min(maxAggregatorPages, maxPages))
+  ];
+}
+
+export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAGES, maxAggregatorPages = MAX_AGGREGATOR_PAGES } = {}) {
   const result = (items || []).map(item => ({ ...item }));
-  let attempted = 0, enriched = 0, skippedAggregator = 0;
-  for (let index = 0; index < result.length && attempted < maxPages; index += 1) {
+  let attempted = 0, enriched = 0, skippedAggregator = 0, directAttempted = 0, aggregatorAttempted = 0;
+  const orderedIndices = prioritizeEnrichmentItems(result, { maxPages, maxAggregatorPages });
+  for (const index of orderedIndices) {
     const item = result[index];
     const summary = String(item.summary || "").replace(/\s+/g, " ").trim();
     const url = item.articleUrl || item.url;
     const aggregator = isGoogleNewsUrl(url);
-    if (!aggregator && !safeArticleUrl(url)) continue;
     attempted += 1;
+    if (aggregator) aggregatorAttempted += 1;
+    else directAttempted += 1;
     try {
       const publisherUrl = aggregator ? await resolvePublisherUrl(fetchImpl, url) : url;
       if (!publisherUrl) {
@@ -266,14 +293,14 @@ export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAG
       item.articleFetchNote = error.name === "TimeoutError" || error.name === "AbortError" ? "Délai dépassé" : "Contenu original indisponible";
     }
   }
-  return { items: result, attempted, enriched, skippedAggregator };
+  return { items: result, attempted, enriched, skippedAggregator, directAttempted, aggregatorAttempted };
 }
 
 export async function runEnrichment({ inputPath = path.join(ROOT, "data/latest-news.json"), outputPath = inputPath, fetchImpl = fetch } = {}) {
   const data = JSON.parse(await fs.readFile(inputPath, "utf8"));
   const result = await enrichItems(data.items, { fetchImpl });
-  await fs.writeFile(outputPath, JSON.stringify({ ...data, items: result.items, articleEnrichment: { attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, maxPages: MAX_PAGES, excerptLimit: MAX_EXCERPT } }, null, 2) + "\n");
-  console.log(JSON.stringify({ attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, note: "Les liens agrégateurs sont résolus vers le média d’origine lorsque possible ; les extraits ne remplacent pas la lecture intégrale." }, null, 2));
+  await fs.writeFile(outputPath, JSON.stringify({ ...data, items: result.items, articleEnrichment: { attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, directAttempted: result.directAttempted, aggregatorAttempted: result.aggregatorAttempted, maxPages: MAX_PAGES, maxAggregatorPages: MAX_AGGREGATOR_PAGES, excerptLimit: MAX_EXCERPT } }, null, 2) + "\n");
+  console.log(JSON.stringify({ attempted: result.attempted, enriched: result.enriched, directAttempted: result.directAttempted, aggregatorAttempted: result.aggregatorAttempted, skippedAggregator: result.skippedAggregator, note: "Les liens agrégateurs sont résolus vers le média d’origine lorsque possible ; les extraits ne remplacent pas la lecture intégrale." }, null, 2));
   return result;
 }
 
