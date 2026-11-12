@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:16:36.364Z",
+  "generatedAt": "2026-11-12T09:20:34.806Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T09:16:36.364Z",
+    "refreshedAt": "2026-11-12T09:20:34.806Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -340,7 +340,7 @@
         "灰宮先輩は怖くてかわいい",
         "Haimiya Senpai is Scary but Cute"
       ],
-      "popularity": 22241,
+      "popularity": 22332,
       "trending": 67,
       "format": "MANGA",
       "genres": [
@@ -1107,7 +1107,7 @@
         "Kidnapped Dragons",
         "Sequestrando Dragões"
       ],
-      "popularity": 5204,
+      "popularity": 5224,
       "trending": 26,
       "format": "MANGA",
       "genres": [
@@ -1600,7 +1600,7 @@
         "PSYREN -サイレン-",
         "САЙРЕН"
       ],
-      "popularity": 24313,
+      "popularity": 24447,
       "trending": 22,
       "format": "TV",
       "genres": [
@@ -1954,7 +1954,7 @@
         "A Wild Last Boss Appeared! Season 2",
         "野生のラスボスが現れた！ 第2期"
       ],
-      "popularity": 25082,
+      "popularity": 25162,
       "trending": 19,
       "format": "ONA",
       "genres": [
@@ -3041,7 +3041,7 @@
         "Maryoku Revo",
         "魔力リボ"
       ],
-      "popularity": 26203,
+      "popularity": 26346,
       "trending": 15,
       "format": "TV",
       "genres": [
@@ -4321,7 +4321,7 @@
         "桃源暗鬼 2期",
         "Tougen Anki Season 2"
       ],
-      "popularity": 21911,
+      "popularity": 21986,
       "trending": 12,
       "format": "TV",
       "genres": [
@@ -5838,7 +5838,7 @@
         "乙女怪獣キャラメリゼ",
         "สาวน้อยไคจู คาราเมไลซ์"
       ],
-      "popularity": 44626,
+      "popularity": 44677,
       "trending": 10,
       "format": "TV",
       "genres": [
@@ -7181,7 +7181,7 @@
         "DemoKure",
         "Diabelska pieczęć"
       ],
-      "popularity": 10325,
+      "popularity": 10592,
       "trending": 9,
       "format": "ONA",
       "genres": [
@@ -7228,7 +7228,7 @@
         "夜鷹ふたたび",
         "Nighthawk Returns"
       ],
-      "popularity": 4261,
+      "popularity": 4285,
       "trending": 9,
       "format": "MANGA",
       "genres": [
@@ -7276,7 +7276,7 @@
         "눈먼 공작과 약혼했다",
         "I Got Engaged To The Blind Duke"
       ],
-      "popularity": 1732,
+      "popularity": 1744,
       "trending": 9,
       "format": "MANGA",
       "genres": [
@@ -8013,7 +8013,7 @@
         "Un amour invisible",
         "รักที่มองไม่เห็น ด้วยตา กับเธอในค่ำคืนที่แสนจะเลือนราง"
       ],
-      "popularity": 57176,
+      "popularity": 57271,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -9612,7 +9612,7 @@
         "UchiOto",
         "うち弟"
       ],
-      "popularity": 13518,
+      "popularity": 13559,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -9831,7 +9831,7 @@
         "噬劍劍聖",
         "ซอร์ดมาสเตอร์ผู้กลืนดาบ"
       ],
-      "popularity": 4378,
+      "popularity": 4388,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -11782,7 +11782,7 @@
         "Colorist",
         "컬러리스트"
       ],
-      "popularity": 2489,
+      "popularity": 2506,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -13185,7 +13185,7 @@
         "ふたりバス",
         "Bus For Two"
       ],
-      "popularity": 4889,
+      "popularity": 4900,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13207,7 +13207,7 @@
         "방랑기사로 살아가는 법",
         "The Wandering Knight’s Survival Manual"
       ],
-      "popularity": 4557,
+      "popularity": 4572,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13374,7 +13374,7 @@
         "World-Saving is a Skill",
         "กู้โลกอีกครั้งไม่ยากนักหรอก"
       ],
-      "popularity": 3097,
+      "popularity": 3106,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -14533,7 +14533,7 @@
         "武林第一疯子",
         "武林狂徒"
       ],
-      "popularity": 7272,
+      "popularity": 7292,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14868,7 +14868,7 @@
         "The Youngest Hides a Lot of Things",
         "The Youngest Has Many Secrets"
       ],
-      "popularity": 1895,
+      "popularity": 1908,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14981,7 +14981,7 @@
         "召唤之主！当异变降临人间",
         "Lord of Summoning When the World Changes"
       ],
-      "popularity": 1311,
+      "popularity": 1322,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15051,7 +15051,7 @@
         "A Private Debt",
         "Loan Shark Ties"
       ],
-      "popularity": 901,
+      "popularity": 903,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15117,7 +15117,7 @@
         "八女帝全背叛，重生悔到肠断",
         "Reborn After the Eight Empresses Betrayed Me, Now I’ll Make Them Regret It"
       ],
-      "popularity": 521,
+      "popularity": 522,
       "trending": 4,
       "format": "MANGA",
       "genres": [

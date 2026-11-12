@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:16:28.346Z",
+  "generatedAt": "2026-11-12T09:20:29.095Z",
   "items": [
     {
       "id": "55ae94b373a6584160a0",
@@ -11,6 +11,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "ToutenBD.com",
+      "publisherUrl": "https://www.toutenbd.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -24,7 +26,12 @@
       "trendScore": 59,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -35,6 +42,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Gamekult",
+      "publisherUrl": "https://www.gamekult.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -48,7 +57,12 @@
       "trendScore": 59,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "1a9595d626b602cb5849",
@@ -59,6 +73,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -72,6 +88,11 @@
       "trendScore": 58,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/resident-evil-requiem-wins-golden-joystick-awards-ultimate-game-of-the-year-console-game-of-the-year/.243739"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -83,6 +104,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -96,6 +119,11 @@
       "trendScore": 58,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -107,6 +135,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Le Quotidien Jurassien",
+      "publisherUrl": "https://www.lqj.ch",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -120,7 +150,12 @@
       "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "86324f10058b4807aacb",
@@ -131,6 +166,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "La Libre.be",
+      "publisherUrl": "https://www.lalibre.be",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -144,7 +181,12 @@
       "trendScore": 51,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -155,6 +197,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -168,6 +212,11 @@
       "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -179,6 +228,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -189,9 +240,14 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -203,6 +259,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -216,6 +274,11 @@
       "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -227,6 +290,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -240,6 +305,11 @@
       "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -251,33 +321,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 47,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
-    },
-    {
-      "id": "393c1036d3378e0778ee",
-      "title": "Kirby Rides the Dragoon in New Chogokin Figure",
-      "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
-      "summary": "Figure arrives next May",
-      "publishedAt": "2026-11-12T03:03:33.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -291,6 +336,47 @@
       "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "www.animenewsnetwork.com",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
+    },
+    {
+      "id": "393c1036d3378e0778ee",
+      "title": "Kirby Rides the Dragoon in New Chogokin Figure",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
+      "summary": "Figure arrives next May",
+      "publishedAt": "2026-11-12T03:03:33.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 46,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -302,6 +388,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -312,10 +400,17 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
       "summaryOrigin": "metadata_article_original",
       "articleContentRetrieved": true,
       "articleFetchNote": ""
@@ -329,30 +424,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 38,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
-    {
-      "id": "c36ad5c18561e4d88f35",
-      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
-      "summary": "Dengeki Daisy , Fate Rewinder , more anime screen at event in Fort Worth, TX",
-      "publishedAt": "2026-11-11T21:30:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -366,6 +439,42 @@
       "trendScore": 37,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685"
+      },
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+    },
+    {
+      "id": "c36ad5c18561e4d88f35",
+      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+      "summary": "Dengeki Daisy , Fate Rewinder , more anime screen at event in Fort Worth, TX",
+      "publishedAt": "2026-11-11T21:30:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 37,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
@@ -377,6 +486,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -390,17 +501,24 @@
       "trendScore": 36,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714"
+      },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "0d197a3e05f25c0f90dd",
       "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
       "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "summary": "Events Press Conference Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2’s Emotional Impact Written by Jorge Manuel Sanchez Moreno Cardenas November 11, 2026 CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode season on October 20. The latest installment is a new story in the noir world of Night City after the events of Season 1, with a whole new set of characters and ideas on the table brought to life again by Studio TRIGGER and CD PROJEKT RED (CDPR). Following the premiere, Season 2’s showrunner Bartosz Sztybor and executive producer Saya Elder from CDPR flew to the Italian festival Lucca Comics & Games and took part in a special panel on the third day of the convention, October 30, in Cinema Astra. Under the name “Emotional Damage: How Cyberpunk: Edgerunners 2 Makes You Feel,” both guests spoke with journalist Eva Carducci about the decisions behind the new season, and the emotions they put into the show. Portions of this panel have been edited for clarity. Beware of CYBERPUNK: EDGERUNNERS 1 and 2 plot spoilers below. Q: How do you make people emotional? Bartosz: Honestly I don’t know. It just happens. What needs to be done is that the creators need to be sincere with themselves. That’s why I always put myself into the characters that I’m creating. It’s also important that when I write stories, they are always character driven. The plot is important, of course. But the character is the most important thing in the plot. Sometimes people ask me about the endings. Yes, when I start writing there is an ending, but sometim",
+      "summary": "CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode…",
       "publishedAt": "2026-11-11T20:50:02.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -413,11 +531,7 @@
       "independentSourceCount": 1,
       "trendScore": 36,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "27dd98ec22f905142331",
@@ -428,30 +542,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
-    {
-      "id": "7402a92f5ca6d7cb985b",
-      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
-      "summary": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
-      "publishedAt": "2026-11-11T19:35:02.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -464,8 +556,32 @@
       "independentSourceCount": 1,
       "trendScore": 34,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "7402a92f5ca6d7cb985b",
+      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
+      "summary": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
+      "publishedAt": "2026-11-11T19:35:02.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -476,6 +592,8 @@
       "source": "Anime UK News",
       "sourceId": "anime-uk-news",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime UK News"
@@ -499,6 +617,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -522,6 +642,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Le Monde.fr",
+      "publisherUrl": "https://www.lemonde.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -534,8 +656,7 @@
       "independentSourceCount": 0,
       "trendScore": 32,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -546,6 +667,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -569,6 +692,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Adala News",
+      "publisherUrl": "https://adala-news.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -581,8 +706,7 @@
       "independentSourceCount": 0,
       "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -593,6 +717,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -616,6 +742,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -639,6 +767,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Adala News",
+      "publisherUrl": "https://adala-news.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -651,18 +781,19 @@
       "independentSourceCount": 0,
       "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4b9ea639a65c023e1931",
       "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "summary": "Sequel slated for release by September 2027 // Nihon Falcom revealed on Wednesday in a financial results report for the fiscal year that ended on September...",
+      "summary": "Sequel slated for release by September 2027",
       "publishedAt": "2026-11-11T17:06:22.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -675,11 +806,7 @@
       "independentSourceCount": 1,
       "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -690,6 +817,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -713,6 +842,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -736,6 +867,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -759,6 +892,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Ouest-France",
+      "publisherUrl": "https://www.ouest-france.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -782,6 +917,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -805,6 +942,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -828,6 +967,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -851,6 +992,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -874,6 +1017,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -897,6 +1042,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -920,6 +1067,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -943,6 +1092,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -966,6 +1117,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "lanouvellerepublique.fr",
+      "publisherUrl": "https://www.lanouvellerepublique.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -989,6 +1142,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1012,6 +1167,8 @@
       "source": "MyAnimeList News",
       "sourceId": "myanimelist",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "MyAnimeList News"
@@ -1035,6 +1192,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1058,6 +1217,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1081,6 +1242,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1104,6 +1267,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1127,6 +1292,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1150,6 +1317,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1173,6 +1342,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1196,6 +1367,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1219,6 +1392,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1242,6 +1417,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1265,6 +1442,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "La Voix du Nord",
+      "publisherUrl": "https://www.lavoixdunord.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1288,6 +1467,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Livres Hebdo",
+      "publisherUrl": "https://www.livreshebdo.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1311,6 +1492,8 @@
       "source": "Anime UK News",
       "sourceId": "anime-uk-news",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime UK News"
@@ -1334,6 +1517,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1357,6 +1542,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1380,6 +1567,8 @@
       "source": "MyAnimeList News",
       "sourceId": "myanimelist",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "MyAnimeList News"
@@ -1403,6 +1592,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1426,6 +1617,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1449,6 +1642,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1472,6 +1667,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1495,6 +1692,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1518,6 +1717,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1541,6 +1742,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "L'Est Républicain",
+      "publisherUrl": "https://www.estrepublicain.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1564,6 +1767,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1587,6 +1792,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1610,6 +1817,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1633,6 +1842,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1656,6 +1867,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1679,6 +1892,8 @@
       "source": "Annonces officielles — Google Actualités",
       "sourceId": "official-announcements",
       "language": "en",
+      "publisherName": "MANGA Plus by SHUEISHA",
+      "publisherUrl": "https://mangaplus.shueisha.co.jp",
       "category": "actualité",
       "sources": [
         "Annonces officielles — Google Actualités"
@@ -1702,6 +1917,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1725,6 +1942,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1748,6 +1967,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Serieously",
+      "publisherUrl": "https://serieously.ouest-france.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1771,6 +1992,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1794,6 +2017,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1817,6 +2042,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -1840,6 +2067,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Libération",
+      "publisherUrl": "https://www.liberation.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1863,6 +2092,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1886,6 +2117,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1909,6 +2142,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "lanouvellerepublique.fr",
+      "publisherUrl": "https://www.lanouvellerepublique.fr",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -1932,6 +2167,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1955,6 +2192,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -1965,7 +2204,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1978,6 +2217,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "ActuaLitté.com",
+      "publisherUrl": "https://actualitte.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -2001,6 +2242,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2024,6 +2267,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2047,6 +2292,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -2070,6 +2317,8 @@
       "source": "Anime Corner",
       "sourceId": "anime-corner",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime Corner"
@@ -2093,6 +2342,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2116,6 +2367,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2139,6 +2392,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -2162,6 +2417,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2185,6 +2442,8 @@
       "source": "MyAnimeList News",
       "sourceId": "myanimelist",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "MyAnimeList News"
@@ -2208,6 +2467,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2231,6 +2492,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2254,6 +2517,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2277,6 +2542,8 @@
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "category": "actualité",
       "sources": [
         "Google Actualités — Manga & Anime"
@@ -2300,6 +2567,8 @@
       "source": "Anime UK News",
       "sourceId": "anime-uk-news",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime UK News"
@@ -2323,6 +2592,8 @@
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
       "category": "actualité",
       "sources": [
         "Anime News Network"
@@ -2397,8 +2668,8 @@
   "warnings": [],
   "articleEnrichment": {
     "attempted": 16,
-    "enriched": 4,
-    "skippedAggregator": 7,
+    "enriched": 2,
+    "skippedAggregator": 4,
     "maxPages": 16,
     "excerptLimit": 1600
   }

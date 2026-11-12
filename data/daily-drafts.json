@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:16:28.346Z",
+  "generatedAt": "2026-11-12T09:20:29.095Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 19,
+  "eligibleCount": 17,
   "items": [
     {
       "id": "fe2a1301d1717f390601",
@@ -14,27 +14,36 @@
       "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
       "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
       "articleContentRetrieved": true,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "www.animenewsnetwork.com",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "publisherName": null,
+      "publisherUrl": null,
       "summaryOrigin": "metadata_article_original",
       "sourceNames": [
         "Anime News Network"
       ],
       "publishedAt": "2026-11-12T03:10:20.000Z",
       "freshnessHours": 6,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Ankama a annoncé le mercredi la sortie d’une adaptation webtoon en 12 épisodes de la série anime Welsh & Shedar. Le projet réunit plusieurs artistes autour de cet univers. Le webtoon sera publié en ligne, mais les plateformes et dates exactes restent à confirmer.\n\nCette initiative montre l’intérêt croissant des studios français pour les formats numériques et les collaborations artistiques.\n\nQuestion à la communauté : Qu’attendez‑vous de ce nouveau webtoon ?",
+      "text": "Ankama a annoncé le lancement d’un webtoon de 12 épisodes basé sur l’anime Welsh & Shedar. Le projet réunit plusieurs artistes pour illustrer l’histoire. Cette adaptation numérique vient élargir l’univers de la série.\nPour l’instant, seuls les premiers épisodes sont disponibles en ligne. Restez à l’affût pour plus de détails.\n\nQuestion à la communauté : Qu’attendez‑vous de ce nouveau webtoon ?",
       "hashtags": "#Anime,#Webtoon,#Ankama",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Vérifier la date de publication, les plateformes de diffusion et les noms des artistes impliqués dans le webtoon. Confirmer que l’annonce provient bien d’Ankama et non d’une source secondaire. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Extrait récupéré sur Anime News Network, mais l’article complet n’a pas été lu. Vérifier le nombre exact d’épisodes, les artistes impliqués et la date de sortie sur la page originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
-      "aiTitle": "Welsh & Shedar anime lance un webtoon",
-      "aiCommunityQuestion": "Qu’attendez‑vous de ce nouveau webtoon ?",
-      "aiVerificationNotes": "Vérifier la date de publication, les plateformes de diffusion et les noms des artistes impliqués dans le webtoon. Confirmer que l’annonce provient bien d’Ankama et non d’une source secondaire."
+      "aiGeneratedAt": "2026-11-12T09:20:47.035Z",
+      "aiTitle": "Webtoon de Welsh & Shedar annoncé par Ankama",
+      "aiCommunityQuestion": "Qu’attendez‑vous de ce nouveau webtoon ?",
+      "aiVerificationNotes": "Extrait récupéré sur Anime News Network, mais l’article complet n’a pas été lu. Vérifier le nombre exact d’épisodes, les artistes impliqués et la date de sortie sur la page originale."
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -45,27 +54,36 @@
       "sourceUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
       "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
       "articleContentRetrieved": true,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "publisherName": null,
+      "publisherUrl": null,
       "summaryOrigin": "metadata_article_original",
       "sourceNames": [
         "Anime Corner"
       ],
       "publishedAt": "2026-11-12T00:28:31.000Z",
       "freshnessHours": 9,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Lors d’une table ronde à Lucca Comics & Games, le showrunner Bartosz Sztybor a évoqué la possibilité d’une troisième saison de CYBERPUNK: EDGERUNNERS. Il a également abordé la façon dont la relation entre David et Lucy pourrait être revisitée et les inspirations personnelles qui nourrissent le personnage de Roman.\n\nSztybor a rappelé que, dès la première saison, il pensait à d’autres histoires à raconter, même si les contraintes de production restent un facteur déterminant. Il a aussi mentionné son travail sur le manga Cyberpunk: Edgerunners MADNESS avec l’illustrateur Asano.\n\nL’interview comporte quelques spoilers sur les saisons précédentes, à lire avec précaution.\n\nQuestion à la communauté : Que souhaiteriez‑vous voir dans une éventuelle saison 3 d’Edgerunners ?",
+      "text": "Lors d’une table ronde à Lucca Comics & Games, le showrunner Bartosz Sztybor a évoqué la possibilité d’une saison 3 de Cyberpunk : Edgerunners, la relation entre David et Lucy, ainsi que ses inspirations personnelles. Il a également parlé de son travail sur le manga Cyberpunk : Edgerunners Madness avec l’illustrateur Asano et des liens entre les différents médias de la franchise.\nL’interview, publiée sur Anime Corner, comporte des spoilers sur les saisons 1 et 2. Sztybor a souligné que l’histoire possède encore de nombreuses pistes à explorer.\n\nQuestion à la communauté : Pensez‑vous qu’une saison 3 verra le jour bientôt ?",
       "hashtags": "#Edgerunners,#Cyberpunk,#Interview",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Confirmer les citations exactes de Bartosz Sztybor et vérifier que les informations sur le manga et les spoilers sont correctement rapportées. S’assurer que le texte ne dépasse pas le résumé fourni. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Extrait vérifié sur Anime Corner, mais l’article complet n’a pas été lu. Confirmer les citations exactes, la mention du manga Madness et les éventuelles dates de production. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
-      "aiTitle": "Table ronde : Bartosz Sztybor parle d’une éventuelle saison 3 d’Edgerunners",
-      "aiCommunityQuestion": "Que souhaiteriez‑vous voir dans une éventuelle saison 3 d’Edgerunners ?",
-      "aiVerificationNotes": "Confirmer les citations exactes de Bartosz Sztybor et vérifier que les informations sur le manga et les spoilers sont correctement rapportées. S’assurer que le texte ne dépasse pas le résumé fourni."
+      "aiGeneratedAt": "2026-11-12T09:20:47.035Z",
+      "aiTitle": "Entretien avec Bartosz Sztybor sur Edgerunners",
+      "aiCommunityQuestion": "Pensez‑vous qu’une saison 3 verra le jour bientôt ?",
+      "aiVerificationNotes": "Extrait vérifié sur Anime Corner, mais l’article complet n’a pas été lu. Confirmer les citations exactes, la mention du manga Madness et les éventuelles dates de production."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -76,6 +94,13 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
+      },
+      "publisherName": "ToutenBD.com",
+      "publisherUrl": "https://www.toutenbd.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -87,16 +112,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’article annonce le décès de Frédéric Boilet, figure emblématique du manga d’auteur. Boilet était reconnu pour son engagement à promouvoir une approche plus personnelle et artistique du manga, souvent qualifiée de \"manga d’auteur\".\n\nSa contribution a marqué de nombreux créateurs et a influencé la perception du manga en dehors du cadre commercial traditionnel.\n\nQuestion à la communauté : Quel a été, selon vous, l’impact de Frédéric Boilet sur le manga d’auteur ?",
+      "text": "Un article signale le décès de Frédéric Boilet, reconnu comme un défenseur du manga d’auteur. Aucun détail supplémentaire n’est fourni dans l’extrait.\n\nQuestion à la communauté : Quel impact Boilet a‑t‑il eu sur le manga d’auteur selon vous ?",
       "hashtags": "#FrédéricBoilet,#Manga,#Décès",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier la date exacte du décès, les circonstances et les éventuels hommages officiels. Confirmer que l’article provient bien de ToutenBD.com et qu’il ne comporte pas d’erreurs factuelles. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Statut de provenance : Média d’origine non identifié. Résumé absent, seul le titre est disponible via le flux RSS de Google Actualités. Vérifier le contenu complet de l’article sur ToutenBD.com pour confirmer le décès et obtenir plus d’informations. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
-      "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur",
-      "aiCommunityQuestion": "Quel a été, selon vous, l’impact de Frédéric Boilet sur le manga d’auteur ?",
-      "aiVerificationNotes": "Vérifier la date exacte du décès, les circonstances et les éventuels hommages officiels. Confirmer que l’article provient bien de ToutenBD.com et qu’il ne comporte pas d’erreurs factuelles."
+      "aiGeneratedAt": "2026-11-12T09:20:47.035Z",
+      "aiTitle": "Décès de Frédéric Boilet, figure du manga d’auteur",
+      "aiCommunityQuestion": "Quel impact Boilet a‑t‑il eu sur le manga d’auteur selon vous ?",
+      "aiVerificationNotes": "Résumé absent, seul le titre est disponible via le flux RSS de Google Actualités. Vérifier le contenu complet de l’article sur ToutenBD.com pour confirmer le décès et obtenir plus d’informations."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -107,6 +132,13 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5"
+      },
+      "publisherName": "Gamekult",
+      "publisherUrl": "https://www.gamekult.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -118,66 +150,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Shueisha, le géant de l’édition manga, a présenté Nightmare Operator, un nouveau jeu de tir à la première personne (TPS) au ton horrifique. Le titre se distingue par l’intégration de combos inspirés du versus fighting, promettant une expérience mêlant action rapide et stratégie.\n\nLes détails sur la date de sortie, les plateformes et les développeurs restent à préciser, tout comme les informations sur le scénario et les mécaniques de jeu spécifiques.\n\nQuestion à la communauté : Que pensez‑vous de l’alliance entre TPS et versus fighting dans Nightmare Operator ?",
-      "hashtags": "#Shueisha,#NightmareOperator,#Gaming",
+      "text": "Shueisha, le géant de l’édition manga, aurait annoncé un nouveau jeu vidéo intitulé Nightmare Operator, décrit comme un TPS horrifique avec des combos de versus fighting. Aucun détail supplémentaire n’est présent dans l’extrait.\n\nQuestion à la communauté : Seriez‑vous tenté(e) par ce mélange de tir à la première personne et de combat ?",
+      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVidéo",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le communiqué officiel de Shueisha, vérifier les informations sur le genre du jeu, les développeurs impliqués et les dates de sortie éventuelles. S’assurer que le résumé ne dépasse pas le contenu fourni. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Statut de provenance : Média d’origine non identifié. Extrait non disponible, uniquement le titre via le flux RSS de Google Actualités. Nécessite de consulter l’article complet sur Gamekult pour confirmer le projet et obtenir les précisions. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
-      "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting",
-      "aiCommunityQuestion": "Que pensez‑vous de l’alliance entre TPS et versus fighting dans Nightmare Operator ?",
-      "aiVerificationNotes": "Confirmer le communiqué officiel de Shueisha, vérifier les informations sur le genre du jeu, les développeurs impliqués et les dates de sortie éventuelles. S’assurer que le résumé ne dépasse pas le contenu fourni."
-    },
-    {
-      "id": "0d197a3e05f25c0f90dd",
-      "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
-      "summary": "Events Press Conference Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2’s Emotional Impact Written by Jorge Manuel Sanchez Moreno Cardenas November 11, 2026 CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode season on October 20. The latest installment is a new story in the noir world of Night City after the events of Season 1, with a whole new set of characters and ideas on the table brought to life again by Studio TRIGGER and CD PROJEKT RED (CDPR). Following the premiere, Season 2’s showrunner Bartosz Sztybor and executive producer Saya Elder from CDPR flew to the Italian festival Lucca Comics & Games and took part in a special panel on the third day of the convention, October 30, in Cinema Astra. Under the name “Emotional Damage: How Cyberpunk: Edgerunners 2 Makes You Feel,” both guests spoke with journalist Eva Carducci about the decisions behind the new season, and the emotions they put into the show. Portions of this panel have been edited for clarity. Beware of CYBERPUNK: EDGERUNNERS 1 and 2 plot spoilers below. Q: How do you make people emotional? Bartosz: Honestly I don’t know. It just happens. What needs to be done is that the creators need to be sincere with themselves. That’s why I always put myself into the characters that I’m creating. It’s also important that when I write stories, they are always character driven. The plot is important, of course. But the character is the most important thing in the plot. Sometimes people ask me about the endings. Yes, when I start writing there is an ending, but sometim",
-      "language": "fr",
-      "sourceLanguage": "en",
-      "sourceUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "articleUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "articleContentRetrieved": true,
-      "summaryOrigin": "metadata_article_original",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "publishedAt": "2026-11-11T20:50:02.000Z",
-      "freshnessHours": 12,
-      "trendScore": 36,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 1,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — SOURCE ORIGINALE EN ANGLAIS, TRADUCTION FRANÇAISE À GÉNÉRER PAR L’ASSISTANT IA\n\nBartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact\n\nExtrait original : Events Press Conference Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2’s Emotional Impact Written by Jorge Manuel Sanchez Moreno Cardenas November 11, 2026 CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode season on October 20. The latest installment is a new story in the noir world of Night City after the events of Season 1, with a whole new set of characters and ideas on the table brought to life again by Studio TRIGGER and CD PROJEKT RED (CDPR). Following the premiere, Season 2’s showrunner Bartosz Sztybor and executive producer Saya Elder from CDPR flew to the Italian festival Lucca Comics & Games and took part in a special panel on the third day of the convention, October 30, in Cinema Astra. Under the name “Emotional Damage: How Cyberpunk: Edgerunners 2 Makes You Feel,” both guests spoke with journalist Eva Carducci about the decisions behind the new season, and the emotions they put into the show. Portions of this panel have been edited for clarity. Beware of CYBERPUNK: EDGERUNNERS 1 and 2 plot spoilers below. Q: How do you make people emotional? Bartosz: Honestly I don’t know. It just happens. What needs to be done is that the creators need to be sincere with themselves. That’s why I always put myself into the characters that I’m creating. It’s also important that when I write stories, they are always character driven. The plot is important, of course. But the character is the most important thing in the plot. Sometimes people ask me about the endings. Yes, when I start writing there is an ending, but sometim\n\nSource : https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
-    },
-    {
-      "id": "4b9ea639a65c023e1931",
-      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
-      "summary": "Sequel slated for release by September 2027 // Nihon Falcom revealed on Wednesday in a financial results report for the fiscal year that ended on September...",
-      "language": "fr",
-      "sourceLanguage": "en",
-      "sourceUrl": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "articleContentRetrieved": true,
-      "summaryOrigin": "metadata_article_original",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "publishedAt": "2026-11-11T17:06:22.000Z",
-      "freshnessHours": 16,
-      "trendScore": 31,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 1,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — SOURCE ORIGINALE EN ANGLAIS, TRADUCTION FRANÇAISE À GÉNÉRER PAR L’ASSISTANT IA\n\nFalcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game\n\nExtrait original : Sequel slated for release by September 2027 // Nihon Falcom revealed on Wednesday in a financial results report for the fiscal year that ended on September...\n\nSource : https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
+      "aiGeneratedAt": "2026-11-12T09:20:47.035Z",
+      "aiTitle": "Shueisha dévoile Nightmare Operator, un TPS horrifique",
+      "aiCommunityQuestion": "Seriez‑vous tenté(e) par ce mélange de tir à la première personne et de combat ?",
+      "aiVerificationNotes": "Extrait non disponible, uniquement le titre via le flux RSS de Google Actualités. Nécessite de consulter l’article complet sur Gamekult pour confirmer le projet et obtenir les précisions."
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -188,6 +170,13 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5"
+      },
+      "publisherName": "Le Quotidien Jurassien",
+      "publisherUrl": "https://www.lqj.ch",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -213,6 +202,13 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5"
+      },
+      "publisherName": "La Libre.be",
+      "publisherUrl": "https://www.lalibre.be",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -238,6 +234,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Le Monde.fr",
+      "publisherUrl": "https://www.lemonde.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -263,6 +265,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Adala News",
+      "publisherUrl": "https://adala-news.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -288,6 +296,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Adala News",
+      "publisherUrl": "https://adala-news.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -313,6 +327,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Ouest-France",
+      "publisherUrl": "https://www.ouest-france.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -338,6 +358,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -363,6 +389,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -388,6 +420,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -413,6 +451,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -438,6 +482,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "lanouvellerepublique.fr",
+      "publisherUrl": "https://www.lanouvellerepublique.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -463,6 +513,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "La Voix du Nord",
+      "publisherUrl": "https://www.lavoixdunord.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -488,6 +544,12 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
       "articleUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
       "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "Livres Hebdo",
+      "publisherUrl": "https://www.livreshebdo.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
@@ -509,6 +571,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
+  "aiGeneratedAt": "2026-11-12T09:20:47.035Z",
   "aiModel": "openai/gpt-oss-120b"
 }
