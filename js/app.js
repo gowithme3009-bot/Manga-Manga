@@ -328,6 +328,7 @@ async function loadRadar() {
         escapeHtml(item.title) + "</option>").join("");
     renderNews();
     renderSearchSignals();
+    renderCatalog();
     renderSources();
     updateCounts();
   } catch (error) {
@@ -456,6 +457,19 @@ document.addEventListener("click", async event => {
   }
 });
 
+function activateRadarTab(tab) {
+  const showTitles = tab === "titles";
+  $("radar-sites-panel").hidden = showTitles;
+  $("radar-sites-panel").classList.toggle("hidden", showTitles);
+  $("radar-titles-panel").hidden = !showTitles;
+  $("radar-titles-panel").classList.toggle("hidden", !showTitles);
+  $("tab-sites").classList.toggle("active", !showTitles);
+  $("tab-titles").classList.toggle("active", showTitles);
+  $("tab-sites").setAttribute("aria-selected", String(!showTitles));
+  $("tab-titles").setAttribute("aria-selected", String(showTitles));
+}
+$("tab-sites").addEventListener("click", () => activateRadarTab("sites"));
+$("tab-titles").addEventListener("click", () => activateRadarTab("titles"));
 $("search").addEventListener("input", renderNews);
 $("catalog-search").addEventListener("input", renderCatalog);
 $("refresh").addEventListener("click", loadRadar);
