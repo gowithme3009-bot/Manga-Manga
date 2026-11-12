@@ -25,7 +25,7 @@ export function scoreEditorialFit(item) {
   if (/\b(review|critique|roundtable|table ronde)\b/i.test(title)) score -= 18;
   if (/\b(interview|entretien)\b/i.test(title)) score -= 6;
   if (/article sponsorisé|contenu sponsorisé|partenariat rémunéré/i.test(summary)) score -= 25;
-  if (/(?:a donné|s'est produit|était en concert|s’est produit|était présent|a eu lieu).{0,100}\b(?:le|en)\s+\\d{1,2}\b/i.test(summary)) score -= 12;
+  if (/(?:a donné|s'est produit|était en concert|s’est produit|était présent|a eu lieu).{0,100}\b(?:le|en)\s+\d{1,2}\b/i.test(summary)) score -= 12;
   return score;
 }
 
