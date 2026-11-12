@@ -271,9 +271,10 @@ function makeDraft() {
 }
 async function loadRadar() {
   try {
-    const [newsResponse, sourceResponse] = await Promise.all([
+    const [newsResponse, sourceResponse, trendsResponse] = await Promise.all([
       fetch("./data/latest-news.json", { cache: "no-store" }),
-      fetch("./data/sources.json", { cache: "no-store" })
+      fetch("./data/sources.json", { cache: "no-store" }),
+      fetch("./data/trend-signals.json", { cache: "no-store" }).catch(() => null)
     ]);
     if (!newsResponse.ok) throw new Error("Fichier du radar indisponible (HTTP " + newsResponse.status + ")");
     const data = await newsResponse.json();
@@ -296,6 +297,7 @@ async function loadRadar() {
       state.items.map(item => '<option value="' + escapeHtml(item.id) + '">' +
         escapeHtml(item.title) + "</option>").join("");
     renderNews();
+    renderSearchSignals();
     renderSources();
     updateCounts();
   } catch (error) {
