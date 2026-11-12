@@ -311,7 +311,7 @@ async function loadRadar() {
     if (trendsResponse?.ok) {
       const trendData = await trendsResponse.json();
       state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];\n      state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
-    } else { state.searchSignals = []; }
+    } else { state.searchSignals = []; state.catalog = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
       ...(collected.get(source.id) || {}),
