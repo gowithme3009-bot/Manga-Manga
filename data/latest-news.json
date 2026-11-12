@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:41:12.388Z",
+  "generatedAt": "2026-11-12T08:42:01.854Z",
   "items": [
     {
       "id": "fbf8816caf62308cf589",
@@ -826,6 +826,29 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
+      "trendScore": 29,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "c1dbf00658ebf329751c",
+      "title": "Parc manga de Cergy visé par un recours - DB-Z.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "summary": "Parc manga de Cergy visé par un recours DB-Z.com",
+      "publishedAt": "2026-11-11T15:17:39.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
@@ -2278,29 +2301,6 @@
       "trendScore": 8,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "a57ec6adb16660726d41",
-      "title": "Japanese Animation TV Ranking, October 26-November 1",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
-      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
-      "publishedAt": "2026-11-10T07:52:54.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 8,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2320,7 +2320,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 51
+      "items": 53
     },
     {
       "id": "anime-corner",
