@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { extractArticleText, safeArticleUrl, enrichItems } from "../scripts/enrich-articles.mjs";
+import { extractArticleText, safeArticleUrl, enrichItems, resolvePublisherUrl } from "../scripts/enrich-articles.mjs";
 
 test("extrait une description éditoriale depuis les métadonnées HTML", () => {
   const html = '<html><head><meta property="og:description" content="Une annonce officielle concernant une nouvelle adaptation anime, avec des informations de contexte utiles aux lecteurs et plusieurs précisions de production."></head></html>';
@@ -61,4 +61,43 @@ test("ne lit pas une page HTML trop volumineuse", async () => {
   });
   assert.equal(result.enriched, 0);
   assert.notEqual(result.items[0].articleContentRetrieved, true);
+});
+
+test("résout une redirection Google Actualités vers le domaine du média", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(null, {
+    status: 302, headers: { location: "https://publisher.example/news/manga" }
+  }), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, "https://publisher.example/news/manga");
+});
+
+test("refuse une redirection Google Actualités vers une destination locale", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(null, {
+    status: 302, headers: { location: "https://127.0.0.1/private" }
+  }), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, null);
+});
+
+test("enrichit un lien Google uniquement après résolution du média d’origine", async () => {
+  const calls = [];
+  const result = await enrichItems([{
+    id: "google-resolved", title: "Une annonce manga", url: "https://news.google.com/rss/articles/example",
+    summary: "", language: "fr"
+  }], {
+    maxPages: 1,
+    fetchImpl: async (url, options) => {
+      calls.push(url);
+      if (url.startsWith("https://news.google.com/")) {
+        return new Response(null, { status: 302, headers: { location: "https://publisher.example/article" } });
+      }
+      return new Response('<html><head><meta name="description" content="Le média annonce une nouvelle adaptation manga et présente les informations confirmées, les détails éditoriaux et le contexte utile aux lecteurs dans son article original."></head></html>', {
+        status: 200, headers: { "content-type": "text/html" }
+      });
+    }
+  });
+  assert.equal(result.enriched, 1);
+  assert.equal(result.skippedAggregator, 0);
+  assert.equal(result.items[0].articleUrl, "https://publisher.example/article");
+  assert.equal(result.items[0].sourceVerification.status, "original_page_excerpt_verified");
+  assert.equal(result.items[0].sourceVerification.publisherHost, "publisher.example");
+  assert.equal(calls.length, 2);
 });
