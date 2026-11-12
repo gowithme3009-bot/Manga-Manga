@@ -443,6 +443,7 @@ function renderDrafts() {
     '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
   renderMediaLibrary();
   renderEditorImage();
+  updateCounts();
 }
 function getActiveDraftChanges() {
   const activeDraft = state.editingDraftId
