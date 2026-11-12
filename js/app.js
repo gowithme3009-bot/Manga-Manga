@@ -15,7 +15,13 @@ function readArray(key) {
     const raw = localStorage.getItem(key);
     if (raw === null) return [];
     const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) {
+    const validEntries = Array.isArray(parsed) && parsed.every(entry =>
+      key === STORAGE_KEY
+        ? entry && typeof entry === "object" && !Array.isArray(entry) &&
+          typeof entry.id === "string" && typeof entry.title === "string"
+        : typeof entry === "string"
+    );
+    if (!validEntries) {
       storageIssues.add(key);
       return [];
     }
