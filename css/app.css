@@ -254,3 +254,37 @@ footer span { padding: 0 5px; color: #d5b14d; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+
+/* Signal de progression : confirmation visuelle légère, sans son. */
+.workflow-signal {
+  position: fixed; z-index: 40; left: 50%; bottom: 20px; transform: translate(-50%, 14px);
+  display: flex; align-items: center; gap: 11px; width: min(560px, calc(100vw - 28px));
+  padding: 13px 15px; border: 1px solid #dce8e2; border-radius: 13px;
+  color: #1d3b32; background: #fff; box-shadow: 0 12px 34px #14244124;
+  opacity: 0; transition: opacity .22s ease, transform .22s ease;
+}
+.workflow-signal[hidden] { display: none; }
+.workflow-signal.show { opacity: 1; transform: translate(-50%, 0); }
+.workflow-signal-mark {
+  width: 30px; height: 30px; flex: 0 0 30px; display: grid; place-items: center;
+  border-radius: 50%; color: #16734e; background: #e8f6ef; font-weight: 900;
+  animation: workflow-pop .28s ease-out;
+}
+.workflow-signal-copy { min-width: 0; display: grid; gap: 3px; }
+.workflow-signal-copy strong { font-size: 12px; }
+.workflow-signal-copy small { color: #718078; font-size: 10px; line-height: 1.4; }
+.workflow-signal-track { display: flex; gap: 3px; margin-left: auto; flex: 0 0 auto; }
+.workflow-signal-track i { width: 7px; height: 7px; border-radius: 50%; background: #dce4e0; }
+.workflow-signal[data-stage="1"] .workflow-signal-track i:nth-child(-n+1),
+.workflow-signal[data-stage="2"] .workflow-signal-track i:nth-child(-n+2),
+.workflow-signal[data-stage="3"] .workflow-signal-track i:nth-child(-n+3),
+.workflow-signal[data-stage="4"] .workflow-signal-track i:nth-child(-n+4) { background: #29936c; }
+@keyframes workflow-pop { from { transform: scale(.72); opacity: .5; } to { transform: scale(1); opacity: 1; } }
+@media (max-width: 440px) {
+  .workflow-signal { bottom: 12px; padding: 11px 12px; }
+  .workflow-signal-copy small { font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .workflow-signal, .workflow-signal-mark { transition: none; animation: none; }
+}
