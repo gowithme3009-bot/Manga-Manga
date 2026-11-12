@@ -161,3 +161,19 @@ test("une tendance multi-sources confirmée prime sur un sujet isolé avec extra
   assert.equal(result.items[0].id, "multi");
   assert.equal(result.items[0].trendLevel, "spectaculaire");
 });
+
+
+test("à niveau égal, une page originale vérifiée prime sur un score isolé plus élevé", () => {
+  const result = buildDailyDrafts([
+    { id: "score-only", title: "Sujet très récent", url: "https://example.org/score",
+      summary: "Résumé RSS exploitable.", language: "fr", source: "Média B",
+      independentSourceCount: 1, trendScore: 99, publishedAt: hoursAgo(1),
+      sourceVerification: { status: "rss_only_unverified", label: "RSS non vérifié" } },
+    { id: "verified", title: "Sujet original vérifié", url: "https://example.org/verified",
+      summary: "Extrait détaillé issu de la page originale.", language: "fr", source: "Média A",
+      independentSourceCount: 1, trendScore: 55, publishedAt: hoursAgo(5),
+      articleContentRetrieved: true,
+      sourceVerification: { status: "original_page_excerpt_verified", label: "Extrait original récupéré" } }
+  ], NOW);
+  assert.equal(result.items[0].id, "verified");
+});
