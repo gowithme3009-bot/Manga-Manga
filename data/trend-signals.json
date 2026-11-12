@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T16:30:46.153Z",
+  "generatedAt": "2026-11-12T16:35:17.475Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T16:30:46.153Z",
+    "refreshedAt": "2026-11-12T16:35:17.475Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15759,11 +15759,12 @@
         "MASHLE",
         "MASHLE: MAGIC AND MUSCLES"
       ],
-      "articleCount": 3,
-      "sourceCount": 3,
+      "articleCount": 4,
+      "sourceCount": 4,
       "sources": [
         "MyAnimeList News",
         "Anime News Network",
+        "AnimOtaku",
         "Anime Corner"
       ],
       "latestAt": "2026-11-11T14:46:50.000Z",
@@ -15782,6 +15783,14 @@
           "publishedAt": "2026-11-11T13:35:28.000Z",
           "sources": [
             "Anime News Network"
+          ]
+        },
+        {
+          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
+          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+          "publishedAt": "2026-11-11T11:30:16.000Z",
+          "sources": [
+            "AnimOtaku"
           ]
         },
         {
@@ -15986,6 +15995,30 @@
           "publishedAt": "2026-11-11T15:31:35.000Z",
           "sources": [
             "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-223",
+      "entityName": "Dragon Ball",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Dragon Ball"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "AnimOtaku"
+      ],
+      "latestAt": "2026-11-12T13:59:00.000Z",
+      "articles": [
+        {
+          "title": "Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ?",
+          "url": "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/",
+          "publishedAt": "2026-11-12T13:59:00.000Z",
+          "sources": [
+            "AnimOtaku"
           ]
         }
       ]
@@ -16273,31 +16306,6 @@
           "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
           "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
           "publishedAt": "2026-11-11T16:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-235",
-      "entityName": "Detective Conan",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Detective Conan",
-        "Détective Conan"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-11T02:00:00.000Z",
-      "articles": [
-        {
-          "title": "Detective Conan Saves Man From Drowning in Car",
-          "url": "https://www.animenewsnetwork.com/interest/2026-11-10/detective-conan-saves-man-from-drowning-in-car/.243683",
-          "publishedAt": "2026-11-11T02:00:00.000Z",
           "sources": [
             "Anime News Network"
           ]
