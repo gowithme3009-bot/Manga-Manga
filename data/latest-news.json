@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:31:19.864Z",
+  "generatedAt": "2026-11-12T10:32:22.305Z",
   "items": [
     {
       "id": "caa5ca3faa63349f9d96",
@@ -58,11 +58,11 @@
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.google-analytics.com/analytics.js"
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
       },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "89f8e0d91d90bdcd8860",
@@ -187,11 +187,11 @@
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.google-analytics.com/analytics.js"
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
       },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -218,11 +218,11 @@
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.google-analytics.com/analytics.js"
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5"
       },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "1a9595d626b602cb5849",
@@ -311,11 +311,11 @@
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.google-analytics.com/analytics.js"
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5"
       },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "86324f10058b4807aacb",
@@ -342,11 +342,11 @@
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.google-analytics.com/analytics.js"
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5"
       },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -881,7 +881,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -906,7 +906,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2628,7 +2628,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 48
+      "items": 49
     },
     {
       "id": "anime-corner",
@@ -2658,7 +2658,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 55
+      "items": 56
     },
     {
       "id": "otaku-usa",
@@ -2671,7 +2671,7 @@
   "articleEnrichment": {
     "attempted": 16,
     "enriched": 2,
-    "skippedAggregator": 0,
+    "skippedAggregator": 5,
     "maxPages": 16,
     "excerptLimit": 1600
   }

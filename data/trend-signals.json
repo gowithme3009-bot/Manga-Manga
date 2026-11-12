@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:31:29.866Z",
+  "generatedAt": "2026-11-12T10:32:34.168Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:31:29.866Z",
+    "refreshedAt": "2026-11-12T10:32:34.168Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -3107,7 +3107,7 @@
         "2جوجوتسو كايسن ",
         "Jujutsu Kaisen: Shibuya Incident"
       ],
-      "popularity": 506817,
+      "popularity": 507061,
       "trending": 13,
       "format": "TV",
       "genres": [
@@ -3574,7 +3574,7 @@
         "ガチアクタ",
         "Gachi Akuta"
       ],
-      "popularity": 68606,
+      "popularity": 68654,
       "trending": 12,
       "format": "MANGA",
       "genres": [
@@ -8826,7 +8826,7 @@
         "Истребитель демонов: Kimetsu no Yaiba. Деревня кузнецов",
         "Miecz zabójcy demonów – Kimetsu no Yaiba: Wioska płatnerzy"
       ],
-      "popularity": 383319,
+      "popularity": 383471,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -12643,7 +12643,7 @@
         "Red Blue",
         "レッドブルー"
       ],
-      "popularity": 4868,
+      "popularity": 4871,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13361,7 +13361,7 @@
         "灭亡之后的世界",
         "El mundo después del cataclismo"
       ],
-      "popularity": 45913,
+      "popularity": 45931,
       "trending": 4,
       "format": "MANGA",
       "genres": [
