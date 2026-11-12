@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:18:23.790Z",
+  "generatedAt": "2026-11-12T10:20:17.382Z",
   "items": [
     {
       "id": "caa5ca3faa63349f9d96",
@@ -904,7 +904,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2626,7 +2626,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 48
+      "items": 47
     },
     {
       "id": "anime-corner",

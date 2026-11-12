@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:18:29.968Z",
+  "generatedAt": "2026-11-12T10:20:24.105Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:18:29.968Z",
+    "refreshedAt": "2026-11-12T10:20:24.105Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -1296,7 +1296,7 @@
         "فريرن: ما وراء نهاية الرحلة",
         "Frieren: Tras finalizar el viaje"
       ],
-      "popularity": 498288,
+      "popularity": 498591,
       "trending": 21,
       "format": "TV",
       "genres": [
@@ -8308,7 +8308,7 @@
         "顶级气运，悄悄修炼千年",
         "Top Tier Providence: Secretly Cultivate for a Thousand Years"
       ],
-      "popularity": 11351,
+      "popularity": 11359,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -9091,7 +9091,7 @@
         "Labužníci v kobce",
         "طعام الدهليز اللذيذ"
       ],
-      "popularity": 233067,
+      "popularity": 233198,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -12126,7 +12126,7 @@
         "สูตรสำเร็จแห่งการเกิดใหม่",
         "O Conceito da Reencarnação"
       ],
-      "popularity": 21447,
+      "popularity": 21454,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -14104,7 +14104,7 @@
         "The Fed-Up Office Lady Wants to Serve the Villainess",
         "限界OLさんは悪役令嬢さまに仕えたい"
       ],
-      "popularity": 6766,
+      "popularity": 6771,
       "trending": 4,
       "format": "MANGA",
       "genres": [
