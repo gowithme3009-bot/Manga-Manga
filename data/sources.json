@@ -30,6 +30,15 @@
       "category": "agrégateur"
     },
     {
+      "id": "manga-news-fr",
+      "name": "Manga-News — actualités",
+      "homepage": "https://www.manga-news.com",
+      "feedUrl": "https://www.manga-news.com/index.php/feed/news",
+      "language": "fr",
+      "enabled": true,
+      "category": "média spécialisé"
+    },
+    {
       "id": "anime-corner",
       "name": "Anime Corner",
       "homepage": "https://animecorner.me",
