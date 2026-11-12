@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:22:03.096Z",
+  "generatedAt": "2026-11-12T10:23:24.198Z",
   "items": [
     {
       "id": "caa5ca3faa63349f9d96",
@@ -183,7 +183,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 57,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -245,7 +245,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -656,6 +656,33 @@
       "independentSourceCount": 1,
       "trendScore": 34,
       "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "b141176f59700ae38753",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure has released a new Stand special video featuring previously unseen footage from the ongoing anime.",
+      "publishedAt": "2026-11-11T12:10:51.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network",
+        "Anime Corner"
+      ],
+      "sourceIds": [
+        "anime-news-network",
+        "anime-corner"
+      ],
+      "sourceCount": 2,
+      "coverageSourceCount": 2,
+      "independentSourceCount": 2,
+      "trendScore": 34,
+      "trendLevel": "hausse",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
@@ -1404,7 +1431,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1480,31 +1507,6 @@
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
       "trendScore": 25,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "114d72b901a98cf6ddcb",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Spotlights Stands in New Special Video",
-      "url": "https://animecorner.me/steel-ball-run-jojos-bizarre-adventure-spotlights-stands-in-new-special-video/",
-      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure has released a new Stand special video featuring previously unseen footage from the ongoing anime.",
-      "publishedAt": "2026-11-11T12:10:51.000Z",
-      "source": "Anime Corner",
-      "sourceId": "anime-corner",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-corner"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },

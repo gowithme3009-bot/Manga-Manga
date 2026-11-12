@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:22:08.147Z",
+  "generatedAt": "2026-11-12T10:23:30.693Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:22:08.147Z",
+    "refreshedAt": "2026-11-12T10:23:30.693Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -1771,7 +1771,7 @@
         "เซียนสัมผัสดาบ",
         "絕對劍感"
       ],
-      "popularity": 17899,
+      "popularity": 17923,
       "trending": 19,
       "format": "MANGA",
       "genres": [
@@ -3940,7 +3940,7 @@
         "Рубеж Шангри-Ла",
         "Thợ săn Game rác thách thức Game cấp Thánh"
       ],
-      "popularity": 197202,
+      "popularity": 197331,
       "trending": 11,
       "format": "TV",
       "genres": [
@@ -4321,7 +4321,7 @@
         "Na Honjaman Level Up",
         "Solo Leveling: Поднятие уровня в одиночку"
       ],
-      "popularity": 462261,
+      "popularity": 462529,
       "trending": 10,
       "format": "TV",
       "genres": [
@@ -4631,7 +4631,7 @@
         "ผมก็แค่ตัวประกอบในนิยาย",
         "成為我筆下小說的路人甲"
       ],
-      "popularity": 31109,
+      "popularity": 31128,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -6183,7 +6183,7 @@
         "小智是女孩啦！",
         "Томо — девушка!"
       ],
-      "popularity": 182011,
+      "popularity": 182099,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -7826,7 +7826,7 @@
         "Про рух Землі",
         "Orbe: Sobre os Movimentos da Terra"
       ],
-      "popularity": 128022,
+      "popularity": 128119,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -10055,7 +10055,7 @@
         "빌어먹을 환생",
         "Damn Reincarnation"
       ],
-      "popularity": 36271,
+      "popularity": 36305,
       "trending": 6,
       "format": "MANGA",
       "genres": [
