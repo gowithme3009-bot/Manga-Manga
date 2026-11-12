@@ -11,6 +11,7 @@ const SYSTEM_PROMPT = [
 "Un extrait enrichi depuis la page originale apporte plus de contexte qu’un titre seul, mais ne représente pas nécessairement l’article complet.",
 "Si la source originale est en anglais, rédige en français en traduisant fidèlement l’extrait ; conserve les noms propres et titres d’œuvres.",
 "Ne prétends jamais avoir lu l’article intégral. Mentionne dans verificationNotes si l’extrait original est absent ou insuffisant.",
+"Respecte le statut sourceVerification fourni : ne dis jamais qu’une source est vérifiée si son statut ne confirme pas une page originale.",
 "N’invente jamais de date, chiffre, citation, nom, studio, auteur, plateforme, calendrier ou détail d’intrigue.",
 "Si le résumé est vide ou trop pauvre, reformule uniquement le titre sans ajouter de fait et indique que l’information doit être confirmée dans l’article original.",
 "Ne transforme jamais un signal de tendance en preuve de popularité ou de viralité. Les scores sont des indicateurs de fraîcheur/couverture, pas des compteurs de clics.",
@@ -53,7 +54,7 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
    note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
     candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : ouvrir la source et contrôler les faits, noms et dates.":"Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication.",
-    draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
+    "Statut de provenance : "+(candidate.sourceVerification?.label||"Source originale non vérifiée")+".",draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
  });
  return {...data,aiGeneratedAt:generatedAt,aiModel:model,items};
 }
@@ -65,7 +66,7 @@ export async function generateAiDrafts({inputPath=path.join(ROOT,"data/daily-dra
  const response=await fetchImpl(API_URL,{method:"POST",headers:{"Authorization":"Bearer "+apiKey,"Content-Type":"application/json"},
   body:JSON.stringify({model,temperature:0.35,max_completion_tokens:4200,response_format:{type:"json_object"},
    messages:[{role:"system",content:SYSTEM_PROMPT},{role:"user",content:JSON.stringify({instruction:"Rédige une prépublication prudente par sujet. Respecte les identifiants. Le résumé peut être vide.",
-    proposals:candidates.map(x=>({id:String(x.id),title:x.title,summary:x.summary||"",summaryOrigin:x.summaryOrigin||"rss",articleUrl:x.sourceUrl||null,articleContentRetrieved:Boolean(x.articleContentRetrieved),sourceLanguage:x.sourceLanguage||"fr",language:"fr",sources:x.sourceNames||[],
+    proposals:candidates.map(x=>({id:String(x.id),title:x.title,summary:x.summary||"",summaryOrigin:x.summaryOrigin||"rss",articleUrl:x.sourceUrl||null,articleContentRetrieved:Boolean(x.articleContentRetrieved),sourceVerification:x.sourceVerification||{status:"rss_only_unverified"},publisherName:x.publisherName||null,sourceLanguage:x.sourceLanguage||"fr",language:"fr",sources:x.sourceNames||[],
      publishedAt:x.publishedAt||null,trendLevel:x.trendLevel||"surveillance",independentSourceCount:x.independentSourceCount||0,trendScore:x.trendScore||0}))})}]}),
   signal:AbortSignal.timeout(60000)});
  if(!response.ok) throw new Error("Groq API HTTP "+response.status+" : "+(await response.text()).slice(0,400));
