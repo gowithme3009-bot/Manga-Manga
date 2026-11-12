@@ -454,7 +454,8 @@ document.addEventListener("click", async event => {
   }
 });
 
-$("search").addEventListener("input", renderNews);\n$("catalog-search").addEventListener("input", renderCatalog);
+$("search").addEventListener("input", renderNews);
+$("catalog-search").addEventListener("input", renderCatalog);
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
   const item = state.items.find(entry => entry.id === $("story-select").value);
