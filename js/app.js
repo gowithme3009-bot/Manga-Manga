@@ -7,14 +7,12 @@ const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
 const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
 const PREPUBLICATION_CHECKS = [
-  { id: "trend", label: "Le sujet est récent et présente un intérêt éditorial réel." },
-  { id: "source", label: "L’article original a été ouvert et le média identifié." },
-  { id: "facts", label: "Les noms, dates, chiffres et citations ont été vérifiés." },
-  { id: "uncertainty", label: "Les rumeurs et informations non confirmées sont signalées." },
-  { id: "copy", label: "Le titre et le texte sont relus, fidèles à la source et sans ajout inventé." },
-  { id: "hashtags", label: "Les hashtags sont pertinents, lisibles et modérés." },
+  { id: "trend", label: "Le sujet est récent et mérite une publication." },
+  { id: "source", label: "La source originale est ouverte et le média identifié." },
+  { id: "facts", label: "Les noms, dates, chiffres et informations incertaines sont contrôlés." },
+  { id: "copy", label: "Le texte et les hashtags sont relus et fidèles à la source." },
   { id: "visual", label: "Le visuel est adapté et ses droits d’utilisation sont vérifiés." },
-  { id: "preview", label: "L’aperçu Facebook a été relu, notamment sur téléphone." }
+  { id: "preview", label: "L’aperçu Facebook est relu sur téléphone." }
 ];
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
@@ -179,6 +177,15 @@ function updateNotificationStatus() {
   else if (Notification.permission === "denied") status.textContent = "Autorisation refusée : vérifie les réglages du navigateur.";
   else status.textContent = "Autorisation nécessaire pour afficher les alertes.";
 }
+function getDraftChecks(draft) {
+  const stored = Array.isArray(draft?.prepublicationChecks) ? draft.prepublicationChecks : [];
+  // Migration douce des anciens brouillons à 8 cases vers la nouvelle liste à 6.
+  if (stored.length >= 8) return [
+    Boolean(stored[0]), Boolean(stored[1]), Boolean(stored[2] && stored[3]),
+    Boolean(stored[4] && stored[5]), Boolean(stored[6]), Boolean(stored[7])
+  ];
+  return PREPUBLICATION_CHECKS.map((_, index) => Boolean(stored[index]));
+}
 function updateGuidedWorkflow() {
   const setStep = (number, level, message) => {
     const card = document.querySelector('.guided-step[data-step="' + number + '"]');
@@ -191,7 +198,7 @@ function updateGuidedWorkflow() {
   const draftCount = state.drafts.length;
   const illustrated = state.drafts.filter(draft => Boolean(draft.imageDataUrl)).length;
   const validated = state.drafts.filter(draft => draft.status === "validé pour prépublication").length;
-  const completeChecks = state.drafts.filter(draft => PREPUBLICATION_CHECKS.every((_, i) => Boolean(draft.prepublicationChecks?.[i]))).length;
+  const completeChecks = state.drafts.filter(draft => getDraftChecks(draft).every(Boolean)).length;
   setStep(1, state.items.length ? "ready" : "waiting", state.items.length ? state.items.length + " actualité(s) disponibles dans le radar" : "En attente de la prochaine collecte");
   setStep(2, draftCount ? "ready" : state.candidates.length ? "active" : "waiting", draftCount ? draftCount + " brouillon(s) enregistré(s)" : state.candidates.length ? state.candidates.length + " proposition(s) à examiner" : "Choisis une actualité pour commencer");
   setStep(3, illustrated ? "ready" : draftCount ? "active" : "waiting", illustrated ? illustrated + " visuel(s) associé(s)" : draftCount ? "Ajoute un visuel à ton brouillon" : "Le visuel viendra après le texte");
@@ -349,9 +356,7 @@ function renderMediaLibrary() {
   ).join("") : '<p class="muted">Les visuels associés à tes brouillons apparaîtront ici.</p>';
 }
 function renderPrepublicationChecklist(draft) {
-  const checks = Array.isArray(draft.prepublicationChecks)
-    ? PREPUBLICATION_CHECKS.map((_, index) => Boolean(draft.prepublicationChecks[index]))
-    : PREPUBLICATION_CHECKS.map(() => false);
+  const checks = getDraftChecks(draft);
   const completed = checks.filter(Boolean).length;
   const ready = completed === PREPUBLICATION_CHECKS.length;
   const approved = draft.status === "validé pour prépublication" && ready;
@@ -576,8 +581,8 @@ document.addEventListener("click", async event => {
       toast("Ajoute un visuel avant de valider ce contrôle.");
       return;
     }
-    const checks = PREPUBLICATION_CHECKS.map((_, position) =>
-      position === index ? check.checked : Boolean(draft.prepublicationChecks?.[position])
+    const checks = getDraftChecks(draft).map((value, position) =>
+      position === index ? check.checked : value
     );
     const nextDrafts = state.drafts.map(item => item.id === draft.id
       ? { ...item, prepublicationChecks: checks, status: "à relire", validatedAt: null }
@@ -588,7 +593,7 @@ document.addEventListener("click", async event => {
   const validatePrepub = event.target.closest("[data-validate-prepub]");
   if (validatePrepub) {
     const draft = state.drafts.find(item => item.id === validatePrepub.dataset.validatePrepub);
-    const checks = PREPUBLICATION_CHECKS.map((_, index) => Boolean(draft?.prepublicationChecks?.[index]));
+    const checks = getDraftChecks(draft);
     if (!draft || !checks.every(Boolean) || !draft.imageDataUrl) {
       toast("Validation impossible : termine tous les contrôles et ajoute un visuel.");
       return;
@@ -925,8 +930,8 @@ if (generateImageButton) {
       nextDrafts[index] = {
         ...nextDrafts[index],
         imageDataUrl: state.generatedImageDataUrl,
-        prepublicationChecks: PREPUBLICATION_CHECKS.map((_, position) =>
-          position === 6 || position === 7 ? false : Boolean(nextDrafts[index].prepublicationChecks?.[position])
+        prepublicationChecks: getDraftChecks(nextDrafts[index]).map((value, position) =>
+          position === 4 || position === 5 ? false : value
         ),
         status: "à relire",
         validatedAt: null
