@@ -85,3 +85,25 @@ test("les agrégateurs Google Actualités ne comptent pas comme médias indépen
   assert.equal(item.independentSourceCount, 0);
   assert.equal(item.trendLevel, "surveillance");
 });
+
+
+test("rankItems rapproche prudemment des titres différents sur le même sujet", () => {
+  const now = Date.parse("2026-11-12T00:00:00Z");
+  const ranked = rankItems([
+    { title: "One Piece anime new season release date announced", url: "https://a.test/news", source: "Média A", sourceId: "a", publishedAt: new Date(now).toISOString() },
+    { title: "One Piece anime new season release date revealed", url: "https://b.test/news", source: "Média B", sourceId: "b", publishedAt: new Date(now - 3600000).toISOString() }
+  ], now);
+  assert.equal(ranked.length, 1);
+  assert.equal(ranked[0].independentSourceCount, 2);
+  assert.equal(ranked[0].sources.length, 2);
+  assert.equal(ranked[0].trendLevel, "hausse");
+});
+
+test("rankItems ne fusionne pas deux sujets seulement parce qu’ils partagent des mots génériques", () => {
+  const now = Date.parse("2026-11-12T00:00:00Z");
+  const ranked = rankItems([
+    { title: "One Piece anime new season announced", url: "https://a.test/news", source: "Média A", sourceId: "a", publishedAt: new Date(now).toISOString() },
+    { title: "Naruto anime new season announced", url: "https://b.test/news", source: "Média B", sourceId: "b", publishedAt: new Date(now).toISOString() }
+  ], now);
+  assert.equal(ranked.length, 2);
+});
