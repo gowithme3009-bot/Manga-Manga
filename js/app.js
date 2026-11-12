@@ -310,7 +310,8 @@ async function loadRadar() {
     state.items = Array.isArray(data.items) ? data.items : [];
     if (trendsResponse?.ok) {
       const trendData = await trendsResponse.json();
-      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];\n      state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
+      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];
+      state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
     } else { state.searchSignals = []; state.catalog = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
