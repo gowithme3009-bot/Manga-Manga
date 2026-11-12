@@ -1,10 +1,40 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:57:09.311Z",
+  "generatedAt": "2026-11-12T08:57:32.801Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 15,
   "items": [
+    {
+      "id": "759cd52f910dcbe2d9a0",
+      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - www.toutenbd.com",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "language": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleContentRetrieved": true,
+      "summaryOrigin": "metadata_article_original",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T08:56:51.000Z",
+      "freshnessHours": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Le monde du manga a appris la triste nouvelle du décès de Frédéric Boilet, reconnu pour son engagement en faveur du manga d’auteur. Son travail a souvent été cité comme une référence pour les créateurs cherchant à explorer des récits plus personnels et artistiques.\n\nCette perte laisse un vide dans la communauté, qui se souvient de son influence et de ses contributions. Pour en savoir plus sur les circonstances et les réactions, consultez l’article complet.\n\nQuestion à la communauté : Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
+      "hashtags": "#Manga,#FrédéricBoilet,#Actualité",
+      "status": "rédigé par IA · à relire",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Confirmer le décès (date, cause, réactions) et les faits présentés dans l’article original avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T08:57:50.210Z",
+      "aiTitle": "Décès de Frédéric Boilet, figure du manga d’auteur",
+      "aiCommunityQuestion": "Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
+      "aiVerificationNotes": "Confirmer le décès (date, cause, réactions) et les faits présentés dans l’article original avant publication."
+    },
     {
       "id": "58771348a1d34e39c76b",
       "title": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting - Gamekult",
@@ -24,16 +54,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Shueisha vient d'annoncer le développement d'un nouveau jeu intitulé *Nightmare Operator*. Selon le titre, il s'agirait d'un jeu de tir à la troisième personne mêlant horreur et combos de versus fighting. Les informations précises sur le gameplay et la date de sortie restent à confirmer dans l'article original.\n\nQuestion à la communauté : Qu’attendez‑vous de ce nouveau projet de Shueisha ?",
-      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVideo",
+      "text": "Shueisha a dévoilé son nouveau projet, Nightmare Operator, présenté comme un jeu de tir à la première personne à l’ambiance horrifique. Le titre intègre également des combos de versus fighting, un mélange inédit selon l’annonce.\n\nLes détails restent à préciser : plateformes, date de sortie et équipe de développement. L’article complet devrait apporter ces informations.\n\nQuestion à la communauté : Êtes‑vous curieux de découvrir ce mélange de TPS et de combat ?",
+      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVidéo",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Vérifier que le jeu est bien décrit comme un TPS horrifique avec des combos de versus fighting et confirmer les détails (genre, mécaniques, date éventuelle). Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier les caractéristiques du jeu (genre exact, mode versus, date de sortie, développeur) dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiGeneratedAt": "2026-11-12T08:57:50.210Z",
       "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique",
-      "aiCommunityQuestion": "Qu’attendez‑vous de ce nouveau projet de Shueisha ?",
-      "aiVerificationNotes": "Le résumé est absent. Vérifier que le jeu est bien décrit comme un TPS horrifique avec des combos de versus fighting et confirmer les détails (genre, mécaniques, date éventuelle)."
+      "aiCommunityQuestion": "Êtes‑vous curieux de découvrir ce mélange de TPS et de combat ?",
+      "aiVerificationNotes": "Vérifier les caractéristiques du jeu (genre exact, mode versus, date de sortie, développeur) dans la source originale."
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -54,16 +84,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Un article signale la perte d’un fervent défenseur du manga, laissant le milieu sans l’un de ses soutiens les plus engagés. Les raisons de cet éloignement et les conséquences pour la communauté restent à préciser dans le texte complet.\n\nQuestion à la communauté : Quel impact pensez‑vous que cette perte aura sur le milieu du manga ?",
-      "hashtags": "#Manga,#Communauté,#Défenseur",
+      "text": "Un article du Quotidien Jurassien souligne que le monde du manga se retrouve orphelin après le départ d’un de ses plus fervents défenseurs. Son engagement a marqué de nombreux projets et auteurs.\n\nL’article détaille probablement son parcours et les réactions de la communauté. Pour connaître le nom du défenseur et les raisons de cet « orphelin », il faut lire le texte complet.\n\nQuestion à la communauté : Quel héritage ce défenseur laisse‑t‑il dans le manga ?",
+      "hashtags": "#Manga,#Hommage,#Actualité",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Le résumé fourni ne contient aucune information concrète. Il faut lire l'article original pour connaître l'identité du défenseur, les circonstances de son départ et les réactions du secteur. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Identifier la personne évoquée, son rôle exact et les éléments de l’article avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
-      "aiTitle": "Le monde du manga privé d’un de ses défenseurs",
-      "aiCommunityQuestion": "Quel impact pensez‑vous que cette perte aura sur le milieu du manga ?",
-      "aiVerificationNotes": "Le résumé fourni ne contient aucune information concrète. Il faut lire l'article original pour connaître l'identité du défenseur, les circonstances de son départ et les réactions du secteur."
+      "aiGeneratedAt": "2026-11-12T08:57:50.210Z",
+      "aiTitle": "Le monde du manga orphelin d’un défenseur",
+      "aiCommunityQuestion": "Quel héritage ce défenseur laisse‑t‑il dans le manga ?",
+      "aiVerificationNotes": "Identifier la personne évoquée, son rôle exact et les éléments de l’article avant diffusion."
     },
     {
       "id": "86324f10058b4807aacb",
@@ -84,16 +114,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Un titre d'article interroge la possible maturité croissante du manga, suggérant qu'il pourrait atteindre un « âge de raison ». Les arguments avancés, les exemples cités et les conclusions de l'auteur ne sont pas détaillés dans le résumé disponible.\n\nQuestion à la communauté : Pensez‑vous que le manga entre dans une phase plus mature aujourd’hui ?",
+      "text": "La Libre.be s’interroge sur une possible maturité du manga, se demandant si le secteur entre enfin dans « l’âge de raison ». L’article semble explorer les évolutions récentes du marché et des créations.\n\nLes arguments avancés, les exemples cités et les perspectives d’avenir restent à confirmer dans le texte complet.\n\nQuestion à la communauté : Pensez‑vous que le manga entre dans une nouvelle ère ?",
       "hashtags": "#Manga,#Maturité,#Culture",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Le résumé est générique et ne reflète pas le contenu réel. Vérifier le texte complet pour identifier les points de vue présentés et les preuves éventuelles. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Vérifier le contenu de l’article (arguments, exemples, conclusions) pour éviter toute interprétation prématurée. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiGeneratedAt": "2026-11-12T08:57:50.210Z",
       "aiTitle": "Manga : enfin l'âge de raison ?",
-      "aiCommunityQuestion": "Pensez‑vous que le manga entre dans une phase plus mature aujourd’hui ?",
-      "aiVerificationNotes": "Le résumé est générique et ne reflète pas le contenu réel. Vérifier le texte complet pour identifier les points de vue présentés et les preuves éventuelles."
+      "aiCommunityQuestion": "Pensez‑vous que le manga entre dans une nouvelle ère ?",
+      "aiVerificationNotes": "Vérifier le contenu de l’article (arguments, exemples, conclusions) pour éviter toute interprétation prématurée."
     },
     {
       "id": "19d719a8a2297963f687",
@@ -114,16 +144,10 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Yuki Kodama, l’autrice du manga *Kids on the Slope*, aurait déclaré aimer « faire en sorte que les personnages opposés s’attirent et se rapprochent ». L’interview complète pourrait apporter plus de contexte sur sa démarche créative et les exemples concrets qu’elle cite.\n\nQuestion à la communauté : Quel duo de personnages vous a le plus marqué dans ses œuvres ?",
-      "hashtags": "#YukiKodama,#KidsOnTheSlope,#Manga",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Aucun extrait détaillé n’est fourni. Confirmer dans l’article original la citation exacte, le contexte de l’interview et les éventuels exemples de personnages mentionnés. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
-      "aiTitle": "Yuki Kodama explique sa fascination pour les personnages opposés",
-      "aiCommunityQuestion": "Quel duo de personnages vous a le plus marqué dans ses œuvres ?",
-      "aiVerificationNotes": "Aucun extrait détaillé n’est fourni. Confirmer dans l’article original la citation exacte, le contexte de l’interview et les éventuels exemples de personnages mentionnés."
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nYuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -294,30 +318,6 @@
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
-      "id": "c1dbf00658ebf329751c",
-      "title": "Parc manga de Cergy visé par un recours - DB-Z.com",
-      "summary": "",
-      "language": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
-      "articleContentRetrieved": false,
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T15:17:39.000Z",
-      "freshnessHours": 18,
-      "trendScore": 29,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nParc manga de Cergy visé par un recours - DB-Z.com\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
       "id": "4144e983326ec39abb67",
       "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
       "summary": "",
@@ -394,6 +394,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "9 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+  "aiGeneratedAt": "2026-11-12T08:57:50.210Z",
   "aiModel": "openai/gpt-oss-120b"
 }
