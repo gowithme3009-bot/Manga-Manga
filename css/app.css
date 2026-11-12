@@ -318,3 +318,6 @@ footer span { padding: 0 5px; color: #d5b14d; }
 @media (prefers-reduced-motion: reduce) {
   .news-card.is-spectacular, .news-card.is-spectacular .trend-badge-hot { animation: none; }
 }
+
+.trend-legend { margin: -5px 0 15px; font-size: 10px; line-height: 1.8; }
+.trend-legend strong { color: #43516a; }
