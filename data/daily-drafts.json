@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:48:37.826Z",
+  "generatedAt": "2026-11-12T05:48:55.587Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 11,
@@ -194,7 +194,7 @@
     }
   ],
   "warnings": [
-    "12 actualité(s) de plus de 24 heures écartée(s) des propositions du jour.",
+    "11 actualité(s) de plus de 24 heures écartée(s) des propositions du jour.",
     "1 résultat(s) manifestement hors sujet écarté(s) de la recherche manga/anime."
   ]
 }

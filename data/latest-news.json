@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:48:37.826Z",
+  "generatedAt": "2026-11-12T05:48:55.587Z",
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -118,7 +118,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 54,
+      "trendScore": 53,
       "trendLevel": "hausse"
     },
     {
@@ -1346,23 +1346,6 @@
       "trendLevel": "surveillance"
     },
     {
-      "id": "dc382b79fb51e75dbfaf",
-      "title": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZnpac2NXOW9TZ3NKUlJPcGN6dXJGUkswekwwTGppM0Y3YzlFZ3o1cXhZR3BnbnBwOTlMcm9Hb1pRT3pjMHpHcGJvZDB2TTZGMWh1akhOTE11YXVuSDJMQnk2QjRhcHVJenVURG9QQWhtN1diVVZGYzdyYy1aRWR2R2JZOXRTNUdEQnlobUh4SVNpWHcx?oc=5",
-      "summary": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 Manga news",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 12,
-      "trendLevel": "surveillance"
-    },
-    {
       "id": "0aceb89e0ce0714de9a7",
       "title": "Anime - Love Potion, la sorcière mal-aimée - Episode #6 - La sorcière et le philtre d'amour promis, 10 Novembre 2026 - Manga news",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS2RqOWZYQlA2VlBOUEtfTWw2dnFxX1dsYTZuUi1fa21RblAyR1VUeDc4cWZpQ0Q2WnJmUW1FSUQxd3BlamxHYXM3X2Ribnk4MmZNZDl3SFF6bjVTNE84MEJzWWlwbGExVUIyR3djTUV0c3Rlem04bHN4S0RDUVJfUkNFRG9udWk1eWxGUXBrMFhPQmFrZ2FOY3JoNlB4UTByRlVIQnNzNTlNYVhUS1paR0ltTm5iSUpRc2lGS0RLU081ZXZzbHJscXI0aVd3cDgwQmtjWURVV2VvTkE?oc=5",
@@ -1701,6 +1684,23 @@
       "sourceCount": 1,
       "trendScore": 9,
       "trendLevel": "surveillance"
+    },
+    {
+      "id": "028c50944abfc8662cf8",
+      "title": "Japan's Video Game Rankings, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
+      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
+      "publishedAt": "2026-11-10T07:53:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 9,
+      "trendLevel": "surveillance"
     }
   ],
   "sources": [
@@ -1720,7 +1720,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 51
+      "items": 50
     },
     {
       "id": "anime-corner",
