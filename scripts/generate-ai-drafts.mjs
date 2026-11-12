@@ -9,7 +9,10 @@ const SYSTEM_PROMPT = [
 "Rédige des prépublications Facebook naturelles, claires, vivantes et professionnelles.",
 "Utilise exclusivement les titres et extraits fournis depuis les flux RSS ou les métadonnées des pages originales.",
 "Un extrait enrichi depuis la page originale apporte plus de contexte qu’un titre seul, mais ne représente pas nécessairement l’article complet.",
-"Chaque phrase factuelle doit être directement soutenue par le titre ou l’extrait fourni. Si un détail n’y figure pas, ne l’ajoute pas, même s’il semble connu ou probable.",
+"Chaque phrase factuelle doit être directement soutenue par les mots du titre ou de l’extrait fourni. Ne déduis pas de fait à partir d’une simple proximité ou d’une connaissance générale.",
+"N’écris pas « selon un communiqué », « officiellement », « les fans réagissent », « très attendu », « déjà disponible » ou une formule équivalente sauf si ces mots ou leur sens exact figurent dans les éléments fournis.",
+"Ne transforme pas une ouverture de site, une vidéo teaser ou une annonce de casting en confirmation d’une date de diffusion, d’une disponibilité ou d’un lancement si ce fait n’est pas explicitement indiqué.",
+"Pour chaque brouillon, sélectionne un angle simple directement présent dans l’extrait. Si l’extrait contient beaucoup de noms ou de détails, n’en retiens que ceux qui sont explicitement utiles et correctement orthographiés.",
 "Ne complète jamais une information par des connaissances générales du modèle. N’ajoute aucun événement, épisode disponible, date de sortie, réaction, intention, lien narratif ou contexte absent des éléments fournis.",
 "Privilégie une rédaction courte et précise plutôt qu’un texte plus long. Une seule information non confirmée suffit à rendre le brouillon incomplet.",
 "Si l’extrait est une interview, attribue les propos à la personne interrogée et ne transforme pas une hypothèse ou une possibilité en annonce officielle.",
@@ -22,7 +25,7 @@ const SYSTEM_PROMPT = [
 "Écris en français, sans ton robotique, sans exagération ni clickbait trompeur. Ne prétends pas avoir lu la source complète.",
 "Retourne exclusivement un objet JSON valide avec une propriété items. Chaque objet contient id, editorialTitle, body, communityQuestion, hashtags, verificationNotes.",
 "editorialTitle : titre court et honnête, sans intensifier l’annonce. body : 1 à 2 courts paragraphes maximum adaptés à Facebook. Chaque phrase doit pouvoir être justifiée par les éléments de la source.",
-"communityQuestion : question simple et pertinente. hashtags : 3 à 5 hashtags pertinents.",
+"communityQuestion : question neutre liée au sujet, sans supposer une réaction, une préférence ou une information absente. hashtags : 3 à 5 hashtags fondés sur les noms et thèmes réellement présents dans la source.",
 "verificationNotes : ce qu’un humain doit contrôler avant publication. Aucun brouillon n’est prêt à publier automatiquement."
 ].join("\n");
 export function parseAiResponse(content, candidates) {
@@ -92,7 +95,7 @@ export async function generateAiDrafts({inputPath=path.join(ROOT,"data/daily-dra
  if(!candidates.length) return {skipped:true,reason:"no_candidates"};
  const response=await fetchImpl(API_URL,{method:"POST",headers:{"Authorization":"Bearer "+apiKey,"Content-Type":"application/json"},
   body:JSON.stringify({model,temperature:0.35,max_completion_tokens:4200,response_format:{type:"json_object"},
-   messages:[{role:"system",content:SYSTEM_PROMPT},{role:"user",content:JSON.stringify({instruction:"Rédige une prépublication Facebook concise et strictement fondée sur les éléments fournis. N’ajoute aucun fait absent du titre ou du résumé. Pour un résumé vide, propose uniquement un texte de préparation, sans information nouvelle. Respecte les identifiants.",
+   messages:[{role:"system",content:SYSTEM_PROMPT},{role:"user",content:JSON.stringify({instruction:"Rédige une prépublication Facebook concise et naturelle, en français, strictement fondée sur le titre et l’extrait. Chaque phrase factuelle doit être traçable à ces éléments. N’ajoute ni contexte général, ni réaction supposée, ni communiqué, ni annonce officielle, ni disponibilité, ni date déduite. Si une phrase ne peut pas être justifiée mot pour mot ou par une traduction fidèle, supprime-la. Pour un résumé vide, le texte final sera neutralisé par le programme : ne tente pas de combler les lacunes. Respecte les identifiants.",
     proposals:candidates.map(x=>({id:String(x.id),title:x.title,summary:x.summary||"",summaryOrigin:x.summaryOrigin||"rss",articleUrl:x.sourceUrl||null,articleContentRetrieved:Boolean(x.articleContentRetrieved),sourceVerification:x.sourceVerification||{status:"rss_only_unverified"},publisherName:x.publisherName||null,sourceLanguage:x.sourceLanguage||"fr",language:"fr",sources:x.sourceNames||[],
      publishedAt:x.publishedAt||null,trendLevel:x.trendLevel||"surveillance",independentSourceCount:x.independentSourceCount||0,trendScore:x.trendScore||0}))})}]}),
   signal:AbortSignal.timeout(60000)});
