@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T04:14:39.554Z",
+  "generatedAt": "2026-11-12T04:24:10.917Z",
   "items": [
     {
       "id": "b8444a024aca4798bcc6",
@@ -32,7 +32,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 59
+      "trendScore": 58
     },
     {
       "id": "809bd7ec50aee02d6167",
@@ -48,7 +48,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 59
+      "trendScore": 58
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -208,7 +208,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 42
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -256,7 +256,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 41
+      "trendScore": 40
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -272,7 +272,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 39
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -288,7 +288,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 38
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -352,7 +352,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 37
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -368,7 +368,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 37
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -384,7 +384,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 37
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -576,7 +576,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 35
+      "trendScore": 34
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -672,7 +672,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 32
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -688,7 +688,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 32
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -752,7 +752,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 30
+      "trendScore": 29
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -960,7 +960,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 22
+      "trendScore": 21
     },
     {
       "id": "19d719a8a2297963f687",
@@ -1232,7 +1232,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "0c9c9d86d16f23ecc444",
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 52
+      "items": 51
     },
     {
       "id": "anime-corner",
