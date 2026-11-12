@@ -69,7 +69,7 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
   const sourceVerified=candidate.sourceVerification?.status==="original_page_excerpt_verified";
   const safeBody=hasSummary?draft.body:"Sujet repéré : "+String(candidate.title||"Information à vérifier")+".\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.";
   const safeTitle=hasSummary?draft.editorialTitle:String(candidate.title||"Sujet à vérifier")+" — à vérifier dans la source originale";
-  const safeQuestion=hasSummary?draft.communityQuestion:"Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?";
+  const safeQuestion=hasSummary?"Que pensez-vous de cette actualité ?":"Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?";
   const safeHashtags=hasSummary?draft.hashtags:"#Manga #Anime #ÀVérifier";
   const text=[safeBody,safeQuestion?"Question à la communauté : "+safeQuestion:""].filter(Boolean).join("\n\n");
   const aiAudit=auditAiDraft(candidate,safeBody,safeTitle);
