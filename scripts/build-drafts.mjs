@@ -62,6 +62,26 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
     const sourceUrl = item.url;
     const title = item.title.trim();
 
+    const independentSourceCount = Number.isFinite(item.independentSourceCount)
+      ? item.independentSourceCount
+      : Number.isFinite(item.sourceCount) ? item.sourceCount : 0;
+    const coverageSourceCount = Number.isFinite(item.coverageSourceCount)
+      ? item.coverageSourceCount : sourceNames.length;
+    const trendLevel = independentSourceCount >= 3 && item.trendScore >= 75
+      ? "spectaculaire"
+      : independentSourceCount >= 2 && freshnessHours <= 48
+        ? "hausse"
+        : "surveillance";
+    const editorialReady = Boolean(summary);
+    const text = editorialReady
+      ? title + "\n\n" + summary + "\n\nSource : " + sourceUrl +
+        "\n\nEt vous, qu’en pensez-vous ?"
+      : "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\n" + title +
+        "\n\nInformation confirmée par l’article : [à compléter après vérification]." +
+        "\n\nContexte utile pour les lecteurs : [à compléter]." +
+        "\n\nQuestion à la communauté : [à adapter]." +
+        "\n\nSource : " + sourceUrl;
+
     candidates.push({
       id: String(key),
       title,
@@ -72,25 +92,39 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       publishedAt: new Date(publishedTime).toISOString(),
       freshnessHours,
       trendScore: Number.isFinite(item.trendScore) ? item.trendScore : 0,
-      text: summary
-        ? title + "\n\n" + summary + "\n\nSource : " + sourceUrl
-        : title + "\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : " + sourceUrl,
+      trendLevel,
+      independentSourceCount,
+      coverageSourceCount,
+      freshnessHours,
+      editorialReady,
+      text,
       hashtags: "#Manga #Anime",
-      status: summary ? "à vérifier" : "à compléter",
-      note: summary
-        ? "Texte basé uniquement sur le résumé du flux. Relire l’article original et vérifier les faits avant publication."
-        : "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      status: editorialReady ? "texte préparé · source à vérifier" : "à compléter",
+      note: editorialReady
+        ? "Prépublication construite uniquement à partir du résumé RSS. Vérifier l’article original, les faits, les noms et les dates avant validation."
+        : "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     });
   }
 
-  candidates.sort((a, b) => b.trendScore - a.trendScore || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+  const trendPriority = { spectaculaire: 3, hausse: 2, surveillance: 1 };
+  candidates.sort((a, b) =>
+    (trendPriority[b.trendLevel] - trendPriority[a.trendLevel]) ||
+    (b.independentSourceCount - a.independentSourceCount) ||
+    (b.trendScore - a.trendScore) ||
+    (Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
+  );
 
   const firstPass = [];
   const usedSources = new Set();
   for (const candidate of candidates) {
-    if (candidate.sourceNames.some(name => usedSources.has(name))) continue;
+    // Diversify only across independently identified media. An aggregator alone
+    // must not make every candidate look like a separate direct source.
+    const directSources = candidate.independentSourceCount > 0
+      ? candidate.sourceNames.filter(name => !/google.?news|google actualit/i.test(name))
+      : [];
+    if (directSources.length && directSources.some(name => usedSources.has(name))) continue;
     firstPass.push(candidate);
-    candidate.sourceNames.forEach(name => usedSources.add(name));
+    directSources.forEach(name => usedSources.add(name));
     if (firstPass.length === 4) break;
   }
 
@@ -99,6 +133,12 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   const warnings = [];
   if (candidates.length < 4) {
     warnings.push("Moins de quatre actualités récentes, datées et en français sont disponibles. Aucun sujet ne sera inventé.");
+  }
+  if (!candidates.some(candidate => candidate.trendLevel !== "surveillance")) {
+    warnings.push("Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.");
+  }
+  if (!candidates.some(candidate => candidate.editorialReady)) {
+    warnings.push("Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.");
   }
   if (staleCount) warnings.push(staleCount + " actualité(s) de plus de 24 heures écartée(s) des propositions du jour.");
   if (undatedCount) warnings.push(undatedCount + " actualité(s) sans date vérifiable écartée(s).");
