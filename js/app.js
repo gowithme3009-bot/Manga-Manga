@@ -255,13 +255,20 @@ function renderNews() {
     const level = item.trendLevel || ((item.trendScore ?? 0) >= 75 ? "spectaculaire" : (item.trendScore ?? 0) >= 50 ? "hausse" : "surveillance");
     const levelLabel = trendSignal(level, level === "spectaculaire" ? "FORTE" : level === "hausse" ? "EN HAUSSE" : "À SURVEILLER");
     const cardClass = level === "spectaculaire" ? "news-card is-spectacular" : level === "hausse" ? "news-card is-rising" : "news-card";
+    const excerpt = String(item.summary || "").trim();
+    const excerptStatus = item.articleContentRetrieved
+      ? '<span class="excerpt-status is-original">EXTRAIT DU MÉDIA D’ORIGINE</span>'
+      : excerpt.length < 120
+        ? '<span class="excerpt-status is-short">EXTRAIT COURT · LECTURE NÉCESSAIRE</span>'
+        : '<span class="excerpt-status is-rss">RÉSUMÉ RSS · À VÉRIFIER</span>';
     return '<article class="' + cardClass + '" data-trend-level="' + escapeHtml(level) + '">' +
       '<div class="meta">' + levelLabel + " " + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
       escapeHtml(dateLabel(item.publishedAt)) + " · " + (item.independentSourceCount ?? item.sourceCount ?? 0) +
       " source(s) directe(s) · " + (item.coverageSourceCount ?? sourceNames.length) +
       " couverture(s) · score " + (item.trendScore ?? "—") + "/100</div>" +
+      excerptStatus +
       "<h3>" + escapeHtml(item.title) + "</h3>" +
-      '<p class="summary">' + escapeHtml(item.summary || "La source ne fournit pas de résumé exploitable. Consulte l’article original avant de rédiger.") + "</p>" +
+      '<p class="summary">' + escapeHtml(excerpt || "La source ne fournit pas de résumé exploitable. Consulte l’article original avant de rédiger.") + "</p>" +
       '<div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
       '" target="_blank" rel="noopener noreferrer">Lire la source ↗</a>' +
       '<button class="primary" data-edit="' + escapeHtml(item.id) + '">Préparer un brouillon</button></div></article>';
