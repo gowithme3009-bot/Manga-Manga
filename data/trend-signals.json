@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:20:24.105Z",
+  "generatedAt": "2026-11-12T10:21:41.679Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:20:24.105Z",
+    "refreshedAt": "2026-11-12T10:21:41.679Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -1463,7 +1463,7 @@
         "นักสืบตายเเล้ว ภาค 2",
         "たんもし 2"
       ],
-      "popularity": 26955,
+      "popularity": 27069,
       "trending": 21,
       "format": "TV",
       "genres": [
@@ -7399,7 +7399,7 @@
         "Kaiju N°8",
         "괴수 8호"
       ],
-      "popularity": 291964,
+      "popularity": 292133,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -7952,7 +7952,7 @@
         "Сасаки и Пипс",
         "ささピー"
       ],
-      "popularity": 47170,
+      "popularity": 47276,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -13844,7 +13844,7 @@
         "戦奏教室",
         "Bitewny zew – The Bugle Call"
       ],
-      "popularity": 12334,
+      "popularity": 12349,
       "trending": 4,
       "format": "MANGA",
       "genres": [
