@@ -184,7 +184,9 @@ function renderCatalog() {
     (entity.nativeTitle && entity.nativeTitle !== entity.name ? '<p class="catalog-native">' + escapeHtml(entity.nativeTitle) + '</p>' : '') +
     '<p class="catalog-aliases">' + escapeHtml((entity.aliases || []).filter(name => name !== entity.name).slice(0, 3).join(" · ")) + '</p>' +
     '<div class="catalog-card-bottom"><span>' + escapeHtml(entity.format || "Titre") + '</span>' +
-    '<span>' + escapeHtml((entity.genres || []).slice(0, 2).join(" · ")) + '</span></div></article>'
+    '<span>' + escapeHtml((entity.genres || []).slice(0, 2).join(" · ")) + '</span></div>' +
+    '<div class="card-actions"><a class="secondary" href="https://news.google.com/search?q=' +
+    encodeURIComponent(entity.name + " manga anime") + '" target="_blank" rel="noopener noreferrer">Actualités récentes ↗</a></div></article>'
   ).join("");
 }
 function renderSources() {
