@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:53:54.443Z",
+  "generatedAt": "2026-11-12T15:03:24.990Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 21,
+  "eligibleCount": 25,
   "items": [
     {
       "id": "126adf4280b312a1b7b1",
@@ -28,20 +28,20 @@
         "MyAnimeList News"
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
-      "freshnessHours": 1,
-      "trendScore": 57,
+      "freshnessHours": 5,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé le duo de doubleurs qui rejoindra le casting de soutien. Kenji Yamauchi incarnera Mantarou Kyougoku et Ken Uo prêtera sa voix à Toujin Touyama. La série, prévue pour 2027, sera dirigée par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige en charge du character design.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#ShinOishinbo,#Anime,#Doubleurs",
+      "text": "Le site officiel de l’anime télévisé \"Shin Oishinbo\" a annoncé l’ajout d’un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarneront respectivement Mantarou Kyougoku et Toujin Touyama. La série, prévue pour 2027, sera dirigée par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait récupéré sur MyAnimeList (statut original_page_excerpt_verified). Vérifier l’exactitude des noms et rôles dans l’article complet avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier le texte complet de l’article original pour confirmer les noms des doubleurs, les rôles attribués, la date de diffusion prévue (2027) et les fonctions de chaque membre du staff. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
-      "aiTitle": "Annonce du duo de doubleurs pour Shin Oishinbo",
+      "aiGeneratedAt": "2026-11-12T15:03:43.465Z",
+      "aiTitle": "Annonce du duo de personnages secondaires dans Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -49,7 +49,173 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait récupéré sur MyAnimeList (statut original_page_excerpt_verified). Vérifier l’exactitude des noms et rôles dans l’article complet avant publication."
+      "aiVerificationNotes": "Vérifier le texte complet de l’article original pour confirmer les noms des doubleurs, les rôles attribués, la date de diffusion prévue (2027) et les fonctions de chaque membre du staff."
+    },
+    {
+      "id": "89d128021464090bb535",
+      "title": "Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process",
+      "summary": "Interview Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 As one of the most outstanding romance stories in recent years, Blue Box highlights the inner worlds and unique sensibilities of its whole cast of characters. The story combines the romantic pursuits of the protagonists, Taiki and Chinatsu, with the passion of spokon , and the adventure of growing up from adolescence. While the Blue Box manga officially ended on July 13 , we can still follow our favorite characters in the anime adaptation currently airing. Blue Box Season 2 explores new sides of the cast and introduces the long awaited Yumeka Goto, a person from Chinatsu’s past. That’s why we were excited to interview Season 2 director Daisuke Sako about Yumeka, the themes explored during the season, and his takes on the story’s message. © Kouji Miura/SHUEISHA, Blue Box Film Partners. Q: Were there any specific themes or core elements you particularly focused on for Season 2? A: This time, we wanted to recreate real, named places as faithfully as possible. The idea that “these characters live in this particular kind of town in Japan” was something we valued in the anime as well. We didn’t only feature the obvious, well-known spots. We put a lot of effort into making sure that viewers all over Japan, including people who have never left their hometown, as well as viewers overseas, could watch and think, “Places like this exist.” Our art staff did a wonderful job of making viewers think, “This is the ki",
+      "language": "fr",
+      "sourceLanguage": "en",
+      "sourceUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+      "articleUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+      "articleContentRetrieved": true,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "publisherName": null,
+      "publisherUrl": null,
+      "summaryOrigin": "metadata_article_original",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "publishedAt": "2026-11-12T09:43:11.000Z",
+      "freshnessHours": 5,
+      "trendScore": 48,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 1,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Dans une interview, le réalisateur de la saison 2 de Blue Box, Daisuke Sako, explique que l’équipe a cherché à reproduire fidèlement des lieux réels et nommés, afin que les spectateurs au Japon comme à l’étranger puissent reconnaître ces décors et penser \"Places like this exist\".\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#BlueBox,#Anime,#Interview",
+      "status": "rédigé par IA · à relire",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer que la citation provient bien de l’interview et que la traduction reflète exactement les propos de Daisuke Sako. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T15:03:43.465Z",
+      "aiTitle": "Le réalisateur de Blue Box Saison 2 parle du réalisme des décors",
+      "aiSourceStatus": "original_page_excerpt_verified",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
+      "aiVerificationNotes": "Confirmer que la citation provient bien de l’interview et que la traduction reflète exactement les propos de Daisuke Sako."
+    },
+    {
+      "id": "23d5d4da1fd5b1c3a120",
+      "title": "Les sorties manga de la semaine - Manga news",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT05welZCTjFMS1hUNFVLYmtNSU1VOUl4Y2ZFV2N1NHN1VVpoajBUdFgtQ0JaMzFPdE5WZkxxV1V6TDA1a21EWXROR3dRUGxHSUJIZlVRVWFQS2YwLTRDRENpN1paQVItQUxOVzVWeU5oY042eS14bGN3YktnVzlsZ3VTQ2l0ZTU0QWJBbm930gGMAUFVX3lxTE1ST0VCRF9WdTVUUUI4TnJkbGNNUUtWWDVoZFZpWmNfTWpNOC1BS0NWa2o1S1AwSW42WXh1MEtEdW4yYUFpSldLR3Q2eUxlMUMtTnBwdkgyRG9XMGYyX3cyb1J4Y0JnaHREcGR6Ni1JZ2Y2eFBVZHYzd19PMDN1Skt5R1NMaGk3SUw1RUg2?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT05welZCTjFMS1hUNFVLYmtNSU1VOUl4Y2ZFV2N1NHN1VVpoajBUdFgtQ0JaMzFPdE5WZkxxV1V6TDA1a21EWXROR3dRUGxHSUJIZlVRVWFQS2YwLTRDRENpN1paQVItQUxOVzVWeU5oY042eS14bGN3YktnVzlsZ3VTQ2l0ZTU0QWJBbm930gGMAUFVX3lxTE1ST0VCRF9WdTVUUUI4TnJkbGNNUUtWWDVoZFZpWmNfTWpNOC1BS0NWa2o1S1AwSW42WXh1MEtEdW4yYUFpSldLR3Q2eUxlMUMtTnBwdkgyRG9XMGYyX3cyb1J4Y0JnaHREcGR6Ni1JZ2Y2eFBVZHYzd19PMDN1Skt5R1NMaGk3SUw1RUg2?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT05welZCTjFMS1hUNFVLYmtNSU1VOUl4Y2ZFV2N1NHN1VVpoajBUdFgtQ0JaMzFPdE5WZkxxV1V6TDA1a21EWXROR3dRUGxHSUJIZlVRVWFQS2YwLTRDRENpN1paQVItQUxOVzVWeU5oY042eS14bGN3YktnVzlsZ3VTQ2l0ZTU0QWJBbm930gGMAUFVX3lxTE1ST0VCRF9WdTVUUUI4TnJkbGNNUUtWWDVoZFZpWmNfTWpNOC1BS0NWa2o1S1AwSW42WXh1MEtEdW4yYUFpSldLR3Q2eUxlMUMtTnBwdkgyRG9XMGYyX3cyb1J4Y0JnaHREcGR6Ni1JZ2Y2eFBVZHYzd19PMDN1Skt5R1NMaGk3SUw1RUg2?oc=5"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "freshnessHours": 1,
+      "trendScore": 57,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; il faut consulter l’article original pour connaître les titres et détails des sorties mentionnées. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T15:03:43.465Z",
+      "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "Le résumé est vide ; il faut consulter l’article original pour connaître les titres et détails des sorties mentionnées."
+    },
+    {
+      "id": "71fdea39837aa9fb43bf",
+      "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5"
+      },
+      "publisherName": "Serieously",
+      "publisherUrl": "https://serieously.ouest-france.fr",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "freshnessHours": 2,
+      "trendScore": 55,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Sujet repéré : Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier dans la source originale la disponibilité du webtoon et les informations sur son lien avec l’anime. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T15:03:43.465Z",
+      "aiTitle": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "Le résumé est vide ; vérifier dans la source originale la disponibilité du webtoon et les informations sur son lien avec l’anime."
+    },
+    {
+      "id": "249d5a59b90be2d76765",
+      "title": "Les nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "freshnessHours": 2,
+      "trendScore": 55,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLes nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "36120c0d88a51136275a",
@@ -72,28 +238,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:49:32.000Z",
-      "freshnessHours": 0,
-      "trendScore": 60,
+      "freshnessHours": 3,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "hashtags": "#Manga #Anime #ÀVérifier",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; seules les informations du titre sont utilisées. Confirmer les détails (âge, rôle) dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
-      "aiTitle": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro — à vérifier dans la source originale",
-      "aiSourceStatus": "publisher_unresolved",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide ; seules les informations du titre sont utilisées. Confirmer les détails (âge, rôle) dans l’article original."
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nMort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "86a72977089891d1cf45",
@@ -116,28 +270,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:25:35.000Z",
-      "freshnessHours": 0,
-      "trendScore": 59,
+      "freshnessHours": 4,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "hashtags": "#Manga #Anime #ÀVérifier",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est absent. Vérifier le contenu de l’interview et les informations présentées dans l’article source. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
-      "aiTitle": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal — à vérifier dans la source originale",
-      "aiSourceStatus": "publisher_unresolved",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est absent. Vérifier le contenu de l’interview et les informations présentées dans l’article source."
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nInterview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "ffc2b8169ce8994cbd08",
@@ -160,62 +302,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:19:59.000Z",
-      "freshnessHours": 1,
-      "trendScore": 59,
+      "freshnessHours": 4,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "hashtags": "#Manga #Anime #ÀVérifier",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide. Confirmer la confirmation de l’adaptation et la présence du teaser dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
-      "aiTitle": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News — à vérifier dans la source originale",
-      "aiSourceStatus": "publisher_unresolved",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide. Confirmer la confirmation de l’adaptation et la présence du teaser dans l’article original."
-    },
-    {
-      "id": "122a32f271676df5ab5a",
-      "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
-      "summary": "Production company Asmik Ace opened an official website for a television anime adaptation of Juntarou Aoki and Shin Moriyama's Nabe ni Tama wo Ukenagara (Getting Shots on Frying Pan) manga on Thursday, revealing the main cast, staff, and a teaser promotional video. Produced by J.C.Staff, the anime is scheduled to premiere on Nippon TV, Yomiuri TV, BS Nippon TV, and AT-X in January 2027. Voice actors Shuu Uchida (Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu) and Masaaki Mizunaka (Nyaight of the Living Cat) are voicing the beautiful girl and male versions of Juntarou Aoki, respectively. Staff Director: Masahiro Hiraoka (Kabushikigaisha Magi-Lumière) Series Composition, Script: Susumu Yamakawa (Maiko-san Chi no Makanai-san) Character Design, Chief Animation Director: Natsuki Ooyama (Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)) Music: Yoshihide Ootomo (Inu-Ou) Sound Director: Yoshikazu Iwanami (Kujima Utaeba Ie Hororo) Aoki began serializing the slice of life manga, with illustrations by Moriyama, on Comic Newtype website in May 2021. Kadokawa published the fifth volume in October 2024. A spin-off series titled Nabe ni Tama wo Ukenagara Transit featuring Hirota Takahara, began serializing on March 20. Teaser PV Official site: https://nabetama.asmik-ace.co.jp/ Source: Comic Natalie",
-      "language": "fr",
-      "sourceLanguage": "en",
-      "sourceUrl": "https://myanimelist.net/news/74931133?_location=rss",
-      "articleUrl": "https://myanimelist.net/news/74931133?_location=rss",
-      "articleContentRetrieved": true,
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "myanimelist.net",
-        "checkedUrl": "https://myanimelist.net/news/74931133?_location=rss",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "publisherName": null,
-      "publisherUrl": null,
-      "summaryOrigin": "metadata_article_original",
-      "sourceNames": [
-        "MyAnimeList News"
-      ],
-      "publishedAt": "2026-11-12T09:32:05.000Z",
-      "freshnessHours": 2,
-      "trendScore": 54,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 1,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — SOURCE ORIGINALE EN ANGLAIS, TRADUCTION FRANÇAISE À GÉNÉRER PAR L’ASSISTANT IA\n\n'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere\n\nExtrait original : Production company Asmik Ace opened an official website for a television anime adaptation of Juntarou Aoki and Shin Moriyama's Nabe ni Tama wo Ukenagara (Getting Shots on Frying Pan) manga on Thursday, revealing the main cast, staff, and a teaser promotional video. Produced by J.C.Staff, the anime is scheduled to premiere on Nippon TV, Yomiuri TV, BS Nippon TV, and AT-X in January 2027. Voice actors Shuu Uchida (Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu) and Masaaki Mizunaka (Nyaight of the Living Cat) are voicing the beautiful girl and male versions of Juntarou Aoki, respectively. Staff Director: Masahiro Hiraoka (Kabushikigaisha Magi-Lumière) Series Composition, Script: Susumu Yamakawa (Maiko-san Chi no Makanai-san) Character Design, Chief Animation Director: Natsuki Ooyama (Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)) Music: Yoshihide Ootomo (Inu-Ou) Sound Director: Yoshikazu Iwanami (Kujima Utaeba Ie Hororo) Aoki began serializing the slice of life manga, with illustrations by Moriyama, on Comic Newtype website in May 2021. Kadokawa published the fifth volume in October 2024. A spin-off series titled Nabe ni Tama wo Ukenagara Transit featuring Hirota Takahara, began serializing on March 20. Teaser PV Official site: https://nabetama.asmik-ace.co.jp/ Source: Comic Natalie\n\nSource : https://myanimelist.net/news/74931133?_location=rss",
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHQ3SVZfS18wY2JXSmFsY2VRT3NaMHBKLWlNSlU5eXZjR3lMM01WNVQ2bDFYazAtSXFrUG9WMXprZFNfengxTlRWc2FPRUlVM2xvWHliel92VlBscnFBRjZlUXRtQng2Qk4yeHFKQnZDS2ZrMUMxM1pqS1BMcFZyUF9faWY5NVVPM2ZQQnRsa1V5WkcwMzBWQ0pB?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "fc35df59fe3786e6fe47",
@@ -238,8 +334,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "freshnessHours": 1,
-      "trendScore": 58,
+      "freshnessHours": 4,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -270,8 +366,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:30:42.000Z",
-      "freshnessHours": 1,
-      "trendScore": 57,
+      "freshnessHours": 5,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -302,8 +398,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
-      "freshnessHours": 2,
-      "trendScore": 55,
+      "freshnessHours": 5,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -323,9 +419,8 @@
       "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
       },
       "publisherName": "ToutenBD.com",
       "publisherUrl": "https://www.toutenbd.com",
@@ -334,8 +429,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
-      "freshnessHours": 3,
-      "trendScore": 53,
+      "freshnessHours": 6,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -355,9 +450,8 @@
       "articleUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5"
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
       },
       "publisherName": "Gamekult",
       "publisherUrl": "https://www.gamekult.com",
@@ -366,8 +460,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
-      "freshnessHours": 3,
-      "trendScore": 53,
+      "freshnessHours": 6,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -397,8 +491,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 5,
-      "trendScore": 49,
+      "freshnessHours": 8,
+      "trendScore": 43,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -428,8 +522,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
-      "freshnessHours": 6,
-      "trendScore": 46,
+      "freshnessHours": 10,
+      "trendScore": 40,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -459,8 +553,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T18:30:08.000Z",
-      "freshnessHours": 17,
-      "trendScore": 29,
+      "freshnessHours": 21,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -490,8 +584,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
-      "freshnessHours": 18,
-      "trendScore": 28,
+      "freshnessHours": 21,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -521,8 +615,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:16:24.000Z",
-      "freshnessHours": 19,
-      "trendScore": 28,
+      "freshnessHours": 22,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -552,8 +646,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -583,8 +677,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -614,8 +708,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -645,8 +739,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -676,13 +770,44 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
       "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Nia Liston : The Merciless Maiden - Episode #6 -, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+    },
+    {
+      "id": "6831462df8735bc0dfb0",
+      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
+      },
+      "publisherName": "L'Est Républicain",
+      "publisherUrl": "https://www.estrepublicain.fr",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T15:40:02.000Z",
+      "freshnessHours": 23,
+      "trendScore": 23,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nTomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
@@ -707,8 +832,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:12:04.000Z",
-      "freshnessHours": 21,
-      "trendScore": 25,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -721,8 +846,8 @@
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "3 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
+  "aiGeneratedAt": "2026-11-12T15:03:43.465Z",
   "aiModel": "openai/gpt-oss-120b"
 }
