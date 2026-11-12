@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:39:44.493Z",
+  "generatedAt": "2026-11-12T10:40:15.331Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 19,
@@ -34,13 +34,13 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama. Le projet est dirigé par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige au design des personnages, et il est prévu pour 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama. L’anime est prévu pour 2027, avec Kenichi Nishida à la direction, Takahiro Nagano à la composition de série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet fourni par MyAnimeList News ; vérifier les noms, les rôles et la date de diffusion prévue (2027) dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet fourni par MyAnimeList News ; article complet non lu. Vérifier les noms et les rôles dans la source originale avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:03.906Z",
+      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait complet fourni par MyAnimeList News ; vérifier les noms, les rôles et la date de diffusion prévue (2027) dans l’article original."
+      "aiVerificationNotes": "Extrait complet fourni par MyAnimeList News ; article complet non lu. Vérifier les noms et les rôles dans la source originale avant publication."
     },
     {
       "id": "7b47845646a2578e2144",
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent, seul le titre est disponible ; confirmer l’annonce d’adaptation dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre indique l’annonce. Confirmer le contenu de l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:03.906Z",
+      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
       "aiTitle": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent, seul le titre est disponible ; confirmer l’annonce d’adaptation dans l’article original."
+      "aiVerificationNotes": "Résumé absent ; seul le titre indique l’annonce. Confirmer le contenu de l’article original."
     },
     {
       "id": "5904772c66e308ede111",
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé vide, informations tirées uniquement du titre ; vérifier le contenu, la date de sortie et les détails dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; information uniquement tirée du titre. Vérifier la date et les détails dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:03.906Z",
+      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
       "aiTitle": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé vide, informations tirées uniquement du titre ; vérifier le contenu, la date de sortie et les détails dans l’article original."
+      "aiVerificationNotes": "Résumé absent ; information uniquement tirée du titre. Vérifier la date et les détails dans la source originale."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Aucun extrait fourni, uniquement le titre ; confirmer le décès et les informations complémentaires dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre mentionne le décès. Confirmer les faits dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:03.906Z",
+      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
       "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Aucun extrait fourni, uniquement le titre ; confirmer le décès et les informations complémentaires dans l’article original."
+      "aiVerificationNotes": "Résumé absent ; seul le titre mentionne le décès. Confirmer les faits dans l’article original."
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -659,6 +659,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T10:40:03.906Z",
+  "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
   "aiModel": "openai/gpt-oss-120b"
 }
