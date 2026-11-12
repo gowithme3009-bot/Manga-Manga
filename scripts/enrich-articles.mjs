@@ -31,8 +31,16 @@ export function safeArticleUrl(value) {
   } catch { return null; }
 }
 
+function isGoogleOwnedHost(hostname) {
+  const host = String(hostname || "").toLowerCase().replace(/\\.$/, "");
+  return host === "google.com" || host.endsWith(".google.com") ||
+    host === "gstatic.com" || host.endsWith(".gstatic.com") ||
+    host === "googleusercontent.com" || host.endsWith(".googleusercontent.com") ||
+    host === "googleapis.com" || host.endsWith(".googleapis.com");
+}
+
 function isGoogleNewsUrl(value) {
-  try { const host = new URL(value).hostname.toLowerCase(); return host === "news.google.com" || host === "www.news.google.com"; }
+  try { return isGoogleOwnedHost(new URL(value).hostname) && new URL(value).hostname.toLowerCase().includes("news.google."); }
   catch { return false; }
 }
 
@@ -48,7 +56,7 @@ function extractGoogleOutboundUrl(html, baseUrl) {
       const url = new URL(candidate.replace(/^['"]|['"]$/g, ""), baseUrl);
       const host = url.hostname.toLowerCase();
       if (!safeArticleUrl(url.href)) continue;
-      if (host === "google.com" || host.endsWith(".google.com") || host === "googleusercontent.com" || host.endsWith(".googleusercontent.com")) continue;
+      if (isGoogleOwnedHost(host)) continue;
       return url.href;
     } catch { /* Ignore malformed or unsafe candidates. */ }
   }
@@ -75,7 +83,7 @@ export async function resolvePublisherUrl(fetchImpl, aggregatorUrl) {
     if (!response.ok) return null;
     const responseUrl = response.url || current.href;
     const finalUrl = safeArticleUrl(responseUrl);
-    if (finalUrl && !isGoogleNewsUrl(finalUrl.href)) return finalUrl.href;
+    if (finalUrl && !isGoogleOwnedHost(finalUrl.hostname)) return finalUrl.href;
     const type = response.headers.get("content-type") || "";
     if (!/text\/html|application\/xhtml\+xml/i.test(type)) return null;
     const html = await readHtmlLimited(response);
