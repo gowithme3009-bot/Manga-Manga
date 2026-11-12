@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T06:52:44.854Z",
+  "generatedAt": "2026-11-12T06:53:50.835Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T06:52:44.854Z",
+    "refreshedAt": "2026-11-12T06:53:50.835Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15892,72 +15892,6 @@
       ]
     },
     {
-      "entityId": "anime-33",
-      "entityName": "Berserk",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Berserk"
-      ],
-      "articleCount": 2,
-      "sourceCount": 2,
-      "sources": [
-        "Anime Corner",
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-11T09:00:12.000Z",
-      "articles": [
-        {
-          "title": "Berserk of Gluttony Season 2 Reveals Teaser Visual, April 2027 Release Date",
-          "url": "https://animecorner.me/berserk-of-gluttony-season-2-reveals-teaser-visual-april-2027-release-date/",
-          "publishedAt": "2026-11-11T09:00:12.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Berserk of Gluttony Season 2 Premieres Next April",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/berserk-of-gluttony-season-2-premieres-next-april/.243681",
-          "publishedAt": "2026-11-11T09:00:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-30002",
-      "entityName": "Berserk",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "Berserk"
-      ],
-      "articleCount": 2,
-      "sourceCount": 2,
-      "sources": [
-        "Anime Corner",
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-11T09:00:12.000Z",
-      "articles": [
-        {
-          "title": "Berserk of Gluttony Season 2 Reveals Teaser Visual, April 2027 Release Date",
-          "url": "https://animecorner.me/berserk-of-gluttony-season-2-reveals-teaser-visual-april-2027-release-date/",
-          "publishedAt": "2026-11-11T09:00:12.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Berserk of Gluttony Season 2 Premieres Next April",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/berserk-of-gluttony-season-2-premieres-next-april/.243681",
-          "publishedAt": "2026-11-11T09:00:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-97986",
       "entityName": "Made in Abyss",
       "entityType": "anime",
@@ -15986,103 +15920,6 @@
           "publishedAt": "2026-11-10T18:59:53.000Z",
           "sources": [
             "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-195539",
-      "entityName": "Cyberpunk: Edgerunners 2",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Cyberpunk: Edgerunners 2"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-12T00:28:31.000Z",
-      "articles": [
-        {
-          "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
-          "url": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
-          "publishedAt": "2026-11-12T00:28:31.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
-          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-          "publishedAt": "2026-11-11T20:50:02.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-120377",
-      "entityName": "Cyberpunk: Edgerunners",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Cyberpunk: Edgerunners"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-12T00:28:31.000Z",
-      "articles": [
-        {
-          "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
-          "url": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
-          "publishedAt": "2026-11-12T00:28:31.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
-          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-          "publishedAt": "2026-11-11T20:50:02.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-129956",
-      "entityName": "A Man's Man",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "The Man"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network",
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-11T18:58:10.000Z",
-      "articles": [
-        {
-          "title": "Director Yuta Shimotsu Stirs Up Scares in Strange: Junji Ito's Tales for Sleepless Nights",
-          "url": "https://www.animenewsnetwork.com/interview/2026-11-11/director-yuta-shimotsu-stirs-up-scares-in-strange-junji-ito-tales-for-sleepless-nights/.243599",
-          "publishedAt": "2026-11-11T18:58:10.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        },
-        {
-          "title": "The Man in the White Coat, une nouvelle romance érotique aux éditions Teen's Love - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2h5aGNzVkVGNDFfcFVubTNiM3RJUzNPdGphdWhGVHc0YkR3YWlDVjlVQjluRms1dl9aMl9sODZUMUdMZlNVSmZSbTZJazNlbVBUN1BKXzRBVUdDOWJVT2VHcjZoWVRPekhZbE1fUDMwRlYyOEdZWXRxQWxRY1ByZ1ZSbTV1bzE0ZXk5dWx6d2E2NjFBczZZSEo0cld3N01LRFFNMzBoRjdBbFdpN3lUSVFQZC1DcVFVbE1JX2lPdHZRQ185b2p5TUotMks1UdIBzAFBVV95cUxPb1N1QXg3d19FUXlaemxGSDJjal9TNXNPSDV2ZVhib3pfNmp4d25CelhLQ05oNWg0bjVFTEVMRGU5anExMzZiSFJpM2x2REJ5VWFEVDVDb3kySVFNYk9zZGNDcGRiYmNKMzFEX2JPdlJrbWVLbFU0NUNnbUpkRzJVNnNsM1RFTzB0T2hKZTlpSjR5RUZLQndhdlZGUWhET0ZWRnJlNE1PZ3ZLd2pMWWtRSGV6bVNlMGFQRGFUSzFzQXY2dUNaZVJreGdUNGI?oc=5",
-          "publishedAt": "2026-11-10T15:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
           ]
         }
       ]
@@ -16185,30 +16022,6 @@
       ]
     },
     {
-      "entityId": "manga-46765",
-      "entityName": "Kingdom",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "Kingdom"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-12T03:34:25.000Z",
-      "articles": [
-        {
-          "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
-          "publishedAt": "2026-11-12T03:34:25.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "manga-149544",
       "entityName": "The Guy She Was Interested In Wasn't a Guy at All",
       "entityType": "manga",
@@ -16233,49 +16046,49 @@
       ]
     },
     {
-      "entityId": "anime-151970",
-      "entityName": "Shangri-La Frontier",
+      "entityId": "anime-195539",
+      "entityName": "Cyberpunk: Edgerunners 2",
       "entityType": "anime",
       "aliasesMatched": [
-        "Shangri-La Frontier"
+        "Cyberpunk: Edgerunners 2"
       ],
       "articleCount": 1,
       "sourceCount": 1,
       "sources": [
-        "Anime News Network"
+        "Anime Corner"
       ],
-      "latestAt": "2026-11-11T17:30:00.000Z",
+      "latestAt": "2026-11-11T20:50:02.000Z",
       "articles": [
         {
-          "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+          "publishedAt": "2026-11-11T20:50:02.000Z",
           "sources": [
-            "Anime News Network"
+            "Anime Corner"
           ]
         }
       ]
     },
     {
-      "entityId": "manga-122063",
-      "entityName": "Shangri-La Frontier",
-      "entityType": "manga",
+      "entityId": "anime-120377",
+      "entityName": "Cyberpunk: Edgerunners",
+      "entityType": "anime",
       "aliasesMatched": [
-        "Shangri-La Frontier"
+        "Cyberpunk: Edgerunners"
       ],
       "articleCount": 1,
       "sourceCount": 1,
       "sources": [
-        "Anime News Network"
+        "Anime Corner"
       ],
-      "latestAt": "2026-11-11T17:30:00.000Z",
+      "latestAt": "2026-11-11T20:50:02.000Z",
       "articles": [
         {
-          "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+          "publishedAt": "2026-11-11T20:50:02.000Z",
           "sources": [
-            "Anime News Network"
+            "Anime Corner"
           ]
         }
       ]
@@ -16353,80 +16166,6 @@
       ]
     },
     {
-      "entityId": "anime-269",
-      "entityName": "Bleach",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "BLEACH",
-        "Bleach"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-11T14:27:30.000Z",
-      "articles": [
-        {
-          "title": "Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo's Involvement, Customization, and Future Updates",
-          "url": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
-          "publishedAt": "2026-11-11T14:27:30.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-30012",
-      "entityName": "Bleach",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "BLEACH",
-        "Bleach"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-11T14:27:30.000Z",
-      "articles": [
-        {
-          "title": "Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo's Involvement, Customization, and Future Updates",
-          "url": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
-          "publishedAt": "2026-11-11T14:27:30.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-30598",
-      "entityName": "Fairy Tail",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "Fairy Tale"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "MyAnimeList News"
-      ],
-      "latestAt": "2026-11-11T09:24:46.000Z",
-      "articles": [
-        {
-          "title": "Manga 'Nanatsuya: Shinobu no Housekibako' Gets TV Anime in 2027",
-          "url": "https://myanimelist.net/news/74927894?_location=rss",
-          "publishedAt": "2026-11-11T09:24:46.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-204011",
       "entityName": "PSYREN",
       "entityType": "anime",
@@ -16444,30 +16183,6 @@
           "title": "Psyren ‒ Episode 5",
           "url": "https://www.animenewsnetwork.com/review/psyren/episode-5/.243687",
           "publishedAt": "2026-11-10T15:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-11111",
-      "entityName": "Another",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Another"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-10T13:30:00.000Z",
-      "articles": [
-        {
-          "title": "Magical Girl Raising Project restart ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/magical-girl-raising-project-restart/episode-6/.243667",
-          "publishedAt": "2026-11-10T13:30:00.000Z",
           "sources": [
             "Anime News Network"
           ]
@@ -16523,54 +16238,6 @@
       ]
     },
     {
-      "entityId": "anime-161645",
-      "entityName": "The Apothecary Diaries",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "The Apothecary Diaries"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-10T07:52:54.000Z",
-      "articles": [
-        {
-          "title": "Japanese Animation TV Ranking, October 26-November 1",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
-          "publishedAt": "2026-11-10T07:52:54.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-99022",
-      "entityName": "The Apothecary Diaries",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "The Apothecary Diaries"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-10T07:52:54.000Z",
-      "articles": [
-        {
-          "title": "Japanese Animation TV Ranking, October 26-November 1",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
-          "publishedAt": "2026-11-10T07:52:54.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-207329",
       "entityName": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
       "entityType": "anime",
@@ -16619,30 +16286,6 @@
       ]
     },
     {
-      "entityId": "manga-199999",
-      "entityName": "WITCHRIV",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "WITCHRIV"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "latestAt": "2026-11-10T22:04:47.000Z",
-      "articles": [
-        {
-          "title": "Comments | #046 | WITCHRIV - Hakuri - MANGA Plus by SHUEISHA",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
-          "publishedAt": "2026-11-10T22:04:47.000Z",
-          "sources": [
-            "Annonces officielles — Google Actualités"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-171018",
       "entityName": "DAN DA DAN",
       "entityType": "anime",
@@ -16660,6 +16303,30 @@
           "title": "Dan Da Dan vous manque ? Pourquoi Fire Ball! est-il le manga à ne pas louper ? Quand sera-t-il disponible en France ? - Serieously",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWDllTVUxSHNpMXVuUUd5MkRPVEFleGt2RFlmdzMwV2NYRGtTbVA4RnlJQ3k3Mlg5MEZyYTl2dE9MVjNLWHVjNjlXVlJwWU5fWFZCVWRiUmZ4aVdVRTU2aC1ZZV92WkdvVHdqLXlKWTVsaUpfTXFrbGVRQ1l1eWFyU01iSmEzeWdEOWhqVl9zLVdJTFpqejBoaDl0cFhmWDJ6b3FITmNFYnFJOFhOWHZva1ROS3ZOOUNkaHlaellDNlBMS2pxWUR5aW5rekVKN3dnOEFGRkdLZld1V3JBYlJB?oc=5",
           "publishedAt": "2026-11-10T21:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-129956",
+      "entityName": "A Man's Man",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "The Man"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "latestAt": "2026-11-10T15:00:00.000Z",
+      "articles": [
+        {
+          "title": "The Man in the White Coat, une nouvelle romance érotique aux éditions Teen's Love - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2h5aGNzVkVGNDFfcFVubTNiM3RJUzNPdGphdWhGVHc0YkR3YWlDVjlVQjluRms1dl9aMl9sODZUMUdMZlNVSmZSbTZJazNlbVBUN1BKXzRBVUdDOWJVT2VHcjZoWVRPekhZbE1fUDMwRlYyOEdZWXRxQWxRY1ByZ1ZSbTV1bzE0ZXk5dWx6d2E2NjFBczZZSEo0cld3N01LRFFNMzBoRjdBbFdpN3lUSVFQZC1DcVFVbE1JX2lPdHZRQ185b2p5TUotMks1UdIBzAFBVV95cUxPb1N1QXg3d19FUXlaemxGSDJjal9TNXNPSDV2ZVhib3pfNmp4d25CelhLQ05oNWg0bjVFTEVMRGU5anExMzZiSFJpM2x2REJ5VWFEVDVDb3kySVFNYk9zZGNDcGRiYmNKMzFEX2JPdlJrbWVLbFU0NUNnbUpkRzJVNnNsM1RFTzB0T2hKZTlpSjR5RUZLQndhdlZGUWhET0ZWRnJlNE1PZ3ZLd2pMWWtRSGV6bVNlMGFQRGFUSzFzQXY2dUNaZVJreGdUNGI?oc=5",
+          "publishedAt": "2026-11-10T15:00:00.000Z",
           "sources": [
             "Google Actualités — Manga & Anime"
           ]
