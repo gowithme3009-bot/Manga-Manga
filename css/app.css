@@ -321,3 +321,14 @@ footer span { padding: 0 5px; color: #d5b14d; }
 
 .trend-legend { margin: -5px 0 15px; font-size: 10px; line-height: 1.8; }
 .trend-legend strong { color: #43516a; }
+
+
+/* Signaux de recherche publics, séparés des articles éditoriaux. */
+.search-trends-panel { margin-top: 26px; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: var(--shadow); }
+.search-trends-panel .section-heading { margin-bottom: 8px; }
+.search-signals { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 10px; margin-top: 14px; }
+.signal-card { min-width: 0; padding: 14px; border: 1px solid #e7ebf3; border-radius: 11px; background: #fbfcff; }
+.signal-card h3 { margin: 8px 0; color: #1c2d50; font-size: 14px; overflow-wrap: anywhere; }
+.signal-card .summary { margin: 6px 0; }
+.signal-type { color: #4268b6; font-weight: 800; letter-spacing: .45px; }
+@media (max-width: 640px) { .search-trends-panel { padding: 14px; } .search-trends-panel .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; } }
