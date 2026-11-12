@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:37:06.375Z",
+  "generatedAt": "2026-11-12T05:37:19.562Z",
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -866,7 +866,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance"
     },
     {
@@ -1380,6 +1380,23 @@
       "trendLevel": "surveillance"
     },
     {
+      "id": "82ff61dfd27b8dbdc1bb",
+      "title": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNaa1lIeHdGa3U1dGNSQ2ltd2tOalVPZC0yanJMU0lZY0FQUGkzR3pNWUJnd3doSDJlaGduQXgtVmRMTU83TFBpUXBQM1VoWWxIbGlObHpHYjFXX1h3M0t4UVdXdkVZLUtORUdCSTUtTmxVcHJpWjUwSjJPV00xSzlENFVQVkZfRkR5dTNDbUwzYnFhUEdJMkRQV3RHamdFN2JSa0JpZF9oMS1vdlhLRk1uNDVYRXo0Z3lJLXhJaDRHYUHSAcIBQVVfeXFMUE5acDk4V01MLWZKaHlxbDdxMkR1TjMwUy0xVGZLU19ETUxjR3dfTDRSenRmSVFqLWFlVzVPQWwteU90Vm5zSkVsVndLdWRPdERGMGROX3AzYjZCbFRIWDgwWmh3Ykp5QUczVWpGMTBzQWk3cl9GZ2lsYTlpdEFWTGwyWDc2R0hIcWNvMHE0OXI4M2pSVkhWZ2hwMnhiOEwzQW5zM25UWU4wUFFKWkVKd1d4RkpKYlRzTkJvM0dkWmppQ2c?oc=5",
+      "summary": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara Manga news",
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13,
+      "trendLevel": "surveillance"
+    },
+    {
       "id": "0c6d61cb1f33acfc6697",
       "title": "Psyren ‒ Episode 5",
       "url": "https://www.animenewsnetwork.com/review/psyren/episode-5/.243687",
@@ -1680,23 +1697,6 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance"
-    },
-    {
-      "id": "5b85aed326c2f23d6bc5",
-      "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
-      "summary": "Des promotions numériques chez Glénat Manga ce mois-ci Manga news",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 9,
