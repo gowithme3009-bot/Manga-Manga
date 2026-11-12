@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T04:13:29.440Z",
+  "generatedAt": "2026-11-12T04:14:39.554Z",
   "items": [
     {
       "id": "b8444a024aca4798bcc6",
@@ -1040,7 +1040,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 18
     },
     {
       "id": "1d04e2dae1039b040f58",
@@ -1650,7 +1650,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 56
+      "items": 55
     },
     {
       "id": "otaku-usa",
