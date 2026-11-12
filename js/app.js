@@ -1,5 +1,7 @@
 "use strict";
 
+import { readStoredArray, writeStoredArray } from "./storage.js";
+
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const state = { items: [], sources: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
@@ -11,26 +13,9 @@ const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
 const storageIssues = new Set();
 
 function readArray(key) {
-  try {
-    const raw = localStorage.getItem(key);
-    if (raw === null) return [];
-    const parsed = JSON.parse(raw);
-    const validEntries = Array.isArray(parsed) && parsed.every(entry =>
-      key === STORAGE_KEY
-        ? entry && typeof entry === "object" && !Array.isArray(entry) &&
-          typeof entry.id === "string" && typeof entry.title === "string"
-        : typeof entry === "string"
-    );
-    if (!validEntries) {
-      storageIssues.add(key);
-      return [];
-    }
-    return parsed;
-  } catch (error) {
-    console.warn("Données locales illisibles :", key, error);
-    storageIssues.add(key);
-    return [];
-  }
+  const result = readStoredArray(localStorage, key, key === STORAGE_KEY ? "drafts" : "strings");
+  if (result.issue) storageIssues.add(key);
+  return result.value;
 }
 
 function exportStorageRecovery() {
@@ -60,13 +45,7 @@ function exportStorageRecovery() {
 }
 
 function safeStorageSet(key, value) {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-    return true;
-  } catch (error) {
-    console.warn("Écriture du stockage local impossible :", error);
-    return false;
-  }
+  return writeStoredArray(localStorage, key, value);
 }
 
 function saveDrafts(nextDrafts) {
