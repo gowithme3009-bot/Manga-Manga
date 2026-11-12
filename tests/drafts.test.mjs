@@ -116,3 +116,31 @@ test("sans résumé, la prépublication contient des champs à compléter et res
   assert.match(result.items[0].text, /Information confirmée par l’article/);
   assert.match(result.items[0].note, /ne pas publier en l’état/i);
 });
+
+
+test("utilise un extrait original anglophone pour une rédaction IA en français sans le déclarer prêt", () => {
+  const result = buildDailyDrafts([{
+    id: "english-original", title: "Anime announcement from original publisher",
+    url: "https://example.org/article", articleUrl: "https://example.org/article",
+    summary: "The publisher announced a new anime project and provided production context, the creative team and details about the adaptation for readers.",
+    language: "en", articleContentRetrieved: true, summaryOrigin: "metadata_article_original",
+    publishedAt: hoursAgo(1), trendScore: 45, independentSourceCount: 1
+  }], NOW);
+  assert.equal(result.items.length, 1);
+  assert.equal(result.items[0].language, "fr");
+  assert.equal(result.items[0].sourceLanguage, "en");
+  assert.equal(result.items[0].editorialReady, false);
+  assert.match(result.items[0].text, /TRADUCTION FRANÇAISE À GÉNÉRER/i);
+  assert.match(result.items[0].note, /média anglophone/i);
+});
+
+test("priorise un extrait de média original plutôt qu’un signal Google sans article récupéré", () => {
+  const result = buildDailyDrafts([
+    { id: "google", title: "Annonce manga spectaculaire", url: "https://news.google.com/rss/articles/a",
+      summary: "", language: "fr", sourceId: "google-news-fr", trendScore: 95, publishedAt: hoursAgo(1) },
+    { id: "original", title: "New manga adaptation announced", url: "https://publisher.example/article",
+      articleUrl: "https://publisher.example/article", summary: "The publisher confirmed a new manga adaptation and shared details about the production and release plans for the project.",
+      language: "en", articleContentRetrieved: true, trendScore: 45, independentSourceCount: 1, publishedAt: hoursAgo(2) }
+  ], NOW);
+  assert.equal(result.items[0].id, "original");
+});
