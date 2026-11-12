@@ -59,7 +59,7 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       ? item.sources
       : (item.source ? [item.source] : []);
     const freshnessHours = Math.max(0, Math.round((now - publishedTime) / 3600000));
-    const sourceUrl = item.url;
+    const sourceUrl = item.articleUrl || item.url;
     const title = item.title.trim();
 
     const independentSourceCount = Number.isFinite(item.independentSourceCount)
