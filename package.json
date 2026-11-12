@@ -10,8 +10,9 @@
   "scripts": {
     "collect": "node scripts/collect.mjs",
     "test": "node --test",
-    "check": "node --check scripts/collect.mjs && node --check scripts/build-drafts.mjs && node --check js/storage.js && node --check js/app.js && node --check scripts/collect-search-trends.mjs",
+    "check": "node --check scripts/collect.mjs && node --check scripts/build-drafts.mjs && node --check scripts/generate-ai-drafts.mjs && node --check js/storage.js && node --check js/app.js && node --check scripts/collect-search-trends.mjs",
     "drafts": "node scripts/build-drafts.mjs",
-    "trends": "node scripts/collect-search-trends.mjs"
+    "trends": "node scripts/collect-search-trends.mjs",
+    "ai-drafts": "node scripts/generate-ai-drafts.mjs"
   }
 }

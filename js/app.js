@@ -308,8 +308,9 @@ function renderDrafts() {
     return '<article class="draft-card"><div class="meta">PROPOSITION · ' +
       trendSignal(level, label) + " · Score indicatif " + candidate.trendScore + "/100 · " +
       Number(candidate.independentSourceCount || 0) + " média(s) direct(s) · " +
-      escapeHtml((candidate.sourceNames || []).join(", ")) + "</div>" +
-      "<h3>" + escapeHtml(candidate.title) + "</h3>" +
+      escapeHtml((candidate.sourceNames || []).join(", ")) +
+      (candidate.aiGenerated ? " · ✧ Assistant IA (" + escapeHtml(candidate.aiModel || "Groq") + ")" : "") + "</div>" +
+      "<h3>" + escapeHtml(candidate.aiTitle || candidate.title) + "</h3>" +
       '<p class="summary">' + escapeHtml(candidate.text) + "</p>" +
       '<p class="tags">' + escapeHtml(candidate.hashtags) + "</p>" +
       '<small class="muted">' + escapeHtml(candidate.note || "Vérification humaine obligatoire.") + "</small>" +

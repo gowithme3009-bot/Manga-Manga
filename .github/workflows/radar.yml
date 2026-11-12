@@ -36,11 +36,15 @@ jobs:
         run: |
           npm run check
           npm test
-      - name: Collecter les flux RSS activés
+      - name: Collecter les flux RSS et rédiger les prépublications
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-120b
         run: |
           npm run collect
           npm run trends
           npm run drafts
+          npm run ai-drafts
       - name: Enregistrer uniquement les données du radar
         run: |
           git config user.name "github-actions[bot]"

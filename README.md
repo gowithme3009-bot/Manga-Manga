@@ -12,7 +12,8 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et les médias directs indépendants ; les agrégateurs Google Actualités ne gonflent pas le nombre de sources directes.
 - Reconnaissance des titres manga/anime cités dans les titres d’articles RSS, avec liens vers les articles et décompte distinct des médias directs ; ces mentions éditoriales restent séparées des signaux de recherche.
 - Catalogue AniList actualisé à chaque collecte : jusqu'à 600 entrées (300 anime + 300 manga), titres japonais/romaji/anglais, alias, genres et liens cliquables vers les fiches officielles AniList. Recherche intégrée dans le catalogue.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon ; le flux Madagascar n’est pas disponible dans cette collecte) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
-- Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
+- Jusqu'à quatre propositions quotidiennes issues des articles récents, avec un réservoir de remplaçants si un sujet est écarté.
+- Assistant IA Groq (GPT-OSS 120B) exécuté dans GitHub Actions : rédaction française, hashtags, question communautaire et notes de vérification à partir des seuls titres/résumés RSS. Relecture humaine obligatoire.
 - Brouillons enregistrés dans le stockage local du navigateur, conservés après rechargement, modifiables après sauvegarde, prévisualisables et exportables avec une seule action « Exporter mes brouillons ».
 - Contrôles automatisés du stockage : relecture après sauvegarde, données corrompues préservées et échec de quota signalé.
 - Tests automatisés du collecteur et du générateur de propositions.
@@ -28,7 +29,8 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Le catalogue AniList sert à reconnaître les titres et variantes, pas à mesurer leur popularité. L’API publique peut être limitée ou temporairement indisponible.
 - Les réseaux sociaux ne sont pas encore connectés : Facebook, Instagram, TikTok et YouTube ne sont pas surveillés par clics privés. Une intégration ultérieure nécessitera des API publiques/autorisées et, selon la plateforme, des clés ou validations.
 - Les brouillons restent dans le stockage local de l'appareil ; exporter régulièrement les brouillons pour les sauvegarder.
-- L'IA reste désactivée tant qu'un endpoint sécurisé et ses limites d'usage n'ont pas été testés.
+- La clé Groq est uniquement stockée dans le secret GitHub Actions `GROQ_API_KEY` ; elle n'est jamais exposée au navigateur ni committée. Sans ce secret ou si l'API est indisponible, les propositions RSS classiques sont conservées.
+- L'IA ne consulte pas automatiquement l'article complet : elle rédige à partir du titre et du résumé RSS transmis. Si le résumé manque, le texte est signalé comme incomplet. Chaque brouillon doit être vérifié à la source ; aucune publication automatique.
 
 ## Suivi détaillé
 
@@ -43,6 +45,7 @@ npm test
 npm run check
 npm run collect
 npm run drafts
+npm run ai-drafts
 ```
 
 ## Les 7 chantiers
