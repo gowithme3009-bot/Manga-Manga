@@ -46,3 +46,21 @@ test("interrompt un flux RSS qui ne répond pas dans le délai prévu", async ()
     /Délai dépassé/
   );
 });
+
+
+test("rankItems distingue une tendance spectaculaire d'une tendance en hausse", () => {
+  const now = Date.parse("2026-11-12T00:00:00Z");
+  const coverage = ["A", "B", "C", "D", "E"].map((source, index) => ({
+    title: "Annonce exceptionnelle anime",
+    url: "https://" + source.toLowerCase() + ".test/news",
+    source,
+    publishedAt: new Date(now).toISOString()
+  }));
+  const [item] = rankItems(coverage, now);
+  assert.equal(item.trendScore, 100);
+  assert.equal(item.trendLevel, "spectaculaire");
+
+  const [rising] = rankItems(coverage.slice(0, 2), now);
+  assert.equal(rising.trendScore, 70);
+  assert.equal(rising.trendLevel, "hausse");
+});
