@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T00:42:34.179Z",
+  "generatedAt": "2026-11-12T00:45:27.070Z",
   "items": [
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -32,7 +32,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 54
+      "trendScore": 53
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -256,7 +256,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 43
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -272,7 +272,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 43
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -688,7 +688,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 33
     },
     {
       "id": "cb37bb295396c6823eb4",
@@ -704,7 +704,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 32
     },
     {
       "id": "5676a58b77ac1dafd8f9",
@@ -1650,7 +1650,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 55
+      "items": 56
     },
     {
       "id": "otaku-usa",
