@@ -5,7 +5,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
-const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [] };
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -296,6 +296,24 @@ function renderSources() {
     '<a href="' + escapeHtml(source.homepage) + '" target="_blank" rel="noopener noreferrer">Site de référence ↗</a></article>'
   ).join("");
 }
+function renderEditorImage() {
+  const image = $("editor-attached-image");
+  const source = state.pendingDraftImageDataUrl ||
+    (state.editingDraftId ? state.drafts.find(draft => draft.id === state.editingDraftId)?.imageDataUrl : null);
+  if (!image) return;
+  if (source) { image.src = source; image.classList.remove("hidden"); }
+  else { image.removeAttribute("src"); image.classList.add("hidden"); }
+}
+function renderMediaLibrary() {
+  const host = $("generated-media-list");
+  if (!host) return;
+  const illustrated = state.drafts.filter(draft => draft.imageDataUrl);
+  host.innerHTML = illustrated.length ? illustrated.map(draft =>
+    '<article class="media-card"><img src="' + draft.imageDataUrl + '" alt="Visuel associé au brouillon ' + escapeHtml(draft.title) + '" loading="lazy">' +
+    '<strong>' + escapeHtml(draft.title) + '</strong><small class="muted">Brouillon · ' + escapeHtml(dateLabel(draft.createdAt)) + '</small>' +
+    '<a href="' + draft.imageDataUrl + '" download="manga-manga-visuel-' + escapeHtml(draft.id) + '.jpg">Télécharger</a></article>'
+  ).join("") : '<p class="muted">Les visuels associés à tes brouillons apparaîtront ici.</p>';
+}
 function renderDrafts() {
   const savedSources = new Set(state.drafts.map(draft => draft.sourceId));
   const proposals = state.candidates
@@ -333,6 +351,7 @@ function renderDrafts() {
   const savedHtml = state.drafts.map(draft =>
     '<article class="draft-card"><div class="meta">Créé le ' + escapeHtml(dateLabel(draft.createdAt)) +
     " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
+    (draft.imageDataUrl ? '<img class="draft-image" src="' + draft.imageDataUrl + '" alt="Visuel du brouillon" loading="lazy">' : "") +
     '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
     '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
     '<div class="card-actions"><button class="primary" data-edit-draft="' + escapeHtml(draft.id) +
@@ -346,6 +365,8 @@ function renderDrafts() {
     state.drafts.length + " brouillon(s) personnel(s) enregistrés sur cet appareil.";
   $("draft-list").innerHTML = (proposedHtml + savedHtml) ||
     '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
+  renderMediaLibrary();
+  renderEditorImage();
 }
 function getActiveDraftChanges() {
   const activeDraft = state.editingDraftId
@@ -356,7 +377,8 @@ function getActiveDraftChanges() {
     activeDraft,
     changed: $("draft-title").value !== activeDraft.title ||
       $("draft-body").value !== activeDraft.body ||
-      $("draft-tags").value !== (activeDraft.hashtags || "")
+      $("draft-tags").value !== (activeDraft.hashtags || "") ||
+      state.pendingDraftImageDataUrl !== null
   };
 }
 
@@ -384,6 +406,7 @@ function fillEditor(item) {
   $("draft-title").value = item.title;
   $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
     "Lire l’article complet à la source : " + item.url;
+  renderEditorImage();
   showView("atelier");
   signalStep(2, "Étape 2/4 · Rédaction", "Actualité sélectionnée. Vérifiez le titre et le texte avant l’enregistrement.");
 }
@@ -407,7 +430,8 @@ function makeDraft() {
       ? (item.source || (item.sources || []).join(", "))
       : (originalDraft.sourceName || "Source d’origine conservée"),
     createdAt: new Date().toISOString(),
-    status: originalDraft?.status || "à relire"
+    status: originalDraft?.status || "à relire",
+    imageDataUrl: state.pendingDraftImageDataUrl || originalDraft?.imageDataUrl || null
   };
 }
 async function loadRadar() {
@@ -508,6 +532,8 @@ document.addEventListener("click", async event => {
     $("draft-title").value = draft.title;
     $("draft-body").value = draft.body;
     $("draft-tags").value = draft.hashtags || "";
+    state.pendingDraftImageDataUrl = null;
+    renderEditorImage();
     $("save-draft").textContent = "Enregistrer les modifications";
     showView("atelier");
     signalStep(2, "Étape 2/4 · Relecture", "Votre brouillon est ouvert dans l’atelier. Modifiez-le puis enregistrez vos changements.");
@@ -608,7 +634,9 @@ $("save-draft").addEventListener("click", () => {
       nextDrafts = [...state.drafts];
       nextDrafts[index] = draft;
       if (!saveDrafts(nextDrafts)) return;
+      state.pendingDraftImageDataUrl = null;
       state.editingDraftId = null;
+      renderEditorImage();
       $("save-draft").textContent = "Enregistrer le brouillon";
       signalStep(3, "Étape 3/4 · Modifications enregistrées", "Votre brouillon mis à jour est conservé sur cet appareil.");
       toast("Modifications enregistrées sur cet appareil.");
@@ -619,6 +647,8 @@ $("save-draft").addEventListener("click", () => {
       }
       nextDrafts = [draft, ...state.drafts];
       if (!saveDrafts(nextDrafts)) return;
+      state.pendingDraftImageDataUrl = null;
+      renderEditorImage();
       signalStep(3, "Étape 3/4 · Brouillon enregistré", "Votre texte est sauvegardé. Vous pouvez maintenant vérifier son aperçu.");
       toast("Brouillon enregistré sur cet appareil.");
     }
@@ -631,6 +661,10 @@ $("preview-draft").addEventListener("click", () => {
   $("preview-title").textContent = $("draft-title").value.trim();
   $("preview-body").textContent = $("draft-body").value.trim();
   $("preview-tags").textContent = $("draft-tags").value;
+  const previewImage = $("preview-image");
+  const activeImage = state.pendingDraftImageDataUrl || (state.editingDraftId ? state.drafts.find(draft => draft.id === state.editingDraftId)?.imageDataUrl : null);
+  if (activeImage) { previewImage.src = activeImage; previewImage.classList.remove("hidden"); }
+  else { previewImage.removeAttribute("src"); previewImage.classList.add("hidden"); }
   $("editor-preview").classList.remove("hidden");
   signalStep(4, "Étape 4/4 · Aperçu prêt", "Relisez le rendu Facebook. La publication reste entièrement manuelle.");
 });
@@ -683,6 +717,23 @@ $("export-drafts").addEventListener("click", () => {
 });
 
 
+async function optimizeImageForStorage(blob) {
+  if (typeof createImageBitmap !== "function") {
+    throw new Error("Ce navigateur ne permet pas de préparer l’image pour la sauvegarde. Tu peux toujours la télécharger.");
+  }
+  const bitmap = await createImageBitmap(blob);
+  const maxSide = 960;
+  const scale = Math.min(1, maxSide / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+  canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+  const context = canvas.getContext("2d");
+  if (!context) { bitmap.close(); throw new Error("Préparation de l’image impossible sur cet appareil."); }
+  context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  bitmap.close();
+  return canvas.toDataURL("image/jpeg", 0.82);
+}
+
 const generateImageButton = $("generate-image");
 if (generateImageButton) {
   let generatedImageUrl = null;
@@ -730,6 +781,9 @@ if (generateImageButton) {
       const bytes = new Uint8Array(binary.length);
       for (let index = 0; index < binary.length; index++) bytes[index] = binary.charCodeAt(index);
       const blob = new Blob([bytes], { type: "image/png" });
+      state.generatedImageDataUrl = await optimizeImageForStorage(blob);
+      $("attach-generated-image").classList.remove("hidden");
+      $("attach-image-status").textContent = "Image prête à être associée à un brouillon.";
       if (generatedImageUrl) URL.revokeObjectURL(generatedImageUrl);
       generatedImageUrl = URL.createObjectURL(blob);
       $("generated-image").src = generatedImageUrl;
@@ -749,6 +803,27 @@ if (generateImageButton) {
       generateImageButton.disabled = false;
       generateImageButton.textContent = "Tester et générer une image";
     }
+  });
+  $("attach-generated-image").addEventListener("click", () => {
+    if (!state.generatedImageDataUrl) { toast("Génère d’abord une image."); return; }
+    if (state.editingDraftId) {
+      const index = state.drafts.findIndex(draft => draft.id === state.editingDraftId);
+      if (index < 0) { toast("Ouvre à nouveau le brouillon avant d’y joindre le visuel."); return; }
+      const nextDrafts = [...state.drafts];
+      nextDrafts[index] = { ...nextDrafts[index], imageDataUrl: state.generatedImageDataUrl };
+      if (!saveDrafts(nextDrafts)) return;
+      renderDrafts();
+      $("attach-image-status").textContent = "Visuel enregistré dans le brouillon ouvert.";
+      toast("Visuel ajouté et enregistré dans le brouillon.");
+      signalStep(3, "Visuel associé", "Le visuel est conservé avec le brouillon sur cet appareil.");
+      return;
+    }
+    state.pendingDraftImageDataUrl = state.generatedImageDataUrl;
+    showView("atelier");
+    renderEditorImage();
+    $("attach-image-status").textContent = "Visuel prêt. Choisis une actualité dans l’Atelier, rédige le texte puis enregistre le brouillon.";
+    toast("Visuel prêt. Choisis une actualité dans l’Atelier.");
+    signalStep(3, "Visuel prêt", "Enregistre le brouillon dans l’Atelier pour conserver l’image.");
   });
 }
 
