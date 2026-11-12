@@ -179,11 +179,35 @@ function updateNotificationStatus() {
   else if (Notification.permission === "denied") status.textContent = "Autorisation refusée : vérifie les réglages du navigateur.";
   else status.textContent = "Autorisation nécessaire pour afficher les alertes.";
 }
+function updateGuidedWorkflow() {
+  const setStep = (number, level, message) => {
+    const card = document.querySelector('.guided-step[data-step="' + number + '"]');
+    const light = $("guided-light-" + number), status = $("guided-status-" + number);
+    if (!card || !light || !status) return;
+    card.dataset.state = level;
+    light.dataset.state = level;
+    status.textContent = message;
+  };
+  const draftCount = state.drafts.length;
+  const illustrated = state.drafts.filter(draft => Boolean(draft.imageDataUrl)).length;
+  const validated = state.drafts.filter(draft => draft.status === "validé pour prépublication").length;
+  const completeChecks = state.drafts.filter(draft => PREPUBLICATION_CHECKS.every((_, i) => Boolean(draft.prepublicationChecks?.[i]))).length;
+  setStep(1, state.items.length ? "ready" : "waiting", state.items.length ? state.items.length + " actualité(s) disponibles dans le radar" : "En attente de la prochaine collecte");
+  setStep(2, draftCount ? "ready" : state.candidates.length ? "active" : "waiting", draftCount ? draftCount + " brouillon(s) enregistré(s)" : state.candidates.length ? state.candidates.length + " proposition(s) à examiner" : "Choisis une actualité pour commencer");
+  setStep(3, illustrated ? "ready" : draftCount ? "active" : "waiting", illustrated ? illustrated + " visuel(s) associé(s)" : draftCount ? "Ajoute un visuel à ton brouillon" : "Le visuel viendra après le texte");
+  setStep(4, validated ? "ready" : completeChecks || draftCount ? "active" : "waiting", validated ? validated + " prépublication(s) validée(s)" : draftCount ? completeChecks + " brouillon(s) avec contrôles terminés" : "Enregistre un brouillon pour commencer les contrôles");
+  const summary = $("guided-summary");
+  if (summary) summary.textContent = validated
+    ? validated + " contenu(s) prêt(s) pour publication manuelle."
+    : draftCount ? draftCount + " brouillon(s) en cours · " + illustrated + " avec visuel · " + validated + " validé(s)."
+    : "Commence par le Radar : le studio te guidera ensuite.";
+}
 function updateCounts() {
   $("draft-count").textContent = state.drafts.length;
   $("home-draft-count").textContent = state.drafts.length;
   $("article-count").textContent = state.items.length;
   $("source-count").textContent = state.sources.filter(source => source.status === "ok").length;
+  updateGuidedWorkflow();
 }
 function dateLabel(value) {
   if (!value) return "Date non fournie";
