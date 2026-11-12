@@ -682,6 +682,76 @@ $("export-drafts").addEventListener("click", () => {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
 
+
+const generateImageButton = $("generate-image");
+if (generateImageButton) {
+  let generatedImageUrl = null;
+  generateImageButton.addEventListener("click", async () => {
+    const prompt = $("image-prompt").value.trim();
+    const status = $("image-generator-status");
+    const result = $("generated-image-result");
+    if (!prompt) {
+      status.textContent = "Ajoute une description avant de lancer la génération.";
+      return;
+    }
+    generateImageButton.disabled = true;
+    generateImageButton.textContent = "Génération en cours…";
+    status.textContent = "Connexion au moteur Stable Diffusion XL. La génération peut prendre un moment.";
+    result.classList.add("hidden");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 120000);
+    try {
+      const response = await fetch("https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/images/generations", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          model: "stabilityai/stable-diffusion-xl-base-1.0",
+          prompt,
+          size: "1024x1024"
+        }),
+        signal: controller.signal
+      });
+      if (!response.ok) {
+        const detail = (await response.text()).slice(0, 350);
+        if (response.status === 401 || response.status === 403) {
+          throw new Error("Le service exige une authentification. Nous n’ajouterons aucune clé ni moyen de paiement sans ton accord.");
+        }
+        if (response.status === 429) {
+          throw new Error("Limite anonyme atteinte. Attends une minute avant un nouvel essai.");
+        }
+        throw new Error("Le service a répondu " + response.status + (detail ? " : " + detail : ""));
+      }
+      const payload = await response.json();
+      const encoded = payload?.data?.[0]?.b64_json;
+      if (!encoded || typeof encoded !== "string") {
+        throw new Error("Réponse reçue, mais aucune image encodée n’a été fournie par le service.");
+      }
+      const binary = atob(encoded);
+      const bytes = new Uint8Array(binary.length);
+      for (let index = 0; index < binary.length; index++) bytes[index] = binary.charCodeAt(index);
+      const blob = new Blob([bytes], { type: "image/png" });
+      if (generatedImageUrl) URL.revokeObjectURL(generatedImageUrl);
+      generatedImageUrl = URL.createObjectURL(blob);
+      $("generated-image").src = generatedImageUrl;
+      $("download-generated-image").href = generatedImageUrl;
+      result.classList.remove("hidden");
+      status.textContent = "Image reçue. Vérifie-la puis télécharge-la ; rien n’est publié ni envoyé sur Facebook.";
+      signalStep(4, "Visuel généré", "L’image est disponible pour prévisualisation et téléchargement.");
+    } catch (error) {
+      const message = error.name === "AbortError"
+        ? "Le service n’a pas répondu en 2 minutes. Réessaie plus tard."
+        : error instanceof TypeError
+          ? "Connexion refusée par le navigateur (possible blocage CORS ou réseau). L’accès depuis le site n’est pas encore confirmé."
+          : error.message;
+      status.textContent = message;
+    } finally {
+      clearTimeout(timeout);
+      generateImageButton.disabled = false;
+      generateImageButton.textContent = "Tester et générer une image";
+    }
+  });
+}
+
 state.drafts = readArray(STORAGE_KEY);
 state.dismissed = readArray(DISMISSED_KEY);
 if (storageIssues.size) {
