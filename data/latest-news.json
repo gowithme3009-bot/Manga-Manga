@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:57:32.801Z",
+  "generatedAt": "2026-11-12T09:14:04.799Z",
   "items": [
     {
       "id": "759cd52f910dcbe2d9a0",
       "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - www.toutenbd.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Décès de Frédéric Boilet, défenseur du manga d’auteur www.toutenbd.com",
       "publishedAt": "2026-11-12T08:56:51.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -21,12 +21,10 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 60,
+      "trendScore": 59,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -47,16 +45,64 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 60,
+      "trendScore": 59,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5&hl=en-US&gl=US&ceid=US:en"
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
+    },
+    {
+      "id": "1a9595d626b602cb5849",
+      "title": "Resident Evil Requiem Wins Golden Joystick Awards' Ultimate Game of the Year, Console Game of the Year",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/resident-evil-requiem-wins-golden-joystick-awards-ultimate-game-of-the-year-console-game-of-the-year/.243739",
+      "summary": "Onimusha: Way of the Sword , Pragmata , Capcom also take home awards",
+      "publishedAt": "2026-11-12T08:30:30.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 58,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+    },
+    {
+      "id": "3f45e8d8961873fb984e",
+      "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
+      "summary": "Manga debuts on Viz Manga app on Thursday",
+      "publishedAt": "2026-11-12T08:19:35.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 58,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "fbf8816caf62308cf589",
       "title": "Le monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Le monde du manga orphelin de l’un de ses fervents défenseurs Le Quotidien Jurassien",
       "publishedAt": "2026-11-12T07:16:42.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -71,18 +117,16 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "86324f10058b4807aacb",
       "title": "Manga : enfin l'âge de raison ? - La Libre.be",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Manga : enfin l'âge de raison ? La Libre.be",
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -97,12 +141,10 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 52,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -123,9 +165,10 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "ec3f0affa69c59e9d8ed",
@@ -148,13 +191,14 @@
       "independentSourceCount": 1,
       "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "809bd7ec50aee02d6167",
       "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
-      "summary": "New visual also unveiled // The official website for the television anime of ippatu",
+      "summary": "New visual also unveiled",
       "publishedAt": "2026-11-12T03:38:17.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -172,9 +216,7 @@
       "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -195,9 +237,10 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -223,13 +266,14 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
       "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "393c1036d3378e0778ee",
       "title": "Kirby Rides the Dragoon in New Chogokin Figure",
       "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
-      "summary": "Figure arrives next May // Kirby takes to the skies with the Dragoon Air Ride Machine in Bandai",
+      "summary": "Figure arrives next May",
       "publishedAt": "2026-11-12T03:03:33.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -244,18 +288,16 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "f02bb917f2dc6772b5ce",
       "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
       "url": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
-      "summary": "Following the CYBERPUNK: EDGERUNNERS 2 panel at Lucca Comics & Games, we sat down with showrunner Bartosz Sztybor to talk even deeper about Season 2",
+      "summary": "Interview Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy’s Relationship, and Roman’s Personal Inspirations Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 Following the CYBERPUNK: EDGERUNNERS 2 panel at Lucca Comics & Games, we sat down with showrunner Bartosz Sztybor to talk even deeper about Season 2 and its connection to other elements of the franchise. We talked about the creation process with Studio TRIGGER, how he deals with Cyberpunk ‘s lore, and his insight into Roman, D, Capri, and other characters. Bartosz, who also writes the manga Cyberpunk: Edgerunners MADNESS with illustrator Asano, also commented on the connections between the different Cyberpunk media. Just as in our previous interview about Season 1 , we had a great time talking with Sztybor about the reasoning behind his writing decisions. With his particular humor, he is always open to sharing his thoughts—even at the risk of spoilers. Portions of this roundtable have been edited for clarity. Beware of CYBERPUNK: EDGERUNNERS 1 and 2 plot spoilers below. IGN: Given what you were talking about on the panel today, what are your thoughts right now on a potential Season 3? Bartosz: While writing Season 1, I was already thinking about potential seasons and other stories, because there’s a lot of stories to tell. When I’m creating, I’m searching for answers to questions that I don’t know how to answer. I knew that after Season 1 I didn’t answer all of those questions. There was a dream of creating more seasons. But—and it’s always like this with CDPR—onl",
       "publishedAt": "2026-11-12T00:28:31.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -275,7 +317,8 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
       "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -298,7 +341,8 @@
       "independentSourceCount": 1,
       "trendScore": 38,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -321,7 +365,8 @@
       "independentSourceCount": 1,
       "trendScore": 37,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "913581ff600dd3591661",
@@ -345,13 +390,13 @@
       "trendScore": 36,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714"
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "0d197a3e05f25c0f90dd",
       "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
       "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "summary": "IP Lawyer, photographer, and writer. EU & UK European Correspondent. Fan of Gintama, Log Horizon, Monogatari Series, Hibike! Euphonium, and more.",
+      "summary": "Events Press Conference Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2’s Emotional Impact Written by Jorge Manuel Sanchez Moreno Cardenas November 11, 2026 CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode season on October 20. The latest installment is a new story in the noir world of Night City after the events of Season 1, with a whole new set of characters and ideas on the table brought to life again by Studio TRIGGER and CD PROJEKT RED (CDPR). Following the premiere, Season 2’s showrunner Bartosz Sztybor and executive producer Saya Elder from CDPR flew to the Italian festival Lucca Comics & Games and took part in a special panel on the third day of the convention, October 30, in Cinema Astra. Under the name “Emotional Damage: How Cyberpunk: Edgerunners 2 Makes You Feel,” both guests spoke with journalist Eva Carducci about the decisions behind the new season, and the emotions they put into the show. Portions of this panel have been edited for clarity. Beware of CYBERPUNK: EDGERUNNERS 1 and 2 plot spoilers below. Q: How do you make people emotional? Bartosz: Honestly I don’t know. It just happens. What needs to be done is that the creators need to be sincere with themselves. That’s why I always put myself into the characters that I’m creating. It’s also important that when I write stories, they are always character driven. The plot is important, of course. But the character is the most important thing in the plot. Sometimes people ask me about the endings. Yes, when I start writing there is an ending, but sometim",
       "publishedAt": "2026-11-11T20:50:02.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -371,7 +416,8 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
       "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "27dd98ec22f905142331",
@@ -394,7 +440,8 @@
       "independentSourceCount": 1,
       "trendScore": 35,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -417,7 +464,8 @@
       "independentSourceCount": 1,
       "trendScore": 34,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -438,7 +486,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -484,9 +532,10 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 33,
+      "trendScore": 32,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -507,7 +556,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 33,
+      "trendScore": 32,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -530,9 +579,10 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -553,7 +603,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -576,7 +626,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -601,13 +651,14 @@
       "independentSourceCount": 0,
       "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleFetchNote": "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source."
     },
     {
       "id": "4b9ea639a65c023e1931",
       "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
-      "summary": "Sequel slated for release by September 2027",
+      "summary": "Sequel slated for release by September 2027 // Nihon Falcom revealed on Wednesday in a financial results report for the fiscal year that ended on September...",
       "publishedAt": "2026-11-11T17:06:22.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -624,7 +675,11 @@
       "independentSourceCount": 1,
       "trendScore": 31,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -737,7 +792,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -760,7 +815,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -783,7 +838,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -806,7 +861,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -829,7 +884,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -852,7 +907,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -921,7 +976,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -990,7 +1045,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1082,7 +1137,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1105,7 +1160,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1128,7 +1183,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1243,7 +1298,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1312,7 +1367,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 23,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1450,7 +1505,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 19,
+      "trendScore": 18,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1565,7 +1620,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1611,7 +1666,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 15,
+      "trendScore": 14,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1933,7 +1988,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2094,7 +2149,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2117,7 +2172,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2140,7 +2195,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2281,52 +2336,6 @@
       "trendScore": 8,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "520eb8410deaa98c67df",
-      "title": "Millennium Family TV Anime Casts Mutsumi Tamura",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/millennium-family-tv-anime-casts-mutsumi-tamura/.243639",
-      "summary": "Tamura voices Benfield family's youngest child Arthur",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 8,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "5b85aed326c2f23d6bc5",
-      "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
-      "summary": "Des promotions numériques chez Glénat Manga ce mois-ci Manga news",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceIds": [
-        "google-news-fr"
-      ],
-      "sourceCount": 0,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 0,
-      "trendScore": 8,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2388,7 +2397,8 @@
   "warnings": [],
   "articleEnrichment": {
     "attempted": 16,
-    "enriched": 8,
+    "enriched": 4,
+    "skippedAggregator": 7,
     "maxPages": 16,
     "excerptLimit": 1600
   }

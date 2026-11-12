@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:57:38.699Z",
+  "generatedAt": "2026-11-12T09:14:12.610Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T08:57:38.699Z",
+    "refreshedAt": "2026-11-12T09:14:12.610Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -58,7 +58,7 @@
         "チー付与",
         "The Laid-Off Cheat-Granting Mage Enjoys a New Life"
       ],
-      "popularity": 46978,
+      "popularity": 47933,
       "trending": 137,
       "format": "TV",
       "genres": [
@@ -85,7 +85,7 @@
         "Sekamajo",
         "せかまじょ"
       ],
-      "popularity": 21311,
+      "popularity": 21832,
       "trending": 127,
       "format": "TV",
       "genres": [
@@ -187,7 +187,7 @@
         "Temppal",
         "Tempal - Item no Chikara"
       ],
-      "popularity": 61565,
+      "popularity": 62175,
       "trending": 92,
       "format": "ONA",
       "genres": [
@@ -904,7 +904,7 @@
         "ShioAma",
         "The Salty Koharu Has a Soft Spot for Me"
       ],
-      "popularity": 23706,
+      "popularity": 23902,
       "trending": 30,
       "format": "TV",
       "genres": [
@@ -1222,7 +1222,7 @@
         "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
         "SBR"
       ],
-      "popularity": 51016,
+      "popularity": 51192,
       "trending": 25,
       "format": "ONA",
       "genres": [
@@ -1717,7 +1717,7 @@
         "SxF 4",
         "スパイファミリー 4"
       ],
-      "popularity": 11394,
+      "popularity": 12078,
       "trending": 21,
       "format": "TV",
       "genres": [
@@ -1833,7 +1833,7 @@
         "I'm Dating a Dark Summoner",
         "ダークサモナーとデキている"
       ],
-      "popularity": 30228,
+      "popularity": 30336,
       "trending": 20,
       "format": "TV_SHORT",
       "genres": [
@@ -1887,7 +1887,7 @@
         "The Ramparts of Ice Season 2",
         "氷の城壁 第2期"
       ],
-      "popularity": 40083,
+      "popularity": 40223,
       "trending": 19,
       "format": "TV",
       "genres": [
@@ -2675,7 +2675,7 @@
         "正反対な君と僕 第2期",
         "ลุ้นรักฉบับคู่ต่างขั้ว ซีซัน 2"
       ],
-      "popularity": 71652,
+      "popularity": 71779,
       "trending": 16,
       "format": "TV",
       "genres": [
@@ -3112,7 +3112,7 @@
         "Ranma1/2 (2024) Season 3",
         "らんま1/2 (2024) 第3期"
       ],
-      "popularity": 18550,
+      "popularity": 18597,
       "trending": 15,
       "format": "TV",
       "genres": [
@@ -3138,7 +3138,7 @@
         "惡龍與她的屠龍新郎",
         "มังกรที่เคยฆ่ากลายเป็นภรรยา"
       ],
-      "popularity": 5455,
+      "popularity": 5494,
       "trending": 15,
       "format": "MANGA",
       "genres": [
@@ -3724,7 +3724,7 @@
         "아카데미의 무기복제자",
         "The Academy’s Weapon Replicator"
       ],
-      "popularity": 1597,
+      "popularity": 1626,
       "trending": 13,
       "format": "MANGA",
       "genres": [
@@ -3745,7 +3745,7 @@
         "女神と結婚して異世界で新婚生活",
         "Marrying a Goddess and Living as Newlyweds in Another World"
       ],
-      "popularity": 567,
+      "popularity": 581,
       "trending": 13,
       "format": "MANGA",
       "genres": [
@@ -5107,7 +5107,7 @@
         "Mission: Yozakura Family Season 2 Part 2",
         "夜桜さんちの大作戦 第2期 第2クール"
       ],
-      "popularity": 10666,
+      "popularity": 10697,
       "trending": 11,
       "format": "TV",
       "genres": [
@@ -5158,7 +5158,7 @@
         "牧羊魔法師",
         "จอมเวทคนเลี้ยงแกะ"
       ],
-      "popularity": 7883,
+      "popularity": 7916,
       "trending": 11,
       "format": "MANGA",
       "genres": [
@@ -5733,7 +5733,7 @@
         "The Unsuccessful Yet Academically Unparalleled Sage: A Cheating S-Rank Sorcerer's Post-Rebirth Adventurer Log",
         "The Failed Sage's Academy Domination"
       ],
-      "popularity": 57245,
+      "popularity": 57302,
       "trending": 10,
       "format": "ONA",
       "genres": [
@@ -5778,7 +5778,7 @@
         "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season",
         "HELL MODE ~อยากเล่นโหด ขอโหมดนรก~ ซีซั่น 2"
       ],
-      "popularity": 47480,
+      "popularity": 47536,
       "trending": 10,
       "format": "TV",
       "genres": [
@@ -6034,7 +6034,7 @@
         "스캔들 메이커가 돌아왔다",
         "醜聞製造者"
       ],
-      "popularity": 1399,
+      "popularity": 1407,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -6055,7 +6055,7 @@
         "Morino-san Just Won't Leave Me Be",
         "森野さんだるがらむ"
       ],
-      "popularity": 972,
+      "popularity": 1000,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -7012,7 +7012,7 @@
         "映画 ぼっち・ざ・ろっく！",
         "Bocchi the Rock! Movie"
       ],
-      "popularity": 17676,
+      "popularity": 17879,
       "trending": 9,
       "format": "MOVIE",
       "genres": [
@@ -7104,7 +7104,7 @@
         "My Girlfriend's Friend",
         "彼女の友達"
       ],
-      "popularity": 14434,
+      "popularity": 14471,
       "trending": 9,
       "format": "TV_SHORT",
       "genres": [
@@ -7254,7 +7254,7 @@
         "DANDIVINE",
         "Beast King War God Dandivine"
       ],
-      "popularity": 3387,
+      "popularity": 3444,
       "trending": 9,
       "format": "TV",
       "genres": [
@@ -8357,7 +8357,7 @@
         "冰剣の魔術師が世界を統べるⅡ",
         "The Iceblade Sorcerer Shall Rule the World Season 2"
       ],
-      "popularity": 23234,
+      "popularity": 23301,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -8724,7 +8724,7 @@
         "Futari wa Sekai to Kamiawanai",
         "二人は世界とかみ合わない"
       ],
-      "popularity": 120,
+      "popularity": 200,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -9658,7 +9658,7 @@
         "天は赤い河のほとり",
         "Anatolia Story"
       ],
-      "popularity": 12108,
+      "popularity": 12137,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -9879,7 +9879,7 @@
         "The Tale of Cultivation and Demon Extermination",
         "Chronicles of the Demon-Slaying Ascetic"
       ],
-      "popularity": 2762,
+      "popularity": 2799,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -9901,7 +9901,7 @@
         "The Regressor and the Blind Saintess",
         "The Regressionist and the Blind Saintess"
       ],
-      "popularity": 2126,
+      "popularity": 2183,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -11168,7 +11168,7 @@
         "เกิดใหม่เป็นก็อบลินแล้วไง มีคำถามอะไรไหม?",
         "Tengobu"
       ],
-      "popularity": 23352,
+      "popularity": 23419,
       "trending": 6,
       "format": "ONA",
       "genres": [
@@ -11667,7 +11667,7 @@
         "Welsh & Shedar",
         "蒼き伝承 ウェルシュ&シェーダー"
       ],
-      "popularity": 4109,
+      "popularity": 4154,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -11714,7 +11714,7 @@
         "The Genius Martial Artist Who Remembers Everything",
         "จอมยุทธ์ผู้จำได้ทุกสรรพสิ่ง"
       ],
-      "popularity": 3282,
+      "popularity": 3294,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -11802,7 +11802,7 @@
         "좋아하면 멍청해진다",
         "You Get Dumb When You're in Love"
       ],
-      "popularity": 1592,
+      "popularity": 1617,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -11849,7 +11849,7 @@
         "Step Sister-In-Law of the Female Lead",
         "New Child Care Sister of the Heroine"
       ],
-      "popularity": 1185,
+      "popularity": 1201,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -11873,7 +11873,7 @@
         "The Slime’s Livestream Star",
         "Monster Streaming Star"
       ],
-      "popularity": 956,
+      "popularity": 977,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -11895,7 +11895,7 @@
         "Rookie Public Servant Hunts Villains and Leaves Work on Time",
         "The Rookie Civil Servant Catches Villains and Clocks Out"
       ],
-      "popularity": 628,
+      "popularity": 649,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -11916,7 +11916,7 @@
         "북부 대공의 미친 데릴사위",
         "The Grand Duke of the North's Crazy Son-in-Law"
       ],
-      "popularity": 544,
+      "popularity": 580,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -13114,7 +13114,7 @@
         "The Artist Who Paints Dungeons",
         "The Dungeon Painter"
       ],
-      "popularity": 6618,
+      "popularity": 6640,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13350,7 +13350,7 @@
         "勇者之歌",
         "ลำนำแห่งอัศวิน"
       ],
-      "popularity": 3343,
+      "popularity": 3383,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13418,7 +13418,7 @@
         "황제와 비밀 연애 중인데 나는 그걸 몰라",
         "Unbeknownst to Me, I am Secretly Dating the Emperor"
       ],
-      "popularity": 2239,
+      "popularity": 2253,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13467,7 +13467,7 @@
         "주인공이 컨셉충이면 곤란한가요",
         "Is It Bad That the Main Character’s a Roleplayer?"
       ],
-      "popularity": 1898,
+      "popularity": 1907,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13475,6 +13475,30 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/214065"
+    },
+    {
+      "id": "manga-210492",
+      "name": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "nativeTitle": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+      "romajiTitle": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+        "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+        "The return of the first generation: The Strongest in History Reincarnates as a Descendant 1000 Years Later",
+        "Return of the First Patriarch: The Strongest Reincarnates into His Descendant 1000 Years Later",
+        "O Retorno do Primeiro Patriarca: Renasci Mil Anos Depois Como Meu Próprio Descendente"
+      ],
+      "popularity": 1805,
+      "trending": 5,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/210492"
     },
     {
       "id": "manga-130901",
@@ -13497,30 +13521,6 @@
       "url": "https://anilist.co/manga/130901"
     },
     {
-      "id": "manga-210492",
-      "name": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "nativeTitle": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-      "romajiTitle": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "englishTitle": "",
-      "type": "manga",
-      "aliases": [
-        "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-        "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-        "The return of the first generation: The Strongest in History Reincarnates as a Descendant 1000 Years Later",
-        "Return of the First Patriarch: The Strongest Reincarnates into His Descendant 1000 Years Later",
-        "O Retorno do Primeiro Patriarca: Renasci Mil Anos Depois Como Meu Próprio Descendente"
-      ],
-      "popularity": 1784,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Drama",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/210492"
-    },
-    {
       "id": "manga-214900",
       "name": "Waiting in the Wheat Field",
       "nativeTitle": "부인은 밀밭에서 기다렸다",
@@ -13536,7 +13536,7 @@
         "在麥田守候的夫人",
         "คำสัญญาในทุ่งข้าวสาลี"
       ],
-      "popularity": 1670,
+      "popularity": 1690,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13581,7 +13581,7 @@
         "Kakushite Kisetsu wa Ao wo Shiru",
         "かくして季節はアオを知る"
       ],
-      "popularity": 1222,
+      "popularity": 1232,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -14727,7 +14727,7 @@
         "Only I Have an EX-Grade Summon",
         "I Alone Am an EX-Class Summoner"
       ],
-      "popularity": 3134,
+      "popularity": 3145,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14800,7 +14800,7 @@
         "Haunted Peak",
         "山劇"
       ],
-      "popularity": 2081,
+      "popularity": 2090,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14914,7 +14914,7 @@
         "Goblin Inc",
         "Goblin Corporation"
       ],
-      "popularity": 1575,
+      "popularity": 1594,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15073,7 +15073,7 @@
         "Cyberpunk Swordsman",
         "Cyberpunk Chivalry"
       ],
-      "popularity": 580,
+      "popularity": 612,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15095,7 +15095,7 @@
         "オタくんにだけ優しすぎるアヤメさん",
         "Ayame-san Is Too Kind, but Only to Ota-kun"
       ],
-      "popularity": 533,
+      "popularity": 546,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15137,7 +15137,7 @@
         "Monkey Hunting",
         "モンキーハンティング"
       ],
-      "popularity": 443,
+      "popularity": 444,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15158,7 +15158,7 @@
         "Aztec Turning of Heaven",
         "アステカの廻天"
       ],
-      "popularity": 322,
+      "popularity": 324,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15181,7 +15181,7 @@
         "By Changing One Word in My Skills, I Broke Everything",
         "技能改一个字，他们被我玩坏了"
       ],
-      "popularity": 265,
+      "popularity": 270,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15201,7 +15201,7 @@
         "Isekai Tensei Reijou, Shuppon Suru",
         "異世界転生令嬢、出奔する"
       ],
-      "popularity": 218,
+      "popularity": 228,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -15249,7 +15249,7 @@
         "たのしい音楽",
         "Fun with Music"
       ],
-      "popularity": 156,
+      "popularity": 172,
       "trending": 4,
       "format": "MANGA",
       "genres": [
