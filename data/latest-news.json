@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:20:29.095Z",
+  "generatedAt": "2026-11-12T10:00:55.146Z",
   "items": [
+    {
+      "id": "5904772c66e308ede111",
+      "title": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "summary": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga ActuaBD",
+      "publishedAt": "2026-11-12T09:52:53.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "ActuaBD",
+      "publisherUrl": "https://www.actuabd.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+    },
+    {
+      "id": "122a32f271676df5ab5a",
+      "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
+      "url": "https://myanimelist.net/news/74931133?_location=rss",
+      "summary": "Production company Asmik Ace opened an official website for a television anime adaptation of Juntarou Aoki and Shin Moriyama's Nabe ni Tama wo Ukenagara (Getting Shots on Frying Pan) manga on Thursday, revealing the main cast, staff, and a teaser promotional video. Produced by J.C.Staff, the anime is scheduled to premiere on Nippon TV, Yomiuri TV, BS Nippon TV, and AT-X in January 2027. Voice actors Shuu Uchida (Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu) and Masaaki Mizunaka (Nyaight of the Living Cat) are voicing the beautiful girl and male versions of Juntarou Aoki, respectively. Staff Director: Masahiro Hiraoka (Kabushikigaisha Magi-Lumière) Series Composition, Script: Susumu Yamakawa (Maiko-san Chi no Makanai-san) Character Design, Chief Animation Director: Natsuki Ooyama (Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)) Music: Yoshihide Ootomo (Inu-Ou) Sound Director: Yoshikazu Iwanami (Kujima Utaeba Ie Hororo) Aoki began serializing the slice of life manga, with illustrations by Moriyama, on Comic Newtype website in May 2021. Kadokawa published the fifth volume in October 2024. A spin-off series titled Nabe ni Tama wo Ukenagara Transit featuring Hirota Takahara, began serializing on March 20. Teaser PV Official site: https://nabetama.asmik-ace.co.jp/ Source: Comic Natalie",
+      "publishedAt": "2026-11-12T09:32:05.000Z",
+      "source": "MyAnimeList News",
+      "sourceId": "myanimelist",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "MyAnimeList News"
+      ],
+      "sourceIds": [
+        "myanimelist"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 59,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://myanimelist.net/news/74931133?_location=rss",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74931133?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
+    },
     {
       "id": "55ae94b373a6584160a0",
       "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com",
@@ -23,7 +90,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 59,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -54,7 +121,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 59,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -85,7 +152,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -116,7 +183,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -147,7 +214,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -178,7 +245,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 51,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -209,7 +276,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -240,7 +307,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -271,7 +338,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -302,7 +369,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -333,7 +400,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
@@ -369,7 +436,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -400,7 +467,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 41,
+      "trendScore": 40,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
@@ -436,7 +503,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 37,
+      "trendScore": 36,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -467,15 +534,9 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 37,
+      "trendScore": 36,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "913581ff600dd3591661",
@@ -498,15 +559,9 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -529,7 +584,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -554,7 +609,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -579,7 +634,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -604,7 +659,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 33,
+      "trendScore": 32,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -629,7 +684,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 33,
+      "trendScore": 32,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -654,7 +709,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -679,7 +734,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -704,7 +759,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -729,7 +784,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -754,7 +809,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -779,7 +834,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -804,7 +859,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -879,7 +934,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -929,7 +984,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -954,7 +1009,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -979,7 +1034,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1004,7 +1059,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1029,7 +1084,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1054,7 +1109,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1079,7 +1134,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1104,7 +1159,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1129,7 +1184,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1154,7 +1209,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1179,7 +1234,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1229,7 +1284,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1254,7 +1309,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1279,7 +1334,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1379,7 +1434,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 25,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1404,7 +1459,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1429,7 +1484,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1454,7 +1509,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1504,7 +1559,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 23,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1529,7 +1584,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 23,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1604,7 +1659,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1629,7 +1684,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1654,7 +1709,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1679,7 +1734,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 21,
+      "trendScore": 20,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1729,7 +1784,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 18,
+      "trendScore": 17,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1779,7 +1834,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1804,7 +1859,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1904,7 +1959,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1929,7 +1984,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2004,7 +2059,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 13,
+      "trendScore": 12,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2179,7 +2234,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2354,7 +2409,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2379,7 +2434,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2554,56 +2609,6 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "df150fc678588fce930b",
-      "title": "Phantom of the Idol Volume 9 Review",
-      "url": "https://animeuknews.net/2026/11/phantom-of-the-idol-volume-9-review/",
-      "summary": "When the ‘Asahi Mogami Tribute Album’ is announced, phantom idol Asahi finds herself overwhelmed by conflicting emotions. But nothing has prepared her – or Niyodo, her host – for what happens at the album launch concert!",
-      "publishedAt": "2026-11-10T10:00:51.000Z",
-      "source": "Anime UK News",
-      "sourceId": "anime-uk-news",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime UK News"
-      ],
-      "sourceIds": [
-        "anime-uk-news"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 8,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "4a90e51bec71ac1156c6",
-      "title": "Devils' Crest Anime Confirms Half-Year Run",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/devils-crest-anime-confirms-half-year-run/.243678",
-      "summary": "Anime debuted worldwide on Prime Video on November 6",
-      "publishedAt": "2026-11-10T09:44:49.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
       "trendScore": 8,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
@@ -2626,7 +2631,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 54
+      "items": 51
     },
     {
       "id": "anime-corner",
@@ -2668,8 +2673,8 @@
   "warnings": [],
   "articleEnrichment": {
     "attempted": 16,
-    "enriched": 2,
-    "skippedAggregator": 4,
+    "enriched": 3,
+    "skippedAggregator": 5,
     "maxPages": 16,
     "excerptLimit": 1600
   }
