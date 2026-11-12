@@ -2,7 +2,7 @@
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
-const state = { items: [], sources: [], drafts: [], candidates: [], dismissed: [] };
+const state = { items: [], sources: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -108,7 +108,8 @@ function renderDrafts() {
     " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
     '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
     '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
-    '<div class="card-actions"><button class="secondary" data-copy="' + escapeHtml(draft.id) +
+    '<div class="card-actions"><button class="primary" data-edit-draft="' + escapeHtml(draft.id) +
+    '">Modifier</button><button class="secondary" data-copy="' + escapeHtml(draft.id) +
     '">Copier</button><a class="secondary" href="' + escapeHtml(draft.sourceUrl) +
     '" target="_blank" rel="noopener noreferrer">Source ↗</a>' +
     '<button class="danger" data-delete="' + escapeHtml(draft.id) + '">Supprimer</button></div>' +
@@ -120,6 +121,8 @@ function renderDrafts() {
     '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
 }
 function fillEditor(item) {
+  state.editingDraftId = null;
+  $("save-draft").textContent = "Enregistrer le brouillon";
   $("story-select").value = item.id;
   $("draft-title").value = item.title;
   $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
@@ -200,6 +203,23 @@ document.addEventListener("click", async event => {
     if (item) fillEditor(item);
     return;
   }
+  const editDraft = event.target.closest("[data-edit-draft]");
+  if (editDraft) {
+    const draft = state.drafts.find(item => item.id === editDraft.dataset.editDraft);
+    const source = draft && state.items.find(item => item.id === draft.sourceId);
+    if (!draft || !source) {
+      toast("La source de ce brouillon n’est plus disponible dans le radar. Le texte reste conservé ; exporte-le avant toute suppression.");
+      return;
+    }
+    state.editingDraftId = draft.id;
+    $("story-select").value = source.id;
+    $("draft-title").value = draft.title;
+    $("draft-body").value = draft.body;
+    $("draft-tags").value = draft.hashtags || "";
+    $("save-draft").textContent = "Enregistrer les modifications";
+    showView("atelier");
+    return;
+  }
   const remove = event.target.closest("[data-delete]");
   if (remove) {
     state.drafts = state.drafts.filter(draft => draft.id !== remove.dataset.delete);
@@ -256,14 +276,25 @@ $("story-select").addEventListener("change", () => {
 $("save-draft").addEventListener("click", () => {
   try {
     const draft = makeDraft();
-    if (state.drafts.some(item => item.sourceId === draft.sourceId)) {
-      toast("Cette actualité possède déjà un brouillon.");
-      return;
+    if (state.editingDraftId) {
+      const index = state.drafts.findIndex(item => item.id === state.editingDraftId);
+      if (index < 0) throw new Error("Ce brouillon n’existe plus.");
+      draft.id = state.editingDraftId;
+      draft.createdAt = state.drafts[index].createdAt;
+      state.drafts[index] = draft;
+      state.editingDraftId = null;
+      $("save-draft").textContent = "Enregistrer le brouillon";
+      toast("Modifications enregistrées sur cet appareil.");
+    } else {
+      if (state.drafts.some(item => item.sourceId === draft.sourceId)) {
+        toast("Cette actualité possède déjà un brouillon.");
+        return;
+      }
+      state.drafts.unshift(draft);
+      toast("Brouillon enregistré sur cet appareil.");
     }
-    state.drafts.unshift(draft);
     saveDrafts();
     renderDrafts();
-    toast("Brouillon enregistré sur cet appareil.");
   } catch (error) {
     toast(error.message);
   }
