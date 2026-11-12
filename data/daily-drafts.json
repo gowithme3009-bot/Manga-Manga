@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:53:26.957Z",
+  "generatedAt": "2026-11-12T11:53:54.443Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 21,
@@ -34,14 +34,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama. Le projet est dirigé par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige en charge du design des personnages. L’anime est prévu pour 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#ShinOishinbo,#Anime,#Casting",
+      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé le duo de doubleurs qui rejoindra le casting de soutien. Kenji Yamauchi incarnera Mantarou Kyougoku et Ken Uo prêtera sa voix à Toujin Touyama. La série, prévue pour 2027, sera dirigée par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige en charge du character design.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#ShinOishinbo,#Anime,#Doubleurs",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer sur la page officielle que les informations de casting, les rôles et les équipes de production sont exactes et que la date de diffusion 2027 est bien mentionnée. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait récupéré sur MyAnimeList (statut original_page_excerpt_verified). Vérifier l’exactitude des noms et rôles dans l’article complet avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:53:44.169Z",
-      "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
+      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
+      "aiTitle": "Annonce du duo de doubleurs pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer sur la page officielle que les informations de casting, les rôles et les équipes de production sont exactes et que la date de diffusion 2027 est bien mentionnée."
+      "aiVerificationNotes": "Extrait récupéré sur MyAnimeList (statut original_page_excerpt_verified). Vérifier l’exactitude des noms et rôles dans l’article complet avant publication."
     },
     {
       "id": "36120c0d88a51136275a",
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier le texte complet de l’article du Figaro pour confirmer l’âge, le rôle de défenseur du manga d’auteur et tout autre détail mentionné dans le titre. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; seules les informations du titre sont utilisées. Confirmer les détails (âge, rôle) dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:53:44.169Z",
+      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
       "aiTitle": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Vérifier le texte complet de l’article du Figaro pour confirmer l’âge, le rôle de défenseur du manga d’auteur et tout autre détail mentionné dans le titre."
+      "aiVerificationNotes": "Le résumé est vide ; seules les informations du titre sont utilisées. Confirmer les détails (âge, rôle) dans l’article original."
     },
     {
       "id": "86a72977089891d1cf45",
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Consulter l’interview originale pour s’assurer que le titre reflète bien le contenu et que le rôle de vicaire à Tous‑les‑Saints (93) est correct. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est absent. Vérifier le contenu de l’interview et les informations présentées dans l’article source. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:53:44.169Z",
+      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
       "aiTitle": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Consulter l’interview originale pour s’assurer que le titre reflète bien le contenu et que le rôle de vicaire à Tous‑les‑Saints (93) est correct."
+      "aiVerificationNotes": "Le résumé est absent. Vérifier le contenu de l’interview et les informations présentées dans l’article source."
     },
     {
       "id": "ffc2b8169ce8994cbd08",
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier l’annonce sur Adala News pour confirmer la confirmation de l’adaptation en anime et la présence du teaser vidéo. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide. Confirmer la confirmation de l’adaptation et la présence du teaser dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:53:44.169Z",
+      "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
       "aiTitle": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Vérifier l’annonce sur Adala News pour confirmer la confirmation de l’adaptation en anime et la présence du teaser vidéo."
+      "aiVerificationNotes": "Le résumé est vide. Confirmer la confirmation de l’adaptation et la présence du teaser dans l’article original."
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -398,7 +398,7 @@
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
       "freshnessHours": 5,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -723,6 +723,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T11:53:44.169Z",
+  "aiGeneratedAt": "2026-11-12T11:54:07.068Z",
   "aiModel": "openai/gpt-oss-120b"
 }
