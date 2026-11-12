@@ -10,7 +10,7 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 
 - Interface responsive en français.
 - Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et les médias directs indépendants ; les agrégateurs Google Actualités ne gonflent pas le nombre de sources directes.
-- Reconnaissance des titres manga/anime cités dans les titres et résumés RSS, avec liens vers les articles et décompte distinct des médias directs ; ces mentions éditoriales restent séparées des signaux de recherche.
+- Reconnaissance des titres manga/anime cités dans les titres d’articles RSS, avec liens vers les articles et décompte distinct des médias directs ; ces mentions éditoriales restent séparées des signaux de recherche.
 - Catalogue AniList actualisé à chaque collecte : jusqu'à 600 entrées (300 anime + 300 manga), titres japonais/romaji/anglais, alias, genres et liens cliquables vers les fiches officielles AniList. Recherche intégrée dans le catalogue.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon ; le flux Madagascar n’est pas disponible dans cette collecte) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
 - Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
 - Brouillons enregistrés dans le stockage local du navigateur, conservés après rechargement, modifiables après sauvegarde, prévisualisables et exportables avec une seule action « Exporter mes brouillons ».
