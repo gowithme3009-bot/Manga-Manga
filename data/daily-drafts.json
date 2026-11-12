@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T07:37:13.712Z",
+  "generatedAt": "2026-11-12T07:48:44.914Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 13,
+  "eligibleCount": 12,
   "items": [
     {
       "id": "fbf8816caf62308cf589",
@@ -15,7 +15,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 0,
+      "freshnessHours": 1,
       "trendScore": 59,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -37,7 +37,7 @@
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "freshnessHours": 2,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -58,7 +58,7 @@
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
       "freshnessHours": 14,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -78,7 +78,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:16:24.000Z",
-      "freshnessHours": 14,
+      "freshnessHours": 15,
       "trendScore": 33,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -99,8 +99,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
+      "freshnessHours": 16,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -195,27 +195,6 @@
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
-      "id": "c1dbf00658ebf329751c",
-      "title": "Parc manga de Cergy visé par un recours - DB-Z.com",
-      "summary": "",
-      "language": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T15:17:39.000Z",
-      "freshnessHours": 16,
-      "trendScore": 30,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nParc manga de Cergy visé par un recours - DB-Z.com\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
       "id": "4144e983326ec39abb67",
       "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
       "summary": "",
@@ -225,7 +204,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:12:04.000Z",
-      "freshnessHours": 16,
+      "freshnessHours": 17,
       "trendScore": 30,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -246,8 +225,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T11:11:07.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 21,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
