@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-12T05:47:49.313Z",
+  "catalog": {
+    "provider": "AniList",
+    "status": "ok",
+    "entities": 100
+  },
+  "sources": [
+    {
+      "id": "google-trends-fr",
+      "name": "Google Trends — France",
+      "status": "ok",
+      "matches": 0
+    },
+    {
+      "id": "google-trends-jp",
+      "name": "Google Trends — Japon",
+      "status": "ok",
+      "matches": 2
+    },
+    {
+      "id": "google-trends-mg",
+      "name": "Google Trends — Madagascar",
+      "status": "error",
+      "matches": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "10a7c4a6e1ace2e1d1af",
+      "title": "naruto -ナルト-",
+      "entityId": "anime-20",
+      "entityName": "Naruto",
+      "entityType": "anime",
+      "country": "JP",
+      "countryLabel": "Japon",
+      "approximateTraffic": "200+",
+      "publishedAt": "2026-11-12T05:20:00.000Z",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google Trends",
+      "signalType": "recherche publique agrégée",
+      "note": "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
+    },
+    {
+      "id": "3a475cdc9e59921caa91",
+      "title": "ブルーロック",
+      "entityId": "manga-106130",
+      "entityName": "Blue Lock",
+      "entityType": "manga",
+      "country": "JP",
+      "countryLabel": "Japon",
+      "approximateTraffic": "200+",
+      "publishedAt": "2026-11-12T05:20:00.000Z",
+      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "source": "Google Trends",
+      "signalType": "recherche publique agrégée",
+      "note": "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
+    }
+  ],
+  "warnings": [
+    "Madagascar : HTTP 400"
+  ]
+}

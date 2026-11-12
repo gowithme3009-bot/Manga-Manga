@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:46:31.193Z",
+  "generatedAt": "2026-11-12T05:47:46.391Z",
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -186,7 +186,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43,
+      "trendScore": 42,
       "trendLevel": "surveillance"
     },
     {
@@ -441,7 +441,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 35,
+      "trendScore": 34,
       "trendLevel": "surveillance"
     },
     {
@@ -747,7 +747,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance"
     },
     {
@@ -966,23 +966,6 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 25,
-      "trendLevel": "surveillance"
-    },
-    {
-      "id": "fc814d45d3fb351eed6a",
-      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
-      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 25,
@@ -1363,6 +1346,23 @@
       "trendLevel": "surveillance"
     },
     {
+      "id": "dc382b79fb51e75dbfaf",
+      "title": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZnpac2NXOW9TZ3NKUlJPcGN6dXJGUkswekwwTGppM0Y3YzlFZ3o1cXhZR3BnbnBwOTlMcm9Hb1pRT3pjMHpHcGJvZDB2TTZGMWh1akhOTE11YXVuSDJMQnk2QjRhcHVJenVURG9QQWhtN1diVVZGYzdyYy1aRWR2R2JZOXRTNUdEQnlobUh4SVNpWHcx?oc=5",
+      "summary": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 Manga news",
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 12,
+      "trendLevel": "surveillance"
+    },
+    {
       "id": "0c6d61cb1f33acfc6697",
       "title": "Psyren ‒ Episode 5",
       "url": "https://www.animenewsnetwork.com/review/psyren/episode-5/.243687",
@@ -1720,7 +1720,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 49
+      "items": 50
     },
     {
       "id": "anime-corner",
