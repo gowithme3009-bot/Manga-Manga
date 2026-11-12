@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:04:50.164Z",
+  "generatedAt": "2026-11-12T15:05:19.675Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 25,
+  "eligibleCount": 24,
   "items": [
     {
       "id": "126adf4280b312a1b7b1",
@@ -34,13 +34,13 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé jeudi l’arrivée d’un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarneront respectivement Mantarou Kyougoku et Toujin Touyama.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo prêteront leurs voix respectivement à Mantarou Kyougoku et Toujin Touyama. L’anime est prévu pour 2027 et est dirigé par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait confirmé, vérifier le texte complet pour d’éventuelles précisions supplémentaires. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier l’extrait original pour confirmer les noms des doubleurs, des personnages et les rôles de l’équipe (directeur, compositeur, designer). Confirmer que l’annonce provient bien du site officiel et que la date de diffusion 2027 est bien mentionnée. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:05:08.350Z",
+      "aiGeneratedAt": "2026-11-12T15:05:33.274Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,53 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait confirmé, vérifier le texte complet pour d’éventuelles précisions supplémentaires."
-    },
-    {
-      "id": "89d128021464090bb535",
-      "title": "Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process",
-      "summary": "Interview Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 As one of the most outstanding romance stories in recent years, Blue Box highlights the inner worlds and unique sensibilities of its whole cast of characters. The story combines the romantic pursuits of the protagonists, Taiki and Chinatsu, with the passion of spokon , and the adventure of growing up from adolescence. While the Blue Box manga officially ended on July 13 , we can still follow our favorite characters in the anime adaptation currently airing. Blue Box Season 2 explores new sides of the cast and introduces the long awaited Yumeka Goto, a person from Chinatsu’s past. That’s why we were excited to interview Season 2 director Daisuke Sako about Yumeka, the themes explored during the season, and his takes on the story’s message. © Kouji Miura/SHUEISHA, Blue Box Film Partners. Q: Were there any specific themes or core elements you particularly focused on for Season 2? A: This time, we wanted to recreate real, named places as faithfully as possible. The idea that “these characters live in this particular kind of town in Japan” was something we valued in the anime as well. We didn’t only feature the obvious, well-known spots. We put a lot of effort into making sure that viewers all over Japan, including people who have never left their hometown, as well as viewers overseas, could watch and think, “Places like this exist.” Our art staff did a wonderful job of making viewers think, “This is the ki",
-      "language": "fr",
-      "sourceLanguage": "en",
-      "sourceUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
-      "articleUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
-      "articleContentRetrieved": true,
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "animecorner.me",
-        "checkedUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "publisherName": null,
-      "publisherUrl": null,
-      "summaryOrigin": "metadata_article_original",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "publishedAt": "2026-11-12T09:43:11.000Z",
-      "freshnessHours": 5,
-      "trendScore": 48,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 1,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "Dans l’interview, le réalisateur Daisuke Sako explique que la saison 2 de Blue Box cherche à recréer fidèlement des lieux réels du Japon, afin que les spectateurs puissent reconnaître ces décors. Il souligne l’effort de l’équipe artistique pour faire penser aux spectateurs que « ces lieux existent » partout au Japon et à l’étranger.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#BlueBox,#Anime,#Interview",
-      "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait vérifié, il convient de relire l’article complet pour confirmer le contexte. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:05:08.350Z",
-      "aiTitle": "Interview du réalisateur de Blue Box Saison 2, Daisuke Sako",
-      "aiSourceStatus": "original_page_excerpt_verified",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait vérifié, il convient de relire l’article complet pour confirmer le contexte."
+      "aiVerificationNotes": "Vérifier l’extrait original pour confirmer les noms des doubleurs, des personnages et les rôles de l’équipe (directeur, compositeur, designer). Confirmer que l’annonce provient bien du site officiel et que la date de diffusion 2027 est bien mentionnée."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -127,10 +81,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent, vérifier le contenu complet de l’article. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est vide ; il faut consulter l’article original pour connaître les titres et dates des sorties mentionnées. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:05:08.350Z",
+      "aiGeneratedAt": "2026-11-12T15:05:33.274Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -139,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait absent, vérifier le contenu complet de l’article."
+      "aiVerificationNotes": "L’extrait fourni est vide ; il faut consulter l’article original pour connaître les titres et dates des sorties mentionnées."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -171,10 +125,10 @@
       "text": "Sujet repéré : Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent, vérifier le contenu complet de l’article. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait est absent ; il faut vérifier l’article original pour confirmer la disponibilité du webtoon et les informations sur son contenu. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:05:08.350Z",
+      "aiGeneratedAt": "2026-11-12T15:05:33.274Z",
       "aiTitle": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -183,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait absent, vérifier le contenu complet de l’article."
+      "aiVerificationNotes": "L’extrait est absent ; il faut vérifier l’article original pour confirmer la disponibilité du webtoon et les informations sur son contenu."
     },
     {
       "id": "249d5a59b90be2d76765",
@@ -212,10 +166,22 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLes nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+      "text": "Sujet repéré : Les nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Aucun extrait fourni ; il faut consulter la page source pour identifier les tomes mentionnés et leurs détails. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T15:05:33.274Z",
+      "aiTitle": "Les nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "Aucun extrait fourni ; il faut consulter la page source pour identifier les tomes mentionnés et leurs détails."
     },
     {
       "id": "36120c0d88a51136275a",
@@ -387,9 +353,8 @@
       "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
       },
       "publisherName": "ActuaBD",
       "publisherUrl": "https://www.actuabd.com",
@@ -848,6 +813,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "3 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T15:05:08.350Z",
+  "aiGeneratedAt": "2026-11-12T15:05:33.274Z",
   "aiModel": "openai/gpt-oss-120b"
 }
