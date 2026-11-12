@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:07:34.088Z",
+  "generatedAt": "2026-11-12T10:08:21.643Z",
   "items": [
     {
       "id": "caa5ca3faa63349f9d96",
@@ -1384,7 +1384,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },

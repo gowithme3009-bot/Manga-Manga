@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:07:39.531Z",
+  "generatedAt": "2026-11-12T10:08:25.805Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:07:39.531Z",
+    "refreshedAt": "2026-11-12T10:08:25.805Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -1722,7 +1722,7 @@
         "Gwihwanjaui Mabeobeun Teukbyeolhaeya Hamnida",
         "귀환자의 마법은 특별해야 합니다"
       ],
-      "popularity": 77021,
+      "popularity": 77174,
       "trending": 19,
       "format": "TV",
       "genres": [
@@ -6128,7 +6128,7 @@
         "Иногда Аля внезапно кокетничает по-русски",
         "不時輕聲地以俄語遮羞的鄰座艾莉同學"
       ],
-      "popularity": 214124,
+      "popularity": 214253,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -7598,7 +7598,7 @@
         "Re:ゼロから始める異世界生活 3rd season",
         "Re:ZERO – Жизнь с нуля в альтернативном мире 3"
       ],
-      "popularity": 205680,
+      "popularity": 205804,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -7627,7 +7627,7 @@
         "MHA 7",
         "Моя геройская академия 7"
       ],
-      "popularity": 191707,
+      "popularity": 191829,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -14325,7 +14325,7 @@
         "Chainsmoker Cat",
         "ヤニねこ"
       ],
-      "popularity": 4133,
+      "popularity": 4139,
       "trending": 4,
       "format": "MANGA",
       "genres": [
