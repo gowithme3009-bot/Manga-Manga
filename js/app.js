@@ -358,20 +358,28 @@ $("preview-draft").addEventListener("click", () => {
   $("editor-preview").classList.remove("hidden");
 });
 $("copy-ai-prompt").addEventListener("click", async () => {
-  const item = state.items.find(entry => entry.id === $("story-select").value);
-  if (!item) {
-    toast("Choisis d’abord une actualité.");
+  const selectedId = $("story-select").value;
+  const item = state.items.find(entry => entry.id === selectedId);
+  const savedDraft = state.editingDraftId
+    ? state.drafts.find(draft => draft.id === state.editingDraftId)
+    : null;
+  if (!item && !savedDraft) {
+    toast("Choisis d’abord une actualité ou ouvre un brouillon enregistré.");
     return;
   }
+  const sourceTitle = item?.title || savedDraft.title;
+  const sourceSummary = item?.summary || "Résumé du flux indisponible ; utiliser uniquement le texte déjà rédigé et vérifier l’article original.";
+  const sourceUrl = item?.url || savedDraft.sourceUrl;
   const prompt = [
     "RÔLE : Tu es rédacteur francophone spécialisé manga et anime.",
-    "OBJECTIF : Préparer un brouillon Facebook naturel, clair et fidèle à la source.",
-    "RÈGLES : Réponds uniquement en français. N’invente aucun fait, date, citation, chiffre ou déclaration. Distingue les faits confirmés des hypothèses. Si les informations sont insuffisantes, indique-le. Ne prétends pas avoir lu l’article complet si seul l’extrait est fourni. Conserve le titre et le lien source.",
+    "OBJECTIF : Améliorer un brouillon Facebook naturel, clair et fidèle à la source.",
+    "RÈGLES : Réponds uniquement en français. N’invente aucun fait, date, citation, chiffre ou déclaration. Distingue les faits confirmés des hypothèses. Si les informations sont insuffisantes, indique-le. Ne prétends pas avoir lu l’article complet si seul l’extrait est fourni. Conserve le lien source.",
     "FORMAT : Titre ; contexte ; résumé fidèle des seuls éléments fournis ; question à la communauté ; hashtags modérés.",
-    "TITRE SOURCE : " + item.title,
-    "EXTRAIT FOURNI PAR LE FLUX : " + (item.summary || "Aucun résumé distinct fourni."),
-    "SOURCE : " + item.url,
-    "CONSIGNE : Prépare une proposition à relire. Si l’extrait ne suffit pas, propose une version courte et signale ce qui doit être vérifié."
+    "TITRE SOURCE : " + sourceTitle,
+    "EXTRAIT FOURNI PAR LE FLUX : " + sourceSummary,
+    "BROUILLON ACTUEL : " + $("draft-title").value.trim() + "\n" + $("draft-body").value.trim(),
+    "SOURCE : " + (sourceUrl || "Lien source non disponible"),
+    "CONSIGNE : Prépare une proposition à relire. Si les informations ne suffisent pas, signale clairement ce qui doit être vérifié."
   ].join(String.fromCharCode(10, 10));
   try {
     await navigator.clipboard.writeText(prompt);
@@ -391,7 +399,8 @@ $("export-drafts").addEventListener("click", () => {
   anchor.href = url;
   anchor.download = "manga-manga-brouillons.json";
   anchor.click();
-  URL.revokeObjectURL(url);
+  // Laisser au navigateur mobile le temps de démarrer le téléchargement.
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
 
 state.drafts = readArray(STORAGE_KEY);
