@@ -24,8 +24,8 @@ test("n’invente pas de contenu lorsque le résumé manque", () => {
   }], NOW);
   assert.equal(result.items.length, 1);
   assert.equal(result.items[0].status, "à compléter");
-  assert.match(result.items[0].text, /À compléter après lecture/);
-  assert.match(result.items[0].note, /Ne pas publier/);
+  assert.match(result.items[0].text, /COMPLÉTER APRÈS LECTURE/i);
+  assert.match(result.items[0].note, /ne pas publier/i);
 });
 
 test("écarte les dates trop anciennes, absentes, invalides ou futures", () => {
