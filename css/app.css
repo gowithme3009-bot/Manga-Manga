@@ -332,3 +332,19 @@ footer span { padding: 0 5px; color: #d5b14d; }
 .signal-card .summary { margin: 6px 0; }
 .signal-type { color: #4268b6; font-weight: 800; letter-spacing: .45px; }
 @media (max-width: 640px) { .search-trends-panel { padding: 14px; } .search-trends-panel .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; } }
+
+
+/* Catalogue vivant de titres manga et anime. */
+.catalog-panel { margin-top: 22px; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: var(--shadow); }
+.catalog-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 10px; }
+.catalog-card { min-width: 0; padding: 13px; border: 1px solid #e7ebf3; border-radius: 11px; background: #fbfcff; }
+.catalog-card-top, .catalog-card-bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.catalog-kind { padding: 4px 7px; border-radius: 5px; color: #365caa; background: #edf3ff; font-size: 9px; font-weight: 850; letter-spacing: .6px; }
+.catalog-popularity, .catalog-card-bottom { color: #7b879c; font-size: 9px; }
+.catalog-card h3 { margin: 10px 0 5px; font-size: 14px; line-height: 1.4; overflow-wrap: anywhere; }
+.catalog-card h3 a { color: #1d3d79; text-decoration: none; }
+.catalog-card h3 a:hover { text-decoration: underline; }
+.catalog-native { margin: 0 0 5px; color: #485773; font-size: 11px; }
+.catalog-aliases { min-height: 28px; margin: 0 0 10px; color: #8a94a7; font-size: 10px; line-height: 1.4; overflow-wrap: anywhere; }
+.catalog-card-bottom { padding-top: 8px; border-top: 1px solid #edf0f5; }
+@media (max-width: 640px) { .catalog-panel { padding: 14px; } .catalog-panel .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; } .catalog-panel .toolbar { display: block; } }
