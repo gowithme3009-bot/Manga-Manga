@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:48:55.587Z",
+  "generatedAt": "2026-11-12T05:59:25.624Z",
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -67,7 +67,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "hausse"
     },
     {
@@ -84,7 +84,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "hausse"
     },
     {
@@ -101,7 +101,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 54,
+      "trendScore": 53,
       "trendLevel": "hausse"
     },
     {
@@ -203,7 +203,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance"
     },
     {
@@ -373,7 +373,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance"
     },
     {
@@ -492,7 +492,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance"
     },
     {
@@ -509,7 +509,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance"
     },
     {
@@ -526,7 +526,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance"
     },
     {
@@ -543,7 +543,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance"
     },
     {
@@ -560,7 +560,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34,
+      "trendScore": 33,
       "trendLevel": "surveillance"
     },
     {
@@ -598,6 +598,23 @@
       "trendLevel": "surveillance"
     },
     {
+      "id": "c1dbf00658ebf329751c",
+      "title": "Parc manga de Cergy visé par un recours - DB-Z.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "summary": "Parc manga de Cergy visé par un recours DB-Z.com",
+      "publishedAt": "2026-11-11T15:17:39.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 33,
+      "trendLevel": "surveillance"
+    },
+    {
       "id": "4144e983326ec39abb67",
       "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
@@ -611,7 +628,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 33,
+      "trendScore": 32,
       "trendLevel": "surveillance"
     },
     {
@@ -662,7 +679,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance"
     },
     {
@@ -730,7 +747,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance"
     },
     {
@@ -815,7 +832,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance"
     },
     {
@@ -832,7 +849,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance"
     },
     {
@@ -917,7 +934,7 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance"
     },
     {
@@ -934,7 +951,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance"
     },
     {
@@ -1036,7 +1053,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 21,
+      "trendScore": 20,
       "trendLevel": "surveillance"
     },
     {
@@ -1070,7 +1087,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 20,
+      "trendScore": 19,
       "trendLevel": "surveillance"
     },
     {
@@ -1138,7 +1155,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance"
     },
     {
@@ -1340,23 +1357,6 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 12,
-      "trendLevel": "surveillance"
-    },
-    {
-      "id": "0aceb89e0ce0714de9a7",
-      "title": "Anime - Love Potion, la sorcière mal-aimée - Episode #6 - La sorcière et le philtre d'amour promis, 10 Novembre 2026 - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS2RqOWZYQlA2VlBOUEtfTWw2dnFxX1dsYTZuUi1fa21RblAyR1VUeDc4cWZpQ0Q2WnJmUW1FSUQxd3BlamxHYXM3X2Ribnk4MmZNZDl3SFF6bjVTNE84MEJzWWlwbGExVUIyR3djTUV0c3Rlem04bHN4S0RDUVJfUkNFRG9udWk1eWxGUXBrMFhPQmFrZ2FOY3JoNlB4UTByRlVIQnNzNTlNYVhUS1paR0ltTm5iSUpRc2lGS0RLU081ZXZzbHJscXI0aVd3cDgwQmtjWURVV2VvTkE?oc=5",
-      "summary": "Anime - Love Potion, la sorcière mal-aimée - Episode #6 - La sorcière et le philtre d'amour promis, 10 Novembre 2026 Manga news",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 12,
@@ -1648,7 +1648,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance"
     },
     {
@@ -1720,7 +1720,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 50
+      "items": 51
     },
     {
       "id": "anime-corner",
