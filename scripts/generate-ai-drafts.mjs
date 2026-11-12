@@ -55,9 +55,13 @@ export function parseAiResponse(content, candidates) {
 // Ce contrôle ne prouve pas la véracité sémantique et ne remplace jamais la lecture humaine.
 export function auditAiDraft(candidate, body, editorialTitle="") {
  const source=String(candidate.title||"")+" "+String(candidate.summary||"");
- const sourceNumbers=new Set(source.match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[]);
+ // Accepte les espaces insécables/normaux utilisés comme séparateurs de milliers
+ // (ex. 6 000, 6 000 ou 6 000) sans les découper en deux nombres.
+ const extractNumbers = value => (String(value).match(/\d+(?:[ \u00a0\u202f]\d{3})*(?:[.,]\d+)?/g)||[])
+  .map(number=>number.replace(/[ \u00a0\u202f]/g,""));
+ const sourceNumbers=new Set(extractNumbers(source));
  const draftText=String(editorialTitle||"")+" "+String(body||"");
- const bodyNumbers=[...new Set(draftText.match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[])];
+ const bodyNumbers=[...new Set(extractNumbers(draftText))];
  const unsupportedNumbers=bodyNumbers.filter(value=>!sourceNumbers.has(value));
  return {
   status:unsupportedNumbers.length?"needs_check":"no_numeric_alert",
