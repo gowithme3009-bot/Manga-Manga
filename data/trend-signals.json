@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T07:02:43.126Z",
+  "generatedAt": "2026-11-12T07:19:23.043Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T07:02:43.126Z",
+    "refreshedAt": "2026-11-12T07:19:23.043Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -5610,35 +5610,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/anime/167152"
-    },
-    {
-      "id": "anime-98707",
-      "name": "Land of the Lustrous",
-      "nativeTitle": "宝石の国",
-      "romajiTitle": "Houseki no Kuni",
-      "englishTitle": "Land of the Lustrous",
-      "type": "anime",
-      "aliases": [
-        "Houseki no Kuni",
-        "Land of the Lustrous",
-        "宝石の国",
-        "L'Ère des Cristaux",
-        "Das Land der Juwelen",
-        "Страна самоцветов",
-        "Vương Quốc Bảo Thạch",
-        "ดินแดนอัญมณี"
-      ],
-      "popularity": 163285,
-      "trending": 10,
-      "format": "TV",
-      "genres": [
-        "Action",
-        "Drama",
-        "Fantasy",
-        "Mystery",
-        "Psychological"
-      ],
-      "url": "https://anilist.co/anime/98707"
     },
     {
       "id": "anime-263",
@@ -11560,29 +11531,6 @@
       "url": "https://anilist.co/anime/125428"
     },
     {
-      "id": "anime-21262",
-      "name": "Owarimonogatari",
-      "nativeTitle": "終物語",
-      "romajiTitle": "Owarimonogatari",
-      "englishTitle": "Owarimonogatari",
-      "type": "anime",
-      "aliases": [
-        "Owarimonogatari",
-        "終物語",
-        "End Tale"
-      ],
-      "popularity": 131725,
-      "trending": 6,
-      "format": "TV",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Psychological",
-        "Supernatural"
-      ],
-      "url": "https://anilist.co/anime/21262"
-    },
-    {
       "id": "manga-30012",
       "name": "Bleach",
       "nativeTitle": "BLEACH",
@@ -11691,6 +11639,31 @@
       "url": "https://anilist.co/anime/99088"
     },
     {
+      "id": "anime-175914",
+      "name": "Call of the Night Season 2",
+      "nativeTitle": "よふかしのうた Season 2",
+      "romajiTitle": "Yofukashi no Uta Season 2",
+      "englishTitle": "Call of the Night Season 2",
+      "type": "anime",
+      "aliases": [
+        "Yofukashi no Uta Season 2",
+        "Call of the Night Season 2",
+        "よふかしのうた Season 2",
+        "Zew nocy. Sezon 2"
+      ],
+      "popularity": 107461,
+      "trending": 6,
+      "format": "TV",
+      "genres": [
+        "Comedy",
+        "Psychological",
+        "Romance",
+        "Slice of Life",
+        "Supernatural"
+      ],
+      "url": "https://anilist.co/anime/175914"
+    },
+    {
       "id": "manga-31706",
       "name": "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
       "nativeTitle": "ジョジョの奇妙な冒険 スティール・ボール・ラン",
@@ -11742,35 +11715,6 @@
         "Romance"
       ],
       "url": "https://anilist.co/anime/170130"
-    },
-    {
-      "id": "anime-387",
-      "name": "Haibane Renmei",
-      "nativeTitle": "灰羽連盟",
-      "romajiTitle": "Haibane Renmei",
-      "englishTitle": "Haibane Renmei",
-      "type": "anime",
-      "aliases": [
-        "Haibane Renmei",
-        "灰羽連盟",
-        "Charcoal Feather Federation",
-        " Une fille qui a des ailes grises",
-        "Ailes Grises",
-        "Ali grigie",
-        "Haibane renmei: Stowarzyszenie Szaropiórych",
-        "Союз Серокрылых"
-      ],
-      "popularity": 102995,
-      "trending": 6,
-      "format": "TV",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Mystery",
-        "Psychological",
-        "Slice of Life"
-      ],
-      "url": "https://anilist.co/anime/387"
     },
     {
       "id": "anime-173694",
@@ -11851,26 +11795,30 @@
       "url": "https://anilist.co/anime/148116"
     },
     {
-      "id": "manga-46765",
-      "name": "Kingdom",
-      "nativeTitle": "キングダム",
-      "romajiTitle": "Kingdom",
-      "englishTitle": "Kingdom",
-      "type": "manga",
+      "id": "anime-175872",
+      "name": "The Brilliant Healer's New Life in the Shadows",
+      "nativeTitle": "一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる",
+      "romajiTitle": "Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru",
+      "englishTitle": "The Brilliant Healer's New Life in the Shadows",
+      "type": "anime",
       "aliases": [
-        "Kingdom",
-        "キングダム",
-        "킹덤",
-        "王者天下"
+        "Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru",
+        "The Brilliant Healer's New Life in the Shadows",
+        "一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる",
+        "闇ヒーラー",
+        "Cuộc Sống Mới Trong Bóng Tối Của Trị Liệu Sư Tài Ba",
+        "瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活",
+        "Yami Healer"
       ],
-      "popularity": 77568,
+      "popularity": 79558,
       "trending": 6,
-      "format": "MANGA",
+      "format": "TV",
       "genres": [
         "Action",
-        "Drama"
+        "Comedy",
+        "Fantasy"
       ],
-      "url": "https://anilist.co/manga/46765"
+      "url": "https://anilist.co/anime/175872"
     },
     {
       "id": "anime-174802",
@@ -11894,6 +11842,34 @@
         "Romance"
       ],
       "url": "https://anilist.co/anime/174802"
+    },
+    {
+      "id": "anime-177699",
+      "name": "THE GHOST IN THE SHELL",
+      "nativeTitle": "攻殻機動隊 THE GHOST IN THE SHELL",
+      "romajiTitle": "Koukaku Kidoutai: THE GHOST IN THE SHELL",
+      "englishTitle": "THE GHOST IN THE SHELL",
+      "type": "anime",
+      "aliases": [
+        "Koukaku Kidoutai: THE GHOST IN THE SHELL",
+        "THE GHOST IN THE SHELL",
+        "攻殻機動隊 THE GHOST IN THE SHELL",
+        "Koukaku Kidoutai (2026)",
+        "The Ghost in the Shell (2026)",
+        "攻殻機動隊 (2026)",
+        "GITS 2026",
+        "เดอะ โกสต์ อิน เดอะ เชลล์"
+      ],
+      "popularity": 57413,
+      "trending": 6,
+      "format": "TV",
+      "genres": [
+        "Action",
+        "Ecchi",
+        "Psychological",
+        "Sci-Fi"
+      ],
+      "url": "https://anilist.co/anime/177699"
     },
     {
       "id": "anime-172453",
@@ -11980,30 +11956,6 @@
         "Thriller"
       ],
       "url": "https://anilist.co/anime/166910"
-    },
-    {
-      "id": "manga-151512",
-      "name": "My Blasted Reincarnated Life",
-      "nativeTitle": "빌어먹을 환생",
-      "romajiTitle": "Bireomeogeul Hwansaeng",
-      "englishTitle": "My Blasted Reincarnated Life",
-      "type": "manga",
-      "aliases": [
-        "Bireomeogeul Hwansaeng",
-        "My Blasted Reincarnated Life",
-        "빌어먹을 환생",
-        "Damn Reincarnation"
-      ],
-      "popularity": 36271,
-      "trending": 6,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/151512"
     },
     {
       "id": "manga-135325",
@@ -12232,37 +12184,6 @@
       "url": "https://anilist.co/manga/174315"
     },
     {
-      "id": "manga-154159",
-      "name": "The Broken Ring: This Marriage Will Fail Anyway",
-      "nativeTitle": "这个婚反正也要完蛋",
-      "romajiTitle": "Zhe Ge Hun Fanzheng Ye Yao Wandan",
-      "englishTitle": "The Broken Ring: This Marriage Will Fail Anyway",
-      "type": "manga",
-      "aliases": [
-        "Zhe Ge Hun Fanzheng Ye Yao Wandan",
-        "The Broken Ring: This Marriage Will Fail Anyway",
-        "这个婚反正也要完蛋",
-        "這場婚姻注定凋零",
-        "The Broken Ring: Um Casamento Fadado ao Fracasso",
-        "ปลายทางวิวาห์นี้มีแต่ล่ม",
-        "I Gyeolhoneun Eochapi Manghage Doeeoitda",
-        "The Broken Ring - To małżeństwo i tak się rozpadnie",
-        "The Broken Ring : This Marriage Will Fail Anyway",
-        "이 결혼은 어차피 망하게 되어 있다",
-        "Este matrimonio está destinado a fracasar"
-      ],
-      "popularity": 11759,
-      "trending": 6,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Psychological",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/154159"
-    },
-    {
       "id": "manga-167372",
       "name": "Necromancer, the Ultimate Scourge!",
       "nativeTitle": "死灵法师！我即是天灾",
@@ -12435,30 +12356,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/192888"
-    },
-    {
-      "id": "manga-183574",
-      "name": "The Exiled Prince of Auto-Crafting",
-      "nativeTitle": "追放された転生王子、『自動製作（オートクラフト）』スキルで領地を爆速で開拓し最強の村を作ってしまう　〜最強クラフトスキルで始める、楽々領地開拓スローライフ〜",
-      "romajiTitle": "Tsuihou Sareta Tensei Ouji, \"Auto Craft\" Skill de Ryouchi wo Bakusoku de Kaitakushi Saikyou no Mura wo Tsukutte Shimau: Saikyou Crafting Skill de Hajimeru, Rakuraku Ryouchi Kaitaku Slow Life",
-      "englishTitle": "The Exiled Prince of Auto-Crafting",
-      "type": "manga",
-      "aliases": [
-        "Tsuihou Sareta Tensei Ouji, \"Auto Craft\" Skill de Ryouchi wo Bakusoku de Kaitakushi Saikyou no Mura wo Tsukutte Shimau: Saikyou Crafting Skill de Hajimeru, Rakuraku Ryouchi Kaitaku Slow Life",
-        "The Exiled Prince of Auto-Crafting",
-        "追放された転生王子、『自動製作（オートクラフト）』スキルで領地を爆速で開拓し最強の村を作ってしまう　〜最強クラフトスキルで始める、楽々領地開拓スローライフ〜",
-        "追放された転生王子、『自動製作』スキルで領地を爆速で開拓し最強の村を作ってしまう　〜最強クラフトスキルで始める、楽々領地開拓スローライフ〜",
-        "Tsuihou Sareta Tensei Ouji, \"Jidou Seisaku\" Skill de Ryouchi wo Bakusoku de Kaitaku Shi Saikyou no Mura wo Tsukutte Shimau: Saikyou Craft Skill de Hajimeru, Rakuraku Ryouchi Kaitaku Slow Life"
-      ],
-      "popularity": 2722,
-      "trending": 6,
-      "format": "MANGA",
-      "genres": [
-        "Adventure",
-        "Comedy",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/183574"
     },
     {
       "id": "manga-171777",
@@ -12634,33 +12531,6 @@
         "Supernatural"
       ],
       "url": "https://anilist.co/manga/30011"
-    },
-    {
-      "id": "manga-31133",
-      "name": "Dorohedoro",
-      "nativeTitle": "ドロヘドロ",
-      "romajiTitle": "Dorohedoro",
-      "englishTitle": "Dorohedoro",
-      "type": "manga",
-      "aliases": [
-        "Dorohedoro",
-        "ドロヘドロ",
-        "דורוהדורו",
-        "도로헤도로",
-        "Дорохедоро"
-      ],
-      "popularity": 89606,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Horror",
-        "Mystery"
-      ],
-      "url": "https://anilist.co/manga/31133"
     },
     {
       "id": "manga-37375",
@@ -13103,27 +12973,6 @@
       "url": "https://anilist.co/manga/119701"
     },
     {
-      "id": "manga-185979",
-      "name": "The Legendary Hero is an Academy Honors Student",
-      "nativeTitle": "전설급 영웅은 아카데미 우등생",
-      "romajiTitle": "Jeonseolgeup Yeongungeun Academy Udeungsaeng",
-      "englishTitle": "The Legendary Hero is an Academy Honors Student",
-      "type": "manga",
-      "aliases": [
-        "Jeonseolgeup Yeongungeun Academy Udeungsaeng",
-        "The Legendary Hero is an Academy Honors Student",
-        "전설급 영웅은 아카데미 우등생"
-      ],
-      "popularity": 11383,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/185979"
-    },
-    {
       "id": "manga-142352",
       "name": "Best Teacher Baek",
       "nativeTitle": "일타강사 백사부",
@@ -13323,28 +13172,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/158459"
-    },
-    {
-      "id": "manga-189380",
-      "name": "The Unorthodox Genius of the House of Darkness",
-      "nativeTitle": "암흑명가 천재 망나니가 되었다",
-      "romajiTitle": "Amheukmyeongga Cheonjae Mangnaniga Doeeossda",
-      "englishTitle": "The Unorthodox Genius of the House of Darkness",
-      "type": "manga",
-      "aliases": [
-        "Amheukmyeongga Cheonjae Mangnaniga Doeeossda",
-        "The Unorthodox Genius of the House of Darkness",
-        "암흑명가 천재 망나니가 되었다",
-        "I Became the Genius Bastard of a Noble Dark Clan"
-      ],
-      "popularity": 6393,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/189380"
     },
     {
       "id": "manga-189264",
@@ -13841,51 +13668,6 @@
         "Romance"
       ],
       "url": "https://anilist.co/manga/211511"
-    },
-    {
-      "id": "manga-211740",
-      "name": "The White Tiger Clan’s Little Fluff",
-      "nativeTitle": "백호 가문의 아기 솜뭉치",
-      "romajiTitle": "Baeko Gamunui Agi Sommungchi",
-      "englishTitle": "The White Tiger Clan’s Little Fluff",
-      "type": "manga",
-      "aliases": [
-        "Baeko Gamunui Agi Sommungchi",
-        "The White Tiger Clan’s Little Fluff",
-        "백호 가문의 아기 솜뭉치",
-        "The White Tiger Clan's Baby Cotton Ball",
-        "The White Tiger Clan's Little Fluff",
-        "L'oisillon du Clan du Tigre Blanc"
-      ],
-      "popularity": 1070,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/211740"
-    },
-    {
-      "id": "manga-189533",
-      "name": "Orc no Shuhai ni Shukufuku wo",
-      "nativeTitle": "オークの酒杯に祝福を",
-      "romajiTitle": "Orc no Shuhai ni Shukufuku wo",
-      "englishTitle": "",
-      "type": "manga",
-      "aliases": [
-        "Orc no Shuhai ni Shukufuku wo",
-        "オークの酒杯に祝福を"
-      ],
-      "popularity": 888,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/189533"
     },
     {
       "id": "manga-211213",
@@ -14419,6 +14201,34 @@
       "url": "https://anilist.co/manga/165287"
     },
     {
+      "id": "manga-103255",
+      "name": "Fairy Tail: 100 Years Quest",
+      "nativeTitle": "FAIRY TAIL 100 YEARS QUEST",
+      "romajiTitle": "FAIRY TAIL: 100 YEARS QUEST",
+      "englishTitle": "Fairy Tail: 100 Years Quest",
+      "type": "manga",
+      "aliases": [
+        "FAIRY TAIL: 100 YEARS QUEST",
+        "Fairy Tail: 100 Years Quest",
+        "FAIRY TAIL 100 YEARS QUEST",
+        "フェアリーテイル",
+        "FAIRY TAIL 100年クエスト",
+        "FAIRY TAIL: 100-nen Quest",
+        "FAIRY TAIL魔導少年 百年任務"
+      ],
+      "popularity": 19974,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Ecchi",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/103255"
+    },
+    {
       "id": "manga-107518",
       "name": "Heavenly Demon Reborn!",
       "nativeTitle": "신마경천기",
@@ -14546,34 +14356,6 @@
         "Slice of Life"
       ],
       "url": "https://anilist.co/manga/132288"
-    },
-    {
-      "id": "manga-149893",
-      "name": "Mistress Kanan is Devilishly Easy",
-      "nativeTitle": "カナン様はあくまでチョロい",
-      "romajiTitle": "Kanan-sama wa Akumade Choroi",
-      "englishTitle": "Mistress Kanan is Devilishly Easy",
-      "type": "manga",
-      "aliases": [
-        "Kanan-sama wa Akumade Choroi",
-        "Mistress Kanan is Devilishly Easy",
-        "カナン様はあくまでチョロい",
-        "Kanan-sama Is Easy as Hell!",
-        "カナチョロ",
-        "KanaChoro",
-        "ท่านคานัน ปีศาจต๊อง บ๊องไม่มีใครเกิน",
-        "카난 님은 초보 악마"
-      ],
-      "popularity": 16119,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Comedy",
-        "Ecchi",
-        "Fantasy",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/149893"
     },
     {
       "id": "manga-187427",
@@ -14793,29 +14575,6 @@
       "url": "https://anilist.co/manga/146267"
     },
     {
-      "id": "manga-153007",
-      "name": "The Bugle Call: Song of War",
-      "nativeTitle": "戦奏教室",
-      "romajiTitle": "Sensou Kyoushitsu",
-      "englishTitle": "The Bugle Call: Song of War",
-      "type": "manga",
-      "aliases": [
-        "Sensou Kyoushitsu",
-        "The Bugle Call: Song of War",
-        "戦奏教室",
-        "Bitewny zew – The Bugle Call"
-      ],
-      "popularity": 12334,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy",
-        "Psychological"
-      ],
-      "url": "https://anilist.co/manga/153007"
-    },
-    {
       "id": "manga-164599",
       "name": "Not Your Typical Reincarnation Story",
       "nativeTitle": "흔한 빙의물인 줄 알았다",
@@ -14914,29 +14673,6 @@
       "url": "https://anilist.co/manga/142021"
     },
     {
-      "id": "manga-167423",
-      "name": "Noa-senpai wa Tomodachi.",
-      "nativeTitle": "のあ先輩はともだち。",
-      "romajiTitle": "Noa-senpai wa Tomodachi.",
-      "englishTitle": "",
-      "type": "manga",
-      "aliases": [
-        "Noa-senpai wa Tomodachi.",
-        "のあ先輩はともだち。",
-        "Noa Is My Senior, and My Friend."
-      ],
-      "popularity": 10244,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Comedy",
-        "Ecchi",
-        "Romance",
-        "Slice of Life"
-      ],
-      "url": "https://anilist.co/manga/167423"
-    },
-    {
       "id": "manga-116551",
       "name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
       "nativeTitle": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
@@ -15018,28 +14754,6 @@
       "url": "https://anilist.co/manga/159436"
     },
     {
-      "id": "manga-169135",
-      "name": "Reborn as the Enemy Prince",
-      "nativeTitle": "적국의 왕자로 사는 법",
-      "romajiTitle": "Jeokgugui Wangjaro Saneun Beop",
-      "englishTitle": "Reborn as the Enemy Prince",
-      "type": "manga",
-      "aliases": [
-        "Jeokgugui Wangjaro Saneun Beop",
-        "Reborn as the Enemy Prince",
-        "적국의 왕자로 사는 법",
-        "敵國王子的生存法則"
-      ],
-      "popularity": 8339,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/169135"
-    },
-    {
       "id": "manga-159121",
       "name": "World's Strongest Troll",
       "nativeTitle": "게임 최강 트롤러",
@@ -15061,31 +14775,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/159121"
-    },
-    {
-      "id": "manga-152654",
-      "name": "The Dungeon Cleaning Life of a Once Genius Hunter",
-      "nativeTitle": "회귀한 천재 헌터의 슬기로운 청소생활",
-      "romajiTitle": "Hoegwihan Cheonjae Hunter-ui Seulgiroun Cheongsosaenghwal",
-      "englishTitle": "The Dungeon Cleaning Life of a Once Genius Hunter",
-      "type": "manga",
-      "aliases": [
-        "Hoegwihan Cheonjae Hunter-ui Seulgiroun Cheongsosaenghwal",
-        "The Dungeon Cleaning Life of a Once Genius Hunter",
-        "회귀한 천재 헌터의 슬기로운 청소생활",
-        "Clever Cleaning Life of the Returned Genius Hunter",
-        "Vom genialen Hunter zum Dungeon-Putzer",
-        "天才猎人的清扫生活",
-        "สุดยอดฮันเตอร์สายคลีน"
-      ],
-      "popularity": 7647,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/152654"
     },
     {
       "id": "manga-194727",
@@ -15161,50 +14850,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/185452"
-    },
-    {
-      "id": "manga-144599",
-      "name": "THE ISEKAI DOCTOR: Any sufficiently advanced medical science is indistinguishable from magic.",
-      "nativeTitle": "高度に発達した医学は魔法と区別がつかない",
-      "romajiTitle": "Koudo ni Hattatsu Shita Igaku wa Mahou to Kubetsu ga Tsukanai",
-      "englishTitle": "THE ISEKAI DOCTOR: Any sufficiently advanced medical science is indistinguishable from magic.",
-      "type": "manga",
-      "aliases": [
-        "Koudo ni Hattatsu Shita Igaku wa Mahou to Kubetsu ga Tsukanai",
-        "THE ISEKAI DOCTOR: Any sufficiently advanced medical science is indistinguishable from magic.",
-        "高度に発達した医学は魔法と区別がつかない",
-        "I Used High-Level Medicine to Counter Magic",
-        "先進醫療和魔法沒兩樣"
-      ],
-      "popularity": 7290,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/144599"
-    },
-    {
-      "id": "manga-177188",
-      "name": "My Girlfriend Is a Colossal Cutie",
-      "nativeTitle": "僕の彼女はデッカワイイ",
-      "romajiTitle": "Boku no Kanojo wa Dekkawaii",
-      "englishTitle": "My Girlfriend Is a Colossal Cutie",
-      "type": "manga",
-      "aliases": [
-        "Boku no Kanojo wa Dekkawaii",
-        "My Girlfriend Is a Colossal Cutie",
-        "僕の彼女はデッカワイイ",
-        "My Girlfriend is Big & Cute!"
-      ],
-      "popularity": 7128,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/177188"
     },
     {
       "id": "manga-160001",
@@ -15449,55 +15094,27 @@
       "url": "https://anilist.co/manga/160500"
     },
     {
-      "id": "manga-197840",
-      "name": "Why the Villainess Wields the Sword",
-      "nativeTitle": "그 악녀가 검을 든 이유",
-      "romajiTitle": "Geu Angnyeoga Geomeul Deun Iyu",
-      "englishTitle": "Why the Villainess Wields the Sword",
+      "id": "manga-119990",
+      "name": "Dungeon Sherpa: The Labyrinth Guide",
+      "nativeTitle": "ダンジョン・シェルパ　迷宮道先案内人",
+      "romajiTitle": "Dungeon Sherpa: Meikyuu Michisakianainin",
+      "englishTitle": "Dungeon Sherpa: The Labyrinth Guide",
       "type": "manga",
       "aliases": [
-        "Geu Angnyeoga Geomeul Deun Iyu",
-        "Why the Villainess Wields the Sword",
-        "그 악녀가 검을 든 이유",
-        "The Reason Why the Villainess Picked up a Sword",
-        "The Reason the Villainess Took Up the Sword",
-        "悪女が剣を持った理由",
-        "Vilaine & Maîtresse de l'épée",
-        "惡女舞劍歸來的原因"
+        "Dungeon Sherpa: Meikyuu Michisakianainin",
+        "Dungeon Sherpa: The Labyrinth Guide",
+        "ダンジョン・シェルパ　迷宮道先案内人",
+        "Dungeon Sherpa Labyrinth Guide "
       ],
-      "popularity": 2178,
+      "popularity": 2134,
       "trending": 4,
       "format": "MANGA",
       "genres": [
-        "Drama",
-        "Fantasy",
-        "Romance"
+        "Action",
+        "Adventure",
+        "Fantasy"
       ],
-      "url": "https://anilist.co/manga/197840"
-    },
-    {
-      "id": "manga-189355",
-      "name": "I've Fallen for the Empire's Greatest Villainess",
-      "nativeTitle": "帝国一の悪女に溺愛がとまりません！",
-      "romajiTitle": "Teikoku Ichi no Akujo ni Dekiai ga Tomarimasen!",
-      "englishTitle": "I've Fallen for the Empire's Greatest Villainess",
-      "type": "manga",
-      "aliases": [
-        "Teikoku Ichi no Akujo ni Dekiai ga Tomarimasen!",
-        "I've Fallen for the Empire's Greatest Villainess",
-        "帝国一の悪女に溺愛がとまりません！",
-        "I can't stop doting on the most evil woman in the empire!",
-        "제국 최고의 악녀를 사랑하게 되었습니다",
-        "愛上帝國第一惡女！",
-        "Caidinho pela Vilã"
-      ],
-      "popularity": 2173,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/189355"
+      "url": "https://anilist.co/manga/119990"
     },
     {
       "id": "manga-198020",
@@ -15569,33 +15186,6 @@
       "url": "https://anilist.co/manga/177431"
     },
     {
-      "id": "manga-189981",
-      "name": "The End Has Come",
-      "nativeTitle": "종말이 찾아왔다",
-      "romajiTitle": "Jongmari Chajawassda",
-      "englishTitle": "The End Has Come",
-      "type": "manga",
-      "aliases": [
-        "Jongmari Chajawassda",
-        "The End Has Come",
-        "종말이 찾아왔다",
-        "The Apocalypse Has Arrived",
-        "ผู้กล้าฝ่าวันสิ้นโลก",
-        "終焉がやってきた",
-        "末日来袭",
-        "末日降臨"
-      ],
-      "popularity": 1829,
-      "trending": 4,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Drama",
-        "Supernatural"
-      ],
-      "url": "https://anilist.co/manga/189981"
-    },
-    {
       "id": "manga-203228",
       "name": "Go Deok-Chun-ui Food Truck",
       "nativeTitle": "고덕춘의 푸드트럭",
@@ -15614,6 +15204,97 @@
         "Romance"
       ],
       "url": "https://anilist.co/manga/203228"
+    },
+    {
+      "id": "manga-212619",
+      "name": "The Sword God's Livestream",
+      "nativeTitle": "검술 고인물의 게임방송",
+      "romajiTitle": "Geomsul Goinmurui Game Bangsong",
+      "englishTitle": "The Sword God's Livestream",
+      "type": "manga",
+      "aliases": [
+        "Geomsul Goinmurui Game Bangsong",
+        "The Sword God's Livestream",
+        "검술 고인물의 게임방송",
+        "The Veteran Swordmaster’s Stream"
+      ],
+      "popularity": 1789,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/212619"
+    },
+    {
+      "id": "manga-214417",
+      "name": "Sacheondanggaui Mangnaettareul Napchihaetda",
+      "nativeTitle": "사천당가의 막내딸을 납치했다",
+      "romajiTitle": "Sacheondanggaui Mangnaettareul Napchihaetda",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Sacheondanggaui Mangnaettareul Napchihaetda",
+        "사천당가의 막내딸을 납치했다",
+        "I Kidnapped the Tang Clan's Lady",
+        "I Kidnapped the Youngest Daughter of the Sichuan Tang Clan"
+      ],
+      "popularity": 1635,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/214417"
+    },
+    {
+      "id": "manga-212181",
+      "name": "Joahamyeon Meongcheonghaejinda",
+      "nativeTitle": "좋아하면 멍청해진다",
+      "romajiTitle": "Joahamyeon Meongcheonghaejinda",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Joahamyeon Meongcheonghaejinda",
+        "좋아하면 멍청해진다",
+        "You Get Dumb When You're in Love"
+      ],
+      "popularity": 1592,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Slice of Life"
+      ],
+      "url": "https://anilist.co/manga/212181"
+    },
+    {
+      "id": "manga-211385",
+      "name": "INFINITE DECRYPTION: THE STRONGEST LEVEL 0",
+      "nativeTitle": "最強のレベル0 -解析スキルで完全無双-",
+      "romajiTitle": "Saikyou no Level 0: Kaiseki Sukiru de Kanzen Musou",
+      "englishTitle": "INFINITE DECRYPTION: THE STRONGEST LEVEL 0",
+      "type": "manga",
+      "aliases": [
+        "Saikyou no Level 0: Kaiseki Sukiru de Kanzen Musou",
+        "INFINITE DECRYPTION: THE STRONGEST LEVEL 0",
+        "最強のレベル0 -解析スキルで完全無双-",
+        "Absolute Domination at Level 0 Using My Analysis Skill",
+        "The Strongest Level 0 -Unrivaled with the Analysis Skill",
+        "The Strongest Level 0 Absolute Supremacy Through Analysis Skills",
+        "เลเวล 0 เจาะระบบได้ไม่จำกัด"
+      ],
+      "popularity": 1346,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/211385"
     },
     {
       "id": "manga-205101",
@@ -15685,6 +15366,71 @@
       "url": "https://anilist.co/manga/204894"
     },
     {
+      "id": "manga-218531",
+      "name": "Sinip Gongmuwoneun Villain Japgo Toegeunhamnida",
+      "nativeTitle": "신입 공무원은 빌런 잡고 퇴근합니다",
+      "romajiTitle": "Sinip Gongmuwoneun Villain Japgo Toegeunhamnida",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Sinip Gongmuwoneun Villain Japgo Toegeunhamnida",
+        "신입 공무원은 빌런 잡고 퇴근합니다",
+        "The Newbie Civil Servant Hunts Villains Before Going Home",
+        "Rookie Public Servant Hunts Villains and Leaves Work on Time",
+        "The Rookie Civil Servant Catches Villains and Clocks Out"
+      ],
+      "popularity": 628,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/218531"
+    },
+    {
+      "id": "manga-215258",
+      "name": "Samnyumuga Cheonhajeirin",
+      "nativeTitle": "삼류무가 천하제일인",
+      "romajiTitle": "Samnyumuga Cheonhajeirin",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Samnyumuga Cheonhajeirin",
+        "삼류무가 천하제일인",
+        "Third-rate Martial Family Becomes the Best Under Heaven",
+        "The World’s Strongest Is from a Third-Rate Martial Clan"
+      ],
+      "popularity": 602,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/215258"
+    },
+    {
+      "id": "manga-219287",
+      "name": "Bukbu Daegongui Michin Derilsawi",
+      "nativeTitle": "북부 대공의 미친 데릴사위",
+      "romajiTitle": "Bukbu Daegongui Michin Derilsawi",
+      "englishTitle": "",
+      "type": "manga",
+      "aliases": [
+        "Bukbu Daegongui Michin Derilsawi",
+        "북부 대공의 미친 데릴사위",
+        "The Grand Duke of the North's Crazy Son-in-Law"
+      ],
+      "popularity": 544,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/219287"
+    },
+    {
       "id": "manga-194615",
       "name": "Hai no Sekai wa Kami no Me de Irozuku: Ore dake Mieru Status de, Saijaku kara Saikyou e Kakeagaru",
       "nativeTitle": "灰の世界は神の眼で彩づく～俺だけ見えるステータスで、最弱から最強へ駆け上がる～",
@@ -15725,6 +15471,283 @@
         "Romance"
       ],
       "url": "https://anilist.co/manga/195668"
+    },
+    {
+      "id": "manga-30026",
+      "name": "Hunter x Hunter",
+      "nativeTitle": "HUNTER×HUNTER",
+      "romajiTitle": "HUNTER×HUNTER",
+      "englishTitle": "Hunter x Hunter",
+      "type": "manga",
+      "aliases": [
+        "HUNTER×HUNTER",
+        "Hunter x Hunter",
+        "ハンター×ハンター",
+        "HxH",
+        "헌터×헌터",
+        "القناص"
+      ],
+      "popularity": 111220,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/30026"
+    },
+    {
+      "id": "manga-30025",
+      "name": "Fullmetal Alchemist",
+      "nativeTitle": "鋼の錬金術師",
+      "romajiTitle": "Hagane no Renkinjutsushi",
+      "englishTitle": "Fullmetal Alchemist",
+      "type": "manga",
+      "aliases": [
+        "Hagane no Renkinjutsushi",
+        "Fullmetal Alchemist",
+        "鋼の錬金術師",
+        "Full Metal Alchemist",
+        "FMA",
+        "HagaRen",
+        "Fullmetal Alchemist Gaiden",
+        "Çelik Simyacı",
+        "Fullmetal Alchemist - Ocelový alchymista",
+        " Стальной Алхимик",
+        "Сталевий Алхімік",
+        "Cang Giả Kim Thuật Sư",
+        "Čelični alhemičar",
+        "鋼之鍊金術師",
+        "แขนกลคนแปรธาตุ",
+        "강철의 연금술사",
+        "Железният Алхимик"
+      ],
+      "popularity": 81456,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/30025"
+    },
+    {
+      "id": "manga-30583",
+      "name": "Claymore",
+      "nativeTitle": "CLAYMORE",
+      "romajiTitle": "CLAYMORE",
+      "englishTitle": "Claymore",
+      "type": "manga",
+      "aliases": [
+        "CLAYMORE",
+        "Claymore",
+        "クレイモア"
+      ],
+      "popularity": 67498,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Horror"
+      ],
+      "url": "https://anilist.co/manga/30583"
+    },
+    {
+      "id": "manga-30149",
+      "name": "BLAME!",
+      "nativeTitle": "BLAME!",
+      "romajiTitle": "BLAME!",
+      "englishTitle": "BLAME!",
+      "type": "manga",
+      "aliases": [
+        "BLAME!",
+        "ブラム!",
+        "Buramu!",
+        "Блам!",
+        "블레임"
+      ],
+      "popularity": 66973,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Drama",
+        "Horror",
+        "Psychological",
+        "Sci-Fi"
+      ],
+      "url": "https://anilist.co/manga/30149"
+    },
+    {
+      "id": "manga-55515",
+      "name": "JoJo’s Bizarre Adventure: Part 8—JoJolion",
+      "nativeTitle": "ジョジョの奇妙な冒険 ジョジョリオン",
+      "romajiTitle": "JoJo no Kimyou na Bouken: JoJolion",
+      "englishTitle": "JoJo’s Bizarre Adventure: Part 8—JoJolion",
+      "type": "manga",
+      "aliases": [
+        "JoJo no Kimyou na Bouken: JoJolion",
+        "JoJo’s Bizarre Adventure: Part 8—JoJolion",
+        "ジョジョの奇妙な冒険 ジョジョリオン",
+        "Dai 8 Bu Jousuke Higashikata",
+        "JoJo's Bizarre Adventure Part 8: Jojolion",
+        "Le bizzarre avventure di JoJo: JoJolion"
+      ],
+      "popularity": 63431,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Mystery",
+        "Supernatural"
+      ],
+      "url": "https://anilist.co/manga/55515"
+    },
+    {
+      "id": "manga-61499",
+      "name": "Nisekoi: False Love",
+      "nativeTitle": "ニセコイ",
+      "romajiTitle": "Nisekoi",
+      "englishTitle": "Nisekoi: False Love",
+      "type": "manga",
+      "aliases": [
+        "Nisekoi",
+        "Nisekoi: False Love",
+        "ニセコイ",
+        "รักลวงป่วนใจ",
+        "Nisekoi - Miłość na niby",
+        "Nisekoi - Amours, Mensonges et Yakuzas !",
+        "Nisekoi - Cặp Đôi Giả Tạo"
+      ],
+      "popularity": 57249,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Slice of Life"
+      ],
+      "url": "https://anilist.co/manga/61499"
+    },
+    {
+      "id": "manga-85412",
+      "name": "Girls' Last Tour",
+      "nativeTitle": "少女終末旅行",
+      "romajiTitle": "Shoujo Shuumatsu Ryokou",
+      "englishTitle": "Girls' Last Tour",
+      "type": "manga",
+      "aliases": [
+        "Shoujo Shuumatsu Ryokou",
+        "Girls' Last Tour",
+        "少女終末旅行",
+        "The End Girl Trip",
+        "GLT",
+        "Последнее путешествие девочек",
+        "Остання подорож дівчат",
+        "L'ultimo viaggio delle ragazze",
+        "Poslednje putovanje",
+        "As Viajantes do Fim",
+        "Ostatnia podróż",
+        "소녀종말여행",
+        "Lang thang giữa thế gian hoang tàn"
+      ],
+      "popularity": 51348,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Adventure",
+        "Sci-Fi",
+        "Slice of Life"
+      ],
+      "url": "https://anilist.co/manga/85412"
+    },
+    {
+      "id": "manga-31517",
+      "name": "JoJo's Bizarre Adventure Part 1: Phantom Blood",
+      "nativeTitle": "ジョジョの奇妙な冒険 ファントムブラッド",
+      "romajiTitle": "JoJo no Kimyou na Bouken: Phantom Blood",
+      "englishTitle": "JoJo's Bizarre Adventure Part 1: Phantom Blood",
+      "type": "manga",
+      "aliases": [
+        "JoJo no Kimyou na Bouken: Phantom Blood",
+        "JoJo's Bizarre Adventure Part 1: Phantom Blood",
+        "ジョジョの奇妙な冒険 ファントムブラッド",
+        "Dai 1 Bu Jonathan Joestar: Sono Seishun",
+        "JoJo's Bizarre Adventure Part 1 Jonathan Joestar: His Youth",
+        "Le bizzarre avventure di JoJo: Phantom Blood",
+        "죠죠의 기묘한 모험"
+      ],
+      "popularity": 48832,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Supernatural"
+      ],
+      "url": "https://anilist.co/manga/31517"
+    },
+    {
+      "id": "manga-30007",
+      "name": "Hajime no Ippo: Fighting Spirit!",
+      "nativeTitle": "はじめの一歩",
+      "romajiTitle": "Hajime no Ippo",
+      "englishTitle": "Hajime no Ippo: Fighting Spirit!",
+      "type": "manga",
+      "aliases": [
+        "Hajime no Ippo",
+        "Hajime no Ippo: Fighting Spirit!",
+        "はじめの一歩",
+        "The Fighting!",
+        "Fighting Spirit",
+        "The Fighting! Ippo",
+        "Hajime no Ippo Gaiden: Naniwa Tiger",
+        "Fight!! Ippo"
+      ],
+      "popularity": 36206,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Sports"
+      ],
+      "url": "https://anilist.co/manga/30007"
+    },
+    {
+      "id": "manga-85442",
+      "name": "The Rising of the Shield Hero",
+      "nativeTitle": "盾の勇者の成り上がり",
+      "romajiTitle": "Tate no Yuusha no Nariagari",
+      "englishTitle": "The Rising of the Shield Hero",
+      "type": "manga",
+      "aliases": [
+        "Tate no Yuusha no Nariagari",
+        "The Rising of the Shield Hero",
+        "盾の勇者の成り上がり",
+        "Восхождение Героя Щита",
+        "ผู้กล้าโล่ผงาด",
+        "盾之勇者成名錄"
+      ],
+      "popularity": 35907,
+      "trending": 3,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/85442"
     }
   ],
   "sources": [
