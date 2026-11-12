@@ -77,7 +77,7 @@ export async function resolvePublisherUrl(fetchImpl, aggregatorUrl) {
     const finalUrl = safeArticleUrl(responseUrl);
     if (finalUrl && !isGoogleNewsUrl(finalUrl.href)) return finalUrl.href;
     const type = response.headers.get("content-type") || "";
-    if (!/text\/html|application\/xhtml\\+xml/i.test(type)) return null;
+    if (!/text\/html|application\/xhtml\+xml/i.test(type)) return null;
     const html = await readHtmlLimited(response);
     if (html === null) return null;
     return extractGoogleOutboundUrl(html, current.href);
