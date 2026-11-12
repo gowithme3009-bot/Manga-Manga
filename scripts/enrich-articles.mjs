@@ -36,6 +36,25 @@ function isGoogleNewsUrl(value) {
   catch { return false; }
 }
 
+function extractGoogleOutboundUrl(html, baseUrl) {
+  const source = String(html || "")
+    .replace(/&amp;/gi, "&").replace(/&#x3a;/gi, ":").replace(/&#x2f;/gi, "/")
+    .replace(/&quot;/gi, '"').replace(/&#39;|&apos;/gi, "'");
+  const candidates = [];
+  for (const match of source.matchAll(/<meta\\b[^>]*http-equiv=["']?refresh["']?[^>]*content=["'][^"']*url\\s*=\\s*([^"']+)["'][^>]*>/gi)) candidates.push(match[1].trim());
+  for (const match of source.matchAll(/\\b(?:data-n-au|data-url|href)\\s*=\\s*["']([^"']+)["']/gi)) candidates.push(match[1].trim());
+  for (const candidate of candidates) {
+    try {
+      const url = new URL(candidate.replace(/^['"]|['"]$/g, ""), baseUrl);
+      const host = url.hostname.toLowerCase();
+      if (!safeArticleUrl(url.href)) continue;
+      if (host === "google.com" || host.endsWith(".google.com") || host === "googleusercontent.com" || host.endsWith(".googleusercontent.com")) continue;
+      return url.href;
+    } catch { /* Ignore malformed or unsafe candidates. */ }
+  }
+  return null;
+}
+
 export async function resolvePublisherUrl(fetchImpl, aggregatorUrl) {
   if (!isGoogleNewsUrl(aggregatorUrl)) return null;
   let current = new URL(aggregatorUrl);
@@ -54,8 +73,14 @@ export async function resolvePublisherUrl(fetchImpl, aggregatorUrl) {
       continue;
     }
     if (!response.ok) return null;
-    const finalUrl = safeArticleUrl(response.url || current.href);
-    return finalUrl ? finalUrl.href : null;
+    const responseUrl = response.url || current.href;
+    const finalUrl = safeArticleUrl(responseUrl);
+    if (finalUrl && !isGoogleNewsUrl(finalUrl.href)) return finalUrl.href;
+    const type = response.headers.get("content-type") || "";
+    if (!/text\\/html|application\\/xhtml\\+xml/i.test(type)) return null;
+    const html = await readHtmlLimited(response);
+    if (html === null) return null;
+    return extractGoogleOutboundUrl(html, current.href);
   }
   return null;
 }
