@@ -518,10 +518,13 @@ window.addEventListener("beforeunload", event => {
 });
 
 function updateSelectedSourceLink() {
-  const item = state.items.find(entry => entry.id === $("story-select").value);
+  const sourceId = $("story-select").value;
+  const item = state.items.find(entry => entry.id === sourceId);
+  const draft = state.drafts.find(entry => entry.sourceId === sourceId);
+  const url = item?.url || draft?.sourceUrl;
   const wrap = $("selected-source-wrap"), link = $("selected-source-link");
   if (!wrap || !link) return;
-  if (item?.url) { link.href = item.url; wrap.hidden = false; }
+  if (url) { link.href = url; wrap.hidden = false; }
   else { wrap.hidden = true; link.removeAttribute("href"); }
 }
 function fillEditor(item) {
