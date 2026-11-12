@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:23:24.198Z",
+  "generatedAt": "2026-11-12T10:23:55.154Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 18,
@@ -34,14 +34,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Asmik Ace a publié un site officiel pour l’anime télévisé de Nabe ni Tama wo Ukenagara, révélant le casting principal et l’équipe de production. L’œuvre, produite par J.C.Staff, sera diffusée sur Nippon TV, Yomiuri TV, BS Nippon TV et AT‑X en janvier 2027. Shuu Uchida et Masaaki Mizunaka prêtent leur voix aux versions féminine et masculine de Juntarou Aoki. Le staff comprend le réalisateur Masahiro Hiraoka, le scénariste Susumu Yamakawa, le character designer Natsuki Ooyama et le compositeur Yoshihide Ootomo.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#Anime,#JcStaff,#NabeNiTama",
+      "text": "Asmik Ace a ouvert un site officiel pour l’adaptation télévisée du manga *Nabe ni Tama wo Ukenagara*. Le projet, produit par J.C.Staff, dévoile le casting (Shuu Uchida et Masaaki Mizunaka) ainsi l’équipe créative (directeur Masahiro Hiraoka, scénario Susumu Yamakawa, design Natsuki Ooyama, musique Yoshihide Ootomo). La série doit débuter en janvier 2027 sur Nippon TV, Yomiuri TV, BS Nippon TV et AT‑X.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#Anime,#NabeNiTama,#JcStaff,#Winter2027",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier les noms complets du casting et du staff, la date exacte de diffusion (janvier 2027) et le lien du teaser sur le site officiel. Confirmer que les informations proviennent bien de l’extrait de MyAnimeList. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les noms du casting et du staff ainsi la date de diffusion (janvier 2027) dans l’article original. Vérifier que le teaser vidéo est bien disponible sur le site officiel. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:23:42.429Z",
-      "aiTitle": "Nabe ni Tama wo Ukenagara : casting et date de diffusion annoncés",
+      "aiGeneratedAt": "2026-11-12T10:24:12.795Z",
+      "aiTitle": "Nabe ni Tama wo Ukenagara : anime annoncé pour hiver 2027",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Vérifier les noms complets du casting et du staff, la date exacte de diffusion (janvier 2027) et le lien du teaser sur le site officiel. Confirmer que les informations proviennent bien de l’extrait de MyAnimeList."
+      "aiVerificationNotes": "Confirmer les noms du casting et du staff ainsi la date de diffusion (janvier 2027) dans l’article original. Vérifier que le teaser vidéo est bien disponible sur le site officiel."
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -80,14 +80,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le groupe français Ankama a annoncé le lancement d’une webtoon de 12 épisodes inspirée de l’anime Welsh & Shedar, réalisée par plusieurs artistes. Le projet vient d’être présenté dans les actualités du secteur.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#Webtoon,#Ankama,#WelshShedar",
+      "text": "Ankama a annoncé le lancement d’un webtoon de 12 épisodes basé sur l’anime *Welsh & Shedar*. Le projet réunit plusieurs artistes, selon le communiqué.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#Webtoon,#Anime,#Ankama",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer le nombre exact d’épisodes, les artistes impliqués, la plateforme de diffusion et la date d’annonce auprès de la source originale (Anime News Network). Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est incomplet ; vérifier le nombre exact d’épisodes, les artistes impliqués et toute information supplémentaire dans l’article complet. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:23:42.429Z",
-      "aiTitle": "Ankama annonce une webtoon de 12 épisodes pour Welsh & Shedar",
+      "aiGeneratedAt": "2026-11-12T10:24:12.795Z",
+      "aiTitle": "Welsh & Shedar anime : lancement d’un webtoon",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -95,7 +95,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer le nombre exact d’épisodes, les artistes impliqués, la plateforme de diffusion et la date d’annonce auprès de la source originale (Anime News Network)."
+      "aiVerificationNotes": "L’extrait fourni est incomplet ; vérifier le nombre exact d’épisodes, les artistes impliqués et toute information supplémentaire dans l’article complet."
     },
     {
       "id": "5904772c66e308ede111",
@@ -127,10 +127,10 @@
       "text": "Sujet repéré : Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier le contenu complet de l’article pour confirmer la sortie du tome 15, la date de publication et tout autre renseignement pertinent. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; il faut vérifier dans la source originale la date de sortie, le prix et le contenu du tome. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:23:42.429Z",
+      "aiGeneratedAt": "2026-11-12T10:24:12.795Z",
       "aiTitle": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -139,7 +139,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Vérifier le contenu complet de l’article pour confirmer la sortie du tome 15, la date de publication et tout autre renseignement pertinent."
+      "aiVerificationNotes": "Le résumé est vide ; il faut vérifier dans la source originale la date de sortie, le prix et le contenu du tome."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -171,10 +171,10 @@
       "text": "Sujet repéré : Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer le décès auprès de la source originale, vérifier la date et les éventuels hommages ou précisions supplémentaires. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé ne contient aucune information ; confirmer le décès, la date et les éléments biographiques dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:23:42.429Z",
+      "aiGeneratedAt": "2026-11-12T10:24:12.795Z",
       "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -183,7 +183,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Confirmer le décès auprès de la source originale, vérifier la date et les éventuels hommages ou précisions supplémentaires."
+      "aiVerificationNotes": "Le résumé ne contient aucune information ; confirmer le décès, la date et les éléments biographiques dans l’article original."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -627,6 +627,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T10:23:42.429Z",
+  "aiGeneratedAt": "2026-11-12T10:24:12.795Z",
   "aiModel": "openai/gpt-oss-120b"
 }
