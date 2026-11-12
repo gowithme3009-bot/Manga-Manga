@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:21:47.524Z",
+  "generatedAt": "2026-11-12T17:22:54.302Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 30,
@@ -34,13 +34,13 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’anime Tsugumi Project sera diffusé en janvier 2027 au Japon, comme indiqué sur le site officiel. Une nouvelle affiche promotionnelle a été publiée, présentant les trois personnages principaux : Tsugumi (voix de Misaki Watada), Léon (voix de Masaaki Mizunaka) et Doudou (voix de Haruki Ishiya).\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#TsugumiProject,#Anime2027,#NouveauVisuel",
+      "text": "L’anime Tsugumi Project sera diffusé au Japon en janvier 2027. Un nouveau visuel promotionnel a été publié, présentant les trois personnages principaux : Tsugumi (voix de Misaki Watada), Léon (voix de Masaaki Mizunaka) et Doudou (voix de Haruki Ishiya). Aucun détail sur le personnel créatif ou le studio n’a encore été communiqué.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#TsugumiProject,#Anime,#NouvelleAffiche",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer la date de diffusion (janvier 2027) et la présence du visuel ainsi que les doubleurs mentionnés dans l’extrait original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer que la date de diffusion (janvier 2027) et le visuel avec les voix mentionnées figurent bien dans l’extrait original. Vérifier l’absence d’information sur le studio ou le staff. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:22:22.320Z",
+      "aiGeneratedAt": "2026-11-12T17:23:16.944Z",
       "aiTitle": "Tsugumi Project : diffusion en janvier 2027 et nouveau visuel",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer la date de diffusion (janvier 2027) et la présence du visuel ainsi que les doubleurs mentionnés dans l’extrait original."
+      "aiVerificationNotes": "Confirmer que la date de diffusion (janvier 2027) et le visuel avec les voix mentionnées figurent bien dans l’extrait original. Vérifier l’absence d’information sur le studio ou le staff."
     },
     {
       "id": "8f4f2796db4c65dad4f6",
@@ -80,14 +80,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "LiSA s’est produite au Zénith de Paris le 20 septembre 2026. Le concert a affiché complet en quelques minutes et a réuni 6 000 fans lors de sa première tournée mondiale en France.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#LiSA,#ConcertParis,#JMusic",
+      "text": "LiSA s’est produite au Zénith de Paris le 20 septembre 2026. Le concert s’est vendu complet en quelques minutes, rassemblant 6 000 fans pour la première escale de sa tournée mondiale en France.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#LiSA,#Concert,#Paris",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni (6, 000). Contrôle de la source obligatoire. Vérifier la date du concert, le lieu (Zénith de Paris) et le nombre de spectateurs indiqué dans l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni (6, 000). Contrôle de la source obligatoire. Vérifier la date du concert (20 septembre 2026) et le nombre de spectateurs (6 000) ainsi que la mention de la mise en vente rapide dans l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:22:22.320Z",
-      "aiTitle": "LiSA en concert au Zénith de Paris",
+      "aiGeneratedAt": "2026-11-12T17:23:16.944Z",
+      "aiTitle": "LiSA a donné un concert complet au Zénith de Paris",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "needs_check",
@@ -98,7 +98,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Vérifier la date du concert, le lieu (Zénith de Paris) et le nombre de spectateurs indiqué dans l’extrait."
+      "aiVerificationNotes": "Vérifier la date du concert (20 septembre 2026) et le nombre de spectateurs (6 000) ainsi que la mention de la mise en vente rapide dans l’extrait."
     },
     {
       "id": "126adf4280b312a1b7b1",
@@ -129,14 +129,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé le duo de doubleurs Kenji Yamauchi (Mantarou Kyougoku) et Ken Uo (Toujin Touyama). L’anime, prévu pour 2027, est dirigé par Kenichi Nishida chez SynergySP et Vega Entertainment, avec Takahiro Nagano à la composition de série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#ShinOishinbo,#Anime2027,#Casting",
+      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé que Kenji Yamauchi et Ken Uo prêteront leurs voix aux personnages Mantarou Kyougoku et Toujin Touyama. L’adaptation télévisée est prévue pour 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les noms des doubleurs, leurs rôles, ainsi que les responsables de la direction, de la composition et du design mentionnés dans l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer que les noms des doubleurs (Kenji Yamauchi, Ken Uo) et les rôles (Mantarou Kyougoku, Toujin Touyama) sont bien présents dans l’extrait, ainsi que la date de diffusion prévue en 2027. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:22:22.320Z",
-      "aiTitle": "Casting de soutien annoncé pour Shin Oishinbo",
+      "aiGeneratedAt": "2026-11-12T17:23:16.944Z",
+      "aiTitle": "Shin Oishinbo : annonce du duo de personnages secondaires",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -144,7 +144,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer les noms des doubleurs, leurs rôles, ainsi que les responsables de la direction, de la composition et du design mentionnés dans l’extrait."
+      "aiVerificationNotes": "Confirmer que les noms des doubleurs (Kenji Yamauchi, Ken Uo) et les rôles (Mantarou Kyougoku, Toujin Touyama) sont bien présents dans l’extrait, ainsi que la date de diffusion prévue en 2027."
     },
     {
       "id": "caa5ca3faa63349f9d96",
@@ -175,14 +175,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Dans le premier volume de *Lockdown Life with the Class Beauty*, le protagoniste Kanata, expulsé de son dortoir pendant une pandémie, rencontre Haruka, la « class beauty », qui ne sait pas connecter son Wi‑Fi. Après l’avoir aidée, il devient son colocataire et lui apporte un soutien technique quotidien.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Dans le premier volume, Kanata est expulsé de son dortoir pendant une pandémie et se retrouve à dormir dans un parc. Il rencontre Haruka, la « class beauty », qui ne sait pas faire fonctionner son Wi‑Fi ; il l’aide et elle l’invite à partager sa chambre. Le récit suit leur quotidien de colocataires.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#LockdownLife,#Manga,#ClassBeauty",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. S’assurer que le résumé du volume 1 correspond bien à l’extrait fourni et que les noms des personnages sont correctement orthographiés. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. S’assurer que le résumé du volume (expulsion du dortoir, rencontre avec Haruka, aide au Wi‑Fi, colocation) correspond exactement à l’extrait fourni. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:22:22.320Z",
-      "aiTitle": "Lockdown Life with the Class Beauty – Volume 1",
+      "aiGeneratedAt": "2026-11-12T17:23:16.944Z",
+      "aiTitle": "Lockdown Life with the Class Beauty – aperçu du premier volume",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -190,7 +190,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "S’assurer que le résumé du volume 1 correspond bien à l’extrait fourni et que les noms des personnages sont correctement orthographiés."
+      "aiVerificationNotes": "S’assurer que le résumé du volume (expulsion du dortoir, rencontre avec Haruka, aide au Wi‑Fi, colocation) correspond exactement à l’extrait fourni."
     },
     {
       "id": "7e9a2d08cdb4394dc7da",
@@ -386,7 +386,7 @@
       ],
       "publishedAt": "2026-11-11T20:50:02.000Z",
       "freshnessHours": 21,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
@@ -825,7 +825,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
-      "freshnessHours": 7,
+      "freshnessHours": 8,
       "trendScore": 44,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1027,6 +1027,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "19 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T17:22:22.320Z",
+  "aiGeneratedAt": "2026-11-12T17:23:16.944Z",
   "aiModel": "openai/gpt-oss-120b"
 }
