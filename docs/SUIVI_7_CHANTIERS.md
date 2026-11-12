@@ -29,12 +29,15 @@ Branche : `manga-manga-v1-work`
 - Écarter une proposition fait apparaître la suivante.
 - Les propositions automatiques sont limitées aux sources françaises pour éviter de présenter des résumés anglais comme des textes français.
 - Si le flux ne fournit pas de résumé distinct, la proposition est marquée « à compléter ».
-- Les brouillons personnels sont sauvegardés dans le navigateur, copiables et exportables en JSON.
+- Les brouillons personnels sont sauvegardés dans le navigateur, modifiables après sauvegarde, copiables et exportables en JSON.
+- La modification réutilise l'actualité source encore présente dans le radar ; si elle n'est plus disponible, le brouillon reste intact et doit être exporté avant toute autre opération.
 - Aperçu Facebook local ; aucun envoi à Meta.
 
 ## 5. Médiathèque et sources — PREMIÈRE VERSION
 - Galerie des visuels présents dans le dépôt avec liens de téléchargement.
 - Liste des sources configurées et état de collecte.
+- Le texte d'information de la page et le README ont été corrigés pour refléter les neuf flux activés. Un statut HTTP « ok » confirme la collecte du flux, pas la véracité de chaque article.
+- Google Actualités étant un agrégateur, les liens et informations doivent être vérifiés auprès du média éditeur avant rédaction.
 - L'import de nouveaux fichiers et l'édition des sources depuis l'interface restent à développer.
 
 ## 6. Assistant IA — AIDE MANUELLE DISPONIBLE, WORKER NON CONNECTÉ
