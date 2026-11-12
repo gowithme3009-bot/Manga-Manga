@@ -24,15 +24,18 @@
   <div class="layout">
     <aside class="sidebar">
       <div class="side-label">ESPACE ÉDITORIAL</div>
-      <nav aria-label="Navigation principale">
-        <a class="nav active" href="#accueil" data-view="accueil"><span class="nav-icon">⌂</span><span>Vue d’ensemble</span></a>
-        <a class="nav" href="#radar" data-view="radar"><span class="nav-icon">⌕</span><span>Radar de tendances</span></a>
-        <a class="nav" href="#atelier" data-view="atelier"><span class="nav-icon">✎</span><span>Atelier éditorial</span></a>
-        <a class="nav" href="#studio-images" data-view="studio-images"><span class="nav-icon">✧</span><span>Studio images IA</span></a>
-        <a class="nav" href="#brouillons" data-view="brouillons"><span class="nav-icon">▤</span><span>Brouillons du jour</span><b id="draft-count">0</b></a>
+      <nav aria-label="Navigation principale" class="main-nav">
+        <a class="nav active" href="#accueil" data-view="accueil"><span class="nav-icon">⌂</span><span>Accueil</span></a>
+        <a class="nav" href="#radar" data-view="radar"><span class="nav-icon">⌕</span><span>1. Trouver un sujet</span></a>
+        <a class="nav" href="#atelier" data-view="atelier"><span class="nav-icon">✎</span><span>2. Préparer le texte</span></a>
+        <a class="nav" href="#brouillons" data-view="brouillons"><span class="nav-icon">▤</span><span>3. Prépublication</span><b id="draft-count">0</b></a>
+      </nav>
+      <details class="nav-tools">
+        <summary>Autres outils</summary>
+        <a class="nav" href="#studio-images" data-view="studio-images"><span class="nav-icon">✧</span><span>Créer un visuel IA</span></a>
         <a class="nav" href="#bibliotheque" data-view="bibliotheque"><span class="nav-icon">▧</span><span>Médiathèque</span></a>
         <a class="nav" href="#sources" data-view="sources"><span class="nav-icon">◎</span><span>Sources & réglages</span></a>
-      </nav>
+      </details>
       <div class="sidebar-bottom">
         <div class="security-mark">✓</div>
         <strong>Vous gardez le contrôle</strong>
@@ -69,13 +72,16 @@
           <div id="trend-alerts-list" class="trend-alerts-list"><p class="muted">Chargement des tendances fortes…</p></div>
         </section>
 
-        <div class="section-heading"><div><p class="eyebrow">VOTRE PARCOURS</p><h2>Du sujet au brouillon, en toute simplicité</h2></div><span class="step-note">3 étapes · validation humaine</span></div>
-        <section class="workflow-cards">
-          <article class="workflow-card"><div class="workflow-image"><img src="card-auto-generated.jpg" alt="Illustration du radar de veille"><span class="step-number">01</span></div><div class="workflow-body"><span class="workflow-kicker">VEILLE MULTI-SOURCES</span><h3>Radar de tendances</h3><p>Explorez les actualités manga et anime classées par fraîcheur et couverture des sources.</p><button class="text-action" data-go="radar">Découvrir le radar <span>→</span></button></div></article>
-          <article class="workflow-card"><div class="workflow-image"><img src="card-create-generated.jpg" alt="Illustration de création éditoriale"><span class="step-number">02</span></div><div class="workflow-body"><span class="workflow-kicker">RÉDACTION CONTRÔLÉE</span><h3>Atelier éditorial</h3><p>Préparez un texte à partir des informations de la source, puis relisez chaque détail.</p><button class="text-action" data-go="atelier">Préparer un brouillon <span>→</span></button></div></article>
-          <article class="workflow-card"><div class="workflow-image"><img src="card-production-generated.jpg" alt="Illustration de prévisualisation et validation"><span class="step-number">03</span></div><div class="workflow-body"><span class="workflow-kicker">APERÇU & VALIDATION</span><h3>Vos brouillons</h3><p>Modifiez, prévisualisez et exportez. Rien n’est publié automatiquement.</p><button class="text-action" data-go="brouillons">Gérer mes brouillons <span>→</span></button></div></article>
+        <section class="guided-workflow panel" aria-labelledby="guided-title">
+          <div class="guided-heading"><div><p class="eyebrow">VOTRE PARCOURS SIMPLIFIÉ</p><h2 id="guided-title">Préparer une publication en 4 étapes</h2><p class="muted">Suis les voyants : vert = terminé ou prêt · orange = à faire · rouge = bloqué.</p></div><span class="guided-live"><i></i> SUIVI EN DIRECT</span></div>
+          <div class="guided-steps">
+            <article class="guided-step" data-step="1"><span class="guided-light" id="guided-light-1"></span><span class="guided-number">01</span><div><strong>Trouver une tendance</strong><small id="guided-status-1">Chargement du radar…</small></div><button class="guided-action" data-go="radar">Ouvrir le radar →</button></article>
+            <article class="guided-step" data-step="2"><span class="guided-light" id="guided-light-2"></span><span class="guided-number">02</span><div><strong>Préparer le texte</strong><small id="guided-status-2">Choisir une actualité et rédiger</small></div><button class="guided-action" data-go="atelier">Ouvrir l’atelier →</button></article>
+            <article class="guided-step" data-step="3"><span class="guided-light" id="guided-light-3"></span><span class="guided-number">03</span><div><strong>Ajouter le visuel</strong><small id="guided-status-3">Créer ou associer une image</small></div><button class="guided-action" data-go="studio-images">Créer une image →</button></article>
+            <article class="guided-step" data-step="4"><span class="guided-light" id="guided-light-4"></span><span class="guided-number">04</span><div><strong>Vérifier et valider</strong><small id="guided-status-4">Contrôles humains obligatoires</small></div><button class="guided-action" data-go="brouillons">Voir mes brouillons →</button></article>
+          </div>
+          <div class="guided-footer"><span id="guided-summary">Le parcours se met à jour avec vos actions.</span><button class="primary" data-go="brouillons">Continuer vers la prépublication</button></div>
         </section>
-
         <section class="dashboard-bottom">
           <article class="panel recent-panel"><div class="panel-title"><div><p class="eyebrow">CENTRE DE CONTRÔLE</p><h2>À reprendre</h2></div><span class="live-indicator"><i></i>PRÊT</span></div><p id="home-status" class="muted">Chargement des données du radar…</p><button class="secondary" data-go="sources">Consulter les sources</button></article>
           <article class="panel quote-panel"><img src="quote-generated.jpg" alt="Carte graphique aux couleurs de Manga-Manga" loading="lazy"><div><span class="quote-label">LA RÈGLE DU STUDIO</span><p>« Vérifier la source. Respecter les faits. Garder la main. »</p><small>Notre ligne éditoriale</small></div></article>
