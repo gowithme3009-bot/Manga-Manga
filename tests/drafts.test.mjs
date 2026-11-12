@@ -177,3 +177,33 @@ test("à niveau égal, une page originale vérifiée prime sur un score isolé p
   ], NOW);
   assert.equal(result.items[0].id, "verified");
 });
+
+
+test("déclasse les critiques et rétrospectives au profit des actualités", () => {
+  const result = buildDailyDrafts([
+    { id: "review", title: "Lockdown Life Volume 1 Review", url: "https://example.org/review",
+      summary: "A detailed review of the first volume and its characters, with a discussion of the story and artwork.",
+      language: "en", articleContentRetrieved: true, independentSourceCount: 1, publishedAt: hoursAgo(1) },
+    { id: "concert-recap", title: "LiSA en concert à Paris", url: "https://example.org/concert",
+      summary: "LiSA a donné un concert à Paris le 20 septembre. Le spectacle était complet.",
+      language: "fr", articleContentRetrieved: true, independentSourceCount: 1, publishedAt: hoursAgo(1) },
+    { id: "fresh-news", title: "Nouvelle affiche et date de diffusion annoncées", url: "https://example.org/news",
+      summary: "La production a annoncé la date de diffusion en janvier 2027 et dévoilé une nouvelle affiche promotionnelle.",
+      language: "fr", articleContentRetrieved: true, independentSourceCount: 1, publishedAt: hoursAgo(2) }
+  ], NOW);
+  assert.equal(result.items[0].id, "fresh-news");
+  assert.ok(result.items.find(item => item.id === "review").editorialFitScore < result.items[0].editorialFitScore);
+  assert.ok(result.items.find(item => item.id === "concert-recap").editorialFitScore < result.items[0].editorialFitScore);
+});
+
+test("pénalise les articles explicitement sponsorisés dans le classement", () => {
+  const result = buildDailyDrafts([
+    { id: "sponsored", title: "Débat autour d'un anime", url: "https://example.org/sponsored",
+      summary: "Article sponsorisé. Une actualité détaillée sur la série et sa diffusion prochaine.",
+      language: "fr", articleContentRetrieved: true, independentSourceCount: 1, publishedAt: hoursAgo(1) },
+    { id: "editorial", title: "Annonce d'un nouvel anime", url: "https://example.org/editorial",
+      summary: "La production annonce une nouvelle adaptation et dévoile une affiche promotionnelle pour le projet.",
+      language: "fr", articleContentRetrieved: true, independentSourceCount: 1, publishedAt: hoursAgo(2) }
+  ], NOW);
+  assert.equal(result.items[0].id, "editorial");
+});
