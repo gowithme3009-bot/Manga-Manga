@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:53:16.600Z",
+  "generatedAt": "2026-11-12T15:53:45.439Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 24,
@@ -34,14 +34,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé l’ajout d’un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama. L’anime est prévu pour 2027. Kenichi Nishida dirige la série, Takahiro Nagano assure la composition du scénario et Nozomi Kawashige s’occupe du design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#ShinOishinbo,#Anime,#Casting",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages de soutien. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama, sous la direction de Kenichi Nishida (SynergySP / Vega Entertainment).\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#ShinOishinbo,#Anime,#Casting,#KenjiYamauchi,#KenUo",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier l’extrait original sur le site officiel pour confirmer les noms des doubleurs, leurs rôles et les postes de production mentionnés. Confirmer la date de diffusion prévue en 2027. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier l'exactitude des noms, rôles et la mention de la diffusion prévue en 2027 dans l'article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
-      "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
+      "aiGeneratedAt": "2026-11-12T15:53:58.092Z",
+      "aiTitle": "Annonce du casting de soutien pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Vérifier l’extrait original sur le site officiel pour confirmer les noms des doubleurs, leurs rôles et les postes de production mentionnés. Confirmer la date de diffusion prévue en 2027."
+      "aiVerificationNotes": "Vérifier l'exactitude des noms, rôles et la mention de la diffusion prévue en 2027 dans l'article original."
     },
     {
       "id": "a3317003ffc657b6cafe",
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : Zeste de tendresse (Un) : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour valider le sujet et les détails. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
+      "aiGeneratedAt": "2026-11-12T15:53:58.092Z",
       "aiTitle": "Zeste de tendresse (Un) : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
+      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour valider le sujet et les détails."
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Love Bullet Vol.2 : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le sujet. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
+      "aiGeneratedAt": "2026-11-12T15:53:58.092Z",
       "aiTitle": "Love Bullet Vol.2 : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
+      "aiVerificationNotes": "Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le sujet."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour confirmer les titres et détails des sorties. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
+      "aiGeneratedAt": "2026-11-12T15:53:58.092Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
+      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour confirmer les titres et détails des sorties."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -815,6 +815,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "4 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
+  "aiGeneratedAt": "2026-11-12T15:53:58.092Z",
   "aiModel": "openai/gpt-oss-120b"
 }
