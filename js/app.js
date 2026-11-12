@@ -8,20 +8,41 @@ const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 }[char]));
 
-function readArray(key) {
+function safeStorageGet(key, fallback) {
   try {
-    const value = JSON.parse(localStorage.getItem(key) || "[]");
-    return Array.isArray(value) ? value : [];
-  } catch {
-    return [];
+    const value = localStorage.getItem(key);
+    if (value === null) return fallback;
+    const parsed = JSON.parse(value);
+    return parsed ?? fallback;
+  } catch (error) {
+    console.warn("Stockage local indisponible :", error);
+    return fallback;
   }
 }
+
+function safeStorageSet(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch (error) {
+    console.warn("Écriture du stockage local impossible :", error);
+    toast("Le stockage local est saturé. Exportez vos brouillons avant de poursuivre.");
+    return false;
+  }
+}
+
+function readArray(key) {
+  const value = safeStorageGet(key, []);
+  return Array.isArray(value) ? value : [];
+}
 function saveDrafts() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.drafts));
+  if (!safeStorageSet(STORAGE_KEY, state.drafts)) {
+    return;
+  }
   updateCounts();
 }
 function saveDismissed() {
-  localStorage.setItem(DISMISSED_KEY, JSON.stringify(state.dismissed));
+  safeStorageSet(DISMISSED_KEY, state.dismissed);
 }
 function toast(message) {
   const element = $("toast");
@@ -329,6 +350,10 @@ $("copy-ai-prompt").addEventListener("click", async () => {
   }
 });
 $("export-drafts").addEventListener("click", () => {
+  if (!state.drafts.length) {
+    toast("Aucun brouillon à exporter pour l’instant.");
+    return;
+  }
   const blob = new Blob([JSON.stringify(state.drafts, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
@@ -343,3 +368,4 @@ state.dismissed = readArray(DISMISSED_KEY);
 renderDrafts();
 loadRadar();
 loadDailyCandidates();
+
