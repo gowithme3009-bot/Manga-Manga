@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:48:07.685Z",
+  "generatedAt": "2026-11-12T05:48:24.407Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
@@ -18,12 +18,6 @@
       "name": "Google Trends — Japon",
       "status": "ok",
       "matches": 2
-    },
-    {
-      "id": "google-trends-mg",
-      "name": "Google Trends — Madagascar",
-      "status": "error",
-      "matches": 0
     }
   ],
   "items": [
@@ -37,7 +31,7 @@
       "countryLabel": "Japon",
       "approximateTraffic": "200+",
       "publishedAt": "2026-11-12T05:20:00.000Z",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "url": "https://trends.google.com/trending?geo=JP",
       "source": "Google Trends",
       "signalType": "recherche publique agrégée",
       "note": "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
@@ -52,13 +46,13 @@
       "countryLabel": "Japon",
       "approximateTraffic": "200+",
       "publishedAt": "2026-11-12T05:20:00.000Z",
-      "url": "https://trends.google.com/trending/rss?geo=JP",
+      "url": "https://trends.google.com/trending?geo=JP",
       "source": "Google Trends",
       "signalType": "recherche publique agrégée",
       "note": "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
     }
   ],
   "warnings": [
-    "Madagascar : HTTP 400"
+    "Google Trends ne propose pas de flux RSS Madagascar (MG) dans cette collecte ; aucune donnée locale n’est supposée."
   ]
 }
