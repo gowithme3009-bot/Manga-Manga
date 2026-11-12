@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { normalizeEntityText, matchCatalogEntity, parseGoogleTrendsFeed } from "../scripts/collect-search-trends.mjs";
+import { normalizeEntityText, matchCatalogEntity, parseGoogleTrendsFeed, fetchAniListCatalog } from "../scripts/collect-search-trends.mjs";
 
 const catalog = [
   { id: "anime-1", name: "One Piece", type: "anime", aliases: ["One Piece", "ワンピース"] },
@@ -27,4 +27,34 @@ test("extrait uniquement les recherches Google Trends correspondant au catalogue
   assert.equal(result[0].entityName, "One Piece");
   assert.equal(result[0].approximateTraffic, "2000+");
   assert.equal(result[0].signalType, "recherche publique agrégée");
+});
+
+
+test("actualise plusieurs pages AniList et conserve les titres cliquables et alias", async () => {
+  const requests = [];
+  const fakeFetch = async (_url, options) => {
+    const query = JSON.parse(options.body).query;
+    requests.push(query);
+    const type = query.includes("type: ANIME") ? "ANIME" : "MANGA";
+    return {
+      ok: true,
+      json: async () => ({
+        data: { Page: { media: [{
+          id: type === "ANIME" ? 101 : 202,
+          title: { romaji: "Titre Romaji", english: "English Title", native: "日本語" },
+          synonyms: ["Alias français"],
+          popularity: 5000,
+          trending: 250,
+          format: "TV",
+          genres: ["Action"],
+          siteUrl: "https://anilist.co/" + type.toLowerCase() + "/" + (type === "ANIME" ? 101 : 202)
+        }] } }
+      })
+    };
+  };
+  const catalog = await fetchAniListCatalog(fakeFetch, 2);
+  assert.equal(requests.length, 4);
+  assert.equal(catalog.length, 2);
+  assert.ok(catalog.some(item => item.type === "anime" && item.aliases.includes("Alias français")));
+  assert.ok(catalog.every(item => item.url.startsWith("https://anilist.co/")));
 });
