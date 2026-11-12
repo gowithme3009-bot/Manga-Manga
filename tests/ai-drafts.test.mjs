@@ -52,3 +52,16 @@ test("l’audit est explicitement limité et n’autorise jamais la publication"
  assert.match(result.items[0].note,/ne valide pas les autres affirmations/i);
  assert.equal(result.items[0].editorialReady,false);
 });
+
+test("un résumé absent neutralise aussi le titre IA et les hashtags",()=>{
+ const candidate={id:"no-summary",title:"Le Chat qui rendait l’homme heureux T.15",summary:""};
+ const parsed=new Map([["no-summary",{editorialTitle:"Le tome 15 est disponible chez Soleil Manga",body:"Le tome est déjà disponible.",communityQuestion:"Vous aimez ?",hashtags:"#SoleilManga #Disponible",verificationNotes:"Vérifier."}]]);
+ const result=applyAiDrafts({items:[candidate]},parsed,"model");
+ assert.equal(result.items[0].aiTitle,"Le Chat qui rendait l’homme heureux T.15 — à vérifier dans la source originale");
+ assert.equal(result.items[0].hashtags,"#Manga #Anime #ÀVérifier");
+ assert.doesNotMatch(result.items[0].text,/déjà disponible/i);
+});
+test("l’audit chiffre aussi le titre éditorial généré",()=>{
+ const audit=auditAiDraft({title:"Annonce",summary:"Un projet est annoncé."},"Le projet est annoncé.","Saison 4 confirmée");
+ assert.deepEqual(audit.unsupportedNumbers,["4"]);
+});
