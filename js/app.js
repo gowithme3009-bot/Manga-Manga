@@ -4,7 +4,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
-const state = { items: [], sources: [], searchSignals: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
+const state = { items: [], sources: [], searchSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -160,6 +160,33 @@ function renderSearchSignals() {
     '<div class="card-actions"><a class="secondary" href="' + escapeHtml(signal.url) + '" target="_blank" rel="noopener noreferrer">Voir la tendance ↗</a></div></article>'
   ).join("");
 }
+function renderCatalog() {
+  const host = $("catalog-list");
+  if (!host) return;
+  const query = ($("catalog-search")?.value || "").trim().toLocaleLowerCase("fr");
+  const matches = state.catalog.filter(entity =>
+    [entity.name, entity.nativeTitle, entity.romajiTitle, entity.englishTitle, ...(entity.aliases || [])]
+      .join(" ").toLocaleLowerCase("fr").includes(query)
+  );
+  const visible = matches.slice(0, 80);
+  const meta = $("catalog-meta");
+  if (meta) meta.textContent = matches.length + " titre(s) trouvé(s) · " + state.catalog.length + " au catalogue";
+  if (!visible.length) {
+    host.innerHTML = '<p class="muted">Aucun titre trouvé. Essaie un nom japonais, anglais, romaji ou un alias.</p>';
+    return;
+  }
+  host.innerHTML = visible.map(entity =>
+    '<article class="catalog-card"><div class="catalog-card-top"><span class="catalog-kind">' +
+    (entity.type === "anime" ? "ANIME" : "MANGA") + '</span><span class="catalog-popularity">Tendance AniList : ' +
+    Number(entity.trending || 0).toLocaleString("fr-FR") + '</span></div>' +
+    '<h3><a href="' + escapeHtml(entity.url) + '" target="_blank" rel="noopener noreferrer">' +
+    escapeHtml(entity.name) + ' ↗</a></h3>' +
+    (entity.nativeTitle && entity.nativeTitle !== entity.name ? '<p class="catalog-native">' + escapeHtml(entity.nativeTitle) + '</p>' : '') +
+    '<p class="catalog-aliases">' + escapeHtml((entity.aliases || []).filter(name => name !== entity.name).slice(0, 3).join(" · ")) + '</p>' +
+    '<div class="catalog-card-bottom"><span>' + escapeHtml(entity.format || "Titre") + '</span>' +
+    '<span>' + escapeHtml((entity.genres || []).slice(0, 2).join(" · ")) + '</span></div></article>'
+  ).join("");
+}
 function renderSources() {
   if (!state.sources.length) {
     $("sources-list").innerHTML = '<p class="muted">Aucune source n’est configurée.</p>';
@@ -283,7 +310,7 @@ async function loadRadar() {
     state.items = Array.isArray(data.items) ? data.items : [];
     if (trendsResponse?.ok) {
       const trendData = await trendsResponse.json();
-      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];
+      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];\n      state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
     } else { state.searchSignals = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
@@ -426,7 +453,7 @@ document.addEventListener("click", async event => {
   }
 });
 
-$("search").addEventListener("input", renderNews);
+$("search").addEventListener("input", renderNews);\n$("catalog-search").addEventListener("input", renderCatalog);
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
   const item = state.items.find(entry => entry.id === $("story-select").value);
