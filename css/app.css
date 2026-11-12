@@ -290,6 +290,31 @@ footer span { padding: 0 5px; color: #d5b14d; }
 }
 
 
+/* Signaux lumineux communs aux tendances RSS, mentions éditoriales et recherches publiques. */
+.trend-indicator {
+  display: inline-flex; align-items: center; gap: 6px; vertical-align: middle;
+  margin: 0 7px 2px 0; padding: 4px 8px; border-radius: 999px;
+  font-size: 9px; line-height: 1.2; font-weight: 900; letter-spacing: .35px;
+  border: 1px solid transparent;
+}
+.trend-light {
+  width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%;
+  display: inline-block; box-shadow: 0 0 0 2px currentColor, 0 0 8px currentColor;
+}
+.trend-indicator-spectaculaire { color: #bd263c; background: #fff0f2; border-color: #ffc4cb; }
+.trend-indicator-spectaculaire .trend-light { background: #ef334d; animation: trend-light-flash .9s steps(2,end) infinite; }
+.trend-indicator-hausse { color: #a56808; background: #fff7e6; border-color: #f3d99b; }
+.trend-indicator-hausse .trend-light { background: #f0a51b; animation: trend-light-pulse 1.5s ease-in-out infinite; }
+.trend-indicator-surveillance { color: #39704f; background: #eef8f1; border-color: #cce8d4; }
+.trend-indicator-surveillance .trend-light { background: #35a866; }
+.trend-indicator-search { color: #4658b5; background: #f0f2ff; border-color: #d5dcff; }
+.trend-indicator-search .trend-light { background: #6578ee; animation: trend-light-pulse 1.8s ease-in-out infinite; }
+.signal-card-trend.signal-card-spectaculaire { border-color: #f1a1aa; animation: trend-spectacular-pulse 1.9s ease-in-out infinite; }
+.signal-card-trend.signal-card-hausse { border-left: 3px solid #eabf54; }
+.signal-card-trend.signal-card-surveillance { border-left: 3px solid #52ad76; }
+@keyframes trend-light-flash { 0%,100% { opacity: 1; box-shadow: 0 0 0 2px #ef334d35, 0 0 11px #ef334d; } 50% { opacity: .35; box-shadow: 0 0 0 2px #ef334d12, 0 0 3px #ef334d; } }
+@keyframes trend-light-pulse { 0%,100% { opacity: .75; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.15); } }
+
 /* Intensité des tendances : animation réservée aux sujets les plus confirmés. */
 .trend-badge {
   display: inline-flex; align-items: center; vertical-align: middle; margin-right: 7px;
@@ -316,7 +341,9 @@ footer span { padding: 0 5px; color: #d5b14d; }
   50% { opacity: .48; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .news-card.is-spectacular, .news-card.is-spectacular .trend-badge-hot { animation: none; }
+  .news-card.is-spectacular, .news-card.is-spectacular .trend-badge-hot,
+  .trend-indicator-spectaculaire .trend-light, .trend-indicator-hausse .trend-light,
+  .trend-indicator-search .trend-light, .signal-card-trend.signal-card-spectaculaire { animation: none; }
 }
 
 .trend-legend { margin: -5px 0 15px; font-size: 10px; line-height: 1.8; }
