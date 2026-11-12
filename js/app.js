@@ -6,6 +6,16 @@ const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
 const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
+const PREPUBLICATION_CHECKS = [
+  { id: "trend", label: "Le sujet est récent et présente un intérêt éditorial réel." },
+  { id: "source", label: "L’article original a été ouvert et le média identifié." },
+  { id: "facts", label: "Les noms, dates, chiffres et citations ont été vérifiés." },
+  { id: "uncertainty", label: "Les rumeurs et informations non confirmées sont signalées." },
+  { id: "copy", label: "Le titre et le texte sont relus, fidèles à la source et sans ajout inventé." },
+  { id: "hashtags", label: "Les hashtags sont pertinents, lisibles et modérés." },
+  { id: "visual", label: "Le visuel est adapté et ses droits d’utilisation sont vérifiés." },
+  { id: "preview", label: "L’aperçu Facebook a été relu, notamment sur téléphone." }
+];
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -314,6 +324,42 @@ function renderMediaLibrary() {
     '<a href="' + escapeHtml(draft.imageDataUrl) + '" download="manga-manga-visuel-' + escapeHtml(draft.id) + '.jpg">Télécharger</a></article>'
   ).join("") : '<p class="muted">Les visuels associés à tes brouillons apparaîtront ici.</p>';
 }
+function renderPrepublicationChecklist(draft) {
+  const checks = Array.isArray(draft.prepublicationChecks)
+    ? PREPUBLICATION_CHECKS.map((_, index) => Boolean(draft.prepublicationChecks[index]))
+    : PREPUBLICATION_CHECKS.map(() => false);
+  const completed = checks.filter(Boolean).length;
+  const ready = completed === PREPUBLICATION_CHECKS.length;
+  const approved = draft.status === "validé pour prépublication" && ready;
+  const items = PREPUBLICATION_CHECKS.map((check, index) => {
+    const imageRequired = check.id === "visual";
+    const disabled = imageRequired && !draft.imageDataUrl;
+    return '<label class="prepub-check' + (disabled ? ' is-blocked' : '') + '">' +
+      '<input type="checkbox" data-prepub-check data-draft-id="' + escapeHtml(draft.id) +
+      '" data-check-index="' + index + '"' + (checks[index] ? ' checked' : '') +
+      (disabled ? ' disabled' : '') + '>' +
+      '<span>' + escapeHtml(check.label) +
+      (disabled ? '<small>Ajoute d’abord un visuel au brouillon.</small>' : '') +
+      '</span></label>';
+  }).join("");
+  return '<section class="prepub-panel" aria-label="Contrôle avant prépublication">' +
+    '<div class="prepub-heading"><strong>Vérification avant prépublication</strong>' +
+    '<span class="prepub-progress-count">' + completed + '/' + PREPUBLICATION_CHECKS.length + ' contrôles</span></div>' +
+    '<div class="prepub-progress" role="progressbar" aria-label="Progression des contrôles" aria-valuemin="0" aria-valuemax="' +
+    PREPUBLICATION_CHECKS.length + '" aria-valuenow="' + completed + '"><span style="width:' +
+    (completed / PREPUBLICATION_CHECKS.length * 100) + '%"></span></div>' +
+    '<div class="prepub-checklist">' + items + '</div>' +
+    (approved
+      ? '<p class="prepub-approved">✓ Validé pour prépublication le ' + escapeHtml(dateLabel(draft.validatedAt)) +
+        '. Copie le contenu et publie-le manuellement dans Meta Business Suite.</p>'
+      : '<p class="prepub-hint">' + (ready
+        ? 'Tous les contrôles sont cochés. Tu peux confirmer la validation humaine.'
+        : (PREPUBLICATION_CHECKS.length - completed) + ' contrôle(s) restant(s). La validation est bloquée tant qu’un contrôle manque.') + '</p>') +
+    '<button class="primary prepub-validate" type="button" data-validate-prepub="' + escapeHtml(draft.id) +
+    '"' + (!ready || approved ? ' disabled' : '') + '>' +
+    (approved ? 'Prépublication validée' : 'Valider pour prépublication') + '</button>' +
+    '<small class="prepub-safety">Cette validation ne publie rien et n’envoie aucune donnée à Facebook.</small></section>';
+}
 function renderDrafts() {
   const savedSources = new Set(state.drafts.map(draft => draft.sourceId));
   const proposals = state.candidates
@@ -354,6 +400,7 @@ function renderDrafts() {
     (draft.imageDataUrl ? '<img class="draft-image" src="' + escapeHtml(draft.imageDataUrl) + '" alt="Visuel du brouillon" loading="lazy">' : "") +
     '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
     '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
+    renderPrepublicationChecklist(draft) +
     '<div class="card-actions"><button class="primary" data-edit-draft="' + escapeHtml(draft.id) +
     '">Modifier</button><button class="secondary" data-copy="' + escapeHtml(draft.id) +
     '">Copier</button><a class="secondary" href="' + escapeHtml(draft.sourceUrl) +
@@ -430,7 +477,9 @@ function makeDraft() {
       ? (item.source || (item.sources || []).join(", "))
       : (originalDraft.sourceName || "Source d’origine conservée"),
     createdAt: new Date().toISOString(),
-    status: originalDraft?.status || "à relire",
+    status: "à relire",
+    prepublicationChecks: PREPUBLICATION_CHECKS.map(() => false),
+    validatedAt: null,
     imageDataUrl: state.pendingDraftImageDataUrl || originalDraft?.imageDataUrl || null
   };
 }
@@ -492,6 +541,44 @@ async function loadDailyCandidates() {
 }
 
 document.addEventListener("click", async event => {
+  const check = event.target.closest("[data-prepub-check]");
+  if (check) {
+    const draft = state.drafts.find(item => item.id === check.dataset.draftId);
+    const index = Number(check.dataset.checkIndex);
+    if (!draft || !Number.isInteger(index) || index < 0 || index >= PREPUBLICATION_CHECKS.length) return;
+    if (PREPUBLICATION_CHECKS[index].id === "visual" && !draft.imageDataUrl) {
+      check.checked = false;
+      toast("Ajoute un visuel avant de valider ce contrôle.");
+      return;
+    }
+    const checks = PREPUBLICATION_CHECKS.map((_, position) =>
+      position === index ? check.checked : Boolean(draft.prepublicationChecks?.[position])
+    );
+    const nextDrafts = state.drafts.map(item => item.id === draft.id
+      ? { ...item, prepublicationChecks: checks, status: "à relire", validatedAt: null }
+      : item);
+    if (saveDrafts(nextDrafts)) renderDrafts();
+    return;
+  }
+  const validatePrepub = event.target.closest("[data-validate-prepub]");
+  if (validatePrepub) {
+    const draft = state.drafts.find(item => item.id === validatePrepub.dataset.validatePrepub);
+    const checks = PREPUBLICATION_CHECKS.map((_, index) => Boolean(draft?.prepublicationChecks?.[index]));
+    if (!draft || !checks.every(Boolean) || !draft.imageDataUrl) {
+      toast("Validation impossible : termine tous les contrôles et ajoute un visuel.");
+      return;
+    }
+    const validatedAt = new Date().toISOString();
+    const nextDrafts = state.drafts.map(item => item.id === draft.id
+      ? { ...item, status: "validé pour prépublication", validatedAt }
+      : item);
+    if (saveDrafts(nextDrafts)) {
+      renderDrafts();
+      toast("Brouillon validé. La publication reste manuelle.");
+      signalStep(4, "Prépublication validée", "Tous les contrôles sont terminés. Publie uniquement après ta dernière vérification dans Meta Business Suite.");
+    }
+    return;
+  }
   const nav = event.target.closest("[data-view]");
   if (nav) {
     event.preventDefault();
@@ -810,7 +897,15 @@ if (generateImageButton) {
       const index = state.drafts.findIndex(draft => draft.id === state.editingDraftId);
       if (index < 0) { toast("Ouvre à nouveau le brouillon avant d’y joindre le visuel."); return; }
       const nextDrafts = [...state.drafts];
-      nextDrafts[index] = { ...nextDrafts[index], imageDataUrl: state.generatedImageDataUrl };
+      nextDrafts[index] = {
+        ...nextDrafts[index],
+        imageDataUrl: state.generatedImageDataUrl,
+        prepublicationChecks: PREPUBLICATION_CHECKS.map((_, position) =>
+          position === 6 || position === 7 ? false : Boolean(nextDrafts[index].prepublicationChecks?.[position])
+        ),
+        status: "à relire",
+        validatedAt: null
+      };
       if (!saveDrafts(nextDrafts)) return;
       renderDrafts();
       $("attach-image-status").textContent = "Visuel enregistré dans le brouillon ouvert.";
