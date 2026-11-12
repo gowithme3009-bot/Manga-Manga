@@ -12,6 +12,23 @@ function isRelevantGoogleNewsHeadline(title) {
   return !/\b(commissariat|police|produits prohibés)\b/i.test(title);
 }
 
+
+export function scoreEditorialFit(item) {
+  const title = String(item?.title || "");
+  const summary = String(item?.summary || "");
+  const sourceLanguage = item?.language || "fr";
+  let score = 0;
+  if (sourceLanguage === "fr") score += 8;
+  if (item?.articleContentRetrieved === true) score += 8;
+  if (summary.length >= 250) score += 8;
+  else if (summary.length < 120) score -= 15;
+  if (/\\b(review|critique|roundtable|table ronde)\\b/i.test(title)) score -= 18;
+  if (/\\b(interview|entretien)\\b/i.test(title)) score -= 6;
+  if (/article sponsorisé|contenu sponsorisé|partenariat rémunéré/i.test(summary)) score -= 25;
+  if (/(?:a donné|s'est produit|était en concert|s’est produit|était présent|a eu lieu).{0,100}\\b(?:le|en)\\s+\\d{1,2}\\b/i.test(summary)) score -= 12;
+  return score;
+}
+
 export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) {
   const referenceTime = Date.parse(generatedAt);
   const now = Number.isFinite(referenceTime) ? referenceTime : Date.now();
@@ -105,6 +122,7 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       publishedAt: new Date(publishedTime).toISOString(),
       freshnessHours,
       trendScore: Number.isFinite(item.trendScore) ? item.trendScore : 0,
+      editorialFitScore: scoreEditorialFit({ ...item, summary }),
       trendLevel,
       independentSourceCount,
       coverageSourceCount,
@@ -130,6 +148,7 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   candidates.sort((a, b) =>
     (trendPriority[b.trendLevel] - trendPriority[a.trendLevel]) ||
     (b.independentSourceCount - a.independentSourceCount) ||
+    (b.editorialFitScore - a.editorialFitScore) ||
     (Number(hasVerifiedOriginal(b)) - Number(hasVerifiedOriginal(a))) ||
     (Number(Boolean(b.summary)) - Number(Boolean(a.summary))) ||
     (b.trendScore - a.trendScore) ||
