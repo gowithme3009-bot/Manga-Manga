@@ -11,7 +11,8 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Interface responsive en français.
 - Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.
 - Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
-- Brouillons enregistrés dans le navigateur, modification après sauvegarde, aperçu de publication et export JSON.
+- Brouillons enregistrés dans le stockage local du navigateur, conservés après rechargement, modifiables après sauvegarde, prévisualisables et exportables avec une seule action « Exporter mes brouillons ».
+- Contrôles automatisés du stockage : relecture après sauvegarde, données corrompues préservées et échec de quota signalé.
 - Tests automatisés du collecteur et du générateur de propositions.
 - Collecte et génération de propositions planifiées toutes les six heures sur la branche de travail uniquement.
 - Workflow GitHub Actions de collecte uniquement.
