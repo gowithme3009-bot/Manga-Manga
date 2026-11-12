@@ -52,6 +52,15 @@ test("n’alerte pas sur les chiffres présents dans la source",()=>{
  assert.equal(audit.status,"no_numeric_alert");
  assert.deepEqual(audit.unsupportedNumbers,[]);
 });
+test("ne déclenche pas de fausse alerte sur un nombre avec espace insécable",()=>{
+ const audit=auditAiDraft(
+  {title:"LiSA en concert au Zénith de Paris",summary:"Le concert était complet en quelques minutes. 6 000 fans ont répondu présents."},
+  "Le concert a rassemblé 6 000 fans."
+ );
+ assert.equal(audit.status,"no_numeric_alert");
+ assert.deepEqual(audit.unsupportedNumbers,[]);
+});
+
 test("l’audit est explicitement limité et n’autorise jamais la publication",()=>{
  const candidate={id:"audit",title:"Annonce",summary:"Le projet est annoncé."};
  const parsed=new Map([["audit",{editorialTitle:"Annonce",body:"Le projet est annoncé.",communityQuestion:"Votre avis ?",hashtags:"#Anime",verificationNotes:"Vérifier."}]]);
