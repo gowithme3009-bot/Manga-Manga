@@ -17,18 +17,65 @@ export function normalizeEntityText(value = "") {
     .toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 }
 
-export function matchCatalogEntity(term, catalog) {
+export function matchCatalogEntities(term, catalog) {
   const normalized = normalizeEntityText(term);
-  if (!normalized) return null;
+  if (!normalized) return [];
   const padded = " " + normalized + " ";
-  for (const entity of catalog || []) {
-    for (const alias of entity.aliases || []) {
-      const candidate = normalizeEntityText(alias);
-      if (candidate.length < 4) continue;
-      if (padded.includes(" " + candidate + " ")) return entity;
+  return (catalog || []).map(entity => {
+    const matchedAliases = [...new Set((entity.aliases || [])
+      .filter(alias => {
+        const candidate = normalizeEntityText(alias);
+        return candidate.length >= 5 && padded.includes(" " + candidate + " ");
+      }))];
+    return matchedAliases.length ? { ...entity, matchedAliases } : null;
+  }).filter(Boolean).sort((a, b) =>
+    Math.max(...b.matchedAliases.map(value => normalizeEntityText(value).length)) -
+    Math.max(...a.matchedAliases.map(value => normalizeEntityText(value).length))
+  );
+}
+
+export function matchCatalogEntity(term, catalog) {
+  return matchCatalogEntities(term, catalog)[0] || null;
+}
+
+export function buildEditorialSignals(newsItems = [], catalog = []) {
+  const grouped = new Map();
+  const isAggregator = value => /google.?news|google actualit|crunchyroll.*google|official-announcements|otaku-usa/i.test(String(value || ""));
+  for (const article of newsItems || []) {
+    const matches = matchCatalogEntities((article.title || "") + " " + (article.summary || ""), catalog);
+    for (const entity of matches) {
+      const signal = grouped.get(entity.id) || {
+        entityId: entity.id, entityName: entity.name, entityType: entity.type,
+        aliasesMatched: [], articleIds: new Set(), sources: new Set(), independentSources: new Set(),
+        latestAt: null, articles: []
+      };
+      for (const alias of entity.matchedAliases) signal.aliasesMatched.push(alias);
+      if (!signal.articleIds.has(article.id || article.url || article.title)) {
+        signal.articleIds.add(article.id || article.url || article.title);
+        const articleSources = article.sources?.length ? article.sources : [article.source].filter(Boolean);
+        const articleSourceIds = article.sourceIds?.length ? article.sourceIds : articleSources;
+        articleSources.forEach(source => signal.sources.add(source));
+        articleSourceIds.filter(source => !isAggregator(source)).forEach(source => signal.independentSources.add(source));
+        const date = article.publishedAt || null;
+        if (date && (!signal.latestAt || Date.parse(date) > Date.parse(signal.latestAt))) signal.latestAt = date;
+        signal.articles.push({
+          title: article.title, url: article.url, publishedAt: date,
+          sources: articleSources
+        });
+      }
+      grouped.set(entity.id, signal);
     }
   }
-  return null;
+  return [...grouped.values()].map(signal => ({
+    entityId: signal.entityId, entityName: signal.entityName, entityType: signal.entityType,
+    aliasesMatched: [...new Set(signal.aliasesMatched)],
+    articleCount: signal.articleIds.size,
+    sourceCount: signal.independentSources.size,
+    sources: [...signal.sources],
+    latestAt: signal.latestAt,
+    articles: signal.articles.sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0)).slice(0, 5)
+  })).sort((a, b) => b.sourceCount - a.sourceCount || b.articleCount - a.articleCount ||
+    Date.parse(b.latestAt || 0) - Date.parse(a.latestAt || 0));
 }
 
 function decode(value = "") {
@@ -74,7 +121,7 @@ export function parseGoogleTrendsFeed(xml, country, catalog, now = Date.now()) {
   return signals;
 }
 
-export async function fetchAniListCatalog(fetchImpl = fetch, pagesPerType = 3) {
+export async function fetchAniListCatalog(fetchImpl = fetch, pagesPerType = 6) {
   const catalog = [];
   for (const type of ["ANIME", "MANGA"]) {
     for (let page = 1; page <= pagesPerType; page += 1) {
@@ -128,7 +175,8 @@ export async function fetchAniListCatalog(fetchImpl = fetch, pagesPerType = 3) {
 
 export async function collectSearchTrends({
   fetchImpl = fetch, countries = COUNTRIES, now = Date.now(),
-  outputPath = path.join(ROOT, "data/trend-signals.json")
+  outputPath = path.join(ROOT, "data/trend-signals.json"),
+  newsPath = path.join(ROOT, "data/latest-news.json")
 } = {}) {
   const warnings = ["Google Trends ne propose pas de flux RSS Madagascar (MG) dans cette collecte ; aucune donnée locale n’est supposée."];
   let catalog = [];
@@ -160,13 +208,20 @@ export async function collectSearchTrends({
     const previous = unique.get(key);
     if (!previous || Date.parse(signal.publishedAt) > Date.parse(previous.publishedAt)) unique.set(key, signal);
   }
+  let mentions = [];
+  try {
+    const newsData = JSON.parse(await fs.readFile(newsPath, "utf8"));
+    mentions = buildEditorialSignals(newsData.items || [], catalog);
+  } catch (error) {
+    warnings.push("Mentions éditoriales indisponibles : " + error.message);
+  }
   const result = {
     version: 1,
     generatedAt: new Date(now).toISOString(),
-    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length, refreshedAt: new Date(now).toISOString(), pagesPerType: 3 },
+    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length, refreshedAt: new Date(now).toISOString(), pagesPerType: 6 },
     catalogItems: catalog,
     sources, items: [...unique.values()].sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
-    warnings
+    mentions, warnings
   };
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
   await fs.writeFile(outputPath, JSON.stringify(result, null, 2) + "\n");
