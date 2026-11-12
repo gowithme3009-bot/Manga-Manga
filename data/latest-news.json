@@ -1,7 +1,38 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:52:35.286Z",
+  "generatedAt": "2026-11-12T11:53:26.957Z",
   "items": [
+    {
+      "id": "36120c0d88a51136275a",
+      "title": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5",
+      "summary": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans Le Figaro",
+      "publishedAt": "2026-11-12T11:49:32.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Le Figaro",
+      "publisherUrl": "https://www.lefigaro.fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+    },
     {
       "id": "86a72977089891d1cf45",
       "title": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal",
@@ -214,7 +245,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -500,13 +531,7 @@
       "independentSourceCount": 0,
       "trendScore": 50,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5"
-      },
-      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "86324f10058b4807aacb",
@@ -2161,31 +2186,6 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
-      "id": "11eb025d568fea20bb7e",
-      "title": "Comments | #046 | WITCHRIV - Hakuri - MANGA Plus by SHUEISHA",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
-      "summary": "Comments | #046 | WITCHRIV - Hakuri MANGA Plus by SHUEISHA",
-      "publishedAt": "2026-11-10T22:04:47.000Z",
-      "source": "Annonces officielles — Google Actualités",
-      "sourceId": "official-announcements",
-      "language": "en",
-      "publisherName": "MANGA Plus by SHUEISHA",
-      "publisherUrl": "https://mangaplus.shueisha.co.jp",
-      "category": "actualité",
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "sourceIds": [
-        "official-announcements"
-      ],
-      "sourceCount": 0,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 0,
-      "trendScore": 12,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
       "id": "2c5084e689931ba6da18",
       "title": "Comments | #009 | Salamander - Atsushi Nakayama - MANGA Plus by SHUEISHA",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMk9MMDJWREs4SWdaSUFLTEhqMkVOemVBN3hvTzZfZkZIbG1wWk52Z3ZiZk4zdjN6eC1TUVV0M1pBRWJfV1FOdzV6M1FRM2UxMUNWWW45TzNuSkxQdGc?oc=5",
@@ -2658,7 +2658,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 59
+      "items": 58
     },
     {
       "id": "otaku-usa",
