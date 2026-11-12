@@ -129,6 +129,10 @@ h1 { margin: 0; color: #142344; font-size: clamp(25px, 3vw, 34px); line-height: 
 .news-card h3, .draft-card h3 { margin: 8px 0; color: #1c2d50; font-size: 15px; line-height: 1.4; overflow-wrap: anywhere; }
 .meta { color: #78849a; font-size: 10px; line-height: 1.55; overflow-wrap: anywhere; }
 .summary { color: #526078; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.excerpt-status { display: inline-flex; margin-top: 9px; padding: 4px 7px; border-radius: 5px; font-size: 9px; font-weight: 800; letter-spacing: .035em; }
+.excerpt-status.is-original { color: #176b4b; background: #e9f7f0; border: 1px solid #c6ead8; }
+.excerpt-status.is-rss { color: #795b17; background: #fff8e8; border: 1px solid #f1dfae; }
+.excerpt-status.is-short { color: #9a3f35; background: #fff0ee; border: 1px solid #f2cbc5; }
 .card-actions, .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
 .card-actions a { display: inline-flex; align-items: center; text-decoration: none; }
 .editor-panel { max-width: 900px; margin-top: 20px; padding: 22px; }
