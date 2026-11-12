@@ -73,3 +73,12 @@ test("l’audit chiffre aussi le titre éditorial généré",()=>{
  const audit=auditAiDraft({title:"Annonce",summary:"Un projet est annoncé."},"Le projet est annoncé.","Saison 4 confirmée");
  assert.deepEqual(audit.unsupportedNumbers,["4"]);
 });
+
+
+test("le prompt IA interdit les affirmations non présentes dans l’extrait", async () => {
+ const fs = await import("node:fs/promises");
+ const source = await fs.readFile(new URL("../scripts/generate-ai-drafts.mjs", import.meta.url), "utf8");
+ assert.match(source, /Ne transforme pas une ouverture de site/);
+ assert.match(source, /N’écris pas « selon un communiqué »/);
+ assert.match(source, /Chaque phrase factuelle doit être traçable/);
+});
