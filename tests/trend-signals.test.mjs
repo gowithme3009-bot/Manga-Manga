@@ -33,6 +33,10 @@ test("évite de confondre un titre court avec une œuvre au nom plus long", () =
   ];
   const matches = matchCatalogEntities("Berserk of Gluttony révèle sa saison 2", extended);
   assert.deepEqual(matches.map(item => item.id), ["manga-berserk-gluttony"]);
+  const generic = matchCatalogEntities("The Man in the White Coat annonce une nouveauté", [
+    { id: "manga-mans-man", name: "A Man's Man", type: "manga", aliases: ["The Man", "A Man's Man"] }
+  ]);
+  assert.equal(generic.length, 0);
 });
 
 test("construit des mentions RSS sans confondre les agrégateurs avec des médias directs", () => {
