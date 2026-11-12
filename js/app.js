@@ -148,6 +148,18 @@ function renderDrafts() {
   $("draft-list").innerHTML = (proposedHtml + savedHtml) ||
     '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
 }
+function confirmDiscardActiveDraft() {
+  const activeDraft = state.editingDraftId
+    ? state.drafts.find(draft => draft.id === state.editingDraftId)
+    : null;
+  if (!activeDraft) return true;
+  if (window.confirm(
+    "Tu modifies un brouillon enregistré. Ouvrir un autre contenu abandonnera les modifications non enregistrées. Continuer ?"
+  )) return true;
+  $("story-select").value = activeDraft.sourceId;
+  return false;
+}
+
 function fillEditor(item) {
   state.editingDraftId = null;
   $("save-draft").textContent = "Enregistrer le brouillon";
@@ -238,7 +250,7 @@ document.addEventListener("click", async event => {
   const edit = event.target.closest("[data-edit]");
   if (edit) {
     const item = state.items.find(entry => entry.id === edit.dataset.edit);
-    if (item) fillEditor(item);
+    if (item && confirmDiscardActiveDraft()) fillEditor(item);
     return;
   }
   const editDraft = event.target.closest("[data-edit-draft]");
@@ -248,6 +260,7 @@ document.addEventListener("click", async event => {
       toast("Ce brouillon n’existe plus. Actualise la liste avant de réessayer.");
       return;
     }
+    if (!confirmDiscardActiveDraft()) return;
     const source = state.items.find(item => item.id === draft.sourceId);
     if (!source) {
       const optionExists = Array.from($("story-select").options).some(option => option.value === draft.sourceId);
@@ -320,18 +333,7 @@ $("search").addEventListener("input", renderNews);
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
   const item = state.items.find(entry => entry.id === $("story-select").value);
-  if (!item) return;
-
-  const activeDraft = state.editingDraftId
-    ? state.drafts.find(draft => draft.id === state.editingDraftId)
-    : null;
-  if (activeDraft && !window.confirm(
-    "Tu modifies un brouillon enregistré. Changer d’actualité abandonnera les modifications non enregistrées. Continuer ?"
-  )) {
-    $("story-select").value = activeDraft.sourceId;
-    return;
-  }
-
+  if (!item || !confirmDiscardActiveDraft()) return;
   fillEditor(item);
 });
 $("save-draft").addEventListener("click", () => {
