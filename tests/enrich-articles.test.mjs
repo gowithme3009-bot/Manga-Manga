@@ -44,7 +44,7 @@ test("n’attribue jamais un extrait Google générique à un article original",
   let calls = 0;
   const result = await enrichItems([{ id: "g", title: "Actualité manga", url: "https://news.google.com/rss/articles/abc", summary: "" }], {
     maxPages: 1,
-    fetchImpl: async () => { calls += 1; throw new Error("ne doit pas être appelé"); }
+    fetchImpl: async () => { calls += 1; return new Response("<html><body>Google News</body></html>", { status: 200, headers: { "content-type": "text/html" } }); }
   });
   assert.equal(calls, 1);
   assert.equal(result.enriched, 0);
@@ -64,9 +64,13 @@ test("ne lit pas une page HTML trop volumineuse", async () => {
 });
 
 test("résout une redirection Google Actualités vers le domaine du média", async () => {
-  const resolved = await resolvePublisherUrl(async () => new Response(null, {
-    status: 302, headers: { location: "https://publisher.example/news/manga" }
-  }), "https://news.google.com/rss/articles/example");
+  let calls = 0;
+  const resolved = await resolvePublisherUrl(async () => {
+    calls += 1;
+    return calls === 1
+      ? new Response(null, { status: 302, headers: { location: "https://publisher.example/news/manga" } })
+      : new Response("<html></html>", { status: 200, headers: { "content-type": "text/html" } });
+  }, "https://news.google.com/rss/articles/example");
   assert.equal(resolved, "https://publisher.example/news/manga");
 });
 
