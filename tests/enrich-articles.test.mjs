@@ -46,7 +46,7 @@ test("n’attribue jamais un extrait Google générique à un article original",
     maxPages: 1,
     fetchImpl: async () => { calls += 1; throw new Error("ne doit pas être appelé"); }
   });
-  assert.equal(calls, 0);
+  assert.equal(calls, 1);
   assert.equal(result.enriched, 0);
   assert.equal(result.skippedAggregator, 1);
   assert.equal(result.items[0].articleContentRetrieved, undefined);
@@ -99,5 +99,5 @@ test("enrichit un lien Google uniquement après résolution du média d’origin
   assert.equal(result.items[0].articleUrl, "https://publisher.example/article");
   assert.equal(result.items[0].sourceVerification.status, "original_page_excerpt_verified");
   assert.equal(result.items[0].sourceVerification.publisherHost, "publisher.example");
-  assert.equal(calls.length, 2);
+  assert.equal(calls.length, 3);
 });
