@@ -79,20 +79,46 @@ export function parseFeed(xml, source) {
     return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,language:source.language||"und",publisherName:publisherName||null,publisherUrl:/^https:\/\//i.test(publisherUrl)?publisherUrl:null,category:"actualité"};
   }).filter(Boolean);
 }
+const TITLE_STOP_WORDS = new Set(["the","a","an","and","or","of","to","in","on","for","with","by","from","de","des","du","la","le","les","un","une","et","en","au","aux","d","l","new","reveals","revealed","announces","announced","news","anime","manga"]);
+
+export function titleSimilarityTokens(title = "") {
+  return String(title).normalize("NFKC").toLocaleLowerCase("fr")
+    .replace(/[^\p{L}\p{N}]+/gu, " ").trim().split(/\s+/)
+    .filter(token => token.length > 1 && !TITLE_STOP_WORDS.has(token));
+}
+
+export function areLikelySameStory(left = "", right = "") {
+  const a = new Set(titleSimilarityTokens(left));
+  const b = new Set(titleSimilarityTokens(right));
+  if (a.size < 3 || b.size < 3) return false;
+  const shared = [...a].filter(token => b.has(token)).length;
+  const union = new Set([...a, ...b]).size;
+  return shared >= 3 && shared / union >= 0.72;
+}
+
 export function rankItems(items, now = Date.now()) {
-  const groups = new Map();
+  const groups = [];
   for (const item of items) {
-    const key = item.title.normalize("NFKC").toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu," ").trim();
-    if (!key) continue;
-    const group = groups.get(key) || {...item,sources:[],sourceIds:[],sourceCount:0};
-    if (!group.sources.includes(item.source)) group.sources.push(item.source);
+    const title = String(item.title || "");
     const sourceId = item.sourceId || item.source;
+    if (!title.trim()) continue;
+    // Fusion conservatrice : titres identiques ou très proches, et médias distincts.
+    let group = groups.find(candidate => {
+      const isNewSource = sourceId && !candidate.sourceIds.includes(sourceId);
+      return isNewSource && candidate.titleVariants.some(existing => areLikelySameStory(existing, title));
+    });
+    if (!group) {
+      group = {...item,sources:[],sourceIds:[],sourceCount:0,titleVariants:[]};
+      groups.push(group);
+    }
+    if (!group.titleVariants.includes(title)) group.titleVariants.push(title);
+    if (item.source && !group.sources.includes(item.source)) group.sources.push(item.source);
     if (sourceId && !group.sourceIds.includes(sourceId)) group.sourceIds.push(sourceId);
     if ((!group.summary || group.summary.length < (item.summary||"").length) && item.summary) group.summary = item.summary;
     if (!group.publishedAt || (item.publishedAt && Date.parse(item.publishedAt)>Date.parse(group.publishedAt))) group.publishedAt=item.publishedAt;
-    groups.set(key,group);
   }
-  return [...groups.values()].map(item => {
+  return groups.map(item => {
+    delete item.titleVariants;
     const isAggregator = value => /google.?news|google actualit|crunchyroll.*google|official-announcements|otaku-usa/i.test(String(value || ""));
     const sourceIds = item.sourceIds || item.sources || [];
     const independentSources = sourceIds.filter(source => !isAggregator(source));
