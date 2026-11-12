@@ -451,3 +451,25 @@ footer span { padding: 0 5px; color: #d5b14d; }
   .prepub-check { padding:9px 8px; font-size:10px; }
   .prepub-heading { align-items:flex-start; flex-direction:column; gap:4px; }
 }
+
+
+/* Tutoriel guidé du centre de prépublication */
+.prepub-tutorial { margin:0 0 14px; padding:0; overflow:hidden; }
+.prepub-tutorial summary { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:15px; cursor:pointer; list-style:none; }
+.prepub-tutorial summary::-webkit-details-marker { display:none; }
+.prepub-tutorial summary > span { display:grid; gap:4px; }
+.prepub-tutorial summary strong { color:#243653; font-size:13px; }
+.prepub-tutorial summary small { color:#77849a; font-size:10px; font-weight:500; }
+.tutorial-toggle { color:#315fc1; font-size:10px; white-space:nowrap; }
+.prepub-tutorial[open] .tutorial-toggle { font-size:0; }
+.prepub-tutorial[open] .tutorial-toggle:after { content:"Masquer le tutoriel −"; font-size:10px; }
+.tutorial-steps { display:grid; gap:0; margin:0; padding:0 15px 8px 42px; counter-reset:tutorial; }
+.tutorial-steps li { padding:11px 4px 12px 3px; border-top:1px solid #edf0f5; color:#315fc1; font-size:12px; }
+.tutorial-steps li strong { color:#263858; }
+.tutorial-steps li p { margin:5px 0; color:#586780; font-size:11px; line-height:1.55; }
+.tutorial-steps li span { display:block; color:#287653; font-size:10px; font-weight:700; line-height:1.5; }
+.tutorial-warning { margin:0 15px 14px; padding:10px 12px; border-radius:8px; background:#fff7e9; color:#895c20; font-size:10px; line-height:1.5; }
+@media(max-width:440px) {
+  .prepub-tutorial summary { align-items:flex-start; flex-direction:column; gap:8px; }
+  .tutorial-steps { padding-left:35px; }
+}
