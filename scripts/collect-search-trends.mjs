@@ -25,7 +25,7 @@ export function matchCatalogEntities(term, catalog) {
     const matchedAliases = [...new Set((entity.aliases || [])
       .filter(alias => {
         const candidate = normalizeEntityText(alias);
-        if (candidate.length < 5) return false;
+        if (candidate.length < 5 || ["the man", "the guy", "a man", "a guy"].includes(candidate)) return false;
         if (candidate.includes(" ")) return padded.includes(" " + candidate + " ");
         if (normalized === candidate) return true;
         if (!normalized.startsWith(candidate + " ")) return false;
@@ -33,7 +33,16 @@ export function matchCatalogEntities(term, catalog) {
         return !["of", "the", "and", "no", "a", "an", "in", "to", "for"].includes(nextWord);
       }))];
     return matchedAliases.length ? { ...entity, matchedAliases } : null;
-  }).filter(Boolean).sort((a, b) =>
+  }).filter(Boolean);
+  const specific = matches.filter(entity => !matches.some(other =>
+    other.id !== entity.id && other.type === entity.type &&
+    other.matchedAliases.some(longer => entity.matchedAliases.some(shorter => {
+      const shortName = normalizeEntityText(shorter);
+      const longName = normalizeEntityText(longer);
+      return longName.length > shortName.length && longName.startsWith(shortName + " ");
+    }))
+  ));
+  return specific.sort((a, b) =>
     Math.max(...b.matchedAliases.map(value => normalizeEntityText(value).length)) -
     Math.max(...a.matchedAliases.map(value => normalizeEntityText(value).length))
   );
