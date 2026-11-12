@@ -77,3 +77,42 @@ test("un résumé qui répète le titre reste à compléter", () => {
   }], NOW);
   assert.equal(result.items[0].status, "à compléter");
 });
+
+
+test("un signal provenant uniquement de Google Actualités reste à surveiller", () => {
+  const result = buildDailyDrafts([{
+    id: "aggregate", title: "Annonce manga récente", url: "https://example.org/a",
+    summary: "Résumé français exploitable", language: "fr", sourceId: "google-news-fr",
+    source: "Google Actualités", sources: ["Google Actualités"],
+    independentSourceCount: 0, coverageSourceCount: 1, trendScore: 90,
+    publishedAt: hoursAgo(1)
+  }], NOW);
+  assert.equal(result.items[0].trendLevel, "surveillance");
+  assert.equal(result.items[0].independentSourceCount, 0);
+  assert.equal(result.items[0].editorialReady, true);
+});
+
+test("une tendance multi-sources passe avant un signal récent isolé", () => {
+  const result = buildDailyDrafts([
+    { id: "fresh", title: "Sujet récent", url: "https://example.org/fresh",
+      summary: "Résumé récent", language: "fr", source: "Google Actualités",
+      independentSourceCount: 0, trendScore: 99, publishedAt: hoursAgo(1) },
+    { id: "confirmed", title: "Sujet confirmé", url: "https://example.org/confirmed",
+      summary: "Résumé confirmé", language: "fr", source: "Média A",
+      independentSourceCount: 3, coverageSourceCount: 3, trendScore: 80,
+      publishedAt: hoursAgo(3) }
+  ], NOW);
+  assert.equal(result.items[0].id, "confirmed");
+  assert.equal(result.items[0].trendLevel, "spectaculaire");
+});
+
+test("sans résumé, la prépublication contient des champs à compléter et reste bloquée", () => {
+  const result = buildDailyDrafts([{
+    id: "template", title: "Annonce manga", url: "https://example.org/template",
+    summary: "", language: "fr", source: "Média", publishedAt: hoursAgo(1)
+  }], NOW);
+  assert.equal(result.items[0].editorialReady, false);
+  assert.equal(result.items[0].status, "à compléter");
+  assert.match(result.items[0].text, /Information confirmée par l’article/);
+  assert.match(result.items[0].note, /ne pas publier en l’état/i);
+});
