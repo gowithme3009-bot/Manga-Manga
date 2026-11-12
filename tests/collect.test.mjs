@@ -107,3 +107,27 @@ test("rankItems ne fusionne pas deux sujets seulement parce qu’ils partagent d
   ], now);
   assert.equal(ranked.length, 2);
 });
+
+
+test("l’enrichissement priorise les pages directes et les extraits courts avant Google Actualités", async () => {
+  const { prioritizeEnrichmentItems } = await import("../scripts/enrich-articles.mjs");
+  const items = [
+    { url: "https://news.google.com/rss/articles/abc", summary: "Titre média" },
+    { url: "https://publisher.example/long", summary: "x".repeat(900) },
+    { url: "https://publisher.example/short", summary: "court" },
+    { url: "https://news.google.com/rss/articles/def", summary: "Titre" },
+    { url: "https://publisher.example/medium", summary: "x".repeat(200) }
+  ];
+  assert.deepEqual(prioritizeEnrichmentItems(items), [2, 4, 1, 0, 3]);
+});
+
+test("le nombre de liens agrégateurs enrichis reste plafonné", async () => {
+  const { prioritizeEnrichmentItems } = await import("../scripts/enrich-articles.mjs");
+  const items = [
+    ...Array.from({ length: 8 }, (_, i) => ({ url: `https://news.google.com/rss/articles/${i}`, summary: "titre" })),
+    { url: "https://publisher.example/direct", summary: "court" }
+  ];
+  const order = prioritizeEnrichmentItems(items, { maxPages: 6, maxAggregatorPages: 2 });
+  assert.equal(order.length, 3);
+  assert.deepEqual(order, [8, 0, 1]);
+});
