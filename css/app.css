@@ -163,7 +163,6 @@ footer span { padding: 0 5px; color: #d5b14d; }
 #toast { position: fixed; z-index: 30; right: 20px; bottom: 20px; display: none; max-width: min(90vw, 420px); padding: 12px 16px; border-radius: 10px; color: #fff; background: #172544; box-shadow: 0 8px 30px #10203b33; font-size: 12px; }
 #toast.show { display: block; }
 
-/* Tablette : menu horizontal et grilles à deux colonnes, sans sidebar qui écrase le contenu. */
 @media (max-width: 1024px) {
   .layout { display: block; min-height: calc(100vh - 76px); }
   .sidebar { position: sticky; z-index: 15; top: 82px; padding: 8px 12px; border: 0; border-bottom: 1px solid #243554; }
@@ -179,64 +178,79 @@ footer span { padding: 0 5px; color: #d5b14d; }
   .hero-banner { height: 260px; }
 }
 
-/* Téléphone et petites tablettes : une colonne, commandes larges et aucun débordement horizontal. */
-@media (max-width: 600px) {
-  .topbar { position: relative; min-height: 0; align-items: flex-start; flex-direction: column; gap: 9px; padding: 10px 14px; }
-  .brand img { width: 42px; height: 42px; flex-basis: 42px; }
-  .brand strong { font-size: 16px; }
-  .brand small { font-size: 8px; letter-spacing: 1px; }
-  .topbar-right { width: 100%; justify-content: flex-start; gap: 6px; }
-  .status, .manual-badge { padding: 6px 8px; font-size: 8px; letter-spacing: .25px; }
-  .layout { min-height: 0; }
-  .sidebar { top: 0; padding: 6px 8px; }
-  .sidebar nav { gap: 4px; }
-  .nav { min-height: 38px; gap: 6px; padding: 0 8px; font-size: 10px; }
+@media (max-width: 440px) {
+  body { background: #e5eaf2; }
+  .topbar {
+    position: sticky; top: 0; z-index: 30; min-height: 68px; background: #1f2431; padding: 12px 15px 11px; border-bottom: 1px solid rgba(255,255,255,.06);
+    box-shadow: none;
+  }
+  .brand { gap: 10px; }
+  .brand img { width: 34px; height: 34px; border-radius: 10px; }
+  .brand strong { font-size: 17px; }
+  .brand small { display: none; }
+  .topbar-right { gap: 8px; }
+  .status, .manual-badge { padding: 7px 10px; font-size: 8px; letter-spacing: .2px; }
+  .status { display: none; }
+  .manual-badge { display: none; }
+  .layout { display: block; min-height: 0; }
+  .sidebar {
+    position: sticky; top: 68px; z-index: 20; margin: 0; padding: 10px 12px 12px; background: #212a36; border: 0; border-bottom: 1px solid rgba(255,255,255,.04);
+    box-shadow: 0 1px 0 rgba(0,0,0,.06);
+  }
+  .sidebar nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; }
+  .nav {
+    flex: 1 0 auto; min-width: 120px; min-height: 42px; padding: 0 12px; border-radius: 14px; background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.06); color: #dfe7f8; font-size: 11px; font-weight: 700;
+  }
+  .nav.active { background: rgba(72,120,232,.18); box-shadow: inset 0 0 0 1px rgba(115,158,255,.38); }
+  .nav b { display: none; }
   .nav-icon { display: none; }
-  .nav b { padding: 2px 6px; }
-  main { padding: 19px 13px 20px; }
-  .welcome-row { align-items: stretch; flex-direction: column; gap: 13px; margin-bottom: 18px; }
-  h1, .welcome-row h1 { font-size: clamp(23px, 7vw, 29px); letter-spacing: -.65px; overflow-wrap: anywhere; }
-  .welcome-row .primary { width: 100%; display: flex; align-items: center; justify-content: center; }
+  main { padding: 12px 12px 18px; }
+  .welcome-row { margin: 0 0 14px; }
+  .welcome-row h1 { font-size: 24px; letter-spacing: -.7px; }
+  .eyebrow { font-size: 9px; letter-spacing: 1.2px; }
   .lead { font-size: 12px; }
-  .hero-banner { height: 245px; margin-bottom: 14px; border-radius: 14px; }
-  .hero-image { object-position: 58% center; }
-  .hero-shade { background: linear-gradient(90deg, #0b1833f2, #0f1e3db8 75%, #0f1e3d45); }
-  .hero-copy { left: 17px; width: calc(100% - 34px); }
-  .hero-copy h2 { font-size: clamp(27px, 8vw, 34px); }
-  .hero-copy p { max-width: 285px; font-size: 11px; }
-  .hero-kicker { font-size: 8px; letter-spacing: 1.2px; }
+  .hero-banner {
+    height: 210px; border-radius: 16px; box-shadow: 0 8px 15px rgba(18,30,52,.09);
+  }
+  .hero-image { object-position: center 30%; }
+  .hero-shade { background: linear-gradient(180deg, rgba(7,18,36,.38), rgba(8,18,38,.78)); }
+  .hero-copy { top: auto; bottom: 16px; left: 16px; right: 16px; width: auto; transform: none; }
+  .hero-kicker { font-size: 8px; letter-spacing: 1.25px; }
+  .hero-copy h2 { margin: 8px 0 8px; font-size: 26px; }
+  .hero-copy p { max-width: 260px; font-size: 11px; }
+  .hero-button { display: none; }
   .hero-seal { display: none; }
-  .stats { gap: 8px; margin-bottom: 23px; }
-  .stat-card { align-items: flex-start; gap: 8px; padding: 10px 8px; }
-  .stat-icon { width: 30px; height: 30px; flex-basis: 30px; border-radius: 8px; font-size: 15px; }
-  .stat-label { font-size: 7px; letter-spacing: .4px; white-space: normal; }
-  .stat-card strong { font-size: 19px; }
+  .stats { grid-template-columns: 1fr; gap: 9px; }
+  .stat-card { padding: 10px 10px 9px; }
+  .stat-icon { width: 32px; height: 32px; flex-basis: 32px; border-radius: 9px; font-size: 15px; }
+  .stat-card strong { font-size: 20px; }
   .stat-card small { font-size: 8px; }
-  .stat-card .manual-stat { font-size: 10px; }
+  .workflow-cards, .dashboard-bottom, .media-grid { grid-template-columns: 1fr; gap: 10px; }
+  .workflow-card, .quote-panel, .panel, .news-card, .draft-card, .source-card { border-radius: 12px; }
+  .workflow-image { height: 150px; }
+  .workflow-body { padding: 12px 12px 13px; }
+  .workflow-kicker { font-size: 7px; }
+  .workflow-body h3 { font-size: 15px; }
+  .workflow-body p { min-height: 0; font-size: 11px; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 8px; }
   .section-heading h2 { font-size: 16px; }
-  .workflow-cards, .media-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
-  .workflow-card:last-child { grid-column: auto; }
-  .workflow-image, .workflow-card:last-child .workflow-image { height: 150px; }
-  .workflow-body p { min-height: 0; }
-  .dashboard-bottom { grid-template-columns: minmax(0, 1fr); gap: 10px; }
-  .quote-panel { gap: 10px; padding: 13px; }
-  .quote-panel img { width: 76px; height: 70px; flex-basis: 76px; }
-  .quote-panel p { font-size: 12px; }
-  .page-head { align-items: flex-start; gap: 10px; }
-  .page-head h1 { font-size: 25px; }
-  .page-head .secondary { min-height: 36px; padding: 8px 9px; font-size: 10px; white-space: nowrap; }
-  .toolbar { align-items: stretch; flex-direction: column; gap: 8px; }
-  .news-card, .draft-card, .source-card { padding: 13px; }
-  .news-card h3, .draft-card h3 { font-size: 14px; }
-  .card-actions > *, .actions > * { flex: 1 1 100%; justify-content: center; }
+  .quote-panel { display: block; }
+  .quote-panel img { width: 100%; height: 120px; border-radius: 10px; }
+  .quote-panel p { margin-top: 12px; }
+  .toolbar { flex-direction: column; align-items: stretch; }
+  .toolbar input { max-width: none; }
+  .page-head { align-items: flex-start; flex-direction: column; }
+  .page-head .secondary { width: 100%; }
   .editor-panel { padding: 14px; }
-  .panel-head { align-items: flex-start; flex-direction: column; }
-  .media-card img { height: 180px; }
-  .assistant-panel { padding: 14px; }
-  .assistant-panel p { font-size: 11px; }
-  footer { font-size: 8px; line-height: 1.7; }
+  .actions { flex-direction: column; }
+  .actions > * { width: 100%; }
+  .media-card img { height: 155px; }
+  .assistant-panel { display: block; }
+  .assistant-icon { margin-bottom: 10px; }
+  footer { padding-top: 20px; }
 }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
