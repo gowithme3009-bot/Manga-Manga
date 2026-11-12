@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:03:51.878Z",
+  "generatedAt": "2026-11-12T11:52:03.386Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 18,
+  "eligibleCount": 20,
   "items": [
     {
       "id": "126adf4280b312a1b7b1",
@@ -29,18 +29,18 @@
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
       "freshnessHours": 1,
-      "trendScore": 59,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé jeudi l’ajout d’un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama. Le projet est dirigé par Kenichi Nishida (SynergySP, Vega Entertainment), la composition de la série est assurée par Takahiro Nagano et les personnages sont dessinés par Nozomi Kawashige.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé ce jeudi un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama. L’anime, prévu pour 2027, est dirigé par Kenichi Nishida avec Takahiro Nagano à la composition de la série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet récupéré sur le site officiel ; vérifier la date de publication et la confirmation du casting avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier que les noms des doubleurs, des personnages et les rôles de l’équipe de production sont correctement repris du texte original. Confirmer la date de diffusion 2027 et la mention du duo de personnages secondaires. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:04:05.872Z",
+      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,43 +49,87 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait complet récupéré sur le site officiel ; vérifier la date de publication et la confirmation du casting avant diffusion."
+      "aiVerificationNotes": "Vérifier que les noms des doubleurs, des personnages et les rôles de l’équipe de production sont correctement repris du texte original. Confirmer la date de diffusion 2027 et la mention du duo de personnages secondaires."
     },
     {
-      "id": "7b47845646a2578e2144",
-      "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
+      "id": "86a72977089891d1cf45",
+      "title": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal",
       "summary": "",
       "language": "fr",
       "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
         "status": "publisher_unresolved",
         "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
+        "checkedUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5"
       },
-      "publisherName": "Gaak",
-      "publisherUrl": "https://gaak.fr",
+      "publisherName": "Chantiers du Cardinal",
+      "publisherUrl": "https://www.chantiersducardinal.fr",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
-      "publishedAt": "2026-11-12T10:30:42.000Z",
+      "publishedAt": "2026-11-12T11:25:35.000Z",
+      "freshnessHours": 0,
+      "trendScore": 59,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Sujet repéré : Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est vide ; il faut consulter l’article original pour confirmer le contenu de l’interview et s’assurer qu’il n’y a pas d’autres informations à ajouter. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiTitle": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "L’extrait fourni est vide ; il faut consulter l’article original pour confirmer le contenu de l’interview et s’assurer qu’il n’y a pas d’autres informations à ajouter."
+    },
+    {
+      "id": "ffc2b8169ce8994cbd08",
+      "title": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHQ3SVZfS18wY2JXSmFsY2VRT3NaMHBKLWlNSlU5eXZjR3lMM01WNVQ2bDFYazAtSXFrUG9WMXprZFNfengxTlRWc2FPRUlVM2xvWHliel92VlBscnFBRjZlUXRtQng2Qk4yeHFKQnZDS2ZrMUMxM1pqS1BMcFZyUF9faWY5NVVPM2ZQQnRsa1V5WkcwMzBWQ0pB?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHQ3SVZfS18wY2JXSmFsY2VRT3NaMHBKLWlNSlU5eXZjR3lMM01WNVQ2bDFYazAtSXFrUG9WMXprZFNfengxTlRWc2FPRUlVM2xvWHliel92VlBscnFBRjZlUXRtQng2Qk4yeHFKQnZDS2ZrMUMxM1pqS1BMcFZyUF9faWY5NVVPM2ZQQnRsa1V5WkcwMzBWQ0pB?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHQ3SVZfS18wY2JXSmFsY2VRT3NaMHBKLWlNSlU5eXZjR3lMM01WNVQ2bDFYazAtSXFrUG9WMXprZFNfengxTlRWc2FPRUlVM2xvWHliel92VlBscnFBRjZlUXRtQng2Qk4yeHFKQnZDS2ZrMUMxM1pqS1BMcFZyUF9faWY5NVVPM2ZQQnRsa1V5WkcwMzBWQ0pB?oc=5"
+      },
+      "publisherName": "Adala News",
+      "publisherUrl": "https://adala-news.fr",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T11:19:59.000Z",
       "freshnessHours": 1,
       "trendScore": 59,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "text": "Sujet repéré : Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; le titre indique seulement l’annonce d’une adaptation. Confirmer les détails dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait est absent ; vérifier l’article original pour confirmer l’annonce de l’adaptation et la présence du teaser vidéo. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:04:05.872Z",
-      "aiTitle": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak — à vérifier dans la source originale",
+      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiTitle": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -93,43 +137,43 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait absent ; le titre indique seulement l’annonce d’une adaptation. Confirmer les détails dans l’article original."
+      "aiVerificationNotes": "L’extrait est absent ; vérifier l’article original pour confirmer l’annonce de l’adaptation et la présence du teaser vidéo."
     },
     {
-      "id": "5904772c66e308ede111",
-      "title": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD",
+      "id": "fc35df59fe3786e6fe47",
+      "title": "Une édition limitée pour Dandadan 24 - Manga news",
       "summary": "",
       "language": "fr",
       "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFzN01LVkdUWXdNWkJtbjVob3N4VkRUenl6eWJzLTFXc1k5RFFZZ1lXWkVOYl80b2JCT0NseUZoaUZYZlZ4RUxnX0VCYnZmRFozNk0xY2RPbVlRYkpIRElYT0Z1d3RRWTZPVVlUNFBhUnVLYmJCR2czRmp6R0JTMXI1MkJZa3NkTkJzSjlCLTRsQWNB0gGTAUFVX3lxTE5jS2tDQ1pOZXdEZzFqUnh6YkR3NDhwTE1ZeGd2YXZROGRKZ200d1hvT294TDNZQTlUT29wd0tkWHVORmtybXVKMzJFRHJyWWZhV3BJMzJOQzlLNDYyVEN5amV1SHRReDc5Nl9lbFZaN2xhQmNTY3F2TDMtV0Q4SWVwc3JIbkVkX0RMM0Y0ZW5zU1pOTQ?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFzN01LVkdUWXdNWkJtbjVob3N4VkRUenl6eWJzLTFXc1k5RFFZZ1lXWkVOYl80b2JCT0NseUZoaUZYZlZ4RUxnX0VCYnZmRFozNk0xY2RPbVlRYkpIRElYT0Z1d3RRWTZPVVlUNFBhUnVLYmJCR2czRmp6R0JTMXI1MkJZa3NkTkJzSjlCLTRsQWNB0gGTAUFVX3lxTE5jS2tDQ1pOZXdEZzFqUnh6YkR3NDhwTE1ZeGd2YXZROGRKZ200d1hvT294TDNZQTlUT29wd0tkWHVORmtybXVKMzJFRHJyWWZhV3BJMzJOQzlLNDYyVEN5amV1SHRReDc5Nl9lbFZaN2xhQmNTY3F2TDMtV0Q4SWVwc3JIbkVkX0RMM0Y0ZW5zU1pOTQ?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
         "status": "publisher_unresolved",
         "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
+        "checkedUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFzN01LVkdUWXdNWkJtbjVob3N4VkRUenl6eWJzLTFXc1k5RFFZZ1lXWkVOYl80b2JCT0NseUZoaUZYZlZ4RUxnX0VCYnZmRFozNk0xY2RPbVlRYkpIRElYT0Z1d3RRWTZPVVlUNFBhUnVLYmJCR2czRmp6R0JTMXI1MkJZa3NkTkJzSjlCLTRsQWNB0gGTAUFVX3lxTE5jS2tDQ1pOZXdEZzFqUnh6YkR3NDhwTE1ZeGd2YXZROGRKZ200d1hvT294TDNZQTlUT29wd0tkWHVORmtybXVKMzJFRHJyWWZhV3BJMzJOQzlLNDYyVEN5amV1SHRReDc5Nl9lbFZaN2xhQmNTY3F2TDMtV0Q4SWVwc3JIbkVkX0RMM0Y0ZW5zU1pOTQ?oc=5"
       },
-      "publisherName": "ActuaBD",
-      "publisherUrl": "https://www.actuabd.com",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
       "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
-      "publishedAt": "2026-11-12T09:52:53.000Z",
+      "publishedAt": "2026-11-12T11:00:00.000Z",
       "freshnessHours": 1,
-      "trendScore": 57,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "text": "Sujet repéré : Une édition limitée pour Dandadan 24 - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait manquant ; le titre fournit uniquement le nom du volume et l’éditeur. Vérifier le contenu de l’article. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est vide ; il faut consulter la source originale pour confirmer les détails de l’édition limitée (format, contenu, date de sortie, etc.). Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:04:05.872Z",
-      "aiTitle": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD — à vérifier dans la source originale",
+      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiTitle": "Une édition limitée pour Dandadan 24 - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -137,51 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait manquant ; le titre fournit uniquement le nom du volume et l’éditeur. Vérifier le contenu de l’article."
-    },
-    {
-      "id": "55ae94b373a6584160a0",
-      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
-      },
-      "publisherName": "ToutenBD.com",
-      "publisherUrl": "https://www.toutenbd.com",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-12T08:56:51.000Z",
-      "freshnessHours": 2,
-      "trendScore": 55,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "Sujet repéré : Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "hashtags": "#Manga #Anime #ÀVérifier",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; le titre annonce le décès. Confirmer les informations dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:04:05.872Z",
-      "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com — à vérifier dans la source originale",
-      "aiSourceStatus": "publisher_unresolved",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait absent ; le titre annonce le décès. Confirmer les informations dans l’article original."
+      "aiVerificationNotes": "L’extrait fourni est vide ; il faut consulter la source originale pour confirmer les détails de l’édition limitée (format, contenu, date de sortie, etc.)."
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -207,7 +207,7 @@
       ],
       "publishedAt": "2026-11-12T09:32:05.000Z",
       "freshnessHours": 2,
-      "trendScore": 56,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
@@ -216,6 +216,102 @@
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
+    },
+    {
+      "id": "7b47845646a2578e2144",
+      "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
+      },
+      "publisherName": "Gaak",
+      "publisherUrl": "https://gaak.fr",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T10:30:42.000Z",
+      "freshnessHours": 1,
+      "trendScore": 57,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nSPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+    },
+    {
+      "id": "5904772c66e308ede111",
+      "title": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
+      },
+      "publisherName": "ActuaBD",
+      "publisherUrl": "https://www.actuabd.com",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T09:52:53.000Z",
+      "freshnessHours": 2,
+      "trendScore": 55,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+    },
+    {
+      "id": "55ae94b373a6584160a0",
+      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5"
+      },
+      "publisherName": "ToutenBD.com",
+      "publisherUrl": "https://www.toutenbd.com",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T08:56:51.000Z",
+      "freshnessHours": 3,
+      "trendScore": 53,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nDécès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -238,8 +334,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
-      "freshnessHours": 2,
-      "trendScore": 55,
+      "freshnessHours": 3,
+      "trendScore": 53,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -270,8 +366,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 4,
-      "trendScore": 51,
+      "freshnessHours": 5,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -291,9 +387,8 @@
       "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5"
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
       },
       "publisherName": "La Libre.be",
       "publisherUrl": "https://www.lalibre.be",
@@ -303,7 +398,7 @@
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "freshnessHours": 6,
-      "trendScore": 48,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -334,7 +429,7 @@
       ],
       "publishedAt": "2026-11-11T18:30:08.000Z",
       "freshnessHours": 17,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -364,8 +459,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
-      "freshnessHours": 17,
-      "trendScore": 29,
+      "freshnessHours": 18,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -395,8 +490,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:16:24.000Z",
-      "freshnessHours": 18,
-      "trendScore": 29,
+      "freshnessHours": 19,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -426,8 +521,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -457,8 +552,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -488,8 +583,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -519,8 +614,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -550,8 +645,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -581,44 +676,13 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:12:04.000Z",
-      "freshnessHours": 20,
-      "trendScore": 26,
+      "freshnessHours": 21,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
       "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "e9974cbd29bb2a5552da",
-      "title": "Avion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "La Voix du Nord",
-      "publisherUrl": "https://www.lavoixdunord.fr",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T11:11:07.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAvion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
@@ -628,6 +692,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T11:04:05.872Z",
+  "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
   "aiModel": "openai/gpt-oss-120b"
 }

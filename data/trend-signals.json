@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:03:58.148Z",
+  "generatedAt": "2026-11-12T11:52:09.099Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T11:03:58.148Z",
+    "refreshedAt": "2026-11-12T11:52:09.099Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -83,7 +83,7 @@
         "แบล็กโคลเวอร์",
         "Чёрный клевер"
       ],
-      "popularity": 604200,
+      "popularity": 604528,
       "trending": 113,
       "format": "TV",
       "genres": [
@@ -291,7 +291,7 @@
         "Iruma à l’école des démons",
         "入間同學入魔了！ "
       ],
-      "popularity": 38790,
+      "popularity": 38810,
       "trending": 59,
       "format": "MANGA",
       "genres": [
@@ -371,7 +371,7 @@
         "ナノ魔神",
         "นาโนมาชิน"
       ],
-      "popularity": 49647,
+      "popularity": 49709,
       "trending": 55,
       "format": "MANGA",
       "genres": [
@@ -672,7 +672,7 @@
         "觉醒吧，铲屎官！",
         "覺醒吧！貓奴"
       ],
-      "popularity": 47829,
+      "popularity": 47857,
       "trending": 34,
       "format": "MANGA",
       "genres": [
@@ -698,7 +698,7 @@
         "テムパル〜アイテムの力〜",
         "Sobreequipado"
       ],
-      "popularity": 40869,
+      "popularity": 40905,
       "trending": 34,
       "format": "MANGA",
       "genres": [
@@ -1129,7 +1129,7 @@
         "CYBERPUNK: อาชญากรแดนเถื่อน",
         "Киберпанк: Бегущие по краю"
       ],
-      "popularity": 410051,
+      "popularity": 410429,
       "trending": 23,
       "format": "ONA",
       "genres": [
@@ -1406,7 +1406,7 @@
         "咒術迴戰",
         "Chú Thuật Hồi Chiến"
       ],
-      "popularity": 995541,
+      "popularity": 995944,
       "trending": 20,
       "format": "TV",
       "genres": [
@@ -1432,7 +1432,7 @@
         "สงครามคนทมิฬ",
         "Сага о Винланде"
       ],
-      "popularity": 559855,
+      "popularity": 560097,
       "trending": 20,
       "format": "TV",
       "genres": [
@@ -1484,7 +1484,7 @@
         "블루 록",
         "Блу Лок"
       ],
-      "popularity": 126900,
+      "popularity": 126951,
       "trending": 20,
       "format": "MANGA",
       "genres": [
@@ -1698,7 +1698,7 @@
         "Das Geheimnis der Hexen",
         "Heksehatt-atelieret"
       ],
-      "popularity": 85149,
+      "popularity": 85221,
       "trending": 19,
       "format": "MANGA",
       "genres": [
@@ -2215,7 +2215,7 @@
         "Bereinkarnasi Malah Menjadi Slime",
         "Odrodzony jako galareta"
       ],
-      "popularity": 475066,
+      "popularity": 475261,
       "trending": 16,
       "format": "TV",
       "genres": [
@@ -2523,7 +2523,7 @@
         "Re:Zero รีเซทชีวิต ฝ่าวิกฤตต่างโลก ภาค 2",
         "Re:Zero — жизнь с нуля в другом мире. Второй сезон"
       ],
-      "popularity": 390321,
+      "popularity": 390476,
       "trending": 15,
       "format": "TV",
       "genres": [
@@ -2788,7 +2788,7 @@
         "登录武林系统",
         "Logando no Murim"
       ],
-      "popularity": 25187,
+      "popularity": 25220,
       "trending": 14,
       "format": "MANGA",
       "genres": [
@@ -2837,7 +2837,7 @@
         " Yankee High School Girl Kuzuhana-chan",
         "แยงกี้สายหวาน คุซีฮานะจัง"
       ],
-      "popularity": 15228,
+      "popularity": 15229,
       "trending": 14,
       "format": "MANGA",
       "genres": [
@@ -2968,7 +2968,7 @@
         "Истребитель демонов",
         "Клинок, рассекающий демонов"
       ],
-      "popularity": 1014060,
+      "popularity": 1014370,
       "trending": 13,
       "format": "TV",
       "genres": [
@@ -3402,7 +3402,7 @@
         "โบรูโตะ: นารูโตะ เน็กซ์ เจนเนเรชั่น",
         "بوروتو: الأجيال القادمة من ناروتو"
       ],
-      "popularity": 228571,
+      "popularity": 228618,
       "trending": 12,
       "format": "TV",
       "genres": [
@@ -3964,7 +3964,7 @@
         "ผ่าพิภพไททัน ภาค 3 Part 1",
         "Атака титанов 3"
       ],
-      "popularity": 700304,
+      "popularity": 700544,
       "trending": 10,
       "format": "TV",
       "genres": [
@@ -4549,7 +4549,7 @@
         "هجوم العملاقة الجزء الأخير",
         "Атака Титанов: Финал"
       ],
-      "popularity": 656266,
+      "popularity": 656502,
       "trending": 9,
       "format": "TV",
       "genres": [
@@ -4636,7 +4636,7 @@
         "ผ่าพิภพไททัน ภาค 3 พาร์ท 2",
         "حمله به تایتان فصل 3"
       ],
-      "popularity": 623575,
+      "popularity": 623806,
       "trending": 9,
       "format": "TV",
       "genres": [
@@ -4778,7 +4778,7 @@
         "เสน่ห์สาวข้าวปั้น",
         "Корзинка фруктов"
       ],
-      "popularity": 316834,
+      "popularity": 316924,
       "trending": 9,
       "format": "TV",
       "genres": [
@@ -5088,7 +5088,7 @@
         "เป็นตัวร้ายก็ต้องตายเท่านั้น",
         "Przeznaczeniem Złoczyńców jest śmierć"
       ],
-      "popularity": 44403,
+      "popularity": 44433,
       "trending": 9,
       "format": "MANGA",
       "genres": [
@@ -5115,7 +5115,7 @@
         "4000年ぶりに帰還した大魔導士",
         "มหาจอมเวทผู้กลับมาอีกครั้งหลัง 4000 ปี"
       ],
-      "popularity": 39112,
+      "popularity": 39126,
       "trending": 9,
       "format": "MANGA",
       "genres": [
@@ -5410,7 +5410,7 @@
         "Kaguya-sama: Cuộc Chiến Tỏ Tình",
         "Cuộc Chiến Tỏ Tình"
       ],
-      "popularity": 570052,
+      "popularity": 570249,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -5514,7 +5514,7 @@
         "ม็อบไซโค 100 คนพลังจิต ภาค 2",
         "Моб Психо 100 II"
       ],
-      "popularity": 457032,
+      "popularity": 457156,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -5547,7 +5547,7 @@
         "Госпожа Кагуя: в любви как на войне. 2 сезон",
         "Kaguya-sama: Cuộc Chiến Tỏ Tình (Phần 2)"
       ],
-      "popularity": 442092,
+      "popularity": 442226,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -5627,7 +5627,7 @@
         "มนุษย์เลื่อยยนต์",
         "Testere Adam"
       ],
-      "popularity": 337216,
+      "popularity": 337297,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -5923,7 +5923,7 @@
         "Zenchiteki na Dokusha no Shiten kara",
         "Всеведущий читатель"
       ],
-      "popularity": 135090,
+      "popularity": 135132,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -6134,7 +6134,7 @@
         "Anjo, la chica traviesa",
         "Mischievous Gal Anjou-san"
       ],
-      "popularity": 30220,
+      "popularity": 30224,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -6212,7 +6212,7 @@
         "무련전봉",
         "武錬天下"
       ],
-      "popularity": 25943,
+      "popularity": 25949,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -6726,7 +6726,7 @@
         "青ブタ",
         "เรื่องฝันปั่นป่วยของผมกับรุ่นพี่บันนี่เกิร์ล"
       ],
-      "popularity": 591884,
+      "popularity": 592084,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -6786,7 +6786,7 @@
         "أكاديميتي للأبطال",
         "Моя геройская академия 5"
       ],
-      "popularity": 422675,
+      "popularity": 422804,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -6863,7 +6863,7 @@
         "86 ВОСЕМЬДЕСЯТ ШЕСТЬ",
         "86 -不存在的战区-"
       ],
-      "popularity": 334300,
+      "popularity": 334483,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -6891,7 +6891,7 @@
         "مغامرات جوجو العجيبة: الرياح الذهبية",
         "Невероятные приключения ДжоДжо: Золотой ветер"
       ],
-      "popularity": 306615,
+      "popularity": 306719,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -7106,7 +7106,7 @@
         "Bleach: La guerre sanglante de mille ans",
         "BLEACH TYBW"
       ],
-      "popularity": 214950,
+      "popularity": 215072,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -7591,7 +7591,7 @@
         "Così carina. Fly me to the moon",
         "Beni Ay'a Götür"
       ],
-      "popularity": 42140,
+      "popularity": 42155,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -7699,7 +7699,7 @@
         "Demonic Emperor",
         "The Demon King Butler"
       ],
-      "popularity": 28438,
+      "popularity": 28450,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -8081,7 +8081,7 @@
         "3أكاديميتي للأبطال",
         "Моя геройская академия 3"
       ],
-      "popularity": 610254,
+      "popularity": 610413,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -8219,7 +8219,7 @@
         "เกิดชาตินี้พี่ต้องเทพ",
         "Thất nghiệp chuyển sinh"
       ],
-      "popularity": 471875,
+      "popularity": 472069,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -8245,7 +8245,7 @@
         "ผู้กล้าโล่ผงาด",
         "Восхождение героя щита"
       ],
-      "popularity": 469822,
+      "popularity": 469964,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -8273,7 +8273,7 @@
         "Токийские мстители",
         "Răzbunătorii din Tokio"
       ],
-      "popularity": 454704,
+      "popularity": 454848,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -8300,7 +8300,7 @@
         "นักบุกเบิกหลุมยักษ์",
         "Đến từ Abyss"
       ],
-      "popularity": 413189,
+      "popularity": 413341,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -8362,7 +8362,7 @@
         "ตับอ่อนเธอนั้นขอฉันเถอะนะ",
         "Tớ Muốn Ăn Tụy Của Cậu"
       ],
-      "popularity": 383736,
+      "popularity": 383880,
       "trending": 6,
       "format": "MOVIE",
       "genres": [
@@ -8613,7 +8613,7 @@
         "Contiendas de Brujería",
         "Lanet Savaşları"
       ],
-      "popularity": 256889,
+      "popularity": 256950,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -8643,7 +8643,7 @@
         "GrePre",
         "グレプリ"
       ],
-      "popularity": 234641,
+      "popularity": 234695,
       "trending": 6,
       "format": "ONA",
       "genres": [
@@ -8727,7 +8727,7 @@
         "Fruits Basket (2019) 2",
         "Корзинка фруктов 2"
       ],
-      "popularity": 189133,
+      "popularity": 189178,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -9146,7 +9146,7 @@
         "북검전기",
         "北剑江湖"
       ],
-      "popularity": 48021,
+      "popularity": 48047,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -9442,7 +9442,7 @@
         "異界劍王生存記",
         "การเอาชีวิตรอดของราชาดาบในต่างโลก"
       ],
-      "popularity": 37160,
+      "popularity": 37178,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -9631,7 +9631,7 @@
         "Player",
         "플레이어"
       ],
-      "popularity": 19739,
+      "popularity": 19747,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -9703,7 +9703,7 @@
         "I became the strongest with the failure frame \"Abnormal State Skill\" as I devastated everything",
         "Failure frame: Devenu plus puissant, je les défonce tous avec mes sorts de noob"
       ],
-      "popularity": 18523,
+      "popularity": 18534,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -10289,7 +10289,7 @@
         "ดร.สโตน เจ้าแห่งวิทยาศาสตร์กู้คืนอารยธรรมโลก",
         "Доктор Стоун"
       ],
-      "popularity": 565485,
+      "popularity": 565660,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10395,7 +10395,7 @@
         "ون بنش مان 2",
         "رجل اللكمة الواحدة 2"
       ],
-      "popularity": 475381,
+      "popularity": 475517,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10477,7 +10477,7 @@
         "Chào mừng đến với lớp học đề cao thực lực",
         "Chào mừng tới lớp học biết tuốt"
       ],
-      "popularity": 457473,
+      "popularity": 457640,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10624,7 +10624,7 @@
         "Tokyo Ghoul:re",
         "東京喰種-トーキョーグール-:re"
       ],
-      "popularity": 313276,
+      "popularity": 313390,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10738,7 +10738,7 @@
         "О моём перерождении в слизь 2",
         "転スラ 2"
       ],
-      "popularity": 277946,
+      "popularity": 278047,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10768,7 +10768,7 @@
         "Jangan main-main denganku, Nona Nagatoro Serangan Ke-2 ",
         "No me rayes, Nagatoro"
       ],
-      "popularity": 272472,
+      "popularity": 272552,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -10792,7 +10792,7 @@
         "โอเวอร์ลอร์ด ภาค 2",
         "โอเวอร์ ลอร์ด จอมมารพิชิตโลก ภาค 2"
       ],
-      "popularity": 271701,
+      "popularity": 271788,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -11122,7 +11122,7 @@
         "Josee: Khi nàng thơ yêu",
         "Її завітна мрія"
       ],
-      "popularity": 190798,
+      "popularity": 190872,
       "trending": 5,
       "format": "MOVIE",
       "genres": [
@@ -11149,7 +11149,7 @@
         "Magi's Grandson",
         "หลานจอมปราชญ์"
       ],
-      "popularity": 188832,
+      "popularity": 188896,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -11335,7 +11335,7 @@
         "แมงมุมแล้วไง ข้องใจเหรอคะ ",
         "Tôi Là Nhện Đấy, Có Sao Không?"
       ],
-      "popularity": 157177,
+      "popularity": 157227,
       "trending": 5,
       "format": "TV",
       "genres": [
@@ -11827,7 +11827,7 @@
         "帰還者の魔法は特別です",
         "Kikansha no Mahou wa Tokubetsu desu"
       ],
-      "popularity": 51133,
+      "popularity": 51153,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -11929,7 +11929,7 @@
         "拳击手",
         "Боксер."
       ],
-      "popularity": 46246,
+      "popularity": 46269,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -11956,7 +11956,7 @@
         "เกมชีวิตที่สอง ของแรงเกอร์",
         "異界攻塔戰記"
       ],
-      "popularity": 45725,
+      "popularity": 45739,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12238,7 +12238,7 @@
         "某个继母的童话",
         "เทพนิยายของแม่เลี้ยงชูริ"
       ],
-      "popularity": 20876,
+      "popularity": 20891,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12363,7 +12363,7 @@
         "沈む太陽、凍てつく瞳",
         "日暮之際，冷冽目光"
       ],
-      "popularity": 15391,
+      "popularity": 15411,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12388,7 +12388,7 @@
         "ชีวิตที่สองของนางร้าย",
         "惡女重生"
       ],
-      "popularity": 15144,
+      "popularity": 15153,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12411,7 +12411,7 @@
         "放开那个女巫",
         "마녀를 지켜라"
       ],
-      "popularity": 14166,
+      "popularity": 14174,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12439,7 +12439,7 @@
         "Forged Success",
         "백련성신"
       ],
-      "popularity": 13009,
+      "popularity": 13012,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12461,7 +12461,7 @@
         "ケンガンオメガ",
         "Kengan Ashura 2"
       ],
-      "popularity": 12403,
+      "popularity": 12408,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12510,7 +12510,7 @@
         "เพราะพระเจ้าเลือกเลยได้เกิดใหม่มาเลี้ยงสไลม์ในต่างโลก",
         "眾神眷顧的男人"
       ],
-      "popularity": 10052,
+      "popularity": 10071,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13184,7 +13184,7 @@
         "Тільки я візьму новий рівень",
         "Вебтун. Поднятие уровня в одиночку. Solo Leveling"
       ],
-      "popularity": 289035,
+      "popularity": 289103,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -13501,7 +13501,7 @@
         "Mis 100 novias que me quieren mogollón mogollón",
         "Mis 100 novias que me quieren mucho mucho"
       ],
-      "popularity": 39912,
+      "popularity": 39922,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -13602,7 +13602,7 @@
         "AOASHI แข็งเด็กหัวใจนักสู้",
         "Ao Ashi - Playmaker"
       ],
-      "popularity": 26247,
+      "popularity": 26257,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -13630,7 +13630,7 @@
         "被塔詛咒的獵人",
         "ผู้เล่นขั้นเทพแห่งหอคอยฝึกสอน"
       ],
-      "popularity": 25740,
+      "popularity": 25745,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -13665,7 +13665,7 @@
         "再婚皇后 外傳",
         "การแต่งงานครั้งใหม่ของจักรพรรดินี: ตอนพิเศษ"
       ],
-      "popularity": 21442,
+      "popularity": 21468,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14974,7 +14974,7 @@
         "Семья шпиона",
         "SPY×FAMILY 間諜家家酒"
       ],
-      "popularity": 161339,
+      "popularity": 161365,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15094,7 +15094,7 @@
         "สุขาวดีอเวจี",
         "地獄樂"
       ],
-      "popularity": 99296,
+      "popularity": 99318,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15273,7 +15273,7 @@
         "Şifacı Günceleri",
         "약사의 혼잣말"
       ],
-      "popularity": 47981,
+      "popularity": 47996,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15299,7 +15299,7 @@
         "我独自盗墓",
         "El rey saqueador de tumbas"
       ],
-      "popularity": 37828,
+      "popularity": 37839,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15375,7 +15375,7 @@
         "夜櫻家大作戰",
         "요자쿠라 일가의 대작전"
       ],
-      "popularity": 24815,
+      "popularity": 24821,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15421,7 +15421,7 @@
         "Kill the Hero",
         "킬 더 히어로"
       ],
-      "popularity": 23248,
+      "popularity": 23255,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15447,7 +15447,7 @@
         "FAIRY TAIL: 100-nen Quest",
         "FAIRY TAIL魔導少年 百年任務"
       ],
-      "popularity": 19974,
+      "popularity": 19983,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15496,7 +15496,7 @@
         "Volcanic Age",
         "废柴重生之我要当大佬"
       ],
-      "popularity": 14504,
+      "popularity": 14511,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15522,7 +15522,7 @@
         "Only I'm a Bug Player",
         "ผู้เล่นขั้นเทพจากเกมติดบั๊ก"
       ],
-      "popularity": 13441,
+      "popularity": 13449,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15547,7 +15547,7 @@
         "Le Héros de la Vilaine",
         "สลับบทรัก ยัยนางร้ายกับนายพระเอก"
       ],
-      "popularity": 11084,
+      "popularity": 11091,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15574,7 +15574,7 @@
         "The fun life of the most powerful orc in history, creating a harem in an alternative world.",
         "ออร์คผู้แข็งแกร่งที่สุดในประวัติการณ์กับการสร้างฮาเร็มในต่างโลก"
       ],
-      "popularity": 9207,
+      "popularity": 9217,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15602,7 +15602,7 @@
         "Saikyosoubi",
         "めざめざ"
       ],
-      "popularity": 9196,
+      "popularity": 9201,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15629,7 +15629,7 @@
         "When you called us a demon",
         "Your Evil Past"
       ],
-      "popularity": 8065,
+      "popularity": 8082,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15654,7 +15654,7 @@
         "Garbage Hero: A Revenge Story of a Hero Who Got Summoned to Another World",
         "Garbage Brave Revenge story of a hero summoned and discarded in another world"
       ],
-      "popularity": 7805,
+      "popularity": 7808,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15678,7 +15678,7 @@
         "屍控末日",
         "Выживание с нуля"
       ],
-      "popularity": 5467,
+      "popularity": 5475,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15702,7 +15702,7 @@
         "Global Martial Arts",
         "Global Gao Wu"
       ],
-      "popularity": 4946,
+      "popularity": 4950,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15725,7 +15725,7 @@
         "อิซากายะต่างโลก โนบุ",
         "Quán rượu dị giới \"Nobu\""
       ],
-      "popularity": 4530,
+      "popularity": 4541,
       "trending": 3,
       "format": "MANGA",
       "genres": [
@@ -15745,7 +15745,7 @@
         "Battle Studies",
         "バトルスタディーズ"
       ],
-      "popularity": 1708,
+      "popularity": 1717,
       "trending": 3,
       "format": "MANGA",
       "genres": [
