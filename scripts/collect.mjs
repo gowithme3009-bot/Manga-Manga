@@ -103,10 +103,12 @@ export function rankItems(items, now = Date.now()) {
     const sourceId = item.sourceId || item.source;
     if (!title.trim()) continue;
     // Fusion conservatrice : titres identiques ou très proches, et médias distincts.
-    let group = groups.find(candidate => {
+    let group = groups.find(candidate => candidate.titleVariants.some(existing => {
+      const sameExactTitle = existing.normalize("NFKC").toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu, " ").trim()
+        === title.normalize("NFKC").toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
       const isNewSource = sourceId && !candidate.sourceIds.includes(sourceId);
-      return isNewSource && candidate.titleVariants.some(existing => areLikelySameStory(existing, title));
-    });
+      return sameExactTitle || (isNewSource && areLikelySameStory(existing, title));
+    }));
     if (!group) {
       group = {...item,sources:[],sourceIds:[],sourceCount:0,titleVariants:[]};
       groups.push(group);
