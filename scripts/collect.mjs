@@ -5,6 +5,7 @@ import crypto from "node:crypto";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MAX_FEED_BYTES = 1_500_000;
 const MAX_ITEMS_PER_FEED = 100;
+const FEED_TIMEOUT_MS = 15_000;
 export function decodeXml(value = "") {
   return String(value)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -33,6 +34,27 @@ export async function readLimited(response,maxBytes=MAX_FEED_BYTES) {
   const reader=response.body.getReader();const chunks=[];let total=0;
   try{while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>maxBytes){await reader.cancel();throw new Error("Flux trop volumineux");}chunks.push(Buffer.from(value));}}finally{reader.releaseLock?.();}
   return Buffer.concat(chunks).toString("utf8");
+}
+
+export async function fetchFeedText(fetchImpl, url, { timeoutMs = FEED_TIMEOUT_MS } = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetchImpl(url, {
+      headers: {
+        "User-Agent": "Manga-Manga-Studio/0.1 (+https://github.com/gowithme3009-bot/Manga-Manga)",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"
+      },
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return await readLimited(response);
+  } catch (error) {
+    if (controller.signal.aborted) throw new Error("Délai dépassé (" + Math.round(timeoutMs / 1000) + " s)");
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 export function parseFeed(xml, source) {
@@ -80,9 +102,7 @@ export async function collect({configPath=path.join(ROOT,"data/sources.json"),ou
   const items=[], sources=[], warnings=[];
   for (const source of active) {
     try {
-      const response=await fetchImpl(source.feedUrl,{headers:{"User-Agent":"Manga-Manga-Studio/0.1 (+https://github.com/gowithme3009-bot/Manga-Manga)","Accept":"application/rss+xml, application/atom+xml, application/xml, text/xml"}});
-      if(!response.ok) throw new Error("HTTP "+response.status);
-      const xml=await readLimited(response);
+      const xml=await fetchFeedText(fetchImpl, source.feedUrl);
       const parsed=parseFeed(xml,source);
       items.push(...parsed);
       sources.push({id:source.id,name:source.name,status:"ok",items:parsed.length});
