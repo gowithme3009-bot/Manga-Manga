@@ -26,13 +26,13 @@
       <div class="side-label">ESPACE ÉDITORIAL</div>
       <nav aria-label="Navigation principale" class="main-nav">
         <a class="nav active" href="#accueil" data-view="accueil"><span class="nav-icon">⌂</span><span>Accueil</span></a>
-        <a class="nav" href="#radar" data-view="radar"><span class="nav-icon">⌕</span><span>1. Trouver un sujet</span></a>
-        <a class="nav" href="#atelier" data-view="atelier"><span class="nav-icon">✎</span><span>2. Préparer le texte</span></a>
-        <a class="nav" href="#brouillons" data-view="brouillons"><span class="nav-icon">▤</span><span>3. Prépublication</span><b id="draft-count">0</b></a>
+        <a class="nav" href="#radar" data-view="radar"><span class="nav-icon">⌕</span><span>1. Radar</span></a>
+        <a class="nav" href="#atelier" data-view="atelier"><span class="nav-icon">✎</span><span>2. Création</span></a>
+        <a class="nav" href="#studio-images" data-view="studio-images"><span class="nav-icon">✧</span><span>3. Visuels</span></a>
+        <a class="nav" href="#brouillons" data-view="brouillons"><span class="nav-icon">▤</span><span>4. Prépublication</span><b id="draft-count">0</b></a>
       </nav>
       <details class="nav-tools">
-        <summary>Autres outils</summary>
-        <a class="nav" href="#studio-images" data-view="studio-images"><span class="nav-icon">✧</span><span>Créer un visuel IA</span></a>
+        <summary>Bibliothèque & configuration</summary>
         <a class="nav" href="#bibliotheque" data-view="bibliotheque"><span class="nav-icon">▧</span><span>Médiathèque</span></a>
         <a class="nav" href="#sources" data-view="sources"><span class="nav-icon">◎</span><span>Sources & réglages</span></a>
       </details>
@@ -75,10 +75,10 @@
         <section class="guided-workflow panel" aria-labelledby="guided-title">
           <div class="guided-heading"><div><p class="eyebrow">VOTRE PARCOURS SIMPLIFIÉ</p><h2 id="guided-title">Préparer une publication en 4 étapes</h2><p class="muted">Suis les voyants : vert = terminé ou prêt · orange = à faire · rouge = bloqué.</p></div><span class="guided-live"><i></i> SUIVI EN DIRECT</span></div>
           <div class="guided-steps">
-            <article class="guided-step" data-step="1"><span class="guided-light" id="guided-light-1"></span><span class="guided-number">01</span><div><strong>Trouver une tendance</strong><small id="guided-status-1">Chargement du radar…</small></div><button class="guided-action" data-go="radar">Ouvrir le radar →</button></article>
-            <article class="guided-step" data-step="2"><span class="guided-light" id="guided-light-2"></span><span class="guided-number">02</span><div><strong>Préparer le texte</strong><small id="guided-status-2">Choisir une actualité et rédiger</small></div><button class="guided-action" data-go="atelier">Ouvrir l’atelier →</button></article>
-            <article class="guided-step" data-step="3"><span class="guided-light" id="guided-light-3"></span><span class="guided-number">03</span><div><strong>Ajouter le visuel</strong><small id="guided-status-3">Créer ou associer une image</small></div><button class="guided-action" data-go="studio-images">Créer une image →</button></article>
-            <article class="guided-step" data-step="4"><span class="guided-light" id="guided-light-4"></span><span class="guided-number">04</span><div><strong>Vérifier et valider</strong><small id="guided-status-4">Contrôles humains obligatoires</small></div><button class="guided-action" data-go="brouillons">Voir mes brouillons →</button></article>
+            <article class="guided-step" data-step="1"><span class="guided-light" id="guided-light-1"></span><span class="guided-number">01</span><div><strong>Choisir une tendance</strong><small id="guided-status-1">Chargement du radar…</small></div><button class="guided-action" data-go="radar">Ouvrir le radar →</button></article>
+            <article class="guided-step" data-step="2"><span class="guided-light" id="guided-light-2"></span><span class="guided-number">02</span><div><strong>Créer la publication</strong><small id="guided-status-2">Choisir une actualité et rédiger</small></div><button class="guided-action" data-go="atelier">Rédiger →</button></article>
+            <article class="guided-step" data-step="3"><span class="guided-light" id="guided-light-3"></span><span class="guided-number">03</span><div><strong>Créer le visuel</strong><small id="guided-status-3">Créer ou associer une image</small></div><button class="guided-action" data-go="studio-images">Créer le visuel →</button></article>
+            <article class="guided-step" data-step="4"><span class="guided-light" id="guided-light-4"></span><span class="guided-number">04</span><div><strong>Vérifier & prépublier</strong><small id="guided-status-4">Contrôles humains obligatoires</small></div><button class="guided-action" data-go="brouillons">Vérifier →</button></article>
           </div>
           <div class="guided-footer"><span id="guided-summary">Le parcours se met à jour avec vos actions.</span><button class="primary" data-go="brouillons">Continuer vers la prépublication</button></div>
         </section>
@@ -120,13 +120,13 @@
       </section>
 
       <section class="view hidden" id="view-atelier">
-        <p class="eyebrow">CRÉATION CONTRÔLÉE</p><h1>Atelier éditorial</h1><p class="lead">Sélectionnez une actualité pour préparer un brouillon fidèle à sa source.</p>
-        <div class="panel editor-panel"><label for="story-select">Actualité sélectionnée</label><select id="story-select"><option value="">Choisir une actualité…</option></select><label for="draft-title">Titre</label><input id="draft-title" maxlength="180" placeholder="Titre de la source"><label for="draft-body">Texte de publication</label><textarea id="draft-body" rows="7" placeholder="Restez fidèle aux informations fournies par la source."></textarea><label for="draft-tags">Hashtags</label><input id="draft-tags" value="#Manga #Anime #Actualités"><div class="actions"><button class="primary" id="save-draft">Enregistrer le brouillon</button><button class="secondary" id="preview-draft">Aperçu Facebook</button><button class="secondary" id="copy-ai-prompt">Copier le brief IA</button></div><div id="editor-preview" class="fb-preview hidden"><div class="fb-head">Manga, Animé et Actualités · Aperçu non publié</div><h3 id="preview-title"></h3><img id="preview-image" class="preview-image hidden" alt="Visuel du brouillon Facebook"><p id="preview-body"></p><p id="preview-tags" class="tags"></p><small>Prévisualisation locale — aucune publication envoyée.</small></div></div>
+        <p class="eyebrow">CRÉATION CONTRÔLÉE</p><h1>Créer une publication</h1><p class="lead">Choisis une actualité, prépare ton texte, puis enregistre ton brouillon. Le visuel se crée à l’étape suivante.</p>
+        <div class="panel editor-panel"><div class="stage-kicker"><span class="stage-light" data-state="active"></span><strong>ÉTAPE 2 SUR 4 · TEXTE & RÉDACTION</strong></div><label for="story-select">1. Actualité à traiter</label><select id="story-select"><option value="">Choisir une actualité…</option></select><label for="draft-title">2. Titre de la publication</label><input id="draft-title" maxlength="180" placeholder="Titre de la source"><label for="draft-body">3. Texte de publication</label><textarea id="draft-body" rows="7" placeholder="Restez fidèle aux informations fournies par la source."></textarea><label for="draft-tags">4. Hashtags</label><input id="draft-tags" value="#Manga #Anime #Actualités"><div class="actions"><button class="primary" id="save-draft">Enregistrer le brouillon</button><button class="secondary" type="button" data-go="studio-images">Étape suivante : créer le visuel →</button><button class="secondary" id="preview-draft">Aperçu Facebook</button><button class="secondary" id="copy-ai-prompt">Copier le brief IA</button></div><div id="editor-preview" class="fb-preview hidden"><div class="fb-head">Manga, Animé et Actualités · Aperçu non publié</div><h3 id="preview-title"></h3><img id="preview-image" class="preview-image hidden" alt="Visuel du brouillon Facebook"><p id="preview-body"></p><p id="preview-tags" class="tags"></p><small>Prévisualisation locale — aucune publication envoyée.</small></div></div>
       </section>
 
       <section class="view hidden" id="view-studio-images">
         <p class="eyebrow">CRÉATION VISUELLE · TEST GRATUIT</p>
-        <h1>Studio images IA</h1>
+        <h1>Créer le visuel</h1><div class="stage-kicker"><span class="stage-light" data-state="active"></span><strong>ÉTAPE 3 SUR 4 · IMAGE</strong></div>
         <p class="lead">Test de génération Stable Diffusion XL via OVHcloud, sans clé API enregistrée dans le site. Le service peut limiter les requêtes anonymes.</p>
         <div class="panel editor-panel image-generator-panel">
           <label for="image-prompt">Description de l’image</label>
@@ -144,16 +144,16 @@
       </section>
 
       <section class="view hidden" id="view-brouillons">
-        <div class="page-head"><div><p class="eyebrow">CONTRÔLE ÉDITORIAL FINAL</p><h1>Centre de prépublication</h1><p class="lead">Chaque brouillon possède sa propre liste de contrôle. La validation n’est possible qu’après les six vérifications.</p></div><button class="secondary" id="export-drafts">Exporter mes brouillons</button></div>
+        <div class="page-head"><div><p class="eyebrow">CONTRÔLE ÉDITORIAL FINAL</p><h1>Vérifier & prépublier</h1><div class="stage-kicker"><span class="stage-light" data-state="active"></span><strong>ÉTAPE 4 SUR 4 · CONTRÔLE FINAL</strong></div><p class="lead">Vérifie chaque brouillon ici. Six contrôles simples sont nécessaires avant la validation humaine.</p></div><button class="secondary" id="export-drafts">Exporter mes brouillons</button></div>
         <details class="panel prepub-tutorial">
           <summary><span><strong>Guide pas à pas</strong><small>Apprendre à préparer une publication sans rien oublier</small></span><b class="tutorial-toggle">Afficher le tutoriel ＋</b></summary>
           <ol class="tutorial-steps">
-            <li><strong>Choisir une tendance</strong><p>Ouvre « Radar de tendances ». Choisis un sujet récent et intéressant. Consulte les signaux, mais ne prends jamais un score comme une preuve de popularité.</p><span>Ensuite : passe à l’Atelier éditorial.</span></li>
+            <li><strong>Choisir une tendance</strong><p>Ouvre « Radar ». Choisis un sujet récent et intéressant. Consulte les signaux, mais ne prends jamais un score comme une preuve de popularité.</p><span>Ensuite : passe à l’Atelier éditorial.</span></li>
             <li><strong>Lire la source originale</strong><p>Dans la proposition, utilise « Vérifier la source ». Ouvre l’article du média d’origine. Vérifie le titre, la date, les noms et les informations réellement confirmées.</p><span>Si la source est inaccessible ou douteuse : ne valide pas le sujet.</span></li>
-            <li><strong>Préparer le texte</strong><p>Dans « Atelier éditorial », sélectionne l’actualité. Relis le titre et le texte proposé par l’IA. Corrige les erreurs, retire les affirmations non sourcées et signale clairement les incertitudes.</p><span>Enregistre le brouillon avant de continuer.</span></li>
-            <li><strong>Créer et associer le visuel</strong><p>Ouvre « Studio images IA », rédige une description précise, génère l’image et vérifie qu’elle correspond au sujet. Appuie sur « Utiliser cette image dans un brouillon ».</p><span>Retourne au brouillon et vérifie que l’image apparaît.</span></li>
-            <li><strong>Contrôler l’aperçu Facebook</strong><p>Dans l’Atelier, appuie sur « Aperçu Facebook ». Relis le rendu, le texte, l’image et les hashtags, de préférence sur téléphone.</p><span>Si tu modifies le contenu ou le visuel, recommence les contrôles concernés.</span></li>
-            <li><strong>Cocher les six vérifications</strong><p>Reviens dans ce Centre. Pour chaque case, effectue réellement le contrôle indiqué avant de la cocher. Les cases sont des confirmations humaines : elles ne remplacent pas la lecture des sources.</p><span>La validation reste bloquée tant qu’une case obligatoire manque.</span></li>
+            <li><strong>Préparer le texte</strong><p>Dans « Création », sélectionne l’actualité. Relis le titre et le texte proposé par l’IA. Corrige les erreurs, retire les affirmations non sourcées et signale clairement les incertitudes.</p><span>Enregistre le brouillon avant de continuer.</span></li>
+            <li><strong>Créer et associer le visuel</strong><p>Ouvre « Visuels », rédige une description précise, génère l’image et vérifie qu’elle correspond au sujet. Appuie sur « Utiliser cette image dans un brouillon ».</p><span>Retourne au brouillon et vérifie que l’image apparaît.</span></li>
+            <li><strong>Contrôler l’aperçu Facebook</strong><p>Dans « Création », appuie sur « Aperçu Facebook ». Relis le rendu, le texte, l’image et les hashtags, de préférence sur téléphone.</p><span>Si tu modifies le contenu ou le visuel, recommence les contrôles concernés.</span></li>
+            <li><strong>Cocher les six vérifications</strong><p>Reviens dans « Prépublication ». Pour chaque case, effectue réellement le contrôle indiqué avant de la cocher. Les cases sont des confirmations humaines : elles ne remplacent pas la lecture des sources.</p><span>La validation reste bloquée tant qu’une case obligatoire manque.</span></li>
             <li><strong>Valider puis publier manuellement</strong><p>Quand tout est vérifié, appuie sur « Valider pour prépublication ». Cette action marque le brouillon comme prêt. Pour publier, copie ensuite le contenu dans Meta Business Suite et effectue une dernière vérification.</p><span>Manga-Manga ne publie jamais automatiquement sur Facebook.</span></li>
           </ol>
           <p class="tutorial-warning">En cas de doute sur une date, une citation, un chiffre, une image ou une source : arrête la prépublication et vérifie avant de continuer.</p>
