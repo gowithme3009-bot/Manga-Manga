@@ -416,3 +416,9 @@ footer span { padding: 0 5px; color: #d5b14d; }
   .image-generator-panel { padding: 14px; }
   .generated-image-result img { border-radius: 9px; }
 }
+
+
+/* Visuels IA associés aux brouillons */
+.draft-image { display:block; width:100%; max-width:520px; max-height:360px; margin:12px 0; object-fit:contain; border:1px solid var(--line); border-radius:10px; background:#f2f4f9; }
+.preview-image { display:block; width:100%; max-height:360px; margin:12px 0; object-fit:contain; border-radius:9px; background:#f2f4f9; }
+#generated-media-list { margin-top:14px; }
