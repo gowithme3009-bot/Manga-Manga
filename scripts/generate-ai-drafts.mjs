@@ -77,7 +77,7 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
    ?"Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni ("+aiAudit.unsupportedNumbers.join(", ")+"). Contrôle de la source obligatoire."
    :"Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations.";
   return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:safeTitle,text,aiSourceStatus:candidate.sourceVerification?.status||"rss_only_unverified",
-   aiAudit,hashtags:safeHashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
+   aiAudit,hashtags:safeHashtags,aiCommunityQuestion:safeQuestion,aiVerificationNotes:draft.verificationNotes,
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
    note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
     candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale.":"Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction.",
