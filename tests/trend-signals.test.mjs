@@ -26,6 +26,15 @@ test("reconnaît plusieurs titres distincts et conserve l'alias correspondant", 
   assert.deepEqual(matches.map(item => item.id).sort(), ["anime-3", "manga-2"]);
 });
 
+test("évite de confondre un titre court avec une œuvre au nom plus long", () => {
+  const extended = [
+    { id: "manga-berserk", name: "Berserk", type: "manga", aliases: ["Berserk"] },
+    { id: "manga-berserk-gluttony", name: "Berserk of Gluttony", type: "manga", aliases: ["Berserk of Gluttony"] }
+  ];
+  const matches = matchCatalogEntities("Berserk of Gluttony révèle sa saison 2", extended);
+  assert.deepEqual(matches.map(item => item.id), ["manga-berserk-gluttony"]);
+});
+
 test("construit des mentions RSS sans confondre les agrégateurs avec des médias directs", () => {
   const mentions = buildEditorialSignals([
     { id: "a", title: "Mashle annonce une nouveauté", summary: "Le manga revient", url: "https://ann.test/a", source: "Anime News Network", sourceId: "anime-news-network", sources: ["Anime News Network"], sourceIds: ["anime-news-network"], publishedAt: "2026-11-12T06:00:00Z" },
