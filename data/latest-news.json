@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:42:01.854Z",
+  "generatedAt": "2026-11-12T08:47:03.027Z",
   "items": [
     {
       "id": "fbf8816caf62308cf589",
@@ -21,7 +21,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 57,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -44,7 +44,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -113,7 +113,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -159,7 +159,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -205,7 +205,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 43,
+      "trendScore": 42,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -251,7 +251,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 38,
+      "trendScore": 37,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -297,7 +297,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 37,
+      "trendScore": 36,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -527,7 +527,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -619,7 +619,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -964,7 +964,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1102,7 +1102,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1148,7 +1148,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 25,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1378,7 +1378,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2114,7 +2114,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 10,
+      "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2320,7 +2320,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 53
+      "items": 54
     },
     {
       "id": "anime-corner",
