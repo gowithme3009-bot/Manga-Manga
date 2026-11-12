@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:24:04.818Z",
+  "generatedAt": "2026-11-12T10:25:54.509Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:24:04.818Z",
+    "refreshedAt": "2026-11-12T10:25:54.509Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -4030,7 +4030,7 @@
         "劍術名家的小兒子",
         "剑术名门的小儿子"
       ],
-      "popularity": 45469,
+      "popularity": 45487,
       "trending": 11,
       "format": "MANGA",
       "genres": [
@@ -5317,7 +5317,7 @@
         "Người tôi để ý không phải là con trai",
         "신경 쓰이는 사람이 남자가 아니었다"
       ],
-      "popularity": 54695,
+      "popularity": 54726,
       "trending": 9,
       "format": "MANGA",
       "genres": [
@@ -5990,7 +5990,7 @@
         "Đứa Con Của Thần Tượng",
         "[OSHI NO KO]"
       ],
-      "popularity": 337803,
+      "popularity": 337959,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -10539,7 +10539,7 @@
         "The Exiled Reincarnated Heavy Knight Is Unrivaled in Game Knowledge",
         "추방당한 전생 중기사는 게임 지식으로 무쌍한다"
       ],
-      "popularity": 11076,
+      "popularity": 11087,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -10805,7 +10805,7 @@
         "Kunon The Sorcerer Can See Through",
         "魔術師庫諾看得見一切"
       ],
-      "popularity": 3883,
+      "popularity": 3889,
       "trending": 6,
       "format": "MANGA",
       "genres": [
