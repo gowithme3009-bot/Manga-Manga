@@ -559,6 +559,7 @@ async function loadDailyCandidates() {
     const data = await response.json();
     state.candidates = Array.isArray(data.items) ? data.items : [];
     renderDrafts();
+    updateGuidedWorkflow();
   } catch {
     state.candidates = [];
   }
