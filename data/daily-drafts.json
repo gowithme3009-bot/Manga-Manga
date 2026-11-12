@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:40:15.331Z",
+  "generatedAt": "2026-11-12T11:02:58.258Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 19,
+  "eligibleCount": 18,
   "items": [
     {
       "id": "126adf4280b312a1b7b1",
@@ -28,19 +28,19 @@
         "MyAnimeList News"
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
-      "freshnessHours": 0,
-      "trendScore": 60,
+      "freshnessHours": 1,
+      "trendScore": 59,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama. L’anime est prévu pour 2027, avec Kenichi Nishida à la direction, Takahiro Nagano à la composition de série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama respectivement. L’anime est prévu pour une diffusion en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet fourni par MyAnimeList News ; article complet non lu. Vérifier les noms et les rôles dans la source originale avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet fourni par MyAnimeList News, vérifier le site officiel pour confirmer les détails. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
+      "aiGeneratedAt": "2026-11-12T11:03:14.651Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait complet fourni par MyAnimeList News ; article complet non lu. Vérifier les noms et les rôles dans la source originale avant publication."
+      "aiVerificationNotes": "Extrait complet fourni par MyAnimeList News, vérifier le site officiel pour confirmer les détails."
     },
     {
       "id": "7b47845646a2578e2144",
@@ -72,8 +72,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:30:42.000Z",
-      "freshnessHours": 0,
-      "trendScore": 60,
+      "freshnessHours": 1,
+      "trendScore": 59,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre indique l’annonce. Confirmer le contenu de l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent, vérifier l’article original pour confirmer l’annonce. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
+      "aiGeneratedAt": "2026-11-12T11:03:14.651Z",
       "aiTitle": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; seul le titre indique l’annonce. Confirmer le contenu de l’article original."
+      "aiVerificationNotes": "Résumé absent, vérifier l’article original pour confirmer l’annonce."
     },
     {
       "id": "5904772c66e308ede111",
@@ -117,7 +117,7 @@
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
       "freshnessHours": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; information uniquement tirée du titre. Vérifier la date et les détails dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé vide, confirmer le contenu dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
+      "aiGeneratedAt": "2026-11-12T11:03:14.651Z",
       "aiTitle": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; information uniquement tirée du titre. Vérifier la date et les détails dans la source originale."
+      "aiVerificationNotes": "Résumé vide, confirmer le contenu dans l’article original."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -161,7 +161,7 @@
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
       "freshnessHours": 2,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre mentionne le décès. Confirmer les faits dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent, vérifier l’article original pour plus de détails. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
+      "aiGeneratedAt": "2026-11-12T11:03:14.651Z",
       "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; seul le titre mentionne le décès. Confirmer les faits dans l’article original."
+      "aiVerificationNotes": "Résumé absent, vérifier l’article original pour plus de détails."
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -206,8 +206,8 @@
         "MyAnimeList News"
       ],
       "publishedAt": "2026-11-12T09:32:05.000Z",
-      "freshnessHours": 1,
-      "trendScore": 57,
+      "freshnessHours": 2,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
@@ -239,7 +239,7 @@
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
       "freshnessHours": 2,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -270,8 +270,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 3,
-      "trendScore": 52,
+      "freshnessHours": 4,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -302,7 +302,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
-      "freshnessHours": 5,
+      "freshnessHours": 6,
       "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -333,8 +333,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T18:30:08.000Z",
-      "freshnessHours": 16,
-      "trendScore": 31,
+      "freshnessHours": 17,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -365,7 +365,7 @@
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
       "freshnessHours": 17,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -395,7 +395,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:16:24.000Z",
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "trendScore": 29,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -426,8 +426,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 18,
-      "trendScore": 28,
+      "freshnessHours": 19,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -458,7 +458,7 @@
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "freshnessHours": 19,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -489,7 +489,7 @@
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "freshnessHours": 19,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -520,7 +520,7 @@
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "freshnessHours": 19,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -551,7 +551,7 @@
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "freshnessHours": 19,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -581,8 +581,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:12:04.000Z",
-      "freshnessHours": 19,
-      "trendScore": 27,
+      "freshnessHours": 20,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -612,44 +612,13 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T11:11:07.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAvion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "a128e1fff278ea9ff5b9",
-      "title": "Disparition de Frédéric Boilet, défenseur d'un manga d'auteur - Livres Hebdo",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Livres Hebdo",
-      "publisherUrl": "https://www.livreshebdo.fr",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T10:44:00.000Z",
       "freshnessHours": 24,
       "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nDisparition de Frédéric Boilet, défenseur d'un manga d'auteur - Livres Hebdo\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAvion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
@@ -659,6 +628,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T10:40:29.078Z",
+  "aiGeneratedAt": "2026-11-12T11:03:14.651Z",
   "aiModel": "openai/gpt-oss-120b"
 }
