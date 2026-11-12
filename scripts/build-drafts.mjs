@@ -122,11 +122,16 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   }
 
   const trendPriority = { spectaculaire: 3, hausse: 2, surveillance: 1 };
-  // La confirmation multi-sources prime sur la seule disponibilité d’un extrait.
-  // L’extrait original départage ensuite les sujets de niveau et de couverture comparables.
+  // Ordre éditorial : confirmation multi-sources, provenance vérifiée,
+  // résumé exploitable, puis fraîcheur et disponibilité d'un extrait.
+  // Un score élevé ne compense jamais une source faible ou un résumé absent.
+  const hasVerifiedOriginal = candidate =>
+    candidate.sourceVerification?.status === "original_page_excerpt_verified";
   candidates.sort((a, b) =>
     (trendPriority[b.trendLevel] - trendPriority[a.trendLevel]) ||
     (b.independentSourceCount - a.independentSourceCount) ||
+    (Number(hasVerifiedOriginal(b)) - Number(hasVerifiedOriginal(a))) ||
+    (Number(Boolean(b.summary)) - Number(Boolean(a.summary))) ||
     (b.trendScore - a.trendScore) ||
     (Number(b.articleContentRetrieved) - Number(a.articleContentRetrieved)) ||
     (Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
