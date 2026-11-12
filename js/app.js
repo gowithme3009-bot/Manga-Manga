@@ -4,7 +4,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
-const state = { items: [], sources: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
+const state = { items: [], sources: [], searchSignals: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -143,6 +143,23 @@ function renderNews() {
       '<button class="primary" data-edit="' + escapeHtml(item.id) + '">Préparer un brouillon</button></div></article>';
   }).join("");
 }
+function renderSearchSignals() {
+  const host = $("search-signals");
+  if (!host) return;
+  if (!state.searchSignals.length) {
+    host.innerHTML = '<p class="muted">Aucun titre manga/anime du catalogue n’a été repéré dans les tendances de recherche publiques lors du dernier cycle. Cela ne signifie pas qu’il n’existe aucune tendance.</p>';
+    return;
+  }
+  host.innerHTML = state.searchSignals.map(signal =>
+    '<article class="signal-card"><div class="meta"><span class="signal-type">RECHERCHE PUBLIQUE</span> · ' +
+    escapeHtml(signal.countryLabel) + ' · ' + escapeHtml(dateLabel(signal.publishedAt)) + '</div>' +
+    '<h3>' + escapeHtml(signal.entityName) + '</h3>' +
+    '<p class="summary">Recherche repérée : ' + escapeHtml(signal.title) + ' · ' +
+    escapeHtml(signal.entityType) + (signal.approximateTraffic ? ' · volume estimé ' + escapeHtml(signal.approximateTraffic) : '') + '</p>' +
+    '<small class="muted">Signal Google Trends agrégé, rapproché du catalogue AniList. Ce n’est pas un compteur de clics ni une mesure mondiale.</small>' +
+    '<div class="card-actions"><a class="secondary" href="' + escapeHtml(signal.url) + '" target="_blank" rel="noopener noreferrer">Voir la tendance ↗</a></div></article>'
+  ).join("");
+}
 function renderSources() {
   if (!state.sources.length) {
     $("sources-list").innerHTML = '<p class="muted">Aucune source n’est configurée.</p>';
@@ -262,7 +279,7 @@ async function loadRadar() {
     const data = await newsResponse.json();
     const config = sourceResponse.ok ? await sourceResponse.json() : { rssSources: [] };
     const collected = new Map((data.sources || []).map(source => [source.id, source]));
-    state.items = Array.isArray(data.items) ? data.items : [];
+    state.items = Array.isArray(data.items) ? data.items : [];\n    if (trendsResponse?.ok) {\n      const trendData = await trendsResponse.json();\n      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];\n    } else { state.searchSignals = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
       ...(collected.get(source.id) || {}),
