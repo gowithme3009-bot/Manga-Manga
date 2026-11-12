@@ -48,6 +48,19 @@ export function parseAiResponse(content, candidates) {
  if(!clean.size) throw new Error("L’IA n’a produit aucune proposition exploitable.");
  return clean;
 }
+// Contrôle déterministe limité : repère les chiffres du texte IA absents du titre et de l’extrait.
+// Ce contrôle ne prouve pas la véracité sémantique et ne remplace jamais la lecture humaine.
+export function auditAiDraft(candidate, body) {
+ const source=String(candidate.title||"")+" "+String(candidate.summary||"");
+ const sourceNumbers=new Set(source.match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[]);
+ const bodyNumbers=[...new Set(String(body||"").match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[])];
+ const unsupportedNumbers=bodyNumbers.filter(value=>!sourceNumbers.has(value));
+ return {
+  status:unsupportedNumbers.length?"needs_check":"no_numeric_alert",
+  unsupportedNumbers,
+  scope:"Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+ };
+}
 export function applyAiDrafts(data, generated, model, generatedAt=new Date().toISOString()) {
  const items=(data.items||[]).map(candidate=>{
   const draft=generated.get(String(candidate.id)); if(!draft) return candidate;
@@ -56,12 +69,16 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
   const safeBody=hasSummary?draft.body:"Sujet repéré : "+String(candidate.title||"Information à vérifier")+".\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.";
   const safeQuestion=hasSummary?draft.communityQuestion:"Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?";
   const text=[safeBody,safeQuestion?"Question à la communauté : "+safeQuestion:""].filter(Boolean).join("\n\n");
+  const aiAudit=auditAiDraft(candidate,safeBody);
+  const auditNote=aiAudit.unsupportedNumbers.length
+   ?"Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni ("+aiAudit.unsupportedNumbers.join(", ")+"). Contrôle de la source obligatoire."
+   :"Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations.";
   return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:draft.editorialTitle,text,aiSourceStatus:candidate.sourceVerification?.status||"rss_only_unverified",
-   hashtags:draft.hashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
+   aiAudit,hashtags:draft.hashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
    note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
     candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale.":"Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction.",
-    "Statut de provenance : "+(candidate.sourceVerification?.label||"Source originale non vérifiée")+".",sourceVerified?"Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu.":"La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées.",draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
+    "Statut de provenance : "+(candidate.sourceVerification?.label||"Source originale non vérifiée")+".",sourceVerified?"Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu.":"La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées.",auditNote,draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
  });
  return {...data,aiGeneratedAt:generatedAt,aiModel:model,items};
 }
