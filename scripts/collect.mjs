@@ -68,7 +68,7 @@ export function parseFeed(xml, source) {
     const url = atom ? href || field(block,"link") : field(block,"link") || href;
     const title = field(block,"title");
     const summary = field(block,"description") || field(block,"summary") || field(block,"content:encoded");
-    const publisherTag = block.match(/<source\\b([^>]*)>([\\s\\S]*?)<\\/source\\s*>/i);
+    const publisherTag = block.match(/<source\b([^>]*)>([\s\S]*?)<\/source\s*>/i);
     const publisherName = publisherTag ? decodeXml(publisherTag[2]) : "";
     const publisherUrl = publisherTag?.[1]?.match(/url=["']([^"']+)["']/i)?.[1] || "";
     const date = field(block,"pubDate") || field(block,"published") || field(block,"updated") || field(block,"dc:date");
