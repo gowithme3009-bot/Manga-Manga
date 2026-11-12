@@ -50,9 +50,8 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
   return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:draft.editorialTitle,text,
    hashtags:draft.hashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
-   note:["Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS.",
-    hasSummary?"Le résumé RSS n’est pas l’article complet : ouvrir la source et contrôler les faits, noms et dates."
-    :candidate.articleContentRetrieved?"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier la source avant publication.":"Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication.",
+   note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
+    candidate.articleContentRetrieved?"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":hasSummary?"Résumé RSS disponible mais incomplet : ouvrir la source et contrôler les faits, noms et dates.":"Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication.",
     draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
  });
  return {...data,aiGeneratedAt:generatedAt,aiModel:model,items};
