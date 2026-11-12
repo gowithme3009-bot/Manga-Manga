@@ -64,3 +64,24 @@ test("rankItems distingue une tendance spectaculaire d'une tendance en hausse", 
   assert.equal(rising.trendScore, 70);
   assert.equal(rising.trendLevel, "hausse");
 });
+
+test("un article récent isolé reste à surveiller, sans fausse hausse", () => {
+  const now = Date.parse("2026-11-12T00:00:00Z");
+  const [item] = rankItems([{
+    title: "Annonce manga isolée", url: "https://a.test/news", source: "A",
+    sourceId: "a-direct", publishedAt: new Date(now).toISOString()
+  }], now);
+  assert.equal(item.independentSourceCount, 1);
+  assert.equal(item.trendLevel, "surveillance");
+});
+
+test("les agrégateurs Google Actualités ne comptent pas comme médias indépendants", () => {
+  const now = Date.parse("2026-11-12T00:00:00Z");
+  const [item] = rankItems([
+    { title: "Annonce manga", url: "https://a.test/1", source: "Google Actualités", sourceId: "google-news-fr", publishedAt: new Date(now).toISOString() },
+    { title: "Annonce manga", url: "https://b.test/1", source: "Annonces officielles", sourceId: "official-announcements", publishedAt: new Date(now).toISOString() }
+  ], now);
+  assert.equal(item.coverageSourceCount, 2);
+  assert.equal(item.independentSourceCount, 0);
+  assert.equal(item.trendLevel, "surveillance");
+});
