@@ -1,7 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:54:35.993Z",
+  "generatedAt": "2026-11-12T16:23:20.961Z",
   "items": [
+    {
+      "id": "68c15c7e35fd6ad171bd",
+      "title": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5",
+      "summary": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata Manga news",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 59,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+    },
+    {
+      "id": "3eca43eec58f1885d14b",
+      "title": "Shin Oishinbo TV Anime Casts Kenji Yamauchi, Ken Uo",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762",
+      "summary": "Series casts Yamauchi as Mantarō Kyōgoku, Uo as Tōjin Tōyama",
+      "publishedAt": "2026-11-12T15:45:34.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 58,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762"
+      },
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+    },
     {
       "id": "a3317003ffc657b6cafe",
       "title": "Zeste de tendresse (Un) : Critiques - Manga news",
@@ -23,7 +85,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -54,7 +116,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -85,7 +147,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -116,7 +178,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -147,7 +209,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -178,7 +240,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -209,7 +271,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -240,7 +302,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -271,7 +333,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 52,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -302,7 +364,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 52,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -333,7 +395,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 51,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -364,7 +426,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -395,7 +457,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -426,7 +488,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -440,7 +502,7 @@
       "id": "126adf4280b312a1b7b1",
       "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
       "url": "https://myanimelist.net/news/74931275?_location=rss",
-      "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and Vega Entertainment. Takahiro Nagano (Tensei shitara Ken deshita) is handling the series composition, while Nozomi Kawashige (Deatte 5-byou de Battle) is designing the characters. Kariya began writing Oishinbo in Shogakukan's Big Comic Spirits magazine in 1983, featuring art by Akira Hanasaki. Shogakukan published the 111th and latest volume in December 2014. The manga has been on hiatus since May 2014. VIZ Media licensed the manga in English and published seven themed compilation volumes under its VIZ Signature imprint from January 2009 to January 2010. Shin-Ei Animation produced a television anime based on the manga that ran for 136 episodes from October 1988 to March 1992. Source: Official Site",
+      "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and...",
       "publishedAt": "2026-11-12T10:32:45.000Z",
       "source": "MyAnimeList News",
       "sourceId": "myanimelist",
@@ -457,20 +519,9 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://myanimelist.net/news/74931275?_location=rss",
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "myanimelist.net",
-        "checkedUrl": "https://myanimelist.net/news/74931275?_location=rss",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "7b47845646a2578e2144",
@@ -493,15 +544,9 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
-      },
-      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "783a02af8e442ab6b74d",
@@ -549,7 +594,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -574,7 +619,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 47,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -599,7 +644,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -624,7 +669,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -649,7 +694,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 46,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -674,7 +719,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -699,7 +744,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -724,7 +769,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -749,7 +794,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 44,
+      "trendScore": 43,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -774,7 +819,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 44,
+      "trendScore": 43,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -799,7 +844,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -824,7 +869,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 39,
+      "trendScore": 38,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -874,7 +919,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -899,7 +944,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -924,7 +969,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -974,7 +1019,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 35,
+      "trendScore": 34,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -999,7 +1044,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1076,7 +1121,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 28,
+      "trendScore": 27,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1176,7 +1221,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 26,
+      "trendScore": 25,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1251,7 +1296,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 25,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1301,7 +1346,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1326,7 +1371,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1351,7 +1396,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 24,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1476,7 +1521,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 23,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1676,7 +1721,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1701,7 +1746,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1726,7 +1771,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1826,7 +1871,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 21,
+      "trendScore": 20,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2076,7 +2121,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 18,
+      "trendScore": 17,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2201,7 +2246,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2226,7 +2271,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2251,7 +2296,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 17,
+      "trendScore": 16,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2376,7 +2421,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 13,
+      "trendScore": 12,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2554,56 +2599,6 @@
       "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "b091e043660839755826",
-      "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696",
-      "summary": "English-subbed trailer streamed for 1st film in new Made in Abyss anime film series",
-      "publishedAt": "2026-11-10T20:00:35.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 10,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "c86af402a72a41b3aa99",
-      "title": "Rock Band FLOW Announce U.S. Dates for New 2027 World Tour",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/rock-band-flow-announce-u.s-dates-for-new-2027-world-tour/.243689",
-      "summary": "Band perform in U.S. in February 2027 starting in Boston",
-      "publishedAt": "2026-11-10T19:00:22.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2623,7 +2618,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 52
+      "items": 53
     },
     {
       "id": "anime-corner",
@@ -2665,7 +2660,7 @@
   "warnings": [],
   "articleEnrichment": {
     "attempted": 16,
-    "enriched": 1,
+    "enriched": 0,
     "skippedAggregator": 10,
     "maxPages": 16,
     "excerptLimit": 1600

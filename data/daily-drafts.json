@@ -1,55 +1,53 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:54:35.993Z",
+  "generatedAt": "2026-11-12T16:23:20.961Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 24,
+  "eligibleCount": 19,
   "items": [
     {
-      "id": "126adf4280b312a1b7b1",
-      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
-      "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and Vega Entertainment. Takahiro Nagano (Tensei shitara Ken deshita) is handling the series composition, while Nozomi Kawashige (Deatte 5-byou de Battle) is designing the characters. Kariya began writing Oishinbo in Shogakukan's Big Comic Spirits magazine in 1983, featuring art by Akira Hanasaki. Shogakukan published the 111th and latest volume in December 2014. The manga has been on hiatus since May 2014. VIZ Media licensed the manga in English and published seven themed compilation volumes under its VIZ Signature imprint from January 2009 to January 2010. Shin-Ei Animation produced a television anime based on the manga that ran for 136 episodes from October 1988 to March 1992. Source: Official Site",
+      "id": "68c15c7e35fd6ad171bd",
+      "title": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news",
+      "summary": "",
       "language": "fr",
-      "sourceLanguage": "en",
-      "sourceUrl": "https://myanimelist.net/news/74931275?_location=rss",
-      "articleUrl": "https://myanimelist.net/news/74931275?_location=rss",
-      "articleContentRetrieved": true,
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5",
+      "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "myanimelist.net",
-        "checkedUrl": "https://myanimelist.net/news/74931275?_location=rss",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5"
       },
-      "publisherName": null,
-      "publisherUrl": null,
-      "summaryOrigin": "metadata_article_original",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "summaryOrigin": "rss",
       "sourceNames": [
-        "MyAnimeList News"
+        "Google Actualités — Manga & Anime"
       ],
-      "publishedAt": "2026-11-12T10:32:45.000Z",
-      "freshnessHours": 5,
-      "trendScore": 48,
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "freshnessHours": 0,
+      "trendScore": 59,
       "trendLevel": "surveillance",
-      "independentSourceCount": 1,
+      "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages de soutien. Kenji Yamauchi incarne Mantarou Kyougoku et Ken Uo joue Toujin Touyama. Kenichi Nishida dirige la série chez SynergySP et Vega Entertainment, Takahiro Nagano assure la composition de la série et Nozomi Kawashige est responsable du design des personnages. L’anime est prévu pour une première diffusion en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#ShinOishinbo,#Anime,#Casting",
-      "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait vérifié provenant du site officiel via MyAnimeList. L'article complet n'a pas été lu ; vérifier les détails dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "text": "Sujet repéré : Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le contexte et les détails. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:54:53.244Z",
-      "aiTitle": "Annonce du casting de soutien pour Shin Oishinbo",
-      "aiSourceStatus": "original_page_excerpt_verified",
+      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+      "aiTitle": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
         "status": "no_numeric_alert",
         "unsupportedNumbers": [],
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
-      "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait vérifié provenant du site officiel via MyAnimeList. L'article complet n'a pas été lu ; vérifier les détails dans la source originale."
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le contexte et les détails."
     },
     {
       "id": "a3317003ffc657b6cafe",
@@ -73,7 +71,7 @@
       ],
       "publishedAt": "2026-11-12T15:10:28.000Z",
       "freshnessHours": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -81,10 +79,10 @@
       "text": "Sujet repéré : Zeste de tendresse (Un) : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour confirmer le type et le contenu des critiques. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:54:53.244Z",
+      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
       "aiTitle": "Zeste de tendresse (Un) : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +91,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet."
+      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour confirmer le type et le contenu des critiques."
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -117,7 +115,7 @@
       ],
       "publishedAt": "2026-11-12T15:07:58.000Z",
       "freshnessHours": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -125,10 +123,10 @@
       "text": "Sujet repéré : Love Bullet Vol.2 : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier l’article original pour s’assurer du format et du contenu des critiques. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:54:53.244Z",
+      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
       "aiTitle": "Love Bullet Vol.2 : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +135,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet."
+      "aiVerificationNotes": "Le résumé est vide ; vérifier l’article original pour s’assurer du format et du contenu des critiques."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -161,7 +159,7 @@
       ],
       "publishedAt": "2026-11-12T14:00:00.000Z",
       "freshnessHours": 2,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -169,10 +167,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour confirmer les titres et les informations listées. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:54:53.244Z",
+      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +179,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Résumé absent ; seul le titre est disponible. Nécessite vérification du contenu complet."
+      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour confirmer les titres et les informations listées."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -205,7 +203,7 @@
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
       "freshnessHours": 3,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -237,7 +235,7 @@
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
       "freshnessHours": 3,
-      "trendScore": 53,
+      "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -268,8 +266,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:49:32.000Z",
-      "freshnessHours": 4,
-      "trendScore": 51,
+      "freshnessHours": 5,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -300,8 +298,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:25:35.000Z",
-      "freshnessHours": 4,
-      "trendScore": 50,
+      "freshnessHours": 5,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -333,7 +331,7 @@
       ],
       "publishedAt": "2026-11-12T11:19:59.000Z",
       "freshnessHours": 5,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -365,7 +363,7 @@
       ],
       "publishedAt": "2026-11-12T11:00:00.000Z",
       "freshnessHours": 5,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -385,9 +383,8 @@
       "articleUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
       "articleContentRetrieved": false,
       "sourceVerification": {
-        "status": "publisher_unresolved",
-        "label": "Média d’origine non identifié",
-        "checkedUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
+        "status": "rss_only_unverified",
+        "label": "Source originale non vérifiée"
       },
       "publisherName": "Gaak",
       "publisherUrl": "https://gaak.fr",
@@ -396,8 +393,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:30:42.000Z",
-      "freshnessHours": 5,
-      "trendScore": 48,
+      "freshnessHours": 6,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -427,8 +424,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
-      "freshnessHours": 6,
-      "trendScore": 47,
+      "freshnessHours": 7,
+      "trendScore": 46,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -459,7 +456,7 @@
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
       "freshnessHours": 7,
-      "trendScore": 45,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -489,8 +486,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
-      "freshnessHours": 7,
-      "trendScore": 45,
+      "freshnessHours": 8,
+      "trendScore": 44,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -521,7 +518,7 @@
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
       "freshnessHours": 9,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -551,8 +548,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
-      "freshnessHours": 10,
-      "trendScore": 39,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -582,8 +579,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T18:30:08.000Z",
-      "freshnessHours": 21,
-      "trendScore": 25,
+      "freshnessHours": 22,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -613,8 +610,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
-      "freshnessHours": 22,
-      "trendScore": 24,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -654,167 +651,13 @@
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "52a534e342c6bf0fc33c",
-      "title": "Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Ouest-France",
-      "publisherUrl": "https://www.ouest-france.fr",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nArt to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "d4fe726783d4776f5a5f",
-      "title": "Anime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 - Manga news",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Manga news",
-      "publisherUrl": "https://www.manga-news.com",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "696f041b3780c8d75107",
-      "title": "Anime - Super Psychic Policeman Chojo - Episode #6 - Le Policier et le Festival, 11 Novembre 2026 - Manga news",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Manga news",
-      "publisherUrl": "https://www.manga-news.com",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Super Psychic Policeman Chojo - Episode #6 - Le Policier et le Festival, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "26d24462220b60baf0f5",
-      "title": "Anime - Suikoden: The Anime - Episode #6 -, 11 Novembre 2026 - Manga news",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Manga news",
-      "publisherUrl": "https://www.manga-news.com",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Suikoden: The Anime - Episode #6 -, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "1685ca711a1a43de9122",
-      "title": "Anime - Nia Liston : The Merciless Maiden - Episode #6 -, 11 Novembre 2026 - Manga news",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "Manga news",
-      "publisherUrl": "https://www.manga-news.com",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Nia Liston : The Merciless Maiden - Episode #6 -, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     }
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "4 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
+    "9 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T15:54:53.244Z",
+  "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
   "aiModel": "openai/gpt-oss-120b"
 }
