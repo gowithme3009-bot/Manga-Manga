@@ -191,7 +191,6 @@ export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAG
   for (let index = 0; index < result.length && attempted < maxPages; index += 1) {
     const item = result[index];
     const summary = String(item.summary || "").replace(/\s+/g, " ").trim();
-    if (summary.length >= 100 && !summary.toLowerCase().startsWith(String(item.title || "").toLowerCase().slice(0, 70))) continue;
     const url = item.articleUrl || item.url;
     const aggregator = isGoogleNewsUrl(url);
     if (!aggregator && !safeArticleUrl(url)) continue;
