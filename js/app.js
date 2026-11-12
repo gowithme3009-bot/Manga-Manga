@@ -335,6 +335,7 @@ document.addEventListener("click", async event => {
     $("draft-tags").value = draft.hashtags || "";
     $("save-draft").textContent = "Enregistrer les modifications";
     showView("atelier");
+    signalStep(2, "Étape 2/4 · Relecture", "Votre brouillon est ouvert dans l’atelier. Modifiez-le puis enregistrez vos changements.");
     return;
   }
   const remove = event.target.closest("[data-delete]");
@@ -391,6 +392,7 @@ document.addEventListener("click", async event => {
     if (!draft) return;
     try {
       await navigator.clipboard.writeText([draft.title, draft.body, draft.hashtags, draft.sourceUrl].filter(Boolean).join("\n\n"));
+      signalStep(4, "Texte copié", "Vous pouvez coller le brouillon dans votre outil de publication. Rien n’a été publié.");
       toast("Texte copié.");
     } catch {
       toast("Copie indisponible sur cet appareil.");
@@ -486,7 +488,7 @@ $("export-drafts").addEventListener("click", () => {
   anchor.href = url;
   anchor.download = "manga-manga-brouillons.json";
   anchor.click();
-  signalStep(4, "Export lancé", "Votre fichier de brouillons est prêt à être récupéré.");
+  signalStep(4, "Export demandé", "Le navigateur prépare le fichier. Vérifiez vos téléchargements pour le retrouver.");
   // Laisser au navigateur mobile le temps de démarrer le téléchargement.
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
