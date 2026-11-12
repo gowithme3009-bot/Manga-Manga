@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:15:59.365Z",
+  "generatedAt": "2026-11-12T09:16:28.346Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 19,
@@ -25,16 +25,16 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Ankama a annoncé le lancement d’un webtoon de douze épisodes inspiré de la série \"Welsh & Shedar\". Le projet réunit plusieurs artistes autour d’une adaptation qui prolongera l’univers de l’anime. Les premiers chapitres seront publiés en ligne, offrant aux fans une nouvelle façon de découvrir l’histoire.\n\nQuestion à la communauté : Qu’en pensez‑vous, avez‑vous hâte de lire ce webtoon ?",
-      "hashtags": "#WelshAndShedar,#Webtoon,#Anime,#Ankama",
+      "text": "Ankama a annoncé le mercredi la sortie d’une adaptation webtoon en 12 épisodes de la série anime Welsh & Shedar. Le projet réunit plusieurs artistes autour de cet univers. Le webtoon sera publié en ligne, mais les plateformes et dates exactes restent à confirmer.\n\nCette initiative montre l’intérêt croissant des studios français pour les formats numériques et les collaborations artistiques.\n\nQuestion à la communauté : Qu’attendez‑vous de ce nouveau webtoon ?",
+      "hashtags": "#Anime,#Webtoon,#Ankama",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Vérifier le nombre exact d’épisodes, les noms des artistes impliqués, la date de sortie et tout autre détail mentionné dans l’article original d’Anime News Network. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Vérifier la date de publication, les plateformes de diffusion et les noms des artistes impliqués dans le webtoon. Confirmer que l’annonce provient bien d’Ankama et non d’une source secondaire. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:15.606Z",
-      "aiTitle": "Welsh & Shedar : un webtoon de 12 épisodes annoncé",
-      "aiCommunityQuestion": "Qu’en pensez‑vous, avez‑vous hâte de lire ce webtoon ?",
-      "aiVerificationNotes": "Vérifier le nombre exact d’épisodes, les noms des artistes impliqués, la date de sortie et tout autre détail mentionné dans l’article original d’Anime News Network."
+      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
+      "aiTitle": "Welsh & Shedar anime lance un webtoon",
+      "aiCommunityQuestion": "Qu’attendez‑vous de ce nouveau webtoon ?",
+      "aiVerificationNotes": "Vérifier la date de publication, les plateformes de diffusion et les noms des artistes impliqués dans le webtoon. Confirmer que l’annonce provient bien d’Ankama et non d’une source secondaire."
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -56,16 +56,16 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "À l’issue du panel \"CYBERPUNK: EDGERUNNERS 2\" au Lucca Comics & Games, le showrunner Bartosz Sztybor a évoqué la possibilité d’une troisième saison. Il a également abordé la façon dont la relation entre David et Lucy pourrait être revisitée et les inspirations personnelles qui nourrissent le personnage de Roman. L’interview, publiée par Anime Corner, donne un aperçu des réflexions de l’équipe sur la suite de la franchise.\n\nQuestion à la communauté : Pensez‑vous que la saison 3 d’Edgerunners verra le jour ?",
-      "hashtags": "#Edgerunners,#Cyberpunk,#Interview,#Anime",
+      "text": "Lors d’une table ronde à Lucca Comics & Games, le showrunner Bartosz Sztybor a évoqué la possibilité d’une troisième saison de CYBERPUNK: EDGERUNNERS. Il a également abordé la façon dont la relation entre David et Lucy pourrait être revisitée et les inspirations personnelles qui nourrissent le personnage de Roman.\n\nSztybor a rappelé que, dès la première saison, il pensait à d’autres histoires à raconter, même si les contraintes de production restent un facteur déterminant. Il a aussi mentionné son travail sur le manga Cyberpunk: Edgerunners MADNESS avec l’illustrateur Asano.\n\nL’interview comporte quelques spoilers sur les saisons précédentes, à lire avec précaution.\n\nQuestion à la communauté : Que souhaiteriez‑vous voir dans une éventuelle saison 3 d’Edgerunners ?",
+      "hashtags": "#Edgerunners,#Cyberpunk,#Interview",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Confirmer les citations exactes, les projets évoqués (saison 3, retelling, inspirations) et s’assurer qu’aucun spoiler supplémentaire n’est présent dans le texte complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Confirmer les citations exactes de Bartosz Sztybor et vérifier que les informations sur le manga et les spoilers sont correctement rapportées. S’assurer que le texte ne dépasse pas le résumé fourni. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:15.606Z",
-      "aiTitle": "Bartosz Sztybor parle d’une éventuelle saison 3 d’Edgerunners",
-      "aiCommunityQuestion": "Pensez‑vous que la saison 3 d’Edgerunners verra le jour ?",
-      "aiVerificationNotes": "Confirmer les citations exactes, les projets évoqués (saison 3, retelling, inspirations) et s’assurer qu’aucun spoiler supplémentaire n’est présent dans le texte complet."
+      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
+      "aiTitle": "Table ronde : Bartosz Sztybor parle d’une éventuelle saison 3 d’Edgerunners",
+      "aiCommunityQuestion": "Que souhaiteriez‑vous voir dans une éventuelle saison 3 d’Edgerunners ?",
+      "aiVerificationNotes": "Confirmer les citations exactes de Bartosz Sztybor et vérifier que les informations sur le manga et les spoilers sont correctement rapportées. S’assurer que le texte ne dépasse pas le résumé fourni."
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -87,16 +87,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le média ToutenBD.com rapporte le décès de Frédéric Boilet, l’un des défenseurs les plus influents du manga d’auteur. Son travail a marqué le paysage du dessin animé et du comics, et il était reconnu pour son engagement en faveur d’une approche plus personnelle et artistique du médium.\n\nQuestion à la communauté : Quel a été, selon vous, l’impact de Frédéric Boilet sur le manga d’auteur ?",
-      "hashtags": "#FrédéricBoilet,#MangaAuteur,#Décès",
+      "text": "L’article annonce le décès de Frédéric Boilet, figure emblématique du manga d’auteur. Boilet était reconnu pour son engagement à promouvoir une approche plus personnelle et artistique du manga, souvent qualifiée de \"manga d’auteur\".\n\nSa contribution a marqué de nombreux créateurs et a influencé la perception du manga en dehors du cadre commercial traditionnel.\n\nQuestion à la communauté : Quel a été, selon vous, l’impact de Frédéric Boilet sur le manga d’auteur ?",
+      "hashtags": "#FrédéricBoilet,#Manga,#Décès",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier la confirmation du décès, l’âge, les circonstances et tout autre détail fourni dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier la date exacte du décès, les circonstances et les éventuels hommages officiels. Confirmer que l’article provient bien de ToutenBD.com et qu’il ne comporte pas d’erreurs factuelles. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:15.606Z",
-      "aiTitle": "Décès de Frédéric Boilet, figure du manga d’auteur",
+      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
+      "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur",
       "aiCommunityQuestion": "Quel a été, selon vous, l’impact de Frédéric Boilet sur le manga d’auteur ?",
-      "aiVerificationNotes": "Vérifier la confirmation du décès, l’âge, les circonstances et tout autre détail fourni dans l’article original."
+      "aiVerificationNotes": "Vérifier la date exacte du décès, les circonstances et les éventuels hommages officiels. Confirmer que l’article provient bien de ToutenBD.com et qu’il ne comporte pas d’erreurs factuelles."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -118,16 +118,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Selon Gamekult, le géant de l’édition japonaise Shueisha a dévoilé \"Nightmare Operator\", un jeu de tir à la troisième personne au ton horrifique, mêlant des combos de combat inspirés du versus fighting. Le projet semble viser les amateurs de jeux d’horreur et d’action tactique.\n\nQuestion à la communauté : Êtes‑vous curieux de découvrir ce nouveau jeu de Shueisha ?",
-      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVidéo,#Horreur",
+      "text": "Shueisha, le géant de l’édition manga, a présenté Nightmare Operator, un nouveau jeu de tir à la première personne (TPS) au ton horrifique. Le titre se distingue par l’intégration de combos inspirés du versus fighting, promettant une expérience mêlant action rapide et stratégie.\n\nLes détails sur la date de sortie, les plateformes et les développeurs restent à préciser, tout comme les informations sur le scénario et les mécaniques de jeu spécifiques.\n\nQuestion à la communauté : Que pensez‑vous de l’alliance entre TPS et versus fighting dans Nightmare Operator ?",
+      "hashtags": "#Shueisha,#NightmareOperator,#Gaming",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le genre exact du jeu, les mécaniques de combat, la date d’annonce et toute information supplémentaire dans l’article original de Gamekult. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le communiqué officiel de Shueisha, vérifier les informations sur le genre du jeu, les développeurs impliqués et les dates de sortie éventuelles. S’assurer que le résumé ne dépasse pas le contenu fourni. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:16:15.606Z",
-      "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique",
-      "aiCommunityQuestion": "Êtes‑vous curieux de découvrir ce nouveau jeu de Shueisha ?",
-      "aiVerificationNotes": "Confirmer le genre exact du jeu, les mécaniques de combat, la date d’annonce et toute information supplémentaire dans l’article original de Gamekult."
+      "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
+      "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting",
+      "aiCommunityQuestion": "Que pensez‑vous de l’alliance entre TPS et versus fighting dans Nightmare Operator ?",
+      "aiVerificationNotes": "Confirmer le communiqué officiel de Shueisha, vérifier les informations sur le genre du jeu, les développeurs impliqués et les dates de sortie éventuelles. S’assurer que le résumé ne dépasse pas le contenu fourni."
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -507,9 +507,8 @@
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T09:16:15.606Z",
+  "aiGeneratedAt": "2026-11-12T09:16:41.995Z",
   "aiModel": "openai/gpt-oss-120b"
 }
