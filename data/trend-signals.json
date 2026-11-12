@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:02:32.747Z",
+  "generatedAt": "2026-11-12T17:22:09.401Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T17:02:32.747Z",
+    "refreshedAt": "2026-11-12T17:22:09.401Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -12335,54 +12335,6 @@
       "url": "https://anilist.co/manga/188621"
     },
     {
-      "id": "manga-160564",
-      "name": "My Disciples Are All Villains",
-      "nativeTitle": "我的徒弟都是大反派",
-      "romajiTitle": "Wo De Tudi Dou Shi Da Fanpai",
-      "englishTitle": "My Disciples Are All Villains",
-      "type": "manga",
-      "aliases": [
-        "Wo De Tudi Dou Shi Da Fanpai",
-        "My Disciples Are All Villains",
-        "我的徒弟都是大反派",
-        "My Disciples Are All Big Villains",
-        "My Apprentices Are All Great Villains",
-        "빌런제자양성록"
-      ],
-      "popularity": 3722,
-      "trending": 7,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/160564"
-    },
-    {
-      "id": "manga-188260",
-      "name": "You Think It's Easy Rewriting a Story?",
-      "nativeTitle": "원작은 아무나 비트나",
-      "romajiTitle": "Wonjageun Amuna Biteuna",
-      "englishTitle": "You Think It's Easy Rewriting a Story?",
-      "type": "manga",
-      "aliases": [
-        "Wonjageun Amuna Biteuna",
-        "You Think It's Easy Rewriting a Story?",
-        "원작은 아무나 비트나",
-        "Anyone Beats the Original",
-        "原作無法輕易改寫"
-      ],
-      "popularity": 3297,
-      "trending": 7,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/188260"
-    },
-    {
       "id": "manga-147412",
       "name": "In the Heavenly Prison, the Devil Enchants Me",
       "nativeTitle": "天獄で悪魔がボクを魅惑する",
@@ -13112,6 +13064,32 @@
       "url": "https://anilist.co/manga/174790"
     },
     {
+      "id": "manga-137168",
+      "name": "Becoming the Monarch",
+      "nativeTitle": "말단 병사에서 군주까지",
+      "romajiTitle": "Maldan Byeongsaeseo Gunjukkaji",
+      "englishTitle": "Becoming the Monarch",
+      "type": "manga",
+      "aliases": [
+        "Maldan Byeongsaeseo Gunjukkaji",
+        "Becoming the Monarch",
+        "말단 병사에서 군주까지",
+        "From the Lowest Foot Soldier to the King",
+        "The Story of a Low-Rank Soldier Becoming a Monarch",
+        "From Pawn to King",
+        "จากเบี้ยสู่ราชัน"
+      ],
+      "popularity": 13941,
+      "trending": 6,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/137168"
+    },
+    {
       "id": "manga-184347",
       "name": "Bad Born Blood",
       "nativeTitle": "배드 본 블러드",
@@ -13160,31 +13138,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/152608"
-    },
-    {
-      "id": "manga-145525",
-      "name": "Dreaming Freedom",
-      "nativeTitle": "꿈에서 자유로",
-      "romajiTitle": "Kkumeseo Jayuro",
-      "englishTitle": "Dreaming Freedom",
-      "type": "manga",
-      "aliases": [
-        "Kkumeseo Jayuro",
-        "Dreaming Freedom",
-        "꿈에서 자유로",
-        "Free in Dreams ",
-        "从梦到自由",
-        "ฝันหวานสานรอยแค้น"
-      ],
-      "popularity": 12156,
-      "trending": 6,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Psychological",
-        "Supernatural"
-      ],
-      "url": "https://anilist.co/manga/145525"
     },
     {
       "id": "manga-116551",
@@ -14050,6 +14003,30 @@
       "url": "https://anilist.co/manga/41054"
     },
     {
+      "id": "manga-151512",
+      "name": "My Blasted Reincarnated Life",
+      "nativeTitle": "빌어먹을 환생",
+      "romajiTitle": "Bireomeogeul Hwansaeng",
+      "englishTitle": "My Blasted Reincarnated Life",
+      "type": "manga",
+      "aliases": [
+        "Bireomeogeul Hwansaeng",
+        "My Blasted Reincarnated Life",
+        "빌어먹을 환생",
+        "Damn Reincarnation"
+      ],
+      "popularity": 36305,
+      "trending": 5,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/151512"
+    },
+    {
       "id": "manga-107279",
       "name": "Aoashi",
       "nativeTitle": "アオアシ",
@@ -14122,33 +14099,6 @@
         "Sci-Fi"
       ],
       "url": "https://anilist.co/manga/128882"
-    },
-    {
-      "id": "manga-159142",
-      "name": "Firefly Wedding",
-      "nativeTitle": "ホタルの嫁入り",
-      "romajiTitle": "Hotaru no Yomeiri",
-      "englishTitle": "Firefly Wedding",
-      "type": "manga",
-      "aliases": [
-        "Hotaru no Yomeiri",
-        "Firefly Wedding",
-        "ホタルの嫁入り",
-        "Les noces des lucioles",
-        "La boda de las luciérnagas",
-        "螢火蟲的出嫁",
-        "반딧불이의 혼례",
-        "Zaślubiny świetlików",
-        "Casamento dos Vaga-lumes"
-      ],
-      "popularity": 21872,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/159142"
     },
     {
       "id": "manga-187944",
@@ -14373,34 +14323,6 @@
       "url": "https://anilist.co/manga/141756"
     },
     {
-      "id": "manga-123747",
-      "name": "Survival in Another World with My Mistress!",
-      "nativeTitle": "ご主人様とゆく異世界サバイバル！THE COMIC",
-      "romajiTitle": "Goshujin-sama to Yuku Isekai Survival! THE COMIC",
-      "englishTitle": "Survival in Another World with My Mistress!",
-      "type": "manga",
-      "aliases": [
-        "Goshujin-sama to Yuku Isekai Survival! THE COMIC",
-        "Survival in Another World with My Mistress!",
-        "ご主人様とゆく異世界サバイバル！THE COMIC",
-        "Different world survival to go with the master",
-        "Craft Game no Nouryoku de Isekai Kouryaku!!",
-        "Виживання в іншому світі з моєю повелителькою"
-      ],
-      "popularity": 10201,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Ecchi",
-        "Fantasy",
-        "Romance"
-      ],
-      "url": "https://anilist.co/manga/123747"
-    },
-    {
       "id": "manga-166742",
       "name": "The Ramparts of Ice",
       "nativeTitle": "氷の城壁",
@@ -14599,30 +14521,6 @@
       "url": "https://anilist.co/manga/163430"
     },
     {
-      "id": "manga-204435",
-      "name": "The Sword-Eating Swordmaster",
-      "nativeTitle": "검 먹는 소드마스터",
-      "romajiTitle": "Geom Meongneun Swordmaster",
-      "englishTitle": "The Sword-Eating Swordmaster",
-      "type": "manga",
-      "aliases": [
-        "Geom Meongneun Swordmaster",
-        "The Sword-Eating Swordmaster",
-        "검 먹는 소드마스터",
-        "Sword-Devouring Swordmaster",
-        "噬劍劍聖",
-        "ซอร์ดมาสเตอร์ผู้กลืนดาบ"
-      ],
-      "popularity": 4388,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/204435"
-    },
-    {
       "id": "manga-168258",
       "name": "The Healer Ditches the Boonies to Become an S-Rank Adventurer: The Boy from the Hero’s Village Doesn’t Know His Cheat Medicine Is Unrivaled",
       "nativeTitle": "辺境の薬師、都でSランク冒険者となる～英雄村の少年がチート薬で無自覚無双〜",
@@ -14668,31 +14566,6 @@
         "Sci-Fi"
       ],
       "url": "https://anilist.co/manga/174857"
-    },
-    {
-      "id": "manga-168152",
-      "name": "A Superstar From Birth",
-      "nativeTitle": "0 살부터 슈퍼스타",
-      "romajiTitle": "0 Salbuteo Superstar",
-      "englishTitle": "A Superstar From Birth",
-      "type": "manga",
-      "aliases": [
-        "0 Salbuteo Superstar",
-        "A Superstar From Birth",
-        "0 살부터 슈퍼스타",
-        "Superstar From Age 0",
-        "0歳からスーパースター",
-        "0歲開始當巨星",
-        "เกิดใหม่ชาตินี้ เบบี๋ขอเป็นซุป'ตาร์"
-      ],
-      "popularity": 3630,
-      "trending": 5,
-      "format": "MANGA",
-      "genres": [
-        "Drama",
-        "Supernatural"
-      ],
-      "url": "https://anilist.co/manga/168152"
     },
     {
       "id": "manga-217014",
@@ -14973,6 +14846,39 @@
       "url": "https://anilist.co/manga/30642"
     },
     {
+      "id": "manga-86635",
+      "name": "Kaguya-sama: Love is War",
+      "nativeTitle": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "romajiTitle": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+      "englishTitle": "Kaguya-sama: Love is War",
+      "type": "manga",
+      "aliases": [
+        "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+        "Kaguya-sama: Love is War",
+        "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+        "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains",
+        "카구야 님은 고백받고 싶어 ~천재들의 연애 두뇌전~",
+        "Miłość to wojna",
+        "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+        "Госпожа Кагуя: В любви как на войне. Любовная битва двух гениев",
+        "สารภาพรักกับคุณคางุยะซะดีๆ ~สงครามประสาทความรักของเหล่าอัจฉริยะ~",
+        "Kaguya-sama: Cuộc chiến tỏ tình",
+        "辉夜大小姐想让我告白 ~天才们的恋爱头脑战",
+        "輝夜姬想讓人告白~天才們的戀愛頭腦戰~",
+        "Kaguya-sama: Aşk Savaştır"
+      ],
+      "popularity": 120735,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Comedy",
+        "Psychological",
+        "Romance",
+        "Slice of Life"
+      ],
+      "url": "https://anilist.co/manga/86635"
+    },
+    {
       "id": "manga-102988",
       "name": "Tokyo Revengers",
       "nativeTitle": "東京卍リベンジャーズ",
@@ -15074,6 +14980,37 @@
       "url": "https://anilist.co/manga/65243"
     },
     {
+      "id": "manga-30021",
+      "name": "Death Note",
+      "nativeTitle": "DEATH NOTE",
+      "romajiTitle": "DEATH NOTE",
+      "englishTitle": "Death Note",
+      "type": "manga",
+      "aliases": [
+        "DEATH NOTE",
+        "Death Note",
+        "デスノート",
+        "Ölüm Defteri",
+        "Death Note - Zápisník smrti",
+        "Beležnica smrti",
+        "Τετράδιο θανάτου",
+        "Death Note: Тетрадка на смъртта",
+        "死亡筆記本",
+        "데스노트"
+      ],
+      "popularity": 101289,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Supernatural",
+        "Thriller"
+      ],
+      "url": "https://anilist.co/manga/30021"
+    },
+    {
       "id": "manga-98416",
       "name": "Dr. STONE",
       "nativeTitle": "Dr.STONE",
@@ -15150,6 +15087,31 @@
         "Drama"
       ],
       "url": "https://anilist.co/manga/46765"
+    },
+    {
+      "id": "manga-30051",
+      "name": "Slam Dunk",
+      "nativeTitle": "SLAM DUNK",
+      "romajiTitle": "SLAM DUNK",
+      "englishTitle": "Slam Dunk",
+      "type": "manga",
+      "aliases": [
+        "SLAM DUNK",
+        "Slam Dunk",
+        "スラムダンク",
+        "Slam Dunk: 10 Days After",
+        "سلام دانك",
+        "슬램덩크 "
+      ],
+      "popularity": 75364,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sports"
+      ],
+      "url": "https://anilist.co/manga/30051"
     },
     {
       "id": "manga-30936",
@@ -15259,6 +15221,32 @@
         "Romance"
       ],
       "url": "https://anilist.co/manga/99943"
+    },
+    {
+      "id": "manga-30598",
+      "name": "Fairy Tail",
+      "nativeTitle": "FAIRY TAIL",
+      "romajiTitle": "FAIRY TAIL",
+      "englishTitle": "Fairy Tail",
+      "type": "manga",
+      "aliases": [
+        "FAIRY TAIL",
+        "Fairy Tail",
+        "Fairy Tale",
+        "フェアリーテイル",
+        "Хвост Феи"
+      ],
+      "popularity": 57728,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Ecchi",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/30598"
     },
     {
       "id": "manga-106064",
@@ -15604,6 +15592,27 @@
         "Romance"
       ],
       "url": "https://anilist.co/manga/101722"
+    },
+    {
+      "id": "manga-138577",
+      "name": "After God",
+      "nativeTitle": "アフターゴッド",
+      "romajiTitle": "After God",
+      "englishTitle": "After God",
+      "type": "manga",
+      "aliases": [
+        "After God",
+        "アフターゴッド",
+        "อาฟเตอร์ก็อด "
+      ],
+      "popularity": 16331,
+      "trending": 4,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Supernatural"
+      ],
+      "url": "https://anilist.co/manga/138577"
     },
     {
       "id": "manga-129579",
