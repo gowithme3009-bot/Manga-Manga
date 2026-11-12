@@ -279,7 +279,11 @@ async function loadRadar() {
     const data = await newsResponse.json();
     const config = sourceResponse.ok ? await sourceResponse.json() : { rssSources: [] };
     const collected = new Map((data.sources || []).map(source => [source.id, source]));
-    state.items = Array.isArray(data.items) ? data.items : [];\n    if (trendsResponse?.ok) {\n      const trendData = await trendsResponse.json();\n      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];\n    } else { state.searchSignals = []; }
+    state.items = Array.isArray(data.items) ? data.items : [];
+    if (trendsResponse?.ok) {
+      const trendData = await trendsResponse.json();
+      state.searchSignals = Array.isArray(trendData.items) ? trendData.items : [];
+    } else { state.searchSignals = []; }
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
       ...(collected.get(source.id) || {}),
