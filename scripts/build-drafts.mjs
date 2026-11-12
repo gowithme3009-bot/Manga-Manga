@@ -25,8 +25,10 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   for (const item of items || []) {
     if (!item || typeof item.title !== "string" || typeof item.url !== "string" || !/^https:\/\//i.test(item.url)) continue;
 
-    const language = item.language || "fr";
-    if (language !== "fr") continue;
+    const sourceLanguage = item.language || "fr";
+    const canTranslateFromOriginal = sourceLanguage === "en" && item.articleContentRetrieved === true;
+    if (sourceLanguage !== "fr" && !canTranslateFromOriginal) continue;
+    const language = "fr";
 
     if (item.sourceId === "google-news-fr" && !isRelevantGoogleNewsHeadline(item.title)) {
       irrelevantCount += 1;
@@ -47,7 +49,8 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       continue;
     }
 
-    const rawSummary = String(item.summary || "").replace(/\s+/g, " ").trim().slice(0, 450);
+    const summaryLimit = item.articleContentRetrieved ? 1600 : 450;
+    const rawSummary = String(item.summary || "").replace(/\s+/g, " ").trim().slice(0, summaryLimit);
     const titleCore = item.title.trim().split(/\s+-\s+/)[0].toLocaleLowerCase("fr");
     const summary = rawSummary.toLocaleLowerCase("fr").startsWith(titleCore) ? "" : rawSummary;
 
@@ -72,21 +75,25 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       : independentSourceCount >= 2 && freshnessHours <= 48
         ? "hausse"
         : "surveillance";
-    const editorialReady = Boolean(summary);
+    const editorialReady = Boolean(summary) && sourceLanguage === "fr";
     const text = editorialReady
       ? title + "\n\n" + summary + "\n\nSource : " + sourceUrl +
         "\n\nEt vous, qu’en pensez-vous ?"
-      : "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\n" + title +
-        "\n\nInformation confirmée par l’article : [à compléter après vérification]." +
-        "\n\nContexte utile pour les lecteurs : [à compléter]." +
-        "\n\nQuestion à la communauté : [à adapter]." +
-        "\n\nSource : " + sourceUrl;
+      : canTranslateFromOriginal && summary
+        ? "PRÉPARATION — SOURCE ORIGINALE EN ANGLAIS, TRADUCTION FRANÇAISE À GÉNÉRER PAR L’ASSISTANT IA\n\n" + title +
+          "\n\nExtrait original : " + summary + "\n\nSource : " + sourceUrl
+        : "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\n" + title +
+          "\n\nInformation confirmée par l’article : [à compléter après vérification]." +
+          "\n\nContexte utile pour les lecteurs : [à compléter]." +
+          "\n\nQuestion à la communauté : [à adapter]." +
+          "\n\nSource : " + sourceUrl;
 
     candidates.push({
       id: String(key),
       title,
       summary,
       language,
+      sourceLanguage,
       sourceUrl,
       articleUrl: item.articleUrl || item.url,
       articleContentRetrieved: Boolean(item.articleContentRetrieved),
@@ -104,13 +111,16 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
       hashtags: "#Manga #Anime",
       status: editorialReady ? "texte préparé · source à vérifier" : "à compléter",
       note: editorialReady
-        ? "Prépublication construite uniquement à partir du résumé RSS. Vérifier l’article original, les faits, les noms et les dates avant validation."
-        : "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+        ? "Prépublication construite à partir du résumé RSS. Vérifier l’article original, les faits, les noms et les dates avant validation."
+        : canTranslateFromOriginal && summary
+          ? "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
+          : "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     });
   }
 
   const trendPriority = { spectaculaire: 3, hausse: 2, surveillance: 1 };
   candidates.sort((a, b) =>
+    (Number(b.articleContentRetrieved) - Number(a.articleContentRetrieved)) ||
     (trendPriority[b.trendLevel] - trendPriority[a.trendLevel]) ||
     (b.independentSourceCount - a.independentSourceCount) ||
     (b.trendScore - a.trendScore) ||
