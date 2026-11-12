@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T04:36:31.635Z",
+  "generatedAt": "2026-11-12T04:40:46.113Z",
   "items": [
     {
       "id": "b8444a024aca4798bcc6",
@@ -48,7 +48,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 58
+      "trendScore": 57
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -80,7 +80,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 57
+      "trendScore": 56
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -112,7 +112,7 @@
         "Annonces officielles — Google Actualités"
       ],
       "sourceCount": 1,
-      "trendScore": 51
+      "trendScore": 50
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -128,7 +128,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 51
+      "trendScore": 50
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -144,7 +144,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 46
+      "trendScore": 45
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -160,7 +160,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 45
+      "trendScore": 44
     },
     {
       "id": "913581ff600dd3591661",
@@ -880,7 +880,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 27
+      "trendScore": 26
     },
     {
       "id": "ed61715d47ca31925a39",
@@ -896,23 +896,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 27
-    },
-    {
-      "id": "fc814d45d3fb351eed6a",
-      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
-      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 27
+      "trendScore": 26
     },
     {
       "id": "fc6bfeab4c5f40522d7c",
@@ -928,7 +912,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 25
     },
     {
       "id": "f65cd317eef4f19902ef",
@@ -1360,7 +1344,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "2367377ab25caf87bf3e",
@@ -1376,7 +1360,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "dfb6d2708f1537d294af",
@@ -1392,7 +1376,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "eee58670dd39cced0a1e",
@@ -1456,7 +1440,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 11
     },
     {
       "id": "4d347964ac709beba963",
@@ -1598,6 +1582,22 @@
       "category": "actualité",
       "sources": [
         "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 10
+    },
+    {
+      "id": "5b85aed326c2f23d6bc5",
+      "title": "Des promotions numériques chez Glénat Manga ce mois-ci - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSExZQV9Sdi0wQURoX05aWjNaVmhmVEdWUGJjTi14NHcyanB0MTNIQnJRaG5jXzN2ajlXS0daYVd1WVE3akdxZG1NdmNUZ2FTdXN2SUpxcjF0MlMyZktfM0x3UkhwblF3cHdUWlBNT2k3MkpYQ1NiMWFYWmdnMG1tT0RhVGtIcnl2cV9oc213dDgxcE4wcElnV1BBcDVBMGFQczctV1NfQ09kbXZY0gGrAUFVX3lxTFBlbEc1LVpCNDRjZTJKTGNQeTVnVFVvdjVhTDJVTWVhbUx2QUtEaEppdHJSSi1SbkpaWXZMcHk1dVhmTE1xR0UtOW5xRllkbXNDQWhIeHFPcGVtbVNyZ2lvN2pyUnRCYXlGMkJac2QzOUp4U1RuRVg4TzY0TXZXMzEwbnlwNGFXU3VFbk1VaW84VG0xNkh0aXpnb29SV0Rpa1RqQ2hRYmJhX1BMMA?oc=5",
+      "summary": "Des promotions numériques chez Glénat Manga ce mois-ci Manga news",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
       "trendScore": 10
