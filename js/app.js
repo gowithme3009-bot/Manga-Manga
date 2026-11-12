@@ -4,7 +4,8 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
-const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null };
+const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [] };
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -103,6 +104,70 @@ function showView(name) {
     element.classList.toggle("active", element.dataset.view === name);
   });
   location.hash = name;
+}
+function buildTrendAlerts() {
+  const alerts = [];
+  state.items.forEach(item => {
+    const level = item.trendLevel || ((item.trendScore ?? 0) >= 75 ? "spectaculaire" : (item.trendScore ?? 0) >= 50 ? "hausse" : "surveillance");
+    const sources = item.independentSourceCount ?? item.sourceCount ?? 0;
+    if (level === "spectaculaire" && sources >= 2) alerts.push({
+      id: "rss:" + (item.id || item.url || item.title), title: item.title,
+      detail: sources + " source(s) directe(s) · score " + (item.trendScore ?? "—") + "/100",
+      url: item.url || "", kind: "Actualité multi-sources"
+    });
+  });
+  state.editorialSignals.forEach(signal => {
+    if (signal.sourceCount >= 3 && signal.articleCount >= 3) alerts.push({
+      id: "title:" + String(signal.entityName || "").toLocaleLowerCase("fr"),
+      title: signal.entityName,
+      detail: signal.articleCount + " article(s) · " + signal.sourceCount + " source(s) directe(s)",
+      url: signal.articles?.[0]?.url || "", kind: "Titre manga/anime confirmé"
+    });
+  });
+  const unique = new Map();
+  alerts.forEach(alert => { if (!unique.has(alert.id)) unique.set(alert.id, alert); });
+  return [...unique.values()].slice(0, 12);
+}
+function renderTrendAlerts() {
+  const host = $("trend-alerts-list");
+  if (!host) return;
+  if (!state.trendAlerts.length) {
+    host.innerHTML = '<p class="muted">Aucune tendance époustouflante confirmée pour le dernier cycle. Les tendances en hausse restent visibles dans le Radar.</p>';
+    return;
+  }
+  host.innerHTML = state.trendAlerts.map(alert =>
+    '<article class="trend-alert-item"><span class="trend-alert-light" aria-hidden="true"></span><div class="trend-alert-copy"><strong>' +
+    escapeHtml(alert.title) + '</strong><small>' + escapeHtml(alert.kind + " · " + alert.detail) +
+    '</small></div>' + (alert.url ? '<a class="secondary" href="' + escapeHtml(alert.url) + '" target="_blank" rel="noopener noreferrer">Voir la source ↗</a>' : '<button class="secondary" type="button" data-go="radar">Voir le Radar ↗</button>') +
+    '</article>'
+  ).join("");
+}
+function notifyNewTrendAlerts(alerts) {
+  let previous;
+  try { const raw = localStorage.getItem(TREND_ALERTS_KEY); previous = raw ? JSON.parse(raw) : null; } catch { previous = null; }
+  const ids = alerts.map(alert => alert.id);
+  const firstCheck = !Array.isArray(previous);
+  const fresh = firstCheck ? [] : alerts.filter(alert => !previous.includes(alert.id));
+  try { localStorage.setItem(TREND_ALERTS_KEY, JSON.stringify(ids)); } catch { /* stockage facultatif */ }
+  if (!firstCheck && fresh.length && "Notification" in window && Notification.permission === "granted") {
+    fresh.slice(0, 3).forEach(alert => {
+      try {
+        const notice = new Notification("Tendance époustouflante détectée", {
+          body: alert.title + " — " + alert.detail, tag: alert.id,
+          icon: "./logo-manga-anime-actualites%20(1).png"
+        });
+        notice.onclick = () => { window.focus(); showView("radar"); notice.close(); };
+      } catch { /* alerte conservée dans le tableau de bord */ }
+    });
+  }
+}
+function updateNotificationStatus() {
+  const status = $("notification-status"), button = $("enable-trend-notifications");
+  if (!status || !button) return;
+  if (!("Notification" in window)) { status.textContent = "Notifications non prises en charge."; button.disabled = true; }
+  else if (Notification.permission === "granted") { status.textContent = "Notifications autorisées sur cet appareil."; button.textContent = "Notifications activées"; button.disabled = true; }
+  else if (Notification.permission === "denied") status.textContent = "Autorisation refusée : vérifie les réglages du navigateur.";
+  else status.textContent = "Autorisation nécessaire pour afficher les alertes.";
 }
 function updateCounts() {
   $("draft-count").textContent = state.drafts.length;
@@ -363,6 +428,10 @@ async function loadRadar() {
     renderEditorialSignals();
     renderCatalog();
     renderSources();
+    state.trendAlerts = buildTrendAlerts();
+    renderTrendAlerts();
+    notifyNewTrendAlerts(state.trendAlerts);
+    updateNotificationStatus();
     updateCounts();
   } catch (error) {
     $("home-status").textContent = error.message;
@@ -609,4 +678,16 @@ loadRadar();
 loadDailyCandidates();
 
 
+$("enable-trend-notifications")?.addEventListener("click", async () => {
+  if (!("Notification" in window)) { toast("Les notifications ne sont pas prises en charge."); return; }
+  try {
+    const permission = await Notification.requestPermission();
+    updateNotificationStatus();
+    if (permission === "granted") {
+      toast("Notifications autorisées. Les nouvelles tendances seront signalées lorsque le site est ouvert.");
+      new Notification("Manga-Manga — alertes activées", { body: "Tu seras averti des nouvelles tendances fortes pendant l’utilisation du site." });
+    } else toast("Autorisation de notification non accordée.");
+  } catch { toast("Impossible d’activer les notifications sur cet appareil."); }
+});
+updateNotificationStatus();
 $("export-recovery")?.addEventListener("click", exportStorageRecovery);
