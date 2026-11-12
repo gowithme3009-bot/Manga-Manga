@@ -240,11 +240,34 @@ export function prioritizeEnrichmentItems(items, { maxPages = MAX_PAGES, maxAggr
   };
   direct.sort(excerptPriority);
   aggregators.sort(excerptPriority);
-  const selectedDirect = direct.slice(0, maxPages);
+
+  // Évite qu'un seul média monopolise les tentatives d'extraction.
+  // On garde la priorité aux extraits courts, mais on alterne les sources.
+  const diversifyBySource = indices => {
+    const groups = new Map();
+    for (const index of indices) {
+      const item = items[index] || {};
+      const key = String(item.sourceId || item.source || "source-inconnue");
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(index);
+    }
+    const queues = [...groups.values()];
+    const ordered = [];
+    while (queues.some(queue => queue.length)) {
+      for (const queue of queues) {
+        if (queue.length) ordered.push(queue.shift());
+      }
+    }
+    return ordered;
+  };
+
+  const diverseDirect = diversifyBySource(direct);
+  const diverseAggregators = diversifyBySource(aggregators);
+  const selectedDirect = diverseDirect.slice(0, maxPages);
   const remaining = Math.max(0, maxPages - selectedDirect.length);
   return [
     ...selectedDirect,
-    ...aggregators.slice(0, Math.min(maxAggregatorPages, remaining))
+    ...diverseAggregators.slice(0, Math.min(maxAggregatorPages, remaining))
   ];
 }
 
