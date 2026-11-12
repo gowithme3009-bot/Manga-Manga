@@ -1,16 +1,43 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:47:03.027Z",
+  "generatedAt": "2026-11-12T08:56:42.246Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 14,
+  "eligibleCount": 15,
   "items": [
+    {
+      "id": "58771348a1d34e39c76b",
+      "title": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting - Gamekult",
+      "summary": "",
+      "language": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T08:51:00.000Z",
+      "freshnessHours": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Le titre indique que Shueisha, le grand éditeur de mangas, prévoit de sortir « Nightmare Operator », un jeu de tir à la première personne au ton horrifique, mêlant des combos de type versus fighting. Aucun détail supplémentaire n’est fourni dans le flux RSS.\n\nPour l’instant, les informations restent limitées à ce titre. Nous attendons davantage de précisions sur le gameplay, les développeurs impliqués et la date de sortie.\n\nQuestion à la communauté : Que pensez‑vous de l’idée d’un TPS horror signé Shueisha ?",
+      "hashtags": "#Manga,#Shueisha,#JeuxVidéo,#Horror",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Vérifier le contenu de l’article original pour confirmer le type de jeu, les développeurs, la date de sortie et tout autre détail. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
+      "aiTitle": "Shueisha annonce un nouveau projet de jeu horror‑TPS",
+      "aiCommunityQuestion": "Que pensez‑vous de l’idée d’un TPS horror signé Shueisha ?",
+      "aiVerificationNotes": "Le résumé est absent. Vérifier le contenu de l’article original pour confirmer le type de jeu, les développeurs, la date de sortie et tout autre détail."
+    },
     {
       "id": "fbf8816caf62308cf589",
       "title": "Le monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien",
-      "summary": "",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "language": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5&hl=en-US&gl=US&ceid=US:en",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -21,23 +48,23 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Un article du Quotidien Jurassien évoque le monde du manga privé de l’un de ses plus fervents défenseurs. Les raisons et les conséquences de cet « orphelin » restent à confirmer dans le texte complet.\n\nNous vous invitons à lire l’article original pour en savoir plus sur les enjeux soulevés.\n\nQuestion à la communauté : Quel manga, selon vous, a besoin d’un plus grand soutien aujourd’hui ?",
-      "hashtags": "#Manga,#Culture,#Défense,#Actualité",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier le titre exact, le contenu de l’article et les faits mentionnés. Confirmer qu’il s’agit bien d’un manque de défenseur et non d’un autre sujet. S’assurer que le ton et les informations sont fidèles à la source. Validation humaine obligatoire. Aucune publication automatique.",
+      "text": "Le titre signale qu’un fervent défenseur du manga vient de disparaître ou de se retirer, laissant le milieu orphelin de son soutien. Aucun autre élément n’est fourni dans le flux RSS.\n\nNous ne disposons pas d’informations supplémentaires sur l’identité de la personne, son rôle ou les conséquences de son absence.\n\nQuestion à la communauté : Quel impact pensez‑vous qu’un tel défenseur peut avoir sur le secteur du manga ?",
+      "hashtags": "#Manga,#Culture,#Actualité",
+      "status": "rédigé par IA · à relire",
+      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Le résumé RSS n’est pas l’article complet : ouvrir la source et contrôler les faits, noms et dates. Le résumé ne contient aucune information concrète. Lire l’article complet pour identifier la personne concernée, son rôle et les réactions du secteur. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:47:15.767Z",
-      "aiTitle": "Le monde du manga orphelin d’un défenseur",
-      "aiCommunityQuestion": "Quel manga, selon vous, a besoin d’un plus grand soutien aujourd’hui ?",
-      "aiVerificationNotes": "Vérifier le titre exact, le contenu de l’article et les faits mentionnés. Confirmer qu’il s’agit bien d’un manque de défenseur et non d’un autre sujet. S’assurer que le ton et les informations sont fidèles à la source."
+      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
+      "aiTitle": "Le monde du manga privé d’un défenseur passionné",
+      "aiCommunityQuestion": "Quel impact pensez‑vous qu’un tel défenseur peut avoir sur le secteur du manga ?",
+      "aiVerificationNotes": "Le résumé ne contient aucune information concrète. Lire l’article complet pour identifier la personne concernée, son rôle et les réactions du secteur."
     },
     {
       "id": "86324f10058b4807aacb",
       "title": "Manga : enfin l'âge de raison ? - La Libre.be",
-      "summary": "",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "language": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5&hl=en-US&gl=US&ceid=US:en",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -48,16 +75,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "La Libre.be propose une réflexion autour d’un possible « âge de raison » pour le manga. Les arguments et les exemples cités dans l’article doivent être vérifiés avant diffusion.\n\nConsultez le texte complet pour connaître les points clés de cette analyse.\n\nQuestion à la communauté : Pensez‑vous que le manga entre aujourd’hui dans une nouvelle maturité ?",
-      "hashtags": "#Manga,#Analyse,#Maturité,#LibreBe",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le sujet exact de l’article et les points abordés. Vérifier que le titre ne comporte pas de sous‑titre supplémentaire. S’assurer que le texte ne contient pas d’informations non mentionnées ici. Validation humaine obligatoire. Aucune publication automatique.",
+      "text": "Le titre suggère une réflexion sur l’évolution du manga vers une « âge de raison », possiblement en abordant des thèmes plus matures ou une nouvelle direction artistique. Aucun détail supplémentaire n’est présent dans le flux RSS.\n\nIl faut attendre le texte complet pour connaître les arguments avancés et les exemples cités.\n\nQuestion à la communauté : Pensez‑vous que le manga évolue vers des récits plus adultes ?",
+      "hashtags": "#Manga,#Évolution,#Culture",
+      "status": "rédigé par IA · à relire",
+      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Le résumé RSS n’est pas l’article complet : ouvrir la source et contrôler les faits, noms et dates. Le résumé est vide. Vérifier l’article original pour connaître le point de vue de l’auteur, les références précises et les conclusions tirées. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:47:15.767Z",
-      "aiTitle": "Manga : enfin l'âge de raison ?",
-      "aiCommunityQuestion": "Pensez‑vous que le manga entre aujourd’hui dans une nouvelle maturité ?",
-      "aiVerificationNotes": "Confirmer le sujet exact de l’article et les points abordés. Vérifier que le titre ne comporte pas de sous‑titre supplémentaire. S’assurer que le texte ne contient pas d’informations non mentionnées ici."
+      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
+      "aiTitle": "Manga : vers une maturité nouvelle ?",
+      "aiCommunityQuestion": "Pensez‑vous que le manga évolue vers des récits plus adultes ?",
+      "aiVerificationNotes": "Le résumé est vide. Vérifier l’article original pour connaître le point de vue de l’auteur, les références précises et les conclusions tirées."
     },
     {
       "id": "19d719a8a2297963f687",
@@ -75,16 +102,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le Monde.fr publie une interview de Yuki Kodama, autrice du manga « Kids on the Slope », qui explique son envie de faire se rapprocher des personnages opposés. Les citations exactes et le contexte doivent être confirmés.\n\nLisez l’interview pour découvrir la vision de l’auteure sur les dynamiques de ses personnages.\n\nQuestion à la communauté : Quel duo de personnages vous a le plus marqué dans un manga ?",
-      "hashtags": "#Manga,#YukiKodama,#KidsOnTheSlope,#Interview",
+      "text": "Le titre indique que Yuki Kodama, l’autrice du manga « Kids on the Slope », explique qu’elle aime créer des personnages opposés qui finissent par se rapprocher. Aucun autre extrait n’est fourni.\n\nPour plus de contexte sur ses méthodes d’écriture et les exemples concrets, il faut consulter l’article complet.\n\nQuestion à la communauté : Aimez‑vous les histoires où des personnages très différents finissent par s’unir ?",
+      "hashtags": "#Manga,#YukiKodama,#Écriture",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier le nom complet du manga, la citation exacte de l’auteure et le contexte de l’interview. S’assurer que le titre de l’article ne comporte pas d’autres précisions. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Lire l’article original pour confirmer les citations exactes, le contexte de l’interview et tout autre détail pertinent. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:47:15.767Z",
-      "aiTitle": "Yuki Kodama parle de ses personnages opposés",
-      "aiCommunityQuestion": "Quel duo de personnages vous a le plus marqué dans un manga ?",
-      "aiVerificationNotes": "Vérifier le nom complet du manga, la citation exacte de l’auteure et le contexte de l’interview. S’assurer que le titre de l’article ne comporte pas d’autres précisions."
+      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
+      "aiTitle": "Yuki Kodama parle de la dynamique entre ses personnages",
+      "aiCommunityQuestion": "Aimez‑vous les histoires où des personnages très différents finissent par s’unir ?",
+      "aiVerificationNotes": "Le résumé est absent. Lire l’article original pour confirmer les citations exactes, le contexte de l’interview et tout autre détail pertinent."
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -102,16 +129,10 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Adala News annonce l’adaptation en anime du manga « Shinimodori no Mahou ». Les détails de la production, la date de diffusion et les équipes impliquées restent à confirmer dans le texte complet.\n\nPour plus d’informations, consultez l’article original.\n\nQuestion à la communauté : Êtes‑vous impatients de voir cet anime arriver à l’écran ?",
-      "hashtags": "#Manga,#Anime,#ShinimodoriNoMahou,#Adaptation",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le titre exact du manga et l’annonce d’adaptation. Vérifier les informations sur la date, le studio et les personnes citées dans l’article. S’assurer que le ton correspond à la source. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:47:15.767Z",
-      "aiTitle": "Shinimodori no Mahou passe à l’anime",
-      "aiCommunityQuestion": "Êtes‑vous impatients de voir cet anime arriver à l’écran ?",
-      "aiVerificationNotes": "Confirmer le titre exact du manga et l’annonce d’adaptation. Vérifier les informations sur la date, le studio et les personnes citées dans l’article. S’assurer que le ton correspond à la source."
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe manga Shinimodori no Mahou adapté en anime - Adala News\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -249,7 +270,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:17:39.000Z",
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "trendScore": 29,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -326,9 +347,8 @@
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
     "9 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T08:47:15.767Z",
+  "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
   "aiModel": "openai/gpt-oss-120b"
 }

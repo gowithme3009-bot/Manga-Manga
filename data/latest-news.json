@@ -1,12 +1,36 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:47:03.027Z",
+  "generatedAt": "2026-11-12T08:56:42.246Z",
   "items": [
+    {
+      "id": "58771348a1d34e39c76b",
+      "title": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting - Gamekult",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5",
+      "summary": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting Gamekult",
+      "publishedAt": "2026-11-12T08:51:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5&hl=en-US&gl=US&ceid=US:en"
+    },
     {
       "id": "fbf8816caf62308cf589",
       "title": "Le monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
-      "summary": "Le monde du manga orphelin de l’un de ses fervents défenseurs Le Quotidien Jurassien",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "publishedAt": "2026-11-12T07:16:42.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -23,13 +47,16 @@
       "independentSourceCount": 0,
       "trendScore": 56,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "86324f10058b4807aacb",
       "title": "Manga : enfin l'âge de raison ? - La Libre.be",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
-      "summary": "Manga : enfin l'âge de raison ? La Libre.be",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -46,7 +73,10 @@
       "independentSourceCount": 0,
       "trendScore": 52,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -90,7 +120,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -98,7 +128,7 @@
       "id": "809bd7ec50aee02d6167",
       "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
-      "summary": "New visual also unveiled",
+      "summary": "New visual also unveiled // The official website for the television anime of ippatu",
       "publishedAt": "2026-11-12T03:38:17.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -115,7 +145,10 @@
       "independentSourceCount": 1,
       "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -144,7 +177,7 @@
       "id": "fe2a1301d1717f390601",
       "title": "Welsh & Shedar Anime Launches Webtoon",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "summary": "12-episode webtoon features multiple artists",
+      "summary": "12-episode webtoon features multiple artists // French entertainment company Ankama announced on Wednesday that a 12-episode webtoon adaptation of the...",
       "publishedAt": "2026-11-12T03:10:20.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -161,13 +194,16 @@
       "independentSourceCount": 1,
       "trendScore": 47,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "393c1036d3378e0778ee",
       "title": "Kirby Rides the Dragoon in New Chogokin Figure",
       "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
-      "summary": "Figure arrives next May",
+      "summary": "Figure arrives next May // Kirby takes to the skies with the Dragoon Air Ride Machine in Bandai",
       "publishedAt": "2026-11-12T03:03:33.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -184,13 +220,16 @@
       "independentSourceCount": 1,
       "trendScore": 47,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "f02bb917f2dc6772b5ce",
       "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
       "url": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
-      "summary": "Following the CYBERPUNK: EDGERUNNERS 2 panel at Lucca Comics & Games, we sat down…",
+      "summary": "Following the CYBERPUNK: EDGERUNNERS 2 panel at Lucca Comics & Games, we sat down with showrunner Bartosz Sztybor to talk even deeper about Season 2",
       "publishedAt": "2026-11-12T00:28:31.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -207,7 +246,10 @@
       "independentSourceCount": 1,
       "trendScore": 42,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -274,15 +316,16 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 37,
+      "trendScore": 36,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714"
     },
     {
       "id": "0d197a3e05f25c0f90dd",
       "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
       "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-      "summary": "CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode…",
+      "summary": "IP Lawyer, photographer, and writer. EU & UK European Correspondent. Fan of Gintama, Log Horizon, Monogatari Series, Hibike! Euphonium, and more.",
       "publishedAt": "2026-11-11T20:50:02.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -299,7 +342,10 @@
       "independentSourceCount": 1,
       "trendScore": 36,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true
     },
     {
       "id": "27dd98ec22f905142331",
@@ -343,7 +389,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 35,
+      "trendScore": 34,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -895,7 +941,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1125,7 +1171,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 25,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1309,7 +1355,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 23,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1631,7 +1677,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1654,7 +1700,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1907,7 +1953,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1930,7 +1976,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1953,7 +1999,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2206,7 +2252,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 9,
+      "trendScore": 8,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2278,29 +2324,6 @@
       "trendScore": 8,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "028c50944abfc8662cf8",
-      "title": "Japan's Video Game Rankings, October 26-November 1",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
-      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
-      "publishedAt": "2026-11-10T07:53:54.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 8,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2320,7 +2343,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 54
+      "items": 52
     },
     {
       "id": "anime-corner",
@@ -2359,5 +2382,11 @@
       "items": 60
     }
   ],
-  "warnings": []
+  "warnings": [],
+  "articleEnrichment": {
+    "attempted": 16,
+    "enriched": 7,
+    "maxPages": 16,
+    "excerptLimit": 1600
+  }
 }
