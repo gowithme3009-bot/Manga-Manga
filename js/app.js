@@ -301,19 +301,24 @@ function renderDrafts() {
   const proposals = state.candidates
     .filter(candidate => !state.dismissed.includes(candidate.id) && !savedSources.has(candidate.id))
     .slice(0, 4);
-  const proposedHtml = proposals.map(candidate =>
-    '<article class="draft-card"><div class="meta">PROPOSITION · ' +
-    escapeHtml(candidate.status) + " · Score " + candidate.trendScore + " · " +
-    escapeHtml((candidate.sourceNames || []).join(", ")) + "</div>" +
-    "<h3>" + escapeHtml(candidate.title) + "</h3>" +
-    '<p class="summary">' + escapeHtml(candidate.text) + "</p>" +
-    '<p class="tags">' + escapeHtml(candidate.hashtags) + "</p>" +
-    '<div class="card-actions"><a class="secondary" href="' + escapeHtml(candidate.sourceUrl) +
-    '" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a>' +
-    '<button class="primary" data-save-candidate="' + escapeHtml(candidate.id) + '">Ajouter à mes brouillons</button>' +
-    '<button class="danger" data-dismiss-candidate="' + escapeHtml(candidate.id) + '">Écarter / remplacer</button></div>' +
-    '<small class="muted">Vérification humaine obligatoire avant toute publication.</small></article>'
-  ).join("");
+  const proposedHtml = proposals.map(candidate => {
+    const level = candidate.trendLevel || "surveillance";
+    const label = level === "spectaculaire" ? "TENDANCE MULTI-SOURCES" :
+      level === "hausse" ? "PLUSIEURS MÉDIAS" : "SIGNAL À SURVEILLER";
+    return '<article class="draft-card"><div class="meta">PROPOSITION · ' +
+      trendSignal(level, label) + " · Score indicatif " + candidate.trendScore + "/100 · " +
+      Number(candidate.independentSourceCount || 0) + " média(s) direct(s) · " +
+      escapeHtml((candidate.sourceNames || []).join(", ")) + "</div>" +
+      "<h3>" + escapeHtml(candidate.title) + "</h3>" +
+      '<p class="summary">' + escapeHtml(candidate.text) + "</p>" +
+      '<p class="tags">' + escapeHtml(candidate.hashtags) + "</p>" +
+      '<small class="muted">' + escapeHtml(candidate.note || "Vérification humaine obligatoire.") + "</small>" +
+      '<div class="card-actions"><a class="secondary" href="' + escapeHtml(candidate.sourceUrl) +
+      '" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a>' +
+      '<button class="primary" data-save-candidate="' + escapeHtml(candidate.id) + '">Ajouter à mes brouillons</button>' +
+      '<button class="danger" data-dismiss-candidate="' + escapeHtml(candidate.id) + '">Écarter / remplacer</button></div>' +
+      '<small class="muted">Aucune publication automatique. La validation humaine reste obligatoire.</small></article>';
+  }).join("");
   const savedHtml = state.drafts.map(draft =>
     '<article class="draft-card"><div class="meta">Créé le ' + escapeHtml(dateLabel(draft.createdAt)) +
     " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
