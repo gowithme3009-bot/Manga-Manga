@@ -9,7 +9,7 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 ## Fonctions déjà amorcées
 
 - Interface responsive en français.
-- Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon, Madagascar) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
+- Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon ; le flux Madagascar n’est pas disponible dans cette collecte) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
 - Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
 - Brouillons enregistrés dans le stockage local du navigateur, conservés après rechargement, modifiables après sauvegarde, prévisualisables et exportables avec une seule action « Exporter mes brouillons ».
 - Contrôles automatisés du stockage : relecture après sauvegarde, données corrompues préservées et échec de quota signalé.
