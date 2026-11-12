@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:08:54.610Z",
+  "generatedAt": "2026-11-12T10:18:29.968Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:08:54.610Z",
+    "refreshedAt": "2026-11-12T10:18:29.968Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -86,7 +86,7 @@
         "ซวยเหลือหลาย เกิดใหม่กลายเป็นดาบ ภาค 2",
         "TENKEN - Reincarnato in una spada"
       ],
-      "popularity": 55692,
+      "popularity": 55958,
       "trending": 116,
       "format": "ONA",
       "genres": [
@@ -186,7 +186,7 @@
         "Pick Me Up, Infinite Gacha",
         "PICK ME UP～低レア★英雄の成り上がり～"
       ],
-      "popularity": 46924,
+      "popularity": 46973,
       "trending": 74,
       "format": "MANGA",
       "genres": [
@@ -1492,7 +1492,7 @@
         "만년 후 미래에서 레벨업",
         "Level-up in the Future"
       ],
-      "popularity": 15588,
+      "popularity": 15604,
       "trending": 21,
       "format": "MANGA",
       "genres": [
@@ -1552,7 +1552,7 @@
         "약사의 혼잣말",
         "Dược sư tự sự"
       ],
-      "popularity": 344043,
+      "popularity": 344306,
       "trending": 20,
       "format": "TV",
       "genres": [
@@ -1865,7 +1865,7 @@
         "Infinite Mage",
         "無限の魔法使い"
       ],
-      "popularity": 42687,
+      "popularity": 42722,
       "trending": 18,
       "format": "MANGA",
       "genres": [
@@ -2075,7 +2075,7 @@
         "I'm Dating a Dark Summoner!",
         "與暗黑召喚師秘密戀愛中"
       ],
-      "popularity": 8397,
+      "popularity": 8416,
       "trending": 17,
       "format": "MANGA",
       "genres": [
@@ -2779,7 +2779,7 @@
         "Moi, quand je me réincarne en Slime Saison 3",
         "転スラ 3"
       ],
-      "popularity": 195214,
+      "popularity": 195315,
       "trending": 14,
       "format": "TV",
       "genres": [
@@ -4758,7 +4758,7 @@
         "財閥家的小兒子",
         "财阀家的小儿子"
       ],
-      "popularity": 6464,
+      "popularity": 6477,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -6343,7 +6343,7 @@
         "Миссия семьи Ёдзакура",
         "Misja: Rodzina Yozakura"
       ],
-      "popularity": 78769,
+      "popularity": 78816,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -6643,7 +6643,7 @@
         "Dungeon Experience Book",
         "ダンジョン見聞録"
       ],
-      "popularity": 22461,
+      "popularity": 22477,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -7526,7 +7526,7 @@
         "和山田談場 Lv999 的戀愛",
         "Kocham Yamadę na 999 poziomie!"
       ],
-      "popularity": 212954,
+      "popularity": 213060,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -7742,7 +7742,7 @@
         "BLEACH 千年血戦篇 第2クール",
         "BLEACH TYBW"
       ],
-      "popularity": 149967,
+      "popularity": 150071,
       "trending": 7,
       "format": "TV",
       "genres": [
@@ -8408,7 +8408,7 @@
         "天華書庫大公子",
         "天华书库大公子"
       ],
-      "popularity": 9497,
+      "popularity": 9512,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -9553,7 +9553,7 @@
         "Berserk nan Rakus",
         "Ненасытный берсерк"
       ],
-      "popularity": 104483,
+      "popularity": 104553,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -9654,7 +9654,7 @@
         "まどめ",
         "จอมมารอย่างข้า ควรรักภรรยาเอลฟ์อย่างไรดี"
       ],
-      "popularity": 82637,
+      "popularity": 82694,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -10183,7 +10183,7 @@
         "Pokémon Yeni Ufuklar: Dizi",
         "โปเกมอน เดอะซีรีส์ สุดขอบฟ้า"
       ],
-      "popularity": 25042,
+      "popularity": 25052,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -12322,7 +12322,7 @@
         "La transcendance du grand mage",
         "逆轉時光的大魔導士"
       ],
-      "popularity": 11715,
+      "popularity": 11729,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -12550,7 +12550,7 @@
         "進化する者たち",
         "I got reincarnated as a tree"
       ],
-      "popularity": 7055,
+      "popularity": 7058,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -14059,7 +14059,7 @@
         "Walking in Another World",
         "이세계 워킹"
       ],
-      "popularity": 6825,
+      "popularity": 6831,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14082,7 +14082,7 @@
         "A Modern Man Who Got Transmigrated Into the Murim World",
         "Modern Man Who Fall Into Murim"
       ],
-      "popularity": 6798,
+      "popularity": 6804,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -16035,6 +16035,30 @@
           "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
           "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
           "publishedAt": "2026-11-11T15:31:35.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-106064",
+      "entityName": "Chained Soldier",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "Chained Soldier"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T09:10:50.000Z",
+      "articles": [
+        {
+          "title": "Chained Soldier Manga Resumes on December 12",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
+          "publishedAt": "2026-11-12T09:10:50.000Z",
           "sources": [
             "Anime News Network"
           ]
