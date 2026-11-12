@@ -163,7 +163,8 @@ export async function collectSearchTrends({
   const result = {
     version: 1,
     generatedAt: new Date(now).toISOString(),
-    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length, refreshedAt: new Date(now).toISOString(), pagesPerType: 3 },\n    catalogItems: catalog,
+    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length, refreshedAt: new Date(now).toISOString(), pagesPerType: 3 },
+    catalogItems: catalog,
     sources, items: [...unique.values()].sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
     warnings
   };
