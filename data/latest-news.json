@@ -1,69 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:04:25.010Z",
+  "generatedAt": "2026-11-12T15:04:50.164Z",
   "items": [
-    {
-      "id": "0080d867306168ba8a64",
-      "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
-      "url": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
-      "summary": "The Amazing Digital Circus, Knights of Guinevere studio Glitch Productions discuss SAG-AFTRA Agreement",
-      "publishedAt": "2026-11-12T15:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 60,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
-    {
-      "id": "bdc07fca366d717b8592",
-      "title": "This Week in Anime - Roll the Dice",
-      "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
-      "summary": "Lucas and Chris tackle the next great vice in anime: gambling!",
-      "publishedAt": "2026-11-12T15:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 60,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
     {
       "id": "988f2edba5041856766d",
       "title": "Kakao Piccoma Launches New 'Lulumiru' BL Webtoon Platform",
@@ -526,13 +464,19 @@
       "independentSourceCount": 0,
       "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
     },
     {
       "id": "89d128021464090bb535",
       "title": "Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process",
       "url": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
-      "summary": "As one of the most outstanding romance stories in recent years, Blue Box highlights…",
+      "summary": "Interview Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 As one of the most outstanding romance stories in recent years, Blue Box highlights the inner worlds and unique sensibilities of its whole cast of characters. The story combines the romantic pursuits of the protagonists, Taiki and Chinatsu, with the passion of spokon , and the adventure of growing up from adolescence. While the Blue Box manga officially ended on July 13 , we can still follow our favorite characters in the anime adaptation currently airing. Blue Box Season 2 explores new sides of the cast and introduces the long awaited Yumeka Goto, a person from Chinatsu’s past. That’s why we were excited to interview Season 2 director Daisuke Sako about Yumeka, the themes explored during the season, and his takes on the story’s message. © Kouji Miura/SHUEISHA, Blue Box Film Partners. Q: Were there any specific themes or core elements you particularly focused on for Season 2? A: This time, we wanted to recreate real, named places as faithfully as possible. The idea that “these characters live in this particular kind of town in Japan” was something we valued in the anime as well. We didn’t only feature the obvious, well-known spots. We put a lot of effort into making sure that viewers all over Japan, including people who have never left their hometown, as well as viewers overseas, could watch and think, “Places like this exist.” Our art staff did a wonderful job of making viewers think, “This is the ki",
       "publishedAt": "2026-11-12T09:43:11.000Z",
       "source": "Anime Corner",
       "sourceId": "anime-corner",
@@ -551,7 +495,18 @@
       "independentSourceCount": 1,
       "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "89f8e0d91d90bdcd8860",
@@ -2604,6 +2559,56 @@
       "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "6df08dfca0dd99fd06f3",
+      "title": "Hell Mode Season 2 Anime Series Review",
+      "url": "https://www.animenewsnetwork.com/review/hell-mode-season-2-anime-series/.243051",
+      "summary": "The worst of Hell Mode is very firmly behind us in this season, but being an improvement doesn’t necessarily mean it’s suddenly fun to watch.",
+      "publishedAt": "2026-11-10T17:00:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 9,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "3f962c61a91e78fd430b",
+      "title": "Dragon Quest RPG Mobile Game's Trailer Reveals 2027 Launch, Closed Beta Test in December",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/dragon-quest-rpg-mobile-game-trailer-reveals-2027-launch-closed-beta-test-in-december/.243690",
+      "summary": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle game features turn-based battles, dungeons",
+      "publishedAt": "2026-11-10T17:00:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 9,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2623,7 +2628,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 51
+      "items": 50
     },
     {
       "id": "anime-corner",
@@ -2653,7 +2658,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 56
+      "items": 57
     },
     {
       "id": "otaku-usa",
@@ -2665,8 +2670,8 @@
   "warnings": [],
   "articleEnrichment": {
     "attempted": 16,
-    "enriched": 1,
-    "skippedAggregator": 8,
+    "enriched": 2,
+    "skippedAggregator": 9,
     "maxPages": 16,
     "excerptLimit": 1600
   }
