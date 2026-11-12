@@ -1,87 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T04:12:42.145Z",
+  "generatedAt": "2026-11-12T04:12:56.933Z",
   "items": [
-    {
-      "id": "b8444a024aca4798bcc6",
-      "title": "Rei Mikamoto Ends Blood Friend Manga in December",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
-      "summary": "Series debuted in December 2025",
-      "publishedAt": "2026-11-12T03:52:30.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 59
-    },
-    {
-      "id": "ec3f0affa69c59e9d8ed",
-      "title": "Duel Masters GT Manga's Part 3 Ends",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
-      "summary": "3rd part launched on August 12",
-      "publishedAt": "2026-11-12T03:43:38.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 59
-    },
-    {
-      "id": "809bd7ec50aee02d6167",
-      "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
-      "summary": "New visual also unveiled",
-      "publishedAt": "2026-11-12T03:38:17.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 59
-    },
-    {
-      "id": "3c018ae2653a014ed456",
-      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
-      "summary": "Yūsuke plays \"mysterious boy\" debuting in episode 7 on Saturday",
-      "publishedAt": "2026-11-12T03:34:25.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 58
-    },
-    {
-      "id": "fe2a1301d1717f390601",
-      "title": "Welsh & Shedar Anime Launches Webtoon",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "summary": "12-episode webtoon features multiple artists",
-      "publishedAt": "2026-11-12T03:10:20.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 57
-    },
     {
       "id": "393c1036d3378e0778ee",
       "title": "Kirby Rides the Dragoon in New Chogokin Figure",
@@ -704,7 +624,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 32
     },
     {
       "id": "114d72b901a98cf6ddcb",
@@ -1601,6 +1521,86 @@
       ],
       "sourceCount": 1,
       "trendScore": 10
+    },
+    {
+      "id": "028c50944abfc8662cf8",
+      "title": "Japan's Video Game Rankings, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
+      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
+      "publishedAt": "2026-11-10T07:53:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 9
+    },
+    {
+      "id": "a57ec6adb16660726d41",
+      "title": "Japanese Animation TV Ranking, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
+      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+      "publishedAt": "2026-11-10T07:52:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 9
+    },
+    {
+      "id": "345ed8ca57197b8ffec0",
+      "title": "Kyūgō's Monster in Sheep's Clothing BL Manga Gets Live-Action Film",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/kyugo-monster-in-sheep-clothing-bl-manga-gets-live-action-film/.243671",
+      "summary": "Nobuyuki Suzuki, Bullet Train boy group's Haru Kashiwagi star in film opening on December 11",
+      "publishedAt": "2026-11-10T06:48:44.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 9
+    },
+    {
+      "id": "110e2428d8a27c6aebfe",
+      "title": "Vinland Saga Creator Makoto Yukimura Addresses Comments on AI Imagery",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-09/vinland-saga-creator-makoto-yukimura-addresses-comments-on-ai-imagery/.243647",
+      "summary": "Yukimura: “AI steals art, and I'm in trouble if AI develops too much. The reason why we are in trouble is because AI does a good job to some extent. It's just a fact. It is not an affirmation.”",
+      "publishedAt": "2026-11-10T04:59:00.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 8
+    },
+    {
+      "id": "b945c577460543953867",
+      "title": "Web Manga 'Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai' Gets TV Anime in 2027",
+      "url": "https://myanimelist.net/news/74923434?_location=rss",
+      "summary": "Publishing company Manga Box announced a television anime adaptation of Izumi and Mitsuya Otosu's Ore no Shibou Flag ga Todomaru Tokoro wo Shiranai (My Death Flags Show No Sign of Ending) web manga on Tuesday, revealing an announcement visual (pictured above). Otosu also drew an illustration to commemorate the announcement (pictured right). The anime series will premiere in 2027. Otosu began serializing the manga adaptation of Izumi's adventure fantasy light novel on the Manga Box web...",
+      "publishedAt": "2026-11-10T03:58:55.000Z",
+      "source": "MyAnimeList News",
+      "sourceId": "myanimelist",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "MyAnimeList News"
+      ],
+      "sourceCount": 1,
+      "trendScore": 8
     }
   ],
   "sources": [
