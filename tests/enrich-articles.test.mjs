@@ -126,3 +126,19 @@ test("ignore les liens intermédiaires Google vers une destination non sûre", a
   ), "https://news.google.com/rss/articles/example");
   assert.equal(resolved, null);
 });
+
+
+test("ne considère jamais gstatic comme le média éditeur", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response("<html><body>Intermediate Google page</body></html>", {
+    status: 200, headers: { "content-type": "text/html" }
+  }), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, null);
+});
+
+test("ignore les liens Google infrastructure et continue vers un lien éditeur", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(
+    '<html><body><a href="https://www.gstatic.com/redirect">Google</a><a href="https://publisher.example/article">Publisher</a></body></html>',
+    { status: 200, headers: { "content-type": "text/html" } }
+  ), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, "https://publisher.example/article");
+});
