@@ -129,10 +129,13 @@ function renderNews() {
   }
   $("news-list").innerHTML = filtered.map(item => {
     const sourceNames = item.sources || (item.source ? [item.source] : []);
-    return '<article class="news-card">' +
-      '<div class="meta">' + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
+    const level = item.trendLevel || ((item.trendScore ?? 0) >= 75 ? "spectaculaire" : (item.trendScore ?? 0) >= 50 ? "hausse" : "surveillance");
+    const levelLabel = level === "spectaculaire" ? '<span class="trend-badge trend-badge-hot">✦ À NE PAS MANQUER</span>' : level === "hausse" ? '<span class="trend-badge trend-badge-up">↗ EN HAUSSE</span>' : '<span class="trend-badge trend-badge-watch">À SURVEILLER</span>';
+    const cardClass = level === "spectaculaire" ? "news-card is-spectacular" : level === "hausse" ? "news-card is-rising" : "news-card";
+    return '<article class="' + cardClass + '" data-trend-level="' + escapeHtml(level) + '">' +
+      '<div class="meta">' + levelLabel + " " + escapeHtml(sourceNames.join(", ") || "Source") + " · " +
       escapeHtml(dateLabel(item.publishedAt)) + " · " + (item.sourceCount || 1) +
-      " source(s) · score " + (item.trendScore ?? "—") + "</div>" +
+      " source(s) indépendantes · score " + (item.trendScore ?? "—") + "/100</div>" +
       "<h3>" + escapeHtml(item.title) + "</h3>" +
       '<p class="summary">' + escapeHtml(item.summary || "La source ne fournit pas de résumé exploitable. Consulte l’article original avant de rédiger.") + "</p>" +
       '<div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
