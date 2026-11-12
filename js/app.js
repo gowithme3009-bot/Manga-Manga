@@ -856,7 +856,7 @@ $("preview-draft").addEventListener("click", () => {
   $("editor-preview").classList.remove("hidden");
   signalStep(4, "Étape 4/4 · Aperçu prêt", "Relisez le rendu Facebook. La publication reste entièrement manuelle.");
 });
-$("copy-ai-prompt").addEventListener("click", async () => {
+$("copy-ai-prompt")?.addEventListener("click", async () => {
   const selectedId = $("story-select").value;
   const item = state.items.find(entry => entry.id === selectedId);
   const savedDraft = state.editingDraftId
