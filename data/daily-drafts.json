@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:56:42.246Z",
+  "generatedAt": "2026-11-12T08:57:09.311Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 15,
@@ -11,6 +11,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -21,16 +24,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre indique que Shueisha, le grand éditeur de mangas, prévoit de sortir « Nightmare Operator », un jeu de tir à la première personne au ton horrifique, mêlant des combos de type versus fighting. Aucun détail supplémentaire n’est fourni dans le flux RSS.\n\nPour l’instant, les informations restent limitées à ce titre. Nous attendons davantage de précisions sur le gameplay, les développeurs impliqués et la date de sortie.\n\nQuestion à la communauté : Que pensez‑vous de l’idée d’un TPS horror signé Shueisha ?",
-      "hashtags": "#Manga,#Shueisha,#JeuxVidéo,#Horror",
+      "text": "Shueisha vient d'annoncer le développement d'un nouveau jeu intitulé *Nightmare Operator*. Selon le titre, il s'agirait d'un jeu de tir à la troisième personne mêlant horreur et combos de versus fighting. Les informations précises sur le gameplay et la date de sortie restent à confirmer dans l'article original.\n\nQuestion à la communauté : Qu’attendez‑vous de ce nouveau projet de Shueisha ?",
+      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVideo",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Vérifier le contenu de l’article original pour confirmer le type de jeu, les développeurs, la date de sortie et tout autre détail. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Vérifier que le jeu est bien décrit comme un TPS horrifique avec des combos de versus fighting et confirmer les détails (genre, mécaniques, date éventuelle). Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
-      "aiTitle": "Shueisha annonce un nouveau projet de jeu horror‑TPS",
-      "aiCommunityQuestion": "Que pensez‑vous de l’idée d’un TPS horror signé Shueisha ?",
-      "aiVerificationNotes": "Le résumé est absent. Vérifier le contenu de l’article original pour confirmer le type de jeu, les développeurs, la date de sortie et tout autre détail."
+      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique",
+      "aiCommunityQuestion": "Qu’attendez‑vous de ce nouveau projet de Shueisha ?",
+      "aiVerificationNotes": "Le résumé est absent. Vérifier que le jeu est bien décrit comme un TPS horrifique avec des combos de versus fighting et confirmer les détails (genre, mécaniques, date éventuelle)."
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -38,6 +41,9 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleContentRetrieved": true,
+      "summaryOrigin": "metadata_article_original",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -48,16 +54,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre signale qu’un fervent défenseur du manga vient de disparaître ou de se retirer, laissant le milieu orphelin de son soutien. Aucun autre élément n’est fourni dans le flux RSS.\n\nNous ne disposons pas d’informations supplémentaires sur l’identité de la personne, son rôle ou les conséquences de son absence.\n\nQuestion à la communauté : Quel impact pensez‑vous qu’un tel défenseur peut avoir sur le secteur du manga ?",
-      "hashtags": "#Manga,#Culture,#Actualité",
+      "text": "Un article signale la perte d’un fervent défenseur du manga, laissant le milieu sans l’un de ses soutiens les plus engagés. Les raisons de cet éloignement et les conséquences pour la communauté restent à préciser dans le texte complet.\n\nQuestion à la communauté : Quel impact pensez‑vous que cette perte aura sur le milieu du manga ?",
+      "hashtags": "#Manga,#Communauté,#Défenseur",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Le résumé RSS n’est pas l’article complet : ouvrir la source et contrôler les faits, noms et dates. Le résumé ne contient aucune information concrète. Lire l’article complet pour identifier la personne concernée, son rôle et les réactions du secteur. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Le résumé fourni ne contient aucune information concrète. Il faut lire l'article original pour connaître l'identité du défenseur, les circonstances de son départ et les réactions du secteur. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
-      "aiTitle": "Le monde du manga privé d’un défenseur passionné",
-      "aiCommunityQuestion": "Quel impact pensez‑vous qu’un tel défenseur peut avoir sur le secteur du manga ?",
-      "aiVerificationNotes": "Le résumé ne contient aucune information concrète. Lire l’article complet pour identifier la personne concernée, son rôle et les réactions du secteur."
+      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiTitle": "Le monde du manga privé d’un de ses défenseurs",
+      "aiCommunityQuestion": "Quel impact pensez‑vous que cette perte aura sur le milieu du manga ?",
+      "aiVerificationNotes": "Le résumé fourni ne contient aucune information concrète. Il faut lire l'article original pour connaître l'identité du défenseur, les circonstances de son départ et les réactions du secteur."
     },
     {
       "id": "86324f10058b4807aacb",
@@ -65,6 +71,9 @@
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "articleContentRetrieved": true,
+      "summaryOrigin": "metadata_article_original",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -75,16 +84,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre suggère une réflexion sur l’évolution du manga vers une « âge de raison », possiblement en abordant des thèmes plus matures ou une nouvelle direction artistique. Aucun détail supplémentaire n’est présent dans le flux RSS.\n\nIl faut attendre le texte complet pour connaître les arguments avancés et les exemples cités.\n\nQuestion à la communauté : Pensez‑vous que le manga évolue vers des récits plus adultes ?",
-      "hashtags": "#Manga,#Évolution,#Culture",
+      "text": "Un titre d'article interroge la possible maturité croissante du manga, suggérant qu'il pourrait atteindre un « âge de raison ». Les arguments avancés, les exemples cités et les conclusions de l'auteur ne sont pas détaillés dans le résumé disponible.\n\nQuestion à la communauté : Pensez‑vous que le manga entre dans une phase plus mature aujourd’hui ?",
+      "hashtags": "#Manga,#Maturité,#Culture",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Le résumé RSS n’est pas l’article complet : ouvrir la source et contrôler les faits, noms et dates. Le résumé est vide. Vérifier l’article original pour connaître le point de vue de l’auteur, les références précises et les conclusions tirées. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Le résumé est générique et ne reflète pas le contenu réel. Vérifier le texte complet pour identifier les points de vue présentés et les preuves éventuelles. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
-      "aiTitle": "Manga : vers une maturité nouvelle ?",
-      "aiCommunityQuestion": "Pensez‑vous que le manga évolue vers des récits plus adultes ?",
-      "aiVerificationNotes": "Le résumé est vide. Vérifier l’article original pour connaître le point de vue de l’auteur, les références précises et les conclusions tirées."
+      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiTitle": "Manga : enfin l'âge de raison ?",
+      "aiCommunityQuestion": "Pensez‑vous que le manga entre dans une phase plus mature aujourd’hui ?",
+      "aiVerificationNotes": "Le résumé est générique et ne reflète pas le contenu réel. Vérifier le texte complet pour identifier les points de vue présentés et les preuves éventuelles."
     },
     {
       "id": "19d719a8a2297963f687",
@@ -92,6 +101,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -102,16 +114,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre indique que Yuki Kodama, l’autrice du manga « Kids on the Slope », explique qu’elle aime créer des personnages opposés qui finissent par se rapprocher. Aucun autre extrait n’est fourni.\n\nPour plus de contexte sur ses méthodes d’écriture et les exemples concrets, il faut consulter l’article complet.\n\nQuestion à la communauté : Aimez‑vous les histoires où des personnages très différents finissent par s’unir ?",
-      "hashtags": "#Manga,#YukiKodama,#Écriture",
+      "text": "Yuki Kodama, l’autrice du manga *Kids on the Slope*, aurait déclaré aimer « faire en sorte que les personnages opposés s’attirent et se rapprochent ». L’interview complète pourrait apporter plus de contexte sur sa démarche créative et les exemples concrets qu’elle cite.\n\nQuestion à la communauté : Quel duo de personnages vous a le plus marqué dans ses œuvres ?",
+      "hashtags": "#YukiKodama,#KidsOnTheSlope,#Manga",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des seules données du flux RSS. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé est absent. Lire l’article original pour confirmer les citations exactes, le contexte de l’interview et tout autre détail pertinent. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Aucun extrait détaillé n’est fourni. Confirmer dans l’article original la citation exacte, le contexte de l’interview et les éventuels exemples de personnages mentionnés. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
-      "aiTitle": "Yuki Kodama parle de la dynamique entre ses personnages",
-      "aiCommunityQuestion": "Aimez‑vous les histoires où des personnages très différents finissent par s’unir ?",
-      "aiVerificationNotes": "Le résumé est absent. Lire l’article original pour confirmer les citations exactes, le contexte de l’interview et tout autre détail pertinent."
+      "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
+      "aiTitle": "Yuki Kodama explique sa fascination pour les personnages opposés",
+      "aiCommunityQuestion": "Quel duo de personnages vous a le plus marqué dans ses œuvres ?",
+      "aiVerificationNotes": "Aucun extrait détaillé n’est fourni. Confirmer dans l’article original la citation exacte, le contexte de l’interview et les éventuels exemples de personnages mentionnés."
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -119,6 +131,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -140,6 +155,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -161,6 +179,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -182,6 +203,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -203,6 +227,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -224,6 +251,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -245,6 +275,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -266,6 +299,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -287,6 +323,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -308,6 +347,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -329,6 +371,9 @@
       "summary": "",
       "language": "fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
+      "articleContentRetrieved": false,
+      "summaryOrigin": "rss",
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
@@ -349,6 +394,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "9 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T08:56:54.788Z",
+  "aiGeneratedAt": "2026-11-12T08:57:23.021Z",
   "aiModel": "openai/gpt-oss-120b"
 }
