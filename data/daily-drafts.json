@@ -1,10 +1,31 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T07:19:57.460Z",
+  "generatedAt": "2026-11-12T07:37:13.712Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 12,
+  "eligibleCount": 13,
   "items": [
+    {
+      "id": "fbf8816caf62308cf589",
+      "title": "Le monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien",
+      "summary": "",
+      "language": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T07:16:42.000Z",
+      "freshnessHours": 0,
+      "trendScore": 59,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
+    },
     {
       "id": "86324f10058b4807aacb",
       "title": "Manga : enfin l'âge de raison ? - La Libre.be",
@@ -16,11 +37,15 @@
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "freshnessHours": 2,
-      "trendScore": 56,
-      "text": "Manga : enfin l'âge de raison ? - La Libre.be\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
+      "trendScore": 55,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nManga : enfin l'âge de raison ? - La Libre.be\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -34,10 +59,14 @@
       "publishedAt": "2026-11-11T17:45:01.000Z",
       "freshnessHours": 14,
       "trendScore": 34,
-      "text": "Le manga Shinimodori no Mahou adapté en anime - Adala News\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe manga Shinimodori no Mahou adapté en anime - Adala News\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -51,10 +80,14 @@
       "publishedAt": "2026-11-11T17:16:24.000Z",
       "freshnessHours": 14,
       "trendScore": 33,
-      "text": "Le manga L’Oxalis et l’Or adapté en anime - Adala News\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe manga L’Oxalis et l’Or adapté en anime - Adala News\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiekFVX3lxTFBJeFJHa09zVVBxZ3pBYXdUUXZ3OWpzWDNLZWJXXzB2TXdibDJETXpkWlpEcUY5akRXV1hNMmlURTlkcjJqSTBSMF9qeHBkeENqTmxhWjkzRlJvcXduTTU5NGhQTi1vdTNyNXR6dEU3azBpd2FLLU1XZFdn?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -68,10 +101,14 @@
       "publishedAt": "2026-11-11T16:12:02.000Z",
       "freshnessHours": 15,
       "trendScore": 32,
-      "text": "Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nArt to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "d4fe726783d4776f5a5f",
@@ -83,12 +120,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
-      "text": "Anime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 - Manga news\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
+      "freshnessHours": 16,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life - Episode #6 - Tu ne feras jamais le poids, petite… Peut-être, mais je suis Lily Flambert !, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirAJBVV95cUxQaUFBN3hwVnJmMW9HMk5DY2luUXdvV1Nuai1ZWldjWGZ6LUQ4UFBmaGp1UDFYdHN6a2U1VTA3dWwxUndJZ09QejZRb2ZEZ3ZqTzFZRERxRlFfV0Qwa2JLRXBTbDgyUXliZHMyM2c2X29ZZ1hIcndRWEdnNXJTc2xJU1hIMVBfemJBRWNtYU9zdTl5NHI2ZVUtSm05R2pNeXFwMUFUNUV2YTd6bnVSakJVTFNPelNtTFJpdXRHcFBGdmFyVVhPLVhxRjNyLXJfQmY1WTgwRkJMUVZlWHJJRTJsS3RsM1kwaTFicjdrazBFM0NTMXE3VVE0R214R3ZuN1ZMdzlVU1lCbmJ4cXFneWpnbVg5LXAyWWZURExrQmROYlVLWUJ0aFltUGlTaEU?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "696f041b3780c8d75107",
@@ -100,12 +141,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
-      "text": "Anime - Super Psychic Policeman Chojo - Episode #6 - Le Policier et le Festival, 11 Novembre 2026 - Manga news\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
+      "freshnessHours": 16,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Super Psychic Policeman Chojo - Episode #6 - Le Policier et le Festival, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMixAFBVV95cUxONnNsSXhrcWJQb3QySFZHanlZeGFpUXFKZlFnUExCQXpqX0FnT3hyT1hzME1JRVo2LWJ5TDBaZFJNZUlkV1BOY3V1YVE0Zk1mcGxwQUluVlpsV1BmRXNQRWduOHFXUDFNcEVDYjQtRVdrdktzYnpVeFFpa1RfTDZoS0RidHN2bmhwWnN4dHZiajNFR283aUhjb3FIVmQ5TUQwczdjR21SRURkei05dWRUVU5CbjJCUWVCM3NwLXRyNmpaeU41?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "26d24462220b60baf0f5",
@@ -117,12 +162,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
-      "text": "Anime - Suikoden: The Anime - Episode #6 -, 11 Novembre 2026 - Manga news\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
+      "freshnessHours": 16,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Suikoden: The Anime - Episode #6 -, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdSNEFlLVloQUR4dV9VbXloaF9naXN0RmxTSmRVT2laeFROUm5tNVNHaXlPclE0eFpyM0VRa2JtR1REenZHLWVNWndqV2xzaVlrZkhhdzdpaGNfYzkwd1l5NE1mcEtKLWxPNVJsb1dvV1ZIRmVRMmtFbXh0WkZXWmVzVm1pWEtYQnVSNVZNNXhrSEtE?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "1685ca711a1a43de9122",
@@ -134,12 +183,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
-      "text": "Anime - Nia Liston : The Merciless Maiden - Episode #6 -, 11 Novembre 2026 - Manga news\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
+      "freshnessHours": 16,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAnime - Nia Liston : The Merciless Maiden - Episode #6 -, 11 Novembre 2026 - Manga news\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMipwFBVV95cUxPZUJpVkttRjdRU0hxcHo4Y1JVQTM1VS1KQjBMVnNyZ1EyT2dfVm1OZWE1aGVIcmUxQTY4Vko2clBqVERia21ibHk2cldqZFRtWlFPN0hXWmhkc3d4Nk5BbG11UVJneGt6OTRBUHNTYTVyQmswYW1RLVlrNk9wNU00aU40MkF3ZGJWSzFTd1pMQ1ZhOEkyeUlWb0lFdFpyRHlwbWdNOGJLQQ?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "c1dbf00658ebf329751c",
@@ -152,11 +205,15 @@
       ],
       "publishedAt": "2026-11-11T15:17:39.000Z",
       "freshnessHours": 16,
-      "trendScore": 31,
-      "text": "Parc manga de Cergy visé par un recours - DB-Z.com\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "trendScore": 30,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nParc manga de Cergy visé par un recours - DB-Z.com\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "4144e983326ec39abb67",
@@ -169,11 +226,15 @@
       ],
       "publishedAt": "2026-11-11T15:12:04.000Z",
       "freshnessHours": 16,
-      "trendScore": 31,
-      "text": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
+      "trendScore": 30,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -187,10 +248,14 @@
       "publishedAt": "2026-11-11T11:11:07.000Z",
       "freshnessHours": 20,
       "trendScore": 26,
-      "text": "Avion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nAvion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "a128e1fff278ea9ff5b9",
@@ -204,14 +269,19 @@
       "publishedAt": "2026-11-11T10:44:00.000Z",
       "freshnessHours": 21,
       "trendScore": 25,
-      "text": "Disparition de Frédéric Boilet, défenseur d'un manga d'auteur - Livres Hebdo\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nDisparition de Frédéric Boilet, défenseur d'un manga d'auteur - Livres Hebdo\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
-      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     }
   ],
   "warnings": [
-    "10 actualité(s) de plus de 24 heures écartée(s) des propositions du jour.",
-    "1 résultat(s) manifestement hors sujet écarté(s) de la recherche manga/anime."
+    "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
+    "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
+    "10 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ]
 }
