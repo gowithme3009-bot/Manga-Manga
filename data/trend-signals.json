@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:26:24.655Z",
+  "generatedAt": "2026-11-12T10:28:52.578Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:26:24.655Z",
+    "refreshedAt": "2026-11-12T10:28:52.578Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -2753,7 +2753,7 @@
         "Xưởng Phép Thuật",
         "Ателье колдовских колпаков"
       ],
-      "popularity": 239006,
+      "popularity": 239239,
       "trending": 14,
       "format": "ONA",
       "genres": [
@@ -4829,7 +4829,7 @@
         "天獄で悪魔がボクを魅惑する",
         "The Devil Fascinates Me in Heavenly Prison."
       ],
-      "popularity": 3198,
+      "popularity": 3206,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -6789,7 +6789,7 @@
         "학생회에도 구멍은 있다!",
         "สภานักเรียนฉบับรั่ว!"
       ],
-      "popularity": 10391,
+      "popularity": 10414,
       "trending": 8,
       "format": "MANGA",
       "genres": [
@@ -10292,7 +10292,7 @@
         "MARRIAGETOXIN",
         "매리지 톡신"
       ],
-      "popularity": 20744,
+      "popularity": 20753,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -12204,7 +12204,7 @@
         "Mariés sous conditions",
         "Bianca – Ehe ohne Liebe"
       ],
-      "popularity": 13396,
+      "popularity": 13407,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13398,7 +13398,7 @@
         "在超市后门吸烟的二人",
         "슈퍼 뒤에서 담배 피우는 두 사람"
       ],
-      "popularity": 45675,
+      "popularity": 45706,
       "trending": 4,
       "format": "MANGA",
       "genres": [
@@ -14519,7 +14519,7 @@
         "I Get An All-career Experience System",
         "I Randomly Have a New Career Every Week"
       ],
-      "popularity": 2228,
+      "popularity": 2231,
       "trending": 4,
       "format": "MANGA",
       "genres": [
