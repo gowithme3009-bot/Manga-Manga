@@ -93,6 +93,7 @@ export function rankItems(items, now = Date.now()) {
     const ageHours=Number.isFinite(published)?Math.max(0,(now-published)/3600000):720;
     const freshness=60*Math.exp(-ageHours/24);
     item.trendScore=Math.round(freshness + Math.min(item.sourceCount-1,4)*10);
+    item.trendLevel = item.trendScore >= 75 ? "spectaculaire" : item.trendScore >= 50 ? "hausse" : "surveillance";
     return item;
   }).sort((a,b)=>b.trendScore-a.trendScore || (Date.parse(b.publishedAt||0)-Date.parse(a.publishedAt||0)));
 }
