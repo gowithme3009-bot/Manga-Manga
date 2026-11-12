@@ -8,6 +8,14 @@ test("analyse le JSON et ignore les identifiants inconnus",()=>{
   {id:"other",editorialTitle:"Intrus",body:"Texte"}]}),candidates);
  assert.equal(result.size,1);assert.equal(result.has("one"),true);assert.equal(result.has("other"),false);
 });
+test("remplace les questions IA par une question neutre sans supposition",()=>{
+ const candidate={id:"neutral",title:"Welsh & Shedar Anime Launches Webtoon",summary:"Ankama announced a 12-episode webtoon adaptation."};
+ const parsed=new Map([["neutral",{editorialTitle:"Welsh & Shedar : lancement d’un webtoon",body:"Ankama annonce un webtoon de 12 épisodes.",communityQuestion:"Que pensez-vous du passage de l’anime au webtoon ?",hashtags:"#Webtoon",verificationNotes:"Vérifier."}]]);
+ const result=applyAiDrafts({items:[candidate]},parsed,"model");
+ assert.equal(result.items[0].aiCommunityQuestion,"Que pensez-vous de cette actualité ?");
+ assert.doesNotMatch(result.items[0].text,/passage de l’anime au webtoon/i);
+});
+
 test("aucun texte IA n’est déclaré prêt à publier",()=>{
  const parsed=parseAiResponse(JSON.stringify({items:[
   {id:"one",editorialTitle:"Adaptation annoncée",body:"Le résumé annonce une adaptation.",communityQuestion:"Votre avis ?",hashtags:"#Manga",verificationNotes:"Vérifier."},
