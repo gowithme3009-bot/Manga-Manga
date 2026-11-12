@@ -52,8 +52,10 @@ Branche : `manga-manga-v1-work`
 ## 7. Tests, diagnostics et documentation — EN COURS
 - Tests Node.js pour le parsing RSS/Atom, le nettoyage des extraits, les limites réseau, le dédoublonnage et les propositions.
 - GitHub Actions exécute les tests avant chaque collecte.
-- Aucun déploiement GitHub Pages ou Cloudflare n'a été lancé.
-- Étapes restantes : tests navigateur mobile/desktop, audit accessibilité, tests de persistance et vérification complète de tous les flux.
+- Le site est servi via GitHub Pages depuis la branche de travail ; l'utilisateur a confirmé son ouverture sur Android et la conservation d'un brouillon après fermeture puis réouverture du navigateur.
+- Le statut final de la dernière génération GitHub Pages doit être vérifié séparément dans Actions ; les annulations des générations précédentes ne sont pas des échecs du code.
+- Aucun déploiement Cloudflare n'a été lancé.
+- Étapes restantes : vérification visuelle complète sur plusieurs tailles d'écran, audit accessibilité et contrôle régulier de la qualité des flux.
 
 ## Garde-fous
 - `main` reste inchangée.
