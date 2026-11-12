@@ -9,8 +9,9 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 ## Fonctions déjà amorcées
 
 - Interface responsive en français.
-- Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.
-- Catalogue AniList actualisé à chaque collecte : 300 entrées maximum (150 anime + 150 manga), titres japonais/romaji/anglais, alias, genres et liens cliquables vers les fiches officielles AniList. Recherche intégrée dans le catalogue.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon ; le flux Madagascar n’est pas disponible dans cette collecte) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
+- Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et les médias directs indépendants ; les agrégateurs Google Actualités ne gonflent pas le nombre de sources directes.
+- Reconnaissance des titres manga/anime cités dans les titres et résumés RSS, avec liens vers les articles et décompte distinct des médias directs ; ces mentions éditoriales restent séparées des signaux de recherche.
+- Catalogue AniList actualisé à chaque collecte : jusqu'à 600 entrées (300 anime + 300 manga), titres japonais/romaji/anglais, alias, genres et liens cliquables vers les fiches officielles AniList. Recherche intégrée dans le catalogue.\n- Détection complémentaire des recherches publiques Google Trends (France, Japon ; le flux Madagascar n’est pas disponible dans cette collecte) rapprochées des titres et alias anime/manga du catalogue public AniList ; les signaux de recherche restent séparés des actualités et ne génèrent pas de brouillons seuls.
 - Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
 - Brouillons enregistrés dans le stockage local du navigateur, conservés après rechargement, modifiables après sauvegarde, prévisualisables et exportables avec une seule action « Exporter mes brouillons ».
 - Contrôles automatisés du stockage : relecture après sauvegarde, données corrompues préservées et échec de quota signalé.
@@ -23,7 +24,7 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Aucun jeton Facebook ou clé IA dans le navigateur ou le dépôt.
 - Aucun appel à l'API Facebook et aucune publication automatique.
 - Les neuf flux actuellement configurés sont activés et contrôlés à chaque collecte. Vérifier les statuts du dernier cycle dans l’interface ; un statut HTTP « ok » confirme la récupération du flux, pas l’exactitude de chaque article. Google Actualités est un agrégateur : ouvrir et vérifier l’article du média d’origine avant rédaction.
-- Le score de tendance éditorial RSS est un indicateur technique, pas une mesure officielle de popularité. Les signaux Google Trends sont des recherches agrégées publiques par région et volumes estimés ; ils ne mesurent ni les clics privés ni les recherches de tous les utilisateurs.
+- Le score de tendance éditorial RSS est un indicateur de fraîcheur et de couverture par médias directs indépendants, pas une mesure de croissance des clics ni une mesure officielle de popularité. Un article isolé reste « à surveiller » ; les niveaux multi-sources exigent plusieurs médias directs. Les signaux Google Trends sont des recherches agrégées publiques par région et volumes estimés ; ils ne mesurent ni les clics privés ni les recherches de tous les utilisateurs.
 - Le catalogue AniList sert à reconnaître les titres et variantes, pas à mesurer leur popularité. L’API publique peut être limitée ou temporairement indisponible.
 - Les réseaux sociaux ne sont pas encore connectés : Facebook, Instagram, TikTok et YouTube ne sont pas surveillés par clics privés. Une intégration ultérieure nécessitera des API publiques/autorisées et, selon la plateforme, des clés ou validations.
 - Les brouillons restent dans le stockage local de l'appareil ; exporter régulièrement les brouillons pour les sauvegarder.
