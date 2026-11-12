@@ -148,17 +148,35 @@ function renderDrafts() {
   $("draft-list").innerHTML = (proposedHtml + savedHtml) ||
     '<p class="muted">Aucune proposition disponible. Le radar attend des actualités françaises avec source vérifiable.</p>';
 }
-function confirmDiscardActiveDraft() {
+function getActiveDraftChanges() {
   const activeDraft = state.editingDraftId
     ? state.drafts.find(draft => draft.id === state.editingDraftId)
     : null;
-  if (!activeDraft) return true;
+  if (!activeDraft) return null;
+  return {
+    activeDraft,
+    changed: $("draft-title").value !== activeDraft.title ||
+      $("draft-body").value !== activeDraft.body ||
+      $("draft-tags").value !== (activeDraft.hashtags || "")
+  };
+}
+
+function confirmDiscardActiveDraft() {
+  const current = getActiveDraftChanges();
+  if (!current || !current.changed) return true;
   if (window.confirm(
-    "Tu modifies un brouillon enregistré. Ouvrir un autre contenu abandonnera les modifications non enregistrées. Continuer ?"
+    "Tu as des modifications non enregistrées. Changer de contenu les abandonnera. Continuer ?"
   )) return true;
-  $("story-select").value = activeDraft.sourceId;
+  $("story-select").value = current.activeDraft.sourceId;
   return false;
 }
+
+window.addEventListener("beforeunload", event => {
+  const current = getActiveDraftChanges();
+  if (!current || !current.changed) return;
+  event.preventDefault();
+  event.returnValue = "";
+});
 
 function fillEditor(item) {
   state.editingDraftId = null;
