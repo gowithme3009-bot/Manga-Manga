@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:29:13.121Z",
+  "generatedAt": "2026-11-12T10:30:47.027Z",
   "items": [
     {
       "id": "caa5ca3faa63349f9d96",
@@ -54,13 +54,13 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 59,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
         "status": "original_page_unavailable",
         "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.gstatic.com/"
+        "checkedUrl": "https://www.google-analytics.com/analytics.js"
       },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
@@ -189,7 +189,7 @@
       "sourceVerification": {
         "status": "original_page_unavailable",
         "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.gstatic.com/"
+        "checkedUrl": "https://www.google-analytics.com/analytics.js"
       },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
@@ -220,7 +220,7 @@
       "sourceVerification": {
         "status": "original_page_unavailable",
         "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.gstatic.com/"
+        "checkedUrl": "https://www.google-analytics.com/analytics.js"
       },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
@@ -313,7 +313,7 @@
       "sourceVerification": {
         "status": "original_page_unavailable",
         "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.gstatic.com/"
+        "checkedUrl": "https://www.google-analytics.com/analytics.js"
       },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
@@ -344,7 +344,7 @@
       "sourceVerification": {
         "status": "original_page_unavailable",
         "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.gstatic.com/"
+        "checkedUrl": "https://www.google-analytics.com/analytics.js"
       },
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
@@ -554,7 +554,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 40,
+      "trendScore": 39,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2628,7 +2628,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 47
+      "items": 49
     },
     {
       "id": "anime-corner",

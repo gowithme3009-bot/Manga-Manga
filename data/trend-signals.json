@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:29:19.884Z",
+  "generatedAt": "2026-11-12T10:30:53.178Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:29:19.884Z",
+    "refreshedAt": "2026-11-12T10:30:53.178Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -6068,7 +6068,7 @@
         "Mushoku Tensei II: Reencarnación desde cero",
         "无职转生～到了异世界就拿出真本事～第2季"
       ],
-      "popularity": 273740,
+      "popularity": 273872,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -6159,7 +6159,7 @@
         "歡迎來到實力至上主義的教室 第三季",
         "Cote 3"
       ],
-      "popularity": 194730,
+      "popularity": 194808,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -7793,7 +7793,7 @@
         "JoJo no Kimyou na Bouken Part 6 (Part 2)",
         "JoJo's Bizarre Adventure: STONE OCEAN The Final Episodes"
       ],
-      "popularity": 129606,
+      "popularity": 129671,
       "trending": 7,
       "format": "ONA",
       "genres": [
@@ -8996,7 +8996,7 @@
         "歡迎來到實力至上主義的教室 第二季",
         "فصل النخبة الموسم الثاني"
       ],
-      "popularity": 268281,
+      "popularity": 268381,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -9431,6 +9431,30 @@
       "url": "https://anilist.co/manga/30012"
     },
     {
+      "id": "anime-146493",
+      "name": "Ragna Crimson",
+      "nativeTitle": "ラグナクリムゾン",
+      "romajiTitle": "Ragna Crimson",
+      "englishTitle": "Ragna Crimson",
+      "type": "anime",
+      "aliases": [
+        "Ragna Crimson",
+        "ラグナクリムゾン",
+        "ตำนานนักล่ามังกร",
+        "Рагна Багровый"
+      ],
+      "popularity": 118780,
+      "trending": 6,
+      "format": "TV",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mystery"
+      ],
+      "url": "https://anilist.co/anime/146493"
+    },
+    {
       "id": "anime-176508",
       "name": "Shangri-La Frontier Season 2",
       "nativeTitle": "シャングリラ・フロンティア 2nd season",
@@ -9458,30 +9482,6 @@
         "Sci-Fi"
       ],
       "url": "https://anilist.co/anime/176508"
-    },
-    {
-      "id": "anime-146493",
-      "name": "Ragna Crimson",
-      "nativeTitle": "ラグナクリムゾン",
-      "romajiTitle": "Ragna Crimson",
-      "englishTitle": "Ragna Crimson",
-      "type": "anime",
-      "aliases": [
-        "Ragna Crimson",
-        "ラグナクリムゾン",
-        "ตำนานนักล่ามังกร",
-        "Рагна Багровый"
-      ],
-      "popularity": 118717,
-      "trending": 6,
-      "format": "TV",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Mystery"
-      ],
-      "url": "https://anilist.co/anime/146493"
     },
     {
       "id": "anime-182587",
@@ -13747,7 +13747,7 @@
         "英雄归来",
         "การกลับมาของฮีโร่"
       ],
-      "popularity": 16785,
+      "popularity": 16791,
       "trending": 4,
       "format": "MANGA",
       "genres": [
