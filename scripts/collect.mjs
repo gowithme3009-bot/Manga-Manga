@@ -68,12 +68,15 @@ export function parseFeed(xml, source) {
     const url = atom ? href || field(block,"link") : field(block,"link") || href;
     const title = field(block,"title");
     const summary = field(block,"description") || field(block,"summary") || field(block,"content:encoded");
+    const publisherTag = block.match(/<source\\b([^>]*)>([\\s\\S]*?)<\\/source\\s*>/i);
+    const publisherName = publisherTag ? decodeXml(publisherTag[2]) : "";
+    const publisherUrl = publisherTag?.[1]?.match(/url=["']([^"']+)["']/i)?.[1] || "";
     const date = field(block,"pubDate") || field(block,"published") || field(block,"updated") || field(block,"dc:date");
     if (!title || !/^https:\/\//i.test(url)) return null;
     if (source.id === "google-news-fr" && !/\b(manga|mangaka|shonen|shojo|seinen|isekai|webtoon|light novel)\b/i.test(title)) return null;
     const key = crypto.createHash("sha256").update(title.toLocaleLowerCase("fr")).digest("hex").slice(0,20);
     const parsedDate = Date.parse(date);
-    return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,language:source.language||"und",category:"actualité"};
+    return {id:key,title,url,summary:summary.slice(0,1200),publishedAt:Number.isFinite(parsedDate)?new Date(parsedDate).toISOString():null,source:source.name,sourceId:source.id,language:source.language||"und",publisherName:publisherName||null,publisherUrl:/^https:\/\//i.test(publisherUrl)?publisherUrl:null,category:"actualité"};
   }).filter(Boolean);
 }
 export function rankItems(items, now = Date.now()) {
