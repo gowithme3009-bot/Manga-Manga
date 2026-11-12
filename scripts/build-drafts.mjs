@@ -145,12 +145,12 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   const ordered = [...firstPass, ...candidates.filter(candidate => !chosenIds.has(candidate.id))].slice(0, 40);
   const warnings = [];
   if (candidates.length < 4) {
-    warnings.push("Moins de quatre actualités récentes, datées et en français sont disponibles. Aucun sujet ne sera inventé.");
+    warnings.push("Moins de quatre actualités récentes, datées et disposant d’une source exploitable pour une rédaction française sont disponibles. Aucun sujet ne sera inventé.");
   }
   if (!candidates.some(candidate => candidate.trendLevel !== "surveillance")) {
     warnings.push("Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.");
   }
-  if (!candidates.some(candidate => candidate.editorialReady)) {
+  if (!candidates.some(candidate => candidate.editorialReady || (candidate.articleContentRetrieved && candidate.summary))) {
     warnings.push("Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.");
   }
   if (staleCount) warnings.push(staleCount + " actualité(s) de plus de 24 heures écartée(s) des propositions du jour.");
