@@ -676,6 +676,8 @@ if (storageIssues.size) {
 renderDrafts();
 loadRadar();
 loadDailyCandidates();
+// Vérifier périodiquement les nouvelles tendances lorsque le tableau de bord reste ouvert.
+setInterval(loadRadar, 10 * 60 * 1000);
 
 
 $("enable-trend-notifications")?.addEventListener("click", async () => {
