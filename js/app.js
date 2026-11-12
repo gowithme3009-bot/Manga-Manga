@@ -320,7 +320,19 @@ $("search").addEventListener("input", renderNews);
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
   const item = state.items.find(entry => entry.id === $("story-select").value);
-  if (item) fillEditor(item);
+  if (!item) return;
+
+  const activeDraft = state.editingDraftId
+    ? state.drafts.find(draft => draft.id === state.editingDraftId)
+    : null;
+  if (activeDraft && !window.confirm(
+    "Tu modifies un brouillon enregistré. Changer d’actualité abandonnera les modifications non enregistrées. Continuer ?"
+  )) {
+    $("story-select").value = activeDraft.sourceId;
+    return;
+  }
+
+  fillEditor(item);
 });
 $("save-draft").addEventListener("click", () => {
   try {
