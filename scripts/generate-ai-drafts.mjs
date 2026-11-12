@@ -9,6 +9,10 @@ const SYSTEM_PROMPT = [
 "Rédige des prépublications Facebook naturelles, claires, vivantes et professionnelles.",
 "Utilise exclusivement les titres et extraits fournis depuis les flux RSS ou les métadonnées des pages originales.",
 "Un extrait enrichi depuis la page originale apporte plus de contexte qu’un titre seul, mais ne représente pas nécessairement l’article complet.",
+"Chaque phrase factuelle doit être directement soutenue par le titre ou l’extrait fourni. Si un détail n’y figure pas, ne l’ajoute pas, même s’il semble connu ou probable.",
+"Ne complète jamais une information par des connaissances générales du modèle. N’ajoute aucun événement, épisode disponible, date de sortie, réaction, intention, lien narratif ou contexte absent des éléments fournis.",
+"Privilégie une rédaction courte et précise plutôt qu’un texte plus long. Une seule information non confirmée suffit à rendre le brouillon incomplet.",
+"Si l’extrait est une interview, attribue les propos à la personne interrogée et ne transforme pas une hypothèse ou une possibilité en annonce officielle.",
 "Si la source originale est en anglais, rédige en français en traduisant fidèlement l’extrait ; conserve les noms propres et titres d’œuvres.",
 "Ne prétends jamais avoir lu l’article intégral. Mentionne dans verificationNotes si l’extrait original est absent ou insuffisant.",
 "Respecte le statut sourceVerification fourni : ne dis jamais qu’une source est vérifiée si son statut ne confirme pas une page originale.",
@@ -17,7 +21,7 @@ const SYSTEM_PROMPT = [
 "Ne transforme jamais un signal de tendance en preuve de popularité ou de viralité. Les scores sont des indicateurs de fraîcheur/couverture, pas des compteurs de clics.",
 "Écris en français, sans ton robotique, sans exagération ni clickbait trompeur. Ne prétends pas avoir lu la source complète.",
 "Retourne exclusivement un objet JSON valide avec une propriété items. Chaque objet contient id, editorialTitle, body, communityQuestion, hashtags, verificationNotes.",
-"editorialTitle : titre court et honnête. body : 2 à 4 courts paragraphes maximum adaptés à Facebook.",
+"editorialTitle : titre court et honnête, sans intensifier l’annonce. body : 1 à 2 courts paragraphes maximum adaptés à Facebook. Chaque phrase doit pouvoir être justifiée par les éléments de la source.",
 "communityQuestion : question simple et pertinente. hashtags : 3 à 5 hashtags pertinents.",
 "verificationNotes : ce qu’un humain doit contrôler avant publication. Aucun brouillon n’est prêt à publier automatiquement."
 ].join("\n");
@@ -48,13 +52,16 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
  const items=(data.items||[]).map(candidate=>{
   const draft=generated.get(String(candidate.id)); if(!draft) return candidate;
   const hasSummary=Boolean(String(candidate.summary||"").trim());
-  const text=[draft.body,draft.communityQuestion?"Question à la communauté : "+draft.communityQuestion:""].filter(Boolean).join("\n\n");
-  return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:draft.editorialTitle,text,
+  const sourceVerified=candidate.sourceVerification?.status==="original_page_excerpt_verified";
+  const safeBody=hasSummary?draft.body:"Sujet repéré : "+String(candidate.title||"Information à vérifier")+".\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.";
+  const safeQuestion=hasSummary?draft.communityQuestion:"Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?";
+  const text=[safeBody,safeQuestion?"Question à la communauté : "+safeQuestion:""].filter(Boolean).join("\n\n");
+  return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:draft.editorialTitle,text,aiSourceStatus:candidate.sourceVerification?.status||"rss_only_unverified",
    hashtags:draft.hashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
    note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
-    candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : ouvrir la source et contrôler les faits, noms et dates.":"Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication.",
-    "Statut de provenance : "+(candidate.sourceVerification?.label||"Source originale non vérifiée")+".",draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
+    candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale.":"Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction.",
+    "Statut de provenance : "+(candidate.sourceVerification?.label||"Source originale non vérifiée")+".",sourceVerified?"Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu.":"La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées.",draft.verificationNotes,"Validation humaine obligatoire. Aucune publication automatique."].join(" ")};
  });
  return {...data,aiGeneratedAt:generatedAt,aiModel:model,items};
 }
@@ -65,7 +72,7 @@ export async function generateAiDrafts({inputPath=path.join(ROOT,"data/daily-dra
  if(!candidates.length) return {skipped:true,reason:"no_candidates"};
  const response=await fetchImpl(API_URL,{method:"POST",headers:{"Authorization":"Bearer "+apiKey,"Content-Type":"application/json"},
   body:JSON.stringify({model,temperature:0.35,max_completion_tokens:4200,response_format:{type:"json_object"},
-   messages:[{role:"system",content:SYSTEM_PROMPT},{role:"user",content:JSON.stringify({instruction:"Rédige une prépublication prudente par sujet. Respecte les identifiants. Le résumé peut être vide.",
+   messages:[{role:"system",content:SYSTEM_PROMPT},{role:"user",content:JSON.stringify({instruction:"Rédige une prépublication Facebook concise et strictement fondée sur les éléments fournis. N’ajoute aucun fait absent du titre ou du résumé. Pour un résumé vide, propose uniquement un texte de préparation, sans information nouvelle. Respecte les identifiants.",
     proposals:candidates.map(x=>({id:String(x.id),title:x.title,summary:x.summary||"",summaryOrigin:x.summaryOrigin||"rss",articleUrl:x.sourceUrl||null,articleContentRetrieved:Boolean(x.articleContentRetrieved),sourceVerification:x.sourceVerification||{status:"rss_only_unverified"},publisherName:x.publisherName||null,sourceLanguage:x.sourceLanguage||"fr",language:"fr",sources:x.sourceNames||[],
      publishedAt:x.publishedAt||null,trendLevel:x.trendLevel||"surveillance",independentSourceCount:x.independentSourceCount||0,trendScore:x.trendScore||0}))})}]}),
   signal:AbortSignal.timeout(60000)});
