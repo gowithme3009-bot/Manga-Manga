@@ -5,7 +5,7 @@ import { readStoredArray, writeStoredArray } from "./storage.js";
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
-const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], radarError: null, generatedImageDataUrl: null, pendingDraftImageDataUrl: null };
 const PREPUBLICATION_CHECKS = [
   { id: "trend", label: "Le sujet est récent et mérite une publication." },
   { id: "source", label: "La source originale est ouverte et le média identifié." },
@@ -199,7 +199,7 @@ function updateGuidedWorkflow() {
   const illustrated = state.drafts.filter(draft => Boolean(draft.imageDataUrl)).length;
   const validated = state.drafts.filter(draft => draft.status === "validé pour prépublication").length;
   const completeChecks = state.drafts.filter(draft => getDraftChecks(draft).every(Boolean)).length;
-  setStep(1, state.items.length ? "ready" : "waiting", state.items.length ? state.items.length + " actualité(s) disponibles dans le radar" : "En attente de la prochaine collecte");
+  setStep(1, state.radarError ? "blocked" : state.items.length ? "ready" : "waiting", state.radarError ? "Radar indisponible : " + state.radarError : state.items.length ? state.items.length + " actualité(s) disponibles dans le radar" : "En attente de la prochaine collecte");
   setStep(2, draftCount ? "ready" : state.candidates.length ? "active" : "waiting", draftCount ? draftCount + " brouillon(s) enregistré(s)" : state.candidates.length ? state.candidates.length + " proposition(s) à examiner" : "Choisis une actualité pour commencer");
   setStep(3, illustrated ? "ready" : draftCount ? "active" : "waiting", illustrated ? illustrated + " visuel(s) associé(s)" : draftCount ? "Ajoute un visuel à ton brouillon" : "Le visuel viendra après le texte");
   setStep(4, validated ? "ready" : completeChecks || draftCount ? "active" : "waiting", validated ? validated + " prépublication(s) validée(s)" : draftCount ? completeChecks + " brouillon(s) avec contrôles terminés" : "Enregistre un brouillon pour commencer les contrôles");
@@ -521,6 +521,7 @@ async function loadRadar() {
     ]);
     if (!newsResponse.ok) throw new Error("Fichier du radar indisponible (HTTP " + newsResponse.status + ")");
     const data = await newsResponse.json();
+    state.radarError = null;
     const config = sourceResponse.ok ? await sourceResponse.json() : { rssSources: [] };
     const collected = new Map((data.sources || []).map(source => [source.id, source]));
     state.items = Array.isArray(data.items) ? data.items : [];
@@ -552,6 +553,8 @@ async function loadRadar() {
     updateNotificationStatus();
     updateCounts();
   } catch (error) {
+    state.radarError = error.message;
+    updateGuidedWorkflow();
     $("home-status").textContent = error.message;
     $("news-list").innerHTML = '<p class="muted">' + escapeHtml(error.message) + "</p>";
     toast(error.message);
