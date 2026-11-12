@@ -338,7 +338,7 @@ function renderSources() {
   ).join("");
 }
 function buildMasterImagePrompt(draft) {
-  const clean = value => String(value || "").replace(/https?:\\/\\/\\S+/g, "").replace(/[#*_]/g, " ").replace(/\\s+/g, " ").trim();
+  const clean = value => String(value || "").replace(/https?:\/\/\S+/g, "").replace(/[#*_]/g, " ").replace(/\s+/g, " ").trim();
   return [
     "Create an original editorial anime illustration for a French manga and anime news Facebook post.",
     "Main subject inspired by this news headline: " + clean(draft.title).slice(0, 180) + ".",
@@ -979,10 +979,10 @@ if (generateImageButton) {
     } finally {
       clearTimeout(timeout);
       generateImageButton.disabled = false;
-      generateImageButton.textContent = "Tester et générer une image";
+      generateImageButton.textContent = "Tester image";
     }
   });
-  $("attach-generated-image").addEventListener("click", () => {
+  $("attach-generated-image")?.addEventListener("click", () => {
     if (!state.generatedImageDataUrl) { toast("Génère d’abord une image."); return; }
     if (state.editingDraftId) {
       const index = state.drafts.findIndex(draft => draft.id === state.editingDraftId);
