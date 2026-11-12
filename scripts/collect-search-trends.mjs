@@ -74,47 +74,56 @@ export function parseGoogleTrendsFeed(xml, country, catalog, now = Date.now()) {
   return signals;
 }
 
-export async function fetchAniListCatalog(fetchImpl = fetch) {
-  const query = `query {
-    anime: Page(page: 1, perPage: 50) {
-      media(type: ANIME, sort: TRENDING_DESC, isAdult: false) {
-        id
-        title { romaji english native }
-        synonyms
-      }
-    }
-    manga: Page(page: 1, perPage: 50) {
-      media(type: MANGA, sort: TRENDING_DESC, isAdult: false) {
-        id
-        title { romaji english native }
-        synonyms
-      }
-    }
-  }`;
-  const response = await timeoutFetch(fetchImpl, ANILIST_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", "Accept": "application/json" },
-    body: JSON.stringify({ query })
-  });
-  if (!response.ok) throw new Error("AniList HTTP " + response.status);
-  const payload = await response.json();
-  if (payload.errors?.length) throw new Error(payload.errors[0].message || "Erreur AniList");
+export async function fetchAniListCatalog(fetchImpl = fetch, pagesPerType = 3) {
   const catalog = [];
-  for (const type of ["anime", "manga"]) {
-    for (const media of payload.data?.[type]?.media || []) {
-      const aliases = [...new Set([
-        media.title?.romaji, media.title?.english, media.title?.native, ...(media.synonyms || [])
-      ].filter(value => typeof value === "string" && value.trim()))];
-      if (!aliases.length) continue;
-      catalog.push({
-        id: type + "-" + media.id,
-        name: media.title?.english || media.title?.romaji || aliases[0],
-        type: type === "anime" ? "anime" : "manga",
-        aliases
+  for (const type of ["ANIME", "MANGA"]) {
+    for (let page = 1; page <= pagesPerType; page += 1) {
+      const query = `query {
+        Page(page: ${page}, perPage: 50) {
+          media(type: ${type}, sort: TRENDING_DESC, isAdult: false) {
+            id
+            title { romaji english native }
+            synonyms
+            popularity
+            trending
+            format
+            genres
+            siteUrl
+          }
+        }
+      }`;
+      const response = await timeoutFetch(fetchImpl, ANILIST_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({ query })
       });
+      if (!response.ok) throw new Error("AniList HTTP " + response.status);
+      const payload = await response.json();
+      if (payload.errors?.length) throw new Error(payload.errors[0].message || "Erreur AniList");
+      for (const media of payload.data?.Page?.media || []) {
+        const aliases = [...new Set([
+          media.title?.romaji, media.title?.english, media.title?.native, ...(media.synonyms || [])
+        ].filter(value => typeof value === "string" && value.trim()))];
+        if (!aliases.length) continue;
+        catalog.push({
+          id: (type === "ANIME" ? "anime-" : "manga-") + media.id,
+          name: media.title?.english || media.title?.romaji || aliases[0],
+          nativeTitle: media.title?.native || "",
+          romajiTitle: media.title?.romaji || "",
+          englishTitle: media.title?.english || "",
+          type: type.toLowerCase(),
+          aliases,
+          popularity: Number(media.popularity) || 0,
+          trending: Number(media.trending) || 0,
+          format: media.format || "",
+          genres: Array.isArray(media.genres) ? media.genres : [],
+          url: media.siteUrl || "https://anilist.co/" + type.toLowerCase() + "/" + media.id
+        });
+      }
     }
   }
-  return catalog;
+  const unique = new Map(catalog.map(entity => [entity.id, entity]));
+  return [...unique.values()].sort((a, b) => b.trending - a.trending || b.popularity - a.popularity);
 }
 
 export async function collectSearchTrends({
@@ -154,7 +163,7 @@ export async function collectSearchTrends({
   const result = {
     version: 1,
     generatedAt: new Date(now).toISOString(),
-    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length },
+    catalog: { provider: "AniList", status: catalog.length ? "ok" : "indisponible", entities: catalog.length, refreshedAt: new Date(now).toISOString(), pagesPerType: 3 },\n    catalogItems: catalog,
     sources, items: [...unique.values()].sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)),
     warnings
   };
