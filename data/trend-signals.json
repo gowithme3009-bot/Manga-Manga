@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:14:43.399Z",
+  "generatedAt": "2026-11-12T09:16:04.352Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T09:14:43.399Z",
+    "refreshedAt": "2026-11-12T09:16:04.352Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -540,7 +540,7 @@
         "Nia Liston: The Merciless Maiden",
         "凶乱令嬢ニア・リストン"
       ],
-      "popularity": 30233,
+      "popularity": 30542,
       "trending": 44,
       "format": "TV",
       "genres": [
@@ -647,7 +647,7 @@
         "Horemajo",
         "Love Potion, la sorcière mal-aimée"
       ],
-      "popularity": 31925,
+      "popularity": 32271,
       "trending": 37,
       "format": "TV",
       "genres": [
@@ -856,7 +856,7 @@
         "Firefly Wedding",
         "ホタルの嫁入り"
       ],
-      "popularity": 53607,
+      "popularity": 54019,
       "trending": 30,
       "format": "TV",
       "genres": [
@@ -1427,7 +1427,7 @@
         "ドラゴンボール超 ビルス",
         "DBS Beerus"
       ],
-      "popularity": 31330,
+      "popularity": 31437,
       "trending": 23,
       "format": "TV",
       "genres": [
@@ -1671,7 +1671,7 @@
         "信者ゼロの女神サマと始める異世界攻略",
         "Clear the World Like a Game with the Zero Believer Goddess"
       ],
-      "popularity": 22852,
+      "popularity": 23078,
       "trending": 21,
       "format": "TV",
       "genres": [
@@ -2991,7 +2991,7 @@
         "NIPPON SANGOKU: Kızıl Güneşin Üç Ulusu",
         "Nippon Sangoku: Las tres naciones del sol carmesí"
       ],
-      "popularity": 62282,
+      "popularity": 62343,
       "trending": 15,
       "format": "ONA",
       "genres": [
@@ -4194,7 +4194,7 @@
         "แมวสาวอมควัน",
         "尼古喵喵"
       ],
-      "popularity": 85006,
+      "popularity": 85102,
       "trending": 12,
       "format": "TV",
       "genres": [
@@ -6078,7 +6078,7 @@
         "악녀님이 남자인 걸 나만 몰라",
         "I’m the Only One Who Didn’t Know the Villainess Was a Male"
       ],
-      "popularity": 678,
+      "popularity": 757,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -6990,7 +6990,7 @@
         "FX戦士くるみちゃん",
         "Kurumi si Pejuang Forex"
       ],
-      "popularity": 19220,
+      "popularity": 19283,
       "trending": 9,
       "format": "TV",
       "genres": [
@@ -9783,7 +9783,7 @@
         "La Réincarnation de l'Épée Magique",
         "Me Tornei o Primeiro Príncipe: Lenda da Canção da Espada"
       ],
-      "popularity": 6868,
+      "popularity": 6888,
       "trending": 7,
       "format": "MANGA",
       "genres": [
@@ -11520,7 +11520,7 @@
         "Click Me All Over",
         "Mouse Cursor, I'm Gonna Click Away On The Girls!"
       ],
-      "popularity": 7954,
+      "popularity": 7975,
       "trending": 6,
       "format": "TV_SHORT",
       "genres": [
@@ -13022,7 +13022,7 @@
         "世上沒有壞千金",
         "ไม่มีหรอกนะ คุณหนูนิสัยเสีย"
       ],
-      "popularity": 7302,
+      "popularity": 7308,
       "trending": 5,
       "format": "MANGA",
       "genres": [
@@ -13561,7 +13561,7 @@
         "Sichuan Overlord",
         "四川霸王"
       ],
-      "popularity": 1551,
+      "popularity": 1563,
       "trending": 5,
       "format": "MANGA",
       "genres": [

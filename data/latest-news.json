@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:14:36.306Z",
+  "generatedAt": "2026-11-12T09:15:59.365Z",
   "items": [
     {
-      "id": "759cd52f910dcbe2d9a0",
-      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - www.toutenbd.com",
+      "id": "55ae94b373a6584160a0",
+      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
-      "summary": "Décès de Frédéric Boilet, défenseur du manga d’auteur www.toutenbd.com",
+      "summary": "Décès de Frédéric Boilet, défenseur du manga d’auteur ToutenBD.com",
       "publishedAt": "2026-11-12T08:56:51.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
@@ -213,7 +213,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
@@ -1551,7 +1551,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 18,
+      "trendScore": 17,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2355,7 +2355,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 54
+      "items": 52
     },
     {
       "id": "anime-corner",
