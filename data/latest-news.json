@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T00:11:01.036Z",
+  "generatedAt": "2026-11-12T00:11:27.422Z",
   "items": [
     {
       "id": "9ea15d67c55a7192c336",
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 50
+      "items": 49
     },
     {
       "id": "anime-corner",
