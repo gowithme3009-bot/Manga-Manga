@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:01:23.936Z",
+  "generatedAt": "2026-11-12T17:02:13.255Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 28,
@@ -34,14 +34,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Dans une interview, le réalisateur de la saison 2 de *Blue Box*, Daisuke Sako, explique que la série se concentre sur les personnages Taiki et Chinatsu et introduit le nouveau personnage Yumeka Goto, issue du passé de Chinatsu. Il précise également que l’équipe a cherché à reproduire fidèlement des lieux réels du Japon afin que les spectateurs, qu’ils soient du pays ou à l’étranger, puissent reconnaître ces décors.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Dans une interview, le réalisateur de la saison 2 de Blue Box, Daisuke Sako, explique que l’équipe a voulu recréer des lieux réels et nommés le plus fidèlement possible. Il souligne l’effort fourni pour que les spectateurs, qu’ils vivent au Japon ou à l’étranger, puissent ressentir que ces décors existent réellement.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#BlueBox,#DaisukeSako,#Anime,#Adaptation",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait partiel ; vérifier le texte complet de l’interview pour confirmer l’ensemble des propos cités. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait partiel de l’interview ; vérifier le texte complet pour s’assurer qu’aucune information supplémentaire n’est nécessaire. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:01:58.266Z",
-      "aiTitle": "Interview de Daisuke Sako sur Blue Box Saison 2",
+      "aiGeneratedAt": "2026-11-12T17:02:39.517Z",
+      "aiTitle": "Interview de Daisuke Sako sur la reconstitution des lieux dans Blue Box S2",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait partiel ; vérifier le texte complet de l’interview pour confirmer l’ensemble des propos cités."
+      "aiVerificationNotes": "Extrait partiel de l’interview ; vérifier le texte complet pour s’assurer qu’aucune information supplémentaire n’est nécessaire."
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -80,14 +80,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le projet *Welsh & Shedar* se décline désormais en webtoon de 12 épisodes, réalisé par plusieurs artistes. L’annonce a été faite par la société française Ankama.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le projet Welsh & Shedar lance un webtoon de douze épisodes, réalisé par plusieurs artistes, selon l’annonce de la société française Ankama.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#WelshAndShedar,#Webtoon,#Ankama",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait limité ; confirmer le nombre d’épisodes et les détails de l’annonce auprès de la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait limité ; confirmer le nombre exact d’épisodes et les détails de l’annonce auprès de la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:01:58.266Z",
-      "aiTitle": "Welsh & Shedar anime : lancement d'un webtoon",
+      "aiGeneratedAt": "2026-11-12T17:02:39.517Z",
+      "aiTitle": "Welsh & Shedar se décline en webtoon de 12 épisodes",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -95,7 +95,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Extrait limité ; confirmer le nombre d’épisodes et les détails de l’annonce auprès de la source originale."
+      "aiVerificationNotes": "Extrait limité ; confirmer le nombre exact d’épisodes et les détails de l’annonce auprès de la source originale."
     },
     {
       "id": "3a526737b270c5389529",
@@ -123,14 +123,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le lancement de l’anime *Tsugumi Project* a été confirmé pour janvier 2027 et un nouveau visuel a été dévoilé.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#TsugumiProject,#Anime,#Janvier2027",
+      "text": "L’anime Tsugumi Project verra son lancement confirmé pour janvier 2027 et un nouveau visuel a été dévoilé.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#TsugumiProject,#Anime,#Visuel",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale. Statut de provenance : Source originale non vérifiée. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Source RSS non vérifiée ; vérifier la confirmation officielle de la date de sortie et du visuel. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale. Statut de provenance : Source originale non vérifiée. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Source RSS non vérifiée ; vérifier l’information auprès d’une source originale fiable. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:01:58.266Z",
-      "aiTitle": "Tsugumi Project : sortie prévue en janvier 2027",
+      "aiGeneratedAt": "2026-11-12T17:02:39.517Z",
+      "aiTitle": "Tsugumi Project : sortie prévue en janvier 2027 et nouveau visuel",
       "aiSourceStatus": "rss_only_unverified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -138,7 +138,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Source RSS non vérifiée ; vérifier la confirmation officielle de la date de sortie et du visuel."
+      "aiVerificationNotes": "Source RSS non vérifiée ; vérifier l’information auprès d’une source originale fiable."
     },
     {
       "id": "8f4f2796db4c65dad4f6",
@@ -166,14 +166,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "LiSA s’est produite au Zénith de Paris le 20 septembre 2026, devant 6 000 fans, ce qui a été décrit comme un grand succès.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "LiSA s’est produite au Zénith de Paris le 20 septembre 2026 devant 6 000 fans, ce qui a été décrit comme un grand succès.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#LiSA,#Concert,#Paris",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale. Statut de provenance : Source originale non vérifiée. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni (6, 000). Contrôle de la source obligatoire. Source RSS non vérifiée ; confirmer le nombre de spectateurs et la date auprès du média d’origine. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale. Statut de provenance : Source originale non vérifiée. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni (6, 000). Contrôle de la source obligatoire. Source RSS non vérifiée ; confirmer la date, le lieu et le nombre de spectateurs avec la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T17:01:58.266Z",
-      "aiTitle": "LiSA en concert au Zénith de Paris",
+      "aiGeneratedAt": "2026-11-12T17:02:39.517Z",
+      "aiTitle": "LiSA en concert au Zénith de Paris le 20 septembre 2026",
       "aiSourceStatus": "rss_only_unverified",
       "aiAudit": {
         "status": "needs_check",
@@ -184,7 +184,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Source RSS non vérifiée ; confirmer le nombre de spectateurs et la date auprès du média d’origine."
+      "aiVerificationNotes": "Source RSS non vérifiée ; confirmer la date, le lieu et le nombre de spectateurs avec la source originale."
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -588,7 +588,7 @@
       ],
       "publishedAt": "2026-11-12T11:25:35.000Z",
       "freshnessHours": 6,
-      "trendScore": 48,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -942,8 +942,8 @@
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "15 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "14 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T17:01:58.266Z",
+  "aiGeneratedAt": "2026-11-12T17:02:39.517Z",
   "aiModel": "openai/gpt-oss-120b"
 }

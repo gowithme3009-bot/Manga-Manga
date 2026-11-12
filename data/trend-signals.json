@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:01:45.002Z",
+  "generatedAt": "2026-11-12T17:02:32.747Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T17:01:45.002Z",
+    "refreshedAt": "2026-11-12T17:02:32.747Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -16021,6 +16021,54 @@
           "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
           "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
           "publishedAt": "2026-11-11T15:31:35.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-108465",
+      "entityName": "Mushoku Tensei: Jobless Reincarnation",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Mushoku Tensei: Jobless Reincarnation"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T17:00:00.000Z",
+      "articles": [
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Volumes 4-6 Light Novel Review",
+          "url": "https://www.animenewsnetwork.com/review/mushoku-tensei/jobless-reincarnation-volumes-4-6/light-novel/.242823",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-85470",
+      "entityName": "Mushoku Tensei: Jobless Reincarnation",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "Mushoku Tensei: Jobless Reincarnation"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T17:00:00.000Z",
+      "articles": [
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Volumes 4-6 Light Novel Review",
+          "url": "https://www.animenewsnetwork.com/review/mushoku-tensei/jobless-reincarnation-volumes-4-6/light-novel/.242823",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
           "sources": [
             "Anime News Network"
           ]
