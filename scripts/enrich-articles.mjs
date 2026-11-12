@@ -31,6 +31,35 @@ export function safeArticleUrl(value) {
   } catch { return null; }
 }
 
+function isGoogleNewsUrl(value) {
+  try { const host = new URL(value).hostname.toLowerCase(); return host === "news.google.com" || host === "www.news.google.com"; }
+  catch { return false; }
+}
+
+export async function resolvePublisherUrl(fetchImpl, aggregatorUrl) {
+  if (!isGoogleNewsUrl(aggregatorUrl)) return null;
+  let current = new URL(aggregatorUrl);
+  for (let hop = 0; hop <= 5; hop += 1) {
+    const host = current.hostname.toLowerCase();
+    if (host !== "news.google.com" && host !== "www.news.google.com" && !safeArticleUrl(current.href)) return null;
+    const response = await fetchImpl(current.href, {
+      redirect: "manual",
+      headers: { "User-Agent": "Manga-Manga-Studio/0.3 (publisher source verification)", "Accept": "text/html,application/xhtml+xml" },
+      signal: AbortSignal.timeout(TIMEOUT_MS)
+    });
+    if ([301, 302, 303, 307, 308].includes(response.status)) {
+      const location = response.headers.get("location");
+      if (!location || hop === 5) return null;
+      try { current = new URL(location, current); } catch { return null; }
+      continue;
+    }
+    if (!response.ok) return null;
+    const finalUrl = safeArticleUrl(response.url || current.href);
+    return finalUrl ? finalUrl.href : null;
+  }
+  return null;
+}
+
 function decodeHtml(value = "") {
   return String(value)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -164,20 +193,31 @@ export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAG
     const summary = String(item.summary || "").replace(/\s+/g, " ").trim();
     if (summary.length >= 100 && !summary.toLowerCase().startsWith(String(item.title || "").toLowerCase().slice(0, 70))) continue;
     const url = item.articleUrl || item.url;
-    if (/^https:\/\/(?:news\.)?google\.com\//i.test(String(url || ""))) {
-      skippedAggregator += 1;
-      item.articleFetchNote = "Lien Google Actualités : média d’origine non résolu, aucun extrait attribué à la source.";
-      continue;
-    }
-    if (!safeArticleUrl(url)) continue;
+    const aggregator = isGoogleNewsUrl(url);
+    if (!aggregator && !safeArticleUrl(url)) continue;
     attempted += 1;
     try {
-      const article = await fetchArticle(fetchImpl, url, item.title || "");
+      const publisherUrl = aggregator ? await resolvePublisherUrl(fetchImpl, url) : url;
+      if (!publisherUrl) {
+        skippedAggregator += 1;
+        item.sourceVerification = { status: "publisher_unresolved", label: "Média d’origine non identifié", checkedUrl: url };
+        item.articleFetchNote = "Lien Google Actualités : redirection vers le média d’origine non résolue.";
+        continue;
+      }
+      const article = await fetchArticle(fetchImpl, publisherUrl, item.title || "");
       if (!article) {
+        item.sourceVerification = { status: "original_page_unavailable", label: "Page originale non vérifiée", checkedUrl: publisherUrl };
         item.articleFetchNote = "Aucun extrait éditorial fiable récupéré depuis la page du média.";
         continue;
       }
       item.articleUrl = article.url;
+      item.sourceVerification = {
+        status: "original_page_excerpt_verified",
+        label: "Extrait récupéré sur le média d’origine",
+        publisherHost: new URL(article.url).hostname,
+        checkedUrl: article.url,
+        scope: "Extrait de page vérifié ; lecture intégrale non effectuée."
+      };
       if (article.summary.length > summary.length) {
         item.summary = article.summary;
         item.summaryOrigin = "metadata_article_original";
@@ -186,6 +226,7 @@ export async function enrichItems(items, { fetchImpl = fetch, maxPages = MAX_PAG
         enriched += 1;
       }
     } catch (error) {
+      item.sourceVerification = { status: "verification_failed", label: "Vérification de la source impossible" };
       item.articleFetchNote = error.name === "TimeoutError" || error.name === "AbortError" ? "Délai dépassé" : "Contenu original indisponible";
     }
   }
@@ -196,7 +237,7 @@ export async function runEnrichment({ inputPath = path.join(ROOT, "data/latest-n
   const data = JSON.parse(await fs.readFile(inputPath, "utf8"));
   const result = await enrichItems(data.items, { fetchImpl });
   await fs.writeFile(outputPath, JSON.stringify({ ...data, items: result.items, articleEnrichment: { attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, maxPages: MAX_PAGES, excerptLimit: MAX_EXCERPT } }, null, 2) + "\n");
-  console.log(JSON.stringify({ attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, note: "Extraits éditoriaux vérifiés sur le domaine du média ; les métadonnées ne remplacent pas la lecture intégrale." }, null, 2));
+  console.log(JSON.stringify({ attempted: result.attempted, enriched: result.enriched, skippedAggregator: result.skippedAggregator, note: "Les liens agrégateurs sont résolus vers le média d’origine lorsque possible ; les extraits ne remplacent pas la lecture intégrale." }, null, 2));
   return result;
 }
 
