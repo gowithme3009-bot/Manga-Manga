@@ -313,6 +313,9 @@ function renderDrafts() {
       "<h3>" + escapeHtml(candidate.aiTitle || candidate.title) + "</h3>" +
       '<p class="summary">' + escapeHtml(candidate.text) + "</p>" +
       '<p class="tags">' + escapeHtml(candidate.hashtags) + "</p>" +
+      '<small class="muted">Provenance : ' + escapeHtml(candidate.sourceVerification?.label || "Source originale non vérifiée") +
+      (candidate.sourceVerification?.publisherHost ? " · " + escapeHtml(candidate.sourceVerification.publisherHost) : "") +
+      (candidate.publisherName ? " · Éditeur RSS : " + escapeHtml(candidate.publisherName) : "") + "</small>" +
       '<small class="muted">' + escapeHtml(candidate.note || "Vérification humaine obligatoire.") + "</small>" +
       '<div class="card-actions"><a class="secondary" href="' + escapeHtml(candidate.sourceUrl) +
       '" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a>' +
