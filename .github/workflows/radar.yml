@@ -42,6 +42,7 @@ jobs:
           GROQ_MODEL: openai/gpt-oss-120b
         run: |
           npm run collect
+          npm run enrich
           npm run trends
           npm run drafts
           npm run ai-drafts
