@@ -81,19 +81,31 @@ export function rankItems(items, now = Date.now()) {
   for (const item of items) {
     const key = item.title.normalize("NFKC").toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu," ").trim();
     if (!key) continue;
-    const group = groups.get(key) || {...item,sources:[],sourceCount:0};
+    const group = groups.get(key) || {...item,sources:[],sourceIds:[],sourceCount:0};
     if (!group.sources.includes(item.source)) group.sources.push(item.source);
+    const sourceId = item.sourceId || item.source;
+    if (sourceId && !group.sourceIds.includes(sourceId)) group.sourceIds.push(sourceId);
     if ((!group.summary || group.summary.length < (item.summary||"").length) && item.summary) group.summary = item.summary;
     if (!group.publishedAt || (item.publishedAt && Date.parse(item.publishedAt)>Date.parse(group.publishedAt))) group.publishedAt=item.publishedAt;
     groups.set(key,group);
   }
   return [...groups.values()].map(item => {
-    item.sourceCount=item.sources.length;
+    const isAggregator = value => /google.?news|google actualit|crunchyroll.*google|official-announcements|otaku-usa/i.test(String(value || ""));
+    const sourceIds = item.sourceIds || item.sources || [];
+    const independentSources = sourceIds.filter(source => !isAggregator(source));
+    item.coverageSourceCount = item.sources.length;
+    item.independentSourceCount = independentSources.length;
+    item.sourceCount = item.independentSourceCount;
     const published=Date.parse(item.publishedAt||"");
     const ageHours=Number.isFinite(published)?Math.max(0,(now-published)/3600000):720;
     const freshness=60*Math.exp(-ageHours/24);
-    item.trendScore=Math.round(freshness + Math.min(item.sourceCount-1,4)*10);
-    item.trendLevel = item.trendScore >= 75 ? "spectaculaire" : item.trendScore >= 50 ? "hausse" : "surveillance";
+    item.trendScore=Math.round(Math.min(100, freshness + Math.min(Math.max(0,item.independentSourceCount-1),4)*10));
+    item.trendLevel = item.independentSourceCount >= 3 && item.trendScore >= 75
+      ? "spectaculaire"
+      : item.independentSourceCount >= 2 && ageHours <= 48
+        ? "hausse"
+        : "surveillance";
+    item.trendBasis = "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics";
     return item;
   }).sort((a,b)=>b.trendScore-a.trendScore || (Date.parse(b.publishedAt||0)-Date.parse(a.publishedAt||0)));
 }
