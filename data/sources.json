@@ -91,6 +91,33 @@
       "language": "en",
       "enabled": true,
       "category": "veille ciblée"
+    },
+    {
+      "id": "franceinfo-mangas",
+      "name": "Franceinfo — mangas",
+      "homepage": "https://www.franceinfo.fr/culture/bd/mangas",
+      "feedUrl": "https://www.franceinfo.fr/culture/bd/mangas.rss",
+      "language": "fr",
+      "enabled": true,
+      "category": "média généraliste"
+    },
+    {
+      "id": "animotaku-fr",
+      "name": "AnimOtaku",
+      "homepage": "https://animotaku.fr",
+      "feedUrl": "https://animotaku.fr/feed/",
+      "language": "fr",
+      "enabled": true,
+      "category": "média spécialisé"
+    },
+    {
+      "id": "journal-du-japon",
+      "name": "Journal du Japon",
+      "homepage": "https://www.journaldujapon.com",
+      "feedUrl": "https://www.journaldujapon.com/feed/",
+      "language": "fr",
+      "enabled": true,
+      "category": "média spécialisé"
     }
   ]
 }
