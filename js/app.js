@@ -309,9 +309,9 @@ function renderMediaLibrary() {
   if (!host) return;
   const illustrated = state.drafts.filter(draft => draft.imageDataUrl);
   host.innerHTML = illustrated.length ? illustrated.map(draft =>
-    '<article class="media-card"><img src="' + draft.imageDataUrl + '" alt="Visuel associé au brouillon ' + escapeHtml(draft.title) + '" loading="lazy">' +
+    '<article class="media-card"><img src="' + escapeHtml(draft.imageDataUrl) + '" alt="Visuel associé au brouillon ' + escapeHtml(draft.title) + '" loading="lazy">' +
     '<strong>' + escapeHtml(draft.title) + '</strong><small class="muted">Brouillon · ' + escapeHtml(dateLabel(draft.createdAt)) + '</small>' +
-    '<a href="' + draft.imageDataUrl + '" download="manga-manga-visuel-' + escapeHtml(draft.id) + '.jpg">Télécharger</a></article>'
+    '<a href="' + escapeHtml(draft.imageDataUrl) + '" download="manga-manga-visuel-' + escapeHtml(draft.id) + '.jpg">Télécharger</a></article>'
   ).join("") : '<p class="muted">Les visuels associés à tes brouillons apparaîtront ici.</p>';
 }
 function renderDrafts() {
@@ -351,7 +351,7 @@ function renderDrafts() {
   const savedHtml = state.drafts.map(draft =>
     '<article class="draft-card"><div class="meta">Créé le ' + escapeHtml(dateLabel(draft.createdAt)) +
     " · " + escapeHtml(draft.status) + "</div><h3>" + escapeHtml(draft.title) + "</h3>" +
-    (draft.imageDataUrl ? '<img class="draft-image" src="' + draft.imageDataUrl + '" alt="Visuel du brouillon" loading="lazy">' : "") +
+    (draft.imageDataUrl ? '<img class="draft-image" src="' + escapeHtml(draft.imageDataUrl) + '" alt="Visuel du brouillon" loading="lazy">' : "") +
     '<p class="summary">' + escapeHtml(draft.body) + "</p>" +
     '<p class="tags">' + escapeHtml(draft.hashtags) + "</p>" +
     '<div class="card-actions"><button class="primary" data-edit-draft="' + escapeHtml(draft.id) +
