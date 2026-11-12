@@ -316,9 +316,16 @@ function renderDrafts() {
       '<small class="muted">Provenance : ' + escapeHtml(candidate.sourceVerification?.label || "Source originale non vérifiée") +
       (candidate.sourceVerification?.publisherHost ? " · " + escapeHtml(candidate.sourceVerification.publisherHost) : "") +
       (candidate.publisherName ? " · Éditeur RSS : " + escapeHtml(candidate.publisherName) : "") + "</small>" +
+      (candidate.aiAudit ? '<small class="muted">Contrôle automatique des chiffres : ' +
+        (candidate.aiAudit.unsupportedNumbers?.length
+          ? "⚠️ à vérifier (" + escapeHtml(candidate.aiAudit.unsupportedNumbers.join(", ")) + ")"
+          : "aucune alerte numérique détectée") +
+        " — ce contrôle ne vérifie pas les autres affirmations.</small>" : "") +
       '<small class="muted">' + escapeHtml(candidate.note || "Vérification humaine obligatoire.") + "</small>" +
       '<div class="card-actions"><a class="secondary" href="' + escapeHtml(candidate.sourceUrl) +
       '" target="_blank" rel="noopener noreferrer">Vérifier la source ↗</a>' +
+      (candidate.publisherUrl ? '<a class="secondary" href="' + escapeHtml(candidate.publisherUrl) +
+        '" target="_blank" rel="noopener noreferrer">Site du média ↗</a>' : "") +
       '<button class="primary" data-save-candidate="' + escapeHtml(candidate.id) + '">Ajouter à mes brouillons</button>' +
       '<button class="danger" data-dismiss-candidate="' + escapeHtml(candidate.id) + '">Écarter / remplacer</button></div>' +
       '<small class="muted">Aucune publication automatique. La validation humaine reste obligatoire.</small></article>';
