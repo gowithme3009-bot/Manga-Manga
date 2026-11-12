@@ -1,7 +1,38 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:09:09.618Z",
+  "generatedAt": "2026-11-12T15:09:41.746Z",
   "items": [
+    {
+      "id": "9bb8ffa973a247c4b13d",
+      "title": "Love Bullet Vol.2 : Critiques - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT3lDZWlGV25yM2p3U0hHd2d3TkVxbUVOVE1YOEM5cjVCM0Z5WGRvdDRTWFNXN1J1QXNfdkxpTU1uQUNqamtVUl9EZGJuTVN5VzRQU09HWHR5RzVrR2hFMUw2N2RDLWhHeGNiMXBxV0dEYTVsVXNzaA?oc=5",
+      "summary": "Love Bullet Vol.2 : Critiques Manga news",
+      "publishedAt": "2026-11-12T15:08:27.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT3lDZWlGV25yM2p3U0hHd2d3TkVxbUVOVE1YOEM5cjVCM0Z5WGRvdDRTWFNXN1J1QXNfdkxpTU1uQUNqamtVUl9EZGJuTVN5VzRQU09HWHR5RzVrR2hFMUw2N2RDLWhHeGNiMXBxV0dEYTVsVXNzaA?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+    },
     {
       "id": "0080d867306168ba8a64",
       "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
@@ -495,13 +526,7 @@
       "independentSourceCount": 1,
       "trendScore": 48,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://animeuknews.net/2026/11/lockdown-life-with-the-class-beauty-volume-1-review/"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5904772c66e308ede111",
@@ -799,7 +824,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 38,
+      "trendScore": 37,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -954,33 +979,6 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
-      "id": "b141176f59700ae38753",
-      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
-      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure has released a new Stand special video featuring previously unseen footage from the ongoing anime.",
-      "publishedAt": "2026-11-11T12:10:51.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network",
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-news-network",
-        "anime-corner"
-      ],
-      "sourceCount": 2,
-      "coverageSourceCount": 2,
-      "independentSourceCount": 2,
-      "trendScore": 30,
-      "trendLevel": "hausse",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
       "id": "9ea15d67c55a7192c336",
       "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
@@ -1028,6 +1026,33 @@
       "independentSourceCount": 1,
       "trendScore": 29,
       "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "b141176f59700ae38753",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure has released a new Stand special video featuring previously unseen footage from the ongoing anime.",
+      "publishedAt": "2026-11-11T12:10:51.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime News Network",
+        "Anime Corner"
+      ],
+      "sourceIds": [
+        "anime-news-network",
+        "anime-corner"
+      ],
+      "sourceCount": 2,
+      "coverageSourceCount": 2,
+      "independentSourceCount": 2,
+      "trendScore": 29,
+      "trendLevel": "hausse",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
@@ -2579,31 +2604,6 @@
       "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "3d4d12da9a60b1961802",
-      "title": "Mort du dessinateur de BD Frédéric Boilet, passeur essentiel du manga d’auteur en France - Libération",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa1pSRVJ4akdTd2prREtGelRQNDFhYVU3azA5RXFob29neUE4T2pWMjBxRFpsTldaSG9EZzlZUlhOdUoxSVJzTlZwcFJZT1hoMlZSY2hXRzJUNHNzT3RHTkFRY2c1X3E5dWRCcG1IQ3MzM1lKZ24xRjhzTnlZUDVTM202UnpCejJXbTJKVC0yMUZtbUtNQ2ItTThOVHE1enJJa1JONkVaUXRpR0JYTjlYaEtrbHh2YUdxNVBVSm92MDg1ZHZ2RXBHc0h0NDJDRVNwTHRjd3JmeXVHdW9jY1NVWUlwMUh2V1NGYnJFMXFRbXZoZw?oc=5",
-      "summary": "Mort du dessinateur de BD Frédéric Boilet, passeur essentiel du manga d’auteur en France Libération",
-      "publishedAt": "2026-11-10T17:01:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "publisherName": "Libération",
-      "publisherUrl": "https://www.liberation.fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceIds": [
-        "google-news-fr"
-      ],
-      "sourceCount": 0,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 0,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2666,7 +2666,7 @@
   "articleEnrichment": {
     "attempted": 16,
     "enriched": 1,
-    "skippedAggregator": 8,
+    "skippedAggregator": 9,
     "maxPages": 16,
     "excerptLimit": 1600
   }
