@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T17:41:54.378Z",
+  "generatedAt": "2026-11-12T17:42:41.033Z",
   "items": [
     {
       "id": "8ee154d809959cf9c324",
@@ -2185,7 +2185,7 @@
       "id": "c3cc082d5156d2e49da7",
       "title": "[Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3)",
       "url": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
-      "summary": "L'équipe de Journal du Japon est allé à la rencontre Jean-Christophe Perrier, spécialiste des longs-métrages animés, pour comprendre le manque de popularité en France du premier long-métrage de Hayao Miyazaki et de la licence Lupin III. Dans cette seconde partie, nous revenons sur la production soignée de ce film en un temps record et ses intentions innovantes pour une production des années 70. L’article [Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3) est apparu en premier sur Journal du Japon .",
+      "summary": "Interview et portraits Japanime / Interviews et portraits Cinéma 0 [Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3) par Marie jenck &middot; Publié 11 novembre 2026 &middot; Mis à jour 11 novembre 2026 Après avoir contextualisé le rapport de Jean-Christophe Perrier avec le premier long-métrage de Hayao Miyazaki et la promotion de ce film d&rsquo;animation en Normandie, nous allons étudier en détail le travail du réalisateur sur ce long-métrage à l&rsquo;époque où son nom commençait progressivement à se faire connaître. Nous allons aussi comprendre son sévère soucis du détail partagé avec Yasuo Otsuka, les différences entre ce Lupin édulcoré et celui bien plus vicieux du manga d&rsquo;origine, en plus du rapport des enfants à l&rsquo;animation. Une analyse qui vous plongera dans le contexte des années 70. Résumé du film : Lupin III , nommé dans le film Edgar de la Cambriole, se rend avec son comparse Jigen au royaume de Cagliostro. Leur braquage réussi en grande pompe leur ayant uniquement rapporté des faux-billets dont leur fabrication proviendrait de ce petit comté reculé. Sur le chemin, ils feront la rencontre d&rsquo;une jeune femme en fuite et découvriront une chevalière pourvue d&rsquo;un animal atypique. Ceux-ci éveilleront des souvenirs lointains chez le jeune voleur et le motiveront à sauver la demoiselle en détresse. Celle-ci étant retenue par le Comte de Cagliostro dans son imposant château. Aidé de ses camarades, Lupin devra contourner tous les pièges qu&rsquo;il renferme et empêcher l&rsquo;ignoble personnage d&rsquo;épous",
       "publishedAt": "2026-11-11T16:00:00.000Z",
       "source": "Journal du Japon",
       "sourceId": "journal-du-japon",
@@ -2205,11 +2205,17 @@
       "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
       "sourceVerification": {
-        "status": "verification_failed",
-        "label": "Vérification de la source impossible"
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "www.journaldujapon.com",
+        "checkedUrl": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
       },
-      "articleFetchNote": "Contenu original indisponible"
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -2847,7 +2853,7 @@
   ],
   "articleEnrichment": {
     "attempted": 28,
-    "enriched": 18,
+    "enriched": 19,
     "skippedAggregator": 0,
     "directAttempted": 28,
     "aggregatorAttempted": 0,
