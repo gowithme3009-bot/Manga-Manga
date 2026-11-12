@@ -105,6 +105,14 @@ function signalStep(stage, title, detail) {
   }, 3600);
 }
 function showView(name) {
+  if (name === "studio-images") {
+    const selected = state.drafts.find(item => item.id === state.workflowDraftId) || state.drafts[0];
+    if (selected && $("image-prompt")) {
+      state.workflowDraftId = selected.id;
+      $("image-prompt").value = selected.imagePromptMaster || buildMasterImagePrompt(selected);
+      $("master-prompt-status").textContent = "Prompt maître préparé depuis : " + selected.title;
+    }
+  }
   document.querySelectorAll(".view").forEach(element => {
     element.classList.toggle("hidden", element.id !== "view-" + name);
   });
@@ -522,8 +530,7 @@ function fillEditor(item) {
   $("story-select").value = item.id;
   updateSelectedSourceLink();
   $("draft-title").value = item.title;
-  $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
-    "Lire l’article complet à la source : " + item.url;
+  $("draft-body").value = item.summary || "";
   renderEditorImage();
   showView("atelier");
   signalStep(2, "Étape 2/4 · Rédaction", "Actualité sélectionnée. Vérifiez le titre et le texte avant l’enregistrement.");
