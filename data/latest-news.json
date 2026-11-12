@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T01:12:48.688Z",
+  "generatedAt": "2026-11-12T01:17:07.743Z",
   "items": [
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -192,7 +192,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 43
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -208,7 +208,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 43
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -256,7 +256,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 42
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -272,7 +272,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 42
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -464,7 +464,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 39
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -528,7 +528,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 37
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -656,7 +656,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 33
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -720,7 +720,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 32
+      "trendScore": 31
     },
     {
       "id": "2f7f1e7c2a3719e0bc73",
@@ -784,7 +784,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 30
     },
     {
       "id": "ed61715d47ca31925a39",
@@ -800,23 +800,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
-    },
-    {
-      "id": "fc814d45d3fb351eed6a",
-      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
-      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 30
     },
     {
       "id": "fc6bfeab4c5f40522d7c",
@@ -1024,7 +1008,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 18
     },
     {
       "id": "92a8a4b07b4c71bde78a",
@@ -1040,7 +1024,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 18
     },
     {
       "id": "b091e043660839755826",
@@ -1152,7 +1136,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 16
+      "trendScore": 15
     },
     {
       "id": "875a3dc44db2fb0f33c6",
@@ -1592,6 +1576,22 @@
       "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
       "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
       "publishedAt": "2026-11-10T07:53:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 11
+    },
+    {
+      "id": "a57ec6adb16660726d41",
+      "title": "Japanese Animation TV Ranking, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
+      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+      "publishedAt": "2026-11-10T07:52:54.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
       "language": "en",
