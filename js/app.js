@@ -8,16 +8,49 @@ const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 }[char]));
 
-function safeStorageGet(key, fallback) {
+const storageIssues = new Set();
+
+function readArray(key) {
   try {
-    const value = localStorage.getItem(key);
-    if (value === null) return fallback;
-    const parsed = JSON.parse(value);
-    return parsed ?? fallback;
+    const raw = localStorage.getItem(key);
+    if (raw === null) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) {
+      storageIssues.add(key);
+      return [];
+    }
+    return parsed;
   } catch (error) {
-    console.warn("Stockage local indisponible :", error);
-    return fallback;
+    console.warn("Données locales illisibles :", key, error);
+    storageIssues.add(key);
+    return [];
   }
+}
+
+function exportStorageRecovery() {
+  const recovery = {};
+  for (const key of storageIssues) {
+    try {
+      recovery[key] = localStorage.getItem(key);
+    } catch (error) {
+      recovery[key] = null;
+    }
+  }
+  if (!Object.keys(recovery).length) {
+    toast("Aucune donnée locale à récupérer.");
+    return;
+  }
+  const blob = new Blob([JSON.stringify({
+    exportedAt: new Date().toISOString(),
+    warning: "Copie brute des données locales illisibles. Ne pas remplacer les données de l’application sans vérification.",
+    data: recovery
+  }, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = "manga-manga-recuperation-locale.json";
+  anchor.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 function safeStorageSet(key, value) {
@@ -30,11 +63,11 @@ function safeStorageSet(key, value) {
   }
 }
 
-function readArray(key) {
-  const value = safeStorageGet(key, []);
-  return Array.isArray(value) ? value : [];
-}
 function saveDrafts(nextDrafts) {
+  if (storageIssues.has(STORAGE_KEY)) {
+    toast("Sauvegarde bloquée : les anciennes données sont illisibles. Exporte d’abord la récupération locale.");
+    return false;
+  }
   if (!safeStorageSet(STORAGE_KEY, nextDrafts)) {
     toast("Impossible d’enregistrer sur cet appareil. Vos brouillons précédents sont conservés ; exportez-les avant de poursuivre.");
     return false;
@@ -44,6 +77,10 @@ function saveDrafts(nextDrafts) {
   return true;
 }
 function saveDismissed(nextDismissed) {
+  if (storageIssues.has(DISMISSED_KEY)) {
+    toast("Action bloquée : les données locales des propositions sont illisibles. Exporte d’abord la récupération locale.");
+    return false;
+  }
   if (!safeStorageSet(DISMISSED_KEY, nextDismissed)) {
     toast("Impossible de mémoriser cette proposition écartée. Elle pourra réapparaître au prochain chargement.");
     return false;
@@ -447,7 +484,14 @@ $("export-drafts").addEventListener("click", () => {
 
 state.drafts = readArray(STORAGE_KEY);
 state.dismissed = readArray(DISMISSED_KEY);
+if (storageIssues.size) {
+  const recoveryButton = $("export-recovery");
+  if (recoveryButton) recoveryButton.hidden = false;
+  toast("Attention : des données locales sont illisibles. Exporte la récupération avant toute autre opération.");
+}
 renderDrafts();
 loadRadar();
 loadDailyCandidates();
 
+
+$("export-recovery")?.addEventListener("click", exportStorageRecovery);
