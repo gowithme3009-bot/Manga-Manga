@@ -25,7 +25,12 @@ export function matchCatalogEntities(term, catalog) {
     const matchedAliases = [...new Set((entity.aliases || [])
       .filter(alias => {
         const candidate = normalizeEntityText(alias);
-        return candidate.length >= 5 && padded.includes(" " + candidate + " ");
+        if (candidate.length < 5) return false;
+        if (candidate.includes(" ")) return padded.includes(" " + candidate + " ");
+        if (normalized === candidate) return true;
+        if (!normalized.startsWith(candidate + " ")) return false;
+        const nextWord = normalized.slice(candidate.length + 1).split(" ")[0];
+        return !["of", "the", "and", "no", "a", "an", "in", "to", "for"].includes(nextWord);
       }))];
     return matchedAliases.length ? { ...entity, matchedAliases } : null;
   }).filter(Boolean).sort((a, b) =>
@@ -42,7 +47,7 @@ export function buildEditorialSignals(newsItems = [], catalog = []) {
   const grouped = new Map();
   const isAggregator = value => /google.?news|google actualit|crunchyroll.*google|official-announcements|otaku-usa/i.test(String(value || ""));
   for (const article of newsItems || []) {
-    const matches = matchCatalogEntities((article.title || "") + " " + (article.summary || ""), catalog);
+    const matches = matchCatalogEntities(article.title || "", catalog);
     for (const entity of matches) {
       const signal = grouped.get(entity.id) || {
         entityId: entity.id, entityName: entity.name, entityType: entity.type,
