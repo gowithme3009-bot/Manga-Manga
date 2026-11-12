@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:09:41.746Z",
+  "generatedAt": "2026-11-12T15:10:07.003Z",
   "items": [
     {
       "id": "9bb8ffa973a247c4b13d",
       "title": "Love Bullet Vol.2 : Critiques - Manga news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT3lDZWlGV25yM2p3U0hHd2d3TkVxbUVOVE1YOEM5cjVCM0Z5WGRvdDRTWFNXN1J1QXNfdkxpTU1uQUNqamtVUl9EZGJuTVN5VzRQU09HWHR5RzVrR2hFMUw2N2RDLWhHeGNiMXBxV0dEYTVsVXNzaA?oc=5",
       "summary": "Love Bullet Vol.2 : Critiques Manga news",
-      "publishedAt": "2026-11-12T15:08:27.000Z",
+      "publishedAt": "2026-11-12T15:07:58.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
@@ -426,7 +426,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://myanimelist.net/news/74931275?_location=rss",
@@ -2623,7 +2623,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 51
+      "items": 52
     },
     {
       "id": "anime-corner",
@@ -2653,7 +2653,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 56
+      "items": 57
     },
     {
       "id": "otaku-usa",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:09:41.746Z",
+  "generatedAt": "2026-11-12T15:10:07.003Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 25,
@@ -29,18 +29,18 @@
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
       "freshnessHours": 5,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama. Le projet est dirigé par Kenichi Nishida, avec Takahiro Nagano à la composition de la série et Nozomi Kawashige à la conception des personnages. L’anime est prévu pour une première diffusion en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama, et l’anime est prévu pour une première en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer que les informations de casting, de direction, de composition et de design proviennent bien de l’extrait officiel. Vérifier la mention de la diffusion prévue en 2027 sur la page originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L'extrait provient du site officiel et mentionne le casting, les rôles et la date prévue 2027. Vérifier l'exactitude des noms et du calendrier dans l'article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:09:54.912Z",
+      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer que les informations de casting, de direction, de composition et de design proviennent bien de l’extrait officiel. Vérifier la mention de la diffusion prévue en 2027 sur la page originale."
+      "aiVerificationNotes": "L'extrait provient du site officiel et mentionne le casting, les rôles et la date prévue 2027. Vérifier l'exactitude des noms et du calendrier dans l'article original."
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -71,7 +71,7 @@
       "sourceNames": [
         "Google Actualités — Manga & Anime"
       ],
-      "publishedAt": "2026-11-12T15:08:27.000Z",
+      "publishedAt": "2026-11-12T15:07:58.000Z",
       "freshnessHours": 0,
       "trendScore": 60,
       "trendLevel": "surveillance",
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : Love Bullet Vol.2 : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait est vide ; il faut vérifier le texte original pour s’assurer qu’il s’agit bien d’une page de critiques et pour récupérer les éventuels détails. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre indique qu’il s’agit de critiques du volume 2. Confirmer le contenu de l’article pour s’assurer qu’il s’agit bien de critiques. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:09:54.912Z",
+      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
       "aiTitle": "Love Bullet Vol.2 : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "L’extrait est vide ; il faut vérifier le texte original pour s’assurer qu’il s’agit bien d’une page de critiques et pour récupérer les éventuels détails."
+      "aiVerificationNotes": "Le titre indique qu’il s’agit de critiques du volume 2. Confirmer le contenu de l’article pour s’assurer qu’il s’agit bien de critiques."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Aucun extrait fourni ; vérifier le contenu de l’article original afin de confirmer qu’il s’agit bien d’une actualité sur les sorties manga de la semaine. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre indique une liste des sorties manga de la semaine. Vérifier que l’article contient bien ce type de récapitulatif. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:09:54.912Z",
+      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Aucun extrait fourni ; vérifier le contenu de l’article original afin de confirmer qu’il s’agit bien d’une actualité sur les sorties manga de la semaine."
+      "aiVerificationNotes": "Le titre indique une liste des sorties manga de la semaine. Vérifier que l’article contient bien ce type de récapitulatif."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; il faut consulter l’article source pour confirmer la disponibilité du webtoon et les informations sur son accès et son scénario. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre mentionne l’alerte d’un webtoon disponible et pose les questions de lecture et d’adaptation. Confirmer les détails dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:09:54.912Z",
+      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
       "aiTitle": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Extrait absent ; il faut consulter l’article source pour confirmer la disponibilité du webtoon et les informations sur son accès et son scénario."
+      "aiVerificationNotes": "Le titre mentionne l’alerte d’un webtoon disponible et pose les questions de lecture et d’adaptation. Confirmer les détails dans la source originale."
     },
     {
       "id": "249d5a59b90be2d76765",
@@ -798,7 +798,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T15:40:02.000Z",
-      "freshnessHours": 23,
+      "freshnessHours": 24,
       "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -845,6 +845,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "2 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T15:09:54.912Z",
+  "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
   "aiModel": "openai/gpt-oss-120b"
 }
