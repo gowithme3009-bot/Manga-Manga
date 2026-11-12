@@ -144,3 +144,20 @@ test("priorise un extrait de média original plutôt qu’un signal Google sans 
   ], NOW);
   assert.equal(result.items[0].id, "original");
 });
+
+
+test("une tendance multi-sources confirmée prime sur un sujet isolé avec extrait original", () => {
+  const result = buildDailyDrafts([
+    { id: "isolated", title: "Annonce anime récente", url: "https://solo.example/news",
+      summary: "Un extrait original détaillé récupéré auprès d’un média unique.",
+      language: "fr", source: "Média unique", articleContentRetrieved: true,
+      trendScore: 99, independentSourceCount: 1, publishedAt: hoursAgo(1) },
+    { id: "multi", title: "Annonce manga couverte par plusieurs médias", url: "https://multi.example/news",
+      summary: "Résumé fourni par plusieurs médias indépendants.",
+      language: "fr", source: "Média A", articleContentRetrieved: false,
+      trendScore: 78, independentSourceCount: 3, coverageSourceCount: 3,
+      publishedAt: hoursAgo(4) }
+  ], NOW);
+  assert.equal(result.items[0].id, "multi");
+  assert.equal(result.items[0].trendLevel, "spectaculaire");
+});
