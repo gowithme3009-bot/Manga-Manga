@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:14:04.799Z",
+  "generatedAt": "2026-11-12T09:14:36.306Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 15,
@@ -24,16 +24,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre indique que Frédéric Boilet, connu comme un fervent défenseur du manga d’auteur, est décédé. Aucun détail supplémentaire n’est fourni dans le flux RSS.\n\nPour connaître les circonstances, les réactions du milieu et les éventuels hommages, il convient de consulter l’article complet.\n\nQuestion à la communauté : Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
-      "hashtags": "#Manga,#FrédéricBoilet,#Actualité,#MangaAuteur",
+      "text": "Frédéric Boilet, figure reconnue pour son engagement en faveur du manga d’auteur, serait décédé. L’article annonce cette triste nouvelle et rappelle son influence dans le milieu.\n\nPour connaître les circonstances et le parcours complet de Boilet, consultez le texte original.\n\nQuestion à la communauté : Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
+      "hashtags": "#Manga,#FrédéricBoilet,#Décès,#MangaAuteur",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Le résumé fourni est vide. Vérifier la date, les circonstances du décès, les citations et les éventuels hommages dans l’article original avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer le décès, la biographie et les faits mentionnés dans l’article avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:14:24.296Z",
+      "aiGeneratedAt": "2026-11-12T09:14:50.873Z",
       "aiTitle": "Décès de Frédéric Boilet, défenseur du manga d’auteur",
-      "aiCommunityQuestion": "Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
-      "aiVerificationNotes": "Le résumé fourni est vide. Vérifier la date, les circonstances du décès, les citations et les éventuels hommages dans l’article original avant publication."
+      "aiCommunityQuestion": "Quel impact pensez‑vous que Frédéric Boilet a eu sur le manga d’auteur ?",
+      "aiVerificationNotes": "Confirmer le décès, la biographie et les faits mentionnés dans l’article avant publication."
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -54,16 +54,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Selon le titre, le grand éditeur Shueisha dévoile « Nightmare Operator », présenté comme un TPS (third‑person shooter) à l’ambiance horrifique avec des combos de versus fighting. Aucun autre élément n’est disponible dans le flux.\n\nIl faut lire l’article complet pour confirmer le genre exact, les mécaniques de jeu, la date de sortie et les éventuelles démos ou trailers.\n\nQuestion à la communauté : Seriez‑vous tenté de jouer à ce nouveau titre de Shueisha ?",
-      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVideo,#Horreur",
+      "text": "Le grand éditeur Shueisha aurait annoncé un nouveau titre, Nightmare Operator, présenté comme un jeu de tir à la première personne (TPS) à l’ambiance horrifique, incluant des combos de versus fighting.\n\nLes détails du gameplay, la date de sortie et les plateformes restent à vérifier dans l’article complet.\n\nQuestion à la communauté : Êtes‑vous curieux de découvrir ce nouveau jeu de Shueisha ?",
+      "hashtags": "#Shueisha,#NightmareOperator,#JeuxVideo,#TPS,#Horreur",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Résumé absent. Confirmer le type de jeu, les fonctionnalités annoncées, la date de sortie et les sources dans l’article original avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Vérifier le genre exact du jeu, les mécaniques décrites et les informations de sortie mentionnées dans la source. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:14:24.296Z",
+      "aiGeneratedAt": "2026-11-12T09:14:50.873Z",
       "aiTitle": "Shueisha annonce Nightmare Operator, un TPS horrifique",
-      "aiCommunityQuestion": "Seriez‑vous tenté de jouer à ce nouveau titre de Shueisha ?",
-      "aiVerificationNotes": "Résumé absent. Confirmer le type de jeu, les fonctionnalités annoncées, la date de sortie et les sources dans l’article original avant diffusion."
+      "aiCommunityQuestion": "Êtes‑vous curieux de découvrir ce nouveau jeu de Shueisha ?",
+      "aiVerificationNotes": "Vérifier le genre exact du jeu, les mécaniques décrites et les informations de sortie mentionnées dans la source."
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -84,16 +84,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre suggère que le monde du manga se retrouve « orphelin » après la perte d’un de ses plus ardents défenseurs. Aucun détail supplémentaire n’est présent dans le flux RSS.\n\nPour préciser l’identité du défenseur, le contexte de son engagement et les réactions du secteur, il est indispensable de consulter l’article complet.\n\nQuestion à la communauté : Quel défenseur du manga pensez‑vous que cet article évoque ?",
-      "hashtags": "#Manga,#Défenseur,#Actualité,#Culture",
+      "text": "Un article du Quotidien Jurassien évoque la perte d’un défenseur passionné du manga, laissant le milieu orphelin de son engagement.\n\nLe texte original précise qui est ce défenseur et quelles étaient ses actions au sein de la communauté manga.\n\nQuestion à la communauté : Quel défenseur du manga vous a le plus marqué ?",
+      "hashtags": "#Manga,#Défenseur,#Actualité,#Culture,#Passion",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Résumé vide. Vérifier l’identité du défenseur mentionné, le contexte de son départ et les éventuelles réactions dans l’article original avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Identifier la personne concernée, son rôle et les raisons de son importance avant de publier. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:14:24.296Z",
+      "aiGeneratedAt": "2026-11-12T09:14:50.873Z",
       "aiTitle": "Le monde du manga orphelin d’un de ses fervents défenseurs",
-      "aiCommunityQuestion": "Quel défenseur du manga pensez‑vous que cet article évoque ?",
-      "aiVerificationNotes": "Résumé vide. Vérifier l’identité du défenseur mentionné, le contexte de son départ et les éventuelles réactions dans l’article original avant publication."
+      "aiCommunityQuestion": "Quel défenseur du manga vous a le plus marqué ?",
+      "aiVerificationNotes": "Identifier la personne concernée, son rôle et les raisons de son importance avant de publier."
     },
     {
       "id": "86324f10058b4807aacb",
@@ -114,16 +114,16 @@
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le titre interroge la possible maturité du manga, suggérant qu’il pourrait entrer dans une « âge de raison ». Aucun autre élément n’est fourni dans le flux.\n\nIl faut lire l’article complet pour connaître les arguments avancés, les exemples cités et les perspectives présentées par l’auteur.\n\nQuestion à la communauté : Pensez‑vous que le manga entre aujourd’hui dans une phase de maturité ?",
-      "hashtags": "#Manga,#Maturité,#Culture,#LibreBe",
+      "text": "La Libre.be se penche sur la question de la maturité du manga, se demandant si le secteur atteint enfin un « âge de raison ».\n\nL’article explore les arguments en faveur d’une évolution du genre, mais il faut lire le texte complet pour saisir les points précis avancés.\n\nQuestion à la communauté : Pensez‑vous que le manga entre dans une phase de maturité ?",
+      "hashtags": "#Manga,#Industrie,#Maturité,#CulturePop,#Analyse",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Résumé absent. Confirmer le sujet traité, les arguments développés et les références utilisées dans l’article original avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : amorce prudente fondée sur le titre ; lire l’article original et compléter avant publication. Confirmer les thèses présentées, l’auteur de l’article et les exemples cités avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T09:14:24.296Z",
-      "aiTitle": "Manga : enfin l’âge de raison ?",
-      "aiCommunityQuestion": "Pensez‑vous que le manga entre aujourd’hui dans une phase de maturité ?",
-      "aiVerificationNotes": "Résumé absent. Confirmer le sujet traité, les arguments développés et les références utilisées dans l’article original avant diffusion."
+      "aiGeneratedAt": "2026-11-12T09:14:50.873Z",
+      "aiTitle": "Manga : enfin l'âge de raison ?",
+      "aiCommunityQuestion": "Pensez‑vous que le manga entre dans une phase de maturité ?",
+      "aiVerificationNotes": "Confirmer les thèses présentées, l’auteur de l’article et les exemples cités avant diffusion."
     },
     {
       "id": "19d719a8a2297963f687",
@@ -211,7 +211,7 @@
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
       "freshnessHours": 17,
-      "trendScore": 30,
+      "trendScore": 29,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -395,6 +395,6 @@
     "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T09:14:24.296Z",
+  "aiGeneratedAt": "2026-11-12T09:14:50.873Z",
   "aiModel": "openai/gpt-oss-120b"
 }
