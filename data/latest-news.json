@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:52:03.386Z",
+  "generatedAt": "2026-11-12T11:52:35.286Z",
   "items": [
     {
       "id": "86a72977089891d1cf45",
@@ -1706,7 +1706,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2161,6 +2161,31 @@
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
+      "id": "11eb025d568fea20bb7e",
+      "title": "Comments | #046 | WITCHRIV - Hakuri - MANGA Plus by SHUEISHA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
+      "summary": "Comments | #046 | WITCHRIV - Hakuri MANGA Plus by SHUEISHA",
+      "publishedAt": "2026-11-10T22:04:47.000Z",
+      "source": "Annonces officielles — Google Actualités",
+      "sourceId": "official-announcements",
+      "language": "en",
+      "publisherName": "MANGA Plus by SHUEISHA",
+      "publisherUrl": "https://mangaplus.shueisha.co.jp",
+      "category": "actualité",
+      "sources": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "sourceIds": [
+        "official-announcements"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
       "id": "2c5084e689931ba6da18",
       "title": "Comments | #009 | Salamander - Atsushi Nakayama - MANGA Plus by SHUEISHA",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMk9MMDJWREs4SWdaSUFLTEhqMkVOemVBN3hvTzZfZkZIbG1wWk52Z3ZiZk4zdjN6eC1TUVV0M1pBRWJfV1FOdzV6M1FRM2UxMUNWWW45TzNuSkxQdGc?oc=5",
@@ -2584,31 +2609,6 @@
       "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "eee58670dd39cced0a1e",
-      "title": "Get Backers Teases Return With Mysterious 'Strongest Duo' Video, No New Anime Project Announced",
-      "url": "https://animecorner.me/get-backers-teases-return-with-mysterious-strongest-duo-video-no-new-anime-project-announced/",
-      "summary": "Get Backers appears to be preparing for a new revival project, with a mysterious teaser recently shared on X and confirmed by the official YouTube channel.",
-      "publishedAt": "2026-11-10T13:48:43.000Z",
-      "source": "Anime Corner",
-      "sourceId": "anime-corner",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime Corner"
-      ],
-      "sourceIds": [
-        "anime-corner"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2658,7 +2658,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 58
+      "items": 59
     },
     {
       "id": "otaku-usa",

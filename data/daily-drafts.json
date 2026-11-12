@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T11:52:03.386Z",
+  "generatedAt": "2026-11-12T11:52:35.286Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 20,
@@ -34,13 +34,13 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé ce jeudi un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama. L’anime, prévu pour 2027, est dirigé par Kenichi Nishida avec Takahiro Nagano à la composition de la série et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé un duo de personnages secondaires. Kenji Yamauchi et Ken Uo prêteront leurs voix aux rôles de Mantarou Kyougoku et Toujin Touyama. La série, prévue pour 2027, est dirigée par Kenichi Nishida avec Takahiro Nagano à la composition et Nozomi Kawashige au design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier que les noms des doubleurs, des personnages et les rôles de l’équipe de production sont correctement repris du texte original. Confirmer la date de diffusion 2027 et la mention du duo de personnages secondaires. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait complet fourni par MyAnimeList News. Vérifier que les noms et rôles correspondent à la page originale avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiGeneratedAt": "2026-11-12T11:52:49.453Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Vérifier que les noms des doubleurs, des personnages et les rôles de l’équipe de production sont correctement repris du texte original. Confirmer la date de diffusion 2027 et la mention du duo de personnages secondaires."
+      "aiVerificationNotes": "Extrait complet fourni par MyAnimeList News. Vérifier que les noms et rôles correspondent à la page originale avant publication."
     },
     {
       "id": "86a72977089891d1cf45",
@@ -81,10 +81,10 @@
       "text": "Sujet repéré : Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est vide ; il faut consulter l’article original pour confirmer le contenu de l’interview et s’assurer qu’il n’y a pas d’autres informations à ajouter. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; seul le titre est disponible. Confirmer le contenu de l’interview dans l’article original avant diffusion. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiGeneratedAt": "2026-11-12T11:52:49.453Z",
       "aiTitle": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +93,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "L’extrait fourni est vide ; il faut consulter l’article original pour confirmer le contenu de l’interview et s’assurer qu’il n’y a pas d’autres informations à ajouter."
+      "aiVerificationNotes": "Le résumé est vide ; seul le titre est disponible. Confirmer le contenu de l’interview dans l’article original avant diffusion."
     },
     {
       "id": "ffc2b8169ce8994cbd08",
@@ -125,10 +125,10 @@
       "text": "Sujet repéré : Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait est absent ; vérifier l’article original pour confirmer l’annonce de l’adaptation et la présence du teaser vidéo. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; l’information provient uniquement du titre. Vérifier les détails de l’annonce dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiGeneratedAt": "2026-11-12T11:52:49.453Z",
       "aiTitle": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "L’extrait est absent ; vérifier l’article original pour confirmer l’annonce de l’adaptation et la présence du teaser vidéo."
+      "aiVerificationNotes": "Le résumé est vide ; l’information provient uniquement du titre. Vérifier les détails de l’annonce dans la source originale."
     },
     {
       "id": "fc35df59fe3786e6fe47",
@@ -169,10 +169,10 @@
       "text": "Sujet repéré : Une édition limitée pour Dandadan 24 - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait fourni est vide ; il faut consulter la source originale pour confirmer les détails de l’édition limitée (format, contenu, date de sortie, etc.). Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; l’information se base uniquement sur le titre. Confirmer le type d’édition et les modalités dans l’article source. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+      "aiGeneratedAt": "2026-11-12T11:52:49.453Z",
       "aiTitle": "Une édition limitée pour Dandadan 24 - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -181,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "L’extrait fourni est vide ; il faut consulter la source originale pour confirmer les détails de l’édition limitée (format, contenu, date de sortie, etc.)."
+      "aiVerificationNotes": "Le résumé est vide ; l’information se base uniquement sur le titre. Confirmer le type d’édition et les modalités dans l’article source."
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -692,6 +692,6 @@
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
     "8 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T11:52:20.141Z",
+  "aiGeneratedAt": "2026-11-12T11:52:49.453Z",
   "aiModel": "openai/gpt-oss-120b"
 }
