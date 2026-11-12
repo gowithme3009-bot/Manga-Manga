@@ -26,7 +26,6 @@ function safeStorageSet(key, value) {
     return true;
   } catch (error) {
     console.warn("Écriture du stockage local impossible :", error);
-    toast("Le stockage local est saturé. Exportez vos brouillons avant de poursuivre.");
     return false;
   }
 }
@@ -35,14 +34,22 @@ function readArray(key) {
   const value = safeStorageGet(key, []);
   return Array.isArray(value) ? value : [];
 }
-function saveDrafts() {
-  if (!safeStorageSet(STORAGE_KEY, state.drafts)) {
-    return;
+function saveDrafts(nextDrafts) {
+  if (!safeStorageSet(STORAGE_KEY, nextDrafts)) {
+    toast("Impossible d’enregistrer sur cet appareil. Vos brouillons précédents sont conservés ; exportez-les avant de poursuivre.");
+    return false;
   }
+  state.drafts = nextDrafts;
   updateCounts();
+  return true;
 }
-function saveDismissed() {
-  safeStorageSet(DISMISSED_KEY, state.dismissed);
+function saveDismissed(nextDismissed) {
+  if (!safeStorageSet(DISMISSED_KEY, nextDismissed)) {
+    toast("Impossible de mémoriser cette proposition écartée. Elle pourra réapparaître au prochain chargement.");
+    return false;
+  }
+  state.dismissed = nextDismissed;
+  return true;
 }
 function toast(message) {
   const element = $("toast");
@@ -243,33 +250,35 @@ document.addEventListener("click", async event => {
   }
   const remove = event.target.closest("[data-delete]");
   if (remove) {
-    state.drafts = state.drafts.filter(draft => draft.id !== remove.dataset.delete);
-    saveDrafts();
-    renderDrafts();
-    toast("Brouillon supprimé.");
+    const nextDrafts = state.drafts.filter(draft => draft.id !== remove.dataset.delete);
+    if (saveDrafts(nextDrafts)) {
+      renderDrafts();
+      toast("Brouillon supprimé.");
+    }
     return;
   }
   const save = event.target.closest("[data-save-candidate]");
   if (save) {
     const candidate = state.candidates.find(item => item.id === save.dataset.saveCandidate);
     if (candidate && !state.drafts.some(draft => draft.sourceId === candidate.id)) {
-      state.drafts.unshift({
+      const nextDrafts = [{
         id: crypto.randomUUID(), sourceId: candidate.id, title: candidate.title,
         body: candidate.text, hashtags: candidate.hashtags, sourceUrl: candidate.sourceUrl,
         sourceName: (candidate.sourceNames || []).join(", "),
         createdAt: new Date().toISOString(), status: candidate.status || "à relire"
-      });
-      saveDrafts();
-      renderDrafts();
-      toast("Proposition ajoutée aux brouillons.");
+      }, ...state.drafts];
+      if (saveDrafts(nextDrafts)) {
+        renderDrafts();
+        toast("Proposition ajoutée aux brouillons.");
+      }
     }
     return;
   }
   const dismiss = event.target.closest("[data-dismiss-candidate]");
   if (dismiss) {
     if (!state.dismissed.includes(dismiss.dataset.dismissCandidate)) {
-      state.dismissed.push(dismiss.dataset.dismissCandidate);
-      saveDismissed();
+      const nextDismissed = [...state.dismissed, dismiss.dataset.dismissCandidate];
+      if (!saveDismissed(nextDismissed)) return;
     }
     renderDrafts();
     toast("Proposition écartée ; la suivante prend sa place.");
@@ -297,12 +306,15 @@ $("story-select").addEventListener("change", () => {
 $("save-draft").addEventListener("click", () => {
   try {
     const draft = makeDraft();
+    let nextDrafts;
     if (state.editingDraftId) {
       const index = state.drafts.findIndex(item => item.id === state.editingDraftId);
       if (index < 0) throw new Error("Ce brouillon n’existe plus.");
       draft.id = state.editingDraftId;
       draft.createdAt = state.drafts[index].createdAt;
-      state.drafts[index] = draft;
+      nextDrafts = [...state.drafts];
+      nextDrafts[index] = draft;
+      if (!saveDrafts(nextDrafts)) return;
       state.editingDraftId = null;
       $("save-draft").textContent = "Enregistrer le brouillon";
       toast("Modifications enregistrées sur cet appareil.");
@@ -311,10 +323,10 @@ $("save-draft").addEventListener("click", () => {
         toast("Cette actualité possède déjà un brouillon.");
         return;
       }
-      state.drafts.unshift(draft);
+      nextDrafts = [draft, ...state.drafts];
+      if (!saveDrafts(nextDrafts)) return;
       toast("Brouillon enregistré sur cet appareil.");
     }
-    saveDrafts();
     renderDrafts();
   } catch (error) {
     toast(error.message);
