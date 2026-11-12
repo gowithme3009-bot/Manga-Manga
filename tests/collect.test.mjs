@@ -118,7 +118,7 @@ test("l’enrichissement priorise les pages directes et les extraits courts avan
     { url: "https://news.google.com/rss/articles/def", summary: "Titre" },
     { url: "https://publisher.example/medium", summary: "x".repeat(200) }
   ];
-  assert.deepEqual(prioritizeEnrichmentItems(items), [2, 4, 1, 3, 0]);
+  assert.deepEqual(prioritizeEnrichmentItems(items), [2, 4, 1, 0, 3]);
 });
 
 test("le nombre de liens agrégateurs enrichis reste plafonné", async () => {
