@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T06:12:15.510Z",
+  "generatedAt": "2026-11-12T06:12:32.164Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 11,
+  "eligibleCount": 12,
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -188,6 +188,23 @@
       "freshnessHours": 19,
       "trendScore": 27,
       "text": "Disparition de Frédéric Boilet, défenseur d'un manga d'auteur - Livres Hebdo\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdoSy1qeEx6LWFOWldHTGdwZVowWlBoVGJZbG8ycVVxOHpxMTBwY1c4YXZGSUdGTlZDa2IyOEVYLWY3MW1HY2FiOEREMmFSemtSbGVkX0I3LWJNWDJKaU1WcDZqbkUtTlpxb2g1UlZNTmRnTXZYWS05X1FuWDBRZTRXRkhCT2hPYl9nYzd6S1VDMERfbmFUaQ?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
+    },
+    {
+      "id": "fc814d45d3fb351eed6a",
+      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
+      "summary": "",
+      "language": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "freshnessHours": 21,
+      "trendScore": 25,
+      "text": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku\n\nÀ compléter après lecture de l’article original : le flux ne fournit pas de résumé.\n\nSource : https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Le flux ne fournit pas de résumé distinct. Ne pas publier avant lecture de l’article et ajout d’un contexte vérifié."
