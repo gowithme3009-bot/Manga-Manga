@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { normalizeEntityText, matchCatalogEntity, parseGoogleTrendsFeed, fetchAniListCatalog } from "../scripts/collect-search-trends.mjs";
+import { normalizeEntityText, matchCatalogEntity, matchCatalogEntities, buildEditorialSignals, parseGoogleTrendsFeed, fetchAniListCatalog } from "../scripts/collect-search-trends.mjs";
 
 const catalog = [
   { id: "anime-1", name: "One Piece", type: "anime", aliases: ["One Piece", "ワンピース"] },
@@ -15,6 +15,27 @@ test("reconnaît un titre manga ou anime sans accepter une sous-chaîne partiell
   assert.equal(matchCatalogEntity("One Piece devient tendance", catalog)?.id, "anime-1");
   assert.equal(matchCatalogEntity("Sousou no Frieren", catalog)?.id, "manga-2");
   assert.equal(matchCatalogEntity("someone piece of news", catalog), null);
+});
+
+test("reconnaît plusieurs titres distincts et conserve l'alias correspondant", () => {
+  const extended = [
+    ...catalog,
+    { id: "anime-3", name: "Mashle", type: "anime", aliases: ["Mashle", "Mashle: Magic and Muscles"] }
+  ];
+  const matches = matchCatalogEntities("Mashle et Sousou no Frieren font parler d'eux", extended);
+  assert.deepEqual(matches.map(item => item.id).sort(), ["anime-3", "manga-2"]);
+});
+
+test("construit des mentions RSS sans confondre les agrégateurs avec des médias directs", () => {
+  const mentions = buildEditorialSignals([
+    { id: "a", title: "Mashle annonce une nouveauté", summary: "Le manga revient", url: "https://ann.test/a", source: "Anime News Network", sourceId: "anime-news-network", sources: ["Anime News Network"], sourceIds: ["anime-news-network"], publishedAt: "2026-11-12T06:00:00Z" },
+    { id: "b", title: "Mashle : nouvelle annonce", summary: "", url: "https://news.google.com/b", source: "Google Actualités", sourceId: "google-news-fr", sources: ["Google Actualités"], sourceIds: ["google-news-fr"], publishedAt: "2026-11-12T05:00:00Z" },
+    { id: "c", title: "Mashle revient", summary: "", url: "https://corner.test/c", source: "Anime Corner", sourceId: "anime-corner", sources: ["Anime Corner"], sourceIds: ["anime-corner"], publishedAt: "2026-11-12T04:00:00Z" }
+  ], [...catalog, { id: "anime-3", name: "Mashle", type: "anime", aliases: ["Mashle"] }]);
+  const mashle = mentions.find(item => item.entityId === "anime-3");
+  assert.equal(mashle.articleCount, 3);
+  assert.equal(mashle.sourceCount, 2);
+  assert.equal(mashle.articles.length, 3);
 });
 
 test("extrait uniquement les recherches Google Trends correspondant au catalogue", () => {
