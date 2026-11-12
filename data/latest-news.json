@@ -1,7 +1,119 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T01:36:50.047Z",
+  "generatedAt": "2026-11-12T04:12:42.145Z",
   "items": [
+    {
+      "id": "b8444a024aca4798bcc6",
+      "title": "Rei Mikamoto Ends Blood Friend Manga in December",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
+      "summary": "Series debuted in December 2025",
+      "publishedAt": "2026-11-12T03:52:30.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 59
+    },
+    {
+      "id": "ec3f0affa69c59e9d8ed",
+      "title": "Duel Masters GT Manga's Part 3 Ends",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
+      "summary": "3rd part launched on August 12",
+      "publishedAt": "2026-11-12T03:43:38.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 59
+    },
+    {
+      "id": "809bd7ec50aee02d6167",
+      "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
+      "summary": "New visual also unveiled",
+      "publishedAt": "2026-11-12T03:38:17.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 59
+    },
+    {
+      "id": "3c018ae2653a014ed456",
+      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
+      "summary": "Yūsuke plays \"mysterious boy\" debuting in episode 7 on Saturday",
+      "publishedAt": "2026-11-12T03:34:25.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 58
+    },
+    {
+      "id": "fe2a1301d1717f390601",
+      "title": "Welsh & Shedar Anime Launches Webtoon",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+      "summary": "12-episode webtoon features multiple artists",
+      "publishedAt": "2026-11-12T03:10:20.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 57
+    },
+    {
+      "id": "393c1036d3378e0778ee",
+      "title": "Kirby Rides the Dragoon in New Chogokin Figure",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
+      "summary": "Figure arrives next May",
+      "publishedAt": "2026-11-12T03:03:33.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceCount": 1,
+      "trendScore": 57
+    },
+    {
+      "id": "151838b1f672d5f99532",
+      "title": "We're sorry but MANGA Plus doesn't work properly without JavaScript enabled. Please enable it to continue. - MANGA Plus by SHUEISHA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
+      "summary": "We're sorry but MANGA Plus doesn't work properly without JavaScript enabled. Please enable it to continue. MANGA Plus by SHUEISHA",
+      "publishedAt": "2026-11-12T00:31:25.000Z",
+      "source": "Annonces officielles — Google Actualités",
+      "sourceId": "official-announcements",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "sourceCount": 1,
+      "trendScore": 51
+    },
     {
       "id": "f02bb917f2dc6772b5ce",
       "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
@@ -16,7 +128,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 57
+      "trendScore": 51
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -32,7 +144,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 52
+      "trendScore": 46
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -48,7 +160,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 51
+      "trendScore": 45
     },
     {
       "id": "913581ff600dd3591661",
@@ -64,7 +176,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 50
+      "trendScore": 44
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -80,7 +192,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 49
+      "trendScore": 44
     },
     {
       "id": "27dd98ec22f905142331",
@@ -96,7 +208,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 47
+      "trendScore": 43
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -112,7 +224,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 47
+      "trendScore": 42
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -128,7 +240,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 46
+      "trendScore": 41
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -144,7 +256,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 45
+      "trendScore": 41
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -160,7 +272,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 40
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -176,7 +288,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 39
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -192,7 +304,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 38
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -208,7 +320,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 38
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -224,7 +336,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 38
     },
     {
       "id": "4b9ea639a65c023e1931",
@@ -240,7 +352,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 38
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -256,7 +368,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 38
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -272,7 +384,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 38
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -288,7 +400,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 41
+      "trendScore": 37
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -304,7 +416,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 41
+      "trendScore": 36
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -320,7 +432,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -336,7 +448,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "d4fe726783d4776f5a5f",
@@ -352,7 +464,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "696f041b3780c8d75107",
@@ -368,7 +480,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "26d24462220b60baf0f5",
@@ -384,7 +496,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "1685ca711a1a43de9122",
@@ -400,23 +512,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 40
-    },
-    {
-      "id": "6831462df8735bc0dfb0",
-      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
-      "summary": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri L'Est Républicain",
-      "publishedAt": "2026-11-11T15:40:02.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 36
     },
     {
       "id": "daf73bca15aa5e366312",
@@ -432,7 +528,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 35
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -448,7 +544,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 35
     },
     {
       "id": "4144e983326ec39abb67",
@@ -464,7 +560,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 35
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -480,7 +576,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 35
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -496,7 +592,7 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 34
     },
     {
       "id": "faa9582f2ad9a2bd22df",
@@ -512,7 +608,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 34
     },
     {
       "id": "99680deade85e0f3865c",
@@ -528,7 +624,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 37
+      "trendScore": 33
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -544,7 +640,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 37
+      "trendScore": 33
     },
     {
       "id": "793b83ce133c2f0f3fd2",
@@ -560,7 +656,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 37
+      "trendScore": 33
     },
     {
       "id": "a32f1bedf1225112b87a",
@@ -576,7 +672,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 33
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -592,7 +688,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 33
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -608,7 +704,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 33
     },
     {
       "id": "114d72b901a98cf6ddcb",
@@ -624,7 +720,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 31
     },
     {
       "id": "23c1052718cae3facf20",
@@ -640,7 +736,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 30
     },
     {
       "id": "160e4e78fd3486545aec",
@@ -656,7 +752,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 30
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -672,7 +768,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 30
     },
     {
       "id": "a128e1fff278ea9ff5b9",
@@ -688,7 +784,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 32
+      "trendScore": 29
     },
     {
       "id": "cb37bb295396c6823eb4",
@@ -704,7 +800,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 28
     },
     {
       "id": "5676a58b77ac1dafd8f9",
@@ -720,7 +816,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 28
     },
     {
       "id": "2f7f1e7c2a3719e0bc73",
@@ -736,7 +832,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 27
     },
     {
       "id": "781a068935c9a4cfdd6f",
@@ -752,7 +848,7 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 27
     },
     {
       "id": "d7ee99c755160bf67f9b",
@@ -768,7 +864,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 30
+      "trendScore": 27
     },
     {
       "id": "41462f05b442e49b824e",
@@ -784,7 +880,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 30
+      "trendScore": 27
     },
     {
       "id": "ed61715d47ca31925a39",
@@ -800,7 +896,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 30
+      "trendScore": 27
     },
     {
       "id": "fc6bfeab4c5f40522d7c",
@@ -816,7 +912,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 29
+      "trendScore": 26
     },
     {
       "id": "f65cd317eef4f19902ef",
@@ -832,7 +928,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 25
+      "trendScore": 23
     },
     {
       "id": "30868e6f1f136a564d36",
@@ -848,7 +944,39 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 24
+      "trendScore": 22
+    },
+    {
+      "id": "6831462df8735bc0dfb0",
+      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
+      "summary": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri L'Est Républicain",
+      "publishedAt": "2026-11-11T03:41:36.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 22
+    },
+    {
+      "id": "19d719a8a2297963f687",
+      "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "summary": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » Le Monde.fr",
+      "publishedAt": "2026-11-11T03:30:49.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 21
     },
     {
       "id": "49e94a62519151a2a7d8",
@@ -864,7 +992,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 23
+      "trendScore": 21
     },
     {
       "id": "99446560bc40c02c623a",
@@ -880,7 +1008,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 23
+      "trendScore": 21
     },
     {
       "id": "d61468f58114cc562379",
@@ -896,23 +1024,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 22
-    },
-    {
-      "id": "19d719a8a2297963f687",
-      "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
-      "summary": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » Le Monde.fr",
-      "publishedAt": "2026-11-11T00:30:49.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 21
+      "trendScore": 20
     },
     {
       "id": "d79f4dfb2d33cfa6b15b",
@@ -928,7 +1040,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 21
+      "trendScore": 19
     },
     {
       "id": "1d04e2dae1039b040f58",
@@ -944,39 +1056,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 20
-    },
-    {
-      "id": "11eb025d568fea20bb7e",
-      "title": "Comments | #046 | WITCHRIV - Hakuri - MANGA Plus by SHUEISHA",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
-      "summary": "Comments | #046 | WITCHRIV - Hakuri MANGA Plus by SHUEISHA",
-      "publishedAt": "2026-11-10T22:04:47.000Z",
-      "source": "Annonces officielles — Google Actualités",
-      "sourceId": "official-announcements",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "sourceCount": 1,
-      "trendScore": 19
-    },
-    {
-      "id": "2c5084e689931ba6da18",
-      "title": "Comments | #009 | Salamander - Atsushi Nakayama - MANGA Plus by SHUEISHA",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMk9MMDJWREs4SWdaSUFLTEhqMkVOemVBN3hvTzZfZkZIbG1wWk52Z3ZiZk4zdjN6eC1TUVV0M1pBRWJfV1FOdzV6M1FRM2UxMUNWWW45TzNuSkxQdGc?oc=5",
-      "summary": "Comments | #009 | Salamander - Atsushi Nakayama MANGA Plus by SHUEISHA",
-      "publishedAt": "2026-11-10T22:03:41.000Z",
-      "source": "Annonces officielles — Google Actualités",
-      "sourceId": "official-announcements",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 18
     },
     {
       "id": "e6e574dbbfd551e06fb5",
@@ -992,7 +1072,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 17
     },
     {
       "id": "fd241ec9ac422dab97c9",
@@ -1008,7 +1088,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 18
+      "trendScore": 16
     },
     {
       "id": "92a8a4b07b4c71bde78a",
@@ -1024,7 +1104,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 18
+      "trendScore": 16
     },
     {
       "id": "b091e043660839755826",
@@ -1040,7 +1120,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 17
+      "trendScore": 16
     },
     {
       "id": "c86af402a72a41b3aa99",
@@ -1056,7 +1136,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 17
+      "trendScore": 15
     },
     {
       "id": "f52a705a75ca919f8546",
@@ -1072,7 +1152,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 17
+      "trendScore": 15
     },
     {
       "id": "3d4d12da9a60b1961802",
@@ -1088,7 +1168,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 14
     },
     {
       "id": "6df08dfca0dd99fd06f3",
@@ -1104,7 +1184,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 14
     },
     {
       "id": "3f962c61a91e78fd430b",
@@ -1120,7 +1200,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 14
     },
     {
       "id": "b29b8f87700794f22ee2",
@@ -1136,7 +1216,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 14
     },
     {
       "id": "875a3dc44db2fb0f33c6",
@@ -1152,7 +1232,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 14
     },
     {
       "id": "0c9c9d86d16f23ecc444",
@@ -1168,23 +1248,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 15
-    },
-    {
-      "id": "cd0af0f4e8025aa4abb7",
-      "title": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji ! - Journal du Japon",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOFpKMzMzNGNvcmlrUm1ZakREZ2dnVDBDbDZMd0hFZzZEckRHdEw0cWc2VGFzU3NTNzkwUmx1dTZ1UzdHTTQyX2dhRFJlTVllUE14N3dPbmRpQllZT3pLMWhVZnBWQjI1VWZzV2tvTE9QeThnaFA4R1NSODNOSnFhdlJUWWY3TW5NNExmenVaVjd1MDlGaDJGbjh6TGhwTXhIc1JmR0psU0FfVTY4WGVfMUFuNTdRVUNsMDJIbm5RNDAwdE04VFlpT2cyTlFUMEtveHJWTw?oc=5",
-      "summary": "[Japan Expo 2026] Dans les coulisses du manga français avec les mangakas Elsa Brants, Zac et Tanji ! Journal du Japon",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 13
     },
     {
       "id": "dc382b79fb51e75dbfaf",
@@ -1200,7 +1264,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 13
     },
     {
       "id": "0aceb89e0ce0714de9a7",
@@ -1216,7 +1280,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 13
     },
     {
       "id": "82ff61dfd27b8dbdc1bb",
@@ -1232,7 +1296,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 13
     },
     {
       "id": "0c6d61cb1f33acfc6697",
@@ -1248,7 +1312,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "acce966ca25ff13372db",
@@ -1264,7 +1328,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "9db0aa1621a1851391cf",
@@ -1280,7 +1344,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "2367377ab25caf87bf3e",
@@ -1296,7 +1360,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "dfb6d2708f1537d294af",
@@ -1312,39 +1376,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 14
-    },
-    {
-      "id": "2c723740f9fc7551b933",
-      "title": "Meteoria Vol.2 : Critiques - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kVDUwMWpVa21aWk53TG1vOF9LMkdUakNJdmhiLW5fRUdOYWlHeFVkWXoyeVVoS3JjNE1pUTZWcXpSWWtzdDFERHhOWmRUM3dNTEVmTll6RUMzeEI0RHNtV3pOTEZ0WWU2TmFtaTZTc3Q3NFdO?oc=5",
-      "summary": "Meteoria Vol.2 : Critiques Manga news",
-      "publishedAt": "2026-11-10T14:11:58.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 14
-    },
-    {
-      "id": "25e7d10895b326697f07",
-      "title": "Archange de la décapitation (l') Vol.1 : Critiques - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObUFteEJZQkVRMWZLYnkydUw0ZmFVTzJxNmVBcUlPQzUyRTBFcXVpbVBFczRYVlZmNUJ2Ym1GeHJOSWkycm00WlBkaS1fc0R3YlFrUzJVRWlIX0phYWdzU2Y0S1Nub1ZpZjQyY1JUOTZCakJZWTZNcGUzd1FVSHE5ZElzSkNhWWRRVW5ZeHNiWW0?oc=5",
-      "summary": "Archange de la décapitation (l') Vol.1 : Critiques Manga news",
-      "publishedAt": "2026-11-10T14:08:11.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 13
     },
     {
       "id": "eee58670dd39cced0a1e",
@@ -1360,7 +1392,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "b3c2a21334b2c02ef605",
@@ -1376,7 +1408,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "b3c5874cc1e710e6e5a2",
@@ -1392,7 +1424,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "0d0456b6da05f028e172",
@@ -1408,7 +1440,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "4d347964ac709beba963",
@@ -1424,7 +1456,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "c617902117fce9d96ce7",
@@ -1440,7 +1472,7 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 12
     },
     {
       "id": "123d33b49b18420c6871",
@@ -1456,7 +1488,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 11
     },
     {
       "id": "01aeb0746a13eb589798",
@@ -1472,7 +1504,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 11
     },
     {
       "id": "47ced3d5c30123ca86f5",
@@ -1488,7 +1520,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 11
     },
     {
       "id": "bcbb49fa7f8b7ea00d22",
@@ -1504,7 +1536,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 11
     },
     {
       "id": "df150fc678588fce930b",
@@ -1520,7 +1552,7 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 10
     },
     {
       "id": "4a90e51bec71ac1156c6",
@@ -1536,7 +1568,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 10
     },
     {
       "id": "520eb8410deaa98c67df",
@@ -1552,7 +1584,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 10
     },
     {
       "id": "5b85aed326c2f23d6bc5",
@@ -1568,39 +1600,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 11
-    },
-    {
-      "id": "028c50944abfc8662cf8",
-      "title": "Japan's Video Game Rankings, October 26-November 1",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
-      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
-      "publishedAt": "2026-11-10T07:53:54.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 11
-    },
-    {
-      "id": "a57ec6adb16660726d41",
-      "title": "Japanese Animation TV Ranking, October 26-November 1",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
-      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
-      "publishedAt": "2026-11-10T07:52:54.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 10
     }
   ],
   "sources": [
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 51
+      "items": 52
     },
     {
       "id": "anime-corner",
@@ -1650,7 +1650,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 55
+      "items": 56
     },
     {
       "id": "otaku-usa",
