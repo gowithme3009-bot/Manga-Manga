@@ -9,8 +9,7 @@ const GOOGLE_TRENDS_URL = "https://trends.google.com/trending/rss?geo=";
 const TIMEOUT_MS = 12000;
 const COUNTRIES = [
   { code: "FR", label: "France" },
-  { code: "JP", label: "Japon" },
-  { code: "MG", label: "Madagascar" }
+  { code: "JP", label: "Japon" }
 ];
 
 export function normalizeEntityText(value = "") {
@@ -68,7 +67,7 @@ export function parseGoogleTrendsFeed(xml, country, catalog, now = Date.now()) {
     signals.push({
       id, title, entityId: entity.id, entityName: entity.name, entityType: entity.type,
       country: country.code, countryLabel: country.label, approximateTraffic: traffic || null,
-      publishedAt, url: /^https:\/\//i.test(link) ? link : "https://trends.google.com/trending?geo=" + country.code,
+      publishedAt, url: "https://trends.google.com/trending?geo=" + country.code,
       source: "Google Trends", signalType: "recherche publique agrégée",
       note: "Tendance de recherche publique dans cette région ; le volume est une estimation par tranche, pas un nombre exact."
     });
@@ -123,7 +122,7 @@ export async function collectSearchTrends({
   fetchImpl = fetch, countries = COUNTRIES, now = Date.now(),
   outputPath = path.join(ROOT, "data/trend-signals.json")
 } = {}) {
-  const warnings = [];
+  const warnings = ["Google Trends ne propose pas de flux RSS Madagascar (MG) dans cette collecte ; aucune donnée locale n’est supposée."];
   let catalog = [];
   try {
     catalog = await fetchAniListCatalog(fetchImpl);
