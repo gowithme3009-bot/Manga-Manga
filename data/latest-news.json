@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:33:00.644Z",
+  "generatedAt": "2026-11-12T10:39:44.493Z",
   "items": [
+    {
+      "id": "126adf4280b312a1b7b1",
+      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
+      "url": "https://myanimelist.net/news/74931275?_location=rss",
+      "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and Vega Entertainment. Takahiro Nagano (Tensei shitara Ken deshita) is handling the series composition, while Nozomi Kawashige (Deatte 5-byou de Battle) is designing the characters. Kariya began writing Oishinbo in Shogakukan's Big Comic Spirits magazine in 1983, featuring art by Akira Hanasaki. Shogakukan published the 111th and latest volume in December 2014. The manga has been on hiatus since May 2014. VIZ Media licensed the manga in English and published seven themed compilation volumes under its VIZ Signature imprint from January 2009 to January 2010. Shin-Ei Animation produced a television anime based on the manga that ran for 136 episodes from October 1988 to March 1992. Source: Official Site",
+      "publishedAt": "2026-11-12T10:32:45.000Z",
+      "source": "MyAnimeList News",
+      "sourceId": "myanimelist",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "MyAnimeList News"
+      ],
+      "sourceIds": [
+        "myanimelist"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "articleUrl": "https://myanimelist.net/news/74931275?_location=rss",
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74931275?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summaryOrigin": "metadata_article_original",
+      "articleContentRetrieved": true,
+      "articleFetchNote": ""
+    },
+    {
+      "id": "7b47845646a2578e2144",
+      "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "summary": "SPIRIT CIRCLE : Le manga va être adapté en anime ! Gaak",
+      "publishedAt": "2026-11-12T10:30:42.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "Gaak",
+      "publisherUrl": "https://gaak.fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 60,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
+      },
+      "articleFetchNote": "Lien Google Actualités : redirection vers le média d’origine non résolue."
+    },
     {
       "id": "caa5ca3faa63349f9d96",
       "title": "Lockdown Life with the Class Beauty Volume 1 Review",
@@ -23,7 +90,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 59,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -85,7 +152,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -116,7 +183,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 58,
+      "trendScore": 57,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://myanimelist.net/news/74931133?_location=rss",
@@ -152,7 +219,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 57,
+      "trendScore": 56,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -276,7 +343,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 55,
+      "trendScore": 54,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -338,7 +405,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -464,19 +531,13 @@
       "independentSourceCount": 1,
       "trendScore": 45,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "fe2a1301d1717f390601",
       "title": "Welsh & Shedar Anime Launches Webtoon",
       "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "summary": "12-episode webtoon features multiple artists // French entertainment company Ankama announced on Wednesday that a 12-episode webtoon adaptation of the...",
+      "summary": "12-episode webtoon features multiple artists",
       "publishedAt": "2026-11-12T03:10:20.000Z",
       "source": "Anime News Network",
       "sourceId": "anime-news-network",
@@ -495,18 +556,7 @@
       "independentSourceCount": 1,
       "trendScore": 44,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "articleUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "www.animenewsnetwork.com",
-        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "summaryOrigin": "metadata_article_original",
-      "articleContentRetrieved": true,
-      "articleFetchNote": ""
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -579,7 +629,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -831,7 +881,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 31,
+      "trendScore": 30,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1306,7 +1356,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 27,
+      "trendScore": 26,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1631,7 +1681,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 22,
+      "trendScore": 21,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1831,7 +1881,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 18,
+      "trendScore": 17,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2081,7 +2131,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 13,
+      "trendScore": 12,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2106,7 +2156,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 13,
+      "trendScore": 12,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2156,7 +2206,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 12,
+      "trendScore": 11,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2181,7 +2231,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 12,
+      "trendScore": 11,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2281,7 +2331,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 11,
+      "trendScore": 10,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2559,56 +2609,6 @@
       "trendScore": 9,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "4d347964ac709beba963",
-      "title": "DMM Establishes New Animation Studio Gleestone",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/dmm-establishes-new-animation-studio-gleestone/.243682",
-      "summary": "Naokazu Tsuruta heads company handling works from planning stages to actual animation production",
-      "publishedAt": "2026-11-10T12:52:45.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
-    },
-    {
-      "id": "c617902117fce9d96ce7",
-      "title": "Light Novel 'Hyouken no Majutsushi ga Sekai wo Suberu' Concludes with 10th Volume",
-      "url": "https://myanimelist.net/news/74924616?_location=rss",
-      "summary": "The official X account for author Nana Mikoshiba announced on Tuesday that the Hyouken no Majutsushi ga Sekai wo Suberu: Sekai Saikyou no Majutsushi de Aru Shounen wa, Majutsu Gakuin ni Nyuugaku suru (The Iceblade Sorcerer Shall Rule the World) light novel series will end with its tenth volume, scheduled to be released on December 2. The main story has already concluded, with the final volume featuring revised and expanded side stories from the web novel, as well as an original story covering Ra...",
-      "publishedAt": "2026-11-10T12:45:55.000Z",
-      "source": "MyAnimeList News",
-      "sourceId": "myanimelist",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "MyAnimeList News"
-      ],
-      "sourceIds": [
-        "myanimelist"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2628,7 +2628,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 49
+      "items": 47
     },
     {
       "id": "anime-corner",
@@ -2658,7 +2658,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 56
+      "items": 55
     },
     {
       "id": "otaku-usa",
@@ -2671,7 +2671,7 @@
   "articleEnrichment": {
     "attempted": 16,
     "enriched": 2,
-    "skippedAggregator": 5,
+    "skippedAggregator": 6,
     "maxPages": 16,
     "excerptLimit": 1600
   }

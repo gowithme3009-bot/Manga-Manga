@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T10:33:21.226Z",
+  "generatedAt": "2026-11-12T10:39:50.391Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-12T10:33:21.226Z",
+    "refreshedAt": "2026-11-12T10:39:50.391Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -654,7 +654,7 @@
         "災いクラスの俺様英雄の帰還",
         "การกลับมาของฮีโร่ระดับหายนะ"
       ],
-      "popularity": 39711,
+      "popularity": 39736,
       "trending": 36,
       "format": "MANGA",
       "genres": [
@@ -1410,7 +1410,7 @@
         "ยอดสถาปนิกผู้พิทักษ์อาณาจักร",
         "Niezrównany Inżynier"
       ],
-      "popularity": 72224,
+      "popularity": 72281,
       "trending": 21,
       "format": "MANGA",
       "genres": [
@@ -2854,7 +2854,7 @@
         "คู่มือการใช้งานของนักข้ามเวลา",
         "Como Usar um Regressor"
       ],
-      "popularity": 25666,
+      "popularity": 25684,
       "trending": 14,
       "format": "MANGA",
       "genres": [
@@ -3659,6 +3659,33 @@
       "url": "https://anilist.co/anime/204011"
     },
     {
+      "id": "manga-141958",
+      "name": "My S-Class Hunters",
+      "nativeTitle": "내가 키운 S급들",
+      "romajiTitle": "Naega Kiun S-Geupdeul",
+      "englishTitle": "My S-Class Hunters",
+      "type": "manga",
+      "aliases": [
+        "Naega Kiun S-Geupdeul",
+        "My S-Class Hunters",
+        "내가 키운 S급들",
+        "The S-Classes That I Raised",
+        "The S-Grades I Raised",
+        "我培育的S級們",
+        "我培养的S级们",
+        "Los clase S que crié"
+      ],
+      "popularity": 22433,
+      "trending": 12,
+      "format": "MANGA",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "url": "https://anilist.co/manga/141958"
+    },
+    {
       "id": "manga-178379",
       "name": "Blink Master of the Magic Academy",
       "nativeTitle": "마법학교 앞점멸 천재가 되었다",
@@ -3683,33 +3710,6 @@
         "Fantasy"
       ],
       "url": "https://anilist.co/manga/178379"
-    },
-    {
-      "id": "manga-141958",
-      "name": "My S-Class Hunters",
-      "nativeTitle": "내가 키운 S급들",
-      "romajiTitle": "Naega Kiun S-Geupdeul",
-      "englishTitle": "My S-Class Hunters",
-      "type": "manga",
-      "aliases": [
-        "Naega Kiun S-Geupdeul",
-        "My S-Class Hunters",
-        "내가 키운 S급들",
-        "The S-Classes That I Raised",
-        "The S-Grades I Raised",
-        "我培育的S級們",
-        "我培养的S级们",
-        "Los clase S que crié"
-      ],
-      "popularity": 22408,
-      "trending": 12,
-      "format": "MANGA",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "url": "https://anilist.co/manga/141958"
     },
     {
       "id": "anime-206401",
@@ -4467,7 +4467,7 @@
         "Aku Dimanjakan Tetanggaku yang Seperti Malaikat",
         "Thiên Sứ Nhà Bên"
       ],
-      "popularity": 180450,
+      "popularity": 180569,
       "trending": 10,
       "format": "TV",
       "genres": [
@@ -4493,7 +4493,7 @@
         "TENKEN - Reincarnato in una spada",
         "轉生就是劍"
       ],
-      "popularity": 123086,
+      "popularity": 123240,
       "trending": 10,
       "format": "ONA",
       "genres": [
@@ -4732,7 +4732,7 @@
         "天魔玩家",
         "天魔育成"
       ],
-      "popularity": 13465,
+      "popularity": 13485,
       "trending": 10,
       "format": "MANGA",
       "genres": [
@@ -5687,7 +5687,7 @@
         "سباي إكس فاميلي",
         "Gia Đình Điệp Viên"
       ],
-      "popularity": 583122,
+      "popularity": 583335,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -6017,7 +6017,7 @@
         "间谍过家家",
         "スパイファミリー 2クール"
       ],
-      "popularity": 335700,
+      "popularity": 335795,
       "trending": 8,
       "format": "TV",
       "genres": [
@@ -8634,7 +8634,7 @@
         "귀멸의 칼날: 환락의 거리편",
         "Клинок, Рассекающий Демонов: Квартал Красных Фонарей"
       ],
-      "popularity": 495638,
+      "popularity": 495805,
       "trending": 6,
       "format": "TV",
       "genres": [
@@ -9688,7 +9688,7 @@
         "Hoa thơm kiêu hãnh",
         "Духмяна квітка в гордім цвітінні"
       ],
-      "popularity": 82022,
+      "popularity": 82059,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -10440,7 +10440,7 @@
         "악역이지만 즐겁습니다",
         "我こそは大悪党"
       ],
-      "popularity": 16273,
+      "popularity": 16287,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -10586,7 +10586,7 @@
         "请欺负我吧，恶役小姐！",
         "괴롭혀주세요 악역 아가씨"
       ],
-      "popularity": 10265,
+      "popularity": 10275,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -10708,7 +10708,7 @@
         "反正是欧风小甜漫",
         "とにかく私達って最高！"
       ],
-      "popularity": 6721,
+      "popularity": 6733,
       "trending": 6,
       "format": "MANGA",
       "genres": [
@@ -13722,7 +13722,7 @@
         "现实闯关",
         "現實遊戲"
       ],
-      "popularity": 18966,
+      "popularity": 18985,
       "trending": 4,
       "format": "MANGA",
       "genres": [
