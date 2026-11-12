@@ -11,7 +11,7 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 - Interface responsive en français.
 - Radar RSS/Atom avec normalisation, dédoublonnage et score indicatif basé sur la fraîcheur et la couverture multi-sources.
 - Jusqu'à quatre propositions quotidiennes issues des articles vérifiés, avec un réservoir de remplaçants si un sujet est écarté.
-- Brouillons enregistrés dans le navigateur, aperçu de publication et export JSON.
+- Brouillons enregistrés dans le navigateur, modification après sauvegarde, aperçu de publication et export JSON.
 - Tests automatisés du collecteur et du générateur de propositions.
 - Collecte et génération de propositions planifiées toutes les six heures sur la branche de travail uniquement.
 - Workflow GitHub Actions de collecte uniquement.
@@ -20,7 +20,7 @@ Projet en construction sur la branche `manga-manga-v1-work`. La maquette histori
 
 - Aucun jeton Facebook ou clé IA dans le navigateur ou le dépôt.
 - Aucun appel à l'API Facebook et aucune publication automatique.
-- Les sources RSS sont désactivées par défaut. Renseigner uniquement des URL de flux officielles vérifiées dans `data/sources.json`, après vérification des conditions d'utilisation.
+- Les neuf flux actuellement configurés sont activés et contrôlés à chaque collecte. Vérifier les statuts du dernier cycle dans l’interface ; un statut HTTP « ok » confirme la récupération du flux, pas l’exactitude de chaque article. Google Actualités est un agrégateur : ouvrir et vérifier l’article du média d’origine avant rédaction.
 - Le score de tendance est un indicateur technique, pas une mesure officielle de popularité.
 - Les brouillons restent dans le stockage local de l'appareil ; exporter régulièrement les brouillons pour les sauvegarder.
 - L'IA reste désactivée tant qu'un endpoint sécurisé et ses limites d'usage n'ont pas été testés.
