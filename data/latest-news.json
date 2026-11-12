@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T06:12:32.164Z",
+  "generatedAt": "2026-11-12T06:52:19.739Z",
   "items": [
     {
       "id": "86324f10058b4807aacb",
@@ -15,9 +15,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 58,
-      "trendLevel": "hausse"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 57,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -32,9 +38,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 54,
-      "trendLevel": "hausse"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 53,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "ec3f0affa69c59e9d8ed",
@@ -49,9 +61,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 54,
-      "trendLevel": "hausse"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 53,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "809bd7ec50aee02d6167",
@@ -66,9 +84,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 54,
-      "trendLevel": "hausse"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 52,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -83,9 +107,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 54,
-      "trendLevel": "hausse"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 52,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -100,9 +130,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 53,
-      "trendLevel": "hausse"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 51,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -117,26 +153,15 @@
       "sources": [
         "Anime News Network"
       ],
-      "sourceCount": 1,
-      "trendScore": 53,
-      "trendLevel": "hausse"
-    },
-    {
-      "id": "151838b1f672d5f99532",
-      "title": "We're sorry but MANGA Plus doesn't work properly without JavaScript enabled. Please enable it to continue. - MANGA Plus by SHUEISHA",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
-      "summary": "We're sorry but MANGA Plus doesn't work properly without JavaScript enabled. Please enable it to continue. MANGA Plus by SHUEISHA",
-      "publishedAt": "2026-11-12T00:31:25.000Z",
-      "source": "Annonces officielles — Google Actualités",
-      "sourceId": "official-announcements",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Annonces officielles — Google Actualités"
+      "sourceIds": [
+        "anime-news-network"
       ],
       "sourceCount": 1,
-      "trendScore": 47,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 51,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -151,9 +176,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 47,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 46,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -168,9 +199,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 43,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 41,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -185,9 +222,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 42,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 41,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "913581ff600dd3591661",
@@ -202,9 +245,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 41,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 40,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -219,9 +268,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 41,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 39,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "27dd98ec22f905142331",
@@ -236,9 +291,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 39,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 38,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -253,9 +314,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 39,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 37,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -270,9 +337,15 @@
       "sources": [
         "Anime UK News"
       ],
+      "sourceIds": [
+        "anime-uk-news"
+      ],
       "sourceCount": 1,
-      "trendScore": 38,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 37,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -287,9 +360,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 38,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 37,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -304,9 +383,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 37,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 36,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -321,9 +406,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 36,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 35,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -338,9 +429,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -355,9 +452,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -372,9 +475,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4b9ea639a65c023e1931",
@@ -389,9 +498,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -406,9 +521,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -423,9 +544,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 35,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 34,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -440,9 +567,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 34,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 33,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -457,9 +590,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 33,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -474,9 +613,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -491,9 +636,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "d4fe726783d4776f5a5f",
@@ -508,9 +659,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "696f041b3780c8d75107",
@@ -525,9 +682,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "26d24462220b60baf0f5",
@@ -542,9 +705,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "1685ca711a1a43de9122",
@@ -559,9 +728,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "daf73bca15aa5e366312",
@@ -576,9 +751,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -593,9 +774,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 33,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 32,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4144e983326ec39abb67",
@@ -610,9 +797,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 32,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -627,9 +820,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 32,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -644,9 +843,15 @@
       "sources": [
         "MyAnimeList News"
       ],
+      "sourceIds": [
+        "myanimelist"
+      ],
       "sourceCount": 1,
-      "trendScore": 32,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 31,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "faa9582f2ad9a2bd22df",
@@ -661,9 +866,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 31,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 30,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "99680deade85e0f3865c",
@@ -678,9 +889,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 31,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 30,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -695,9 +912,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 30,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "793b83ce133c2f0f3fd2",
@@ -712,9 +935,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 30,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "a32f1bedf1225112b87a",
@@ -729,9 +958,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 30,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 29,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -746,9 +981,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 30,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 29,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -763,9 +1004,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 30,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 29,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "114d72b901a98cf6ddcb",
@@ -780,9 +1027,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 28,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "23c1052718cae3facf20",
@@ -797,9 +1050,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 27,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "160e4e78fd3486545aec",
@@ -814,9 +1073,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 27,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 26,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -831,9 +1096,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 27,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 26,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "a128e1fff278ea9ff5b9",
@@ -848,9 +1119,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 27,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 26,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "cb37bb295396c6823eb4",
@@ -865,9 +1142,15 @@
       "sources": [
         "Anime UK News"
       ],
+      "sourceIds": [
+        "anime-uk-news"
+      ],
       "sourceCount": 1,
-      "trendScore": 26,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 25,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5676a58b77ac1dafd8f9",
@@ -882,9 +1165,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 26,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 25,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "2f7f1e7c2a3719e0bc73",
@@ -899,9 +1188,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 25,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "781a068935c9a4cfdd6f",
@@ -916,9 +1211,15 @@
       "sources": [
         "MyAnimeList News"
       ],
+      "sourceIds": [
+        "myanimelist"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 25,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "d7ee99c755160bf67f9b",
@@ -933,9 +1234,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 25,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 24,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "41462f05b442e49b824e",
@@ -950,9 +1257,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 25,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 24,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "ed61715d47ca31925a39",
@@ -967,26 +1280,15 @@
       "sources": [
         "Anime News Network"
       ],
-      "sourceCount": 1,
-      "trendScore": 25,
-      "trendLevel": "surveillance"
-    },
-    {
-      "id": "fc814d45d3fb351eed6a",
-      "title": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 - AnimOtaku",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdE1UQlQtQVk2Q3pabUttYVNKbkthY05WaFNaenQydkgzYTFGTEwtZ3NlUmUteFlIamYzeE9QN2xyZG05djZod2thdUR2WXQyVWZNZDBqVE5SZVljRG1KNVpkVkljTktIMnI1NkRFVkdKNTg5eTl1ejFvb3VzUE5kMk5lNVVQN3VZdW1aVGNyOVdydGs?oc=5",
-      "summary": "3 ans et demi après sa première saison, ce shonen avec un épéiste surpuissant reviendra au printemps 2027 AnimOtaku",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
+      "sourceIds": [
+        "anime-news-network"
       ],
       "sourceCount": 1,
-      "trendScore": 25,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 24,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "fc6bfeab4c5f40522d7c",
@@ -1001,16 +1303,22 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 24,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 23,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "19d719a8a2297963f687",
       "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
       "summary": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » Le Monde.fr",
-      "publishedAt": "2026-11-11T05:00:49.000Z",
+      "publishedAt": "2026-11-11T06:30:49.000Z",
       "source": "Google Actualités — Manga & Anime",
       "sourceId": "google-news-fr",
       "language": "fr",
@@ -1018,9 +1326,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 21,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 22,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "f65cd317eef4f19902ef",
@@ -1035,9 +1349,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 21,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 20,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "30868e6f1f136a564d36",
@@ -1052,9 +1372,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 20,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -1069,9 +1395,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 20,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 19,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "49e94a62519151a2a7d8",
@@ -1086,9 +1418,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 19,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "99446560bc40c02c623a",
@@ -1103,9 +1441,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 19,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "d61468f58114cc562379",
@@ -1120,9 +1464,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 19,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 18,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "d79f4dfb2d33cfa6b15b",
@@ -1137,9 +1487,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 17,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "1d04e2dae1039b040f58",
@@ -1154,9 +1510,38 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 16,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "11eb025d568fea20bb7e",
+      "title": "Comments | #046 | WITCHRIV - Hakuri - MANGA Plus by SHUEISHA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85Ql91RnM3bXdYZnN5emRyM2xkRF80Snc2NERzVEMzMkd3ZnAzbERhOEFweGF5cEs1d1BfbkVwemN6TUdPbnBab1l2ODNLZlg2MTRKdHhkTmFzNi1YNFE?oc=5",
+      "summary": "Comments | #046 | WITCHRIV - Hakuri MANGA Plus by SHUEISHA",
+      "publishedAt": "2026-11-10T22:04:47.000Z",
+      "source": "Annonces officielles — Google Actualités",
+      "sourceId": "official-announcements",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "sourceIds": [
+        "official-announcements"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 15,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "e6e574dbbfd551e06fb5",
@@ -1171,9 +1556,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 16,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 15,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "fd241ec9ac422dab97c9",
@@ -1188,9 +1579,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 15,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "92a8a4b07b4c71bde78a",
@@ -1205,9 +1602,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 15,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "b091e043660839755826",
@@ -1222,9 +1625,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 14,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "c86af402a72a41b3aa99",
@@ -1239,9 +1648,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 14,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 13,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "f52a705a75ca919f8546",
@@ -1256,9 +1671,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
-      "trendScore": 14,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 13,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "3d4d12da9a60b1961802",
@@ -1273,9 +1694,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 13,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "6df08dfca0dd99fd06f3",
@@ -1290,9 +1717,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 13,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "3f962c61a91e78fd430b",
@@ -1307,9 +1740,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 13,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "b29b8f87700794f22ee2",
@@ -1324,9 +1763,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 13,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "875a3dc44db2fb0f33c6",
@@ -1341,9 +1786,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 13,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "0c9c9d86d16f23ecc444",
@@ -1358,9 +1809,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 12,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "0c6d61cb1f33acfc6697",
@@ -1375,9 +1832,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 12,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "acce966ca25ff13372db",
@@ -1392,9 +1855,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 12,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "9db0aa1621a1851391cf",
@@ -1409,9 +1878,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 12,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 11,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "2367377ab25caf87bf3e",
@@ -1426,9 +1901,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 12,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 11,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "dfb6d2708f1537d294af",
@@ -1443,9 +1924,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 12,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 11,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "eee58670dd39cced0a1e",
@@ -1460,9 +1947,15 @@
       "sources": [
         "Anime Corner"
       ],
+      "sourceIds": [
+        "anime-corner"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 11,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "b3c2a21334b2c02ef605",
@@ -1477,9 +1970,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 11,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "b3c5874cc1e710e6e5a2",
@@ -1494,9 +1993,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 11,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "0d0456b6da05f028e172",
@@ -1511,9 +2016,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
-      "trendScore": 11,
-      "trendLevel": "surveillance"
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
+      "trendScore": 10,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4d347964ac709beba963",
@@ -1528,9 +2039,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 11,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 10,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "c617902117fce9d96ce7",
@@ -1545,9 +2062,15 @@
       "sources": [
         "MyAnimeList News"
       ],
+      "sourceIds": [
+        "myanimelist"
+      ],
       "sourceCount": 1,
-      "trendScore": 11,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 10,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "123d33b49b18420c6871",
@@ -1562,9 +2085,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 11,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 10,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "01aeb0746a13eb589798",
@@ -1579,9 +2108,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 10,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "47ced3d5c30123ca86f5",
@@ -1596,9 +2131,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 10,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "bcbb49fa7f8b7ea00d22",
@@ -1613,9 +2154,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 10,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "df150fc678588fce930b",
@@ -1630,9 +2177,15 @@
       "sources": [
         "Anime UK News"
       ],
+      "sourceIds": [
+        "anime-uk-news"
+      ],
       "sourceCount": 1,
-      "trendScore": 10,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 9,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "4a90e51bec71ac1156c6",
@@ -1647,9 +2200,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 9,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "520eb8410deaa98c67df",
@@ -1664,9 +2223,15 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
       "trendScore": 9,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "5b85aed326c2f23d6bc5",
@@ -1681,9 +2246,15 @@
       "sources": [
         "Google Actualités — Manga & Anime"
       ],
-      "sourceCount": 1,
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 9,
-      "trendLevel": "surveillance"
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
     {
       "id": "028c50944abfc8662cf8",
@@ -1698,9 +2269,38 @@
       "sources": [
         "Anime News Network"
       ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
       "sourceCount": 1,
-      "trendScore": 9,
-      "trendLevel": "surveillance"
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 8,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "a57ec6adb16660726d41",
+      "title": "Japanese Animation TV Ranking, October 26-November 1",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japanese-animation-tv-ranking-october-26-november-1/.243621",
+      "summary": "The Apothecary Diaries up to 4.1% rating from 3.5% last week",
+      "publishedAt": "2026-11-10T07:52:54.000Z",
+      "source": "Anime News Network",
+      "sourceId": "anime-news-network",
+      "language": "en",
+      "category": "actualité",
+      "sources": [
+        "Anime News Network"
+      ],
+      "sourceIds": [
+        "anime-news-network"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 8,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
