@@ -282,8 +282,18 @@ document.addEventListener("click", async event => {
   }
   const remove = event.target.closest("[data-delete]");
   if (remove) {
-    const nextDrafts = state.drafts.filter(draft => draft.id !== remove.dataset.delete);
+    const deletedId = remove.dataset.delete;
+    const nextDrafts = state.drafts.filter(draft => draft.id !== deletedId);
     if (saveDrafts(nextDrafts)) {
+      if (state.editingDraftId === deletedId) {
+        state.editingDraftId = null;
+        $("save-draft").textContent = "Enregistrer le brouillon";
+        $("story-select").value = "";
+        $("draft-title").value = "";
+        $("draft-body").value = "";
+        $("draft-tags").value = "";
+        $("editor-preview").classList.add("hidden");
+      }
       renderDrafts();
       toast("Brouillon supprimé.");
     }
