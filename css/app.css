@@ -288,3 +288,33 @@ footer span { padding: 0 5px; color: #d5b14d; }
 @media (prefers-reduced-motion: reduce) {
   .workflow-signal, .workflow-signal-mark { transition: none; animation: none; }
 }
+
+
+/* Intensité des tendances : animation réservée aux sujets les plus confirmés. */
+.trend-badge {
+  display: inline-flex; align-items: center; vertical-align: middle; margin-right: 7px;
+  padding: 4px 8px; border-radius: 999px; font-size: 9px; line-height: 1.2;
+  font-weight: 900; letter-spacing: .45px;
+}
+.trend-badge-hot { color: #9f2638; background: #fff0f1; border: 1px solid #ffc4cb; }
+.trend-badge-up { color: #8a5a08; background: #fff7e6; border: 1px solid #f3d99b; }
+.trend-badge-watch { color: #65728a; background: #f0f3f8; border: 1px solid #e1e6ef; }
+.news-card.is-spectacular {
+  border-color: #f1a1aa;
+  animation: trend-spectacular-pulse 1.9s ease-in-out infinite;
+}
+.news-card.is-spectacular .trend-badge-hot {
+  animation: trend-badge-blink 1.25s steps(2, end) infinite;
+}
+.news-card.is-rising { border-left: 3px solid #eabf54; }
+@keyframes trend-spectacular-pulse {
+  0%, 100% { box-shadow: 0 4px 14px #17244108, 0 0 0 0 #e34d6330; }
+  50% { box-shadow: 0 7px 22px #e34d6324, 0 0 0 4px #e34d6318; }
+}
+@keyframes trend-badge-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .48; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-card.is-spectacular, .news-card.is-spectacular .trend-badge-hot { animation: none; }
+}
