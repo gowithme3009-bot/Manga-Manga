@@ -122,11 +122,13 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
   }
 
   const trendPriority = { spectaculaire: 3, hausse: 2, surveillance: 1 };
+  // La confirmation multi-sources prime sur la seule disponibilité d’un extrait.
+  // L’extrait original départage ensuite les sujets de niveau et de couverture comparables.
   candidates.sort((a, b) =>
-    (Number(b.articleContentRetrieved) - Number(a.articleContentRetrieved)) ||
     (trendPriority[b.trendLevel] - trendPriority[a.trendLevel]) ||
     (b.independentSourceCount - a.independentSourceCount) ||
     (b.trendScore - a.trendScore) ||
+    (Number(b.articleContentRetrieved) - Number(a.articleContentRetrieved)) ||
     (Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
   );
 
