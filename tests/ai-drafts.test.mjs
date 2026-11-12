@@ -17,3 +17,21 @@ test("aucun texte IA n’est déclaré prêt à publier",()=>{
  assert.match(result.items[1].note,/Résumé RSS absent/);assert.match(result.items[1].status,/source à compléter/);
 });
 test("refuse une réponse IA sans proposition exploitable",()=>assert.throws(()=>parseAiResponse('{"items":[]}',candidates),/exploitable/i));
+
+test("un résumé absent neutralise tout fait inventé par la réponse IA",()=>{
+ const candidate={id:"empty",title:"Annonce manga à vérifier",summary:"",sourceVerification:{status:"publisher_unresolved",label:"Média d’origine non résolu"}};
+ const parsed=parseAiResponse(JSON.stringify({items:[{id:"empty",editorialTitle:"Une adaptation déjà disponible",body:"Les épisodes sont déjà en ligne et rencontrent un grand succès.",communityQuestion:"Vous aimez ?",hashtags:"#Manga",verificationNotes:"Vérifier."}]}),[candidate]);
+ const result=applyAiDrafts({items:[candidate]},parsed,"openai/gpt-oss-120b","2026-11-12T10:00:00.000Z");
+ assert.match(result.items[0].text,/résumé de la source n’est pas disponible/i);
+ assert.doesNotMatch(result.items[0].text,/rencontrent un grand succès|déjà en ligne/i);
+ assert.equal(result.items[0].editorialReady,false);
+ assert.equal(result.items[0].aiSourceStatus,"publisher_unresolved");
+ assert.match(result.items[0].note,/page originale n’est pas vérifiée/i);
+});
+test("un extrait original vérifié ne signifie pas que l’article intégral a été lu",()=>{
+ const candidate={id:"verified",title:"Annonce",summary:"Le projet est annoncé.",sourceVerification:{status:"original_page_excerpt_verified",label:"Extrait original récupéré"},articleContentRetrieved:true};
+ const parsed=parseAiResponse(JSON.stringify({items:[{id:"verified",editorialTitle:"Projet annoncé",body:"Le projet est annoncé.",communityQuestion:"Votre avis ?",hashtags:"#Anime",verificationNotes:"Vérifier les détails."}]}),[candidate]);
+ const result=applyAiDrafts({items:[candidate]},parsed,"openai/gpt-oss-120b","2026-11-12T10:00:00.000Z");
+ assert.match(result.items[0].note,/article intégral n’a pas été lu/i);
+ assert.equal(result.items[0].editorialReady,false);
+});
