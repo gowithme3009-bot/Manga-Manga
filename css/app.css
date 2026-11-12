@@ -603,3 +603,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
  #view-atelier .editor-panel .actions { display:grid; grid-template-columns:1fr; }
  #view-atelier .editor-panel .actions button { width:100%; }
 }
+
+/* Parcours compact : source discrète, actions limitées, aperçu Facebook final. */
+.source-shortcut { display:block; margin:5px 0 10px; font-size:11px; }
+.source-shortcut a,.source-download { color:#315fce; text-decoration:underline; font-size:11px; }
+#view-atelier .actions { display:flex; flex-wrap:wrap; gap:9px; margin-top:18px; }
+#view-atelier .actions button { flex:1 1 130px; min-height:46px; }
+#view-studio-images #image-prompt[readonly] { background:#f5f7fb; color:#40516d; }
+#view-studio-images .actions { display:flex; gap:10px; }
+#view-studio-images .actions button { flex:1; min-height:48px; }
+.facebook-final-preview { margin:12px 0 16px; padding:14px; border:1px solid #dce3ed; border-radius:13px; background:#fff; box-shadow:0 4px 14px #1724410a; }
+.facebook-final-preview .fb-head { padding-bottom:10px; border-bottom:1px solid #edf0f5; color:#52627b; font-size:11px; font-weight:800; }
+.facebook-final-preview h4 { margin:12px 0 8px; color:#1d2c47; font-size:16px; }
+.facebook-final-preview .draft-image { width:100%; max-width:none; max-height:440px; object-fit:contain; }
+.facebook-final-preview .summary { white-space:pre-wrap; line-height:1.65; }
+.facebook-final-preview .tags { color:#315fce; line-height:1.6; }
+.visual-missing { padding:16px; border:1px dashed #d9a64b; border-radius:9px; color:#986b21; font-size:12px; }
+@media(max-width:620px) { #view-atelier .actions,#view-studio-images .actions { display:grid; grid-template-columns:1fr; } #view-atelier .actions button,#view-studio-images .actions button { width:100%; } }
