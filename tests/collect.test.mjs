@@ -121,6 +121,18 @@ test("l’enrichissement priorise les pages directes et les extraits courts avan
   assert.deepEqual(prioritizeEnrichmentItems(items), [2, 4, 1, 0, 3]);
 });
 
+test("l’enrichissement alterne les médias pour éviter qu’une seule source monopolise les tentatives", async () => {
+  const { prioritizeEnrichmentItems } = await import("../scripts/enrich-articles.mjs");
+  const items = [
+    { url: "https://ann.example/a", sourceId: "ann", summary: "court A" },
+    { url: "https://ann.example/b", sourceId: "ann", summary: "court B" },
+    { url: "https://ann.example/c", sourceId: "ann", summary: "court C" },
+    { url: "https://animotaku.example/a", sourceId: "animotaku", summary: "court D" },
+    { url: "https://journal.example/a", sourceId: "journal", summary: "court E" }
+  ];
+  assert.deepEqual(prioritizeEnrichmentItems(items, { maxPages: 5 }), [0, 3, 4, 1, 2]);
+});
+
 test("le nombre de liens agrégateurs enrichis reste plafonné", async () => {
   const { prioritizeEnrichmentItems } = await import("../scripts/enrich-articles.mjs");
   const items = [
