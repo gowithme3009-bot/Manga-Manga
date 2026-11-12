@@ -142,3 +142,19 @@ test("ignore les liens Google infrastructure et continue vers un lien éditeur",
   ), "https://news.google.com/rss/articles/example");
   assert.equal(resolved, "https://publisher.example/article");
 });
+
+
+test("ignore les domaines Google Analytics et de suivi comme médias éditeurs", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(
+    '<html><body><a href="https://www.google-analytics.com/analytics.js">Analytics</a><a href="https://www.googletagmanager.com/gtm.js">Tag Manager</a><a href="https://publisher.example/article">Publisher</a></body></html>',
+    { status: 200, headers: { "content-type": "text/html" } }
+  ), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, "https://publisher.example/article");
+});
+
+test("ne renvoie jamais une URL Google Analytics comme média d’origine", async () => {
+  const resolved = await resolvePublisherUrl(async () => new Response(null, {
+    status: 302, headers: { location: "https://www.google-analytics.com/analytics.js" }
+  }), "https://news.google.com/rss/articles/example");
+  assert.equal(resolved, null);
+});
