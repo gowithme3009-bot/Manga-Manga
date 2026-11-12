@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T16:23:20.961Z",
+  "generatedAt": "2026-11-12T16:30:38.054Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 19,
@@ -26,7 +26,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 0,
+      "freshnessHours": 1,
       "trendScore": 59,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -35,10 +35,10 @@
       "text": "Sujet repéré : Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le contexte et les détails. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; vérifier le titre et le contenu de l’article original avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+      "aiGeneratedAt": "2026-11-12T16:30:56.197Z",
       "aiTitle": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -47,7 +47,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide ; vérifier le contenu de l’article original pour confirmer le contexte et les détails."
+      "aiVerificationNotes": "Extrait absent ; vérifier le titre et le contenu de l’article original avant publication."
     },
     {
       "id": "a3317003ffc657b6cafe",
@@ -79,10 +79,10 @@
       "text": "Sujet repéré : Zeste de tendresse (Un) : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour confirmer le type et le contenu des critiques. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; confirmer le sujet et le contenu des critiques dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+      "aiGeneratedAt": "2026-11-12T16:30:56.197Z",
       "aiTitle": "Zeste de tendresse (Un) : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -91,7 +91,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour confirmer le type et le contenu des critiques."
+      "aiVerificationNotes": "Extrait absent ; confirmer le sujet et le contenu des critiques dans l’article original."
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -123,10 +123,10 @@
       "text": "Sujet repéré : Love Bullet Vol.2 : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; vérifier l’article original pour s’assurer du format et du contenu des critiques. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; vérifier que l’article porte bien sur des critiques du volume 2. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+      "aiGeneratedAt": "2026-11-12T16:30:56.197Z",
       "aiTitle": "Love Bullet Vol.2 : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -135,7 +135,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide ; vérifier l’article original pour s’assurer du format et du contenu des critiques."
+      "aiVerificationNotes": "Extrait absent ; vérifier que l’article porte bien sur des critiques du volume 2."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -158,7 +158,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T14:00:00.000Z",
-      "freshnessHours": 2,
+      "freshnessHours": 3,
       "trendScore": 54,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -167,10 +167,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le résumé est vide ; consulter l’article original pour confirmer les titres et les informations listées. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait absent ; confirmer le contenu exact des sorties mentionnées dans l’article original. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+      "aiGeneratedAt": "2026-11-12T16:30:56.197Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -179,7 +179,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le résumé est vide ; consulter l’article original pour confirmer les titres et les informations listées."
+      "aiVerificationNotes": "Extrait absent ; confirmer le contenu exact des sorties mentionnées dans l’article original."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -202,7 +202,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 3,
+      "freshnessHours": 4,
       "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -234,7 +234,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 3,
+      "freshnessHours": 4,
       "trendScore": 52,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -267,7 +267,7 @@
       ],
       "publishedAt": "2026-11-12T11:49:32.000Z",
       "freshnessHours": 5,
-      "trendScore": 50,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -331,7 +331,7 @@
       ],
       "publishedAt": "2026-11-12T11:19:59.000Z",
       "freshnessHours": 5,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -362,7 +362,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "freshnessHours": 5,
+      "freshnessHours": 6,
       "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -455,7 +455,7 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
-      "freshnessHours": 7,
+      "freshnessHours": 8,
       "trendScore": 44,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -658,6 +658,6 @@
     "Aucun résumé exploitable : les propositions sont des fiches de préparation et ne sont pas prêtes à être publiées.",
     "9 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T16:23:38.385Z",
+  "aiGeneratedAt": "2026-11-12T16:30:56.197Z",
   "aiModel": "openai/gpt-oss-120b"
 }
