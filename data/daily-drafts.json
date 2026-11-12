@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T15:10:07.003Z",
+  "generatedAt": "2026-11-12T15:53:16.600Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 25,
+  "eligibleCount": 24,
   "items": [
     {
       "id": "126adf4280b312a1b7b1",
@@ -29,18 +29,18 @@
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
       "freshnessHours": 5,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo incarnent respectivement Mantarou Kyougoku et Toujin Touyama, et l’anime est prévu pour une première en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime télévisé Shin Oishinbo a annoncé l’ajout d’un duo de personnages secondaires. Les doubleurs Kenji Yamauchi et Ken Uo prêteront leurs voix à Mantarou Kyougoku et Toujin Touyama. L’anime est prévu pour 2027. Kenichi Nishida dirige la série, Takahiro Nagano assure la composition du scénario et Nozomi Kawashige s’occupe du design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Casting",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L'extrait provient du site officiel et mentionne le casting, les rôles et la date prévue 2027. Vérifier l'exactitude des noms et du calendrier dans l'article original. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier l’extrait original sur le site officiel pour confirmer les noms des doubleurs, leurs rôles et les postes de production mentionnés. Confirmer la date de diffusion prévue en 2027. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
+      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
       "aiTitle": "Annonce du duo de personnages secondaires pour Shin Oishinbo",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
@@ -49,7 +49,51 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "L'extrait provient du site officiel et mentionne le casting, les rôles et la date prévue 2027. Vérifier l'exactitude des noms et du calendrier dans l'article original."
+      "aiVerificationNotes": "Vérifier l’extrait original sur le site officiel pour confirmer les noms des doubleurs, leurs rôles et les postes de production mentionnés. Confirmer la date de diffusion prévue en 2027."
+    },
+    {
+      "id": "a3317003ffc657b6cafe",
+      "title": "Zeste de tendresse (Un) : Critiques - Manga news",
+      "summary": "",
+      "language": "fr",
+      "sourceLanguage": "fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUbUxQOEc0NjVPdXdFQWtkQXJ0SlhlQjJja1V2VXIydW5qLTlfV2ZHTXRXV3cwU2o5ME40ZEkzS015eFRCdzU3dS1Sd3JVM3hYWER6Vk4zQzkzdjNBU0tOdlZRTDdPTDZ5NHVQVnVIZ1JCVGh6NXhZRjBLLVE2dw?oc=5",
+      "articleUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUbUxQOEc0NjVPdXdFQWtkQXJ0SlhlQjJja1V2VXIydW5qLTlfV2ZHTXRXV3cwU2o5ME40ZEkzS015eFRCdzU3dS1Sd3JVM3hYWER6Vk4zQzkzdjNBU0tOdlZRTDdPTDZ5NHVQVnVIZ1JCVGh6NXhZRjBLLVE2dw?oc=5",
+      "articleContentRetrieved": false,
+      "sourceVerification": {
+        "status": "publisher_unresolved",
+        "label": "Média d’origine non identifié",
+        "checkedUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUbUxQOEc0NjVPdXdFQWtkQXJ0SlhlQjJja1V2VXIydW5qLTlfV2ZHTXRXV3cwU2o5ME40ZEkzS015eFRCdzU3dS1Sd3JVM3hYWER6Vk4zQzkzdjNBU0tOdlZRTDdPTDZ5NHVQVnVIZ1JCVGh6NXhZRjBLLVE2dw?oc=5"
+      },
+      "publisherName": "Manga news",
+      "publisherUrl": "https://www.manga-news.com",
+      "summaryOrigin": "rss",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "publishedAt": "2026-11-12T15:10:28.000Z",
+      "freshnessHours": 1,
+      "trendScore": 58,
+      "trendLevel": "surveillance",
+      "independentSourceCount": 0,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "Sujet repéré : Zeste de tendresse (Un) : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "hashtags": "#Manga #Anime #ÀVérifier",
+      "status": "préparation IA · source à compléter",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "aiGenerated": true,
+      "aiModel": "openai/gpt-oss-120b",
+      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
+      "aiTitle": "Zeste de tendresse (Un) : Critiques - Manga news — à vérifier dans la source originale",
+      "aiSourceStatus": "publisher_unresolved",
+      "aiAudit": {
+        "status": "no_numeric_alert",
+        "unsupportedNumbers": [],
+        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
+      },
+      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
+      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -72,8 +116,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T15:07:58.000Z",
-      "freshnessHours": 0,
-      "trendScore": 60,
+      "freshnessHours": 1,
+      "trendScore": 58,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -81,10 +125,10 @@
       "text": "Sujet repéré : Love Bullet Vol.2 : Critiques - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre indique qu’il s’agit de critiques du volume 2. Confirmer le contenu de l’article pour s’assurer qu’il s’agit bien de critiques. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
+      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
       "aiTitle": "Love Bullet Vol.2 : Critiques - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -93,7 +137,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le titre indique qu’il s’agit de critiques du volume 2. Confirmer le contenu de l’article pour s’assurer qu’il s’agit bien de critiques."
+      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -116,8 +160,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T14:00:00.000Z",
-      "freshnessHours": 1,
-      "trendScore": 57,
+      "freshnessHours": 2,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -125,10 +169,10 @@
       "text": "Sujet repéré : Les sorties manga de la semaine - Manga news.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
       "hashtags": "#Manga #Anime #ÀVérifier",
       "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre indique une liste des sorties manga de la semaine. Vérifier que l’article contient bien ce type de récapitulatif. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
+      "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
       "aiTitle": "Les sorties manga de la semaine - Manga news — à vérifier dans la source originale",
       "aiSourceStatus": "publisher_unresolved",
       "aiAudit": {
@@ -137,7 +181,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le titre indique une liste des sorties manga de la semaine. Vérifier que l’article contient bien ce type de récapitulatif."
+      "aiVerificationNotes": "Le champ résumé est vide. Il faut consulter l’article original pour déterminer le contenu réel avant toute publication."
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -160,28 +204,16 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 2,
-      "trendScore": 55,
+      "freshnessHours": 3,
+      "trendScore": 53,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Sujet repéré : Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously.\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.\n\nQuestion à la communauté : Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "hashtags": "#Manga #Anime #ÀVérifier",
-      "status": "préparation IA · source à compléter",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction. Statut de provenance : Média d’origine non identifié. La page originale n’est pas vérifiée : ne pas présenter les informations comme confirmées. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Le titre mentionne l’alerte d’un webtoon disponible et pose les questions de lecture et d’adaptation. Confirmer les détails dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
-      "aiGenerated": true,
-      "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
-      "aiTitle": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously — à vérifier dans la source originale",
-      "aiSourceStatus": "publisher_unresolved",
-      "aiAudit": {
-        "status": "no_numeric_alert",
-        "unsupportedNumbers": [],
-        "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
-      },
-      "aiCommunityQuestion": "Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?",
-      "aiVerificationNotes": "Le titre mentionne l’alerte d’un webtoon disponible et pose les questions de lecture et d’adaptation. Confirmer les détails dans la source originale."
+      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nWelsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     },
     {
       "id": "249d5a59b90be2d76765",
@@ -204,8 +236,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 2,
-      "trendScore": 55,
+      "freshnessHours": 3,
+      "trendScore": 53,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -236,8 +268,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:49:32.000Z",
-      "freshnessHours": 3,
-      "trendScore": 52,
+      "freshnessHours": 4,
+      "trendScore": 51,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -269,7 +301,7 @@
       ],
       "publishedAt": "2026-11-12T11:25:35.000Z",
       "freshnessHours": 4,
-      "trendScore": 51,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -300,8 +332,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:19:59.000Z",
-      "freshnessHours": 4,
-      "trendScore": 51,
+      "freshnessHours": 5,
+      "trendScore": 50,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -332,8 +364,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "freshnessHours": 4,
-      "trendScore": 50,
+      "freshnessHours": 5,
+      "trendScore": 49,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -365,7 +397,7 @@
       ],
       "publishedAt": "2026-11-12T10:30:42.000Z",
       "freshnessHours": 5,
-      "trendScore": 49,
+      "trendScore": 48,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -395,8 +427,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
-      "freshnessHours": 5,
-      "trendScore": 48,
+      "freshnessHours": 6,
+      "trendScore": 47,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -426,8 +458,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
-      "freshnessHours": 6,
-      "trendScore": 46,
+      "freshnessHours": 7,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -457,8 +489,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
-      "freshnessHours": 6,
-      "trendScore": 46,
+      "freshnessHours": 7,
+      "trendScore": 45,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -488,8 +520,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 8,
-      "trendScore": 43,
+      "freshnessHours": 9,
+      "trendScore": 42,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -520,7 +552,7 @@
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
       "freshnessHours": 10,
-      "trendScore": 40,
+      "trendScore": 39,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -581,8 +613,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:45:01.000Z",
-      "freshnessHours": 21,
-      "trendScore": 25,
+      "freshnessHours": 22,
+      "trendScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -612,8 +644,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T17:16:24.000Z",
-      "freshnessHours": 22,
-      "trendScore": 24,
+      "freshnessHours": 23,
+      "trendScore": 23,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -643,8 +675,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:12:02.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -674,8 +706,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -705,8 +737,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -736,8 +768,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -767,8 +799,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-11T16:00:00.000Z",
-      "freshnessHours": 23,
-      "trendScore": 23,
+      "freshnessHours": 24,
+      "trendScore": 22,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
       "coverageSourceCount": 1,
@@ -777,74 +809,12 @@
       "hashtags": "#Manga #Anime",
       "status": "à compléter",
       "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "6831462df8735bc0dfb0",
-      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "L'Est Républicain",
-      "publisherUrl": "https://www.estrepublicain.fr",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T15:40:02.000Z",
-      "freshnessHours": 24,
-      "trendScore": 23,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nTomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
-    },
-    {
-      "id": "4144e983326ec39abb67",
-      "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
-      "summary": "",
-      "language": "fr",
-      "sourceLanguage": "fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
-      "articleUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
-      "articleContentRetrieved": false,
-      "sourceVerification": {
-        "status": "rss_only_unverified",
-        "label": "Source originale non vérifiée"
-      },
-      "publisherName": "lanouvellerepublique.fr",
-      "publisherUrl": "https://www.lanouvellerepublique.fr",
-      "summaryOrigin": "rss",
-      "sourceNames": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "publishedAt": "2026-11-11T15:12:04.000Z",
-      "freshnessHours": 24,
-      "trendScore": 22,
-      "trendLevel": "surveillance",
-      "independentSourceCount": 0,
-      "coverageSourceCount": 1,
-      "editorialReady": false,
-      "text": "PRÉPARATION — TEXTE À COMPLÉTER APRÈS LECTURE\n\nLe comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr\n\nInformation confirmée par l’article : [à compléter après vérification].\n\nContexte utile pour les lecteurs : [à compléter].\n\nQuestion à la communauté : [à adapter].\n\nSource : https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
-      "hashtags": "#Manga #Anime",
-      "status": "à compléter",
-      "note": "Aucun résumé exploitable dans le flux. Les champs entre crochets doivent être complétés après lecture de l’article original ; ne pas publier en l’état."
     }
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "2 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "4 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-12T15:10:22.556Z",
+  "aiGeneratedAt": "2026-11-12T15:53:34.717Z",
   "aiModel": "openai/gpt-oss-120b"
 }
