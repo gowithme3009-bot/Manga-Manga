@@ -1,7 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T05:27:16.185Z",
+  "generatedAt": "2026-11-12T05:36:39.053Z",
   "items": [
+    {
+      "id": "86324f10058b4807aacb",
+      "title": "Manga : enfin l'âge de raison ? - La Libre.be",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
+      "summary": "Manga : enfin l'âge de raison ? La Libre.be",
+      "publishedAt": "2026-11-12T05:30:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 60,
+      "trendLevel": "hausse"
+    },
     {
       "id": "b8444a024aca4798bcc6",
       "title": "Rei Mikamoto Ends Blood Friend Manga in December",
@@ -16,7 +33,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 56
+      "trendScore": 56,
+      "trendLevel": "hausse"
     },
     {
       "id": "ec3f0affa69c59e9d8ed",
@@ -32,7 +50,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 56
+      "trendScore": 55,
+      "trendLevel": "hausse"
     },
     {
       "id": "809bd7ec50aee02d6167",
@@ -48,7 +67,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 56
+      "trendScore": 55,
+      "trendLevel": "hausse"
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -64,7 +84,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 55
+      "trendScore": 55,
+      "trendLevel": "hausse"
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -80,7 +101,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 55
+      "trendScore": 54,
+      "trendLevel": "hausse"
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -96,7 +118,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 54
+      "trendScore": 54,
+      "trendLevel": "hausse"
     },
     {
       "id": "151838b1f672d5f99532",
@@ -112,7 +135,8 @@
         "Annonces officielles — Google Actualités"
       ],
       "sourceCount": 1,
-      "trendScore": 49
+      "trendScore": 49,
+      "trendLevel": "surveillance"
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -128,7 +152,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 49
+      "trendScore": 48,
+      "trendLevel": "surveillance"
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -144,7 +169,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 44
+      "trendScore": 44,
+      "trendLevel": "surveillance"
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -160,7 +186,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 43
+      "trendScore": 43,
+      "trendLevel": "surveillance"
     },
     {
       "id": "913581ff600dd3591661",
@@ -176,7 +203,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 42,
+      "trendLevel": "surveillance"
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -192,7 +220,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 42
+      "trendScore": 42,
+      "trendLevel": "surveillance"
     },
     {
       "id": "27dd98ec22f905142331",
@@ -208,7 +237,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 40,
+      "trendLevel": "surveillance"
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -224,7 +254,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 40
+      "trendScore": 40,
+      "trendLevel": "surveillance"
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -240,7 +271,8 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 39,
+      "trendLevel": "surveillance"
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -256,7 +288,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 39
+      "trendScore": 39,
+      "trendLevel": "surveillance"
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -272,7 +305,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 38
+      "trendScore": 38,
+      "trendLevel": "surveillance"
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -288,7 +322,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 37
+      "trendScore": 37,
+      "trendLevel": "surveillance"
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -304,7 +339,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 36,
+      "trendLevel": "surveillance"
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -320,7 +356,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 36,
+      "trendLevel": "surveillance"
     },
     {
       "id": "80a2091e63e9d181c45c",
@@ -336,7 +373,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 36,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4b9ea639a65c023e1931",
@@ -352,7 +390,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 36,
+      "trendLevel": "surveillance"
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -368,7 +407,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 35,
+      "trendLevel": "surveillance"
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -384,7 +424,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 36
+      "trendScore": 35,
+      "trendLevel": "surveillance"
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -400,7 +441,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 35
+      "trendScore": 35,
+      "trendLevel": "surveillance"
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -416,7 +458,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 35
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -432,7 +475,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -448,7 +492,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "d4fe726783d4776f5a5f",
@@ -464,7 +509,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "696f041b3780c8d75107",
@@ -480,7 +526,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "26d24462220b60baf0f5",
@@ -496,7 +543,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "1685ca711a1a43de9122",
@@ -512,7 +560,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 34,
+      "trendLevel": "surveillance"
     },
     {
       "id": "daf73bca15aa5e366312",
@@ -528,7 +577,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 33,
+      "trendLevel": "surveillance"
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -544,7 +594,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 34
+      "trendScore": 33,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4144e983326ec39abb67",
@@ -560,7 +611,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 33,
+      "trendLevel": "surveillance"
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -576,7 +628,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 33,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -592,7 +645,8 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 33
+      "trendScore": 32,
+      "trendLevel": "surveillance"
     },
     {
       "id": "faa9582f2ad9a2bd22df",
@@ -608,7 +662,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 32
+      "trendScore": 32,
+      "trendLevel": "surveillance"
     },
     {
       "id": "99680deade85e0f3865c",
@@ -624,7 +679,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -640,7 +696,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "793b83ce133c2f0f3fd2",
@@ -656,7 +713,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "a32f1bedf1225112b87a",
@@ -672,7 +730,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -688,7 +747,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -704,7 +764,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 31
+      "trendScore": 31,
+      "trendLevel": "surveillance"
     },
     {
       "id": "114d72b901a98cf6ddcb",
@@ -720,7 +781,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 29
+      "trendScore": 29,
+      "trendLevel": "surveillance"
     },
     {
       "id": "23c1052718cae3facf20",
@@ -736,7 +798,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 28
+      "trendScore": 28,
+      "trendLevel": "surveillance"
     },
     {
       "id": "160e4e78fd3486545aec",
@@ -752,7 +815,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 28
+      "trendScore": 28,
+      "trendLevel": "surveillance"
     },
     {
       "id": "e9974cbd29bb2a5552da",
@@ -768,7 +832,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 28
+      "trendScore": 28,
+      "trendLevel": "surveillance"
     },
     {
       "id": "a128e1fff278ea9ff5b9",
@@ -784,7 +849,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 28
+      "trendScore": 27,
+      "trendLevel": "surveillance"
     },
     {
       "id": "cb37bb295396c6823eb4",
@@ -800,7 +866,8 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 27
+      "trendScore": 27,
+      "trendLevel": "surveillance"
     },
     {
       "id": "5676a58b77ac1dafd8f9",
@@ -816,7 +883,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 26,
+      "trendLevel": "surveillance"
     },
     {
       "id": "2f7f1e7c2a3719e0bc73",
@@ -832,7 +900,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 26,
+      "trendLevel": "surveillance"
     },
     {
       "id": "781a068935c9a4cfdd6f",
@@ -848,7 +917,8 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 26,
+      "trendLevel": "surveillance"
     },
     {
       "id": "d7ee99c755160bf67f9b",
@@ -864,7 +934,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 26,
+      "trendLevel": "surveillance"
     },
     {
       "id": "41462f05b442e49b824e",
@@ -880,7 +951,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 25,
+      "trendLevel": "surveillance"
     },
     {
       "id": "ed61715d47ca31925a39",
@@ -896,7 +968,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 26
+      "trendScore": 25,
+      "trendLevel": "surveillance"
     },
     {
       "id": "fc6bfeab4c5f40522d7c",
@@ -912,7 +985,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 25
+      "trendScore": 25,
+      "trendLevel": "surveillance"
     },
     {
       "id": "19d719a8a2297963f687",
@@ -928,7 +1002,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 22
+      "trendScore": 22,
+      "trendLevel": "surveillance"
     },
     {
       "id": "f65cd317eef4f19902ef",
@@ -944,7 +1019,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 22
+      "trendScore": 22,
+      "trendLevel": "surveillance"
     },
     {
       "id": "30868e6f1f136a564d36",
@@ -960,7 +1036,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 21
+      "trendScore": 21,
+      "trendLevel": "surveillance"
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -976,7 +1053,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 21
+      "trendScore": 20,
+      "trendLevel": "surveillance"
     },
     {
       "id": "49e94a62519151a2a7d8",
@@ -992,7 +1070,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 20
+      "trendScore": 20,
+      "trendLevel": "surveillance"
     },
     {
       "id": "99446560bc40c02c623a",
@@ -1008,7 +1087,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 20
+      "trendScore": 20,
+      "trendLevel": "surveillance"
     },
     {
       "id": "d61468f58114cc562379",
@@ -1024,7 +1104,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 19
+      "trendScore": 19,
+      "trendLevel": "surveillance"
     },
     {
       "id": "d79f4dfb2d33cfa6b15b",
@@ -1040,7 +1121,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 18
+      "trendScore": 17,
+      "trendLevel": "surveillance"
     },
     {
       "id": "1d04e2dae1039b040f58",
@@ -1056,7 +1138,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 17
+      "trendScore": 17,
+      "trendLevel": "surveillance"
     },
     {
       "id": "e6e574dbbfd551e06fb5",
@@ -1072,7 +1155,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 16
+      "trendScore": 16,
+      "trendLevel": "surveillance"
     },
     {
       "id": "fd241ec9ac422dab97c9",
@@ -1088,7 +1172,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 16
+      "trendScore": 15,
+      "trendLevel": "surveillance"
     },
     {
       "id": "92a8a4b07b4c71bde78a",
@@ -1104,7 +1189,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 16
+      "trendScore": 15,
+      "trendLevel": "surveillance"
     },
     {
       "id": "b091e043660839755826",
@@ -1120,7 +1206,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 15
+      "trendScore": 15,
+      "trendLevel": "surveillance"
     },
     {
       "id": "c86af402a72a41b3aa99",
@@ -1136,7 +1223,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 14,
+      "trendLevel": "surveillance"
     },
     {
       "id": "f52a705a75ca919f8546",
@@ -1152,7 +1240,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 14
+      "trendScore": 14,
+      "trendLevel": "surveillance"
     },
     {
       "id": "3d4d12da9a60b1961802",
@@ -1168,7 +1257,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "6df08dfca0dd99fd06f3",
@@ -1184,7 +1274,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "3f962c61a91e78fd430b",
@@ -1200,7 +1291,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "b29b8f87700794f22ee2",
@@ -1216,7 +1308,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "875a3dc44db2fb0f33c6",
@@ -1232,7 +1325,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "0c9c9d86d16f23ecc444",
@@ -1248,23 +1342,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 13
-    },
-    {
-      "id": "dc382b79fb51e75dbfaf",
-      "title": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 - Manga news",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZnpac2NXOW9TZ3NKUlJPcGN6dXJGUkswekwwTGppM0Y3YzlFZ3o1cXhZR3BnbnBwOTlMcm9Hb1pRT3pjMHpHcGJvZDB2TTZGMWh1akhOTE11YXVuSDJMQnk2QjRhcHVJenVURG9QQWhtN1diVVZGYzdyYy1aRWR2R2JZOXRTNUdEQnlobUh4SVNpWHcx?oc=5",
-      "summary": "Anime - Psyren - Episode #5 - Rassemblement, 10 Novembre 2026 Manga news",
-      "publishedAt": "2026-11-10T16:00:00.000Z",
-      "source": "Google Actualités — Manga & Anime",
-      "sourceId": "google-news-fr",
-      "language": "fr",
-      "category": "actualité",
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "0aceb89e0ce0714de9a7",
@@ -1280,7 +1359,25 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 13
+      "trendScore": 13,
+      "trendLevel": "surveillance"
+    },
+    {
+      "id": "82ff61dfd27b8dbdc1bb",
+      "title": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFNaa1lIeHdGa3U1dGNSQ2ltd2tOalVPZC0yanJMU0lZY0FQUGkzR3pNWUJnd3doSDJlaGduQXgtVmRMTU83TFBpUXBQM1VoWWxIbGlObHpHYjFXX1h3M0t4UVdXdkVZLUtORUdCSTUtTmxVcHJpWjUwSjJPV00xSzlENFVQVkZfRkR5dTNDbUwzYnFhUEdJMkRQV3RHamdFN2JSa0JpZF9oMS1vdlhLRk1uNDVYRXo0Z3lJLXhJaDRHYUHSAcIBQVVfeXFMUE5acDk4V01MLWZKaHlxbDdxMkR1TjMwUy0xVGZLU19ETUxjR3dfTDRSenRmSVFqLWFlVzVPQWwteU90Vm5zSkVsVndLdWRPdERGMGROX3AzYjZCbFRIWDgwWmh3Ykp5QUczVWpGMTBzQWk3cl9GZ2lsYTlpdEFWTGwyWDc2R0hIcWNvMHE0OXI4M2pSVkhWZ2hwMnhiOEwzQW5zM25UWU4wUFFKWkVKd1d4RkpKYlRzTkJvM0dkWmppQ2c?oc=5",
+      "summary": "Interview de Hisae Iwaoka sur son manga La Forêt magique de Hoshigahara Manga news",
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceCount": 1,
+      "trendScore": 13,
+      "trendLevel": "surveillance"
     },
     {
       "id": "0c6d61cb1f33acfc6697",
@@ -1296,7 +1393,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 12,
+      "trendLevel": "surveillance"
     },
     {
       "id": "acce966ca25ff13372db",
@@ -1312,7 +1410,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 12,
+      "trendLevel": "surveillance"
     },
     {
       "id": "9db0aa1621a1851391cf",
@@ -1328,7 +1427,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 12,
+      "trendLevel": "surveillance"
     },
     {
       "id": "2367377ab25caf87bf3e",
@@ -1344,7 +1444,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 12,
+      "trendLevel": "surveillance"
     },
     {
       "id": "dfb6d2708f1537d294af",
@@ -1360,7 +1461,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 12,
+      "trendLevel": "surveillance"
     },
     {
       "id": "eee58670dd39cced0a1e",
@@ -1376,7 +1478,8 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 12
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "b3c2a21334b2c02ef605",
@@ -1392,7 +1495,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "b3c5874cc1e710e6e5a2",
@@ -1408,7 +1512,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "0d0456b6da05f028e172",
@@ -1424,7 +1529,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4d347964ac709beba963",
@@ -1440,7 +1546,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "c617902117fce9d96ce7",
@@ -1456,7 +1563,8 @@
         "MyAnimeList News"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "123d33b49b18420c6871",
@@ -1472,7 +1580,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "01aeb0746a13eb589798",
@@ -1488,7 +1597,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 11,
+      "trendLevel": "surveillance"
     },
     {
       "id": "47ced3d5c30123ca86f5",
@@ -1504,7 +1614,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 11
+      "trendScore": 10,
+      "trendLevel": "surveillance"
     },
     {
       "id": "bcbb49fa7f8b7ea00d22",
@@ -1520,7 +1631,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 10
+      "trendScore": 10,
+      "trendLevel": "surveillance"
     },
     {
       "id": "df150fc678588fce930b",
@@ -1536,7 +1648,8 @@
         "Anime UK News"
       ],
       "sourceCount": 1,
-      "trendScore": 10
+      "trendScore": 10,
+      "trendLevel": "surveillance"
     },
     {
       "id": "4a90e51bec71ac1156c6",
@@ -1552,7 +1665,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 10
+      "trendScore": 10,
+      "trendLevel": "surveillance"
     },
     {
       "id": "520eb8410deaa98c67df",
@@ -1568,7 +1682,8 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 9
+      "trendScore": 9,
+      "trendLevel": "surveillance"
     },
     {
       "id": "5b85aed326c2f23d6bc5",
@@ -1584,23 +1699,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "sourceCount": 1,
-      "trendScore": 9
-    },
-    {
-      "id": "028c50944abfc8662cf8",
-      "title": "Japan's Video Game Rankings, October 26-November 1",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-10/japan-video-game-rankings-october-26-november-1/.243620",
-      "summary": "Minecraft for Switch 2 debuts at #3; Hello Kitty Party Land debuts at #7, #8",
-      "publishedAt": "2026-11-10T07:53:54.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceCount": 1,
-      "trendScore": 9
+      "trendScore": 9,
+      "trendLevel": "surveillance"
     }
   ],
   "sources": [
@@ -1620,7 +1720,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 50
+      "items": 51
     },
     {
       "id": "anime-corner",
@@ -1650,7 +1750,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 56
+      "items": 55
     },
     {
       "id": "otaku-usa",
