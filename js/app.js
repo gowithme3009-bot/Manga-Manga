@@ -79,6 +79,22 @@ function toast(message) {
   element.classList.add("show");
   setTimeout(() => element.classList.remove("show"), 2800);
 }
+
+let workflowSignalTimer;
+function signalStep(stage, title, detail) {
+  const panel = $("workflow-signal");
+  if (!panel) return;
+  $("workflow-signal-title").textContent = title;
+  $("workflow-signal-detail").textContent = detail;
+  panel.dataset.stage = String(stage);
+  panel.hidden = false;
+  requestAnimationFrame(() => panel.classList.add("show"));
+  clearTimeout(workflowSignalTimer);
+  workflowSignalTimer = setTimeout(() => {
+    panel.classList.remove("show");
+    setTimeout(() => { panel.hidden = true; }, 240);
+  }, 3600);
+}
 function showView(name) {
   document.querySelectorAll(".view").forEach(element => {
     element.classList.toggle("hidden", element.id !== "view-" + name);
@@ -208,6 +224,7 @@ function fillEditor(item) {
   $("draft-body").value = (item.summary ? item.summary + "\n\n" : "") +
     "Lire l’article complet à la source : " + item.url;
   showView("atelier");
+  signalStep(2, "Étape 2/4 · Rédaction", "Actualité sélectionnée. Vérifiez le titre et le texte avant l’enregistrement.");
 }
 function makeDraft() {
   const selectedId = $("story-select").value;
@@ -351,6 +368,7 @@ document.addEventListener("click", async event => {
       }, ...state.drafts];
       if (saveDrafts(nextDrafts)) {
         renderDrafts();
+        signalStep(3, "Étape 3/4 · Brouillon enregistré", "Votre proposition est sauvegardée sur cet appareil. Passez à l’aperçu ou à la relecture.");
         toast("Proposition ajoutée aux brouillons.");
       }
     }
@@ -363,6 +381,7 @@ document.addEventListener("click", async event => {
       if (!saveDismissed(nextDismissed)) return;
     }
     renderDrafts();
+    signalStep(1, "Proposition remplacée", "La proposition écartée est masquée ; la suivante prend sa place.");
     toast("Proposition écartée ; la suivante prend sa place.");
     return;
   }
@@ -400,6 +419,7 @@ $("save-draft").addEventListener("click", () => {
       if (!saveDrafts(nextDrafts)) return;
       state.editingDraftId = null;
       $("save-draft").textContent = "Enregistrer le brouillon";
+      signalStep(3, "Étape 3/4 · Modifications enregistrées", "Votre brouillon mis à jour est conservé sur cet appareil.");
       toast("Modifications enregistrées sur cet appareil.");
     } else {
       if (state.drafts.some(item => item.sourceId === draft.sourceId)) {
@@ -408,6 +428,7 @@ $("save-draft").addEventListener("click", () => {
       }
       nextDrafts = [draft, ...state.drafts];
       if (!saveDrafts(nextDrafts)) return;
+      signalStep(3, "Étape 3/4 · Brouillon enregistré", "Votre texte est sauvegardé. Vous pouvez maintenant vérifier son aperçu.");
       toast("Brouillon enregistré sur cet appareil.");
     }
     renderDrafts();
@@ -420,6 +441,7 @@ $("preview-draft").addEventListener("click", () => {
   $("preview-body").textContent = $("draft-body").value.trim();
   $("preview-tags").textContent = $("draft-tags").value;
   $("editor-preview").classList.remove("hidden");
+  signalStep(4, "Étape 4/4 · Aperçu prêt", "Relisez le rendu Facebook. La publication reste entièrement manuelle.");
 });
 $("copy-ai-prompt").addEventListener("click", async () => {
   const selectedId = $("story-select").value;
@@ -447,6 +469,7 @@ $("copy-ai-prompt").addEventListener("click", async () => {
   ].join(String.fromCharCode(10, 10));
   try {
     await navigator.clipboard.writeText(prompt);
+    signalStep(2, "Brief IA copié", "Collez-le dans ChatGPT ; Gemini reste une solution de repli.");
     toast("Brief copié. Colle-le dans ChatGPT ; Gemini peut servir de repli.");
   } catch {
     toast("Copie automatique indisponible sur cet appareil.");
@@ -463,6 +486,7 @@ $("export-drafts").addEventListener("click", () => {
   anchor.href = url;
   anchor.download = "manga-manga-brouillons.json";
   anchor.click();
+  signalStep(4, "Export lancé", "Votre fichier de brouillons est prêt à être récupéré.");
   // Laisser au navigateur mobile le temps de démarrer le téléchargement.
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
