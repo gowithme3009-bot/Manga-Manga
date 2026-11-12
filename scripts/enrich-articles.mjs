@@ -36,7 +36,11 @@ function isGoogleOwnedHost(hostname) {
   return host === "google.com" || host.endsWith(".google.com") ||
     host === "gstatic.com" || host.endsWith(".gstatic.com") ||
     host === "googleusercontent.com" || host.endsWith(".googleusercontent.com") ||
-    host === "googleapis.com" || host.endsWith(".googleapis.com");
+    host === "googleapis.com" || host.endsWith(".googleapis.com") ||
+    host === "google-analytics.com" || host.endsWith(".google-analytics.com") ||
+    host === "googletagmanager.com" || host.endsWith(".googletagmanager.com") ||
+    host === "googleadservices.com" || host.endsWith(".googleadservices.com") ||
+    host === "doubleclick.net" || host.endsWith(".doubleclick.net");
 }
 
 function isGoogleNewsUrl(value) {
