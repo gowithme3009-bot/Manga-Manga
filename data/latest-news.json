@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T00:08:59.105Z",
+  "generatedAt": "2026-11-12T00:11:01.036Z",
   "items": [
     {
       "id": "9ea15d67c55a7192c336",
@@ -240,7 +240,7 @@
         "Anime News Network"
       ],
       "sourceCount": 1,
-      "trendScore": 45
+      "trendScore": 44
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -256,7 +256,7 @@
         "Anime Corner"
       ],
       "sourceCount": 1,
-      "trendScore": 45
+      "trendScore": 44
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -1620,7 +1620,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 49
+      "items": 50
     },
     {
       "id": "anime-corner",
