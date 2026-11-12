@@ -50,10 +50,11 @@ export function parseAiResponse(content, candidates) {
 }
 // Contrôle déterministe limité : repère les chiffres du texte IA absents du titre et de l’extrait.
 // Ce contrôle ne prouve pas la véracité sémantique et ne remplace jamais la lecture humaine.
-export function auditAiDraft(candidate, body) {
+export function auditAiDraft(candidate, body, editorialTitle="") {
  const source=String(candidate.title||"")+" "+String(candidate.summary||"");
  const sourceNumbers=new Set(source.match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[]);
- const bodyNumbers=[...new Set(String(body||"").match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[])];
+ const draftText=String(editorialTitle||"")+" "+String(body||"");
+ const bodyNumbers=[...new Set(draftText.match(/\b\d{1,4}(?:[.,]\d+)?\b/g)||[])];
  const unsupportedNumbers=bodyNumbers.filter(value=>!sourceNumbers.has(value));
  return {
   status:unsupportedNumbers.length?"needs_check":"no_numeric_alert",
@@ -67,14 +68,16 @@ export function applyAiDrafts(data, generated, model, generatedAt=new Date().toI
   const hasSummary=Boolean(String(candidate.summary||"").trim());
   const sourceVerified=candidate.sourceVerification?.status==="original_page_excerpt_verified";
   const safeBody=hasSummary?draft.body:"Sujet repéré : "+String(candidate.title||"Information à vérifier")+".\n\nLe résumé de la source n’est pas disponible. Le contenu doit être vérifié dans l’article original avant toute rédaction ou publication.";
+  const safeTitle=hasSummary?draft.editorialTitle:String(candidate.title||"Sujet à vérifier")+" — à vérifier dans la source originale";
   const safeQuestion=hasSummary?draft.communityQuestion:"Que souhaitez-vous savoir sur ce sujet après vérification de l’article original ?";
+  const safeHashtags=hasSummary?draft.hashtags:"#Manga #Anime #ÀVérifier";
   const text=[safeBody,safeQuestion?"Question à la communauté : "+safeQuestion:""].filter(Boolean).join("\n\n");
-  const aiAudit=auditAiDraft(candidate,safeBody);
+  const aiAudit=auditAiDraft(candidate,safeBody,safeTitle);
   const auditNote=aiAudit.unsupportedNumbers.length
    ?"Alerte automatique : chiffre(s) absent(s) du titre et de l’extrait fourni ("+aiAudit.unsupportedNumbers.join(", ")+"). Contrôle de la source obligatoire."
    :"Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations.";
-  return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:draft.editorialTitle,text,aiSourceStatus:candidate.sourceVerification?.status||"rss_only_unverified",
-   aiAudit,hashtags:draft.hashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
+  return {...candidate,aiGenerated:true,aiModel:model,aiGeneratedAt:generatedAt,aiTitle:safeTitle,text,aiSourceStatus:candidate.sourceVerification?.status||"rss_only_unverified",
+   aiAudit,hashtags:safeHashtags,aiCommunityQuestion:draft.communityQuestion,aiVerificationNotes:draft.verificationNotes,
    editorialReady:false,status:hasSummary?"rédigé par IA · à relire":"préparation IA · source à compléter",
    note:["Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source.",
     candidate.articleContentRetrieved?(candidate.sourceLanguage==="en"?"Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates.":"Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates."):hasSummary?"Résumé RSS disponible mais incomplet : chaque phrase doit être comparée à la source originale.":"Résumé RSS absent ou inexploitable : texte automatique limité au titre, sans ajout de faits ; lire l’article original avant rédaction.",
