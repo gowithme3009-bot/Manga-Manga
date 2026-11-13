@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:27:57.215Z",
+  "generatedAt": "2026-11-13T03:29:25.545Z",
   "policy": {
     "siteScore": {
       "sourceTraceability": 20,
@@ -20,13 +20,14 @@
     },
     "thresholds": {
       "priority": 80,
-      "entityConfirmed": 65,
+      "entityConfirmed": 60,
       "eligible": 70,
       "watch": 50
     },
     "hardRules": [
       "Une reprise ou un agrégateur ne compte pas comme média indépendant.",
-      "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.",
+      "La couverture des tendances est calculée sur les 48 dernières heures.",
+      "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts, dont au moins une source originale vérifiée.",
       "Une tendance forte exige au moins trois médias indépendants et trois articles récents distincts.",
       "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.",
       "Aucun quota ne force la sélection d'un sujet faible."
@@ -34,9 +35,9 @@
   },
   "summary": {
     "siteArticles": 100,
-    "editorialEligibleSites": 10,
+    "editorialEligibleSites": 1,
     "entitiesDetected": 25,
-    "confirmedEntities": 0,
+    "confirmedEntities": 1,
     "strongEntities": 0
   },
   "siteTrends": [
@@ -59,12 +60,16 @@
       },
       "summary": "Publishing company Shufunotomo announced a television anime adaptation of Fudaya Sanmongarasu and Tomozo's Isekai Douraku ni Akitara (Living It Up in Another World Until I Get Bored) light novel on Friday. The anime series will premiere in January 2027. Sanmongarasu began writing the adventure fantasy novel on the Shousetsuka ni Narou website in June 2016. Shufunotomo began printing the light novel under its Prime Novels imprint in June 2017, featuring illustrations by Tomozo. The imprint published two volumes, with the second volume released in April 2018. The series was later republished under the Hero Bunko imprint by Imagica Infos in January 2019. The seventh volume was published in October 2024. The eighth volume is scheduled for release on November 30, with its wraparound band featuring the anime announcement (pictured). SAA began drawing a manga adaptation of the series on the Her",
       "score": 90,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 0,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "7df577b3dd8953deb525",
@@ -85,12 +90,14 @@
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images Facebook Twitter Reddit WhatsApp Telegram Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images 12 Nov, 2026 22:18 Quentin Holveck Attendu ce samedi 14 novembre 2026 sur Crunchyroll, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 a présenté ses premières informations sur le site web officiel de la série. Heure exacte de mise en ligne, résumé et premières images : cet article regroupe tous les détails à connaître sur ce septième épisode, juste avant sa sortie. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Quand sortira l'épisode 7 de l'anime Black Clover Saison 2 ? En France, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 sortira le samedi 14 novembre 2026 à",
       "score": 88,
-      "decision": "eligible_a_evaluer",
+      "decision": "preselection_tendance_confirmee",
       "eligibleForEditorial": true,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 6,
-      "reasons": []
+      "reasons": [],
+      "articleQualityEligible": true,
+      "trendConfirmed": true
     },
     {
       "id": "45fa1cefc95b1bf77fda",
@@ -111,12 +118,16 @@
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » Les Carnets de l&rsquo;Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images Facebook Twitter Reddit WhatsApp Telegram Les Carnets de l&rsquo;Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images 12 Nov, 2026 21:53 Quentin Holveck Le site web officiel de la saison 3 de l&rsquo;anime Les Carnets de l&rsquo;Apothicaire (Kusuriya no Hitorigoto) a présenté les premières informations concernant son épisode 7 , attendu ce vendredi 13 novembre 2026 sur Crunchyroll. Heure exacte de mise en ligne, premières images, résumé et plus encore : cet article regroupe tous les détails à connaître sur ce septième épisode, juste avant sa diffusion. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Quelle est la date de sortie de l'anime Les Carnets de l'A",
       "score": 88,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 7,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "3a526737b270c5389529",
@@ -137,12 +148,16 @@
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » L&rsquo;anime Tsugumi Project sortira en janvier 2027, Nouveau Visuel Facebook Twitter Reddit WhatsApp Telegram L&rsquo;anime Tsugumi Project sortira en janvier 2027, Nouveau Visuel 12 Nov, 2026 17:13 Quentin Holveck Annoncé pour la première fois au début de l&rsquo;été dernier, l&rsquo;anime Tsugumi Project (Tora Tsugumi -TSUGUMI PROJECT-) a précisé sa diffusion pour le mois de janvier 2027 au Japon. En parallèle, une nouvelle affiche promotionnelle a également été dévoilée. Pour le moment, le personnel créatif chargé du projet et le studio d&rsquo;animation n&rsquo;ont pas été annoncés. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Nouveau visuel de l'anime Tsugumi Project L&rsquo;affiche ci-dessus met en scène les trois personnages principaux de la série, dont Tsugumi, interprétée par ",
       "score": 88,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 11,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "8f4f2796db4c65dad4f6",
@@ -163,12 +178,16 @@
       },
       "summary": "Concerts et festivals / Musique 0 LiSA en concert au Zénith de Paris par Tatiana Chedebois &middot; Publié 12 novembre 2026 &middot; Mis à jour 11 novembre 2026 LiSA était en concert au Zénith de Paris le 20 septembre 2026. Le concert était complet en quelques minutes lors de la mise en vente. 6000 fans ont répondu présents pour sa première tournée mondiale. Cette escale en France a été un succès massif dans le paysage français de J-music un peu morose en 2026. LiSA est une chanteuse d&rsquo;anisong que vous avez sans aucun doute déjà entendue au moins une fois. Avec notamment ses titres iconiques interprétés pour Demon slayer . Qui est LiSA ? LiSA , de son vrai nom Risa Oribe , est une chanteuse japonaise née le 24 juin dans la préfecture de Gifu, au Japon. Elle commence à se faire connaître en 2010 grâce à l’anime Angel Beats!, dans lequel elle prête sa voix chantée au personnage de Yu",
       "score": 88,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 11,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "7e9a2d08cdb4394dc7da",
@@ -189,12 +208,16 @@
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ? Facebook Twitter Reddit WhatsApp Telegram Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ? 12 Nov, 2026 14:59 Quentin Holveck Article sponsorisé Elle était très attendue par les fans de la série : la VF de l&rsquo;anime Dragon Ball DAIMA est diffusée depuis le 4 novembre 2026 en exclusivité sur Gulli, avec un nouvel épisode proposé chaque mercredi à 9 h 15. Cette version française suscite pourtant déjà la polémique. En cause : le remplacement de plusieurs comédiens de doublage historiques et l&rsquo;effacement du personnage de Mr. Popo dans certaines scènes. Retour sur les changements qui font débat. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Les voix françaises historiques de Dragon Ball rempl",
       "score": 85,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 13,
-      "reasons": []
+      "freshnessHours": 14,
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "df9bd9ebb742de59550b",
@@ -215,12 +238,16 @@
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » L&rsquo;anime Getting Shots on a Frying Pan sortira en janvier 2027, Premier Teaser Facebook Twitter Reddit WhatsApp Telegram L&rsquo;anime Getting Shots on a Frying Pan sortira en janvier 2027, Premier Teaser 12 Nov, 2026 14:38 Quentin Holveck Annoncé pour la première fois au début de l&rsquo;été dernier, l&rsquo;anime Getting Shots on a Frying Pan (Nabe ni Tama wo Ukenagara) précise aujourd&rsquo;hui sa diffusion pour le mois de janvier 2027 au Japon. En parallèle, une première bande-annonce a également été mise en ligne. C&rsquo;est le studio J.C. STAFF qui produit l&rsquo;animation. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Bande-annonce de l'anime Getting Shots on a Frying Pan Du côté du casting, Shu Uchida prête sa voix au protagoniste Juntaro dans sa forme féminine, tandis que ",
       "score": 85,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 14,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "126adf4280b312a1b7b1",
@@ -241,12 +268,16 @@
       },
       "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and Vega Entertainment. Takahiro Nagano (Tensei shitara Ken deshita) is handling the series composition, while Nozomi Kawashige (Deatte 5-byou de Battle) is designing the characters. Kariya began writing Oishinbo in Shogakukan's Big Comic Spirits magazine in 1983, featuring art by Akira Hanasaki. Shogakukan published the 111th and latest volume in December 2014. The manga has been on hiatus since May 2014.",
       "score": 85,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 17,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "89d128021464090bb535",
@@ -267,12 +298,16 @@
       },
       "summary": "Interview Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 As one of the most outstanding romance stories in recent years, Blue Box highlights the inner worlds and unique sensibilities of its whole cast of characters. The story combines the romantic pursuits of the protagonists, Taiki and Chinatsu, with the passion of spokon , and the adventure of growing up from adolescence. While the Blue Box manga officially ended on July 13 , we can still follow our favorite characters in the anime adaptation currently airing. Blue Box Season 2 explores new sides of the cast and introduces the long awaited Yumeka Goto, a person from Chinatsu’s past. That’s why we were excited to interview Season 2 director Daisuke Sako about Yumeka, the themes explored during the season, and his takes ",
       "score": 85,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 18,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -293,12 +328,16 @@
       },
       "summary": "Production company Asmik Ace opened an official website for a television anime adaptation of Juntarou Aoki and Shin Moriyama's Nabe ni Tama wo Ukenagara (Getting Shots on Frying Pan) manga on Thursday, revealing the main cast, staff, and a teaser promotional video. Produced by J.C.Staff, the anime is scheduled to premiere on Nippon TV, Yomiuri TV, BS Nippon TV, and AT-X in January 2027. Voice actors Shuu Uchida (Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu) and Masaaki Mizunaka (Nyaight of the Living Cat) are voicing the beautiful girl and male versions of Juntarou Aoki, respectively. Staff Director: Masahiro Hiraoka (Kabushikigaisha Magi-Lumière) Series Composition, Script: Susumu Yamakawa (Maiko-san Chi no Makanai-san) Character Design, Chief Animation Director: Natsuki Ooyama (Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)) Music: Yoshihide Ootomo (Inu-Ou) Sound Director: Yos",
       "score": 85,
-      "decision": "eligible_a_evaluer",
-      "eligibleForEditorial": true,
+      "decision": "article_sourcé_tendance_non_confirmee",
+      "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 18,
-      "reasons": []
+      "reasons": [
+        "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
+      ],
+      "articleQualityEligible": true,
+      "trendConfirmed": false
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -326,7 +365,9 @@
       "freshnessHours": 27,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -354,7 +395,9 @@
       "freshnessHours": 31,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -382,7 +425,9 @@
       "freshnessHours": 32,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -410,7 +455,9 @@
       "freshnessHours": 33,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": true
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -438,7 +485,9 @@
       "freshnessHours": 34,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -466,7 +515,9 @@
       "freshnessHours": 35,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "c3cc082d5156d2e49da7",
@@ -494,7 +545,9 @@
       "freshnessHours": 35,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -522,7 +575,9 @@
       "freshnessHours": 37,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "faa9582f2ad9a2bd22df",
@@ -550,7 +605,9 @@
       "freshnessHours": 37,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "8ee154d809959cf9c324",
@@ -573,7 +630,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "caa5ca3faa63349f9d96",
@@ -600,7 +659,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "b141176f59700ae38753",
@@ -625,7 +686,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "d654be900ff1989f99cd",
@@ -652,7 +715,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "17fef6b376112218d1fe",
@@ -679,7 +744,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -698,12 +765,14 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 32,
+      "freshnessHours": 33,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -727,7 +796,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -751,7 +822,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -775,7 +848,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -799,7 +874,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -823,7 +900,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": true
     },
     {
       "id": "7b26d0fa36441f140781",
@@ -850,7 +929,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "119a6fd254f77755a5ae",
@@ -877,7 +958,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "feb21d7fc8964f0e4854",
@@ -904,7 +987,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "71f396838b55955df86c",
@@ -931,7 +1016,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3eca43eec58f1885d14b",
@@ -958,7 +1045,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "0080d867306168ba8a64",
@@ -985,7 +1074,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "bdc07fca366d717b8592",
@@ -1008,7 +1099,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "988f2edba5041856766d",
@@ -1031,7 +1124,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "035a124ea4dd3fd989e5",
@@ -1054,7 +1149,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "5ce9e873cd9929c717b9",
@@ -1077,7 +1174,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "783a02af8e442ab6b74d",
@@ -1100,7 +1199,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "89f8e0d91d90bdcd8860",
@@ -1123,7 +1224,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "0cc7b2b491a8a2a4c0d8",
@@ -1146,7 +1249,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "1a9595d626b602cb5849",
@@ -1169,7 +1274,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3f45e8d8961873fb984e",
@@ -1192,7 +1299,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -1215,7 +1324,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "ec3f0affa69c59e9d8ed",
@@ -1238,7 +1349,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "809bd7ec50aee02d6167",
@@ -1261,7 +1374,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -1284,7 +1399,9 @@
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -1308,7 +1425,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -1332,7 +1451,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -1356,7 +1477,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -1380,7 +1503,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "913581ff600dd3591661",
@@ -1404,7 +1529,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "27dd98ec22f905142331",
@@ -1428,7 +1555,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -1452,7 +1581,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -1476,7 +1607,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "4b9ea639a65c023e1931",
@@ -1500,7 +1633,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -1524,7 +1659,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "daf73bca15aa5e366312",
@@ -1548,7 +1685,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -1572,7 +1711,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "99680deade85e0f3865c",
@@ -1591,12 +1732,14 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 37,
+      "freshnessHours": 38,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -1620,7 +1763,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "793b83ce133c2f0f3fd2",
@@ -1644,7 +1789,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "a32f1bedf1225112b87a",
@@ -1668,7 +1815,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -1692,7 +1841,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -1716,7 +1867,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "a3e62a222441fc0110c7",
@@ -1740,7 +1893,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "19d719a8a2297963f687",
@@ -1765,7 +1920,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -1790,7 +1947,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "bdbbf6f642eed15939e3",
@@ -1814,7 +1973,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "68c15c7e35fd6ad171bd",
@@ -1838,7 +1999,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "45030701f91c2c1fd96c",
@@ -1862,7 +2025,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "27dd7ccd7b26aadbbe81",
@@ -1886,7 +2051,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "44aaf3be4ba7a06ffd38",
@@ -1910,7 +2077,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "35f889b2ba65db319b5f",
@@ -1934,7 +2103,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "41222af3767169c3be04",
@@ -1958,7 +2129,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "0c222aa31667402a42a9",
@@ -1982,7 +2155,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "a3317003ffc657b6cafe",
@@ -2006,7 +2181,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -2030,7 +2207,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "a99daaa9fd5517b5ddb0",
@@ -2054,7 +2233,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -2078,7 +2259,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "249d5a59b90be2d76765",
@@ -2102,7 +2285,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "86a72977089891d1cf45",
@@ -2126,7 +2311,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "36120c0d88a51136275a",
@@ -2150,7 +2337,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "ffc2b8169ce8994cbd08",
@@ -2174,7 +2363,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "fc35df59fe3786e6fe47",
@@ -2198,7 +2389,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "071e908a8da152590d55",
@@ -2222,7 +2415,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "7b47845646a2578e2144",
@@ -2246,7 +2441,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "3fa9a15da24a050f9ee5",
@@ -2270,7 +2467,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "5904772c66e308ede111",
@@ -2294,7 +2493,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -2318,7 +2519,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -2342,7 +2545,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -2366,7 +2571,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "86324f10058b4807aacb",
@@ -2390,7 +2597,9 @@
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "6c52d7e335ad79d0bbc5",
@@ -2415,7 +2624,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -2440,7 +2651,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -2465,7 +2678,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "c1dbf00658ebf329751c",
@@ -2490,7 +2705,9 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     },
     {
       "id": "4144e983326ec39abb67",
@@ -2515,10 +2732,159 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
+      ],
+      "articleQualityEligible": false,
+      "trendConfirmed": false
     }
   ],
   "entityTrends": [
+    {
+      "entityId": "manga-86123",
+      "name": "Black Clover",
+      "type": "manga",
+      "score": 73,
+      "decision": "confirmee",
+      "confirmed": true,
+      "strong": false,
+      "articleCount": 3,
+      "recentArticleCount": 3,
+      "independentSourceCount": 2,
+      "verifiedArticleCount": 2,
+      "latestAt": "2026-11-12T21:18:42.000Z",
+      "sourceNames": [
+        "AnimOtaku",
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 6,
+      "url": "https://anilist.co/manga/86123",
+      "reasons": [
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+        "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+        "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T21:18:42.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-151801",
+      "name": "MASHLE: MAGIC AND MUSCLES",
+      "type": "anime",
+      "score": 55,
+      "decision": "surveillance",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 2,
+      "independentSourceCount": 2,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "sourceNames": [
+        "MyAnimeList News",
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/151801",
+      "reasons": [
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://myanimelist.net/news/74928431?_location=rss",
+        "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719"
+      ],
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195604",
+      "name": "Black Clover Season 2",
+      "type": "anime",
+      "score": 48,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 2,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-11T18:21:03.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 69,
+      "url": "https://anilist.co/anime/195604",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+        "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
     {
       "entityId": "anime-97940",
       "name": "Black Clover",
@@ -2540,9 +2906,11 @@
       "url": "https://anilist.co/anime/97940",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/"
       ],
       "articles": [
         {
@@ -2576,9 +2944,11 @@
       "url": "https://anilist.co/anime/161645",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animotaku.fr/actualite/anime-carnets-apothicaire-saison-3-episode-7-date-heure-sortie/"
       ],
       "articles": [
         {
@@ -2587,57 +2957,6 @@
           "publishedAt": "2026-11-12T20:53:35.000Z",
           "sources": [
             "AnimOtaku"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-86123",
-      "name": "Black Clover",
-      "type": "manga",
-      "score": 43,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 3,
-      "recentArticleCount": 1,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 1,
-      "latestAt": "2026-11-12T21:18:42.000Z",
-      "sourceNames": [
-        "AnimOtaku"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 6,
-      "url": "https://anilist.co/manga/86123",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
-          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
-          "publishedAt": "2026-11-12T21:18:42.000Z",
-          "sources": [
-            "AnimOtaku"
-          ]
-        },
-        {
-          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
-          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
-          "publishedAt": "2026-11-11T18:21:03.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
-          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
-          "publishedAt": "2026-11-11T13:32:50.000Z",
-          "sources": [
-            "Anime Corner"
           ]
         }
       ]
@@ -2663,9 +2982,11 @@
       "url": "https://anilist.co/anime/223",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/"
       ],
       "articles": [
         {
@@ -2699,9 +3020,11 @@
       "url": "https://anilist.co/anime/189123",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/"
       ],
       "articles": [
         {
@@ -2710,6 +3033,176 @@
           "publishedAt": "2026-11-12T09:43:11.000Z",
           "sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195539",
+      "name": "Cyberpunk: Edgerunners 2",
+      "type": "anime",
+      "score": 38,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-11T20:50:02.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 80,
+      "url": "https://anilist.co/anime/195539",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/"
+      ],
+      "articles": [
+        {
+          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+          "publishedAt": "2026-11-11T20:50:02.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-128067",
+      "name": "SSS-Class Revival Hunter",
+      "type": "manga",
+      "score": 37,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-11T16:08:52.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 39,
+      "url": "https://anilist.co/manga/128067",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/"
+      ],
+      "articles": [
+        {
+          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+          "publishedAt": "2026-11-11T16:08:52.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-211778",
+      "name": "The World's Strongest Witch",
+      "type": "anime",
+      "score": 35,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 2,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 56,
+      "url": "https://anilist.co/anime/211778",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+        "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731"
+      ],
+      "articles": [
+        {
+          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "The World's Strongest Witch ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-216895",
+      "name": "Welsh & Shedar",
+      "type": "anime",
+      "score": 31,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 2,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T13:00:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 15,
+      "url": "https://anilist.co/anime/216895",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+        "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736"
+      ],
+      "articles": [
+        {
+          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+          "publishedAt": "2026-11-12T13:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "Welsh & Shedar Anime Launches Webtoon",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+          "publishedAt": "2026-11-12T03:10:20.000Z",
+          "sources": [
+            "Anime News Network"
           ]
         }
       ]
@@ -2735,10 +3228,12 @@
       "url": "https://anilist.co/anime/108465",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/review/mushoku-tensei/jobless-reincarnation-volumes-4-6/light-novel/.242823"
       ],
       "articles": [
         {
@@ -2772,10 +3267,12 @@
       "url": "https://anilist.co/anime/159042",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745"
       ],
       "articles": [
         {
@@ -2807,10 +3304,12 @@
       "url": "https://anilist.co/anime/21",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5"
       ],
       "articles": [
         {
@@ -2824,41 +3323,155 @@
       ]
     },
     {
-      "entityId": "anime-211778",
-      "name": "The World's Strongest Witch",
+      "entityId": "anime-191656",
+      "name": "Even the Student Council Has Its Holes!",
       "type": "anime",
-      "score": 15,
+      "score": 17,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
-      "articleCount": 2,
+      "articleCount": 1,
       "recentArticleCount": 1,
-      "independentSourceCount": 0,
+      "independentSourceCount": 1,
       "verifiedArticleCount": 0,
-      "latestAt": "2026-11-12T16:00:00.000Z",
-      "sourceNames": [],
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
       "searchSignalCount": 0,
-      "catalogTrending": 56,
-      "url": "https://anilist.co/anime/211778",
+      "catalogTrending": 39,
+      "url": "https://anilist.co/anime/191656",
       "reasons": [
         "Moins de deux médias indépendants",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
       ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721"
+      ],
       "articles": [
         {
-          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
           "sources": [
-            "Google Actualités — Manga & Anime"
+            "Anime News Network"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "entityId": "anime-206949",
+      "name": "Nia Liston: The Merciless Maiden",
+      "type": "anime",
+      "score": 17,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T15:31:35.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 49,
+      "url": "https://anilist.co/anime/206949",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720"
+      ],
+      "articles": [
         {
-          "title": "The World's Strongest Witch ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
+          "publishedAt": "2026-11-11T15:31:35.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-149544",
+      "name": "The Guy She Was Interested In Wasn't a Guy at All",
+      "type": "manga",
+      "score": 15,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T21:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/149544",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735"
+      ],
+      "articles": [
+        {
+          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+          "publishedAt": "2026-11-11T21:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-147863",
+      "name": "Even the Student Council Has Its Holes!",
+      "type": "manga",
+      "score": 15,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 9,
+      "url": "https://anilist.co/manga/147863",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
           "sources": [
             "Anime News Network"
           ]
@@ -2884,10 +3497,12 @@
       "url": "https://anilist.co/anime/163142",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5"
       ],
       "articles": [
         {
@@ -2919,10 +3534,12 @@
       "url": "https://anilist.co/manga/105393",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5"
       ],
       "articles": [
         {
@@ -2954,10 +3571,12 @@
       "url": "https://anilist.co/anime/139587",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5"
       ],
       "articles": [
         {
@@ -2989,10 +3608,12 @@
       "url": "https://anilist.co/anime/152682",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5"
       ],
       "articles": [
         {
@@ -3001,48 +3622,6 @@
           "publishedAt": "2026-11-12T16:00:00.000Z",
           "sources": [
             "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-216895",
-      "name": "Welsh & Shedar",
-      "type": "anime",
-      "score": 11,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 1,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-12T13:00:00.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 15,
-      "url": "https://anilist.co/anime/216895",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
-          "publishedAt": "2026-11-12T13:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        },
-        {
-          "title": "Welsh & Shedar Anime Launches Webtoon",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-          "publishedAt": "2026-11-12T03:10:20.000Z",
-          "sources": [
-            "Anime News Network"
           ]
         }
       ]
@@ -3066,10 +3645,12 @@
       "url": "https://anilist.co/manga/30013",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5"
       ],
       "articles": [
         {
@@ -3101,10 +3682,12 @@
       "url": "https://anilist.co/anime/219548",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5"
       ],
       "articles": [
         {
@@ -3118,29 +3701,81 @@
       ]
     },
     {
-      "entityId": "anime-195604",
-      "name": "Black Clover Season 2",
-      "type": "anime",
-      "score": 8,
+      "entityId": "manga-211011",
+      "name": "The Chrysalis Heart",
+      "type": "manga",
+      "score": 5,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 0,
+      "articleCount": 1,
+      "recentArticleCount": 1,
       "independentSourceCount": 0,
       "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T18:21:03.000Z",
+      "latestAt": "2026-11-11T22:12:35.000Z",
       "sourceNames": [],
       "searchSignalCount": 0,
-      "catalogTrending": 69,
-      "url": "https://anilist.co/anime/195604",
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/211011",
       "reasons": [
         "Moins de deux médias indépendants",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
       ],
+      "recentArticleUrls": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5"
+      ],
       "articles": [
+        {
+          "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
+          "publishedAt": "2026-11-11T22:12:35.000Z",
+          "sources": [
+            "Annonces officielles — Google Actualités"
+          ]
+        }
+      ]
+    }
+  ],
+  "confirmedEntities": [
+    {
+      "entityId": "manga-86123",
+      "name": "Black Clover",
+      "type": "manga",
+      "score": 73,
+      "decision": "confirmee",
+      "confirmed": true,
+      "strong": false,
+      "articleCount": 3,
+      "recentArticleCount": 3,
+      "independentSourceCount": 2,
+      "verifiedArticleCount": 2,
+      "latestAt": "2026-11-12T21:18:42.000Z",
+      "sourceNames": [
+        "AnimOtaku",
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 6,
+      "url": "https://anilist.co/manga/86123",
+      "reasons": [
+        "Aucun signal Google Trends associé"
+      ],
+      "recentArticleUrls": [
+        "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+        "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+        "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T21:18:42.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
         {
           "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
           "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
@@ -3158,294 +3793,6 @@
           ]
         }
       ]
-    },
-    {
-      "entityId": "anime-195539",
-      "name": "Cyberpunk: Edgerunners 2",
-      "type": "anime",
-      "score": 8,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T20:50:02.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 80,
-      "url": "https://anilist.co/anime/195539",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
-          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-          "publishedAt": "2026-11-11T20:50:02.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-191656",
-      "name": "Even the Student Council Has Its Holes!",
-      "type": "anime",
-      "score": 7,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:30:00.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 39,
-      "url": "https://anilist.co/anime/191656",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
-          "publishedAt": "2026-11-11T16:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-128067",
-      "name": "SSS-Class Revival Hunter",
-      "type": "manga",
-      "score": 7,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:08:52.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 39,
-      "url": "https://anilist.co/manga/128067",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
-          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
-          "publishedAt": "2026-11-11T16:08:52.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-206949",
-      "name": "Nia Liston: The Merciless Maiden",
-      "type": "anime",
-      "score": 7,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T15:31:35.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 49,
-      "url": "https://anilist.co/anime/206949",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
-          "publishedAt": "2026-11-11T15:31:35.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-151801",
-      "name": "MASHLE: MAGIC AND MUSCLES",
-      "type": "anime",
-      "score": 5,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T14:46:50.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 12,
-      "url": "https://anilist.co/anime/151801",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-211011",
-      "name": "The Chrysalis Heart",
-      "type": "manga",
-      "score": 5,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T22:12:35.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 4,
-      "url": "https://anilist.co/manga/211011",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
-          "publishedAt": "2026-11-11T22:12:35.000Z",
-          "sources": [
-            "Annonces officielles — Google Actualités"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-149544",
-      "name": "The Guy She Was Interested In Wasn't a Guy at All",
-      "type": "manga",
-      "score": 5,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T21:30:00.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 4,
-      "url": "https://anilist.co/manga/149544",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
-          "publishedAt": "2026-11-11T21:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-147863",
-      "name": "Even the Student Council Has Its Holes!",
-      "type": "manga",
-      "score": 5,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 0,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:30:00.000Z",
-      "sourceNames": [],
-      "searchSignalCount": 0,
-      "catalogTrending": 9,
-      "url": "https://anilist.co/manga/147863",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
-          "publishedAt": "2026-11-11T16:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
     }
-  ],
-  "confirmedEntities": []
+  ]
 }
