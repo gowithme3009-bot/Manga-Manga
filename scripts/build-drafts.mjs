@@ -87,11 +87,14 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
       : Number.isFinite(item.sourceCount) ? item.sourceCount : 0;
     const coverageSourceCount = Number.isFinite(item.coverageSourceCount)
       ? item.coverageSourceCount : sourceNames.length;
-    const trendLevel = independentSourceCount >= 3 && item.trendScore >= 75
-      ? "spectaculaire"
-      : independentSourceCount >= 2 && freshnessHours <= 48
-        ? "hausse"
-        : "surveillance";
+    const qualityRecord = qualityById instanceof Map ? qualityById.get(String(key)) : null;
+    const trendLevel = qualityRecord?.trendConfirmed
+      ? (qualityRecord.trendStrong ? "spectaculaire" : "hausse")
+      : independentSourceCount >= 3 && item.trendScore >= 75
+        ? "spectaculaire"
+        : independentSourceCount >= 2 && freshnessHours <= 48
+          ? "hausse"
+          : "surveillance";
     const editorialReady = Boolean(summary) && sourceLanguage === "fr";
     const text = editorialReady
       ? title + "\n\n" + summary + "\n\nSource : " + sourceUrl +
@@ -175,7 +178,10 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
   if (qualityFiltered.length < 4) {
     warnings.push("Seulement " + qualityFiltered.length + " sujet(s) satisfont les critères qualité stricts. Aucun sujet faible ne sera ajouté pour remplir quatre places.");
   }
-  if (!candidates.some(candidate => candidate.trendLevel !== "surveillance")) {
+  const hasConfirmedTrend = qualityById instanceof Map
+    ? qualityFiltered.length > 0
+    : candidates.some(candidate => candidate.trendLevel !== "surveillance");
+  if (!hasConfirmedTrend) {
     warnings.push("Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.");
   }
   if (!candidates.some(candidate => candidate.editorialReady || (candidate.articleContentRetrieved && candidate.summary))) {
