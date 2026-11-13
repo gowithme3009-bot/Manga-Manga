@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:32:02.708Z",
+  "generatedAt": "2026-11-13T03:51:31.730Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-13T03:32:02.708Z",
+    "refreshedAt": "2026-11-13T03:51:31.730Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -16472,6 +16472,30 @@
           "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
           "publishedAt": "2026-11-11T22:12:35.000Z",
+          "sources": [
+            "Annonces officielles — Google Actualités"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-219135",
+      "entityName": "Evershifting Girlfriends",
+      "entityType": "manga",
+      "aliasesMatched": [
+        "Evershifting Girlfriends"
+      ],
+      "articleCount": 1,
+      "sourceCount": 0,
+      "sources": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "latestAt": "2026-11-11T22:10:39.000Z",
+      "articles": [
+        {
+          "title": "Comments | #003 | Evershifting Girlfriends - Omameda - MANGA Plus by SHUEISHA",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UZ0FjOTQxYnNkV19odlM4UTlCaS01bEZtN3REM3YtLVlyTFZlZ2xkb0JSa3JMN0M4VmhxX2NYRkNOaWQ1czFpR2xMLUZxQmpMTUFENUhUOFBNRlJLd1E?oc=5",
+          "publishedAt": "2026-11-11T22:10:39.000Z",
           "sources": [
             "Annonces officielles — Google Actualités"
           ]

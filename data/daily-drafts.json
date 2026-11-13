@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:31:47.793Z",
+  "generatedAt": "2026-11-13T03:51:20.058Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 1,
@@ -28,7 +28,7 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T21:18:42.000Z",
-      "freshnessHours": 6,
+      "freshnessHours": 7,
       "trendScore": 46,
       "editorialFitScore": 24,
       "qualityScore": 88,
@@ -37,14 +37,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’épisode 7 de la saison 2 de l’anime Black Clover est prévu le samedi 14 novembre 2026 à 16 h, en streaming VOSTFR sur Crunchyroll. \nDans ce chapitre, les protagonistes affrontent le démon suprême Megicula ; Noelle et ses compagnons sont entravés, Gaja tente un sacrifice, puis Asta et Luck interviennent pour relancer l’offensive.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#BlackClover,#Saison2,#Episode7,#Crunchyroll,#Anime",
+      "text": "L’épisode 7 de la saison 2 de l’anime Black Clover sera mis en ligne le samedi 14 novembre 2026 à 16 h sur Crunchyroll, en streaming VOSTFR. Le résumé indique que Noelle, Asta, Luck et leurs compagnons affrontent le démon suprême Megicula, avec l’intervention décisive d’Asta et Luck pour relancer l’offensive.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#BlackClover,#Anime,#Crunchyroll,#Saison2",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait indique la date, l’heure, la plateforme (Crunchyroll, VOSTFR) et un résumé du combat contre Megicula. Vérifier que le texte complet ne comporte pas d’autres précisions (ex. date de diffusion dans d’autres régions, informations supplémentaires) avant publication. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. L’extrait mentionne la date, l’heure, la plateforme et le résumé du combat. Vérifier que le texte complet ne comporte pas d’autres précisions (ex. durée, spoilers supplémentaires) avant publication. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T03:32:09.160Z",
-      "aiTitle": "Black Clover S2 – Épisode 7 : sortie, résumé et images",
+      "aiGeneratedAt": "2026-11-13T03:51:40.598Z",
+      "aiTitle": "Black Clover S2 – Épisode 7 : diffusion le 14 novembre 2026",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -52,7 +52,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "L’extrait indique la date, l’heure, la plateforme (Crunchyroll, VOSTFR) et un résumé du combat contre Megicula. Vérifier que le texte complet ne comporte pas d’autres précisions (ex. date de diffusion dans d’autres régions, informations supplémentaires) avant publication."
+      "aiVerificationNotes": "L’extrait mentionne la date, l’heure, la plateforme et le résumé du combat. Vérifier que le texte complet ne comporte pas d’autres précisions (ex. durée, spoilers supplémentaires) avant publication."
     }
   ],
   "warnings": [
@@ -60,6 +60,6 @@
     "Seulement 1 sujet(s) satisfont les critères qualité stricts. Aucun sujet faible ne sera ajouté pour remplir quatre places.",
     "15 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-13T03:32:09.160Z",
+  "aiGeneratedAt": "2026-11-13T03:51:40.598Z",
   "aiModel": "openai/gpt-oss-120b"
 }
