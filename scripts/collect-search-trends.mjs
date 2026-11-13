@@ -13,8 +13,9 @@ const COUNTRIES = [
 ];
 
 export function normalizeEntityText(value = "") {
-  return String(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  return String(value).normalize("NFKD").replace(/[\\u0300-\\u036f]/g, "")
+    .toLocaleLowerCase("fr").replace(/[^\\p{L}\\p{N}]+/gu, " ")
+    .replace(/\\bsaison\\b/g, "season").trim();
 }
 
 export function matchCatalogEntities(term, catalog) {
