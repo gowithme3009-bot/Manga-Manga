@@ -29,7 +29,7 @@ export function scoreEditorialFit(item) {
   return score;
 }
 
-export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) {
+export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), qualityById = null) {
   const referenceTime = Date.parse(generatedAt);
   const now = Number.isFinite(referenceTime) ? referenceTime : Date.now();
   const seen = new Set();
@@ -184,7 +184,7 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
     generatedAt: new Date(now).toISOString(),
     freshnessWindowHours: 24,
     limit: 4,
-    eligibleCount: candidates.length,
+    eligibleCount: qualityFiltered.length,
     items: ordered,
     warnings
   };
