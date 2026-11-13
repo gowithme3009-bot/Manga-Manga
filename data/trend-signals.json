@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:02:04.054Z",
+  "generatedAt": "2026-11-13T03:05:30.760Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-13T03:02:04.054Z",
+    "refreshedAt": "2026-11-13T03:05:30.760Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15832,13 +15832,12 @@
         "MASHLE",
         "MASHLE: MAGIC AND MUSCLES"
       ],
-      "articleCount": 4,
-      "sourceCount": 4,
+      "articleCount": 3,
+      "sourceCount": 3,
       "sources": [
         "MyAnimeList News",
         "Anime News Network",
-        "AnimOtaku",
-        "Anime Corner"
+        "AnimOtaku"
       ],
       "latestAt": "2026-11-11T14:46:50.000Z",
       "articles": [
@@ -15864,14 +15863,6 @@
           "publishedAt": "2026-11-11T11:30:16.000Z",
           "sources": [
             "AnimOtaku"
-          ]
-        },
-        {
-          "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
-          "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
-          "publishedAt": "2026-11-11T11:25:05.000Z",
-          "sources": [
-            "Anime Corner"
           ]
         }
       ]

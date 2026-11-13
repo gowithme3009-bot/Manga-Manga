@@ -1,0 +1,3479 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-13T03:05:19.141Z",
+  "policy": {
+    "siteScore": {
+      "sourceReliability": 20,
+      "originalPage": 20,
+      "factualDetail": 20,
+      "freshness": 15,
+      "richness": 15,
+      "independentCoverage": 10
+    },
+    "entityScore": {
+      "independentMedia": 25,
+      "distinctArticles": 20,
+      "freshness": 15,
+      "verifiedOriginals": 20,
+      "publicSearchSignal": 10,
+      "catalogTrendSignal": 10
+    },
+    "thresholds": {
+      "priority": 85,
+      "eligible": 70,
+      "watch": 50
+    },
+    "hardRules": [
+      "Une reprise ou un agrégateur ne compte pas comme média indépendant.",
+      "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.",
+      "Une tendance forte exige au moins trois médias indépendants et trois articles distincts.",
+      "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.",
+      "Aucun quota ne force la sélection d'un sujet faible."
+    ]
+  },
+  "summary": {
+    "siteArticles": 100,
+    "editorialEligibleSites": 9,
+    "entitiesDetected": 25,
+    "confirmedEntities": 0,
+    "strongEntities": 0
+  },
+  "siteTrends": [
+    {
+      "id": "7df577b3dd8953deb525",
+      "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+      "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+      "publishedAt": "2026-11-12T21:18:42.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images Facebook Twitter Reddit WhatsApp Telegram Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images 12 Nov, 2026 22:18 Quentin Holveck Attendu ce samedi 14 novembre 2026 sur Crunchyroll, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 a présenté ses premières informations sur le site web officiel de la série. Heure exacte de mise en ligne, résumé et premières images : cet article regroupe tous les détails à connaître sur ce septième épisode, juste avant sa sortie. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Quand sortira l'épisode 7 de l'anime Black Clover Saison 2 ? En France, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 sortira le samedi 14 novembre 2026 à",
+      "score": 90,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 6,
+      "reasons": []
+    },
+    {
+      "id": "45fa1cefc95b1bf77fda",
+      "title": "Les Carnets de l’Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+      "url": "https://animotaku.fr/actualite/anime-carnets-apothicaire-saison-3-episode-7-date-heure-sortie/",
+      "publishedAt": "2026-11-12T20:53:35.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/anime-carnets-apothicaire-saison-3-episode-7-date-heure-sortie/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » Les Carnets de l&rsquo;Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images Facebook Twitter Reddit WhatsApp Telegram Les Carnets de l&rsquo;Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images 12 Nov, 2026 21:53 Quentin Holveck Le site web officiel de la saison 3 de l&rsquo;anime Les Carnets de l&rsquo;Apothicaire (Kusuriya no Hitorigoto) a présenté les premières informations concernant son épisode 7 , attendu ce vendredi 13 novembre 2026 sur Crunchyroll. Heure exacte de mise en ligne, premières images, résumé et plus encore : cet article regroupe tous les détails à connaître sur ce septième épisode, juste avant sa diffusion. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Quelle est la date de sortie de l'anime Les Carnets de l'A",
+      "score": 88,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 6,
+      "reasons": []
+    },
+    {
+      "id": "3a526737b270c5389529",
+      "title": "L’anime Tsugumi Project sortira en janvier 2027, Nouveau Visuel",
+      "url": "https://animotaku.fr/actualite/anime-tsugumi-project-janvier-2027-nouveau-visuel/",
+      "publishedAt": "2026-11-12T16:13:05.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/anime-tsugumi-project-janvier-2027-nouveau-visuel/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » L&rsquo;anime Tsugumi Project sortira en janvier 2027, Nouveau Visuel Facebook Twitter Reddit WhatsApp Telegram L&rsquo;anime Tsugumi Project sortira en janvier 2027, Nouveau Visuel 12 Nov, 2026 17:13 Quentin Holveck Annoncé pour la première fois au début de l&rsquo;été dernier, l&rsquo;anime Tsugumi Project (Tora Tsugumi -TSUGUMI PROJECT-) a précisé sa diffusion pour le mois de janvier 2027 au Japon. En parallèle, une nouvelle affiche promotionnelle a également été dévoilée. Pour le moment, le personnel créatif chargé du projet et le studio d&rsquo;animation n&rsquo;ont pas été annoncés. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Nouveau visuel de l'anime Tsugumi Project L&rsquo;affiche ci-dessus met en scène les trois personnages principaux de la série, dont Tsugumi, interprétée par ",
+      "score": 88,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 11,
+      "reasons": []
+    },
+    {
+      "id": "8f4f2796db4c65dad4f6",
+      "title": "LiSA en concert au Zénith de Paris",
+      "url": "https://www.journaldujapon.com/2026/11/12/lisa-en-concert-au-zenith-de-paris/",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Journal du Japon",
+      "sourceNames": [
+        "Journal du Japon"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "www.journaldujapon.com",
+        "checkedUrl": "https://www.journaldujapon.com/2026/11/12/lisa-en-concert-au-zenith-de-paris/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Concerts et festivals / Musique 0 LiSA en concert au Zénith de Paris par Tatiana Chedebois &middot; Publié 12 novembre 2026 &middot; Mis à jour 11 novembre 2026 LiSA était en concert au Zénith de Paris le 20 septembre 2026. Le concert était complet en quelques minutes lors de la mise en vente. 6000 fans ont répondu présents pour sa première tournée mondiale. Cette escale en France a été un succès massif dans le paysage français de J-music un peu morose en 2026. LiSA est une chanteuse d&rsquo;anisong que vous avez sans aucun doute déjà entendue au moins une fois. Avec notamment ses titres iconiques interprétés pour Demon slayer . Qui est LiSA ? LiSA , de son vrai nom Risa Oribe , est une chanteuse japonaise née le 24 juin dans la préfecture de Gifu, au Japon. Elle commence à se faire connaître en 2010 grâce à l’anime Angel Beats!, dans lequel elle prête sa voix chantée au personnage de Yu",
+      "score": 88,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 11,
+      "reasons": []
+    },
+    {
+      "id": "7e9a2d08cdb4394dc7da",
+      "title": "Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ?",
+      "url": "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/",
+      "publishedAt": "2026-11-12T13:59:00.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ? Facebook Twitter Reddit WhatsApp Telegram Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ? 12 Nov, 2026 14:59 Quentin Holveck Article sponsorisé Elle était très attendue par les fans de la série : la VF de l&rsquo;anime Dragon Ball DAIMA est diffusée depuis le 4 novembre 2026 en exclusivité sur Gulli, avec un nouvel épisode proposé chaque mercredi à 9 h 15. Cette version française suscite pourtant déjà la polémique. En cause : le remplacement de plusieurs comédiens de doublage historiques et l&rsquo;effacement du personnage de Mr. Popo dans certaines scènes. Retour sur les changements qui font débat. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Les voix françaises historiques de Dragon Ball rempl",
+      "score": 85,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 13,
+      "reasons": []
+    },
+    {
+      "id": "df9bd9ebb742de59550b",
+      "title": "L’anime Getting Shots on a Frying Pan sortira en janvier 2027, Premier Teaser",
+      "url": "https://animotaku.fr/actualite/anime-getting-shots-on-a-frying-pan-janvier-2027/",
+      "publishedAt": "2026-11-12T13:38:52.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/anime-getting-shots-on-a-frying-pan-janvier-2027/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » L&rsquo;anime Getting Shots on a Frying Pan sortira en janvier 2027, Premier Teaser Facebook Twitter Reddit WhatsApp Telegram L&rsquo;anime Getting Shots on a Frying Pan sortira en janvier 2027, Premier Teaser 12 Nov, 2026 14:38 Quentin Holveck Annoncé pour la première fois au début de l&rsquo;été dernier, l&rsquo;anime Getting Shots on a Frying Pan (Nabe ni Tama wo Ukenagara) précise aujourd&rsquo;hui sa diffusion pour le mois de janvier 2027 au Japon. En parallèle, une première bande-annonce a également été mise en ligne. C&rsquo;est le studio J.C. STAFF qui produit l&rsquo;animation. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Bande-annonce de l'anime Getting Shots on a Frying Pan Du côté du casting, Shu Uchida prête sa voix au protagoniste Juntaro dans sa forme féminine, tandis que ",
+      "score": 85,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 13,
+      "reasons": []
+    },
+    {
+      "id": "126adf4280b312a1b7b1",
+      "title": "Supporting Cast Pair for 'Shin Oishinbo' Announced",
+      "url": "https://myanimelist.net/news/74931275?_location=rss",
+      "publishedAt": "2026-11-12T10:32:45.000Z",
+      "publisher": "MyAnimeList News",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "summaryLength": 1200,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74931275?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "The official website for the television anime adaptation of Tetsu Kariya's Oishinbo manga, titled Shin Oishinbo, announced a supporting pair of cast on Thursday. The anime is scheduled to premiere in 2027. Voice actors Kenji Yamauchi (Toujima Tanzaburou wa Kamen Rider ni Naritai) and Ken Uo (Nazotoki wa Dinner no Ato de) are joining the anime as Mantarou Kyougoku and Toujin Touyama, respectively. Kenichi Nishida (Sayounara Ryuusei, Konnichiwa Jinsei) is directing the anime at SynergySP and Vega Entertainment. Takahiro Nagano (Tensei shitara Ken deshita) is handling the series composition, while Nozomi Kawashige (Deatte 5-byou de Battle) is designing the characters. Kariya began writing Oishinbo in Shogakukan's Big Comic Spirits magazine in 1983, featuring art by Akira Hanasaki. Shogakukan published the 111th and latest volume in December 2014. The manga has been on hiatus since May 2014.",
+      "score": 85,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 17,
+      "reasons": []
+    },
+    {
+      "id": "89d128021464090bb535",
+      "title": "Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process",
+      "url": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+      "publishedAt": "2026-11-12T09:43:11.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Interview Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 As one of the most outstanding romance stories in recent years, Blue Box highlights the inner worlds and unique sensibilities of its whole cast of characters. The story combines the romantic pursuits of the protagonists, Taiki and Chinatsu, with the passion of spokon , and the adventure of growing up from adolescence. While the Blue Box manga officially ended on July 13 , we can still follow our favorite characters in the anime adaptation currently airing. Blue Box Season 2 explores new sides of the cast and introduces the long awaited Yumeka Goto, a person from Chinatsu’s past. That’s why we were excited to interview Season 2 director Daisuke Sako about Yumeka, the themes explored during the season, and his takes ",
+      "score": 85,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 17,
+      "reasons": []
+    },
+    {
+      "id": "122a32f271676df5ab5a",
+      "title": "'Nabe ni Tama wo Ukenagara' Reveals Main Cast, Staff, Teaser Promo, Winter 2027 Premiere",
+      "url": "https://myanimelist.net/news/74931133?_location=rss",
+      "publishedAt": "2026-11-12T09:32:05.000Z",
+      "publisher": "MyAnimeList News",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "summaryLength": 1309,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74931133?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Production company Asmik Ace opened an official website for a television anime adaptation of Juntarou Aoki and Shin Moriyama's Nabe ni Tama wo Ukenagara (Getting Shots on Frying Pan) manga on Thursday, revealing the main cast, staff, and a teaser promotional video. Produced by J.C.Staff, the anime is scheduled to premiere on Nippon TV, Yomiuri TV, BS Nippon TV, and AT-X in January 2027. Voice actors Shuu Uchida (Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu) and Masaaki Mizunaka (Nyaight of the Living Cat) are voicing the beautiful girl and male versions of Juntarou Aoki, respectively. Staff Director: Masahiro Hiraoka (Kabushikigaisha Magi-Lumière) Series Composition, Script: Susumu Yamakawa (Maiko-san Chi no Makanai-san) Character Design, Chief Animation Director: Natsuki Ooyama (Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)) Music: Yoshihide Ootomo (Inu-Ou) Sound Director: Yos",
+      "score": 85,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 18,
+      "reasons": []
+    },
+    {
+      "id": "f02bb917f2dc6772b5ce",
+      "title": "Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy's Relationship, and Roman's Personal Inspirations",
+      "url": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+      "publishedAt": "2026-11-12T00:28:31.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/roundtable-bartosz-sztybor-on-potential-edgerunners-season-3-retelling-david-and-lucys-relationship-and-romans-personal-inspirations/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Interview Roundtable: Bartosz Sztybor on Potential Edgerunners Season 3, Retelling David and Lucy’s Relationship, and Roman’s Personal Inspirations Written by Jorge Manuel Sanchez Moreno Cardenas November 12, 2026 Following the CYBERPUNK: EDGERUNNERS 2 panel at Lucca Comics & Games, we sat down with showrunner Bartosz Sztybor to talk even deeper about Season 2 and its connection to other elements of the franchise. We talked about the creation process with Studio TRIGGER, how he deals with Cyberpunk ‘s lore, and his insight into Roman, D, Capri, and other characters. Bartosz, who also writes the manga Cyberpunk: Edgerunners MADNESS with illustrator Asano, also commented on the connections between the different Cyberpunk media. Just as in our previous interview about Season 1 , we had a great time talking with Sztybor about the reasoning behind his writing decisions. With his particular hu",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 27,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "0d197a3e05f25c0f90dd",
+      "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+      "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+      "publishedAt": "2026-11-11T20:50:02.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Events Press Conference Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2’s Emotional Impact Written by Jorge Manuel Sanchez Moreno Cardenas November 11, 2026 CYBERPUNK: EDGERUNNERS 2 left no one indifferent after the worldwide release of the ten-episode season on October 20. The latest installment is a new story in the noir world of Night City after the events of Season 1, with a whole new set of characters and ideas on the table brought to life again by Studio TRIGGER and CD PROJEKT RED (CDPR). Following the premiere, Season 2’s showrunner Bartosz Sztybor and executive producer Saya Elder from CDPR flew to the Italian festival Lucca Comics & Games and took part in a special panel on the third day of the convention, October 30, in Cinema Astra. Under the name “Emotional Damage: How Cyberpunk: Edgerunners 2 Makes You Feel,” both guests spoke with journalist Eva Carducci about th",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 30,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "5fb2f02c6572db2486d4",
+      "title": "Performers announced for matsuri ’26: Japanese Music Experience LONDON",
+      "url": "https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/",
+      "publishedAt": "2026-11-11T19:00:25.000Z",
+      "publisher": "Anime UK News",
+      "sourceNames": [
+        "Anime UK News"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animeuknews.net",
+        "checkedUrl": "https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Fans of anime and Japanese music are in for a treat this December, as the Music Way Project brings three much-loved live acts to London for a one-off triple headliner event called matsuri ’26: Japanese Music Experience LONDON . British fans can look forward to a fantastic evening show from hitsujibungaku, Kyary Pamyu Pamyu and Otoboke Beaver! The Music Way Project is a collaboration between the Culture and Entertainment Industry Promotion Association (CEIPA) and the Toyota Group, with an aim of bringing Japanese music overseas. After successful shows in the US and Thailand, the project is now coming to Europe for the first time with a one-off performance in London’s Outernet Live on Monday 14th December 2026. matsuri ’26 will take place at the Outernet Live, on the first floor of the Outernet building near Tottenham Court Road station in central London (WC2H 8LH). The show is scheduled t",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 32,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "85cf52cd8059bb581e19",
+      "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+      "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+      "publishedAt": "2026-11-11T18:21:03.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Anime News News Seasonal Previews Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula Written by Marko Jovanovic November 11, 2026 Black Clover Season 2 has released preview images and synopsis for Episode 7 (Episode 177 overall) ahead of its November 14 premiere. The new season officially began on October 3, 2026 , with Crunchyroll streaming it worldwide. The anime previously revealed a special Valkyrie Dress Noelle following Episode 6. The official Episode 7 “Beyond Never Giving Up” synopsis: Noelle and the others are unable to use their magic freely due to the Curse-Warding Magic of the highest-ranking devil, Megicula. Even Gaja’s life-risking suicide attack is blocked, leaving them in a desperate situation with no way out. Just then, Asta and Luck arrive. They prevent the worst from happening and launch a renewed offensive against Megicula. As an intense battle r",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 33,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "368f8ec7e3889ea87b47",
+      "title": "Exclusive Preview: Ram V Launches Mirror Maker Studios Ahead of Deicidium Volume 1 Release",
+      "url": "https://animecorner.me/exclusive-preview-ram-v-launches-mirror-maker-studios-ahead-of-deicidium-volume-1-release/",
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/exclusive-preview-ram-v-launches-mirror-maker-studios-ahead-of-deicidium-volume-1-release/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "News Exclusive Preview: Ram V Launches Mirror Maker Studios Ahead of Deicidium Volume 1 Release Written by Anime Corner November 11, 2026 Eisner Award-winning writer Ram V has launched Mirror Maker Studios, a new creative studio and ideas incubator built around projects developed by Ram V and his collaborators. The launch is accompanied by a new Mirror Maker YouTube channel focused on the creative process behind comics, writing, animation, games, and other narrative work. The channel will feature creator discussions, process-focused videos, and behind-the-scenes material from ongoing projects. Mirror Maker also plans to begin publishing episodic narrative fiction through the channel in 2027. Ram V commented: “I believe that the ability to create things and make art is one of humanity’s most beautiful aspects; worth valuing and encouraging,” said Ram V. “At a time when companies seem to w",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 34,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "eea32710e7c94afe0f8d",
+      "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+      "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+      "publishedAt": "2026-11-11T16:08:52.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1599,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Anime News News SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES Written by Marko Jovanovic November 11, 2026 SSS-Class Revival Hunter anime has released a new trailer featuring additional footage and a preview of its ending theme song “Fading” performed by THE SPELLBOUND × BOOM BOOM SATELLITES. The anime was previously announced for January 2027, with Crunchyroll set to stream it. THE SPELLBOUND x BOOM BOOM SATELLITES commented on the ending theme: “With the opening guitar riff, we wanted to capture the exhilarating feeling of breaking through even a predetermined fate. Through the melody and upbeat electronic sound, we wanted to express the refreshing sensation of continuing to rise. We poured into this song the energetic impulse of continuing to change both yourself and the world the more you live. We hope it can boost the world ",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 35,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "c3cc082d5156d2e49da7",
+      "title": "[Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3)",
+      "url": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "publisher": "Journal du Japon",
+      "sourceNames": [
+        "Journal du Japon"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "www.journaldujapon.com",
+        "checkedUrl": "https://www.journaldujapon.com/2026/11/11/interview-le-chateau-de-cagliostro-analyse-du-film-par-jean-christophe-perrier-2-3/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Interview et portraits Japanime / Interviews et portraits Cinéma 0 [Interview] Le Chateau de Cagliostro : analyse du film par Jean-Christophe Perrier (2/3) par Marie jenck &middot; Publié 11 novembre 2026 &middot; Mis à jour 11 novembre 2026 Après avoir contextualisé le rapport de Jean-Christophe Perrier avec le premier long-métrage de Hayao Miyazaki et la promotion de ce film d&rsquo;animation en Normandie, nous allons étudier en détail le travail du réalisateur sur ce long-métrage à l&rsquo;époque où son nom commençait progressivement à se faire connaître. Nous allons aussi comprendre son sévère soucis du détail partagé avec Yasuo Otsuka, les différences entre ce Lupin édulcoré et celui bien plus vicieux du manga d&rsquo;origine, en plus du rapport des enfants à l&rsquo;animation. Une analyse qui vous plongera dans le contexte des années 70. Résumé du film : Lupin III , nommé dans le f",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 35,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "4d1c7a18603a87f279d2",
+      "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+      "url": "https://myanimelist.net/news/74928431?_location=rss",
+      "publishedAt": "2026-11-11T14:46:50.000Z",
+      "publisher": "MyAnimeList News",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "summaryLength": 1393,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74928431?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "The official website of the Mashle (Mashle: Magic and Muscles) television anime revealed additional cast pair, a key visual and a promotional video for its third season on Wednesday. The new season is scheduled to premiere on January 10 at 12.00 a.m. on Tokyo MX, BS11, Gunma TV and Tochigi TV, followed by Mainichi Broadcasting, Shizuoka Broadcasting, FBS Fukoka, Chukyo TV, Nagano Asahi, Okayama, Miyagi TV, Sapporo TV, Television Niigata and Chugoku. Voice actors Souma Saitou (Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e) and Ryouta Suzuki (Sakamoto Days) are joining the cast as Domina Blowlive and Lévis Rosequartz, respectively. Tomoya Tanaka (Engage Kiss) returns to direct the third season at A-1 Pictures. Yousuke Kuroda (Boku no Hero Academia) is handling series composition and penning the script. Chiaki Furuzumi (Ore dake Level Up na Ken sub-character design) is designing the chara",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 36,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "faa9582f2ad9a2bd22df",
+      "title": "Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo's Involvement, Customization, and Future Updates",
+      "url": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
+      "publishedAt": "2026-11-11T14:27:30.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animecorner.me",
+        "checkedUrl": "https://animecorner.me/interview-bleach-mirrors-high-producers-talk-original-story-tite-kubos-involvement-customization-and-future-updates/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "News Gaming News Interview Interview: BLEACH Mirrors High Producers Talk Original Story, Tite Kubo’s Involvement, Customization, and Future Updates Written by Marko Jovanovic November 11, 2026 BLEACH Mirrors High has brought a new experience to the iconic franchise, allowing players to step into the world of BLEACH as their own Soul Reaper. Featuring an original story set after the events of BLEACH: Thousand-Year Blood War , the mobile game launched on October 28 featuring new characters designed by series creator Tite Kubo, customizable Zanpakuto, and a card-based action battle system. With worldwide pre-registrations surpassing 1 million, we had the opportunity to speak with the game’s producers about its development, Tite Kubo’s involvement, feedback from the Closed Beta Test, and what players can expect at launch and beyond. Read on for the full interview, which was conducted shortly",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 37,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "23bee78552f20aa223ee",
+      "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
+      "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+      "publishedAt": "2026-11-11T11:30:16.000Z",
+      "publisher": "AnimOtaku",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "animotaku.fr",
+        "checkedUrl": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Facebook Twitter Instagram Accueil » Actualité » MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos Facebook Twitter Reddit WhatsApp Telegram MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos 11 Nov, 2026 12:30 Quentin Holveck La date de sortie de l&rsquo;anime MASHLE saison 3 (MASHLE: MAGIC AND MUSCLES – The Tri-Magicathlon Divine Visionary Final Exam) a été officiellement fixée au 9 janvier 2027 . Comme les deux saisons précédentes, cette suite sera diffusée en France en simulcast sur Crunchyroll. En parallèle, un premier trailer principal et un nouveau visuel promotionnel ont été dévoilés sur le site officiel de la série. Visuel clé Cette troisième saison poursuivra l&rsquo;adaptation du manga de Hajime Komoto à partir de son dixième volume et couvrira notamment l&rsquo;arc du Tri-Magicathlon , l&rsquo;examen final pour devenir Élu divin, qui réuni",
+      "score": 80,
+      "decision": "surveillance",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 40,
+      "reasons": [
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "8ee154d809959cf9c324",
+      "title": "Mushoku Tensei: Jobless Reincarnation Volumes 4-6 Light Novel Review",
+      "url": "https://www.animenewsnetwork.com/review/mushoku-tensei/jobless-reincarnation-volumes-4-6/light-novel/.242823",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 171,
+      "sourceVerification": null,
+      "summary": "These volumes really flesh out Mushoku Tensei's expansive world, introducing a fascinating cast of varied new characters and building on already established relationships.",
+      "score": 43,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 10,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "caa5ca3faa63349f9d96",
+      "title": "Lockdown Life with the Class Beauty Volume 1 Review",
+      "url": "https://animeuknews.net/2026/11/lockdown-life-with-the-class-beauty-volume-1-review/",
+      "publishedAt": "2026-11-12T10:00:26.000Z",
+      "publisher": "Anime UK News",
+      "sourceNames": [
+        "Anime UK News"
+      ],
+      "summaryLength": 208,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://animeuknews.net/2026/11/lockdown-life-with-the-class-beauty-volume-1-review/"
+      },
+      "summary": "Kicked out of his dorm during a pandemic, Kanata finds himself with nowhere to stay. That is, until he helps the technologically challenged Haruka, who invites him to stay with her in exchange for his help...",
+      "score": 40,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "b141176f59700ae38753",
+      "title": "STEEL BALL RUN JoJo's Bizarre Adventure Anime's 'Special Video' Highlights Stands",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-09/steel-ball-run-jojo-bizarre-adventure-anime-special-video-highlights-stands/.243670",
+      "publishedAt": "2026-11-11T12:10:51.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network",
+        "Anime Corner"
+      ],
+      "summaryLength": 138,
+      "sourceVerification": null,
+      "summary": "STEEL BALL RUN JoJo's Bizarre Adventure has released a new Stand special video featuring previously unseen footage from the ongoing anime.",
+      "score": 40,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 2,
+      "verifiedOriginal": false,
+      "freshnessHours": 39,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "d654be900ff1989f99cd",
+      "title": "Teto Kasane Comes to Fortnite Festival",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754",
+      "publishedAt": "2026-11-13T03:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 73,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754"
+      },
+      "summary": "And will appear in Fortnite Battle Royale with Vocaloid idol Hatsune Miku",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 0,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "17fef6b376112218d1fe",
+      "title": "Blue Rights Company Unveils Pilot Film for Orochi -Seventh Echoes- Original Animated Feature",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748",
+      "publishedAt": "2026-11-13T01:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 88,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748"
+      },
+      "summary": "Akira film animation director Takashi Nakamura helms film, credited for original concept",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 2,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "18020437399efcc7f1bc",
+      "title": "Director Yuta Shimotsu Stirs Up Scares in Strange: Junji Ito's Tales for Sleepless Nights",
+      "url": "https://www.animenewsnetwork.com/interview/2026-11-11/director-yuta-shimotsu-stirs-up-scares-in-strange-junji-ito-tales-for-sleepless-nights/.243599",
+      "publishedAt": "2026-11-11T18:58:10.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 231,
+      "sourceVerification": null,
+      "summary": "Yūta Shimotsu, the man behind the live-action anthology Strange: Junji Ito's Tales for Sleepless Nights , sat down with ANN to discuss his influences, favorite Ito stories, and what it takes to bring Ito's world to horrifying life.",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 32,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "fb3b48204db823b13dd9",
+      "title": "The World's Strongest Witch ‒ Episode 6",
+      "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+      "publishedAt": "2026-11-11T17:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 137,
+      "sourceVerification": null,
+      "summary": "This was a breezy romp that, ironically, improved my Wednesday and that’s about all I need from a show like The World’s Strongest Witch .",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 34,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "54f6cbe7751060f204e9",
+      "title": "Akane-banashi Volumes 7-9 Manga Review",
+      "url": "https://www.animenewsnetwork.com/review/akane-banashi-volumes-7-9-manga/.242538",
+      "publishedAt": "2026-11-11T17:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 167,
+      "sourceVerification": null,
+      "summary": "As her professional debut continues, Akane tries to clinch a win at the Four Person Selection Event held by Ikken Arakawa, but can Akane move past her father’s shadow?",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 34,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "6b618647e05e48c7fdd6",
+      "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+      "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+      "publishedAt": "2026-11-11T16:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 175,
+      "sourceVerification": null,
+      "summary": "I think it's hilarious that Hisako, Komaro, and Arisu all go to the bathroom at the same time and each find themselves stuck in their stalls for uniquely embarrassing reasons.",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 35,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "3c5ce38bba5f6b9127fb",
+      "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
+      "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
+      "publishedAt": "2026-11-11T15:31:35.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 179,
+      "sourceVerification": null,
+      "summary": "Nia Liston ’s extremely specific charm still manages to shine through in even a quieter episode, and I’m confident what this episode sets up will be a return to form for the show.",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 36,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "2b8f4ce15f33d96807bf",
+      "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+      "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+      "publishedAt": "2026-11-11T13:32:50.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 133,
+      "sourceVerification": null,
+      "summary": "Black Clover Season 2 revealed its second “Most Fearsome Battle Visual,” this time featuring Noelle Silva in her Valkyrie Dress form.",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 38,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "7b26d0fa36441f140781",
+      "title": "Sega Streams Sonic the Hedgehog: Memories and Beyond Short Animated Film on YouTube",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/sega-streams-sonic-the-hedgehog-memories-and-beyond-short-animated-film-on-youtube/.243768",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 89,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/sega-streams-sonic-the-hedgehog-memories-and-beyond-short-animated-film-on-youtube/.243768"
+      },
+      "summary": "Short commemorating franchise's 35th anniversary features Sonic & friends vs. Metal Sonic",
+      "score": 33,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 7,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "119a6fd254f77755a5ae",
+      "title": "Professor Layton and The New World of Steam Game Reveals English Dub, Cast",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/professor-layton-and-the-new-world-of-steam-game-reveals-english-dub-cast/.243767",
+      "publishedAt": "2026-11-12T18:30:41.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 85,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/professor-layton-and-the-new-world-of-steam-game-reveals-english-dub-cast/.243767"
+      },
+      "summary": "Christopher Robin Miller, Lani Minella return as Professor Layton, Luke, respectively",
+      "score": 33,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 9,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "feb21d7fc8964f0e4854",
+      "title": "Disney to Premiere Lilas Dreams & Memories Documentary About YOASOBI's Lilas Ikuta on December 30",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/disney-to-premiere-lilas-dreams-and-memories-documentary-about-yoasobi-lilas-ikuta-on-december-30/.243764",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 96,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/disney-to-premiere-lilas-dreams-and-memories-documentary-about-yoasobi-lilas-ikuta-on-december-30/.243764"
+      },
+      "summary": "2-part documentary about ikura's experience with High School Musical streams/airs on December 30",
+      "score": 33,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 9,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "71f396838b55955df86c",
+      "title": "Fatal Fury City of the Wolves Game Adds Fatal Fury: The Motion Picture's Laocorn on November 19",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765",
+      "publishedAt": "2026-11-12T16:31:15.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 69,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/fatal-fury-city-of-the-wolves-game-adds-fatal-fury-the-motion-picture-laocorn-on-november-19/.243765"
+      },
+      "summary": "Laocorn trailer, Fatal Fury: The Motion Picture digest movie streamed",
+      "score": 33,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "3eca43eec58f1885d14b",
+      "title": "Shin Oishinbo TV Anime Casts Kenji Yamauchi, Ken Uo",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762",
+      "publishedAt": "2026-11-12T15:45:34.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 60,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/shin-oishinbo-tv-anime-casts-kenji-yamauchi-ken-uo/.243762"
+      },
+      "summary": "Series casts Yamauchi as Mantarō Kyōgoku, Uo as Tōjin Tōyama",
+      "score": 33,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "0080d867306168ba8a64",
+      "title": "Dana Terrace Shares Anime's Influence on Knights of Guinevere",
+      "url": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 102,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/feature/2026-11-12/dana-terrace-shares-anime-influence-on-knights-of-guinevere/.243173"
+      },
+      "summary": "The Amazing Digital Circus, Knights of Guinevere studio Glitch Productions discuss SAG-AFTRA Agreement",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 12,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "bdc07fca366d717b8592",
+      "title": "This Week in Anime - Roll the Dice",
+      "url": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 62,
+      "sourceVerification": null,
+      "summary": "Lucas and Chris tackle the next great vice in anime: gambling!",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 12,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "988f2edba5041856766d",
+      "title": "Kakao Piccoma Launches New 'Lulumiru' BL Webtoon Platform",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/kakao-piccoma-launches-new-lulumiru-bl-webtoon-platform/.243759",
+      "publishedAt": "2026-11-12T14:15:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 58,
+      "sourceVerification": null,
+      "summary": "New service available in Japan only launched on November 5",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 13,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "035a124ea4dd3fd989e5",
+      "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
+      "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
+      "publishedAt": "2026-11-12T12:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 113,
+      "sourceVerification": null,
+      "summary": "Hopefully this black-clad wielder of a massive sword isn't stuck on the ship for as long as Guts was in Berserk .",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 15,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "5ce9e873cd9929c717b9",
+      "title": "Romancing SaGa 3: Destinies United Game Announces New, Earlier February 4 Release Date",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/romancing-saga-3-destinies-united-game-announces-new-earlier-february-4-release-date/.243758",
+      "publishedAt": "2026-11-12T12:15:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 94,
+      "sourceVerification": null,
+      "summary": "Game first announced for February 16 release for Switch, Switch 2, PS5, Xbox Series X|S, Steam",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 15,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "783a02af8e442ab6b74d",
+      "title": "Nabe ni Tama wo Ukenagara TV Anime Reveals Main Cast, Staff, January Debut",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/nabe-ni-tama-wo-ukenagara-tv-anime-reveals-main-cast-staff-january-debut/.243753",
+      "publishedAt": "2026-11-12T10:17:34.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 66,
+      "sourceVerification": null,
+      "summary": "Shū Uchida, Masaaki Mizunaka both voice Juntarō in J.C.STAFF anime",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "89f8e0d91d90bdcd8860",
+      "title": "Live-Action Wandance Film's New Video Previews Insert Song by mabanua",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/live-action-wandance-film-new-video-previews-insert-song-by-mabanua/.243751",
+      "publishedAt": "2026-11-12T09:36:18.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 94,
+      "sourceVerification": null,
+      "summary": "mabanua performs \"Step by Step feat. Sagiri Sól, Kenya Fujita\" for film opening on November 27",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "0cc7b2b491a8a2a4c0d8",
+      "title": "Chained Soldier Manga Resumes on December 12",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/chained-soldier-manga-resumes-on-december-12/.243752",
+      "publishedAt": "2026-11-12T09:10:50.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 74,
+      "sourceVerification": null,
+      "summary": "Manga went on hiatus in October after artist Yōhei Takemura's wrist injury",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 18,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "1a9595d626b602cb5849",
+      "title": "Resident Evil Requiem Wins Golden Joystick Awards' Ultimate Game of the Year, Console Game of the Year",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/resident-evil-requiem-wins-golden-joystick-awards-ultimate-game-of-the-year-console-game-of-the-year/.243739",
+      "publishedAt": "2026-11-12T08:30:30.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 68,
+      "sourceVerification": null,
+      "summary": "Onimusha: Way of the Sword , Pragmata , Capcom also take home awards",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 19,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "3f45e8d8961873fb984e",
+      "title": "Viz Media Licenses Kyousuke Motomi's Registry of the Divine Manga",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-12/viz-media-licenses-kyousuke-motomi-registry-of-the-divine-manga/.243741",
+      "publishedAt": "2026-11-12T08:19:35.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 41,
+      "sourceVerification": null,
+      "summary": "Manga debuts on Viz Manga app on Thursday",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 19,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "b8444a024aca4798bcc6",
+      "title": "Rei Mikamoto Ends Blood Friend Manga in December",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/rei-mikamoto-ends-blood-friend-manga-in-december/.243738",
+      "publishedAt": "2026-11-12T03:52:30.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 31,
+      "sourceVerification": null,
+      "summary": "Series debuted in December 2025",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 23,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "ec3f0affa69c59e9d8ed",
+      "title": "Duel Masters GT Manga's Part 3 Ends",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/duel-masters-gt-manga-part-3-ends/.243737",
+      "publishedAt": "2026-11-12T03:43:38.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 30,
+      "sourceVerification": null,
+      "summary": "3rd part launched on August 12",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 23,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "809bd7ec50aee02d6167",
+      "title": "Tsugumi Project Anime Reveals January 2027 Premiere",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/tsugumi-project-anime-reveals-january-2027-premiere/.243744",
+      "publishedAt": "2026-11-12T03:38:17.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 24,
+      "sourceVerification": null,
+      "summary": "New visual also unveiled",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 23,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "3c018ae2653a014ed456",
+      "title": "The Seven Knights of the Marronnier Kingdom Anime Casts Yūsuke Kobayashi",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-seven-knights-of-the-marronnier-kingdom-anime-casts-yusuke-kobayashi/.243743",
+      "publishedAt": "2026-11-12T03:34:25.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 63,
+      "sourceVerification": null,
+      "summary": "Yūsuke plays \"mysterious boy\" debuting in episode 7 on Saturday",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 24,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "fe2a1301d1717f390601",
+      "title": "Welsh & Shedar Anime Launches Webtoon",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+      "publishedAt": "2026-11-12T03:10:20.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 44,
+      "sourceVerification": null,
+      "summary": "12-episode webtoon features multiple artists",
+      "score": 30,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 24,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "393c1036d3378e0778ee",
+      "title": "Kirby Rides the Dragoon in New Chogokin Figure",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-11/kirby-rides-the-dragoon-in-new-chogokin-figure/.243742",
+      "publishedAt": "2026-11-12T03:03:33.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 23,
+      "sourceVerification": null,
+      "summary": "Figure arrives next May",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 24,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "9ea15d67c55a7192c336",
+      "title": "Godzilla Minus Zero Film Opens at #1 in Japan, Grotesqqque Anime Film at #8",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/godzilla-minus-zero-film-opens-at-no.1-in-japan-grotesqqque-anime-film-at-no.8/.243685",
+      "publishedAt": "2026-11-11T22:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 51,
+      "sourceVerification": null,
+      "summary": "Live-action Nanji, Hoshi no Gotoku film drops to #3",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 29,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "c36ad5c18561e4d88f35",
+      "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+      "publishedAt": "2026-11-11T21:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 76,
+      "sourceVerification": null,
+      "summary": "Dengeki Daisy , Fate Rewinder , more anime screen at event in Fort Worth, TX",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 30,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "913581ff600dd3591661",
+      "title": "Gundam Seed Freedom Zero Prequel Anime Film Gets Novel",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/gundam-seed-freedom-zero-prequel-anime-film-gets-novel/.243714",
+      "publishedAt": "2026-11-11T21:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 85,
+      "sourceVerification": null,
+      "summary": "Gundam Seed FREEDOM film writer Liu Goto pens new novel slated for January 19 release",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 30,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "27dd98ec22f905142331",
+      "title": "Newsflash: Women Like Sexy Manga, Too!",
+      "url": "https://www.animenewsnetwork.com/feature/2026-11-11/newsflash-women-like-sexy-manga-too/.243259",
+      "publishedAt": "2026-11-11T20:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 92,
+      "sourceVerification": null,
+      "summary": "Rebecca Silverman discusses \"TL\", the by-women-for-women genre of smoldering romance comics.",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 31,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "7402a92f5ca6d7cb985b",
+      "title": "Final Fantasy XIV Game Band The Primals' Bassist Eikichi Iwai Dies",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/final-fantasy-xiv-game-band-the-primals-bassist-eikichi-iwai-dies/.243729",
+      "publishedAt": "2026-11-11T19:35:02.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 96,
+      "sourceVerification": null,
+      "summary": "Iwai had just performed concert with MMORPG's official rock band at event in Tokyo on November 1",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 32,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "c0de47d3c84d45675255",
+      "title": "Crunchyroll to Stream Medaka Kuroiwa is Impervious to My Charms 2nd Season Anime",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-to-stream-medaka-kuroiwa-is-impervious-to-my-charms-2nd-season-anime/.243730",
+      "publishedAt": "2026-11-11T17:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 101,
+      "sourceVerification": null,
+      "summary": "Anime Frontier to host premiere screening on December 6 alongside Shangri-La Frontier , Fate Rewinder",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 34,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "4b9ea639a65c023e1931",
+      "title": "Falcom Reveals Sequel for The Legend of Heroes: Trails beyond the Horizon Game",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/falcom-reveals-sequel-for-the-legend-of-heroes-trails-beyond-the-horizon-game/.243725",
+      "publishedAt": "2026-11-11T17:06:22.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 43,
+      "sourceVerification": null,
+      "summary": "Sequel slated for release by September 2027",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 34,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "7b5c76bfa1d3d314b5f7",
+      "title": "PlayStation 5 Reaches Over 100 Million Shipments",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/playstation-5-reaches-over-100-million-shipments/.243724",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 58,
+      "sourceVerification": null,
+      "summary": "PS5 had shipped over 97.9 million units as of September 30",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 35,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "daf73bca15aa5e366312",
+      "title": "The Legend of Zelda: Ocarina of Time Remake Sells Over 5.2 Million Units to Become Nintendo's Fastest-Selling Switch 2 Game",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/the-legend-of-zelda-ocarina-of-time-remake-sells-over-5.2-million-units-to-become-nintendo-fastest-/.243722",
+      "publishedAt": "2026-11-11T15:33:40.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 105,
+      "sourceVerification": null,
+      "summary": "Remake surpasses previously reported lifetime sales of 2nd bestselling Switch 2 title Donkey Kong Bananza",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 36,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "3cd9623157b6efaa7d75",
+      "title": "CyberAgent Announces Business Alliance With Animation Studio MAPPA",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/cyberagent-announces-business-alliance-with-animation-studio-mappa/.243717",
+      "publishedAt": "2026-11-11T15:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 63,
+      "sourceVerification": null,
+      "summary": "CyberAgent has acquired stake in MAPPA's parent company MHD Co.",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 36,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "99680deade85e0f3865c",
+      "title": "Elden Ring: Distant Tales Between Manga Ends in Next Chapter",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/elden-ring-distant-tales-between-manga-ends-in-next-chapter/.243710",
+      "publishedAt": "2026-11-11T13:59:04.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 75,
+      "sourceVerification": null,
+      "summary": "Final chapter's date to be determined for manga which launched in July 2024",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 37,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "e0a0dc8e1ac4a6f739e2",
+      "title": "Sayaka Mogi's Happy Hypoxia Manga Ends",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/sayaka-mogi-happy-hypoxia-manga-ends/.243705",
+      "publishedAt": "2026-11-11T13:53:15.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 27,
+      "sourceVerification": null,
+      "summary": "Manga launched in June 2025",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 37,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "793b83ce133c2f0f3fd2",
+      "title": "Unbreakable ~Yaburezaru Monotachi~ Manga Resumes With Final Arc Next Spring",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/unbreakable-~yaburezaru-monotachi~-manga-resumes-with-final-arc-next-spring/.243703",
+      "publishedAt": "2026-11-11T13:50:09.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 60,
+      "sourceVerification": null,
+      "summary": "Adaptation moves from Young Champion magazine to Yanchan Web",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 37,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "a32f1bedf1225112b87a",
+      "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+      "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+      "publishedAt": "2026-11-11T13:35:28.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 34,
+      "sourceVerification": null,
+      "summary": "Sōma Saitō, Ryōta Suzuki join cast",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 37,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "4c8d9061aa62d2943199",
+      "title": "Ranma ½ Season 3 ‒ Episode 6",
+      "url": "https://www.animenewsnetwork.com/review/ranma-season-3/episode-6/.243706",
+      "publishedAt": "2026-11-11T13:30:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 119,
+      "sourceVerification": null,
+      "summary": "Kodachi’s a highly motivated femme fatale who’s not above blackmailing the one she loves to get exactly what she wants.",
+      "score": 25,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 38,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "71fdea39837aa9fb43bf",
+      "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "publisher": "Serieously",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 168,
+      "sourceVerification": null,
+      "summary": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? Serieously",
+      "score": 20,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 14,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "a3e62a222441fc0110c7",
+      "title": "Comments | #038 | The Hero’s Bereaved Family - Maki Kanemaki - MANGA Plus by SHUEISHA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1waDJmZUJPUHVOSjNHXzZUdHBfalJmUk4xMHctTmdwMUlyTmhmTElKM2ZUOVhFTkNvY2lobGFpbzNfNHY4aHlYMllia0dFUkhBM2xId19SNk9VV1JtNWc?oc=5",
+      "publishedAt": "2026-11-13T00:47:42.000Z",
+      "publisher": "MANGA Plus by SHUEISHA",
+      "sourceNames": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "summaryLength": 83,
+      "sourceVerification": null,
+      "summary": "Comments | #038 | The Hero’s Bereaved Family - Maki Kanemaki MANGA Plus by SHUEISHA",
+      "score": 15,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 2,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "19d719a8a2297963f687",
+      "title": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVZGQW9qc194ekhHS2RxLURzLVROZEpXb1JKQ1lUR044bS1vSnM5ajNLT0pHVHcxejU1MU1hNTJfdlMwYk91eWMwbjA3WGxKSlZDNmJDa2wwbWdkOWdhSkJFOEhaRlMzRHBZY0hUR1VfVHpWbnJzaTlxV012ZDh3UlpWcVl4d3ZFNXhoYS10WkpFamJhQ2FGQzBIMlZzLWFVM1RtdlRBMENUVXROYlBqdWZxVHZyWkItU3llTnJjc2FQdVRLQjZ0SkxqWkFiUnI5MVlMYTlpbm5uVW84M0JEYTNfT3VkRHQtUU1uQWxrbTNoa1Nuc25CUW90aGFYOWJZamNtYjZtWUEzc09LZzVOOG9uMzBRcmhmNzlV?oc=5",
+      "publishedAt": "2026-11-11T18:30:08.000Z",
+      "publisher": "Le Monde.fr",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 145,
+      "sourceVerification": null,
+      "summary": "Yuki Kodama, autrice du manga « Kids on the Slope », aime « faire en sorte que les personnages opposés s’attirent et se rapprochent » Le Monde.fr",
+      "score": 15,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 33,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "52a534e342c6bf0fc33c",
+      "title": "Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTmVSZXFEdHBGNWJHMk80cV9uUGxjcFowckVuQWp5aVBkWDF5YWkwWXk4X1F2U0lpUVVXSHN3ZS1sUXZ1WnlQUGMwQ2RDWWRqMzZEbjI3cVJLdmJkSlkzTGRxMG5TdEpZTkF1VFlvWkJPNjl1Vk9GQ3l0R3VVWTAwMDBOMFViU1EzVUZCVFdUOE9TbnVqRVZ3ODR6RW1WX0pxT05DSHdKZl92ODloUUN1emt1bVJnUENoZFIyZjQ5UWtDWUNLN2lhcGl5T0p6SERnRk8yLUE5Ql9qbXVUcFl2MkJ5dW02TlhCU2lIZUV3eHg0Q1FHbC12VXZHWi16MXVGcHp3eWE2bzE?oc=5",
+      "publishedAt": "2026-11-11T16:12:02.000Z",
+      "publisher": "Ouest-France",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 122,
+      "sourceVerification": null,
+      "summary": "Art to Play 2026 : le festival de la pop culture, du jeu vidéo et du manga est à Nantes les 14 et 15 novembre Ouest-France",
+      "score": 15,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 35,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "bdbbf6f642eed15939e3",
+      "title": "Un atelier initiation au manga, à la bibliothèque de Doix lès Fontaines, le mercredi 18 novembre - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOZnZPWTJ1cWVOZW15SXM2cms4RkZ1bXBUdzNJMG1wYVNIR0FIZGpfV3RuUmtKZkV2ZHI2a2Q3ZERrSm8td3JCa295VHhpQmxZSWxqSkJJa2kxMG5RTUtnS0lSQjdjbWlVSVBOSU5sRVdxa1ZKdVA4UUUyVnMycDB3eHdJYzVUUEZDa2VhM0tEdU1ZOGlJZnB3Y0FVd1hDbURBZWNkOUxQSTR5OWxvblJxVzBmXzU2R2hwWW1NOW9Zc1A1Y0YwVnpWWlpUUVBpUkROcC1HdzRmOUw1YnlXeVJneW9QOElJazdieDRoUGVhbERlTnJIU0pHOHN2TWxkTThZY2RoQzQ3RWFHMWc3RkZpeTM4bExqdTRNbUlqNWVFRE0xM05RVTBfLQ?oc=5",
+      "publishedAt": "2026-11-12T17:51:22.000Z",
+      "publisher": "Ouest-France",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 109,
+      "sourceVerification": null,
+      "summary": "Un atelier initiation au manga, à la bibliothèque de Doix lès Fontaines, le mercredi 18 novembre Ouest-France",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 9,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "68c15c7e35fd6ad171bd",
+      "title": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqYzgyS1dQZ3E3SDlXQURjMnFRMWItSmVVa1llaFFXYUNkWDZaMUk2VnZHVGVURWkyZXlPSEV5dG1UQ2lOcGx5TjgzcnAwNy05S1B5YTBTM2xFQlh3SHN3MHZidHROUHZtVjZBVDZaaDdaQkpkbGpQQzhPaHU3Z3VidExPa3RvbGk1RkZPU2tnempNUTJSNFJDTVlkVVlramtNbHZhRzltNWJXdjR5VE9lS0JBVk1ZUXfSAbgBQVVfeXFMT19xM0EtS2IxeDhtYXdHaEhQMUhVS0VGOEk4YUJnU2VMeTVOWVNiVEZWeUpuX0pqaHZER2VnOFNNSzRDSDU3c1lyUlk2SUdEQjBSRy1xX2hGUm5iU3djYXBXZXlldjRYOGZEUTVKcmhDTW10ZGNEOS1ONGU1U0JBc2VWMUFQN2hCZG4zMGJjRG52VWZGRXpLN2tPMFo4WDVoSjVOOE5sLVdIWWRZYmx5aThXMkxrMTVrUA?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 75,
+      "sourceVerification": null,
+      "summary": "Le manga SennenKimatsu ni Hoeru Koi sortira en France chez Akata Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "45030701f91c2c1fd96c",
+      "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 108,
+      "sourceVerification": null,
+      "summary": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "27dd7ccd7b26aadbbe81",
+      "title": "Anime - Paw & Palaces - Episode #9 - Un Remède d'enfer, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVXlwaGQwZkhmTmdsOUVNaU8tc3JzSndaOFYzSmluVlYxVHE4LVhrUnRZUlZWLVROWU5uOUJHU2dWYU1RaDBaaGZaY016NGotTFdUWDZPLTRhd21hQ1daZ252M2RLQjJ2bkdrM1FGclBOSGxkOGo2dHJRd1gzVmNXbFpMX2hGSE1VUVVrb1JZLVRfY1FSOVh1djVWSUNncVk?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 83,
+      "sourceVerification": null,
+      "summary": "Anime - Paw & Palaces - Episode #9 - Un Remède d'enfer, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "44aaf3be4ba7a06ffd38",
+      "title": "Anime - Dandivine - Episode #6 - La ballade des pantoufles, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSENDQ3NWdzF4RFN5bmNoTktSUU42YThfNUR3UV9GZ0NNODNSUkN1RHNfbFRTZloxYXNiRnRTaVJxSWN6WlNhNGUyZldoYjRDUl9JSEZaTEdCQjJvWTd0QW5UMmg0ZTJ3N3JkaFFYMTd0SVRKaGQyMGV5MG9NOGVkZEZ6WUF5WUNjWUxka3NrOHR2RGQ4T1NRajNzU1Q0ZnktOXNPbTBXaVc?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 87,
+      "sourceVerification": null,
+      "summary": "Anime - Dandivine - Episode #6 - La ballade des pantoufles, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "35f889b2ba65db319b5f",
+      "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 113,
+      "sourceVerification": null,
+      "summary": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "41222af3767169c3be04",
+      "title": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 86,
+      "sourceVerification": null,
+      "summary": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "0c222aa31667402a42a9",
+      "title": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5",
+      "publishedAt": "2026-11-12T16:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 97,
+      "sourceVerification": null,
+      "summary": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 11,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "a3317003ffc657b6cafe",
+      "title": "Zeste de tendresse (Un) : Critiques - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUbUxQOEc0NjVPdXdFQWtkQXJ0SlhlQjJja1V2VXIydW5qLTlfV2ZHTXRXV3cwU2o5ME40ZEkzS015eFRCdzU3dS1Sd3JVM3hYWER6Vk4zQzkzdjNBU0tOdlZRTDdPTDZ5NHVQVnVIZ1JCVGh6NXhZRjBLLVE2dw?oc=5",
+      "publishedAt": "2026-11-12T15:10:28.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 46,
+      "sourceVerification": null,
+      "summary": "Zeste de tendresse (Un) : Critiques Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 12,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "9bb8ffa973a247c4b13d",
+      "title": "Love Bullet Vol.2 : Critiques - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT3lDZWlGV25yM2p3U0hHd2d3TkVxbUVOVE1YOEM5cjVCM0Z5WGRvdDRTWFNXN1J1QXNfdkxpTU1uQUNqamtVUl9EZGJuTVN5VzRQU09HWHR5RzVrR2hFMUw2N2RDLWhHeGNiMXBxV0dEYTVsVXNzaA?oc=5",
+      "publishedAt": "2026-11-12T15:07:58.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 40,
+      "sourceVerification": null,
+      "summary": "Love Bullet Vol.2 : Critiques Manga news",
+      "score": 13,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 12,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "a99daaa9fd5517b5ddb0",
+      "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+      "publishedAt": "2026-11-12T15:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 82,
+      "sourceVerification": null,
+      "summary": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions Manga news",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 12,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "23d5d4da1fd5b1c3a120",
+      "title": "Les sorties manga de la semaine - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT05welZCTjFMS1hUNFVLYmtNSU1VOUl4Y2ZFV2N1NHN1VVpoajBUdFgtQ0JaMzFPdE5WZkxxV1V6TDA1a21EWXROR3dRUGxHSUJIZlVRVWFQS2YwLTRDRENpN1paQVItQUxOVzVWeU5oY042eS14bGN3YktnVzlsZ3VTQ2l0ZTU0QWJBbm930gGMAUFVX3lxTE1ST0VCRF9WdTVUUUI4TnJkbGNNUUtWWDVoZFZpWmNfTWpNOC1BS0NWa2o1S1AwSW42WXh1MEtEdW4yYUFpSldLR3Q2eUxlMUMtTnBwdkgyRG9XMGYyX3cyb1J4Y0JnaHREcGR6Ni1JZ2Y2eFBVZHYzd19PMDN1Skt5R1NMaGk3SUw1RUg2?oc=5",
+      "publishedAt": "2026-11-12T14:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 42,
+      "sourceVerification": null,
+      "summary": "Les sorties manga de la semaine Manga news",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 13,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "249d5a59b90be2d76765",
+      "title": "Les nouveaux tomes de la semaine au Japon, 12 Novembre 2026 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0FvczVqYWFIYWdHdXFlTjlCN1lPTWxyUWdaZzk0WEpFa0hXT3pWMGJQeFloT3hOb3NRdHpmNjJlX3pMQWZVV1NCRVhLMjZpLUMwaXJoaThXcDBzcnNiQ3FaMnlTRDFxS0FScUV5RHNpa3RCb0NEb2R5THQ5QW9oWXRwMEZhWXFieEp2eVpscEhnRGVyck9CWnpWMA?oc=5",
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 70,
+      "sourceVerification": null,
+      "summary": "Les nouveaux tomes de la semaine au Japon, 12 Novembre 2026 Manga news",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 14,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "86a72977089891d1cf45",
+      "title": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) - Chantiers du Cardinal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTERMY3pUMTQ0QnpPUHhwdk5BZ3J6SzF3TS05VkJoV2pGZ3gtZFZobUpwZVhsWFJQY0k2V1ZraEd0clJLYkpoZGhocXk5aTFEOHRoUUY5TkhDemZockltaTdDbV9yR3NrdmpUOWo1VnJ1cDlNeHRydjZPM0M5cVBTbjc2Z3FNcGVpV2pqbW5wNTV1ZDhxaTVv?oc=5",
+      "publishedAt": "2026-11-12T12:00:22.000Z",
+      "publisher": "Chantiers du Cardinal",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 86,
+      "sourceVerification": null,
+      "summary": "Interview du Père Jacques Manga, vicaire de Tous-les-Saints (93) Chantiers du Cardinal",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 15,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "36120c0d88a51136275a",
+      "title": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans - Le Figaro",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY3dfWERSd3J3bFp2YzF3bUVJS2RlcTNoVmp2MC00dnlHVlpvT3NTNmFWQlV5R2xzZnhwLUM4VlBBUkI0WHlxanNrSE0wRVdHcXh0UVVud0VxRHprRV9nUWVqYkZKVG8xNXhWUnpVclJXZFVfaEYyaWJRSVFaT215ak04QjdIM3NYQlFHdjgzbk4wQm42YVhvc2RIaU9fQ2N5SmpDbGJMMUEzSWk5dmoxZTRsMHhBWFVYYXdiMllqOWRXdjg?oc=5",
+      "publishedAt": "2026-11-12T11:49:32.000Z",
+      "publisher": "Le Figaro",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 101,
+      "sourceVerification": null,
+      "summary": "Mort de Frédéric Boilet, défenseur passionné du manga d’auteur en France, à l’âge de 66 ans Le Figaro",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 15,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "ffc2b8169ce8994cbd08",
+      "title": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo - Adala News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcHQ3SVZfS18wY2JXSmFsY2VRT3NaMHBKLWlNSlU5eXZjR3lMM01WNVQ2bDFYazAtSXFrUG9WMXprZFNfengxTlRWc2FPRUlVM2xvWHliel92VlBscnFBRjZlUXRtQng2Qk4yeHFKQnZDS2ZrMUMxM1pqS1BMcFZyUF9faWY5NVVPM2ZQQnRsa1V5WkcwMzBWQ0pB?oc=5",
+      "publishedAt": "2026-11-12T11:19:59.000Z",
+      "publisher": "Adala News",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 76,
+      "sourceVerification": null,
+      "summary": "Le manga Nabe ni Tama wo Ukenagara adapté en anime + Teaser Vidéo Adala News",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 16,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "fc35df59fe3786e6fe47",
+      "title": "Une édition limitée pour Dandadan 24 - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFzN01LVkdUWXdNWkJtbjVob3N4VkRUenl6eWJzLTFXc1k5RFFZZ1lXWkVOYl80b2JCT0NseUZoaUZYZlZ4RUxnX0VCYnZmRFozNk0xY2RPbVlRYkpIRElYT0Z1d3RRWTZPVVlUNFBhUnVLYmJCR2czRmp6R0JTMXI1MkJZa3NkTkJzSjlCLTRsQWNB0gGTAUFVX3lxTE5jS2tDQ1pOZXdEZzFqUnh6YkR3NDhwTE1ZeGd2YXZROGRKZ200d1hvT294TDNZQTlUT29wd0tkWHVORmtybXVKMzJFRHJyWWZhV3BJMzJOQzlLNDYyVEN5amV1SHRReDc5Nl9lbFZaN2xhQmNTY3F2TDMtV0Q4SWVwc3JIbkVkX0RMM0Y0ZW5zU1pOTQ?oc=5",
+      "publishedAt": "2026-11-12T11:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 47,
+      "sourceVerification": null,
+      "summary": "Une édition limitée pour Dandadan 24 Manga news",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 16,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "071e908a8da152590d55",
+      "title": "Nîmes : un photographe de cosplay, fan de manga, jugé pour viols avec soumission chimique - mesinfos",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRWxDNDZmOUgzVHJyWXpzcEpqVkdVN0h6WFVUdWw2U0JvWUNGTUM0QUc2eGJVRV90MFk5RGtNZ3l1OXFfZUpOZnhzbnFtUk5kRTJiNS1GeEZxcTZVSG9MT0JXMDg1dXlrNWFyTnZTRkZHcG13ZTZLaFp2ZTk2Z0tqQlRvTXhDQ0ExU3k5aFhXMk11VXN2RGJkRkJSQ05aZUFhSzFCbTN4S1ZFcC1sTW8zU0d3S2NtZFY3VG5oendvYWpOZ2V0Z3lpdw?oc=5",
+      "publishedAt": "2026-11-12T10:55:00.000Z",
+      "publisher": "mesinfos",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 98,
+      "sourceVerification": null,
+      "summary": "Nîmes : un photographe de cosplay, fan de manga, jugé pour viols avec soumission chimique mesinfos",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 16,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "7b47845646a2578e2144",
+      "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+      "publishedAt": "2026-11-12T10:30:42.000Z",
+      "publisher": "Gaak",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 55,
+      "sourceVerification": null,
+      "summary": "SPIRIT CIRCLE : Le manga va être adapté en anime ! Gaak",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "3fa9a15da24a050f9ee5",
+      "title": "L'agenda du week-end - Que faire du 13 au 15 novembre 2026 ? - Manga news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFRXSlFtd3BfMG1sQVdHTU9IbTRkamNnbDNIdXpJb3M5emtfdHQ5VThfX3FZRzBBNmJ4LWR2MjJaTUV2aDdyOXE5dlFiVGNfdmttdlg0aDFFV0tKTHd6bXlBWkhraWY0QV9ydEVLemE3X0JNSl9RRUtGSERKSlBkdTlNajFYbUFzM3p6Y2FQOW5kakRPc1hOVWtwX2xhOExQMTg2cHkxcWVvU1BzMGc?oc=5",
+      "publishedAt": "2026-11-12T10:00:00.000Z",
+      "publisher": "Manga news",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 71,
+      "sourceVerification": null,
+      "summary": "L'agenda du week-end - Que faire du 13 au 15 novembre 2026 ? Manga news",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "5904772c66e308ede111",
+      "title": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga - ActuaBD",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdmY1dkV0NHBpRHc3M3lhZ1VIUXhJa2Y4QVM3VVVrUWM5b0xwX19ZWEMxc0NpalFGNndFZ3pSalpsM2wzemNueDk2VFE4RFp2cEZpWDVJVjJsSndSOWhySG9wS2d1WmFaQTktVnJpZ05JR2NRejJlUElqbVZhTjJYQnpYY2lKVlR4VFZYQi1NS2ZpTGlUbS1tcUlxd3U?oc=5",
+      "publishedAt": "2026-11-12T09:52:53.000Z",
+      "publisher": "ActuaBD",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 85,
+      "sourceVerification": null,
+      "summary": "Le Chat qui rendait l’homme heureux T.15 - Par Umi Sakurai - Ed. Soleil Manga ActuaBD",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 17,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "55ae94b373a6584160a0",
+      "title": "Décès de Frédéric Boilet, défenseur du manga d’auteur - ToutenBD.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX1g1UExNcG50NVFIVTJfbHBkS1oyaHJtcEhZUDBfZUJOZlVkbDdWV0E0VUJRVE5XV3ZtSWI1OVpFZDJITkZoaWZMT05QTVlEa0stWVEya0xmR205R185Yk41RHdsVWpLZ2JPUGFhTlhBaTI0blZNaUV0cEo0b2NWX3doLUJFVEQ1RzlLWjdqME9fUQ?oc=5",
+      "publishedAt": "2026-11-12T08:56:51.000Z",
+      "publisher": "ToutenBD.com",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 66,
+      "sourceVerification": null,
+      "summary": "Décès de Frédéric Boilet, défenseur du manga d’auteur ToutenBD.com",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 18,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "58771348a1d34e39c76b",
+      "title": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting - Gamekult",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObDVwQ3FXNGNQNUxucWJlaHhLeDF3WVh5Z1RpOU9FdldOa2VCWUFWcnJTWWdXeHU4TU5Ha1FUVW0xTmVuY2Fla2FhcC1wcG1GU1hDZUhYZkVNV002UEhiQmVrTVBLWnJ4bkwtT2hDMl9IX1F0NmI0anV5UjhydDF5cl9EVDIzVDViNlhwSlA3T0cyMlkxcTEybVhuV3BpeVNid0VLMDZSM1IwNDltZFl3VHBYR3ZndVlqN1h2YTJLXzlvcWllM0t5VnNudUh4R0h5ekNRbmR4NDRMYjdwMk9jcGtNVlBLaElP?oc=5",
+      "publishedAt": "2026-11-12T08:51:00.000Z",
+      "publisher": "Gamekult",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 112,
+      "sourceVerification": null,
+      "summary": "Le géant du manga Shueisha annonce Nightmare Operator, un TPS horrifique avec combos de versus fighting Gamekult",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 18,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "fbf8816caf62308cf589",
+      "title": "Le monde du manga orphelin de l’un de ses fervents défenseurs - Le Quotidien Jurassien",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHV3TkJwYWpyRFNZSEFfSHUtb0NoWV8weG4wdzB2U0NrdDR3ZWZZMHdpYTNNTmhaVkNuWkJzVUY4bkIzMFAyOWVwZ3dIOWJxWGNWLTVMOExaWnAyeEQ3RHNwcHBUdjNHdTFMU1J4UXJ2VktnYTBvTlB4QnV0WEtTU0Zkd2dXWGlwWjdwczE0VWtrRTU1Ym9IRmFsZw?oc=5",
+      "publishedAt": "2026-11-12T07:16:42.000Z",
+      "publisher": "Le Quotidien Jurassien",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 84,
+      "sourceVerification": null,
+      "summary": "Le monde du manga orphelin de l’un de ses fervents défenseurs Le Quotidien Jurassien",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 20,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "86324f10058b4807aacb",
+      "title": "Manga : enfin l'âge de raison ? - La Libre.be",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcGgzUi1LOTVqZ01uVnNPTTBMZWNFUWpNZ3lOSHVIVTJ5VldUc2hmbzlxNUxoaTFacW5MNl9Ic2tQUVVKTXkxMUdhS2ZuT2ZKeDBqVTRTSWxPM1l6d2JXajl3N0VqQ3BwLXJ6MWR2Tm5YUk1QTkhBY0dxRFpSTTJsOXVoV1Bjbk01T2l2MVprNUhUYTcwMWpZMDh4TjY?oc=5",
+      "publishedAt": "2026-11-12T05:30:00.000Z",
+      "publisher": "La Libre.be",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 43,
+      "sourceVerification": null,
+      "summary": "Manga : enfin l'âge de raison ? La Libre.be",
+      "score": 10,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 22,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court"
+      ]
+    },
+    {
+      "id": "6c52d7e335ad79d0bbc5",
+      "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
+      "publishedAt": "2026-11-11T22:12:35.000Z",
+      "publisher": "MANGA Plus by SHUEISHA",
+      "sourceNames": [
+        "Annonces officielles — Google Actualités"
+      ],
+      "summaryLength": 77,
+      "sourceVerification": null,
+      "summary": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto MANGA Plus by SHUEISHA",
+      "score": 5,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 29,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "5a8721bda369ba6d8d2e",
+      "title": "Le manga Shinimodori no Mahou adapté en anime - Adala News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSy1aLW5hZFFQS3o3TWIwV05oakt6UFVudWM0MldRZFpPM1ctYnFhRWlEVHFrbTkxWWN5c1ZQV20wWC1FNVRseGxUcU5MMUhtZVZ1dVp1SWNDSmhaSlU3NlZySEJOLU1vRFZUWWNSdU9nakQ2ZTkxYk9CeUxzalU0QXZn?oc=5",
+      "publishedAt": "2026-11-11T17:45:01.000Z",
+      "publisher": "Adala News",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 56,
+      "sourceVerification": null,
+      "summary": "Le manga Shinimodori no Mahou adapté en anime Adala News",
+      "score": 5,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 33,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "6831462df8735bc0dfb0",
+      "title": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3ZOSlpNVFlRTWpTSVp3cUJTTXBXbXBFaFBwNnFFRGExVGdJTVVVbWhrUDJrVEtvMzJvMU00Yng5U2c5anhGWUlDS2l5S21zNGhMUTZUTWUxY3Jldm5DYVZ3cnF2STZ6aXRQQ3hHaUNOdUJOVERucTNSbEo2WHVhU2l6TkNONDRHUWVfanJWc09SaHpzSDJteEhfSE8ySHY1eG9ULWtWMTFmZGtmTTNuMUdn?oc=5",
+      "publishedAt": "2026-11-11T15:40:02.000Z",
+      "publisher": "L'Est Républicain",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 84,
+      "sourceVerification": null,
+      "summary": "Tomblaine. Les personnages de fiction prennent vie à Manga Matsuri L'Est Républicain",
+      "score": 5,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 35,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "c1dbf00658ebf329751c",
+      "title": "Parc manga de Cergy visé par un recours - DB-Z.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlY1RVNWxvbTJnRnFsUkJvdzlHa3liQ0gwcGxnOTRMcTE5V0xvSjFReVFQaHhYV2pHRHN6MW82dFNEcDQzNkJkVjVRRVVYcVFza1Z5QzQ0c1NKZw?oc=5",
+      "publishedAt": "2026-11-11T15:17:39.000Z",
+      "publisher": "DB-Z.com",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 48,
+      "sourceVerification": null,
+      "summary": "Parc manga de Cergy visé par un recours DB-Z.com",
+      "score": 5,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 36,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "4144e983326ec39abb67",
+      "title": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire - lanouvellerepublique.fr",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT3dKb3JLeWNIZktNNFd1X291LXRaZkZ5bEM4RDJDSXM4TTUxMHh1M0s0cXE4QzhWb1NtbVNKTTdVV2JuNHdWM3Zfc25nZjlxczlkSmRSLWpQSDNINGZJVi1lRmhIOEtOQnkzWmtQR0VsbzEwTUd1WVlqV21zck1XMUwyQ2ViamJuY1dJZ3ExOF8tbnlDZWNtMlZmcEQwUnNDZmRYUXQtUFI4aWIwSTBra1IteC04WG0tQVY4UEF4T0FxUXMwUF92WWxDYkhpdmRDZGdMR2NaZjJxYndrMzdleXRMSjA3QjI3YUFB?oc=5",
+      "publishedAt": "2026-11-11T15:12:04.000Z",
+      "publisher": "lanouvellerepublique.fr",
+      "sourceNames": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "summaryLength": 99,
+      "sourceVerification": null,
+      "summary": "Le comité manga de la médiathèque de Mondoubleau cultive le plaisir de lire lanouvellerepublique.fr",
+      "score": 5,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 0,
+      "verifiedOriginal": false,
+      "freshnessHours": 36,
+      "reasons": [
+        "Aucun média indépendant identifié",
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    }
+  ],
+  "entityTrends": [
+    {
+      "entityId": "manga-86123",
+      "name": "Black Clover",
+      "type": "manga",
+      "score": 57,
+      "decision": "surveillance",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 3,
+      "recentArticleCount": 1,
+      "independentSourceCount": 2,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T21:18:42.000Z",
+      "sourceNames": [
+        "AnimOtaku",
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 6,
+      "url": "https://anilist.co/manga/86123",
+      "reasons": [
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T21:18:42.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-97940",
+      "name": "Black Clover",
+      "type": "anime",
+      "score": 54,
+      "decision": "surveillance",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T21:18:42.000Z",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 107,
+      "url": "https://anilist.co/anime/97940",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T21:18:42.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-161645",
+      "name": "The Apothecary Diaries",
+      "type": "anime",
+      "score": 49,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T20:53:35.000Z",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 26,
+      "url": "https://anilist.co/anime/161645",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Les Carnets de l’Apothicaire Saison 3 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-carnets-apothicaire-saison-3-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T20:53:35.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-223",
+      "name": "Dragon Ball",
+      "type": "anime",
+      "score": 46,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T13:59:00.000Z",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 25,
+      "url": "https://anilist.co/anime/223",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Dragon Ball DAIMA : pourquoi la VF diffusée sur Gulli fait polémique ?",
+          "url": "https://animotaku.fr/actualite/dragon-ball-daima-vf-gulli-polemique/",
+          "publishedAt": "2026-11-12T13:59:00.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-189123",
+      "name": "Blue Box Season 2",
+      "type": "anime",
+      "score": 46,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T09:43:11.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 17,
+      "url": "https://anilist.co/anime/189123",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Interview: Blue Box Season 2 Director Daisuke Sako on Taiki & Chinatsu Focus and Adaptation Process",
+          "url": "https://animecorner.me/interview-blue-box-season-2-director-daisuke-sako-on-taiki-chinatsu-focus-and-adaptation-process/",
+          "publishedAt": "2026-11-12T09:43:11.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-151801",
+      "name": "MASHLE: MAGIC AND MUSCLES",
+      "type": "anime",
+      "score": 45,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 3,
+      "recentArticleCount": 0,
+      "independentSourceCount": 3,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "sourceNames": [
+        "MyAnimeList News",
+        "Anime News Network",
+        "AnimOtaku"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/151801",
+      "reasons": [
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        },
+        {
+          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
+          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+          "publishedAt": "2026-11-11T11:30:16.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-211778",
+      "name": "The World's Strongest Witch",
+      "type": "anime",
+      "score": 35,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 56,
+      "url": "https://anilist.co/anime/211778",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "The World's Strongest Witch ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-216895",
+      "name": "Welsh & Shedar",
+      "type": "anime",
+      "score": 31,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 2,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T13:00:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 15,
+      "url": "https://anilist.co/anime/216895",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+          "publishedAt": "2026-11-12T13:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "Welsh & Shedar Anime Launches Webtoon",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+          "publishedAt": "2026-11-12T03:10:20.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-108465",
+      "name": "Mushoku Tensei: Jobless Reincarnation",
+      "type": "anime",
+      "score": 29,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T17:00:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 15,
+      "url": "https://anilist.co/anime/108465",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Mushoku Tensei: Jobless Reincarnation Volumes 4-6 Light Novel Review",
+          "url": "https://www.animenewsnetwork.com/review/mushoku-tensei/jobless-reincarnation-volumes-4-6/light-novel/.242823",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-159042",
+      "name": "Reincarnated as a Sword Season 2",
+      "type": "anime",
+      "score": 29,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T12:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 98,
+      "url": "https://anilist.co/anime/159042",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Reincarnated as a Sword Season 2 ‒ Episode 7",
+          "url": "https://www.animenewsnetwork.com/review/reincarnated-as-a-sword-season-2/episode-7/.243745",
+          "publishedAt": "2026-11-12T12:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195604",
+      "name": "Black Clover Season 2",
+      "type": "anime",
+      "score": 28,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T18:21:03.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 69,
+      "url": "https://anilist.co/anime/195604",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195539",
+      "name": "Cyberpunk: Edgerunners 2",
+      "type": "anime",
+      "score": 23,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T20:50:02.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 80,
+      "url": "https://anilist.co/anime/195539",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+          "publishedAt": "2026-11-11T20:50:02.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-21",
+      "name": "ONE PIECE",
+      "type": "anime",
+      "score": 23,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T15:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 204,
+      "url": "https://anilist.co/anime/21",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+          "publishedAt": "2026-11-12T15:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-191656",
+      "name": "Even the Student Council Has Its Holes!",
+      "type": "anime",
+      "score": 22,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 39,
+      "url": "https://anilist.co/anime/191656",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-128067",
+      "name": "SSS-Class Revival Hunter",
+      "type": "manga",
+      "score": 22,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:08:52.000Z",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 39,
+      "url": "https://anilist.co/manga/128067",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+          "publishedAt": "2026-11-11T16:08:52.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-206949",
+      "name": "Nia Liston: The Merciless Maiden",
+      "type": "anime",
+      "score": 22,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T15:31:35.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 49,
+      "url": "https://anilist.co/anime/206949",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
+          "publishedAt": "2026-11-11T15:31:35.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-149544",
+      "name": "The Guy She Was Interested In Wasn't a Guy at All",
+      "type": "manga",
+      "score": 20,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T21:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/149544",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+          "publishedAt": "2026-11-11T21:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-147863",
+      "name": "Even the Student Council Has Its Holes!",
+      "type": "manga",
+      "score": 20,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 9,
+      "url": "https://anilist.co/manga/147863",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-163142",
+      "name": "A Returner's Magic Should Be Special",
+      "type": "anime",
+      "score": 19,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 22,
+      "url": "https://anilist.co/anime/163142",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-105393",
+      "name": "A Returner's Magic Should Be Special",
+      "type": "manga",
+      "score": 18,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/105393",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-139587",
+      "name": "Reincarnated as a Sword",
+      "type": "anime",
+      "score": 18,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/139587",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-152682",
+      "name": "Sasaki and Peeps",
+      "type": "anime",
+      "score": 18,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 8,
+      "url": "https://anilist.co/anime/152682",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-30013",
+      "name": "One Piece",
+      "type": "manga",
+      "score": 16,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T15:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 25,
+      "url": "https://anilist.co/manga/30013",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
+          "publishedAt": "2026-11-12T15:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-219548",
+      "name": "Spirit Circle",
+      "type": "anime",
+      "score": 15,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T10:30:42.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 8,
+      "url": "https://anilist.co/anime/219548",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
+          "publishedAt": "2026-11-12T10:30:42.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-211011",
+      "name": "The Chrysalis Heart",
+      "type": "manga",
+      "score": 10,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T22:12:35.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/211011",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
+          "publishedAt": "2026-11-11T22:12:35.000Z",
+          "sources": [
+            "Annonces officielles — Google Actualités"
+          ]
+        }
+      ]
+    }
+  ],
+  "confirmedEntities": []
+}
