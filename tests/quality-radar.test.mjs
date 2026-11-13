@@ -92,3 +92,21 @@ test("les articles anciens ne gonflent pas le nombre de médias indépendants r�
   assert.equal(result.entityTrends[0].independentSourceCount, 1);
   assert.equal(result.entityTrends[0].confirmed, false);
 });
+
+
+test("un article fiable seul reste hors prépublication tant que sa tendance n'est pas confirmée", () => {
+  const news = [verified("solo", "single-source")];
+  const trends = {
+    mentions: [{
+      entityId: "anime-5", entityName: "Titre E", entityType: "anime",
+      articleCount: 1, sourceCount: 1, latestAt: now,
+      articles: [{ title: news[0].title, url: news[0].url, publishedAt: news[0].publishedAt, sources: ["single-source"] }]
+    }]
+  };
+  const result = buildQualityRadar(news, trends, now);
+  const article = result.siteTrends[0];
+  assert.equal(article.articleQualityEligible, true);
+  assert.equal(article.trendConfirmed, false);
+  assert.equal(article.eligibleForEditorial, false);
+  assert.equal(result.summary.editorialEligibleSites, 0);
+});
