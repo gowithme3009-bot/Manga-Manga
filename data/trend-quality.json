@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:06:35.688Z",
+  "generatedAt": "2026-11-13T03:26:23.993Z",
   "policy": {
     "siteScore": {
       "sourceReliability": 20,
@@ -19,7 +19,8 @@
       "catalogTrendSignal": 10
     },
     "thresholds": {
-      "priority": 85,
+      "priority": 80,
+      "entityConfirmed": 65,
       "eligible": 70,
       "watch": 50
     },
@@ -33,12 +34,38 @@
   },
   "summary": {
     "siteArticles": 100,
-    "editorialEligibleSites": 9,
+    "editorialEligibleSites": 10,
     "entitiesDetected": 25,
     "confirmedEntities": 0,
     "strongEntities": 0
   },
   "siteTrends": [
+    {
+      "id": "6105b9ab677491c9b9a3",
+      "title": "Light Novel 'Isekai Douraku ni Akitara' Gets TV Anime in Winter 2027",
+      "url": "https://myanimelist.net/news/74934042?_location=rss",
+      "publishedAt": "2026-11-13T03:23:14.000Z",
+      "publisher": "MyAnimeList News",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "summaryLength": 1600,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74934042?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "summary": "Publishing company Shufunotomo announced a television anime adaptation of Fudaya Sanmongarasu and Tomozo's Isekai Douraku ni Akitara (Living It Up in Another World Until I Get Bored) light novel on Friday. The anime series will premiere in January 2027. Sanmongarasu began writing the adventure fantasy novel on the Shousetsuka ni Narou website in June 2016. Shufunotomo began printing the light novel under its Prime Novels imprint in June 2017, featuring illustrations by Tomozo. The imprint published two volumes, with the second volume released in April 2018. The series was later republished under the Hero Bunko imprint by Imagica Infos in January 2019. The seventh volume was published in October 2024. The eighth volume is scheduled for release on November 30, with its wraparound band featuring the anime announcement (pictured). SAA began drawing a manga adaptation of the series on the Her",
+      "score": 90,
+      "decision": "eligible_a_evaluer",
+      "eligibleForEditorial": true,
+      "independentSourceCount": 1,
+      "verifiedOriginal": true,
+      "freshnessHours": 0,
+      "reasons": []
+    },
     {
       "id": "7df577b3dd8953deb525",
       "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
@@ -57,7 +84,7 @@
         "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
       },
       "summary": "Facebook Twitter Instagram Accueil » Actualité » Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images Facebook Twitter Reddit WhatsApp Telegram Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images 12 Nov, 2026 22:18 Quentin Holveck Attendu ce samedi 14 novembre 2026 sur Crunchyroll, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 a présenté ses premières informations sur le site web officiel de la série. Heure exacte de mise en ligne, résumé et premières images : cet article regroupe tous les détails à connaître sur ce septième épisode, juste avant sa sortie. Ne manquez plus aucune actualité Ajouter AnimOtaku en tant que source préférée sur Google Ajouter Quand sortira l'épisode 7 de l'anime Black Clover Saison 2 ? En France, l&rsquo;épisode 7 de l&rsquo;anime Black Clover saison 2 sortira le samedi 14 novembre 2026 à",
-      "score": 90,
+      "score": 88,
       "decision": "eligible_a_evaluer",
       "eligibleForEditorial": true,
       "independentSourceCount": 1,
@@ -88,7 +115,7 @@
       "eligibleForEditorial": true,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 6,
+      "freshnessHours": 7,
       "reasons": []
     },
     {
@@ -192,7 +219,7 @@
       "eligibleForEditorial": true,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 13,
+      "freshnessHours": 14,
       "reasons": []
     },
     {
@@ -244,7 +271,7 @@
       "eligibleForEditorial": true,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "reasons": []
     },
     {
@@ -324,7 +351,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 30,
+      "freshnessHours": 31,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ]
@@ -492,7 +519,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 36,
+      "freshnessHours": 37,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ]
@@ -521,34 +548,6 @@
       "independentSourceCount": 1,
       "verifiedOriginal": true,
       "freshnessHours": 37,
-      "reasons": [
-        "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
-    },
-    {
-      "id": "23bee78552f20aa223ee",
-      "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
-      "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
-      "publishedAt": "2026-11-11T11:30:16.000Z",
-      "publisher": "AnimOtaku",
-      "sourceNames": [
-        "AnimOtaku"
-      ],
-      "summaryLength": 1600,
-      "sourceVerification": {
-        "status": "original_page_excerpt_verified",
-        "label": "Extrait récupéré sur le média d’origine",
-        "publisherHost": "animotaku.fr",
-        "checkedUrl": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
-        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
-      },
-      "summary": "Facebook Twitter Instagram Accueil » Actualité » MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos Facebook Twitter Reddit WhatsApp Telegram MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos 11 Nov, 2026 12:30 Quentin Holveck La date de sortie de l&rsquo;anime MASHLE saison 3 (MASHLE: MAGIC AND MUSCLES – The Tri-Magicathlon Divine Visionary Final Exam) a été officiellement fixée au 9 janvier 2027 . Comme les deux saisons précédentes, cette suite sera diffusée en France en simulcast sur Crunchyroll. En parallèle, un premier trailer principal et un nouveau visuel promotionnel ont été dévoilés sur le site officiel de la série. Visuel clé Cette troisième saison poursuivra l&rsquo;adaptation du manga de Hajime Komoto à partir de son dixième volume et couvrira notamment l&rsquo;arc du Tri-Magicathlon , l&rsquo;examen final pour devenir Élu divin, qui réuni",
-      "score": 80,
-      "decision": "surveillance",
-      "eligibleForEditorial": false,
-      "independentSourceCount": 1,
-      "verifiedOriginal": true,
-      "freshnessHours": 40,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ]
@@ -626,6 +625,33 @@
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "d654be900ff1989f99cd",
+      "title": "Teto Kasane Comes to Fortnite Festival",
+      "url": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754",
+      "publishedAt": "2026-11-13T03:00:00.000Z",
+      "publisher": "Anime News Network",
+      "sourceNames": [
+        "Anime News Network"
+      ],
+      "summaryLength": 73,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754"
+      },
+      "summary": "And will appear in Fortnite Battle Royale with Vocaloid idol Hatsune Miku",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 0,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court"
       ]
     },
     {
@@ -800,30 +826,6 @@
       ]
     },
     {
-      "id": "23c1052718cae3facf20",
-      "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
-      "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
-      "publishedAt": "2026-11-11T11:25:05.000Z",
-      "publisher": "Anime Corner",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "summaryLength": 131,
-      "sourceVerification": null,
-      "summary": "Mashle: Magic and Muscles Season 3 TV anime revealed the first main and new key visual, along with a January 9, 2027 premiere date.",
-      "score": 35,
-      "decision": "ecarte",
-      "eligibleForEditorial": false,
-      "independentSourceCount": 1,
-      "verifiedOriginal": false,
-      "freshnessHours": 40,
-      "reasons": [
-        "Page originale non vérifiée",
-        "Contenu trop court",
-        "Actualité au-delà de la fenêtre de fraîcheur"
-      ]
-    },
-    {
       "id": "7b26d0fa36441f140781",
       "title": "Sega Streams Sonic the Hedgehog: Memories and Beyond Short Animated Film on YouTube",
       "url": "https://www.animenewsnetwork.com/news/2026-11-12/sega-streams-sonic-the-hedgehog-memories-and-beyond-short-animated-film-on-youtube/.243768",
@@ -952,7 +954,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
@@ -995,11 +997,7 @@
         "Anime News Network"
       ],
       "summaryLength": 62,
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713"
-      },
+      "sourceVerification": null,
       "summary": "Lucas and Chris tackle the next great vice in anime: gambling!",
       "score": 30,
       "decision": "ecarte",
@@ -1213,7 +1211,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 23,
+      "freshnessHours": 24,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
@@ -1236,7 +1234,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 23,
+      "freshnessHours": 24,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
@@ -1259,7 +1257,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 23,
+      "freshnessHours": 24,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
@@ -1300,7 +1298,7 @@
       "summaryLength": 44,
       "sourceVerification": null,
       "summary": "12-episode webtoon features multiple artists",
-      "score": 30,
+      "score": 25,
       "decision": "ecarte",
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
@@ -1308,7 +1306,8 @@
       "freshnessHours": 24,
       "reasons": [
         "Page originale non vérifiée",
-        "Contenu trop court"
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
       ]
     },
     {
@@ -1616,7 +1615,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 37,
+      "freshnessHours": 38,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
@@ -1640,7 +1639,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 37,
+      "freshnessHours": 38,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
@@ -1736,7 +1735,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 2,
+      "freshnessHours": 3,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -1810,7 +1809,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 9,
+      "freshnessHours": 10,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -1997,7 +1996,7 @@
       "summaryLength": 46,
       "sourceVerification": null,
       "summary": "Zeste de tendresse (Un) : Critiques Manga news",
-      "score": 13,
+      "score": 10,
       "decision": "ecarte",
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
@@ -2021,7 +2020,7 @@
       "summaryLength": 40,
       "sourceVerification": null,
       "summary": "Love Bullet Vol.2 : Critiques Manga news",
-      "score": 13,
+      "score": 10,
       "decision": "ecarte",
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
@@ -2146,7 +2145,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 15,
+      "freshnessHours": 16,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2218,7 +2217,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 16,
+      "freshnessHours": 17,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2290,7 +2289,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2338,7 +2337,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 18,
+      "freshnessHours": 19,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2435,7 +2434,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 33,
+      "freshnessHours": 34,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2460,7 +2459,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 35,
+      "freshnessHours": 36,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
@@ -2524,7 +2523,7 @@
       "entityId": "manga-86123",
       "name": "Black Clover",
       "type": "manga",
-      "score": 57,
+      "score": 68,
       "decision": "surveillance",
       "confirmed": false,
       "strong": false,
@@ -2575,7 +2574,7 @@
       "entityId": "anime-97940",
       "name": "Black Clover",
       "type": "anime",
-      "score": 54,
+      "score": 52,
       "decision": "surveillance",
       "confirmed": false,
       "strong": false,
@@ -2603,68 +2602,6 @@
           "publishedAt": "2026-11-12T21:18:42.000Z",
           "sources": [
             "AnimOtaku"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-151801",
-      "name": "MASHLE: MAGIC AND MUSCLES",
-      "type": "anime",
-      "score": 50,
-      "decision": "surveillance",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 4,
-      "recentArticleCount": 0,
-      "independentSourceCount": 4,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T14:46:50.000Z",
-      "sourceNames": [
-        "MyAnimeList News",
-        "Anime News Network",
-        "AnimOtaku",
-        "Anime Corner"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 12,
-      "url": "https://anilist.co/anime/151801",
-      "reasons": [
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        },
-        {
-          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
-          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
-          "publishedAt": "2026-11-11T11:30:16.000Z",
-          "sources": [
-            "AnimOtaku"
-          ]
-        },
-        {
-          "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
-          "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
-          "publishedAt": "2026-11-11T11:25:05.000Z",
-          "sources": [
-            "Anime Corner"
           ]
         }
       ]
@@ -2778,6 +2715,50 @@
       ]
     },
     {
+      "entityId": "anime-151801",
+      "name": "MASHLE: MAGIC AND MUSCLES",
+      "type": "anime",
+      "score": 35,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 0,
+      "independentSourceCount": 2,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "sourceNames": [
+        "MyAnimeList News",
+        "Anime News Network"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/151801",
+      "reasons": [
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "anime-211778",
       "name": "The World's Strongest Witch",
       "type": "anime",
@@ -2830,7 +2811,7 @@
       "confirmed": false,
       "strong": false,
       "articleCount": 2,
-      "recentArticleCount": 2,
+      "recentArticleCount": 1,
       "independentSourceCount": 1,
       "verifiedArticleCount": 0,
       "latestAt": "2026-11-12T13:00:00.000Z",
@@ -2842,6 +2823,7 @@
       "url": "https://anilist.co/anime/216895",
       "reasons": [
         "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
       ],

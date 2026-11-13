@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:06:49.411Z",
+  "generatedAt": "2026-11-13T03:26:35.092Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-13T03:06:49.411Z",
+    "refreshedAt": "2026-11-13T03:26:35.092Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15825,58 +15825,6 @@
   "items": [],
   "mentions": [
     {
-      "entityId": "anime-151801",
-      "entityName": "MASHLE: MAGIC AND MUSCLES",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "MASHLE",
-        "MASHLE: MAGIC AND MUSCLES"
-      ],
-      "articleCount": 4,
-      "sourceCount": 4,
-      "sources": [
-        "MyAnimeList News",
-        "Anime News Network",
-        "AnimOtaku",
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-11T14:46:50.000Z",
-      "articles": [
-        {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        },
-        {
-          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
-          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
-          "publishedAt": "2026-11-11T11:30:16.000Z",
-          "sources": [
-            "AnimOtaku"
-          ]
-        },
-        {
-          "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
-          "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
-          "publishedAt": "2026-11-11T11:25:05.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "manga-86123",
       "entityName": "Black Clover",
       "entityType": "manga",
@@ -15913,6 +15861,40 @@
           "publishedAt": "2026-11-11T13:32:50.000Z",
           "sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-151801",
+      "entityName": "MASHLE: MAGIC AND MUSCLES",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "MASHLE",
+        "MASHLE: MAGIC AND MUSCLES"
+      ],
+      "articleCount": 2,
+      "sourceCount": 2,
+      "sources": [
+        "MyAnimeList News",
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
           ]
         }
       ]

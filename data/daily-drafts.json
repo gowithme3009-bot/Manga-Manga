@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:06:35.688Z",
+  "generatedAt": "2026-11-13T03:26:23.993Z",
   "freshnessWindowHours": 24,
   "limit": 4,
-  "eligibleCount": 9,
+  "eligibleCount": 10,
   "items": [
     {
       "id": "7df577b3dd8953deb525",
@@ -29,22 +29,22 @@
       ],
       "publishedAt": "2026-11-12T21:18:42.000Z",
       "freshnessHours": 6,
-      "trendScore": 47,
+      "trendScore": 46,
       "editorialFitScore": 24,
-      "qualityScore": 90,
+      "qualityScore": 88,
       "qualityDecision": "eligible_a_evaluer",
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’épisode 7 de la saison 2 de Black Clover sera mis en ligne ce samedi 14 novembre 2026 à 16 h sur Crunchyroll (VOSTFR). Dans ce chapitre, Noelle et ses compagnons affrontent le démon suprême Megicula, tandis qu’Asta et Luck interviennent à temps pour relancer l’offensive.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#BlackClover,#Anime,#Crunchyroll",
+      "text": "L’épisode 7 de la saison 2 de Black Clover sera mis en ligne le samedi 14 novembre 2026 à 16 h sur Crunchyroll en VOSTFR. Dans ce chapitre, Noelle, Asta et leurs compagnons affrontent le démon suprême Megicula, tandis qu’Asta et Luck interviennent au moment crucial.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#BlackClover,#Anime,#Saison2,#Crunchyroll",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Les informations proviennent de l’extrait fourni ; vérifier la date, l’heure et le résumé dans l’article complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait provenant d’AnimOtaku, vérifier le texte complet pour confirmer le résumé et l’heure exacte. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T03:07:01.775Z",
-      "aiTitle": "Black Clover S2 – Épisode 7 : sortie et aperçu",
+      "aiGeneratedAt": "2026-11-13T03:26:47.705Z",
+      "aiTitle": "Black Clover S2 – Épisode 7 le 14 novembre 2026",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -52,7 +52,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Les informations proviennent de l’extrait fourni ; vérifier la date, l’heure et le résumé dans l’article complet."
+      "aiVerificationNotes": "Extrait provenant d’AnimOtaku, vérifier le texte complet pour confirmer le résumé et l’heure exacte."
     },
     {
       "id": "45fa1cefc95b1bf77fda",
@@ -77,7 +77,7 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T20:53:35.000Z",
-      "freshnessHours": 6,
+      "freshnessHours": 7,
       "trendScore": 46,
       "editorialFitScore": 24,
       "qualityScore": 88,
@@ -86,14 +86,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’épisode 7 de la saison 3 de Les Carnets de l’Apothicaire sera diffusé le vendredi 13 novembre 2026 à 17 h sur Crunchyroll (VOSTFR). L’épisode montre un conflit dans le village natal de Guen entre la famille papetière et les propriétaires terriens à cause d’une hausse des taxes sur les céréales.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#LesCarnetsDeLApothicaire,#Anime,#Crunchyroll",
+      "text": "L’épisode 7 de la saison 3 des Carnets de l’Apothicaire sera diffusé le vendredi 13 novembre 2026 à 17 h sur Crunchyroll en VOSTFR. L’épisode montre un conflit dans le village de Guen entre la famille papetière de Guen et les propriétaires terriens à propos d’une hausse des taxes sur les céréales.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#LesCarnetsDeLApothicaire,#Anime,#Saison3,#Crunchyroll",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Les détails proviennent de l’extrait ; confirmer le résumé et les horaires dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait d’AnimOtaku, confirmer le résumé complet et les détails de diffusion. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T03:07:01.775Z",
-      "aiTitle": "Les Carnets de l’Apothicaire S3 – Épisode 7 : sortie et synopsis",
+      "aiGeneratedAt": "2026-11-13T03:26:47.705Z",
+      "aiTitle": "Les Carnets de l’Apothicaire S3 – Épisode 7 le 13 novembre 2026",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -101,7 +101,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Les détails proviennent de l’extrait ; confirmer le résumé et les horaires dans la source originale."
+      "aiVerificationNotes": "Extrait d’AnimOtaku, confirmer le résumé complet et les détails de diffusion."
     },
     {
       "id": "3a526737b270c5389529",
@@ -135,14 +135,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’anime Tsugumi Project est prévu pour une diffusion en janvier 2027 au Japon. Une nouvelle affiche promotionnelle présente les trois personnages principaux, dont Tsugumi (voix de Misaki Watada), Leon (voix de Masaaki Mizunaka) et Doudou (voix de Haruki Ishiya).\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#TsugumiProject,#Anime,#NouvelleAffiche",
+      "text": "L’anime Tsugumi Project a annoncé une diffusion prévue en janvier 2027 au Japon, accompagnée d’une nouvelle affiche présentant les trois personnages principaux : Tsugumi (voix de Misaki Watada), Leon (voix de Masaaki Mizunaka) et Doudou (voix de Haruki Ishiya). Le projet n’a pas encore révélé le studio ni la date précise de lancement en France.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#TsugumiProject,#Anime,#Janvier2027,#NouvelleAffiche",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Les informations sont tirées de l’extrait ; vérifier la date de diffusion et les détails du visuel dans l’article complet. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait vérifié, vérifier l’article complet pour confirmer le studio et les informations de diffusion. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T03:07:01.775Z",
-      "aiTitle": "Tsugumi Project – sortie en janvier 2027 et nouveau visuel",
+      "aiGeneratedAt": "2026-11-13T03:26:47.705Z",
+      "aiTitle": "Tsugumi Project – sortie prévue en janvier 2027",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -150,7 +150,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Les informations sont tirées de l’extrait ; vérifier la date de diffusion et les détails du visuel dans l’article complet."
+      "aiVerificationNotes": "Extrait vérifié, vérifier l’article complet pour confirmer le studio et les informations de diffusion."
     },
     {
       "id": "df9bd9ebb742de59550b",
@@ -175,7 +175,7 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T13:38:52.000Z",
-      "freshnessHours": 13,
+      "freshnessHours": 14,
       "trendScore": 34,
       "editorialFitScore": 24,
       "qualityScore": 85,
@@ -184,14 +184,14 @@
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’anime Getting Shots on a Frying Pan sera diffusé en janvier 2027 au Japon. Le studio J.C. STAFF a publié le premier teaser. Le casting comprend Shu Uchida (voix féminine de Juntaro) et Masaaki Mizunaka (voix masculine de Juntaro). Le projet est réalisé par Masahiro Hiraoka, avec la musique d’Otomo Yoshihide.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#GettingShots,#Anime,#JCASTAFF",
+      "text": "L’anime Getting Shots on a Frying Pan a confirmé une diffusion prévue en janvier 2027 au Japon et a publié son premier teaser. Le projet est produit par le studio J.C. STAFF, avec Shu Uchida et Masaaki Mizunaka comme double voix du protagoniste Juntaro.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#GettingShotsOnAFryingPan,#Anime,#JCASTAFF,#Janvier2027",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Les éléments proviennent de l’extrait ; confirmer les informations de diffusion et les crédits dans la source originale. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Extrait d’AnimOtaku, vérifier le texte complet pour confirmer les rôles et la date de sortie. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T03:07:01.775Z",
-      "aiTitle": "Getting Shots on a Frying Pan – sortie en janvier 2027, teaser publié",
+      "aiGeneratedAt": "2026-11-13T03:26:47.705Z",
+      "aiTitle": "Getting Shots on a Frying Pan – teaser et diffusion en janvier 2027",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -199,7 +199,44 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Les éléments proviennent de l’extrait ; confirmer les informations de diffusion et les crédits dans la source originale."
+      "aiVerificationNotes": "Extrait d’AnimOtaku, vérifier le texte complet pour confirmer les rôles et la date de sortie."
+    },
+    {
+      "id": "6105b9ab677491c9b9a3",
+      "title": "Light Novel 'Isekai Douraku ni Akitara' Gets TV Anime in Winter 2027",
+      "summary": "Publishing company Shufunotomo announced a television anime adaptation of Fudaya Sanmongarasu and Tomozo's Isekai Douraku ni Akitara (Living It Up in Another World Until I Get Bored) light novel on Friday. The anime series will premiere in January 2027. Sanmongarasu began writing the adventure fantasy novel on the Shousetsuka ni Narou website in June 2016. Shufunotomo began printing the light novel under its Prime Novels imprint in June 2017, featuring illustrations by Tomozo. The imprint published two volumes, with the second volume released in April 2018. The series was later republished under the Hero Bunko imprint by Imagica Infos in January 2019. The seventh volume was published in October 2024. The eighth volume is scheduled for release on November 30, with its wraparound band featuring the anime announcement (pictured). SAA began drawing a manga adaptation of the series on the Hero Comics web service in June 2025. The first volume was released digitally on September 30. Hanashi Media licensed the light novel for English release under the title Living It Up in Another World Until I Get Bored, with the first volume scheduled for release on May 9, 2027. Synopsis As if the universe heard him, his journey begins sooner than expected. On his way home, he suddenly finds himself stranded in another world-a strange, game-like place governed by levels, magic, skills, and other fantastical rules. And before he knows it, he's acquired tremendous power without even having to work for it. With that kind of strength at his disposal, three paths lie before him: side with humanity an",
+      "language": "fr",
+      "sourceLanguage": "en",
+      "sourceUrl": "https://myanimelist.net/news/74934042?_location=rss",
+      "articleUrl": "https://myanimelist.net/news/74934042?_location=rss",
+      "articleContentRetrieved": true,
+      "sourceVerification": {
+        "status": "original_page_excerpt_verified",
+        "label": "Extrait récupéré sur le média d’origine",
+        "publisherHost": "myanimelist.net",
+        "checkedUrl": "https://myanimelist.net/news/74934042?_location=rss",
+        "scope": "Extrait de page vérifié ; lecture intégrale non effectuée."
+      },
+      "publisherName": null,
+      "publisherUrl": null,
+      "summaryOrigin": "metadata_article_original",
+      "sourceNames": [
+        "MyAnimeList News"
+      ],
+      "publishedAt": "2026-11-13T03:23:14.000Z",
+      "freshnessHours": 0,
+      "trendScore": 60,
+      "editorialFitScore": 16,
+      "qualityScore": 90,
+      "qualityDecision": "eligible_a_evaluer",
+      "trendLevel": "surveillance",
+      "independentSourceCount": 1,
+      "coverageSourceCount": 1,
+      "editorialReady": false,
+      "text": "PRÉPARATION — SOURCE ORIGINALE EN ANGLAIS, TRADUCTION FRANÇAISE À GÉNÉRER PAR L’ASSISTANT IA\n\nLight Novel 'Isekai Douraku ni Akitara' Gets TV Anime in Winter 2027\n\nExtrait original : Publishing company Shufunotomo announced a television anime adaptation of Fudaya Sanmongarasu and Tomozo's Isekai Douraku ni Akitara (Living It Up in Another World Until I Get Bored) light novel on Friday. The anime series will premiere in January 2027. Sanmongarasu began writing the adventure fantasy novel on the Shousetsuka ni Narou website in June 2016. Shufunotomo began printing the light novel under its Prime Novels imprint in June 2017, featuring illustrations by Tomozo. The imprint published two volumes, with the second volume released in April 2018. The series was later republished under the Hero Bunko imprint by Imagica Infos in January 2019. The seventh volume was published in October 2024. The eighth volume is scheduled for release on November 30, with its wraparound band featuring the anime announcement (pictured). SAA began drawing a manga adaptation of the series on the Hero Comics web service in June 2025. The first volume was released digitally on September 30. Hanashi Media licensed the light novel for English release under the title Living It Up in Another World Until I Get Bored, with the first volume scheduled for release on May 9, 2027. Synopsis As if the universe heard him, his journey begins sooner than expected. On his way home, he suddenly finds himself stranded in another world-a strange, game-like place governed by levels, magic, skills, and other fantastical rules. And before he knows it, he's acquired tremendous power without even having to work for it. With that kind of strength at his disposal, three paths lie before him: side with humanity an\n\nSource : https://myanimelist.net/news/74934042?_location=rss",
+      "hashtags": "#Manga #Anime",
+      "status": "à compléter",
+      "note": "Extrait original récupéré sur le média anglophone. Une rédaction/traduction française par l’assistant IA est nécessaire ; vérifier chaque fait avant validation."
     },
     {
       "id": "126adf4280b312a1b7b1",
@@ -262,7 +299,7 @@
       ],
       "publishedAt": "2026-11-12T09:32:05.000Z",
       "freshnessHours": 18,
-      "trendScore": 29,
+      "trendScore": 28,
       "editorialFitScore": 16,
       "qualityScore": 85,
       "qualityDecision": "eligible_a_evaluer",
@@ -299,7 +336,7 @@
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
       "freshnessHours": 11,
-      "trendScore": 38,
+      "trendScore": 37,
       "editorialFitScore": 12,
       "qualityScore": 88,
       "qualityDecision": "eligible_a_evaluer",
@@ -335,7 +372,7 @@
         "Anime Corner"
       ],
       "publishedAt": "2026-11-12T09:43:11.000Z",
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "trendScore": 29,
       "editorialFitScore": 10,
       "qualityScore": 85,
@@ -373,7 +410,7 @@
       ],
       "publishedAt": "2026-11-12T13:59:00.000Z",
       "freshnessHours": 13,
-      "trendScore": 35,
+      "trendScore": 34,
       "editorialFitScore": -1,
       "qualityScore": 85,
       "qualityDecision": "eligible_a_evaluer",
@@ -390,8 +427,8 @@
   "warnings": [
     "26 sujet(s) écarté(s) par le contrôle qualité strict : source originale, contenu détaillé et fraîcheur obligatoires.",
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "16 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "15 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-13T03:07:01.775Z",
+  "aiGeneratedAt": "2026-11-13T03:26:47.705Z",
   "aiModel": "openai/gpt-oss-120b"
 }
