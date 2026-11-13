@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T02:47:41.477Z",
+  "generatedAt": "2026-11-13T02:52:17.522Z",
   "items": [
     {
       "id": "17fef6b376112218d1fe",
@@ -23,7 +23,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 56,
+      "trendScore": 55,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -213,7 +213,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 42,
+      "trendScore": 41,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "sourceVerification": {
@@ -325,7 +325,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 39,
+      "trendScore": 38,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animotaku.fr/actualite/anime-tsugumi-project-janvier-2027-nouveau-visuel/",
@@ -740,7 +740,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 36,
+      "trendScore": 35,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1012,7 +1012,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 32,
+      "trendScore": 31,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -1376,7 +1376,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 29,
+      "trendScore": 28,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2011,7 +2011,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 16,
+      "trendScore": 15,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
@@ -2480,7 +2480,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2821,7 +2821,7 @@
       "id": "official-announcements",
       "name": "Annonces officielles — Google Actualités",
       "status": "ok",
-      "items": 60
+      "items": 59
     },
     {
       "id": "otaku-usa",

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T02:47:52.996Z",
+  "generatedAt": "2026-11-13T02:52:27.659Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-13T02:47:52.996Z",
+    "refreshedAt": "2026-11-13T02:52:27.659Z",
     "pagesPerType": 6
   },
   "catalogItems": [
