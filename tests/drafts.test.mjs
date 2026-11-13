@@ -207,3 +207,26 @@ test("pénalise les articles explicitement sponsorisés dans le classement", () 
   ], NOW);
   assert.equal(result.items[0].id, "editorial");
 });
+
+
+test("ne sacrifie pas les meilleurs sujets pour imposer artificiellement une source différente", () => {
+  const result = buildDailyDrafts([
+    { id: "best-1", title: "Annonce anime détaillée 1", url: "https://animotaku.example/1",
+      summary: "Un extrait original détaillé présente une annonce de production, une nouvelle affiche et des informations utiles sur le projet.",
+      language: "fr", source: "AnimOtaku", sources: ["AnimOtaku"], articleContentRetrieved: true,
+      sourceVerification: { status: "original_page_excerpt_verified" }, independentSourceCount: 1,
+      publishedAt: hoursAgo(1) },
+    { id: "best-2", title: "Annonce anime détaillée 2", url: "https://animotaku.example/2",
+      summary: "Un autre extrait original détaillé présente une annonce de production, une nouvelle affiche et des informations utiles sur le projet.",
+      language: "fr", source: "AnimOtaku", sources: ["AnimOtaku"], articleContentRetrieved: true,
+      sourceVerification: { status: "original_page_excerpt_verified" }, independentSourceCount: 1,
+      publishedAt: hoursAgo(2) },
+    { id: "weak-1", title: "Sujet court", url: "https://other.example/1",
+      summary: "Court résumé.", language: "fr", source: "Autre média",
+      independentSourceCount: 1, publishedAt: hoursAgo(3) },
+    { id: "weak-2", title: "Autre sujet court", url: "https://other.example/2",
+      summary: "Résumé bref.", language: "fr", source: "Autre média",
+      independentSourceCount: 1, publishedAt: hoursAgo(4) }
+  ], NOW);
+  assert.deepEqual(result.items.slice(0, 2).map(item => item.id), ["best-1", "best-2"]);
+});
