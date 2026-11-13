@@ -230,3 +230,26 @@ test("ne sacrifie pas les meilleurs sujets pour imposer artificiellement une sou
   ], NOW);
   assert.deepEqual(result.items.slice(0, 2).map(item => item.id), ["best-1", "best-2"]);
 });
+
+
+test("le contrôle qualité strict n'envoie aucun sujet non éligible à l'IA", () => {
+  const now = "2026-11-13T12:00:00.000Z";
+  const items = [1, 2, 3, 4, 5].map(number => ({
+    id: "quality-" + number,
+    title: "Actualité manga " + number,
+    url: "https://media.test/" + number,
+    summary: "Résumé français suffisamment détaillé pour permettre une rédaction fidèle et contextualisée.",
+    publishedAt: now,
+    source: "Média spécialisé",
+    sourceId: "media-" + number,
+    language: "fr"
+  }));
+  const quality = new Map(items.map((item, index) => [item.id, {
+    eligibleForEditorial: index < 2,
+    score: index < 2 ? 82 : 45
+  }]));
+  const result = buildDailyDrafts(items, now, quality);
+  assert.equal(result.eligibleCount, 2);
+  assert.deepEqual(result.items.map(item => item.id), ["quality-1", "quality-2"]);
+  assert.ok(result.warnings.some(warning => warning.includes("Aucun sujet faible")));
+});
