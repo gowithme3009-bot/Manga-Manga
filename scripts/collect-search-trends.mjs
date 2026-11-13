@@ -13,9 +13,9 @@ const COUNTRIES = [
 ];
 
 export function normalizeEntityText(value = "") {
-  return String(value).normalize("NFKD").replace(/[\\u0300-\\u036f]/g, "")
-    .toLocaleLowerCase("fr").replace(/[^\\p{L}\\p{N}]+/gu, " ")
-    .replace(/\\bsaison\\b/g, "season").trim();
+  return String(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("fr").replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\bsaison\b/g, "season").trim();
 }
 
 export function matchCatalogEntities(term, catalog) {
@@ -41,7 +41,7 @@ export function matchCatalogEntities(term, catalog) {
       const shortName = normalizeEntityText(shorter);
       const longName = normalizeEntityText(longer);
       const isLongerTitle = longName.length > shortName.length && longName.startsWith(shortName + " ");
-      const isExplicitSeason = /\\b(?:season\\s*(?:[2-9]|ii|iii|iv|v)|(?:2nd|3rd|4th|5th)\\s+season|part\\s*[2-9]|cour\\s*[2-9])\\b/.test(longName);
+      const isExplicitSeason = /\b(?:season\s*(?:[2-9]|ii|iii|iv|v)|(?:2nd|3rd|4th|5th)\s+season|part\s*[2-9]|cour\s*[2-9])\b/.test(longName);
       // Une suite explicitement numérotée prime sur le titre générique,
       // même si AniList distingue l'adaptation manga et l'adaptation anime.
       return isLongerTitle && (other.type === entity.type || isExplicitSeason);
