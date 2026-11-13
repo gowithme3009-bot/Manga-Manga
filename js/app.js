@@ -516,7 +516,7 @@ function renderDrafts() {
     const label = level === "spectaculaire" ? "TENDANCE MULTI-SOURCES" :
       level === "hausse" ? "PLUSIEURS MÉDIAS" : "SIGNAL À SURVEILLER";
     return '<article class="draft-card"><div class="meta">PROPOSITION · ' +
-      trendSignal(level, label) + " · Score indicatif " + candidate.trendScore + "/100 · " +
+      trendSignal(level, label) + " · Signal " + candidate.trendScore + "/100" + (candidate.qualityScore !== null && candidate.qualityScore !== undefined ? " · Qualité " + candidate.qualityScore + "/100" : "") + " · " +
       Number(candidate.independentSourceCount || 0) + " média(s) direct(s) · " +
       escapeHtml((candidate.sourceNames || []).join(", ")) +
       (candidate.aiGenerated ? " · ✧ Assistant IA (" + escapeHtml(candidate.aiModel || "Groq") + ")" : "") + "</div>" +
