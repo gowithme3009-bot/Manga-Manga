@@ -65,6 +65,22 @@
           <article class="stat-card"><span class="stat-icon violet-icon">✓</span><div><span class="stat-label">PUBLICATION</span><strong class="manual-stat">MANUELLE</strong><small>aucun envoi vers Facebook</small></div></article>
         </section>
 
+        <section class="panel editorial-assistant-panel" aria-labelledby="editorial-assistant-title">
+          <div class="assistant-panel">
+            <div class="assistant-icon" aria-hidden="true">✧</div>
+            <div class="editorial-assistant-content">
+              <p class="eyebrow">ASSISTANT MANGA-MANGA</p>
+              <h2 id="editorial-assistant-title">Que veux-tu savoir sur un manga ?</h2>
+              <p class="muted">Exemples : « Naruto, dernier tome », « One Piece, prochain volume » ou « actualités de Dragon Ball ». L’assistant reconnaît l’œuvre, consulte le catalogue et le Radar, puis indique ce qui reste à vérifier.</p>
+              <div class="editorial-assistant-form">
+                <input id="editorial-question" type="search" maxlength="180" placeholder="Ex. : Naruto, dernier tome" aria-label="Question sur un manga ou un anime">
+                <button class="primary" id="editorial-ask" type="button">Analyser</button>
+              </div>
+              <div id="editorial-answer" class="editorial-answer" role="status" aria-live="polite"><p class="muted">Pose une question pour commencer. Les réponses ne remplacent pas la vérification auprès de l’éditeur.</p></div>
+            </div>
+          </div>
+        </section>
+
         <section class="panel trend-alert-panel" aria-labelledby="trend-alert-title">
           <div class="panel-title"><div><p class="eyebrow">VEILLE PRIORITAIRE</p><h2 id="trend-alert-title">Alertes tendances époustouflantes</h2></div><span class="alert-live"><i></i> SURVEILLANCE</span></div>
           <p class="muted">Alertes fondées sur les tendances fortes confirmées par plusieurs sources. Active les notifications du navigateur pour être averti lorsque le site est ouvert.</p>
