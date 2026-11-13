@@ -92,3 +92,16 @@ test("actualise plusieurs pages AniList et conserve les titres cliquables et ali
   assert.ok(catalog.some(item => item.type === "anime" && item.aliases.includes("Alias français")));
   assert.ok(catalog.every(item => item.url.startsWith("https://anilist.co/")));
 });
+
+
+test("une saison numérotée prime sur le titre générique manga et anime", () => {
+  const variants = [
+    { id: "anime-black-clover", name: "Black Clover", type: "anime", aliases: ["Black Clover"] },
+    { id: "manga-black-clover", name: "Black Clover", type: "manga", aliases: ["Black Clover"] },
+    { id: "anime-black-clover-s2", name: "Black Clover Season 2", type: "anime", aliases: ["Black Clover Season 2", "Black Clover 2nd Season"] }
+  ];
+  const season = matchCatalogEntities("Black Clover Saison 2 : date de sortie de l'épisode 7", variants);
+  assert.deepEqual(season.map(item => item.id), ["anime-black-clover-s2"]);
+  const generic = matchCatalogEntities("Black Clover annonce une nouvelle actualité", variants);
+  assert.deepEqual(generic.map(item => item.id).sort(), ["anime-black-clover", "manga-black-clover"]);
+});
