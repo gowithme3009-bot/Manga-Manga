@@ -7,7 +7,7 @@ import { buildMasterImagePrompt } from "./image-prompts.js";
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
 const TREND_ALERTS_KEY = "mangaMangaStudio.trendAlerts.v1";
-const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], radarError: null, generatedImageDataUrl: null, pendingDraftImageDataUrl: null, workflowDraftId: null };
+const state = { items: [], sources: [], searchSignals: [], editorialSignals: [], catalog: [], qualityRadar: null, drafts: [], candidates: [], dismissed: [], editingDraftId: null, trendAlerts: [], radarError: null, generatedImageDataUrl: null, pendingDraftImageDataUrl: null, workflowDraftId: null };
 const PREPUBLICATION_CHECKS = [
   { id: "trend", label: "Le sujet est récent et mérite une publication." },
   { id: "source", label: "La source originale est ouverte et le média identifié." },
@@ -276,6 +276,49 @@ function renderNews() {
       '" target="_blank" rel="noopener noreferrer">Lire la source ↗</a>' +
       '<button class="primary" data-edit="' + escapeHtml(item.id) + '">Préparer un brouillon</button></div></article>';
   }).join("");
+}
+function renderQualityRadar() {
+  const siteHost = $("site-quality-summary");
+  const entityHost = $("entity-quality-summary");
+  const quality = state.qualityRadar;
+  if (!quality) {
+    if (siteHost) siteHost.innerHTML = '<p class="muted">Classement qualité indisponible pour ce cycle. Les articles restent consultables, mais aucune note n’est supposée.</p>';
+    if (entityHost) entityHost.innerHTML = '<p class="muted">Classement des titres indisponible pour ce cycle. Aucune tendance n’est déclarée confirmée.</p>';
+    return;
+  }
+  if (siteHost) {
+    const summary = quality.summary || {};
+    const leaders = (quality.siteTrends || []).slice(0, 5);
+    siteHost.innerHTML = '<p class="quality-counts"><strong>' + Number(summary.siteArticles || 0) + '</strong> articles évalués · <strong>' +
+      Number(summary.editorialEligibleSites || 0) + '</strong> pré-sélections à vérifier</p>' +
+      (leaders.length ? leaders.map(item => '<article class="signal-card"><div class="meta">SCORE QUALITÉ · ' +
+        Number(item.score) + '/100 · ' + (item.eligibleForEditorial ? 'PRÉ-SÉLECTION À VÉRIFIER' : item.decision === 'surveillance' ? 'À SURVEILLER' : 'NON ÉLIGIBLE') +
+        '</div><h3>' + escapeHtml(item.title) + '</h3><p class="summary">' + escapeHtml(item.publisher) +
+        ' · ' + Number(item.independentSourceCount || 0) + ' média(s) indépendant(s) · ' +
+        Number(item.summaryLength || 0) + ' caractères utiles</p><small class="muted">' +
+        escapeHtml((item.reasons || []).join(' · ') || 'Contrôles automatiques satisfaits ; lecture humaine obligatoire.') +
+        '</small><div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
+        '" target="_blank" rel="noopener noreferrer">Lire la source originale ↗</a></div></article>').join('')
+        : '<p class="muted">Aucun article évalué.</p>');
+  }
+  if (entityHost) {
+    const entities = (quality.entityTrends || []).slice(0, 12);
+    entityHost.innerHTML = '<p class="quality-counts"><strong>' + Number(quality.summary?.confirmedEntities || 0) +
+      '</strong> tendance(s) confirmée(s) · <strong>' + Number(quality.summary?.strongEntities || 0) +
+      '</strong> tendance(s) forte(s) · ' + Number(quality.summary?.entitiesDetected || 0) + ' entité(s) détectée(s)</p>' +
+      (entities.length ? entities.map(item => '<article class="signal-card signal-card-trend signal-card-' +
+        (item.strong ? 'spectaculaire' : item.confirmed ? 'hausse' : 'surveillance') +
+        '"><div class="meta">SCORE TENDANCE · ' + Number(item.score) + '/100 · ' +
+        (item.strong ? 'TENDANCE FORTE CONFIRMÉE' : item.confirmed ? 'CONFIRMÉE' : 'À SURVEILLER') +
+        '</div><h3>' + escapeHtml(item.name) + '</h3><p class="summary">' +
+        escapeHtml(item.type) + ' · ' + Number(item.articleCount || 0) + ' article(s) distinct(s) · ' +
+        Number(item.independentSourceCount || 0) + ' média(s) indépendant(s) · ' +
+        Number(item.verifiedArticleCount || 0) + ' source(s) originale(s) vérifiée(s)</p><small class="muted">' +
+        escapeHtml((item.reasons || []).join(' · ') || 'Critères de confirmation atteints.') +
+        '</small>' + (item.url ? '<div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
+        '" target="_blank" rel="noopener noreferrer">Fiche catalogue ↗</a></div>' : '') + '</article>').join('')
+        : '<p class="muted">Aucun nom ou titre évalué à partir des actualités.</p>');
+  }
 }
 function renderSearchSignals() {
   const host = $("search-signals");
@@ -600,10 +643,10 @@ function makeDraft() {
 }
 async function loadRadar() {
   try {
-    const [newsResponse, sourceResponse, trendsResponse] = await Promise.all([
+    const [newsResponse, sourceResponse, trendsResponse, qualityResponse] = await Promise.all([
       fetch("./data/latest-news.json", { cache: "no-store" }),
       fetch("./data/sources.json", { cache: "no-store" }),
-      fetch("./data/trend-signals.json", { cache: "no-store" }).catch(() => null)
+      fetch("./data/trend-signals.json", { cache: "no-store" }).catch(() => null),\n      fetch("./data/trend-quality.json", { cache: "no-store" }).catch(() => null)
     ]);
     if (!newsResponse.ok) throw new Error("Fichier du radar indisponible (HTTP " + newsResponse.status + ")");
     const data = await newsResponse.json();
