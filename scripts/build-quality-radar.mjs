@@ -112,8 +112,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const searchScore = searchMatches.length ? 10 : 0;
     const catalogScore = catalogEntry?.trending > 0 ? Math.min(10, Math.round(catalogEntry.trending / 25)) : 0;
     const score = clamp(mediaScore + articleScore + freshScore + verificationScore + searchScore + catalogScore);
-    const confirmed = independentNames.length >= 2 && recentArticles.length >= 2 &&
-      recentArticles.length >= 2 && verifiedCount >= 1 && score >= 65;
+    const confirmed = independentNames.length >= 2 && recentArticles.length >= 2 && verifiedCount >= 1 && score >= 60;
     const strong = confirmed && independentNames.length >= 3 && recentArticles.length >= 3 && score >= 80;
     const reasons = [];
     if (independentNames.length < 2) reasons.push("Moins de deux médias indépendants");
