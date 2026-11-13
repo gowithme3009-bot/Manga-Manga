@@ -145,6 +145,12 @@
         <h1>Créer le visuel</h1><div class="stage-kicker"><span class="stage-light" data-state="active"></span><strong>ÉTAPE 3 SUR 4 · IMAGE</strong></div>
         <p class="lead">Test de génération Stable Diffusion XL via OVHcloud, sans clé API enregistrée dans le site. Le service peut limiter les requêtes anonymes.</p>
         <div class="panel editor-panel image-generator-panel">
+          <label for="image-generation-mode">Mode de création</label>
+          <select id="image-generation-mode">
+            <option value="fidelity">Fidélité maximale · personnage reconnaissable</option>
+            <option value="creative" selected>Créativité · scène libre inspirée du sujet</option>
+          </select>
+          <p class="muted">Fidélité maximale privilégie les traits connus du personnage. Créativité laisse davantage de liberté à la composition.</p>
           <label for="image-prompt">Prompt maître détecté automatiquement</label>
           <textarea id="image-prompt" rows="5" maxlength="1800" readonly placeholder="Enregistre d’abord ta publication à l’étape 2. Le prompt sera préparé automatiquement."></textarea>
           <p class="muted" id="master-prompt-status">Le prompt sera construit depuis le titre et le contenu enregistrés à l’étape 2.</p>
