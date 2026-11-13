@@ -661,6 +661,7 @@ async function loadRadar() {
       state.editorialSignals = Array.isArray(trendData.mentions) ? trendData.mentions : [];
       state.catalog = Array.isArray(trendData.catalogItems) ? trendData.catalogItems : [];
     } else { state.searchSignals = []; state.editorialSignals = []; state.catalog = []; }
+    state.qualityRadar = qualityResponse?.ok ? await qualityResponse.json() : null;
     state.sources = (config.rssSources || []).map(source => ({
       ...source,
       ...(collected.get(source.id) || {}),
@@ -672,6 +673,7 @@ async function loadRadar() {
     $("story-select").innerHTML = '<option value="">Choisir une actualité…</option>' +
       state.items.map(item => '<option value="' + escapeHtml(item.id) + '">' +
         escapeHtml(item.title) + "</option>").join("");
+    renderQualityRadar();
     renderNews();
     renderSearchSignals();
     renderEditorialSignals();
