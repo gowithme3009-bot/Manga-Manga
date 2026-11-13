@@ -21,7 +21,7 @@ export function matchCatalogEntities(term, catalog) {
   const normalized = normalizeEntityText(term);
   if (!normalized) return [];
   const padded = " " + normalized + " ";
-  return (catalog || []).map(entity => {
+  const matches = (catalog || []).map(entity => {
     const matchedAliases = [...new Set((entity.aliases || [])
       .filter(alias => {
         const candidate = normalizeEntityText(alias);
