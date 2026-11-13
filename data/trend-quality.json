@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:05:19.141Z",
+  "generatedAt": "2026-11-13T03:06:02.961Z",
   "policy": {
     "siteScore": {
       "sourceReliability": 20,
@@ -629,33 +629,6 @@
       ]
     },
     {
-      "id": "d654be900ff1989f99cd",
-      "title": "Teto Kasane Comes to Fortnite Festival",
-      "url": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754",
-      "publishedAt": "2026-11-13T03:00:00.000Z",
-      "publisher": "Anime News Network",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "summaryLength": 73,
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754"
-      },
-      "summary": "And will appear in Fortnite Battle Royale with Vocaloid idol Hatsune Miku",
-      "score": 35,
-      "decision": "ecarte",
-      "eligibleForEditorial": false,
-      "independentSourceCount": 1,
-      "verifiedOriginal": false,
-      "freshnessHours": 0,
-      "reasons": [
-        "Page originale non vérifiée",
-        "Contenu trop court"
-      ]
-    },
-    {
       "id": "17fef6b376112218d1fe",
       "title": "Blue Rights Company Unveils Pilot Film for Orochi -Seventh Echoes- Original Animated Feature",
       "url": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748",
@@ -820,6 +793,30 @@
       "independentSourceCount": 1,
       "verifiedOriginal": false,
       "freshnessHours": 38,
+      "reasons": [
+        "Page originale non vérifiée",
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
+      ]
+    },
+    {
+      "id": "23c1052718cae3facf20",
+      "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
+      "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
+      "publishedAt": "2026-11-11T11:25:05.000Z",
+      "publisher": "Anime Corner",
+      "sourceNames": [
+        "Anime Corner"
+      ],
+      "summaryLength": 131,
+      "sourceVerification": null,
+      "summary": "Mashle: Magic and Muscles Season 3 TV anime revealed the first main and new key visual, along with a January 9, 2027 premiere date.",
+      "score": 35,
+      "decision": "ecarte",
+      "eligibleForEditorial": false,
+      "independentSourceCount": 1,
+      "verifiedOriginal": false,
+      "freshnessHours": 40,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
@@ -998,7 +995,11 @@
         "Anime News Network"
       ],
       "summaryLength": 62,
-      "sourceVerification": null,
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713"
+      },
       "summary": "Lucas and Chris tackle the next great vice in anime: gambling!",
       "score": 30,
       "decision": "ecarte",
@@ -1663,7 +1664,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 37,
+      "freshnessHours": 38,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
@@ -2607,6 +2608,68 @@
       ]
     },
     {
+      "entityId": "anime-151801",
+      "name": "MASHLE: MAGIC AND MUSCLES",
+      "type": "anime",
+      "score": 50,
+      "decision": "surveillance",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 4,
+      "recentArticleCount": 0,
+      "independentSourceCount": 4,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "sourceNames": [
+        "MyAnimeList News",
+        "Anime News Network",
+        "AnimOtaku",
+        "Anime Corner"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/151801",
+      "reasons": [
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        },
+        {
+          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
+          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+          "publishedAt": "2026-11-11T11:30:16.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
+        {
+          "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
+          "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
+          "publishedAt": "2026-11-11T11:25:05.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "anime-161645",
       "name": "The Apothecary Diaries",
       "type": "anime",
@@ -2710,59 +2773,6 @@
           "publishedAt": "2026-11-12T09:43:11.000Z",
           "sources": [
             "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-151801",
-      "name": "MASHLE: MAGIC AND MUSCLES",
-      "type": "anime",
-      "score": 45,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 3,
-      "recentArticleCount": 0,
-      "independentSourceCount": 3,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T14:46:50.000Z",
-      "sourceNames": [
-        "MyAnimeList News",
-        "Anime News Network",
-        "AnimOtaku"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 12,
-      "url": "https://anilist.co/anime/151801",
-      "reasons": [
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        },
-        {
-          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
-          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
-          "publishedAt": "2026-11-11T11:30:16.000Z",
-          "sources": [
-            "AnimOtaku"
           ]
         }
       ]

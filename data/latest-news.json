@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:05:19.141Z",
+  "generatedAt": "2026-11-13T03:06:02.961Z",
   "items": [
-    {
-      "id": "d654be900ff1989f99cd",
-      "title": "Teto Kasane Comes to Fortnite Festival",
-      "url": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754",
-      "summary": "And will appear in Fortnite Battle Royale with Vocaloid idol Hatsune Miku",
-      "publishedAt": "2026-11-13T03:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 60,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/interest/2026-11-12/teto-kasane-comes-to-fortnite-festival/.243754"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
     {
       "id": "17fef6b376112218d1fe",
       "title": "Blue Rights Company Unveils Pilot Film for Orochi -Seventh Echoes- Original Animated Feature",
@@ -717,7 +686,13 @@
       "independentSourceCount": 1,
       "trendScore": 36,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/this-week-in-anime/2026-11-12/.243713"
+      },
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "a99daaa9fd5517b5ddb0",
@@ -2455,7 +2430,7 @@
       "sourceCount": 0,
       "coverageSourceCount": 1,
       "independentSourceCount": 0,
-      "trendScore": 14,
+      "trendScore": 13,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     },
@@ -2766,6 +2741,31 @@
       "summaryOrigin": "metadata_article_original",
       "articleContentRetrieved": true,
       "articleFetchNote": ""
+    },
+    {
+      "id": "23c1052718cae3facf20",
+      "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
+      "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
+      "summary": "Mashle: Magic and Muscles Season 3 TV anime revealed the first main and new key visual, along with a January 9, 2027 premiere date.",
+      "publishedAt": "2026-11-11T11:25:05.000Z",
+      "source": "Anime Corner",
+      "sourceId": "anime-corner",
+      "language": "en",
+      "publisherName": null,
+      "publisherUrl": null,
+      "category": "actualité",
+      "sources": [
+        "Anime Corner"
+      ],
+      "sourceIds": [
+        "anime-corner"
+      ],
+      "sourceCount": 1,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 1,
+      "trendScore": 11,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
     }
   ],
   "sources": [
@@ -2785,7 +2785,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 58
+      "items": 57
     },
     {
       "id": "manga-news-fr",
