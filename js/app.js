@@ -357,9 +357,7 @@ function runEditorialAssistant() {
       ? answer.query + " dernier tome édition française éditeur officiel"
       : answer.query + " manga anime actualité";
     links.push('<a class="secondary" href="https://www.google.com/search?q=' + encodeURIComponent(query) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(answer.searchLabel || "Rechercher sur le Web") + ' ↗</a>');
-    if (answer.intent?.type === "manga_volume") {
-      links.push('<a class="secondary" href="https://www.google.com/search?q=' + encodeURIComponent(answer.query + " site:kana.fr Naruto tome") + '" target="_blank" rel="noopener noreferrer">Recherche éditeur Kana ↗</a>');
-    }
+
   }
   const catalogLinks = (evidence.catalogMatches || []).slice(0, 3).map(item =>
     '<a href="' + escapeHtml(item.url || "#") + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.name) + ' · fiche catalogue ↗</a>'
