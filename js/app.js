@@ -294,7 +294,8 @@ function renderQualityRadar() {
       (leaders.length ? leaders.map(item => '<article class="signal-card"><div class="meta">SCORE QUALITÉ · ' +
         Number(item.score) + '/100 · ' + (item.eligibleForEditorial ? 'PRÉ-SÉLECTION · TENDANCE CONFIRMÉE' : item.articleQualityEligible ? 'ARTICLE SOURCÉ · TENDANCE NON CONFIRMÉE' : item.decision === 'surveillance' ? 'À SURVEILLER' : 'NON ÉLIGIBLE') +
         '</div><h3>' + escapeHtml(item.title) + '</h3><p class="summary">' + escapeHtml(item.publisher) +
-        ' · ' + Number(item.independentSourceCount || 0) + ' média(s) indépendant(s) · ' +
+        ' · ' + Number(item.independentSourceCount || 0) + ' média(s) pour cet article · ' +
+        (item.trendConfirmed ? 'tendance couverte par ' + Number(item.trendIndependentSourceCount || 0) + ' média(s) indépendant(s)' : 'couverture multi-médias non confirmée') + ' · ' +
         Number(item.summaryLength || 0) + ' caractères utiles</p><small class="muted">' +
         escapeHtml((item.reasons || []).join(' · ') || 'Contrôles automatiques satisfaits ; lecture humaine obligatoire.') +
         '</small><div class="card-actions"><a class="secondary" href="' + escapeHtml(item.url) +
