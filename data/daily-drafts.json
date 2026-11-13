@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T01:03:44.901Z",
+  "generatedAt": "2026-11-13T02:47:41.477Z",
   "freshnessWindowHours": 24,
   "limit": 4,
   "eligibleCount": 35,
@@ -28,21 +28,21 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T21:18:42.000Z",
-      "freshnessHours": 4,
-      "trendScore": 51,
+      "freshnessHours": 5,
+      "trendScore": 48,
       "editorialFitScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "L’épisode 7 de la saison 2 de Black Clover sera mis en ligne le samedi 14 novembre 2026 à 16 h sur Crunchyroll, en VOSTFR. Dans ce chapitre, Noelle et ses compagnons affrontent le démon suprême Megicula, puis Asta et Luck interviennent juste à temps pour relancer l’offensive.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
-      "hashtags": "#BlackClover,#Anime,#Saison2",
+      "text": "L’épisode 7 de la saison 2 de Black Clover sera diffusé le samedi 14 novembre 2026 à 16 h sur Crunchyroll en VOSTFR en France. Le résumé indique que Noelle, Asta et Luck affrontent le démon suprême Megicula, tandis qu’une silhouette mystérieuse apparaît sur le champ de bataille.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "hashtags": "#BlackClover,#Anime,#Crunchyroll",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer que la date, l’heure et le résumé proviennent bien de l’extrait et que le lien Crunchyroll est correct. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier que la date, l’heure et le résumé correspondent bien à l’extrait original et que les noms des personnages sont correctement orthographiés. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T01:04:03.095Z",
-      "aiTitle": "Black Clover S2 Épisode 7 : date, heure et résumé",
+      "aiGeneratedAt": "2026-11-13T02:48:03.980Z",
+      "aiTitle": "Black Clover S2 – Épisode 7 : sortie et résumé",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -50,7 +50,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer que la date, l’heure et le résumé proviennent bien de l’extrait et que le lien Crunchyroll est correct."
+      "aiVerificationNotes": "Vérifier que la date, l’heure et le résumé correspondent bien à l’extrait original et que les noms des personnages sont correctement orthographiés."
     },
     {
       "id": "126adf4280b312a1b7b1",
@@ -75,21 +75,21 @@
         "MyAnimeList News"
       ],
       "publishedAt": "2026-11-12T10:32:45.000Z",
-      "freshnessHours": 15,
-      "trendScore": 33,
+      "freshnessHours": 16,
+      "trendScore": 30,
       "editorialFitScore": 16,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé l’arrivée de Kenji Yamauchi et Ken Uo comme duo de personnages secondaires, incarnant respectivement Mantarou Kyougoku et Toujin Touyama. L’adaptation, prévue pour 2027, est dirigée par Kenichi Nishida avec Takahiro Nagano à la composition de série et Nozomi Kawashige en charge du design des personnages.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Le site officiel de l’anime Shin Oishinbo a annoncé le duo de doublage de soutien : Kenji Yamauchi incarnera Mantarou Kyougoku et Ken Uo prêtera sa voix à Toujin Touyama. L’anime est prévu pour une première diffusion en 2027.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#ShinOishinbo,#Anime,#Doublage",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier que les noms des doubleurs, leurs rôles et les informations de production sont bien présents dans l’extrait fourni. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer les noms des doubleurs, leurs rôles et l’année de diffusion annoncée dans l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T01:04:03.095Z",
-      "aiTitle": "Shin Oishinbo : nouveau duo de voix annoncé",
+      "aiGeneratedAt": "2026-11-13T02:48:03.980Z",
+      "aiTitle": "Shin Oishinbo – Annonce du duo de doublage",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -97,7 +97,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Vérifier que les noms des doubleurs, leurs rôles et les informations de production sont bien présents dans l’extrait fourni."
+      "aiVerificationNotes": "Confirmer les noms des doubleurs, leurs rôles et l’année de diffusion annoncée dans l’extrait."
     },
     {
       "id": "8f4f2796db4c65dad4f6",
@@ -122,21 +122,21 @@
         "Journal du Japon"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": 12,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "LiSA s’est produite au Zénith de Paris le 20 septembre 2026. Le concert a affiché complet en quelques minutes, avec 6 000 fans présents, marquant une escale majeure de sa première tournée mondiale.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "LiSA a donné un concert au Zénith de Paris le 20 septembre 2026. La salle a été remplie en quelques minutes, avec 6 000 fans présents pour cette première escale de sa tournée mondiale.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#LiSA,#Concert,#Paris",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Confirmer la date du concert, le nombre de spectateurs et le caractère complet du spectacle tel qu’indiqué dans l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait récupéré depuis les métadonnées de la page originale ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. Vérifier la date du concert, le nombre de spectateurs et le caractère complet de la salle selon l’extrait. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T01:04:03.095Z",
-      "aiTitle": "LiSA a rempli le Zénith de Paris",
+      "aiGeneratedAt": "2026-11-13T02:48:03.980Z",
+      "aiTitle": "LiSA – Concert au Zénith de Paris",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -144,7 +144,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "Confirmer la date du concert, le nombre de spectateurs et le caractère complet du spectacle tel qu’indiqué dans l’extrait."
+      "aiVerificationNotes": "Vérifier la date du concert, le nombre de spectateurs et le caractère complet de la salle selon l’extrait."
     },
     {
       "id": "89d128021464090bb535",
@@ -169,21 +169,21 @@
         "Anime Corner"
       ],
       "publishedAt": "2026-11-12T09:43:11.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
+      "freshnessHours": 17,
+      "trendScore": 29,
       "editorialFitScore": 10,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
       "coverageSourceCount": 1,
       "editorialReady": false,
-      "text": "Dans une interview, le réalisateur Daisuke Sako explique que la saison 2 de Blue Box a été conçue pour recréer fidèlement des lieux réels et nommés, afin que les spectateurs puissent reconnaître et ressentir l’existence de ces environnements, même s’ils n’ont jamais quitté leur ville.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
+      "text": "Dans une interview, le réalisateur Daisuke Sako explique que la saison 2 de Blue Box vise à reproduire fidèlement des lieux réels du Japon et que la série introduit le personnage Yumeka Goto, issue du passé de Chinatsu. L’équipe artistique a travaillé pour que les spectateurs reconnaissent ces décors.\n\nQuestion à la communauté : Que pensez-vous de cette actualité ?",
       "hashtags": "#BlueBox,#Anime,#Interview",
       "status": "rédigé par IA · à relire",
-      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. S’assurer que la citation sur la reconstitution des lieux réels provient bien de l’extrait de l’interview. Validation humaine obligatoire. Aucune publication automatique.",
+      "note": "Prépublication rédigée par l’assistant IA à partir des éléments récupérés depuis la source. Extrait de la page originale anglophone traduit en français ; ce n’est pas l’article intégral, vérifier les faits, noms et dates. Statut de provenance : Extrait récupéré sur le média d’origine. Un extrait de la page originale a été récupéré, mais l’article intégral n’a pas été lu. Contrôle automatique des chiffres : aucune valeur numérique supplémentaire détectée. Cela ne valide pas les autres affirmations. S’assurer que les citations du réalisateur et l’introduction de Yumeka Goto sont bien présentes dans l’extrait fourni. Validation humaine obligatoire. Aucune publication automatique.",
       "aiGenerated": true,
       "aiModel": "openai/gpt-oss-120b",
-      "aiGeneratedAt": "2026-11-13T01:04:03.095Z",
-      "aiTitle": "Blue Box S2 : le réalisateur Daisuke Sako parle des décors",
+      "aiGeneratedAt": "2026-11-13T02:48:03.980Z",
+      "aiTitle": "Blue Box S2 – Interview du réalisateur Daisuke Sako",
       "aiSourceStatus": "original_page_excerpt_verified",
       "aiAudit": {
         "status": "no_numeric_alert",
@@ -191,7 +191,7 @@
         "scope": "Contrôle automatique partiel des chiffres uniquement ; les affirmations et paraphrases doivent être vérifiées à la source."
       },
       "aiCommunityQuestion": "Que pensez-vous de cette actualité ?",
-      "aiVerificationNotes": "S’assurer que la citation sur la reconstitution des lieux réels provient bien de l’extrait de l’interview."
+      "aiVerificationNotes": "S’assurer que les citations du réalisateur et l’introduction de Yumeka Goto sont bien présentes dans l’extrait fourni."
     },
     {
       "id": "45fa1cefc95b1bf77fda",
@@ -216,8 +216,8 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T20:53:35.000Z",
-      "freshnessHours": 4,
-      "trendScore": 50,
+      "freshnessHours": 6,
+      "trendScore": 47,
       "editorialFitScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
@@ -251,8 +251,8 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T16:13:05.000Z",
-      "freshnessHours": 9,
-      "trendScore": 42,
+      "freshnessHours": 11,
+      "trendScore": 39,
       "editorialFitScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
@@ -286,8 +286,8 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T13:38:52.000Z",
-      "freshnessHours": 11,
-      "trendScore": 37,
+      "freshnessHours": 13,
+      "trendScore": 35,
       "editorialFitScore": 24,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
@@ -321,8 +321,8 @@
         "MyAnimeList News"
       ],
       "publishedAt": "2026-11-12T09:32:05.000Z",
-      "freshnessHours": 16,
-      "trendScore": 31,
+      "freshnessHours": 17,
+      "trendScore": 29,
       "editorialFitScore": 16,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
@@ -356,8 +356,8 @@
         "AnimOtaku"
       ],
       "publishedAt": "2026-11-12T13:59:00.000Z",
-      "freshnessHours": 11,
-      "trendScore": 38,
+      "freshnessHours": 13,
+      "trendScore": 35,
       "editorialFitScore": -1,
       "trendLevel": "surveillance",
       "independentSourceCount": 1,
@@ -388,8 +388,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T17:51:22.000Z",
-      "freshnessHours": 7,
-      "trendScore": 44,
+      "freshnessHours": 9,
+      "trendScore": 41,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -420,8 +420,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -452,8 +452,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -484,8 +484,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -516,8 +516,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -548,8 +548,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -580,8 +580,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -612,8 +612,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T16:00:00.000Z",
-      "freshnessHours": 9,
-      "trendScore": 41,
+      "freshnessHours": 11,
+      "trendScore": 38,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -644,8 +644,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T15:10:28.000Z",
-      "freshnessHours": 10,
-      "trendScore": 40,
+      "freshnessHours": 12,
+      "trendScore": 37,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -676,8 +676,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T15:07:58.000Z",
-      "freshnessHours": 10,
-      "trendScore": 40,
+      "freshnessHours": 12,
+      "trendScore": 37,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -708,8 +708,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T15:00:00.000Z",
-      "freshnessHours": 10,
-      "trendScore": 39,
+      "freshnessHours": 12,
+      "trendScore": 37,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -740,8 +740,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T14:00:00.000Z",
-      "freshnessHours": 11,
-      "trendScore": 38,
+      "freshnessHours": 13,
+      "trendScore": 35,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -772,8 +772,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 12,
-      "trendScore": 36,
+      "freshnessHours": 14,
+      "trendScore": 34,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -804,8 +804,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T13:00:00.000Z",
-      "freshnessHours": 12,
-      "trendScore": 36,
+      "freshnessHours": 14,
+      "trendScore": 34,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -836,8 +836,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:49:32.000Z",
-      "freshnessHours": 13,
-      "trendScore": 35,
+      "freshnessHours": 15,
+      "trendScore": 32,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -868,8 +868,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:19:59.000Z",
-      "freshnessHours": 14,
-      "trendScore": 34,
+      "freshnessHours": 15,
+      "trendScore": 32,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -900,8 +900,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T11:00:00.000Z",
-      "freshnessHours": 14,
-      "trendScore": 33,
+      "freshnessHours": 16,
+      "trendScore": 31,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -932,8 +932,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:55:00.000Z",
-      "freshnessHours": 14,
-      "trendScore": 33,
+      "freshnessHours": 16,
+      "trendScore": 31,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -964,8 +964,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:30:42.000Z",
-      "freshnessHours": 15,
-      "trendScore": 33,
+      "freshnessHours": 16,
+      "trendScore": 30,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -996,8 +996,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T10:00:00.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
+      "freshnessHours": 17,
+      "trendScore": 30,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1028,8 +1028,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T09:52:53.000Z",
-      "freshnessHours": 15,
-      "trendScore": 32,
+      "freshnessHours": 17,
+      "trendScore": 30,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1060,8 +1060,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:56:51.000Z",
-      "freshnessHours": 16,
-      "trendScore": 31,
+      "freshnessHours": 18,
+      "trendScore": 29,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1092,8 +1092,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T08:51:00.000Z",
-      "freshnessHours": 16,
-      "trendScore": 31,
+      "freshnessHours": 18,
+      "trendScore": 28,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1124,8 +1124,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T07:16:42.000Z",
-      "freshnessHours": 18,
-      "trendScore": 29,
+      "freshnessHours": 20,
+      "trendScore": 27,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1156,8 +1156,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T05:30:00.000Z",
-      "freshnessHours": 20,
-      "trendScore": 27,
+      "freshnessHours": 21,
+      "trendScore": 25,
       "editorialFitScore": -7,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1188,8 +1188,8 @@
         "Google Actualités — Manga & Anime"
       ],
       "publishedAt": "2026-11-12T12:00:22.000Z",
-      "freshnessHours": 13,
-      "trendScore": 35,
+      "freshnessHours": 15,
+      "trendScore": 32,
       "editorialFitScore": -13,
       "trendLevel": "surveillance",
       "independentSourceCount": 0,
@@ -1203,8 +1203,8 @@
   ],
   "warnings": [
     "Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.",
-    "17 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
+    "16 actualité(s) de plus de 24 heures écartée(s) des propositions du jour."
   ],
-  "aiGeneratedAt": "2026-11-13T01:04:03.095Z",
+  "aiGeneratedAt": "2026-11-13T02:48:03.980Z",
   "aiModel": "openai/gpt-oss-120b"
 }
