@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:27:00.935Z",
+  "generatedAt": "2026-11-13T03:27:57.215Z",
   "policy": {
     "siteScore": {
-      "sourceReliability": 20,
+      "sourceTraceability": 20,
       "originalPage": 20,
       "factualDetail": 20,
       "freshness": 15,
@@ -27,7 +27,7 @@
     "hardRules": [
       "Une reprise ou un agrégateur ne compte pas comme média indépendant.",
       "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.",
-      "Une tendance forte exige au moins trois médias indépendants et trois articles distincts.",
+      "Une tendance forte exige au moins trois médias indépendants et trois articles récents distincts.",
       "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.",
       "Aucun quota ne force la sélection d'un sujet faible."
     ]
@@ -2520,62 +2520,11 @@
   ],
   "entityTrends": [
     {
-      "entityId": "manga-86123",
-      "name": "Black Clover",
-      "type": "manga",
-      "score": 68,
-      "decision": "surveillance",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 3,
-      "recentArticleCount": 1,
-      "independentSourceCount": 2,
-      "verifiedArticleCount": 1,
-      "latestAt": "2026-11-12T21:18:42.000Z",
-      "sourceNames": [
-        "AnimOtaku",
-        "Anime Corner"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 6,
-      "url": "https://anilist.co/manga/86123",
-      "reasons": [
-        "Moins de deux articles récents",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
-          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
-          "publishedAt": "2026-11-12T21:18:42.000Z",
-          "sources": [
-            "AnimOtaku"
-          ]
-        },
-        {
-          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
-          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
-          "publishedAt": "2026-11-11T18:21:03.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
-          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
-          "publishedAt": "2026-11-11T13:32:50.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-97940",
       "name": "Black Clover",
       "type": "anime",
-      "score": 52,
-      "decision": "surveillance",
+      "score": 47,
+      "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
       "articleCount": 1,
@@ -2610,7 +2559,7 @@
       "entityId": "anime-161645",
       "name": "The Apothecary Diaries",
       "type": "anime",
-      "score": 49,
+      "score": 44,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -2643,10 +2592,61 @@
       ]
     },
     {
+      "entityId": "manga-86123",
+      "name": "Black Clover",
+      "type": "manga",
+      "score": 43,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 3,
+      "recentArticleCount": 1,
+      "independentSourceCount": 1,
+      "verifiedArticleCount": 1,
+      "latestAt": "2026-11-12T21:18:42.000Z",
+      "sourceNames": [
+        "AnimOtaku"
+      ],
+      "searchSignalCount": 0,
+      "catalogTrending": 6,
+      "url": "https://anilist.co/manga/86123",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
+          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
+          "publishedAt": "2026-11-12T21:18:42.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "anime-223",
       "name": "Dragon Ball",
       "type": "anime",
-      "score": 46,
+      "score": 41,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -2682,7 +2682,7 @@
       "entityId": "anime-189123",
       "name": "Blue Box Season 2",
       "type": "anime",
-      "score": 46,
+      "score": 41,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -2715,142 +2715,10 @@
       ]
     },
     {
-      "entityId": "anime-151801",
-      "name": "MASHLE: MAGIC AND MUSCLES",
-      "type": "anime",
-      "score": 35,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 0,
-      "independentSourceCount": 2,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T14:46:50.000Z",
-      "sourceNames": [
-        "MyAnimeList News",
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 12,
-      "url": "https://anilist.co/anime/151801",
-      "reasons": [
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-211778",
-      "name": "The World's Strongest Witch",
-      "type": "anime",
-      "score": 35,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 1,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-12T16:00:00.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 56,
-      "url": "https://anilist.co/anime/211778",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        },
-        {
-          "title": "The World's Strongest Witch ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-216895",
-      "name": "Welsh & Shedar",
-      "type": "anime",
-      "score": 31,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 1,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-12T13:00:00.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 15,
-      "url": "https://anilist.co/anime/216895",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
-          "publishedAt": "2026-11-12T13:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        },
-        {
-          "title": "Welsh & Shedar Anime Launches Webtoon",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-          "publishedAt": "2026-11-12T03:10:20.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-108465",
       "name": "Mushoku Tensei: Jobless Reincarnation",
       "type": "anime",
-      "score": 29,
+      "score": 24,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -2887,7 +2755,7 @@
       "entityId": "anime-159042",
       "name": "Reincarnated as a Sword Season 2",
       "type": "anime",
-      "score": 29,
+      "score": 24,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -2921,91 +2789,10 @@
       ]
     },
     {
-      "entityId": "anime-195604",
-      "name": "Black Clover Season 2",
-      "type": "anime",
-      "score": 28,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 2,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T18:21:03.000Z",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 69,
-      "url": "https://anilist.co/anime/195604",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
-          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
-          "publishedAt": "2026-11-11T18:21:03.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        },
-        {
-          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
-          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
-          "publishedAt": "2026-11-11T13:32:50.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-195539",
-      "name": "Cyberpunk: Edgerunners 2",
-      "type": "anime",
-      "score": 23,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T20:50:02.000Z",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 80,
-      "url": "https://anilist.co/anime/195539",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
-          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
-          "publishedAt": "2026-11-11T20:50:02.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-21",
       "name": "ONE PIECE",
       "type": "anime",
-      "score": 23,
+      "score": 18,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3037,184 +2824,41 @@
       ]
     },
     {
-      "entityId": "anime-191656",
-      "name": "Even the Student Council Has Its Holes!",
+      "entityId": "anime-211778",
+      "name": "The World's Strongest Witch",
       "type": "anime",
-      "score": 22,
+      "score": 15,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
+      "articleCount": 2,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
       "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:30:00.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
+      "latestAt": "2026-11-12T16:00:00.000Z",
+      "sourceNames": [],
       "searchSignalCount": 0,
-      "catalogTrending": 39,
-      "url": "https://anilist.co/anime/191656",
+      "catalogTrending": 56,
+      "url": "https://anilist.co/anime/211778",
       "reasons": [
         "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
         "Moins de deux articles récents",
         "Aucun extrait de source originale vérifié",
         "Aucun signal Google Trends associé"
       ],
       "articles": [
         {
-          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
-          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
+          "publishedAt": "2026-11-12T16:00:00.000Z",
           "sources": [
-            "Anime News Network"
+            "Google Actualités — Manga & Anime"
           ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-128067",
-      "name": "SSS-Class Revival Hunter",
-      "type": "manga",
-      "score": 22,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:08:52.000Z",
-      "sourceNames": [
-        "Anime Corner"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 39,
-      "url": "https://anilist.co/manga/128067",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
+        },
         {
-          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
-          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
-          "publishedAt": "2026-11-11T16:08:52.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-206949",
-      "name": "Nia Liston: The Merciless Maiden",
-      "type": "anime",
-      "score": 22,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T15:31:35.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 49,
-      "url": "https://anilist.co/anime/206949",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
-          "publishedAt": "2026-11-11T15:31:35.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-149544",
-      "name": "The Guy She Was Interested In Wasn't a Guy at All",
-      "type": "manga",
-      "score": 20,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T21:30:00.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 4,
-      "url": "https://anilist.co/manga/149544",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
-          "publishedAt": "2026-11-11T21:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-147863",
-      "name": "Even the Student Council Has Its Holes!",
-      "type": "manga",
-      "score": 20,
-      "decision": "signal_faible",
-      "confirmed": false,
-      "strong": false,
-      "articleCount": 1,
-      "recentArticleCount": 0,
-      "independentSourceCount": 1,
-      "verifiedArticleCount": 0,
-      "latestAt": "2026-11-11T16:30:00.000Z",
-      "sourceNames": [
-        "Anime News Network"
-      ],
-      "searchSignalCount": 0,
-      "catalogTrending": 9,
-      "url": "https://anilist.co/manga/147863",
-      "reasons": [
-        "Moins de deux médias indépendants",
-        "Moins de deux articles distincts",
-        "Moins de deux articles récents",
-        "Aucun extrait de source originale vérifié",
-        "Aucun signal Google Trends associé"
-      ],
-      "articles": [
-        {
-          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
-          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "title": "The World's Strongest Witch ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+          "publishedAt": "2026-11-11T17:30:00.000Z",
           "sources": [
             "Anime News Network"
           ]
@@ -3225,7 +2869,7 @@
       "entityId": "anime-163142",
       "name": "A Returner's Magic Should Be Special",
       "type": "anime",
-      "score": 19,
+      "score": 14,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3260,7 +2904,7 @@
       "entityId": "manga-105393",
       "name": "A Returner's Magic Should Be Special",
       "type": "manga",
-      "score": 18,
+      "score": 13,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3295,7 +2939,7 @@
       "entityId": "anime-139587",
       "name": "Reincarnated as a Sword",
       "type": "anime",
-      "score": 18,
+      "score": 13,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3330,7 +2974,7 @@
       "entityId": "anime-152682",
       "name": "Sasaki and Peeps",
       "type": "anime",
-      "score": 18,
+      "score": 13,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3362,10 +3006,52 @@
       ]
     },
     {
+      "entityId": "anime-216895",
+      "name": "Welsh & Shedar",
+      "type": "anime",
+      "score": 11,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 1,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-12T13:00:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 15,
+      "url": "https://anilist.co/anime/216895",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
+          "publishedAt": "2026-11-12T13:00:00.000Z",
+          "sources": [
+            "Google Actualités — Manga & Anime"
+          ]
+        },
+        {
+          "title": "Welsh & Shedar Anime Launches Webtoon",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+          "publishedAt": "2026-11-12T03:10:20.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "manga-30013",
       "name": "One Piece",
       "type": "manga",
-      "score": 16,
+      "score": 11,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3400,7 +3086,7 @@
       "entityId": "anime-219548",
       "name": "Spirit Circle",
       "type": "anime",
-      "score": 15,
+      "score": 10,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3432,10 +3118,234 @@
       ]
     },
     {
+      "entityId": "anime-195604",
+      "name": "Black Clover Season 2",
+      "type": "anime",
+      "score": 8,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T18:21:03.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 69,
+      "url": "https://anilist.co/anime/195604",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
+          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
+          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        },
+        {
+          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
+          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
+          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195539",
+      "name": "Cyberpunk: Edgerunners 2",
+      "type": "anime",
+      "score": 8,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T20:50:02.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 80,
+      "url": "https://anilist.co/anime/195539",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Bartosz Sztybor and Saya Elder on Cyberpunk: Edgerunners 2's Emotional Impact",
+          "url": "https://animecorner.me/bartosz-sztybor-and-saya-elder-on-cyberpunk-edgerunners-2s-emotional-impact/",
+          "publishedAt": "2026-11-11T20:50:02.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-191656",
+      "name": "Even the Student Council Has Its Holes!",
+      "type": "anime",
+      "score": 7,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 39,
+      "url": "https://anilist.co/anime/191656",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-128067",
+      "name": "SSS-Class Revival Hunter",
+      "type": "manga",
+      "score": 7,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:08:52.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 39,
+      "url": "https://anilist.co/manga/128067",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+          "publishedAt": "2026-11-11T16:08:52.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-206949",
+      "name": "Nia Liston: The Merciless Maiden",
+      "type": "anime",
+      "score": 7,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T15:31:35.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 49,
+      "url": "https://anilist.co/anime/206949",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Nia Liston: The Merciless Maiden ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/nia-liston-the-merciless-maiden/episode-6/.243720",
+          "publishedAt": "2026-11-11T15:31:35.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-151801",
+      "name": "MASHLE: MAGIC AND MUSCLES",
+      "type": "anime",
+      "score": 5,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 2,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 12,
+      "url": "https://anilist.co/anime/151801",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "manga-211011",
       "name": "The Chrysalis Heart",
       "type": "manga",
-      "score": 10,
+      "score": 5,
       "decision": "signal_faible",
       "confirmed": false,
       "strong": false,
@@ -3462,6 +3372,76 @@
           "publishedAt": "2026-11-11T22:12:35.000Z",
           "sources": [
             "Annonces officielles — Google Actualités"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-149544",
+      "name": "The Guy She Was Interested In Wasn't a Guy at All",
+      "type": "manga",
+      "score": 5,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T21:30:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 4,
+      "url": "https://anilist.co/manga/149544",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Crunchyroll Screens The Guy She Was Interested In Wasn't a Guy at All, Here U Are, Bless Premieres at Anime Frontier",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/crunchyroll-screens-the-guy-she-was-interested-in-wasnt-a-guy-at-all-here-u-are-bless-premieres-at-/.243735",
+          "publishedAt": "2026-11-11T21:30:00.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "manga-147863",
+      "name": "Even the Student Council Has Its Holes!",
+      "type": "manga",
+      "score": 5,
+      "decision": "signal_faible",
+      "confirmed": false,
+      "strong": false,
+      "articleCount": 1,
+      "recentArticleCount": 0,
+      "independentSourceCount": 0,
+      "verifiedArticleCount": 0,
+      "latestAt": "2026-11-11T16:30:00.000Z",
+      "sourceNames": [],
+      "searchSignalCount": 0,
+      "catalogTrending": 9,
+      "url": "https://anilist.co/manga/147863",
+      "reasons": [
+        "Moins de deux médias indépendants",
+        "Moins de deux articles distincts",
+        "Moins de deux articles récents",
+        "Aucun extrait de source originale vérifié",
+        "Aucun signal Google Trends associé"
+      ],
+      "articles": [
+        {
+          "title": "Even the Student Council Has Its Holes! ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/even-the-student-council-has-its-holes/episode-6/.243721",
+          "publishedAt": "2026-11-11T16:30:00.000Z",
+          "sources": [
+            "Anime News Network"
           ]
         }
       ]
