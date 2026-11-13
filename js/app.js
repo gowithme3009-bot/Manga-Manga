@@ -312,7 +312,7 @@ function renderQualityRadar() {
         '"><div class="meta">SCORE TENDANCE · ' + Number(item.score) + '/100 · ' +
         (item.strong ? 'TENDANCE FORTE CONFIRMÉE' : item.confirmed ? 'CONFIRMÉE' : 'À SURVEILLER') +
         '</div><h3>' + escapeHtml(item.name) + '</h3><p class="summary">' +
-        escapeHtml(item.type) + ' · ' + Number(item.articleCount || 0) + ' article(s) distinct(s) · ' +
+        escapeHtml(item.type) + ' · ' + Number(item.recentArticleCount || 0) + ' article(s) distinct(s) sur 48 h · ' +
         Number(item.independentSourceCount || 0) + ' média(s) indépendant(s) · ' +
         Number(item.verifiedArticleCount || 0) + ' source(s) originale(s) vérifiée(s)</p><small class="muted">' +
         escapeHtml((item.reasons || []).join(' · ') || 'Critères de confirmation atteints.') +
