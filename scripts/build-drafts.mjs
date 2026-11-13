@@ -199,11 +199,8 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
 
 export async function runBuild({ inputPath = path.join(ROOT, "data/latest-news.json"), outputPath = path.join(ROOT, "data/daily-drafts.json") } = {}) {
   const input = JSON.parse(await fs.readFile(inputPath, "utf8"));
-  let qualityById = null;
-  try {
-    const quality = JSON.parse(await fs.readFile(path.join(ROOT, "data/trend-quality.json"), "utf8"));
-    qualityById = new Map((quality.siteTrends || []).map(item => [item.id, item]));
-  } catch { /* Compatibilité des exécutions manuelles sans rapport qualité */ }
+  const quality = JSON.parse(await fs.readFile(path.join(ROOT, "data/trend-quality.json"), "utf8"));
+  const qualityById = new Map((quality.siteTrends || []).map(item => [item.id, item]));
   const result = buildDailyDrafts(input.items, input.generatedAt || new Date().toISOString(), qualityById);
   await fs.writeFile(outputPath, JSON.stringify(result, null, 2) + "\n");
   return result;
