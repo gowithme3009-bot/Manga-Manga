@@ -123,6 +123,8 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
       freshnessHours,
       trendScore: Number.isFinite(item.trendScore) ? item.trendScore : 0,
       editorialFitScore: scoreEditorialFit({ ...item, summary }),
+      qualityScore: qualityById instanceof Map ? (qualityById.get(String(key))?.score ?? null) : null,
+      qualityDecision: qualityById instanceof Map ? (qualityById.get(String(key))?.decision ?? "non_evalue") : "non_evalue",
       trendLevel,
       independentSourceCount,
       coverageSourceCount,
@@ -167,7 +169,10 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
   const chosenIds = new Set(firstPass.map(candidate => candidate.id));
   const ordered = [...firstPass, ...qualityFiltered.filter(candidate => !chosenIds.has(candidate.id))].slice(0, 40);
   const warnings = [];
-  if (qualityById instanceof Map && qualityFiltered.length < candidates.length) {\n    warnings.push((candidates.length - qualityFiltered.length) + " sujet(s) écarté(s) par le contrôle qualité strict : source originale, contenu détaillé et fraîcheur obligatoires.");\n  }\n  if (qualityFiltered.length < 4) {
+  if (qualityById instanceof Map && qualityFiltered.length < candidates.length) {
+    warnings.push((candidates.length - qualityFiltered.length) + " sujet(s) écarté(s) par le contrôle qualité strict : source originale, contenu détaillé et fraîcheur obligatoires.");
+  }
+  if (qualityFiltered.length < 4) {
     warnings.push("Seulement " + qualityFiltered.length + " sujet(s) satisfont les critères qualité stricts. Aucun sujet faible ne sera ajouté pour remplir quatre places.");
   }
   if (!candidates.some(candidate => candidate.trendLevel !== "surveillance")) {
@@ -194,7 +199,12 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
 
 export async function runBuild({ inputPath = path.join(ROOT, "data/latest-news.json"), outputPath = path.join(ROOT, "data/daily-drafts.json") } = {}) {
   const input = JSON.parse(await fs.readFile(inputPath, "utf8"));
-  const result = buildDailyDrafts(input.items, input.generatedAt || new Date().toISOString());
+  let qualityById = null;
+  try {
+    const quality = JSON.parse(await fs.readFile(path.join(ROOT, "data/trend-quality.json"), "utf8"));
+    qualityById = new Map((quality.siteTrends || []).map(item => [item.id, item]));
+  } catch { /* Compatibilité des exécutions manuelles sans rapport qualité */ }
+  const result = buildDailyDrafts(input.items, input.generatedAt || new Date().toISOString(), qualityById);
   await fs.writeFile(outputPath, JSON.stringify(result, null, 2) + "\n");
   return result;
 }
