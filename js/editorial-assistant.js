@@ -4,7 +4,7 @@ function extractSeries(question) {
   return String(question || "")
     .replace(/[?!.,;:]/g, " ")
     .replace(/\b(?:quel est|quelle est|donne moi|dis moi|cherche|recherche|trouve|je veux|s il te plait|stp)\b/gi, " ")
-    .replace(/\b(?:le|la|les|du|de|des|un|une|pour|sur|dans|en|francais|francaise|francaises|francais|edition|editions|dernier|derniere|prochain|prochaine|sortie|date|disponible|publie|publiee|paru|parue|tome|tomes|volume|volumes|manga|mangas)\b/gi, " ")
+    .replace(/\b(?:le|la|les|du|de|des|un|une|pour|sur|dans|en|francais|francaise|francaises|francais|edition|editions|dernier|derniere|prochain|prochaine|sortie|date|disponible|publie|publiee|paru|parue|tome|tomes|volume|volumes|manga|mangas|actualite|actualites|news|annonce|anime|episode|episodes|film|saison|saisons)\b/gi, " ")
     .replace(/\s+/g, " ").trim();
 }
 
