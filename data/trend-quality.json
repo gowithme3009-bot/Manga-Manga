@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:26:23.993Z",
+  "generatedAt": "2026-11-13T03:27:00.935Z",
   "policy": {
     "siteScore": {
       "sourceReliability": 20,
@@ -2313,7 +2313,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 18,
+      "freshnessHours": 19,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
