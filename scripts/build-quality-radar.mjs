@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAY = 24 * 60 * 60 * 1000;
+const TREND_WINDOW = 2 * DAY;
 const AGGREGATORS = /google.?news|google actualit|official-announcements|crunchyroll-news|otaku-usa/i;
 
 function clamp(value, min = 0, max = 100) {
@@ -94,7 +95,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const hours = (now - latest) / 3600000;
     const recentArticles = articleList.filter(article => {
       const date = Date.parse(article.publishedAt || "");
-      return Number.isFinite(date) && date <= now && now - date <= DAY;
+      return Number.isFinite(date) && date <= now && now - date <= TREND_WINDOW;
     });
     const sourceNames = unique(articleList.flatMap(article => article.sources || []));
     const independentNames = unique(recentArticles.flatMap(article => article.sources || [])
@@ -116,7 +117,6 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const strong = confirmed && independentNames.length >= 3 && recentArticles.length >= 3 && score >= 80;
     const reasons = [];
     if (independentNames.length < 2) reasons.push("Moins de deux médias indépendants");
-    if (articleList.length < 2) reasons.push("Moins de deux articles distincts");
     if (recentArticles.length < 2) reasons.push("Moins de deux articles récents");
     if (!verifiedCount) reasons.push("Aucun extrait de source originale vérifié");
     if (!searchMatches.length) reasons.push("Aucun signal Google Trends associé");
@@ -129,28 +129,43 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
       searchSignalCount: searchMatches.length,
       catalogTrending: Number(catalogEntry?.trending || 0),
       url: catalogEntry?.url || null, reasons,
+      recentArticleUrls: recentArticles.map(article => article.url),
       articles: articleList.slice(0, 6)
     };
   }).sort((a, b) => b.score - a.score || b.independentSourceCount - a.independentSourceCount ||
     b.articleCount - a.articleCount || Date.parse(b.latestAt || 0) - Date.parse(a.latestAt || 0));
 
   const confirmedEntities = entityTrends.filter(entity => entity.confirmed);
+  const confirmedArticleUrls = new Set(confirmedEntities.flatMap(entity => entity.recentArticleUrls || []));
+  const rankedSiteTrends = siteTrends.map(item => {
+    const articleQualityEligible = item.eligibleForEditorial;
+    const trendConfirmed = confirmedArticleUrls.has(item.url);
+    const eligibleForEditorial = articleQualityEligible && trendConfirmed;
+    const reasons = [...item.reasons];
+    if (articleQualityEligible && !trendConfirmed) reasons.push("Qualité de l’article suffisante, mais tendance multi-médias non confirmée");
+    return {
+      ...item, articleQualityEligible, trendConfirmed, eligibleForEditorial,
+      decision: eligibleForEditorial ? "preselection_tendance_confirmee"
+        : articleQualityEligible ? "article_sourcé_tendance_non_confirmee" : item.decision,
+      reasons
+    };
+  });
   return {
     version: 1, generatedAt: new Date(now).toISOString(),
     policy: {
       siteScore: { sourceTraceability: 20, originalPage: 20, factualDetail: 20, freshness: 15, richness: 15, independentCoverage: 10 },
       entityScore: { independentMedia: 25, distinctArticles: 20, freshness: 15, verifiedOriginals: 20, publicSearchSignal: 10, catalogTrendSignal: 10 },
-      thresholds: { priority: 80, entityConfirmed: 65, eligible: 70, watch: 50 },
-      hardRules: ["Une reprise ou un agrégateur ne compte pas comme média indépendant.", "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.", "Une tendance forte exige au moins trois médias indépendants et trois articles récents distincts.", "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.", "Aucun quota ne force la sélection d'un sujet faible."]
+      thresholds: { priority: 80, entityConfirmed: 60, eligible: 70, watch: 50 },
+      hardRules: ["Une reprise ou un agrégateur ne compte pas comme média indépendant.", "La couverture des tendances est calculée sur les 48 dernières heures.", "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts, dont au moins une source originale vérifiée.", "Une tendance forte exige au moins trois médias indépendants et trois articles récents distincts.", "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.", "Aucun quota ne force la sélection d'un sujet faible."]
     },
     summary: {
       siteArticles: siteTrends.length,
-      editorialEligibleSites: siteTrends.filter(item => item.eligibleForEditorial).length,
+      editorialEligibleSites: rankedSiteTrends.filter(item => item.eligibleForEditorial).length,
       entitiesDetected: entityTrends.length,
       confirmedEntities: confirmedEntities.length,
       strongEntities: confirmedEntities.filter(item => item.strong).length
     },
-    siteTrends, entityTrends, confirmedEntities
+    siteTrends: rankedSiteTrends, entityTrends, confirmedEntities
   };
 }
 
