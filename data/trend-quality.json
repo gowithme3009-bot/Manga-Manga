@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:51:20.058Z",
+  "generatedAt": "2026-11-13T03:55:10.117Z",
   "policy": {
     "siteScore": {
       "sourceTraceability": 20,
@@ -64,7 +64,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 0,
+      "freshnessHours": 1,
       "reasons": [
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
@@ -1456,7 +1456,7 @@
       "summaryLength": 31,
       "sourceVerification": null,
       "summary": "Series debuted in December 2025",
-      "score": 30,
+      "score": 25,
       "decision": "ecarte",
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
@@ -1464,7 +1464,8 @@
       "freshnessHours": 24,
       "reasons": [
         "Page originale non vérifiée",
-        "Contenu trop court"
+        "Contenu trop court",
+        "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
       "trendConfirmed": false,
