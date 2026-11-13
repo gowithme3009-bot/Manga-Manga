@@ -54,3 +54,41 @@ test("une répétition par un seul média ne confirme jamais une tendance", () =
   assert.equal(result.entityTrends[0].confirmed, false);
   assert.ok(result.entityTrends[0].reasons.includes("Moins de deux médias indépendants"));
 });
+
+
+test("deux médias indépendants récents peuvent confirmer une tendance sans signal AniList ni Google Trends", () => {
+  const news = [verified("one", "source-one"), verified("two", "source-two")];
+  const trends = {
+    mentions: [{
+      entityId: "anime-3", entityName: "Titre C", entityType: "anime",
+      articleCount: 2, sourceCount: 2, latestAt: now,
+      articles: news.map(item => ({
+        title: item.title, url: item.url, publishedAt: item.publishedAt, sources: item.sources
+      }))
+    }]
+  };
+  const result = buildQualityRadar(news, trends, now);
+  assert.equal(result.entityTrends[0].independentSourceCount, 2);
+  assert.equal(result.entityTrends[0].recentArticleCount, 2);
+  assert.equal(result.entityTrends[0].searchSignalCount, 0);
+  assert.equal(result.entityTrends[0].confirmed, true);
+  assert.equal(result.entityTrends[0].strong, false);
+});
+
+test("les articles anciens ne gonflent pas le nombre de médias indépendants récents", () => {
+  const oldDate = new Date(Date.parse(now) - 5 * 24 * 3600000).toISOString();
+  const news = [verified("fresh-one", "source-one"), verified("fresh-two", "source-one")];
+  const trends = {
+    mentions: [{
+      entityId: "anime-4", entityName: "Titre D", entityType: "anime",
+      articleCount: 3, sourceCount: 2, latestAt: now,
+      articles: [
+        ...news.map(item => ({ title: item.title, url: item.url, publishedAt: item.publishedAt, sources: item.sources })),
+        { title: "Ancien article", url: "https://source-two.test/old", publishedAt: oldDate, sources: ["source-two"] }
+      ]
+    }]
+  };
+  const result = buildQualityRadar(news, trends, now);
+  assert.equal(result.entityTrends[0].independentSourceCount, 1);
+  assert.equal(result.entityTrends[0].confirmed, false);
+});
