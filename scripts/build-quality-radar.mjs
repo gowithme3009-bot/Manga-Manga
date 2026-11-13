@@ -138,12 +138,16 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
   const confirmedArticleUrls = new Set(confirmedEntities.flatMap(entity => entity.recentArticleUrls || []));
   const rankedSiteTrends = siteTrends.map(item => {
     const articleQualityEligible = item.eligibleForEditorial;
-    const trendConfirmed = confirmedArticleUrls.has(item.url);
+    const relatedConfirmed = confirmedEntities.filter(entity => (entity.recentArticleUrls || []).includes(item.url));
+    const trendConfirmed = relatedConfirmed.length > 0;
+    const trendStrong = relatedConfirmed.some(entity => entity.strong);
+    const trendIndependentSourceCount = Math.max(0, ...relatedConfirmed.map(entity => entity.independentSourceCount));
+    const trendEntityNames = unique(relatedConfirmed.map(entity => entity.name));
     const eligibleForEditorial = articleQualityEligible && trendConfirmed;
     const reasons = [...item.reasons];
     if (articleQualityEligible && !trendConfirmed) reasons.push("Qualité de l’article suffisante, mais tendance multi-médias non confirmée");
     return {
-      ...item, articleQualityEligible, trendConfirmed, eligibleForEditorial,
+      ...item, articleQualityEligible, trendConfirmed, trendStrong, trendIndependentSourceCount, trendEntityNames, eligibleForEditorial,
       decision: eligibleForEditorial ? "preselection_tendance_confirmee"
         : articleQualityEligible ? "article_sourcé_tendance_non_confirmee" : item.decision,
       reasons
