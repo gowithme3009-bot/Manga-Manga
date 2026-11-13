@@ -646,7 +646,8 @@ async function loadRadar() {
     const [newsResponse, sourceResponse, trendsResponse, qualityResponse] = await Promise.all([
       fetch("./data/latest-news.json", { cache: "no-store" }),
       fetch("./data/sources.json", { cache: "no-store" }),
-      fetch("./data/trend-signals.json", { cache: "no-store" }).catch(() => null),\n      fetch("./data/trend-quality.json", { cache: "no-store" }).catch(() => null)
+      fetch("./data/trend-signals.json", { cache: "no-store" }).catch(() => null),
+      fetch("./data/trend-quality.json", { cache: "no-store" }).catch(() => null)
     ]);
     if (!newsResponse.ok) throw new Error("Fichier du radar indisponible (HTTP " + newsResponse.status + ")");
     const data = await newsResponse.json();
