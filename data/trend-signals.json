@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:55:23.113Z",
+  "generatedAt": "2026-11-13T03:56:55.410Z",
   "catalog": {
     "provider": "AniList",
     "status": "ok",
     "entities": 600,
-    "refreshedAt": "2026-11-13T03:55:23.113Z",
+    "refreshedAt": "2026-11-13T03:56:55.410Z",
     "pagesPerType": 6
   },
   "catalogItems": [
@@ -15825,11 +15825,63 @@
   "items": [],
   "mentions": [
     {
-      "entityId": "manga-86123",
-      "entityName": "Black Clover",
-      "entityType": "manga",
+      "entityId": "anime-151801",
+      "entityName": "MASHLE: MAGIC AND MUSCLES",
+      "entityType": "anime",
       "aliasesMatched": [
-        "Black Clover"
+        "MASHLE",
+        "MASHLE: MAGIC AND MUSCLES"
+      ],
+      "articleCount": 4,
+      "sourceCount": 4,
+      "sources": [
+        "MyAnimeList News",
+        "Anime News Network",
+        "AnimOtaku",
+        "Anime Corner"
+      ],
+      "latestAt": "2026-11-11T14:46:50.000Z",
+      "articles": [
+        {
+          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
+          "url": "https://myanimelist.net/news/74928431?_location=rss",
+          "publishedAt": "2026-11-11T14:46:50.000Z",
+          "sources": [
+            "MyAnimeList News"
+          ]
+        },
+        {
+          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
+          "publishedAt": "2026-11-11T13:35:28.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        },
+        {
+          "title": "MASHLE Saison 3 : Date de Sortie, Trailer Officiel, toutes les infos",
+          "url": "https://animotaku.fr/actualite/anime-mashle-saison-3-date-sortie-trailer-officiel/",
+          "publishedAt": "2026-11-11T11:30:16.000Z",
+          "sources": [
+            "AnimOtaku"
+          ]
+        },
+        {
+          "title": "Mashle Season 3 Reveals First Main Trailer and New Key Visual, January 9 Premiere",
+          "url": "https://animecorner.me/mashle-season-3-reveals-first-main-trailer-and-new-key-visual-january-9-premiere/",
+          "publishedAt": "2026-11-11T11:25:05.000Z",
+          "sources": [
+            "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-195604",
+      "entityName": "Black Clover Season 2",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Black Clover Season 2"
       ],
       "articleCount": 3,
       "sourceCount": 2,
@@ -15866,157 +15918,34 @@
       ]
     },
     {
-      "entityId": "anime-151801",
-      "entityName": "MASHLE: MAGIC AND MUSCLES",
-      "entityType": "anime",
+      "entityId": "manga-128067",
+      "entityName": "SSS-Class Revival Hunter",
+      "entityType": "manga",
       "aliasesMatched": [
-        "MASHLE",
-        "MASHLE: MAGIC AND MUSCLES"
+        "SSS-Class Revival Hunter"
       ],
       "articleCount": 2,
       "sourceCount": 2,
       "sources": [
-        "MyAnimeList News",
+        "Anime Corner",
         "Anime News Network"
       ],
-      "latestAt": "2026-11-11T14:46:50.000Z",
+      "latestAt": "2026-11-11T16:08:52.000Z",
       "articles": [
         {
-          "title": "'Mashle: Sanma Taisou Shinkakusha Saishuu Shiken-hen' Reveals Additional Cast, Promo",
-          "url": "https://myanimelist.net/news/74928431?_location=rss",
-          "publishedAt": "2026-11-11T14:46:50.000Z",
-          "sources": [
-            "MyAnimeList News"
-          ]
-        },
-        {
-          "title": "Mashle: Magic and Muscles Season 3's New Video Unveils More Cast & Staff, January 9 Debut",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/mashle-magic-and-muscles-season-3-new-video-unveils-more-cast-and-staff-january-9-debut/.243719",
-          "publishedAt": "2026-11-11T13:35:28.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-211778",
-      "entityName": "The World's Strongest Witch",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "The World's Strongest Witch"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Google Actualités — Manga & Anime",
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-12T16:00:00.000Z",
-      "articles": [
-        {
-          "title": "Anime - The World's Strongest Witch - Episode #6 - J'ai essayé de devenir une déesse, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmxndXBiUTI1WnVXYkROeWpGNTZ1SkUwaFVMdDZnSm9UVmZNZ2x4Z3pmRFljVGxsRFAtdVR4aGZKU3RQNTJIN3lwaWEwYXBvN2NHNHN6MmpmeWk4dUwzcTdQUjByaElFUUZNby1uel8tME1HZXJ5TUtOZncwMjFrb0JzcnZXNjhqTm00V0pCY3N1UjNsVHpXOXdqeXF1c01XZVlqTUltOXZsMDI2azlMUC0xMmNFMVpUUGNIMk9qZ0tqS0JGRERQOA?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        },
-        {
-          "title": "The World's Strongest Witch ‒ Episode 6",
-          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
-          "publishedAt": "2026-11-11T17:30:00.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-216895",
-      "entityName": "Welsh & Shedar",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Welsh & Shedar"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Google Actualités — Manga & Anime",
-        "Anime News Network"
-      ],
-      "latestAt": "2026-11-12T13:00:00.000Z",
-      "articles": [
-        {
-          "title": "Welsh & Shedar : alerte, un webtoon basé sur l’univers de l’anime français est déjà disponible ! Où peut-on le lire ? Suit-il la même histoire que la série ? - Serieously",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRTBsN1NudmpQeXM2SWlQR2pjVGdvSml5X3ctck9oRUU3U2JsY0hRM25wMWk0cjFiUVdGZ29ZZ0E2VWJxRW5GcEhicG1NVk5iN1ZaUUJ1Q2t2cjFtNzhyODl0SmJiUy1PY3pFUTRUS1U0eS1IMnBXUEZmTDRndGEwaG1IaUFuamtXblZnVmpFSUV4SGM0a1hLZkxoVTBLaWhFUDFvVXIzbjRHd1lnTm94eERBRVQtRG5ZRm9iVl9sS0NwSkhqMkdlbXBQNjQybUllUGM0QV9QRXAzcTk1bVlJUzlkakxPdkJuQmstVzVSREcyM210N2VYSmRLY2hFTUM1UjlDbU9aalZpbGJ5?oc=5",
-          "publishedAt": "2026-11-12T13:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        },
-        {
-          "title": "Welsh & Shedar Anime Launches Webtoon",
-          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
-          "publishedAt": "2026-11-12T03:10:20.000Z",
-          "sources": [
-            "Anime News Network"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-195604",
-      "entityName": "Black Clover Season 2",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Black Clover Season 2"
-      ],
-      "articleCount": 2,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-11T18:21:03.000Z",
-      "articles": [
-        {
-          "title": "Black Clover Season 2 Episode 7 Preview Continues Fight Against Megicula",
-          "url": "https://animecorner.me/black-clover-season-2-episode-7-preview-continues-fight-against-megicula/",
-          "publishedAt": "2026-11-11T18:21:03.000Z",
+          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
+          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
+          "publishedAt": "2026-11-11T16:08:52.000Z",
           "sources": [
             "Anime Corner"
           ]
         },
         {
-          "title": "Black Clover Season 2 New Noelle Battle Visual Spotlights Her Valkyrie Dress Form",
-          "url": "https://animecorner.me/black-clover-season-2-new-noelle-battle-visual-spotlights-her-valkyrie-dress-form/",
-          "publishedAt": "2026-11-11T13:32:50.000Z",
+          "title": "SSS-Class Revival Hunter Anime's New Video Reveals Ending Song",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/sss-class-revival-hunter-anime-new-video-reveals-ending-song/.243716",
+          "publishedAt": "2026-11-11T11:14:17.000Z",
           "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-97940",
-      "entityName": "Black Clover",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Black Clover"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "AnimOtaku"
-      ],
-      "latestAt": "2026-11-12T21:18:42.000Z",
-      "articles": [
-        {
-          "title": "Black Clover Saison 2 Épisode 7 : Date et Heure de Sortie, Résumé, Premières Images",
-          "url": "https://animotaku.fr/actualite/anime-black-clover-saison-2-episode-7-date-heure-sortie/",
-          "publishedAt": "2026-11-12T21:18:42.000Z",
-          "sources": [
-            "AnimOtaku"
+            "Anime News Network"
           ]
         }
       ]
@@ -16142,6 +16071,30 @@
       ]
     },
     {
+      "entityId": "anime-216895",
+      "entityName": "Welsh & Shedar",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "Welsh & Shedar"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-12T03:10:20.000Z",
+      "articles": [
+        {
+          "title": "Welsh & Shedar Anime Launches Webtoon",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-11/welsh-and-shedar-anime-launches-webtoon/.243736",
+          "publishedAt": "2026-11-12T03:10:20.000Z",
+          "sources": [
+            "Anime News Network"
+          ]
+        }
+      ]
+    },
+    {
       "entityId": "manga-149544",
       "entityName": "The Guy She Was Interested In Wasn't a Guy at All",
       "entityType": "manga",
@@ -16185,6 +16138,30 @@
           "publishedAt": "2026-11-11T20:50:02.000Z",
           "sources": [
             "Anime Corner"
+          ]
+        }
+      ]
+    },
+    {
+      "entityId": "anime-211778",
+      "entityName": "The World's Strongest Witch",
+      "entityType": "anime",
+      "aliasesMatched": [
+        "The World's Strongest Witch"
+      ],
+      "articleCount": 1,
+      "sourceCount": 1,
+      "sources": [
+        "Anime News Network"
+      ],
+      "latestAt": "2026-11-11T17:30:00.000Z",
+      "articles": [
+        {
+          "title": "The World's Strongest Witch ‒ Episode 6",
+          "url": "https://www.animenewsnetwork.com/review/the-world-strongest-witch/episode-6/.243731",
+          "publishedAt": "2026-11-11T17:30:00.000Z",
+          "sources": [
+            "Anime News Network"
           ]
         }
       ]
@@ -16238,30 +16215,6 @@
       ]
     },
     {
-      "entityId": "manga-128067",
-      "entityName": "SSS-Class Revival Hunter",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "SSS-Class Revival Hunter"
-      ],
-      "articleCount": 1,
-      "sourceCount": 1,
-      "sources": [
-        "Anime Corner"
-      ],
-      "latestAt": "2026-11-11T16:08:52.000Z",
-      "articles": [
-        {
-          "title": "SSS-Class Revival Hunter New Trailer Previews Ending Theme Song by THE SPELLBOUND x BOOM BOOM SATELLITES",
-          "url": "https://animecorner.me/sss-class-revival-hunter-new-trailer-previews-ending-theme-song-by-the-spellbound-x-boom-boom-satellites/",
-          "publishedAt": "2026-11-11T16:08:52.000Z",
-          "sources": [
-            "Anime Corner"
-          ]
-        }
-      ]
-    },
-    {
       "entityId": "anime-206949",
       "entityName": "Nia Liston: The Merciless Maiden",
       "entityType": "anime",
@@ -16286,218 +16239,74 @@
       ]
     },
     {
-      "entityId": "anime-163142",
-      "entityName": "A Returner's Magic Should Be Special",
+      "entityId": "anime-235",
+      "entityName": "Detective Conan",
       "entityType": "anime",
       "aliasesMatched": [
-        "A Returner's Magic Should Be Special"
+        "Detective Conan",
+        "Détective Conan"
       ],
       "articleCount": 1,
-      "sourceCount": 0,
+      "sourceCount": 1,
       "sources": [
-        "Google Actualités — Manga & Anime"
+        "Anime News Network"
       ],
-      "latestAt": "2026-11-12T16:00:00.000Z",
+      "latestAt": "2026-11-11T02:00:00.000Z",
       "articles": [
         {
-          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "title": "Detective Conan Saves Man From Drowning in Car",
+          "url": "https://www.animenewsnetwork.com/interest/2026-11-10/detective-conan-saves-man-from-drowning-in-car/.243683",
+          "publishedAt": "2026-11-11T02:00:00.000Z",
           "sources": [
-            "Google Actualités — Manga & Anime"
+            "Anime News Network"
           ]
         }
       ]
     },
     {
-      "entityId": "manga-105393",
-      "entityName": "A Returner's Magic Should Be Special",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "A Returner's Magic Should Be Special"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-12T16:00:00.000Z",
-      "articles": [
-        {
-          "title": "Anime - A Returner’s Magic Should Be Special - Saison 2 - Episode #6 - Archmage, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0t3eDBXMndIZDlBNXJrTkV3N3NQbkc4emp5UkJ2bmx4LUNaYWtsRkRldG1mbXhhVG0yRF9EMzk0Vkw3dVEwZmUwTnRUaUhSbU9XT1lLcDNmcUMybFozakJlT1hUY1ZLRTltVWJNdUZaYWlNbWZaRWloUlpMOVRWTnh0b19PSUU1ZzU3XzFPbHk0Y3hueWo0eGd2UTRmanNVcVg2TmQ5WVJfM1V4YjBaakpzMUFsclAyMWZwUjBoRkM?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-139587",
-      "entityName": "Reincarnated as a Sword",
+      "entityId": "anime-148116",
+      "entityName": "The Iceblade Sorcerer Shall Rule the World",
       "entityType": "anime",
       "aliasesMatched": [
-        "Reincarnated as a Sword"
+        "The Iceblade Sorcerer Shall Rule the World"
       ],
       "articleCount": 1,
-      "sourceCount": 0,
+      "sourceCount": 1,
       "sources": [
-        "Google Actualités — Manga & Anime"
+        "Anime News Network"
       ],
-      "latestAt": "2026-11-12T16:00:00.000Z",
+      "latestAt": "2026-11-10T23:00:00.000Z",
       "articles": [
         {
-          "title": "Anime - Reincarnated as a Sword - Saison 2 - Episode #7 -, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaW5JNTRFbTZ6UDc0c2YtVXZoaW5WTVBEV3dpS1cycV9ZWmZlUEp6WmFVUVNmWXhqX0lYcjhWUUlJMmNFMVExRnNVMURrNF8xSGlxU3N4MGtNTzBhamxoODJxOEs3Zy11TWJJamlCNlZ5TkJfNW1HN3BFdXBibTJHNkpWZmlmWUluNy02bTdjSFlRcE42Z2lNQmxyTEswUTVmZ0pQQnJB?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "title": "The Iceblade Sorcerer Shall Rule the World Author Nana Mikoshiba's Original Novel Gets Manga Adaptation on November 17",
+          "url": "https://www.animenewsnetwork.com/news/2026-11-10/the-iceblade-sorcerer-shall-rule-the-world-author-nana-mikoshiba-original-novel-gets-manga-/.243677",
+          "publishedAt": "2026-11-10T23:00:00.000Z",
           "sources": [
-            "Google Actualités — Manga & Anime"
+            "Anime News Network"
           ]
         }
       ]
     },
     {
-      "entityId": "anime-152682",
-      "entityName": "Sasaki and Peeps",
+      "entityId": "anime-204011",
+      "entityName": "PSYREN",
       "entityType": "anime",
       "aliasesMatched": [
-        "Sasaki and Peeps"
+        "PSYREN"
       ],
       "articleCount": 1,
-      "sourceCount": 0,
+      "sourceCount": 1,
       "sources": [
-        "Google Actualités — Manga & Anime"
+        "Anime News Network"
       ],
-      "latestAt": "2026-11-12T16:00:00.000Z",
+      "latestAt": "2026-11-10T15:30:00.000Z",
       "articles": [
         {
-          "title": "Anime - Sasaki and Peeps - Saison 2 - Episode #6 - Banquet et destin, 12 Novembre 2026 - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekhXYk5uay1PMnpIZkhVUGZXcVRiRG5zc0ViZThENWJndXA1UEJjdEdpQzZ4T3BWd3JCb1pyem82VGZvZDdyMDhfS3VndkZlV0dIdUgzMTlRckItdjZJNXZ4QjBVaFBaOEZNRDFVU1NxZXBxLWYtbTJzRlBPZUhsWkVpM2pCZFFrVTc5MGpiV1IxVGFuSXpoMGRaSnE3aFVMNWgweFB2Z2VRWXRpUzdHWjh1Zw?oc=5",
-          "publishedAt": "2026-11-12T16:00:00.000Z",
+          "title": "Psyren ‒ Episode 5",
+          "url": "https://www.animenewsnetwork.com/review/psyren/episode-5/.243687",
+          "publishedAt": "2026-11-10T15:30:00.000Z",
           "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-21",
-      "entityName": "ONE PIECE",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "ONE PIECE"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-12T15:00:00.000Z",
-      "articles": [
-        {
-          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
-          "publishedAt": "2026-11-12T15:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-30013",
-      "entityName": "One Piece",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "ONE PIECE",
-        "One Piece"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-12T15:00:00.000Z",
-      "articles": [
-        {
-          "title": "La chaîne MANGAS mettra à l'honneur One Piece avec plusieurs diffusions - Manga news",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhXdk5yUXFDWVNfeGFHNnRfNnU1X0g5OTJvSFVzOEkwdGxsMEZoSE43QmdpWmVSakRpWUZzMzduSmJPbDRtNmliSG10WXoyaW9xZUhXWEN0YnduUW9HNC1RMFJnOWFibXlwMkVKTWoybWJBRmZ3cUJiZUhzZUMyOVBGem5qN3drcWVFWlVpeDlJazNFNm1UU0RRUnZNWDRwVENZcndYMmwydTkxR0x4MU0ybXN6V3BpYXBoc2F2c21KQdIBwAFBVV95cUxPYmxUS1JzeTlvV21VREdWenJ1eWE2Y1ppRG82SkFHVUNTMEk0NU1KNHozVkRwOUloN1lnTkota2hWUUhjTURuMHcyanByLUNNcDc3ejdMMVNSdjhNTmI4OThaZWU1aThuRlNjVWM4MmQ1bDdSbmREX2NsUk9QWllFY2lubWlJcG9QcFdMSFFYTDdKYmw5UU1YN3R3dTkzQjUzREFXMW9PUnhGWXBVNXFEQ014MmJuemVVZnNzWEdBTDA?oc=5",
-          "publishedAt": "2026-11-12T15:00:00.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "anime-219548",
-      "entityName": "Spirit Circle",
-      "entityType": "anime",
-      "aliasesMatched": [
-        "Spirit Circle"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Google Actualités — Manga & Anime"
-      ],
-      "latestAt": "2026-11-12T10:30:42.000Z",
-      "articles": [
-        {
-          "title": "SPIRIT CIRCLE : Le manga va être adapté en anime ! - Gaak",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOHBfMEFhRUJndzJPbFdpUXlFX1VFLXZ0Xy1lU0pPNlNjdm1KMDJWRFRwNTRsdElJU0xaV3lPRDAweG9DaEdwempBZXM0alBZeEZMZF9DSjR6VTR1cEZiTXhJdkJfTFZhS2ZPbWFsaDU?oc=5",
-          "publishedAt": "2026-11-12T10:30:42.000Z",
-          "sources": [
-            "Google Actualités — Manga & Anime"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-211011",
-      "entityName": "The Chrysalis Heart",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "The Chrysalis Heart"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "latestAt": "2026-11-11T22:12:35.000Z",
-      "articles": [
-        {
-          "title": "Comments | #020 | The Chrysalis Heart - Akari Kajimoto - MANGA Plus by SHUEISHA",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nUVJid0lQbVplb3JpaXBrbWtQUnlPSUVQRkxrblZYX2xIc3o2blp2UzVrOVNmek5yb0dsb3hZdURuZFQzNGs2UHdOcnA0WVpLa3ZCZjZuLWwwTW5KZUE?oc=5",
-          "publishedAt": "2026-11-11T22:12:35.000Z",
-          "sources": [
-            "Annonces officielles — Google Actualités"
-          ]
-        }
-      ]
-    },
-    {
-      "entityId": "manga-219135",
-      "entityName": "Evershifting Girlfriends",
-      "entityType": "manga",
-      "aliasesMatched": [
-        "Evershifting Girlfriends"
-      ],
-      "articleCount": 1,
-      "sourceCount": 0,
-      "sources": [
-        "Annonces officielles — Google Actualités"
-      ],
-      "latestAt": "2026-11-11T22:10:39.000Z",
-      "articles": [
-        {
-          "title": "Comments | #003 | Evershifting Girlfriends - Omameda - MANGA Plus by SHUEISHA",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UZ0FjOTQxYnNkV19odlM4UTlCaS01bEZtN3REM3YtLVlyTFZlZ2xkb0JSa3JMN0M4VmhxX2NYRkNOaWQ1czFpR2xMLUZxQmpMTUFENUhUOFBNRlJLd1E?oc=5",
-          "publishedAt": "2026-11-11T22:10:39.000Z",
-          "sources": [
-            "Annonces officielles — Google Actualités"
+            "Anime News Network"
           ]
         }
       ]
