@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:06:02.961Z",
+  "generatedAt": "2026-11-13T03:06:35.688Z",
   "policy": {
     "siteScore": {
       "sourceReliability": 20,
@@ -1121,7 +1121,7 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
