@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAY = 24 * 60 * 60 * 1000;
-const AGGREGATORS = /google.?news|google actualit|official-announcements|otaku-usa/i;
+const AGGREGATORS = /google.?news|google actualit|official-announcements|crunchyroll-news|otaku-usa/i;
 
 function clamp(value, min = 0, max = 100) {
   return Math.max(min, Math.min(max, Math.round(value)));
@@ -42,7 +42,7 @@ function scoreSiteArticle(item, now) {
   const ids = sourceIdsOf(item);
   const summary = String(item.summary || "").trim();
   const hours = (now - Date.parse(item.publishedAt || "")) / 3600000;
-  const source = ids.length ? 20 : 0;
+  const source = ids.length ? 20 : 0; // Traçabilité de la source, pas une certification de fiabilité.
   const original = verifiedOriginal(item) ? 20 : 0;
   const precision = verifiedOriginal(item) && summary.length >= 250 ? 20
     : summary.length >= 250 ? 12
@@ -106,13 +106,13 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const mediaScore = Math.min(25, independentNames.length * 10);
     const articleScore = Math.min(20, articleList.length * 5);
     const freshScore = freshnessScore(hours);
-    const verificationScore = articleList.length ? Math.round(20 * verifiedCount / articleList.length) : 0;
+    const verificationScore = verifiedCount > 0 ? 20 : 0;
     const searchScore = searchMatches.length ? 10 : 0;
     const catalogScore = catalogEntry?.trending > 0 ? Math.min(10, Math.round(catalogEntry.trending / 25)) : 0;
     const score = clamp(mediaScore + articleScore + freshScore + verificationScore + searchScore + catalogScore);
     const confirmed = independentNames.length >= 2 && articleList.length >= 2 &&
-      recentArticles.length >= 2 && verifiedCount >= 1 && score >= 70;
-    const strong = confirmed && independentNames.length >= 3 && articleList.length >= 3 && score >= 85;
+      recentArticles.length >= 2 && verifiedCount >= 1 && score >= 65;
+    const strong = confirmed && independentNames.length >= 3 && articleList.length >= 3 && score >= 80;
     const reasons = [];
     if (independentNames.length < 2) reasons.push("Moins de deux médias indépendants");
     if (articleList.length < 2) reasons.push("Moins de deux articles distincts");
@@ -139,7 +139,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     policy: {
       siteScore: { sourceReliability: 20, originalPage: 20, factualDetail: 20, freshness: 15, richness: 15, independentCoverage: 10 },
       entityScore: { independentMedia: 25, distinctArticles: 20, freshness: 15, verifiedOriginals: 20, publicSearchSignal: 10, catalogTrendSignal: 10 },
-      thresholds: { priority: 85, eligible: 70, watch: 50 },
+      thresholds: { priority: 80, entityConfirmed: 65, eligible: 70, watch: 50 },
       hardRules: ["Une reprise ou un agrégateur ne compte pas comme média indépendant.", "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.", "Une tendance forte exige au moins trois médias indépendants et trois articles distincts.", "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.", "Aucun quota ne force la sélection d'un sujet faible."]
     },
     summary: {
