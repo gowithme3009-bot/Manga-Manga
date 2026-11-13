@@ -90,14 +90,15 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const articles = (mention.articles || []).filter(article => article.url);
     const uniqueArticles = new Map(articles.map(article => [article.url, article]));
     const articleList = [...uniqueArticles.values()];
-    const sourceNames = unique(articleList.flatMap(article => article.sources || []));
-    const independentNames = unique(sourceNames.filter(name => !AGGREGATORS.test(name)));
     const latest = Date.parse(mention.latestAt || "");
     const hours = (now - latest) / 3600000;
     const recentArticles = articleList.filter(article => {
       const date = Date.parse(article.publishedAt || "");
       return Number.isFinite(date) && date <= now && now - date <= DAY;
     });
+    const sourceNames = unique(articleList.flatMap(article => article.sources || []));
+    const independentNames = unique(recentArticles.flatMap(article => article.sources || [])
+      .filter(name => !AGGREGATORS.test(name)));
     const verifiedCount = siteTrends.filter(article =>
       article.verifiedOriginal && recentArticles.some(recent => recent.url === article.url)
     ).length;
@@ -110,7 +111,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const searchScore = searchMatches.length ? 10 : 0;
     const catalogScore = catalogEntry?.trending > 0 ? Math.min(10, Math.round(catalogEntry.trending / 25)) : 0;
     const score = clamp(mediaScore + articleScore + freshScore + verificationScore + searchScore + catalogScore);
-    const confirmed = independentNames.length >= 2 && articleList.length >= 2 &&
+    const confirmed = independentNames.length >= 2 && recentArticles.length >= 2 &&
       recentArticles.length >= 2 && verifiedCount >= 1 && score >= 65;
     const strong = confirmed && independentNames.length >= 3 && recentArticles.length >= 3 && score >= 80;
     const reasons = [];
@@ -137,10 +138,10 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
   return {
     version: 1, generatedAt: new Date(now).toISOString(),
     policy: {
-      siteScore: { sourceReliability: 20, originalPage: 20, factualDetail: 20, freshness: 15, richness: 15, independentCoverage: 10 },
+      siteScore: { sourceTraceability: 20, originalPage: 20, factualDetail: 20, freshness: 15, richness: 15, independentCoverage: 10 },
       entityScore: { independentMedia: 25, distinctArticles: 20, freshness: 15, verifiedOriginals: 20, publicSearchSignal: 10, catalogTrendSignal: 10 },
       thresholds: { priority: 80, entityConfirmed: 65, eligible: 70, watch: 50 },
-      hardRules: ["Une reprise ou un agrégateur ne compte pas comme média indépendant.", "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.", "Une tendance forte exige au moins trois médias indépendants et trois articles distincts.", "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.", "Aucun quota ne force la sélection d'un sujet faible."]
+      hardRules: ["Une reprise ou un agrégateur ne compte pas comme média indépendant.", "Une tendance confirmée exige au moins deux médias indépendants et deux articles récents distincts.", "Une tendance forte exige au moins trois médias indépendants et trois articles récents distincts.", "Un signal de recherche ou le classement AniList ne suffit jamais à confirmer une actualité.", "Aucun quota ne force la sélection d'un sujet faible."]
     },
     summary: {
       siteArticles: siteTrends.length,
