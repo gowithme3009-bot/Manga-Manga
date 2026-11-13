@@ -156,19 +156,11 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString()) 
     (Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
   );
 
-  const firstPass = [];
-  const usedSources = new Set();
-  for (const candidate of candidates) {
-    // Diversify only across independently identified media. An aggregator alone
-    // must not make every candidate look like a separate direct source.
-    const directSources = candidate.independentSourceCount > 0
-      ? candidate.sourceNames.filter(name => !/google.?news|google actualit/i.test(name))
-      : [];
-    if (directSources.length && directSources.some(name => usedSources.has(name))) continue;
-    firstPass.push(candidate);
-    directSources.forEach(name => usedSources.add(name));
-    if (firstPass.length === 4) break;
-  }
+  // Les quatre sujets destinés à l'IA suivent le classement éditorial réel.
+  // Ne pas éliminer un meilleur sujet simplement parce que le même média
+  // a publié une autre actualité : la diversité des sources ne doit pas
+  // faire remonter artificiellement des sujets moins pertinents.
+  const firstPass = candidates.slice(0, 4);
 
   const chosenIds = new Set(firstPass.map(candidate => candidate.id));
   const ordered = [...firstPass, ...candidates.filter(candidate => !chosenIds.has(candidate.id))].slice(0, 40);
