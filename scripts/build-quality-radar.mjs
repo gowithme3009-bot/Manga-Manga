@@ -104,7 +104,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const catalogEntry = catalog.get(mention.entityId);
     const searchMatches = searchSignals.filter(signal => signal.entityId === mention.entityId);
     const mediaScore = Math.min(25, independentNames.length * 10);
-    const articleScore = Math.min(20, articleList.length * 5);
+    const articleScore = recentArticles.length >= 3 ? 20 : recentArticles.length >= 2 ? 10 : 0;
     const freshScore = freshnessScore(hours);
     const verificationScore = verifiedCount > 0 ? 20 : 0;
     const searchScore = searchMatches.length ? 10 : 0;
@@ -112,7 +112,7 @@ export function buildQualityRadar(newsItems = [], trendData = {}, generatedAt = 
     const score = clamp(mediaScore + articleScore + freshScore + verificationScore + searchScore + catalogScore);
     const confirmed = independentNames.length >= 2 && articleList.length >= 2 &&
       recentArticles.length >= 2 && verifiedCount >= 1 && score >= 65;
-    const strong = confirmed && independentNames.length >= 3 && articleList.length >= 3 && score >= 80;
+    const strong = confirmed && independentNames.length >= 3 && recentArticles.length >= 3 && score >= 80;
     const reasons = [];
     if (independentNames.length < 2) reasons.push("Moins de deux médias indépendants");
     if (articleList.length < 2) reasons.push("Moins de deux articles distincts");
