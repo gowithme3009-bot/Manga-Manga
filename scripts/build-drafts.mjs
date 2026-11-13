@@ -160,13 +160,15 @@ export function buildDailyDrafts(items, generatedAt = new Date().toISOString(), 
   // Ne pas éliminer un meilleur sujet simplement parce que le même média
   // a publié une autre actualité : la diversité des sources ne doit pas
   // faire remonter artificiellement des sujets moins pertinents.
-  const firstPass = candidates.slice(0, 4);
-
+  const qualityFiltered = qualityById instanceof Map
+    ? candidates.filter(candidate => qualityById.get(candidate.id)?.eligibleForEditorial === true)
+    : candidates;
+  const firstPass = qualityFiltered.slice(0, 4);
   const chosenIds = new Set(firstPass.map(candidate => candidate.id));
-  const ordered = [...firstPass, ...candidates.filter(candidate => !chosenIds.has(candidate.id))].slice(0, 40);
+  const ordered = [...firstPass, ...qualityFiltered.filter(candidate => !chosenIds.has(candidate.id))].slice(0, 40);
   const warnings = [];
-  if (candidates.length < 4) {
-    warnings.push("Moins de quatre actualités récentes, datées et disposant d’une source exploitable pour une rédaction française sont disponibles. Aucun sujet ne sera inventé.");
+  if (qualityById instanceof Map && qualityFiltered.length < candidates.length) {\n    warnings.push((candidates.length - qualityFiltered.length) + " sujet(s) écarté(s) par le contrôle qualité strict : source originale, contenu détaillé et fraîcheur obligatoires.");\n  }\n  if (qualityFiltered.length < 4) {
+    warnings.push("Seulement " + qualityFiltered.length + " sujet(s) satisfont les critères qualité stricts. Aucun sujet faible ne sera ajouté pour remplir quatre places.");
   }
   if (!candidates.some(candidate => candidate.trendLevel !== "surveillance")) {
     warnings.push("Aucune tendance multi-sources confirmée dans les propositions : les sujets affichés restent des signaux à surveiller, pas des tendances spectaculaires.");
