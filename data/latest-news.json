@@ -1,38 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T01:03:06.766Z",
+  "generatedAt": "2026-11-13T01:03:44.901Z",
   "items": [
-    {
-      "id": "17fef6b376112218d1fe",
-      "title": "Blue Rights Company Unveils Pilot Film for Orochi -Seventh Echoes- Original Animated Feature",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748",
-      "summary": "Akira film animation director Takashi Nakamura helms film, credited for original concept",
-      "publishedAt": "2026-11-13T01:00:00.000Z",
-      "source": "Anime News Network",
-      "sourceId": "anime-news-network",
-      "language": "en",
-      "publisherName": null,
-      "publisherUrl": null,
-      "category": "actualité",
-      "sources": [
-        "Anime News Network"
-      ],
-      "sourceIds": [
-        "anime-news-network"
-      ],
-      "sourceCount": 1,
-      "coverageSourceCount": 1,
-      "independentSourceCount": 1,
-      "trendScore": 60,
-      "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
-      "sourceVerification": {
-        "status": "original_page_unavailable",
-        "label": "Page originale non vérifiée",
-        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/blue-rights-company-unveils-pilot-film-for-orochi-seventh-echoes-original-animated-feature/.243748"
-      },
-      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
-    },
     {
       "id": "a3e62a222441fc0110c7",
       "title": "Comments | #038 | The Hero’s Bereaved Family - Maki Kanemaki - MANGA Plus by SHUEISHA",
@@ -742,7 +711,13 @@
       "independentSourceCount": 1,
       "trendScore": 38,
       "trendLevel": "surveillance",
-      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
+      "sourceVerification": {
+        "status": "original_page_unavailable",
+        "label": "Page originale non vérifiée",
+        "checkedUrl": "https://www.animenewsnetwork.com/news/2026-11-12/kakao-piccoma-launches-new-lulumiru-bl-webtoon-platform/.243759"
+      },
+      "articleFetchNote": "Aucun extrait éditorial fiable récupéré depuis la page du média."
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -2738,6 +2713,31 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
+      "trendScore": 12,
+      "trendLevel": "surveillance",
+      "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
+    },
+    {
+      "id": "e9974cbd29bb2a5552da",
+      "title": "Avion : la Fête du manga s’étale désormais sur deux jours - La Voix du Nord",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNWdncEFTR0M5NE5iMFEtZmx4QXBITWlVMm9LWmx4bU5YcWxwS0ZIWjlodzRFbTFxbEdLczBhdjdKaTdKV2twTERtVjdpUU1yb0JnRHVJeGlTTG9yWWQ2ZWNCMlhxS2F1ZjU3QTlFaHpwVlhWLW1fQU1oVk16X0tnVUMyb0lsb2JfUXRvNElPQ0pIWnpXQTVRNjhTRlM2d1A4dXIzSTczbnYzZEZ2T2Jj?oc=5",
+      "summary": "Avion : la Fête du manga s’étale désormais sur deux jours La Voix du Nord",
+      "publishedAt": "2026-11-11T11:11:07.000Z",
+      "source": "Google Actualités — Manga & Anime",
+      "sourceId": "google-news-fr",
+      "language": "fr",
+      "publisherName": "La Voix du Nord",
+      "publisherUrl": "https://www.lavoixdunord.fr",
+      "category": "actualité",
+      "sources": [
+        "Google Actualités — Manga & Anime"
+      ],
+      "sourceIds": [
+        "google-news-fr"
+      ],
+      "sourceCount": 0,
+      "coverageSourceCount": 1,
+      "independentSourceCount": 0,
       "trendScore": 12,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics"
