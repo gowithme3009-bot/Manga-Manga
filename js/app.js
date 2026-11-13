@@ -2,6 +2,7 @@
 
 import { readStoredArray, writeStoredArray } from "./storage.js";
 import { findEditorialEvidence, buildEditorialAnswer } from "./editorial-assistant.js";
+import { buildMasterImagePrompt } from "./image-prompts.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
@@ -110,7 +111,8 @@ function showView(name) {
     const selected = state.drafts.find(item => item.id === state.workflowDraftId) || state.drafts[0];
     if (selected && $("image-prompt")) {
       state.workflowDraftId = selected.id;
-      $("image-prompt").value = selected.imagePromptMaster || buildMasterImagePrompt(selected);
+      $("image-generation-mode").value = selected.imageGenerationMode || "creative";
+      $("image-prompt").value = buildMasterImagePrompt(selected, $("image-generation-mode").value);
       $("master-prompt-status").textContent = "Prompt maître préparé depuis : " + selected.title;
     }
   }
@@ -384,22 +386,13 @@ function renderSources() {
     '<a href="' + escapeHtml(source.homepage) + '" target="_blank" rel="noopener noreferrer">Site de référence ↗</a></article>'
   ).join("");
 }
-function buildMasterImagePrompt(draft) {
-  const clean = value => String(value || "").replace(/https?:\/\/\S+/g, "").replace(/[#*_]/g, " ").replace(/\s+/g, " ").trim();
-  return [
-    "Create an original editorial anime illustration for a French manga and anime news Facebook post.",
-    "Main subject inspired by this news headline: " + clean(draft.title).slice(0, 180) + ".",
-    "Visual context: " + clean(draft.body).slice(0, 420) + ".",
-    "Use original fictional characters only; do not imitate a named artist or reproduce copyrighted character designs.",
-    "Premium Japanese animation-inspired visual storytelling, expressive composition, cinematic lighting, polished details, clear focal point, square 1:1 composition.",
-    "No text, no letters, no logo, no watermark, no UI, no collage."
-  ].join(" ");
-}
+
 function openVisualStep() {
   const draft = state.drafts.find(item => item.id === state.workflowDraftId) || state.drafts.find(item => item.id === state.editingDraftId);
   if (!draft) { toast("Enregistre d’abord ta publication à l’étape 2."); showView("atelier"); return; }
   state.workflowDraftId = draft.id;
-  $("image-prompt").value = draft.imagePromptMaster || buildMasterImagePrompt(draft);
+  $("image-generation-mode").value = draft.imageGenerationMode || "creative";
+  $("image-prompt").value = buildMasterImagePrompt(draft, $("image-generation-mode").value);
   $("master-prompt-status").textContent = "Prompt maître préparé depuis : " + draft.title;
   showView("studio-images");
   signalStep(3, "Étape 3/4 · Visuel prêt", "Le prompt maître est automatiquement lié au brouillon enregistré.");
@@ -410,6 +403,7 @@ function attachImageToWorkflowDraft(dataUrl) {
   if (index < 0) { state.pendingDraftImageDataUrl = dataUrl; return false; }
   const nextDrafts = [...state.drafts];
   nextDrafts[index] = { ...nextDrafts[index], imageDataUrl: dataUrl, imagePromptMaster: $("image-prompt").value,
+    imageGenerationMode: $("image-generation-mode")?.value || "creative",
     prepublicationChecks: getDraftChecks(nextDrafts[index]).map((value, position) => position === 4 || position === 5 ? false : value),
     status: "à relire", validatedAt: null };
   if (!saveDrafts(nextDrafts)) return false;
@@ -961,6 +955,18 @@ async function optimizeImageForStorage(blob) {
   context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
   bitmap.close();
   return canvas.toDataURL("image/jpeg", 0.82);
+}
+
+const imageModeSelect = $("image-generation-mode");
+if (imageModeSelect) {
+  imageModeSelect.addEventListener("change", () => {
+    const draft = state.drafts.find(item => item.id === state.workflowDraftId);
+    if (!draft) return;
+    $("image-prompt").value = buildMasterImagePrompt(draft, imageModeSelect.value);
+    $("master-prompt-status").textContent = imageModeSelect.value === "fidelity"
+      ? "Mode fidélité : les caractéristiques reconnaissables du personnage sont prioritaires. Le modèle peut toutefois varier certains détails."
+      : "Mode créativité : liberté artistique renforcée autour du sujet de la publication.";
+  });
 }
 
 const generateImageButton = $("generate-image");
