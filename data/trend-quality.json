@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:29:59.669Z",
+  "generatedAt": "2026-11-13T03:31:07.379Z",
   "policy": {
     "siteScore": {
       "sourceTraceability": 20,
@@ -69,7 +69,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "7df577b3dd8953deb525",
@@ -97,7 +100,12 @@
       "freshnessHours": 6,
       "reasons": [],
       "articleQualityEligible": true,
-      "trendConfirmed": true
+      "trendConfirmed": true,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 2,
+      "trendEntityNames": [
+        "Black Clover"
+      ]
     },
     {
       "id": "45fa1cefc95b1bf77fda",
@@ -127,7 +135,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3a526737b270c5389529",
@@ -157,7 +168,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "8f4f2796db4c65dad4f6",
@@ -182,12 +196,15 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "7e9a2d08cdb4394dc7da",
@@ -217,7 +234,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "df9bd9ebb742de59550b",
@@ -247,7 +267,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "126adf4280b312a1b7b1",
@@ -277,7 +300,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "89d128021464090bb535",
@@ -307,7 +333,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "122a32f271676df5ab5a",
@@ -337,7 +366,10 @@
         "Qualité de l’article suffisante, mais tendance multi-médias non confirmée"
       ],
       "articleQualityEligible": true,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "f02bb917f2dc6772b5ce",
@@ -367,7 +399,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "0d197a3e05f25c0f90dd",
@@ -397,7 +432,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "5fb2f02c6572db2486d4",
@@ -422,12 +460,15 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 32,
+      "freshnessHours": 33,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "85cf52cd8059bb581e19",
@@ -457,7 +498,12 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": true
+      "trendConfirmed": true,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 2,
+      "trendEntityNames": [
+        "Black Clover"
+      ]
     },
     {
       "id": "368f8ec7e3889ea87b47",
@@ -482,12 +528,15 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 34,
+      "freshnessHours": 35,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "eea32710e7c94afe0f8d",
@@ -517,7 +566,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "c3cc082d5156d2e49da7",
@@ -542,12 +594,15 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": true,
-      "freshnessHours": 35,
+      "freshnessHours": 36,
       "reasons": [
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "4d1c7a18603a87f279d2",
@@ -577,7 +632,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "faa9582f2ad9a2bd22df",
@@ -607,7 +665,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "8ee154d809959cf9c324",
@@ -626,13 +687,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 10,
+      "freshnessHours": 11,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "caa5ca3faa63349f9d96",
@@ -655,13 +719,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "b141176f59700ae38753",
@@ -688,7 +755,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "d654be900ff1989f99cd",
@@ -711,13 +781,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 0,
+      "freshnessHours": 1,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "17fef6b376112218d1fe",
@@ -740,13 +813,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 2,
+      "freshnessHours": 3,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "18020437399efcc7f1bc",
@@ -772,7 +848,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "fb3b48204db823b13dd9",
@@ -798,7 +877,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "54f6cbe7751060f204e9",
@@ -817,14 +899,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 34,
+      "freshnessHours": 35,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "6b618647e05e48c7fdd6",
@@ -850,7 +935,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3c5ce38bba5f6b9127fb",
@@ -876,7 +964,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "2b8f4ce15f33d96807bf",
@@ -902,7 +993,12 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": true
+      "trendConfirmed": true,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 2,
+      "trendEntityNames": [
+        "Black Clover"
+      ]
     },
     {
       "id": "7b26d0fa36441f140781",
@@ -925,13 +1021,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 7,
+      "freshnessHours": 8,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "119a6fd254f77755a5ae",
@@ -960,7 +1059,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "feb21d7fc8964f0e4854",
@@ -983,13 +1085,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 9,
+      "freshnessHours": 10,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "71f396838b55955df86c",
@@ -1018,7 +1123,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3eca43eec58f1885d14b",
@@ -1047,7 +1155,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "0080d867306168ba8a64",
@@ -1070,13 +1181,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 12,
+      "freshnessHours": 13,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "bdc07fca366d717b8592",
@@ -1095,13 +1209,16 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 12,
+      "freshnessHours": 13,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "988f2edba5041856766d",
@@ -1126,7 +1243,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "035a124ea4dd3fd989e5",
@@ -1151,7 +1271,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "5ce9e873cd9929c717b9",
@@ -1176,7 +1299,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "783a02af8e442ab6b74d",
@@ -1201,7 +1327,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "89f8e0d91d90bdcd8860",
@@ -1226,7 +1355,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "0cc7b2b491a8a2a4c0d8",
@@ -1251,7 +1383,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "1a9595d626b602cb5849",
@@ -1276,7 +1411,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3f45e8d8961873fb984e",
@@ -1301,7 +1439,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "b8444a024aca4798bcc6",
@@ -1326,7 +1467,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "ec3f0affa69c59e9d8ed",
@@ -1351,7 +1495,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "809bd7ec50aee02d6167",
@@ -1376,7 +1523,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3c018ae2653a014ed456",
@@ -1401,7 +1551,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "fe2a1301d1717f390601",
@@ -1427,7 +1580,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "393c1036d3378e0778ee",
@@ -1453,7 +1609,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "9ea15d67c55a7192c336",
@@ -1472,14 +1631,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 29,
+      "freshnessHours": 30,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "c36ad5c18561e4d88f35",
@@ -1505,7 +1667,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "913581ff600dd3591661",
@@ -1524,14 +1689,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 30,
+      "freshnessHours": 31,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "27dd98ec22f905142331",
@@ -1550,14 +1718,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 31,
+      "freshnessHours": 32,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "7402a92f5ca6d7cb985b",
@@ -1583,7 +1754,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "c0de47d3c84d45675255",
@@ -1609,7 +1783,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "4b9ea639a65c023e1931",
@@ -1635,7 +1812,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "7b5c76bfa1d3d314b5f7",
@@ -1654,14 +1834,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 35,
+      "freshnessHours": 36,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "daf73bca15aa5e366312",
@@ -1687,7 +1870,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3cd9623157b6efaa7d75",
@@ -1706,14 +1892,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 1,
       "verifiedOriginal": false,
-      "freshnessHours": 36,
+      "freshnessHours": 37,
       "reasons": [
         "Page originale non vérifiée",
         "Contenu trop court",
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "99680deade85e0f3865c",
@@ -1739,7 +1928,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "e0a0dc8e1ac4a6f739e2",
@@ -1765,7 +1957,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "793b83ce133c2f0f3fd2",
@@ -1791,7 +1986,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "a32f1bedf1225112b87a",
@@ -1817,7 +2015,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "4c8d9061aa62d2943199",
@@ -1843,7 +2044,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "71fdea39837aa9fb43bf",
@@ -1862,14 +2066,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 14,
+      "freshnessHours": 15,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "a3e62a222441fc0110c7",
@@ -1895,7 +2102,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "19d719a8a2297963f687",
@@ -1922,7 +2132,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "52a534e342c6bf0fc33c",
@@ -1949,7 +2162,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "bdbbf6f642eed15939e3",
@@ -1975,7 +2191,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "68c15c7e35fd6ad171bd",
@@ -1994,14 +2213,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "45030701f91c2c1fd96c",
@@ -2020,14 +2242,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "27dd7ccd7b26aadbbe81",
@@ -2046,14 +2271,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "44aaf3be4ba7a06ffd38",
@@ -2072,14 +2300,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "35f889b2ba65db319b5f",
@@ -2098,14 +2329,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "41222af3767169c3be04",
@@ -2124,14 +2358,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "0c222aa31667402a42a9",
@@ -2150,14 +2387,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 11,
+      "freshnessHours": 12,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "a3317003ffc657b6cafe",
@@ -2183,7 +2423,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "9bb8ffa973a247c4b13d",
@@ -2209,7 +2452,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "a99daaa9fd5517b5ddb0",
@@ -2228,14 +2474,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 12,
+      "freshnessHours": 13,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "23d5d4da1fd5b1c3a120",
@@ -2254,14 +2503,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 13,
+      "freshnessHours": 14,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "249d5a59b90be2d76765",
@@ -2280,14 +2532,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 14,
+      "freshnessHours": 15,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "86a72977089891d1cf45",
@@ -2306,14 +2561,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 15,
+      "freshnessHours": 16,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "36120c0d88a51136275a",
@@ -2339,7 +2597,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "ffc2b8169ce8994cbd08",
@@ -2365,7 +2626,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "fc35df59fe3786e6fe47",
@@ -2384,14 +2648,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 16,
+      "freshnessHours": 17,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "071e908a8da152590d55",
@@ -2417,7 +2684,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "7b47845646a2578e2144",
@@ -2443,7 +2713,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "3fa9a15da24a050f9ee5",
@@ -2462,14 +2735,17 @@
       "eligibleForEditorial": false,
       "independentSourceCount": 0,
       "verifiedOriginal": false,
-      "freshnessHours": 17,
+      "freshnessHours": 18,
       "reasons": [
         "Aucun média indépendant identifié",
         "Page originale non vérifiée",
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "5904772c66e308ede111",
@@ -2495,7 +2771,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "55ae94b373a6584160a0",
@@ -2521,7 +2800,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "58771348a1d34e39c76b",
@@ -2547,7 +2829,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "fbf8816caf62308cf589",
@@ -2573,7 +2858,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "86324f10058b4807aacb",
@@ -2599,7 +2887,10 @@
         "Contenu trop court"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "6c52d7e335ad79d0bbc5",
@@ -2626,7 +2917,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "5a8721bda369ba6d8d2e",
@@ -2653,7 +2947,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "6831462df8735bc0dfb0",
@@ -2680,7 +2977,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "c1dbf00658ebf329751c",
@@ -2707,7 +3007,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     },
     {
       "id": "4144e983326ec39abb67",
@@ -2734,7 +3037,10 @@
         "Actualité au-delà de la fenêtre de fraîcheur"
       ],
       "articleQualityEligible": false,
-      "trendConfirmed": false
+      "trendConfirmed": false,
+      "trendStrong": false,
+      "trendIndependentSourceCount": 0,
+      "trendEntityNames": []
     }
   ],
   "entityTrends": [
