@@ -641,3 +641,27 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .assistant-result-links strong { flex-basis:100%; color:#53627a; font-size:11px; }
 .assistant-result-links a { color:#315fce; font-size:12px; text-decoration:underline; }
 @media(max-width:620px) { .editorial-assistant-form { display:grid; grid-template-columns:1fr; } .editorial-assistant-form button { width:100%; } .editorial-assistant-panel { padding:14px; } }
+
+
+/* Classements qualité séparés : lisibles sur téléphone et sans confusion des signaux. */
+.quality-summary-panel { margin:14px 0 18px; padding:16px; border:1px solid #dfe7f2; border-radius:13px; background:#fff; }
+.quality-summary-panel .section-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:8px; }
+.quality-summary-panel h2 { margin:0; font-size:18px; color:#20314e; }
+.quality-radar-list { display:grid; gap:10px; margin-top:12px; }
+.quality-counts { margin:7px 0 12px; color:#53627a; font-size:12px; line-height:1.6; }
+.quality-counts strong { color:#203d72; font-size:15px; }
+.quality-radar-list .signal-card { padding:13px; border:1px solid #e5eaf2; border-radius:11px; background:#fbfcff; }
+.quality-radar-list .signal-card h3 { margin:7px 0 5px; color:#233653; font-size:15px; line-height:1.4; }
+.quality-radar-list .signal-card .meta { color:#315fce; font-size:10px; font-weight:850; letter-spacing:.45px; }
+.quality-radar-list .signal-card .summary { margin:5px 0 8px; color:#58677e; font-size:11px; line-height:1.55; }
+.quality-radar-list .signal-card small { display:block; color:#68768a; font-size:10px; line-height:1.5; }
+.quality-radar-list .card-actions { margin-top:10px; }
+.quality-radar-list .card-actions a { display:inline-flex; align-items:center; min-height:35px; padding:7px 10px; border:1px solid #d8e2f2; border-radius:8px; color:#315fce; font-size:11px; font-weight:750; text-decoration:none; }
+.quality-radar-list .signal-card-spectaculaire { border-color:#e5b4b4; background:#fffafa; }
+.quality-radar-list .signal-card-hausse { border-color:#e8d5a9; background:#fffdf7; }
+@media(max-width:620px) {
+ .quality-summary-panel { padding:13px; }
+ .quality-summary-panel .section-heading { align-items:flex-start; }
+ .quality-summary-panel h2 { font-size:16px; }
+ .quality-radar-list .signal-card { padding:11px; }
+}
