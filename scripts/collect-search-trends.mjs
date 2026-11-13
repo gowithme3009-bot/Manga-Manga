@@ -35,11 +35,15 @@ export function matchCatalogEntities(term, catalog) {
     return matchedAliases.length ? { ...entity, matchedAliases } : null;
   }).filter(Boolean);
   const specific = matches.filter(entity => !matches.some(other =>
-    other.id !== entity.id && other.type === entity.type &&
+    other.id !== entity.id &&
     other.matchedAliases.some(longer => entity.matchedAliases.some(shorter => {
       const shortName = normalizeEntityText(shorter);
       const longName = normalizeEntityText(longer);
-      return longName.length > shortName.length && longName.startsWith(shortName + " ");
+      const isLongerTitle = longName.length > shortName.length && longName.startsWith(shortName + " ");
+      const isExplicitSeason = /\\b(?:season\\s*(?:[2-9]|ii|iii|iv|v)|(?:2nd|3rd|4th|5th)\\s+season|part\\s*[2-9]|cour\\s*[2-9])\\b/.test(longName);
+      // Une suite explicitement numérotée prime sur le titre générique,
+      // même si AniList distingue l'adaptation manga et l'adaptation anime.
+      return isLongerTitle && (other.type === entity.type || isExplicitSeason);
     }))
   ));
   return specific.sort((a, b) =>
