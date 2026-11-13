@@ -7,6 +7,7 @@ on:
       - "data/latest-news.json"
       - "data/daily-drafts.json"
       - "data/trend-signals.json"
+      - "data/trend-quality.json"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
@@ -44,13 +45,14 @@ jobs:
           npm run collect
           npm run enrich
           npm run trends
+          npm run quality-radar
           npm run drafts
           npm run ai-drafts
       - name: Enregistrer uniquement les données du radar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest-news.json data/daily-drafts.json data/trend-signals.json
+          git add data/latest-news.json data/daily-drafts.json data/trend-signals.json data/trend-quality.json
           if ! git diff --cached --quiet; then
             git commit -m "data: actualiser le radar RSS"
             git fetch origin manga-manga-v1-work
