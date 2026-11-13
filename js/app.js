@@ -1,6 +1,7 @@
 "use strict";
 
 import { readStoredArray, writeStoredArray } from "./storage.js";
+import { findEditorialEvidence, buildEditorialAnswer } from "./editorial-assistant.js";
 
 const STORAGE_KEY = "mangaMangaStudio.drafts.v1";
 const DISMISSED_KEY = "mangaMangaStudio.dismissed.v1";
@@ -341,6 +342,39 @@ function renderCatalog() {
     encodeURIComponent(entity.name + " manga anime") + '" target="_blank" rel="noopener noreferrer">Actualités récentes ↗</a></div></article>'
   ).join("");
 }
+
+function runEditorialAssistant() {
+  const input = $("editorial-question");
+  const output = $("editorial-answer");
+  if (!input || !output) return;
+  const question = input.value.trim();
+  if (!question) { output.innerHTML = '<p class="muted">Écris un titre ou une question, par exemple : « Naruto, dernier tome ».</p>'; return; }
+  const evidence = findEditorialEvidence(question, { catalog: state.catalog, articles: state.items });
+  const answer = buildEditorialAnswer(question, evidence);
+  const links = [];
+  if (answer.query) {
+    const query = answer.intent?.type === "manga_volume"
+      ? answer.query + " dernier tome édition française éditeur officiel"
+      : answer.query + " manga anime actualité";
+    links.push('<a class="secondary" href="https://www.google.com/search?q=' + encodeURIComponent(query) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(answer.searchLabel || "Rechercher sur le Web") + ' ↗</a>');
+    if (answer.intent?.type === "manga_volume") {
+      links.push('<a class="secondary" href="https://www.google.com/search?q=' + encodeURIComponent(answer.query + " site:kana.fr Naruto tome") + '" target="_blank" rel="noopener noreferrer">Recherche éditeur Kana ↗</a>');
+    }
+  }
+  const catalogLinks = (evidence.catalogMatches || []).slice(0, 3).map(item =>
+    '<a href="' + escapeHtml(item.url || "#") + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.name) + ' · fiche catalogue ↗</a>'
+  );
+  const articleLinks = (answer.articleMatches || []).slice(0, 4).map(item => {
+    const url = item.sourceUrl || item.articleUrl || item.url;
+    return url ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.title || "Article du Radar") + ' ↗</a>' : "";
+  }).filter(Boolean);
+  output.innerHTML = '<div class="assistant-answer-heading">' + escapeHtml(answer.heading) + '</div><p>' + escapeHtml(answer.message) + '</p>' +
+    (catalogLinks.length ? '<div class="assistant-result-links"><strong>Fiche(s) reconnue(s)</strong>' + catalogLinks.join("") + '</div>' : '') +
+    (articleLinks.length ? '<div class="assistant-result-links"><strong>Articles du Radar</strong>' + articleLinks.join("") + '</div>' : '') +
+    (links.length ? '<div class="assistant-result-links"><strong>Pour vérifier les informations</strong>' + links.join("") + '</div>' : '') +
+    '<small class="muted">Réponse fondée sur le catalogue et les articles actuellement chargés. Une recherche externe doit être vérifiée sur le site de l’éditeur. Aucune publication automatique.</small>';
+}
+
 function renderSources() {
   if (!state.sources.length) {
     $("sources-list").innerHTML = '<p class="muted">Aucune source n’est configurée.</p>';
@@ -798,6 +832,8 @@ $("tab-sites").addEventListener("click", () => activateRadarTab("sites"));
 $("tab-titles").addEventListener("click", () => activateRadarTab("titles"));
 $("search").addEventListener("input", renderNews);
 $("catalog-search").addEventListener("input", renderCatalog);
+$("editorial-ask")?.addEventListener("click", runEditorialAssistant);
+$("editorial-question")?.addEventListener("keydown", event => { if (event.key === "Enter") { event.preventDefault(); runEditorialAssistant(); } });
 $("refresh").addEventListener("click", loadRadar);
 $("story-select").addEventListener("change", () => {
   updateSelectedSourceLink();
