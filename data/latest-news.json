@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T03:29:25.545Z",
+  "generatedAt": "2026-11-13T03:29:59.669Z",
   "items": [
     {
       "id": "6105b9ab677491c9b9a3",
@@ -392,7 +392,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 38,
+      "trendScore": 37,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animotaku.fr/actualite/anime-tsugumi-project-janvier-2027-nouveau-visuel/",
@@ -1986,7 +1986,7 @@
       "sourceCount": 1,
       "coverageSourceCount": 1,
       "independentSourceCount": 1,
-      "trendScore": 16,
+      "trendScore": 15,
       "trendLevel": "surveillance",
       "trendBasis": "fraîcheur et couverture de médias indépendants ; pas une mesure de croissance des clics",
       "articleUrl": "https://animeuknews.net/2026/11/performers-announced-for-matsuri-26-japanese-music-experience-london/",
@@ -2785,7 +2785,7 @@
       "id": "google-news-fr",
       "name": "Google Actualités — Manga & Anime",
       "status": "ok",
-      "items": 56
+      "items": 57
     },
     {
       "id": "manga-news-fr",
