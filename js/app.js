@@ -292,7 +292,7 @@ function renderQualityRadar() {
     siteHost.innerHTML = '<p class="quality-counts"><strong>' + Number(summary.siteArticles || 0) + '</strong> articles évalués · <strong>' +
       Number(summary.editorialEligibleSites || 0) + '</strong> pré-sélections à vérifier</p>' +
       (leaders.length ? leaders.map(item => '<article class="signal-card"><div class="meta">SCORE QUALITÉ · ' +
-        Number(item.score) + '/100 · ' + (item.eligibleForEditorial ? 'PRÉ-SÉLECTION À VÉRIFIER' : item.decision === 'surveillance' ? 'À SURVEILLER' : 'NON ÉLIGIBLE') +
+        Number(item.score) + '/100 · ' + (item.eligibleForEditorial ? 'PRÉ-SÉLECTION · TENDANCE CONFIRMÉE' : item.articleQualityEligible ? 'ARTICLE SOURCÉ · TENDANCE NON CONFIRMÉE' : item.decision === 'surveillance' ? 'À SURVEILLER' : 'NON ÉLIGIBLE') +
         '</div><h3>' + escapeHtml(item.title) + '</h3><p class="summary">' + escapeHtml(item.publisher) +
         ' · ' + Number(item.independentSourceCount || 0) + ' média(s) indépendant(s) · ' +
         Number(item.summaryLength || 0) + ' caractères utiles</p><small class="muted">' +
